@@ -144,6 +144,11 @@ def run_experiment(
     topic_slug = slugify(topic)
     output_path = os.path.join(output_dir, f"{topic_slug}.json")
     
+    # Check if file exists and skip if it does
+    if os.path.exists(output_path):
+        print(f"\nSkipping {topic_slug}.json (already exists)")
+        return None
+    
     with open(output_path, 'w') as f:
         json.dump(results, f, indent=2)
     
