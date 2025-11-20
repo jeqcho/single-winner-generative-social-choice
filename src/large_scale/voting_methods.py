@@ -379,12 +379,11 @@ def _execute_chatgpt_selection(prompt: str, openai_client: OpenAI) -> Dict:
         Dict with winner and in_pvc flag
     """
     response = openai_client.responses.create(
-        model="gpt-5.1",
+        model="gpt-5-nano",
         input=[
             {"role": "system", "content": "You are a helpful assistant that selects consensus statements. Return ONLY valid JSON, no other text."},
             {"role": "user", "content": prompt}
-        ],
-        temperature=0.5
+        ]
     )
     
     result = json.loads(response.output_text)

@@ -73,12 +73,11 @@ Where the rating is an integer from 1 to 5.
 Return only the JSON, no additional text."""
 
         response = openai_client.responses.create(
-            model="gpt-5.1",
+            model="gpt-5-nano",
             input=[
                 {"role": "system", "content": "You are rating statements based on the given persona. Return ONLY valid JSON, no other text."},
                 {"role": "user", "content": prompt}
-            ],
-            temperature=0.3
+            ]
         )
         
         result = json.loads(response.output_text)

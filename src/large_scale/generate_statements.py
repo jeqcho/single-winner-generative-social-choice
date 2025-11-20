@@ -54,12 +54,11 @@ Write a statement expressing your views on this topic. The statement should:
 Write only the statement, no additional commentary."""
 
         response = openai_client.responses.create(
-            model="gpt-5.1",
+            model="gpt-5-nano",
             input=[
                 {"role": "system", "content": f"You are a person with the characteristics described."},
                 {"role": "user", "content": prompt}
-            ],
-            temperature=0.8
+            ]
         )
         
         statement_text = response.output_text.strip()
