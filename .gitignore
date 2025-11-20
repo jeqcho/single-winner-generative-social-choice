@@ -42,11 +42,12 @@ venv.bak/
 Thumbs.db
 
 # Project specific
-data/
+# data/
 logs/
 test_runs/
-outputs/
+# outputs/
 *.log
+*.arrow
 
 # Keep structure directories
 !data/.gitkeep
@@ -62,4 +63,5 @@ outputs/
 # *.pdf
 # *.tex
 # *.csv
+
 !requirements.txt

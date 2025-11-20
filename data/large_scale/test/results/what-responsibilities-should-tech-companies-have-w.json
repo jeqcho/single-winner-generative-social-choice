@@ -1,0 +1,403 @@
+{
+  "topic": "What responsibilities should tech companies have when collecting and monetizing user data?",
+  "n_generative_personas": 20,
+  "n_discriminative_personas": 5,
+  "n_evaluative_personas": 5,
+  "n_statements": 20,
+  "statements": [
+    {
+      "persona": "age: 63\nsex: Male\nrace: White alone\nancestry: European\nhousehold language: English only\neducation: 1 or more years of college credit, no degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: RET-Vending Machine Operators\noccupation category: MGR-General And Operations Managers\ndetailed job description: Oversees operations of a vending machine company, manages staff, plans strategies, ensures customer satisfaction\nincome: 101000.0\nmarital status: Married\nhousehold type: Married couple household, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: Pennsylvania/PA\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: High, Conscientiousness: High, Extraversion: Low, Agreeableness: Extremely High, Neuroticism: Low\ndefining quirks: Passionate about trying different cuisines\nmannerisms: Taps foot when thinking or stressed\npersonal time: Spends time with family or participating in community events\nlifestyle: Active and community-oriented\nideology: Conservative\npolitical views: Republican\nreligion: Other Christian\n",
+      "statement": "As someone who runs a business, I understand that data can help companies improve their services and stay competitive, but there have to be clear limits and accountability. Tech companies should be required to clearly explain what they\u2019re collecting, get real consent, protect that information like it was their own family\u2019s, and never sell or share it in ways that people didn\u2019t knowingly agree to. I also think there should be firm legal consequences when they misuse data or hide what they\u2019re doing, because ordinary folks deserve basic privacy and honesty in how they\u2019re treated online."
+    },
+    {
+      "persona": "age: 90\nsex: Male\nrace: Some Other Race alone\nancestry: Cuban\nhousehold language: Spanish\neducation: Regular high school diploma\nemployment status: Not in labor force\nclass of worker: Retired\nindustry category: Retired\noccupation category: Retired\ndetailed job description: Retired worker\nincome: 11200.0\nmarital status: Never married\nhousehold type: Male householder, no spouse/partner present, living alone\nfamily presence and age: No family\nplace of birth: Cuba\ncitizenship: U.S. citizen by naturalization\nveteran status: Non-Veteran\ndisability: With a disability\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely Low, Conscientiousness: Average, Extraversion: Extremely Low, Agreeableness: Extremely Low, Neuroticism: Average\ndefining quirks: Meticulous attention to personal style\nmannerisms: Rarely shows emotions\npersonal time: Spends most time at home\nlifestyle: Simple and quiet\nideology: Conservative\npolitical views: Republican\nreligion: Protestant\n",
+      "statement": "Tech companies should treat our personal data like something sacred, not just another product to sell. They must clearly explain what they\u2019re collecting, get our explicit consent, and be held legally accountable when they misuse or fail to protect it. I\u2019ve seen what happens when governments or powerful groups know too much about people\u2019s private lives, and I don\u2019t trust big corporations any more than I trusted that. Strong rules, real penalties, and minimal data collection should be the standard, not the exception."
+    },
+    {
+      "persona": "age: 36\nsex: Female\nrace: Some Other Race alone\nancestry: Hispanic\nhousehold language: Spanish\neducation: Bachelor's degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private not-for-profit, tax-exempt, or charitable organization\nindustry category: MED-General Medical And Surgical Hospitals, And Specialty (Except Psychiatric And Substance Abuse) Hospitals\noccupation category: MED-Registered Nurses\ndetailed job description: Provides patient care, administers medications, and collaborates with doctors\nincome: 159000.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children 5 to 17 years only\nplace of birth: Texas/TX\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Extremely High, Extraversion: Average, Agreeableness: Extremely Low, Neuroticism: Average\ndefining quirks: Stays calm under pressure\nmannerisms: Speaks quickly and clearly\npersonal time: Relaxing with family, Catching up on sleep\nlifestyle: Busy and health-conscious\nideology: Helping others, Promoting health and wellness\npolitical views: Supports healthcare and education policies\nreligion: Protestant\n",
+      "statement": "As someone who works in healthcare and sees every day how sensitive personal information can be, I believe tech companies should treat user data with the same seriousness we treat medical records: clear consent, strict limits on access, and full transparency about how it\u2019s used and sold. If they profit from our data, they should also be accountable for protecting it, preventing misuse, and giving users real control over what\u2019s collected."
+    },
+    {
+      "persona": "age: 21\nsex: Male\nrace: Black or African American alone\nancestry: African\nhousehold language: Other Indo-European languages\neducation: Regular high school diploma\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: TRN-Warehousing And Storage\noccupation category: TRN-Industrial Truck And Tractor Operators\ndetailed job description: Operates industrial trucks or tractors to move materials around a warehouse, storage yard, or factory\nincome: 159000.0\nmarital status: Never married or under 15 years old\nhousehold type: Married couple household, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: Virginia/VA\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely High, Conscientiousness: Average, Extraversion: Low, Agreeableness: Extremely Low, Neuroticism: Low\ndefining quirks: Meticulous about maintaining his work equipment and always double-checks his work\nmannerisms: Has a habit of furrowing his brows when concentrating\npersonal time: Enjoys solitude and uses this time to engage in his hobbies or relax\nlifestyle: Simple and focused on his work and personal growth\nideology: Progressive\npolitical views: Democrat\nreligion: Catholic\n",
+      "statement": "As someone who works hard for a living and values both privacy and fairness, I think tech companies have a responsibility to be completely transparent about what data they collect, how they use it, and who they sell it to. If they\u2019re making money off our information, we should have real control over what\u2019s shared, easy ways to opt out, and strong legal protections against misuse or discrimination\u2014especially for marginalized communities. They shouldn\u2019t be allowed to quietly exploit people\u2019s data in the background just because most folks don\u2019t have time to read a 20-page terms-of-service."
+    },
+    {
+      "persona": "age: 75\nsex: Male\nrace: White alone\nancestry: English\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Not in labor force\nclass of worker: Retired\nindustry category: Law Enforcement\noccupation category: Police Officer\ndetailed job description: Retired Police Officer\nincome: 3100.0\nmarital status: Married\nhousehold type: Married couple household, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: New York/NY\ncitizenship: Born in the United States\nveteran status: On active duty in the past, but not now\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely Low, Conscientiousness: Extremely Low, Extraversion: Extremely Low, Agreeableness: Average, Neuroticism: Average\ndefining quirks: Always wears his old police badge\nmannerisms: Stern gaze and speaks in a firm, authoritative tone\npersonal time: Volunteering at a local community center\nlifestyle: Quiet and reserved\nideology: Conservative\npolitical views: Republican\nreligion: Religiously Unaffiliated\n",
+      "statement": "Tech companies have a responsibility to be straight with people about what data they\u2019re collecting and exactly how they\u2019re using it, in plain English, not buried in fine print. If they\u2019re going to make money off our information, there ought to be strict rules and real penalties to keep them from abusing it, just like we have rules for handling evidence or personal records in law enforcement. I may not be tech-savvy, but I know trust is earned, and these companies shouldn\u2019t be allowed to treat our private lives like a free-for-all."
+    },
+    {
+      "persona": "age: 26\nsex: Female\nrace: Two or More Races\nancestry: Mixed European and Asian\nhousehold language: English\neducation: 1 or more years of college credit, no degree\nemployment status: Not in labor force\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: ENT-Other Amusement, Gambling, And Recreation Industries\noccupation category: PRS-Other Entertainment Attendants And Related Workers\ndetailed job description: Assisted in organizing and managing various entertainment events\nincome: 500.0\nmarital status: Never married\nhousehold type: Female householder, no spouse/partner present, living alone\nfamily presence and age: No family\nplace of birth: California/CA\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Average, Extraversion: High, Agreeableness: Low, Neuroticism: Extremely Low\ndefining quirks: Enjoys collecting unique artifacts from different cultures\nmannerisms: Often uses hand gestures while speaking\npersonal time: Spends free time exploring new places and meeting new people\nlifestyle: Active and social\nideology: Liberal\npolitical views: Democrat\nreligion: Catholic\n",
+      "statement": "As someone who lives a lot of my life online and loves connecting with new people, I get that data helps tech companies build cool, personalized experiences\u2014but they should never treat our information like a free-for-all resource. They have a responsibility to be radically transparent about what they collect, get clear consent, and give us real control over how our data is used and monetized. If they profit from our data, there should be strict limits, strong privacy protections, and meaningful accountability when they mess up. No one\u2019s digital life should be exploited just because they clicked \u201cagree\u201d on a 30-page terms-of-service they\u2019ll never realistically read."
+    },
+    {
+      "persona": "age: 51\nsex: Female\nrace: White alone\nancestry: French\nhousehold language: English only\neducation: Master's Degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: INF-Data Processing, Hosting, And Related Services\noccupation category: BUS-Project Management Specialists\ndetailed job description: Oversees and coordinates various aspects of a project, ensuring that all pieces come together at the right time to successfully complete the project\nincome: 130300.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children 5 to 17 years only\nplace of birth: Louisiana/LA\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Extremely High, Extraversion: Average, Agreeableness: Average, Neuroticism: Average\ndefining quirks: Has a knack for remembering names and faces\nmannerisms: Often uses hand gestures while speaking\npersonal time: Spends free time with family or volunteering in the community\nlifestyle: Active and community-oriented\nideology: Moderate\npolitical views: Independent\nreligion: Other Christian\n",
+      "statement": "As someone who works in tech and manages projects for a living, I think companies have a serious responsibility to be transparent and honest about what data they collect, how they use it, and who they share it with. Monetizing user data shouldn\u2019t mean exploiting people\u2019s ignorance\u2014there should be clear consent, strong security safeguards, and strict limits on using data in ways that can harm individuals or families. I\u2019m not against innovation or business growth, but it has to be balanced with respecting people\u2019s privacy and dignity, much like we expect in any other area of life."
+    },
+    {
+      "persona": "age: 67\nsex: Female\nrace: White alone\nancestry: Irish\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Not in labor force\nclass of worker: Private\nindustry category: Arts\noccupation category: Artist\ndetailed job description: Retired artist\nincome: 7500.0\nmarital status: Widowed\nhousehold type: Female householder, no spouse/partner present, with relatives, no children of the householder less than 18\nfamily presence and age: With related children 5 to 17 years only\nplace of birth: Pennsylvania/PA\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: With a disability\nhealth insurance: With health insurance coverage\nhearing difficulty: Yes\nvision difficulty: Yes\nbig five scores: Openness: Average, Conscientiousness: Low, Extraversion: Extremely High, Agreeableness: Average, Neuroticism: Average\ndefining quirks: Enjoys painting in her free time\nmannerisms: Often seen with paint on her hands\npersonal time: Spends free time painting or attending theater performances\nlifestyle: Relaxed and leisurely\nideology: Liberal\npolitical views: Democrat\nreligion: Religiously Unaffiliated\n",
+      "statement": "As someone who\u2019s seen a lot of change in my lifetime, I think tech companies have a serious responsibility to treat our personal data with the same care they\u2019d give to something fragile and irreplaceable. They shouldn\u2019t be allowed to quietly sell and trade our information behind dense legal language; consent needs to be clear, simple, and genuinely optional. I\u2019m not against companies making money, but if they profit from our data, we deserve strong privacy protections, transparency about how it\u2019s used, and real power to say no\u2014especially for kids and vulnerable people."
+    },
+    {
+      "persona": "age: 29\nsex: Female\nrace: White alone\nancestry: Polish\nhousehold language: Other Indo-European languages\neducation: Master's degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: SCA-Individual And Family Services\noccupation category: CMS-Healthcare Social Workers\ndetailed job description: Provides social services to individuals and families in need\nincome: 143700.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children under 5 years only\nplace of birth: Poland\ncitizenship: U.S. citizen by naturalization\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Average, Extraversion: Extremely High, Agreeableness: Average, Neuroticism: High\ndefining quirks: Enjoys learning about new technology and gadgets\nmannerisms: Speaks quickly and with enthusiasm\npersonal time: Spends free time with family or volunteering\nlifestyle: Busy and family-oriented\nideology: Open-minded\npolitical views: Undisclosed\nreligion: Other Christian\n",
+      "statement": "As someone who loves new tech but also works every day with vulnerable families, I think tech companies have a serious moral responsibility to treat user data like something deeply personal, not just a commodity. They should be radically transparent about what they collect, get clear and informed consent (no dark patterns), minimize data collection to what\u2019s truly necessary, and build in strong safeguards against misuse or discrimination. If they profit from our data, they should also be accountable\u2014through regulation, audits, and meaningful penalties\u2014when they fail to protect people\u2019s privacy and dignity."
+    },
+    {
+      "persona": "age: 34\nsex: Male\nrace: White alone\nancestry: Irish\nhousehold language: English only\neducation: Bachelor's degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: AGR-Crop Production\noccupation category: MGR-Farmers, Ranchers, And Other Agricultural Managers\ndetailed job description: Manages and oversees crop production activities\nincome: 195000.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children under 5 years only\nplace of birth: Florida/FL\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Low, Conscientiousness: Average, Extraversion: Extremely Low, Agreeableness: Average, Neuroticism: Average\ndefining quirks: Has a deep connection with nature\nmannerisms: Often seen wearing a hat\npersonal time: Spends free time with family or in nature\nlifestyle: Active and nature-oriented\nideology: Environmental Conservation\npolitical views: Green Party\nreligion: Religiously Unaffiliated\n",
+      "statement": "As someone who works the land and depends on healthy ecosystems, I think tech companies should treat our personal data like a shared natural resource\u2014handled carefully, not strip\u2011mined for quick profit. They should be fully transparent about what they collect, get clear and informed consent, minimize what they store, and never sell or share it in ways that can harm people or communities. Just like we\u2019re expected to follow regulations to protect soil and water, they should be held to strong, enforceable privacy and security standards that put people and the public good ahead of profit."
+    },
+    {
+      "persona": "age: 57\nsex: Male\nrace: White alone\nancestry: European\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: TRN-Truck Transportation\noccupation category: TRN-Driver/Sales Workers And Truck Drivers\ndetailed job description: Long-haul truck driver\nincome: 80000.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children under 5 years only\nplace of birth: Illinois/IL\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Low, Conscientiousness: Extremely Low, Extraversion: Extremely Low, Agreeableness: Extremely Low, Neuroticism: Low\ndefining quirks: Loves country music\nmannerisms: Quiet and reserved\npersonal time: Spends free time with family or at community events\nlifestyle: Simple and down-to-earth\nideology: Conservative\npolitical views: Republican\nreligion: Protestant\n",
+      "statement": "If these big tech companies are going to collect our data, they ought to be straight with us about what they\u2019re taking, how they\u2019re using it, and give us a real choice to opt out without punishing us for it. They shouldn\u2019t be allowed to sell or share personal information without clear consent, and there ought to be strong laws with real teeth if they lie or get careless and let our data get hacked."
+    },
+    {
+      "persona": "age: 88\nsex: Female\nrace: White alone\nancestry: Scandinavian\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Not in labor force\nclass of worker: Retired\nindustry category: Retired\noccupation category: Retired\ndetailed job description: Retired school teacher\nincome: 20400.0\nmarital status: Widowed\nhousehold type: Female householder, no spouse/partner present, living alone\nfamily presence and age: No family present\nplace of birth: Minnesota/MN\ncitizenship: Born in the United States\nveteran status: Non-veteran\ndisability: No disability\nhealth insurance: With health insurance coverage\nfertility: Not applicable\nhearing difficulty: No difficulty\nvision difficulty: No difficulty\ncognitive difficulty: No difficulty\nability to speak english: Speaks English very well\nbig five scores: Openness: Average, Conscientiousness: Average, Extraversion: Extremely High, Agreeableness: Average, Neuroticism: Extremely Low\ndefining quirks: Passionate about local cultural events and traditions\nmannerisms: Often seen with a smile, has a habit of humming old songs\npersonal time: Spends personal time volunteering at the local library and tending to her garden\nlifestyle: Leads a simple, active lifestyle with a strong connection to her community\nideology: Believes in the importance of community, education, and environmental conservation\npolitical views: Moderate with a lean towards progressive values\nreligion: Catholic\n",
+      "statement": "As someone who spent her life as a teacher and still believes deeply in the importance of education and community, I think tech companies have a responsibility to be honest and clear about what data they collect and how they profit from it, in language anyone can understand. They should only collect what is truly necessary, protect it as carefully as they would their own family\u2019s information, and be held accountable when they misuse it. People deserve real choices and control over their data, not tiny print and sneaky settings, and our laws should reflect the dignity and privacy every person is owed."
+    },
+    {
+      "persona": "age: 11\nsex: Female\nrace: White alone\nancestry: Irish\nhousehold language: English only\neducation: Grade 4\nemployment status: Unemployed\nclass of worker: Not applicable\nindustry category: Not applicable\noccupation category: Not applicable\ndetailed job description: Student\nincome: Not applicable\nmarital status: Never married or under 15 years old\nhousehold type: Married couple household, no children of the householder less than 18\nfamily presence and age: With related children 5 to 17 years only\nplace of birth: Kentucky/KY\ncitizenship: Born in the United States\nveteran status: Not applicable\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Extremely High, Extraversion: Average, Agreeableness: High, Neuroticism: Extremely High\ndefining quirks: Loves to experiment with cooking and baking\nmannerisms: Often seen humming or singing to herself\npersonal time: Spends free time drawing or playing with her toys\nlifestyle: Active and playful\nideology: Too young to define\npolitical views: Too young to define\nreligion: Religiously Unaffiliated\n",
+      "statement": "I think tech companies should have to ask clearly before they use our data, and explain it in words kids and parents can actually understand, not just tiny print. If they make money from our information, they should have to keep it super safe and not sell things that could embarrass or hurt us later. It also feels fair that they give people choices, like easy buttons to turn tracking off, instead of hiding it in confusing menus. Since lots of kids use apps and games, companies should have extra rules about what they can collect from us and for how long."
+    },
+    {
+      "persona": "age: 49\nsex: Male\nrace: Black or African American alone\nancestry: African\nhousehold language: English only\neducation: 1 or more years of college credit, no degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: RET-Building Material And Supplies Dealers\noccupation category: SAL-Retail Salespersons\ndetailed job description: Assists customers in finding and purchasing building materials and supplies\nincome: 149000.0\nmarital status: Divorced\nhousehold type: Male householder, no spouse/partner present, only nonrelatives present\nfamily presence and age: No family\nplace of birth: Alabama/AL\ncitizenship: Born in the United States\nveteran status: On active duty in the past, but not now\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely High, Conscientiousness: High, Extraversion: High, Agreeableness: Low, Neuroticism: Average\ndefining quirks: Enjoys woodworking in his spare time\nmannerisms: Often taps his foot when thinking\npersonal time: Spends free time in his woodworking shop or watching sports\nlifestyle: Active and outdoorsy\nideology: Conservative\npolitical views: Republican\nreligion: Protestant\n",
+      "statement": "Tech companies shouldn\u2019t be able to treat our personal data like free lumber they can just haul off the lot and resell without asking. If they\u2019re going to collect and monetize our information, they should have to spell out clearly what they\u2019re taking, how they\u2019re using it, and give us a real choice to opt out. There also needs to be strong accountability and penalties when they misuse data or fail to protect it, because privacy and trust ought to come before profit."
+    },
+    {
+      "persona": "age: 38\nsex: Male\nrace: White\nancestry: Irish\nhousehold language: English\neducation: Doctorate degree\nemployment status: Employed\nclass of worker: Private\nindustry category: Outpatient Care Centers\noccupation category: Physical Therapist\ndetailed job description: Provides therapy to patients with physical disabilities\nincome: 108400\nmarital status: Married\nhousehold type: Married couple household, no children\nfamily presence and age: No related children\nplace of birth: Oregon\ncitizenship: US Citizen\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: Private\nbig five scores: Openness: High, Conscientiousness: Average, Extraversion: High, Agreeableness: Extremely Low, Neuroticism: Extremely Low\ndefining quirks: Enjoys bird-watching in his free time\nmannerisms: Often uses hand gestures while speaking\npersonal time: Spends free time in nature or reading\nlifestyle: Active and health-conscious\nideology: Liberal\npolitical views: Democrat\nreligion: Protestant\n",
+      "statement": "As someone who works in healthcare, I\u2019m very aware of how sensitive personal information can be, and I think tech companies should be held to a similar ethical standard as we are with patient data. They should be required to get clear, informed consent before collecting or selling data, minimize what they collect to what\u2019s truly necessary, and be fully transparent about who profits and how. There also needs to be strong regulation and independent oversight, because leaving it to corporate \u201cself-policing\u201d has already shown it won\u2019t adequately protect people\u2019s privacy or prevent abuse."
+    },
+    {
+      "persona": "age: 26\nsex: Male\nrace: White alone\nancestry: Irish\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: MFG-Plastics Product\noccupation category: PRD-Extruding, Forming, Pressing, And Compacting Machine Setters, Operators, And Tenders\ndetailed job description: Operates machines to produce plastic products\nincome: 42000.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children under 5 years only\nplace of birth: Wisconsin/WI\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Average, Extraversion: Average, Agreeableness: Low, Neuroticism: Extremely Low\ndefining quirks: Enjoys experimenting with spicy food\nmannerisms: Often taps his foot when thinking\npersonal time: Spends free time with family or cooking\nlifestyle: Active and family-oriented\nideology: Conservative\npolitical views: Republican\nreligion: Protestant\n",
+      "statement": "Tech companies shouldn\u2019t be able to just grab our data and do whatever they want with it behind a bunch of fine print. If they\u2019re collecting and selling our information, they should have to spell out clearly what they\u2019re taking, who they\u2019re giving it to, and give us a real choice to opt out. I work hard for my paycheck, and I don\u2019t see why my personal life and my kids\u2019 information should be another product for them to profit from without strict rules and real accountability."
+    },
+    {
+      "persona": "age: 55\nsex: Male\nrace: Some Other Race alone\nancestry: Mexican\nhousehold language: Spanish\neducation: Kindergarten\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: CON-Construction\noccupation category: CON-Construction Laborers\ndetailed job description: Performs physical labor on construction sites\nincome: 209000.0\nmarital status: Separated\nhousehold type: Male householder, no spouse/partner present, with relatives, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: Mexico\ncitizenship: U.S. citizen by naturalization\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely High, Conscientiousness: Extremely High, Extraversion: Average, Agreeableness: Low, Neuroticism: Average\ndefining quirks: Enjoys traditional Mexican music and entertainment\nmannerisms: Has cultural or regional idiosyncrasies from Mexico\npersonal time: Spends personal time in religious activities or helping others\nlifestyle: Simple and hardworking\nideology: Conservative\npolitical views: Republican\nreligion: Protestant\n",
+      "statement": "Tech companies shouldn\u2019t be allowed to just grab our data and sell it without us clearly knowing and agreeing; that feels like taking advantage of hardworking people who don\u2019t always understand the fine print. They should be honest, use simple language in Spanish and English, protect our information like it was their own family\u2019s, and be held legally responsible if they misuse it. Data should only be used for the purpose we agreed to, not to manipulate our beliefs or take more of our money through tricks and hidden practices."
+    },
+    {
+      "persona": "age: 86\nsex: Female\nrace: White alone\nancestry: Polish\nhousehold language: Other Indo-European languages\neducation: Regular high school diploma\nemployment status: Not in labor force\nclass of worker: Private\nindustry category: Manufacturing\noccupation category: Retired\ndetailed job description: Retired, previously worked in the manufacturing industry\nincome: 27000.0\nmarital status: Widowed\nhousehold type: Female householder, no spouse/partner present, living alone\nfamily presence and age: No family\nplace of birth: Poland\ncitizenship: Born abroad of U.S. citizen parent or parents\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Low, Conscientiousness: Average, Extraversion: Average, Agreeableness: Average, Neuroticism: Extremely Low\ndefining quirks: Collects vintage teapots\nmannerisms: Often uses hand gestures when speaking\npersonal time: Tending to her garden and reading books\nlifestyle: Quiet and simple\nideology: Conservative\npolitical views: Republican\nreligion: Protestant\n",
+      "statement": "Tech companies should treat our personal data with the same care and honesty my generation expected from a local bank: clear consent, no sneaky fine print, and no selling information without our knowledge. I don\u2019t like a lot of government interference, but if these companies won\u2019t behave responsibly on their own, then there ought to be firm rules to protect ordinary people, especially seniors who can be easily taken advantage of."
+    },
+    {
+      "persona": "age: 95\nsex: Female\nrace: White alone\nancestry: Irish\nhousehold language: Other Indo-European languages\neducation: 1 or more years of college credit, no degree\nemployment status: Not in labor force\nclass of worker: Private\nindustry category: Healthcare\noccupation category: Nurse\ndetailed job description: Retired nurse\nincome: 47400.0\nmarital status: Widowed\nhousehold type: Female householder, no spouse/partner present, living alone\nfamily presence and age: No family\nplace of birth: Ireland\ncitizenship: U.S. citizen by naturalization\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: High, Conscientiousness: Average, Extraversion: High, Agreeableness: Average, Neuroticism: High\ndefining quirks: Loves cooking traditional Irish meals\nmannerisms: Speaks with a distinct Irish accent\npersonal time: Volunteering at a local community center\nlifestyle: Active and community-oriented\nideology: Liberal\npolitical views: Democrat\nreligion: Religiously Unaffiliated\n",
+      "statement": "At my age, I\u2019ve seen too many powerful institutions take advantage of people who didn\u2019t know any better, so tech companies absolutely must be transparent and honest about what data they collect and how they profit from it. They should treat user data like a patient\u2019s medical chart\u2014only gather what\u2019s necessary, protect it diligently, and never share or sell it without clear, informed consent. And because so many older people and immigrants like me can be especially vulnerable, there should be strong legal protections and plain-language explanations so everyone can truly understand and control how their information is used."
+    },
+    {
+      "persona": "age: 13\nsex: Male\nrace: White\nancestry: Irish\nhousehold language: English\neducation: 7th Grade\nemployment status: Unemployed\nclass of worker: Not Applicable\nindustry category: Not Applicable\noccupation category: Student\ndetailed job description: Attends middle school, participates in school activities\nincome: Not Applicable\nmarital status: Single\nhousehold type: Married couple household with children\nfamily presence and age: With related children under 5 years and 5 to 17 years\nplace of birth: Wisconsin/WI\ncitizenship: US Citizen\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Extremely High, Extraversion: High, Agreeableness: Extremely Low, Neuroticism: Extremely Low\ndefining quirks: Enjoys learning about different cultures\nmannerisms: Often seen with a sketchbook\npersonal time: Spends free time drawing or playing video games\nlifestyle: Active and creative\nideology: Too young to define\npolitical views: Too young to define\nreligion: Catholic\n",
+      "statement": "I think tech companies should have to clearly tell us what data they\u2019re collecting and exactly how they\u2019re using it, in words that regular people and kids can actually understand. They shouldn\u2019t be allowed to sell or share our information without our real permission, and there should be extra protections for minors so our data can\u2019t be used to mess with us or track us in creepy ways."
+    }
+  ],
+  "preference_matrix": [
+    [
+      "5",
+      "11",
+      "18",
+      "19",
+      "18"
+    ],
+    [
+      "19",
+      "8",
+      "16",
+      "16",
+      "1"
+    ],
+    [
+      "8",
+      "7",
+      "8",
+      "12",
+      "8"
+    ],
+    [
+      "3",
+      "18",
+      "3",
+      "5",
+      "7"
+    ],
+    [
+      "7",
+      "16",
+      "5",
+      "13",
+      "3"
+    ],
+    [
+      "1",
+      "14",
+      "9",
+      "10",
+      "11"
+    ],
+    [
+      "14",
+      "5",
+      "7",
+      "1",
+      "14"
+    ],
+    [
+      "12",
+      "3",
+      "1",
+      "8",
+      "5"
+    ],
+    [
+      "13",
+      "19",
+      "0",
+      "7",
+      "9"
+    ],
+    [
+      "6",
+      "9",
+      "14",
+      "3",
+      "13"
+    ],
+    [
+      "16",
+      "6",
+      "13",
+      "0",
+      "10"
+    ],
+    [
+      "11",
+      "0",
+      "19",
+      "18",
+      "6"
+    ],
+    [
+      "10",
+      "15",
+      "4",
+      "15",
+      "0"
+    ],
+    [
+      "9",
+      "12",
+      "6",
+      "14",
+      "2"
+    ],
+    [
+      "15",
+      "13",
+      "2",
+      "11",
+      "4"
+    ],
+    [
+      "2",
+      "10",
+      "15",
+      "9",
+      "12"
+    ],
+    [
+      "0",
+      "1",
+      "12",
+      "6",
+      "17"
+    ],
+    [
+      "4",
+      "2",
+      "10",
+      "4",
+      "16"
+    ],
+    [
+      "18",
+      "4",
+      "11",
+      "2",
+      "19"
+    ],
+    [
+      "17",
+      "17",
+      "17",
+      "17",
+      "15"
+    ]
+  ],
+  "evaluations": [
+    {
+      "persona": "age: 57\nsex: Male\nrace: White alone\nancestry: Swedish\nhousehold language: English only\neducation: Bachelor's degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: PRF-Architectural, Engineering, And Related Services\noccupation category: ENG-Civil Engineers\ndetailed job description: Designs and supervises large construction projects\nincome: 81600.0\nmarital status: Never married\nhousehold type: Cohabiting couple household, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: Minnesota/MN\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: High, Conscientiousness: Average, Extraversion: High, Agreeableness: High, Neuroticism: Extremely High\ndefining quirks: Enjoys solitary hikes in nature\nmannerisms: Speaks with a distinctive Minnesotan accent\npersonal time: Spends free time hiking or reading\nlifestyle: Private and independent, enjoys solitude\nideology: Libertarian\npolitical views: Independent\nreligion: Protestant\n",
+      "ratings": [
+        5,
+        4,
+        4,
+        5,
+        4,
+        4,
+        5,
+        5,
+        4,
+        4,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        4,
+        5
+      ]
+    },
+    {
+      "persona": "age: 45\nsex: Male\nrace: Chinese, except Taiwanese, alone\nancestry: Chinese\nhousehold language: Asian and Pacific Island languages\neducation: Grade 8\nemployment status: Civilian employed, at work\nclass of worker: Self-employed in own not incorporated business, professional practice, or farm\nindustry category: ENT-Restaurants And Other Food Services\noccupation category: EAT-Chefs And Head Cooks\ndetailed job description: Manages the kitchen, creates menus, and oversees food preparation in his restaurant\nincome: 9000.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children 5 to 17 years only\nplace of birth: China\ncitizenship: Not a U.S. citizen\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: High, Conscientiousness: Average, Extraversion: Extremely Low, Agreeableness: Extremely Low, Neuroticism: Average\ndefining quirks: Speaks in a mix of his native language and English, uses food-related metaphors\nmannerisms: Constantly tastes and adjusts the food he cooks\npersonal time: Spends most of his time in his restaurant or with his family\nlifestyle: Busy and family-oriented\nideology: Hard work, Family values, Community service\npolitical views: Supports policies that favor small businesses and immigrant rights\nreligion: Catholic\n",
+      "ratings": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "persona": "age: 62\nsex: Female\nrace: White alone\nancestry: German\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Not in labor force\nclass of worker: Self-employed in own not incorporated business, professional practice, or farm\nindustry category: SRV-Beauty Salons\noccupation category: PRS-Hairdressers, Hairstylists, And Cosmetologists\ndetailed job description: Owns and operates a small beauty salon, providing hair styling and beauty services\nincome: 54000.0\nmarital status: Married\nhousehold type: Married couple household, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: Indiana/IN\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: High, Extraversion: Low, Agreeableness: Extremely Low, Neuroticism: Low\ndefining quirks: Passionate about health and wellness, often shares natural beauty tips with clients\nmannerisms: Speaks in a soft, soothing voice\npersonal time: Spends free time in her garden or practicing yoga\nlifestyle: Health-conscious and balanced\nideology: Liberal\npolitical views: Democrat\nreligion: Religiously Unaffiliated\n",
+      "ratings": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "persona": "age: 19\nsex: Male\nrace: White alone\nancestry: Irish\nhousehold language: English\neducation: 1 or more years of college credit, no degree\nemployment status: Not in labor force\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: WHL-Lumber And Other Construction Materials Merchant Wholesalers\noccupation category: TRN-Driver/Sales Workers And Truck Drivers\ndetailed job description: Delivers construction materials and assists with sales\nincome: -60000.0\nmarital status: Never married or under 15 years old\nhousehold type: One-person household\nfamily presence and age: No family\nplace of birth: New York/NY\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely Low, Conscientiousness: Average, Extraversion: Extremely Low, Agreeableness: Low, Neuroticism: Average\ndefining quirks: Enjoys outdoor activities\nmannerisms: Tends to speak in a low, quiet voice\npersonal time: Spends free time outdoors or watching sports\nlifestyle: Active and outdoorsy\nideology: Conservative\npolitical views: Republican\nreligion: Catholic\n",
+      "ratings": [
+        5,
+        4,
+        4,
+        4,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        4,
+        4,
+        5,
+        4,
+        5,
+        5,
+        4,
+        4,
+        5
+      ]
+    },
+    {
+      "persona": "age: 51\nsex: Female\nrace: White alone\nancestry: European\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: MED-Residential Care Facilities, Except Skilled Nursing Facilities\noccupation category: OFF-Receptionists And Information Clerks\ndetailed job description: Manages the front desk at a residential care facility\nincome: 115900.0\nmarital status: Married\nhousehold type: Married couple household, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: Utah/UT\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely High, Conscientiousness: Average, Extraversion: Extremely Low, Agreeableness: Average, Neuroticism: Average\ndefining quirks: Loves to go hiking and bird watching\nmannerisms: Always wears glasses\npersonal time: Spends free time volunteering at local community events\nlifestyle: Active and community-oriented\nideology: Conservative\npolitical views: Republican\nreligion: Religiously Unaffiliated\n",
+      "ratings": [
+        5,
+        4,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "pvc": [
+    "1",
+    "5",
+    "8"
+  ],
+  "pvc_size": 3,
+  "pvc_percentage": 15.0,
+  "method_results": {
+    "plurality": {
+      "winner": "18",
+      "in_pvc": false
+    },
+    "borda": {
+      "winner": "8",
+      "in_pvc": true
+    },
+    "irv": {
+      "winner": "18",
+      "in_pvc": false
+    },
+    "rankedpairs": {
+      "winner": "8",
+      "in_pvc": true
+    },
+    "successive_veto": {
+      "winner": "8",
+      "in_pvc": true
+    },
+    "chatgpt": {
+      "winner": "6",
+      "in_pvc": false
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "in_pvc": true
+    },
+    "chatgpt_profiles": {
+      "winner": "12",
+      "in_pvc": false
+    },
+    "chatgpt_rankings_profiles": {
+      "winner": "8",
+      "in_pvc": true
+    }
+  }
+}

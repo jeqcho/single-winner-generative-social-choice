@@ -1,0 +1,402 @@
+{
+  "topic": "What role should the government play in ensuring universal access to healthcare?",
+  "n_generative_personas": 20,
+  "n_discriminative_personas": 5,
+  "n_evaluative_personas": 5,
+  "n_statements": 20,
+  "statements": [
+    {
+      "persona": "age: 63\nsex: Male\nrace: White alone\nancestry: European\nhousehold language: English only\neducation: 1 or more years of college credit, no degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: RET-Vending Machine Operators\noccupation category: MGR-General And Operations Managers\ndetailed job description: Oversees operations of a vending machine company, manages staff, plans strategies, ensures customer satisfaction\nincome: 101000.0\nmarital status: Married\nhousehold type: Married couple household, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: Pennsylvania/PA\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: High, Conscientiousness: High, Extraversion: Low, Agreeableness: Extremely High, Neuroticism: Low\ndefining quirks: Passionate about trying different cuisines\nmannerisms: Taps foot when thinking or stressed\npersonal time: Spends time with family or participating in community events\nlifestyle: Active and community-oriented\nideology: Conservative\npolitical views: Republican\nreligion: Other Christian\n",
+      "statement": "I believe everyone should be able to see a doctor and get necessary treatment without going bankrupt, but I don\u2019t think a one-size-fits-all government-run system is the answer. The government\u2019s role should be to set fair rules, protect people with preexisting conditions, and provide a safety net for those who truly can\u2019t afford coverage, while still relying on private insurers and competition to keep costs in check and quality high."
+    },
+    {
+      "persona": "age: 90\nsex: Male\nrace: Some Other Race alone\nancestry: Cuban\nhousehold language: Spanish\neducation: Regular high school diploma\nemployment status: Not in labor force\nclass of worker: Retired\nindustry category: Retired\noccupation category: Retired\ndetailed job description: Retired worker\nincome: 11200.0\nmarital status: Never married\nhousehold type: Male householder, no spouse/partner present, living alone\nfamily presence and age: No family\nplace of birth: Cuba\ncitizenship: U.S. citizen by naturalization\nveteran status: Non-Veteran\ndisability: With a disability\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely Low, Conscientiousness: Average, Extraversion: Extremely Low, Agreeableness: Extremely Low, Neuroticism: Average\ndefining quirks: Meticulous attention to personal style\nmannerisms: Rarely shows emotions\npersonal time: Spends most time at home\nlifestyle: Simple and quiet\nideology: Conservative\npolitical views: Republican\nreligion: Protestant\n",
+      "statement": "As someone who worked hard all my life and now lives on a modest, fixed income, I believe the government should make sure basic healthcare is accessible and affordable, especially for the elderly, the poor, and the disabled, but without turning everything into a fully government-run system. Programs like Medicare are important safety nets, yet people who can pay more or want extra coverage should be free to choose private options. The government\u2019s role should be to set fair rules, prevent abuse by insurance and drug companies, and protect the most vulnerable, not to control every aspect of healthcare."
+    },
+    {
+      "persona": "age: 36\nsex: Female\nrace: Some Other Race alone\nancestry: Hispanic\nhousehold language: Spanish\neducation: Bachelor's degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private not-for-profit, tax-exempt, or charitable organization\nindustry category: MED-General Medical And Surgical Hospitals, And Specialty (Except Psychiatric And Substance Abuse) Hospitals\noccupation category: MED-Registered Nurses\ndetailed job description: Provides patient care, administers medications, and collaborates with doctors\nincome: 159000.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children 5 to 17 years only\nplace of birth: Texas/TX\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Extremely High, Extraversion: Average, Agreeableness: Extremely Low, Neuroticism: Average\ndefining quirks: Stays calm under pressure\nmannerisms: Speaks quickly and clearly\npersonal time: Relaxing with family, Catching up on sleep\nlifestyle: Busy and health-conscious\nideology: Helping others, Promoting health and wellness\npolitical views: Supports healthcare and education policies\nreligion: Protestant\n",
+      "statement": "As a nurse in a nonprofit hospital, I see every day how lack of access to care leads to worse outcomes and higher costs down the line, especially for working families with kids. I believe the government has a responsibility to guarantee basic, universal healthcare coverage\u2014through a mix of public programs and strong regulation of private insurers\u2014so that no one is denied necessary care because of income, immigration background, or job status. At the same time, policies should support preventive care, health education, and fair reimbursement so providers can keep delivering quality, compassionate care."
+    },
+    {
+      "persona": "age: 21\nsex: Male\nrace: Black or African American alone\nancestry: African\nhousehold language: Other Indo-European languages\neducation: Regular high school diploma\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: TRN-Warehousing And Storage\noccupation category: TRN-Industrial Truck And Tractor Operators\ndetailed job description: Operates industrial trucks or tractors to move materials around a warehouse, storage yard, or factory\nincome: 159000.0\nmarital status: Never married or under 15 years old\nhousehold type: Married couple household, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: Virginia/VA\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely High, Conscientiousness: Average, Extraversion: Low, Agreeableness: Extremely Low, Neuroticism: Low\ndefining quirks: Meticulous about maintaining his work equipment and always double-checks his work\nmannerisms: Has a habit of furrowing his brows when concentrating\npersonal time: Enjoys solitude and uses this time to engage in his hobbies or relax\nlifestyle: Simple and focused on his work and personal growth\nideology: Progressive\npolitical views: Democrat\nreligion: Catholic\n",
+      "statement": "As someone who works a physically demanding job and relies on my body to make a living, I think the government should guarantee universal access to healthcare so no one has to choose between getting treated and paying their bills. A system where basic care is publicly funded, with strong regulations on insurance and drug prices, would help working people like me stay healthy and productive. To me, healthcare is a human right, and a wealthy country has a moral responsibility to make sure everyone, not just the rich or well-connected, can see a doctor when they need to."
+    },
+    {
+      "persona": "age: 75\nsex: Male\nrace: White alone\nancestry: English\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Not in labor force\nclass of worker: Retired\nindustry category: Law Enforcement\noccupation category: Police Officer\ndetailed job description: Retired Police Officer\nincome: 3100.0\nmarital status: Married\nhousehold type: Married couple household, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: New York/NY\ncitizenship: Born in the United States\nveteran status: On active duty in the past, but not now\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely Low, Conscientiousness: Extremely Low, Extraversion: Extremely Low, Agreeableness: Average, Neuroticism: Average\ndefining quirks: Always wears his old police badge\nmannerisms: Stern gaze and speaks in a firm, authoritative tone\npersonal time: Volunteering at a local community center\nlifestyle: Quiet and reserved\nideology: Conservative\npolitical views: Republican\nreligion: Religiously Unaffiliated\n",
+      "statement": "I don\u2019t believe the federal government should run everyone\u2019s healthcare, but I do think it has a responsibility to make sure basic coverage is within reach for every American, especially seniors, veterans, and working families. The focus should be on keeping private options, encouraging competition to lower costs, and providing targeted support or subsidies for those who truly can\u2019t afford care, rather than creating a one\u2011size\u2011fits\u2011all government system."
+    },
+    {
+      "persona": "age: 26\nsex: Female\nrace: Two or More Races\nancestry: Mixed European and Asian\nhousehold language: English\neducation: 1 or more years of college credit, no degree\nemployment status: Not in labor force\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: ENT-Other Amusement, Gambling, And Recreation Industries\noccupation category: PRS-Other Entertainment Attendants And Related Workers\ndetailed job description: Assisted in organizing and managing various entertainment events\nincome: 500.0\nmarital status: Never married\nhousehold type: Female householder, no spouse/partner present, living alone\nfamily presence and age: No family\nplace of birth: California/CA\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Average, Extraversion: High, Agreeableness: Low, Neuroticism: Extremely Low\ndefining quirks: Enjoys collecting unique artifacts from different cultures\nmannerisms: Often uses hand gestures while speaking\npersonal time: Spends free time exploring new places and meeting new people\nlifestyle: Active and social\nideology: Liberal\npolitical views: Democrat\nreligion: Catholic\n",
+      "statement": "As someone who\u2019s always meeting people from all walks of life and working a low-income job with limited security, I think the government has a responsibility to guarantee universal access to healthcare as a basic right, not a privilege tied to your job or how much money you make. A publicly funded system that covers everyone would reduce stress, prevent people from avoiding care due to cost, and create a healthier, more stable society\u2014while still allowing private options for those who want them."
+    },
+    {
+      "persona": "age: 51\nsex: Female\nrace: White alone\nancestry: French\nhousehold language: English only\neducation: Master's Degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: INF-Data Processing, Hosting, And Related Services\noccupation category: BUS-Project Management Specialists\ndetailed job description: Oversees and coordinates various aspects of a project, ensuring that all pieces come together at the right time to successfully complete the project\nincome: 130300.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children 5 to 17 years only\nplace of birth: Louisiana/LA\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Extremely High, Extraversion: Average, Agreeableness: Average, Neuroticism: Average\ndefining quirks: Has a knack for remembering names and faces\nmannerisms: Often uses hand gestures while speaking\npersonal time: Spends free time with family or volunteering in the community\nlifestyle: Active and community-oriented\nideology: Moderate\npolitical views: Independent\nreligion: Other Christian\n",
+      "statement": "As someone who\u2019s always had employer-based coverage and seen how vital it is for my family, I believe the government should guarantee that everyone has access to basic, affordable healthcare, regardless of income or job status. I don\u2019t think Washington needs to run everything, but it should set strong standards, regulate costs, and provide a safety net so no one goes without necessary care or goes bankrupt from medical bills. Ideally, public programs and private insurers would work together in a more transparent, accountable system that emphasizes prevention and primary care."
+    },
+    {
+      "persona": "age: 67\nsex: Female\nrace: White alone\nancestry: Irish\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Not in labor force\nclass of worker: Private\nindustry category: Arts\noccupation category: Artist\ndetailed job description: Retired artist\nincome: 7500.0\nmarital status: Widowed\nhousehold type: Female householder, no spouse/partner present, with relatives, no children of the householder less than 18\nfamily presence and age: With related children 5 to 17 years only\nplace of birth: Pennsylvania/PA\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: With a disability\nhealth insurance: With health insurance coverage\nhearing difficulty: Yes\nvision difficulty: Yes\nbig five scores: Openness: Average, Conscientiousness: Low, Extraversion: Extremely High, Agreeableness: Average, Neuroticism: Average\ndefining quirks: Enjoys painting in her free time\nmannerisms: Often seen with paint on her hands\npersonal time: Spends free time painting or attending theater performances\nlifestyle: Relaxed and leisurely\nideology: Liberal\npolitical views: Democrat\nreligion: Religiously Unaffiliated\n",
+      "statement": "As someone living on a small fixed income with health issues and disabilities, I believe the government has a responsibility to guarantee universal access to affordable, comprehensive healthcare. No one should have to choose between medicine, rent, or caring for their grandkids. To me, a wealthy country should treat healthcare like a public good\u2014similar to public schools or fire departments\u2014so everyone, regardless of income or age, can get the care they need without fear of financial ruin."
+    },
+    {
+      "persona": "age: 29\nsex: Female\nrace: White alone\nancestry: Polish\nhousehold language: Other Indo-European languages\neducation: Master's degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: SCA-Individual And Family Services\noccupation category: CMS-Healthcare Social Workers\ndetailed job description: Provides social services to individuals and families in need\nincome: 143700.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children under 5 years only\nplace of birth: Poland\ncitizenship: U.S. citizen by naturalization\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Average, Extraversion: Extremely High, Agreeableness: Average, Neuroticism: High\ndefining quirks: Enjoys learning about new technology and gadgets\nmannerisms: Speaks quickly and with enthusiasm\npersonal time: Spends free time with family or volunteering\nlifestyle: Busy and family-oriented\nideology: Open-minded\npolitical views: Undisclosed\nreligion: Other Christian\n",
+      "statement": "As a healthcare social worker and a mom of young kids, I see every day how devastating gaps in coverage can be for families who are doing their best but still fall through the cracks. I believe the government has a responsibility to guarantee universal access to essential healthcare, including mental health, preventive care, and support services, so that no one\u2019s health depends on their income, job, or immigration story. At the same time, I\u2019d like to see a system that partners with private providers and encourages innovation and efficiency, rather than something that\u2019s purely bureaucratic. For me, universal healthcare is not just a policy preference\u2014it\u2019s a moral obligation in a society that calls itself compassionate and Christian."
+    },
+    {
+      "persona": "age: 34\nsex: Male\nrace: White alone\nancestry: Irish\nhousehold language: English only\neducation: Bachelor's degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: AGR-Crop Production\noccupation category: MGR-Farmers, Ranchers, And Other Agricultural Managers\ndetailed job description: Manages and oversees crop production activities\nincome: 195000.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children under 5 years only\nplace of birth: Florida/FL\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Low, Conscientiousness: Average, Extraversion: Extremely Low, Agreeableness: Average, Neuroticism: Average\ndefining quirks: Has a deep connection with nature\nmannerisms: Often seen wearing a hat\npersonal time: Spends free time with family or in nature\nlifestyle: Active and nature-oriented\nideology: Environmental Conservation\npolitical views: Green Party\nreligion: Religiously Unaffiliated\n",
+      "statement": "As someone who works the land and relies on my body to make a living, I think healthcare should be guaranteed for everyone, no matter their income or where they live. The government ought to provide universal coverage as a basic public service, the same way we treat clean water or environmental protections\u2014because healthy people are as essential to a sustainable society as healthy soil is to a farm. I don\u2019t care if it\u2019s done through a single-payer system or a strong public option, so long as no family has to choose between medical care and putting food on the table."
+    },
+    {
+      "persona": "age: 57\nsex: Male\nrace: White alone\nancestry: European\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: TRN-Truck Transportation\noccupation category: TRN-Driver/Sales Workers And Truck Drivers\ndetailed job description: Long-haul truck driver\nincome: 80000.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children under 5 years only\nplace of birth: Illinois/IL\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Low, Conscientiousness: Extremely Low, Extraversion: Extremely Low, Agreeableness: Extremely Low, Neuroticism: Low\ndefining quirks: Loves country music\nmannerisms: Quiet and reserved\npersonal time: Spends free time with family or at community events\nlifestyle: Simple and down-to-earth\nideology: Conservative\npolitical views: Republican\nreligion: Protestant\n",
+      "statement": "I don\u2019t think the government should run everyone\u2019s healthcare, but I do believe it has a role in making sure hardworking families can afford basic coverage and aren\u2019t ruined by medical bills. To me, that means keeping a private system in place, but stepping in to regulate costs, support folks who truly can\u2019t afford insurance, and protect people with serious conditions. I\u2019d rather see reforms that lower prices, increase competition, and cut waste than a big government takeover of the whole system."
+    },
+    {
+      "persona": "age: 88\nsex: Female\nrace: White alone\nancestry: Scandinavian\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Not in labor force\nclass of worker: Retired\nindustry category: Retired\noccupation category: Retired\ndetailed job description: Retired school teacher\nincome: 20400.0\nmarital status: Widowed\nhousehold type: Female householder, no spouse/partner present, living alone\nfamily presence and age: No family present\nplace of birth: Minnesota/MN\ncitizenship: Born in the United States\nveteran status: Non-veteran\ndisability: No disability\nhealth insurance: With health insurance coverage\nfertility: Not applicable\nhearing difficulty: No difficulty\nvision difficulty: No difficulty\ncognitive difficulty: No difficulty\nability to speak english: Speaks English very well\nbig five scores: Openness: Average, Conscientiousness: Average, Extraversion: Extremely High, Agreeableness: Average, Neuroticism: Extremely Low\ndefining quirks: Passionate about local cultural events and traditions\nmannerisms: Often seen with a smile, has a habit of humming old songs\npersonal time: Spends personal time volunteering at the local library and tending to her garden\nlifestyle: Leads a simple, active lifestyle with a strong connection to her community\nideology: Believes in the importance of community, education, and environmental conservation\npolitical views: Moderate with a lean towards progressive values\nreligion: Catholic\n",
+      "statement": "At my age, I\u2019ve seen how quickly a person\u2019s health\u2014and savings\u2014can change, and I don\u2019t believe anyone should have to choose between seeing a doctor and paying the heating bill. I think the government has a responsibility to guarantee basic, affordable healthcare for everyone, much like we do with public schools, while still allowing room for private options. Strong public programs like Medicare should be protected and improved so that people of all ages, not just seniors, can get preventive care and treatment without fear of financial ruin. To me, that\u2019s part of being a decent, caring society that values both community and human dignity."
+    },
+    {
+      "persona": "age: 11\nsex: Female\nrace: White alone\nancestry: Irish\nhousehold language: English only\neducation: Grade 4\nemployment status: Unemployed\nclass of worker: Not applicable\nindustry category: Not applicable\noccupation category: Not applicable\ndetailed job description: Student\nincome: Not applicable\nmarital status: Never married or under 15 years old\nhousehold type: Married couple household, no children of the householder less than 18\nfamily presence and age: With related children 5 to 17 years only\nplace of birth: Kentucky/KY\ncitizenship: Born in the United States\nveteran status: Not applicable\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Extremely High, Extraversion: Average, Agreeableness: High, Neuroticism: Extremely High\ndefining quirks: Loves to experiment with cooking and baking\nmannerisms: Often seen humming or singing to herself\npersonal time: Spends free time drawing or playing with her toys\nlifestyle: Active and playful\nideology: Too young to define\npolitical views: Too young to define\nreligion: Religiously Unaffiliated\n",
+      "statement": "I think the government should make sure everyone can go to the doctor or hospital when they\u2019re sick, even if their family doesn\u2019t have a lot of money, because health feels like something everyone deserves. Kids shouldn\u2019t have to worry about whether their parents can afford medicine or checkups, so the government should help pay for or organize healthcare so it\u2019s fair and easy to get for all families."
+    },
+    {
+      "persona": "age: 49\nsex: Male\nrace: Black or African American alone\nancestry: African\nhousehold language: English only\neducation: 1 or more years of college credit, no degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: RET-Building Material And Supplies Dealers\noccupation category: SAL-Retail Salespersons\ndetailed job description: Assists customers in finding and purchasing building materials and supplies\nincome: 149000.0\nmarital status: Divorced\nhousehold type: Male householder, no spouse/partner present, only nonrelatives present\nfamily presence and age: No family\nplace of birth: Alabama/AL\ncitizenship: Born in the United States\nveteran status: On active duty in the past, but not now\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely High, Conscientiousness: High, Extraversion: High, Agreeableness: Low, Neuroticism: Average\ndefining quirks: Enjoys woodworking in his spare time\nmannerisms: Often taps his foot when thinking\npersonal time: Spends free time in his woodworking shop or watching sports\nlifestyle: Active and outdoorsy\nideology: Conservative\npolitical views: Republican\nreligion: Protestant\n",
+      "statement": "I believe everyone should be able to see a doctor and get emergency care without going broke, but I don\u2019t think the answer is a big, one-size-fits-all government system. The government\u2019s role should be to set fair rules, protect people with preexisting conditions, and provide a safety net for those who truly can\u2019t afford coverage, while still letting private insurers and employers compete and innovate. We ought to cut waste, fraud, and red tape, and give people more control over their own plans and doctors instead of putting everything in Washington\u2019s hands."
+    },
+    {
+      "persona": "age: 38\nsex: Male\nrace: White\nancestry: Irish\nhousehold language: English\neducation: Doctorate degree\nemployment status: Employed\nclass of worker: Private\nindustry category: Outpatient Care Centers\noccupation category: Physical Therapist\ndetailed job description: Provides therapy to patients with physical disabilities\nincome: 108400\nmarital status: Married\nhousehold type: Married couple household, no children\nfamily presence and age: No related children\nplace of birth: Oregon\ncitizenship: US Citizen\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: Private\nbig five scores: Openness: High, Conscientiousness: Average, Extraversion: High, Agreeableness: Extremely Low, Neuroticism: Extremely Low\ndefining quirks: Enjoys bird-watching in his free time\nmannerisms: Often uses hand gestures while speaking\npersonal time: Spends free time in nature or reading\nlifestyle: Active and health-conscious\nideology: Liberal\npolitical views: Democrat\nreligion: Protestant\n",
+      "statement": "As a physical therapist in an outpatient clinic, I see every day how lack of coverage or high deductibles delay care and ultimately make patients sicker and treatment more expensive. I believe the government should guarantee universal access to a basic, comprehensive level of healthcare\u2014whether through a public option or single-payer\u2014while still allowing private plans on top for those who want them. Healthcare is a fundamental service, like public education or clean water, and no one should have to choose between medical treatment and financial stability. A universal system would also make it easier for providers like me to focus on patient outcomes instead of navigating a maze of insurance barriers."
+    },
+    {
+      "persona": "age: 26\nsex: Male\nrace: White alone\nancestry: Irish\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: MFG-Plastics Product\noccupation category: PRD-Extruding, Forming, Pressing, And Compacting Machine Setters, Operators, And Tenders\ndetailed job description: Operates machines to produce plastic products\nincome: 42000.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children under 5 years only\nplace of birth: Wisconsin/WI\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Average, Extraversion: Average, Agreeableness: Low, Neuroticism: Extremely Low\ndefining quirks: Enjoys experimenting with spicy food\nmannerisms: Often taps his foot when thinking\npersonal time: Spends free time with family or cooking\nlifestyle: Active and family-oriented\nideology: Conservative\npolitical views: Republican\nreligion: Protestant\n",
+      "statement": "I think the government should make sure basic healthcare is affordable and accessible, especially for kids and working families, but not run the whole system. I like having private insurance through my job and want to keep choice and competition, with the government stepping in mainly to regulate costs, protect people with serious conditions, and provide a safety net for those who truly can\u2019t afford coverage."
+    },
+    {
+      "persona": "age: 55\nsex: Male\nrace: Some Other Race alone\nancestry: Mexican\nhousehold language: Spanish\neducation: Kindergarten\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: CON-Construction\noccupation category: CON-Construction Laborers\ndetailed job description: Performs physical labor on construction sites\nincome: 209000.0\nmarital status: Separated\nhousehold type: Male householder, no spouse/partner present, with relatives, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: Mexico\ncitizenship: U.S. citizen by naturalization\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely High, Conscientiousness: Extremely High, Extraversion: Average, Agreeableness: Low, Neuroticism: Average\ndefining quirks: Enjoys traditional Mexican music and entertainment\nmannerisms: Has cultural or regional idiosyncrasies from Mexico\npersonal time: Spends personal time in religious activities or helping others\nlifestyle: Simple and hardworking\nideology: Conservative\npolitical views: Republican\nreligion: Protestant\n",
+      "statement": "As someone who works hard with my hands and has seen how one illness can ruin a family, I believe the government should make sure basic healthcare is affordable and accessible to everyone, but not run the whole system. I think the government\u2019s job is to set fair rules, help people who truly can\u2019t afford care, and keep insurance companies honest, while letting private doctors and businesses compete so we have choice and quality."
+    },
+    {
+      "persona": "age: 86\nsex: Female\nrace: White alone\nancestry: Polish\nhousehold language: Other Indo-European languages\neducation: Regular high school diploma\nemployment status: Not in labor force\nclass of worker: Private\nindustry category: Manufacturing\noccupation category: Retired\ndetailed job description: Retired, previously worked in the manufacturing industry\nincome: 27000.0\nmarital status: Widowed\nhousehold type: Female householder, no spouse/partner present, living alone\nfamily presence and age: No family\nplace of birth: Poland\ncitizenship: Born abroad of U.S. citizen parent or parents\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Low, Conscientiousness: Average, Extraversion: Average, Agreeableness: Average, Neuroticism: Extremely Low\ndefining quirks: Collects vintage teapots\nmannerisms: Often uses hand gestures when speaking\npersonal time: Tending to her garden and reading books\nlifestyle: Quiet and simple\nideology: Conservative\npolitical views: Republican\nreligion: Protestant\n",
+      "statement": "I believe the government should make sure every American has access to basic, affordable healthcare, especially seniors and vulnerable people, but it should do so by strengthening programs like Medicare and supporting private options, not by running everything itself. We worked hard and paid into the system, so there should be a safety net, but families, churches, and communities should still play the main role in caring for one another, with the government as a backstop rather than the first resort."
+    },
+    {
+      "persona": "age: 95\nsex: Female\nrace: White alone\nancestry: Irish\nhousehold language: Other Indo-European languages\neducation: 1 or more years of college credit, no degree\nemployment status: Not in labor force\nclass of worker: Private\nindustry category: Healthcare\noccupation category: Nurse\ndetailed job description: Retired nurse\nincome: 47400.0\nmarital status: Widowed\nhousehold type: Female householder, no spouse/partner present, living alone\nfamily presence and age: No family\nplace of birth: Ireland\ncitizenship: U.S. citizen by naturalization\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: High, Conscientiousness: Average, Extraversion: High, Agreeableness: Average, Neuroticism: High\ndefining quirks: Loves cooking traditional Irish meals\nmannerisms: Speaks with a distinct Irish accent\npersonal time: Volunteering at a local community center\nlifestyle: Active and community-oriented\nideology: Liberal\npolitical views: Democrat\nreligion: Religiously Unaffiliated\n",
+      "statement": "After a lifetime in nursing, I\u2019ve seen too many people delay or skip care because they couldn\u2019t afford it, and that\u2019s simply wrong in a country as wealthy as ours. I believe the government has a responsibility to guarantee universal access to healthcare\u2014through a strong public system or public option\u2014so no one is left out due to income, age, or preexisting conditions. Healthcare should be treated as a basic right, not a privilege tied to employment or luck, and public policy ought to reflect that."
+    },
+    {
+      "persona": "age: 13\nsex: Male\nrace: White\nancestry: Irish\nhousehold language: English\neducation: 7th Grade\nemployment status: Unemployed\nclass of worker: Not Applicable\nindustry category: Not Applicable\noccupation category: Student\ndetailed job description: Attends middle school, participates in school activities\nincome: Not Applicable\nmarital status: Single\nhousehold type: Married couple household with children\nfamily presence and age: With related children under 5 years and 5 to 17 years\nplace of birth: Wisconsin/WI\ncitizenship: US Citizen\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: Extremely High, Extraversion: High, Agreeableness: Extremely Low, Neuroticism: Extremely Low\ndefining quirks: Enjoys learning about different cultures\nmannerisms: Often seen with a sketchbook\npersonal time: Spends free time drawing or playing video games\nlifestyle: Active and creative\nideology: Too young to define\npolitical views: Too young to define\nreligion: Catholic\n",
+      "statement": "I think the government should make sure everyone can get basic healthcare, because it\u2019s not really fair if some people get sick and can\u2019t see a doctor just because they don\u2019t have enough money. My family has insurance, but I know not everyone is that lucky, and it feels wrong to just ignore them. The government doesn\u2019t have to control everything, but it should at least set up rules and programs so that all kids and families can go to the doctor and get medicine when they need it."
+    }
+  ],
+  "preference_matrix": [
+    [
+      "11",
+      "11",
+      "11",
+      "19",
+      "11"
+    ],
+    [
+      "5",
+      "14",
+      "3",
+      "12",
+      "18"
+    ],
+    [
+      "18",
+      "18",
+      "9",
+      "11",
+      "14"
+    ],
+    [
+      "19",
+      "6",
+      "8",
+      "18",
+      "5"
+    ],
+    [
+      "14",
+      "7",
+      "7",
+      "14",
+      "2"
+    ],
+    [
+      "12",
+      "2",
+      "5",
+      "3",
+      "3"
+    ],
+    [
+      "3",
+      "19",
+      "14",
+      "9",
+      "7"
+    ],
+    [
+      "2",
+      "3",
+      "18",
+      "8",
+      "9"
+    ],
+    [
+      "9",
+      "15",
+      "2",
+      "5",
+      "6"
+    ],
+    [
+      "7",
+      "9",
+      "6",
+      "2",
+      "1"
+    ],
+    [
+      "6",
+      "5",
+      "12",
+      "7",
+      "8"
+    ],
+    [
+      "8",
+      "8",
+      "1",
+      "6",
+      "19"
+    ],
+    [
+      "0",
+      "0",
+      "19",
+      "13",
+      "12"
+    ],
+    [
+      "10",
+      "4",
+      "16",
+      "10",
+      "0"
+    ],
+    [
+      "1",
+      "16",
+      "10",
+      "4",
+      "10"
+    ],
+    [
+      "4",
+      "12",
+      "0",
+      "0",
+      "4"
+    ],
+    [
+      "13",
+      "10",
+      "4",
+      "15",
+      "13"
+    ],
+    [
+      "15",
+      "1",
+      "13",
+      "16",
+      "15"
+    ],
+    [
+      "16",
+      "13",
+      "15",
+      "17",
+      "16"
+    ],
+    [
+      "17",
+      "17",
+      "17",
+      "1",
+      "17"
+    ]
+  ],
+  "evaluations": [
+    {
+      "persona": "age: 57\nsex: Male\nrace: White alone\nancestry: Swedish\nhousehold language: English only\neducation: Bachelor's degree\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: PRF-Architectural, Engineering, And Related Services\noccupation category: ENG-Civil Engineers\ndetailed job description: Designs and supervises large construction projects\nincome: 81600.0\nmarital status: Never married\nhousehold type: Cohabiting couple household, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: Minnesota/MN\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: High, Conscientiousness: Average, Extraversion: High, Agreeableness: High, Neuroticism: Extremely High\ndefining quirks: Enjoys solitary hikes in nature\nmannerisms: Speaks with a distinctive Minnesotan accent\npersonal time: Spends free time hiking or reading\nlifestyle: Private and independent, enjoys solitude\nideology: Libertarian\npolitical views: Independent\nreligion: Protestant\n",
+      "ratings": [
+        5,
+        5,
+        3,
+        3,
+        5,
+        3,
+        4,
+        3,
+        3,
+        3,
+        5,
+        4,
+        3,
+        5,
+        3,
+        5,
+        5,
+        4,
+        2,
+        4
+      ]
+    },
+    {
+      "persona": "age: 45\nsex: Male\nrace: Chinese, except Taiwanese, alone\nancestry: Chinese\nhousehold language: Asian and Pacific Island languages\neducation: Grade 8\nemployment status: Civilian employed, at work\nclass of worker: Self-employed in own not incorporated business, professional practice, or farm\nindustry category: ENT-Restaurants And Other Food Services\noccupation category: EAT-Chefs And Head Cooks\ndetailed job description: Manages the kitchen, creates menus, and oversees food preparation in his restaurant\nincome: 9000.0\nmarital status: Married\nhousehold type: Married couple household with children of the householder less than 18\nfamily presence and age: With related children 5 to 17 years only\nplace of birth: China\ncitizenship: Not a U.S. citizen\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: High, Conscientiousness: Average, Extraversion: Extremely Low, Agreeableness: Extremely Low, Neuroticism: Average\ndefining quirks: Speaks in a mix of his native language and English, uses food-related metaphors\nmannerisms: Constantly tastes and adjusts the food he cooks\npersonal time: Spends most of his time in his restaurant or with his family\nlifestyle: Busy and family-oriented\nideology: Hard work, Family values, Community service\npolitical views: Supports policies that favor small businesses and immigrant rights\nreligion: Catholic\n",
+      "ratings": [
+        4,
+        4,
+        5,
+        5,
+        4,
+        5,
+        4,
+        4,
+        5,
+        5,
+        4,
+        5,
+        5,
+        4,
+        5,
+        4,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "persona": "age: 62\nsex: Female\nrace: White alone\nancestry: German\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Not in labor force\nclass of worker: Self-employed in own not incorporated business, professional practice, or farm\nindustry category: SRV-Beauty Salons\noccupation category: PRS-Hairdressers, Hairstylists, And Cosmetologists\ndetailed job description: Owns and operates a small beauty salon, providing hair styling and beauty services\nincome: 54000.0\nmarital status: Married\nhousehold type: Married couple household, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: Indiana/IN\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Average, Conscientiousness: High, Extraversion: Low, Agreeableness: Extremely Low, Neuroticism: Low\ndefining quirks: Passionate about health and wellness, often shares natural beauty tips with clients\nmannerisms: Speaks in a soft, soothing voice\npersonal time: Spends free time in her garden or practicing yoga\nlifestyle: Health-conscious and balanced\nideology: Liberal\npolitical views: Democrat\nreligion: Religiously Unaffiliated\n",
+      "ratings": [
+        4,
+        4,
+        5,
+        5,
+        3,
+        5,
+        5,
+        5,
+        5,
+        5,
+        4,
+        5,
+        5,
+        2,
+        5,
+        3,
+        4,
+        3,
+        5,
+        5
+      ]
+    },
+    {
+      "persona": "age: 19\nsex: Male\nrace: White alone\nancestry: Irish\nhousehold language: English\neducation: 1 or more years of college credit, no degree\nemployment status: Not in labor force\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: WHL-Lumber And Other Construction Materials Merchant Wholesalers\noccupation category: TRN-Driver/Sales Workers And Truck Drivers\ndetailed job description: Delivers construction materials and assists with sales\nincome: -60000.0\nmarital status: Never married or under 15 years old\nhousehold type: One-person household\nfamily presence and age: No family\nplace of birth: New York/NY\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely Low, Conscientiousness: Average, Extraversion: Extremely Low, Agreeableness: Low, Neuroticism: Average\ndefining quirks: Enjoys outdoor activities\nmannerisms: Tends to speak in a low, quiet voice\npersonal time: Spends free time outdoors or watching sports\nlifestyle: Active and outdoorsy\nideology: Conservative\npolitical views: Republican\nreligion: Catholic\n",
+      "ratings": [
+        5,
+        5,
+        2,
+        2,
+        5,
+        2,
+        4,
+        2,
+        3,
+        2,
+        5,
+        2,
+        3,
+        5,
+        2,
+        5,
+        5,
+        5,
+        2,
+        3
+      ]
+    },
+    {
+      "persona": "age: 51\nsex: Female\nrace: White alone\nancestry: European\nhousehold language: English only\neducation: Regular high school diploma\nemployment status: Civilian employed, at work\nclass of worker: Employee of a private for-profit company or business, or of an individual, for wages, salary, or commissions\nindustry category: MED-Residential Care Facilities, Except Skilled Nursing Facilities\noccupation category: OFF-Receptionists And Information Clerks\ndetailed job description: Manages the front desk at a residential care facility\nincome: 115900.0\nmarital status: Married\nhousehold type: Married couple household, no children of the householder less than 18\nfamily presence and age: No related children\nplace of birth: Utah/UT\ncitizenship: Born in the United States\nveteran status: Non-Veteran\ndisability: None\nhealth insurance: With health insurance coverage\nbig five scores: Openness: Extremely High, Conscientiousness: Average, Extraversion: Extremely Low, Agreeableness: Average, Neuroticism: Average\ndefining quirks: Loves to go hiking and bird watching\nmannerisms: Always wears glasses\npersonal time: Spends free time volunteering at local community events\nlifestyle: Active and community-oriented\nideology: Conservative\npolitical views: Republican\nreligion: Religiously Unaffiliated\n",
+      "ratings": [
+        5,
+        5,
+        3,
+        3,
+        5,
+        2,
+        4,
+        2,
+        3,
+        2,
+        5,
+        3,
+        4,
+        5,
+        3,
+        5,
+        5,
+        5,
+        2,
+        4
+      ]
+    }
+  ],
+  "pvc": [
+    "11",
+    "19"
+  ],
+  "pvc_size": 2,
+  "pvc_percentage": 10.0,
+  "method_results": {
+    "plurality": {
+      "winner": "11",
+      "in_pvc": true
+    },
+    "borda": {
+      "winner": "11",
+      "in_pvc": true
+    },
+    "irv": {
+      "winner": "11",
+      "in_pvc": true
+    },
+    "rankedpairs": {
+      "winner": "11",
+      "in_pvc": true
+    },
+    "successive_veto": {
+      "winner": "11",
+      "in_pvc": true
+    },
+    "chatgpt": {
+      "winner": "6",
+      "in_pvc": false
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "in_pvc": true
+    },
+    "chatgpt_profiles": {
+      "winner": "6",
+      "in_pvc": false
+    },
+    "chatgpt_rankings_profiles": {
+      "winner": "11",
+      "in_pvc": true
+    }
+  }
+}
