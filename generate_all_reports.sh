@@ -13,14 +13,16 @@ mkdir -p outputs/tables outputs/figures
 echo "1. Generating PVC winner comparison table..."
 python -m src.large_scale.generate_pvc_table \
   --results-dir data/large_scale/results \
-  --output-dir outputs/tables
+  --latex-output outputs/tables/pvc_winner_table.tex \
+  --csv-output outputs/tables/pvc_winner_table.csv
 echo ""
 
 # Generate PVC size table
 echo "2. Generating PVC size table..."
 python -m src.large_scale.generate_pvc_size_table \
   --results-dir data/large_scale/results \
-  --output-dir outputs/tables
+  --latex-output outputs/tables/pvc_size_table.tex \
+  --csv-output outputs/tables/pvc_size_table.csv
 echo ""
 
 # Generate histogram plots

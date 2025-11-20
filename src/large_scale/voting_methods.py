@@ -1,5 +1,5 @@
 """
-Evaluate alternative voting methods using VoteKit and OpenAI (with Schulze and ChatGPT variants).
+Evaluate alternative voting methods using VoteKit and OpenAI (with ChatGPT variants and successive veto).
 """
 
 import json
@@ -13,7 +13,8 @@ def evaluate_all_methods(
     preference_matrix: List[List[str]],
     statements: List[Dict],
     discriminative_personas: List[str],
-    openai_client: OpenAI
+    openai_client: OpenAI,
+    pvc: List[str] = None
 ) -> Dict:
     """
     Evaluate all voting methods on the preference rankings.
@@ -23,6 +24,7 @@ def evaluate_all_methods(
         statements: List of statement dicts
         discriminative_personas: List of discriminative persona strings (for ChatGPT+Profiles)
         openai_client: OpenAI client instance
+        pvc: List of statement indices in the PVC (precomputed)
     
     Returns:
         Dict with winner for each method
@@ -105,6 +107,20 @@ def evaluate_all_methods(
     except Exception as e:
         results["rankedpairs"] = {"winner": None, "error": str(e), "in_pvc": None}
     
+    # Successive Veto (always picks from PVC)
+    try:
+        from src.compute_pvc import compute_pvc
+        alternatives = [str(i) for i in range(m)]
+        successive_veto_winners = compute_pvc(preference_matrix, alternatives)
+        # Take first winner if multiple in PVC
+        successive_veto_winner = successive_veto_winners[0] if successive_veto_winners else None
+        results["successive_veto"] = {
+            "winner": successive_veto_winner,
+            "in_pvc": None  # Will be set after
+        }
+    except Exception as e:
+        results["successive_veto"] = {"winner": None, "error": str(e), "in_pvc": None}
+    
     # ChatGPT baseline (just sees statements)
     results["chatgpt"] = chatgpt_select_baseline(statements, openai_client)
     
@@ -122,6 +138,13 @@ def evaluate_all_methods(
     results["chatgpt_rankings_profiles"] = chatgpt_select_with_rankings_and_profiles(
         statements, preference_matrix, discriminative_personas, openai_client
     )
+    
+    # Update in_pvc status for all methods if PVC was provided
+    if pvc is not None:
+        pvc_set = set(pvc)
+        for method, result in results.items():
+            if result.get("winner") is not None and "error" not in result:
+                results[method]["in_pvc"] = result["winner"] in pvc_set
     
     return results
 

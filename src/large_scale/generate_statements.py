@@ -77,7 +77,7 @@ def generate_all_statements(
     topic: str,
     personas: List[str],
     openai_client: OpenAI,
-    max_workers: int = 10
+    max_workers: int = 20
 ) -> List[Dict]:
     """
     Generate statements from all personas on a given topic (parallelized).
@@ -86,7 +86,7 @@ def generate_all_statements(
         topic: The topic/question to generate statements about
         personas: List of persona string descriptions
         openai_client: OpenAI client instance
-        max_workers: Maximum number of parallel workers (default: 10)
+        max_workers: Maximum number of parallel workers (default: 20)
     
     Returns:
         List of statement dicts, each with:

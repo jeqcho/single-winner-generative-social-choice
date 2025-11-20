@@ -4,14 +4,34 @@ Generate LaTeX and CSV tables showing which voting methods selected PVC elements
 
 import csv
 import json
-import os
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Optional
+
+# Global cache for topic mappings
+_TOPIC_MAPPINGS: Optional[Dict[str, str]] = None
+
+
+def load_topic_mappings() -> Dict[str, str]:
+    """Load topic mappings from topic_mappings.json."""
+    global _TOPIC_MAPPINGS
+    if _TOPIC_MAPPINGS is not None:
+        return _TOPIC_MAPPINGS
+    
+    mapping_file = Path("topic_mappings.json")
+    if not mapping_file.exists():
+        print("Warning: topic_mappings.json not found, using fallback shortening")
+        _TOPIC_MAPPINGS = {}
+        return _TOPIC_MAPPINGS
+    
+    with open(mapping_file, 'r') as f:
+        _TOPIC_MAPPINGS = json.load(f)
+    
+    return _TOPIC_MAPPINGS
 
 
 def load_results(results_dir: str = "data/large_scale/results") -> List[Dict]:
     """Load all result JSON files."""
-    results = []
+    results: List[Dict] = []
     results_path = Path(results_dir)
     
     if not results_path.exists():
@@ -27,7 +47,14 @@ def load_results(results_dir: str = "data/large_scale/results") -> List[Dict]:
 
 
 def shorten_topic(topic: str, max_length: int = 50) -> str:
-    """Shorten topic for table display, preserving key words."""
+    """Shorten topic using topic_mappings.json."""
+    mappings = load_topic_mappings()
+    
+    # Try to find exact match in mappings
+    if topic in mappings:
+        return mappings[topic]
+    
+    # Fallback to old behavior if not found
     if len(topic) <= max_length:
         return topic
     
@@ -192,7 +219,7 @@ def generate_pvc_table(
     print(f"CSV table written to {csv_output}")
     
     # Print summary
-    print(f"\nSummary:")
+    print("\nSummary:")
     print(f"Total topics: {total_topics}")
     for method in methods:
         count = method_counts[method]

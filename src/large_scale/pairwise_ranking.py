@@ -200,13 +200,27 @@ def get_preference_matrix_pairwise(
     logger.info(f"Getting preference rankings from {n_personas} personas for {n_statements} statements")
     logger.info(f"Expected comparisons: ~{expected_comparisons_per_persona} per persona, ~{total_expected} total")
     
-    # Get ranking from each persona
-    rankings = []
+    # Get ranking from each persona (parallelized)
     from tqdm import tqdm
-    for i, persona in enumerate(tqdm(personas, desc="Ranking personas", unit="persona")):
-        logger.info(f"Processing persona {i+1}/{n_personas}")
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    
+    def process_persona(persona_idx_pair):
+        """Process a single persona and return (index, ranking)."""
+        idx, persona = persona_idx_pair
+        logger.info(f"Processing persona {idx+1}/{n_personas}")
         ranking = rank_statements_pairwise(persona, statements, topic, openai_client)
-        rankings.append(ranking)
+        return idx, ranking
+    
+    rankings = [None] * n_personas
+    with ThreadPoolExecutor(max_workers=20) as executor:
+        futures = {
+            executor.submit(process_persona, (i, persona)): i 
+            for i, persona in enumerate(personas)
+        }
+        
+        for future in tqdm(as_completed(futures), total=len(futures), desc="Ranking personas", unit="persona"):
+            idx, ranking = future.result()
+            rankings[idx] = ranking
     
     # Convert to preference matrix format: preferences[rank][voter]
     preferences = []

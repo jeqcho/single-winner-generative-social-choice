@@ -29,6 +29,11 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
+
+# Suppress verbose HTTP request logs
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("openai").setLevel(logging.WARNING)
+
 logger.info(f"Logging to {log_file}")
 
 from src.large_scale.persona_loader import (
@@ -41,7 +46,8 @@ from src.large_scale.generate_statements import generate_all_statements, save_st
 from src.large_scale.discriminative_ranking import get_discriminative_rankings, save_preferences, load_preferences
 from src.large_scale.evaluative_scoring import get_all_ratings, save_evaluations, load_evaluations
 from src.large_scale.voting_methods import evaluate_all_methods
-from src.compute_pvc import compute_pvc
+from src.large_scale.biclique import compute_proportional_veto_core
+from src.compute_pvc import compute_pvc  # For successive veto
 
 
 def slugify(text: str) -> str:
@@ -136,32 +142,48 @@ def run_experiment(
         save_evaluations(evaluations, topic_slug)
     logger.info(f"  ⏱️  Step 3 completed in {time.time() - step_start:.1f}s")
     
-    # Step 4: Compute PVC
+    # Step 4: Compute PVC using biclique algorithm
     logger.info(f"\n🎯 Step 4: Computing PVC...")
     step_start = time.time()
-    alternatives = [str(i) for i in range(len(statements))]
-    pvc_result = compute_pvc(preference_matrix, alternatives)
+    
+    # Convert preference matrix to profile format for biclique algorithm
+    # preference_matrix[rank][voter] -> profile[voter][rank]
+    n_statements = len(preference_matrix)
+    n_voters = len(preference_matrix[0]) if preference_matrix else 0
+    
+    profile = []
+    for voter_idx in range(n_voters):
+        voter_ranking = []
+        for rank in range(n_statements):
+            statement_idx = preference_matrix[rank][voter_idx]
+            voter_ranking.append(statement_idx)
+        profile.append(voter_ranking)
+    
+    # Compute PVC using the biclique flow algorithm
+    pvc_result_obj = compute_proportional_veto_core(profile)
+    pvc_result = sorted(pvc_result_obj.core)  # Convert set to sorted list
     pvc_size = len(pvc_result)
     pvc_percentage = (pvc_size / len(statements) * 100) if statements else 0
+    
     logger.info(f"  PVC result: {pvc_result}")
     logger.info(f"  PVC size: {pvc_size} / {len(statements)} ({pvc_percentage:.1f}%)")
+    logger.info(f"  PVC parameters: r={pvc_result_obj.r}, t={pvc_result_obj.t}, alpha={pvc_result_obj.alpha}")
     logger.info(f"  ⏱️  Step 4 completed in {time.time() - step_start:.1f}s")
     
     # Step 5: Evaluate voting methods
     logger.info(f"\n🏆 Step 5: Evaluating voting methods...")
     step_start = time.time()
     method_results = evaluate_all_methods(
-        preference_matrix, statements, discriminative_personas, openai_client
+        preference_matrix, statements, discriminative_personas, openai_client, pvc=pvc_result
     )
     
-    # Check if winners are in PVC
-    pvc_set = set(pvc_result)
+    # Log results
     for method_name, method_result in method_results.items():
         winner = method_result.get("winner")
         if winner is not None:
-            method_result["in_pvc"] = winner in pvc_set
-            in_pvc_symbol = "✓" if method_result['in_pvc'] else "✗"
-            logger.info(f"  {in_pvc_symbol} {method_name}: winner={winner}, in_pvc={method_result['in_pvc']}")
+            in_pvc = method_result.get("in_pvc", False)
+            in_pvc_symbol = "✓" if in_pvc else "✗"
+            logger.info(f"  {in_pvc_symbol} {method_name}: winner={winner}, in_pvc={in_pvc}")
         else:
             logger.error(f"  ✗ {method_name}: no winner (error: {method_result.get('error', 'unknown')})")
     logger.info(f"  ⏱️  Step 5 completed in {time.time() - step_start:.1f}s")
