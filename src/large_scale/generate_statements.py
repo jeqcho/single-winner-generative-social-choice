@@ -54,7 +54,7 @@ Write a statement expressing your views on this topic. The statement should:
 Write only the statement, no additional commentary."""
 
         response = openai_client.responses.create(
-            model="gpt-5-nano",
+            model="gpt-5.1",
             input=[
                 {"role": "system", "content": f"You are a person with the characteristics described."},
                 {"role": "user", "content": prompt}

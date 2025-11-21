@@ -10,9 +10,11 @@ echo ""
 echo "Started at: $(date)"
 echo ""
 
-# Create timestamped log
+# Create timestamped log directory
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-LOG_FILE="logs/prod_gpt5nano_${TIMESTAMP}.log"
+LOG_DIR="logs/${TIMESTAMP}"
+mkdir -p "$LOG_DIR"
+LOG_FILE="${LOG_DIR}/prod_gpt5nano.log"
 
 # Step 1: Load/generate personas
 echo "📦 Step 1: Loading personas (900/50/50)..."

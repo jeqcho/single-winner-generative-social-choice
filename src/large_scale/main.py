@@ -14,10 +14,11 @@ from dotenv import load_dotenv
 from openai import OpenAI
 import logging
 
-# Create timestamped log file
-os.makedirs('logs', exist_ok=True)
+# Create timestamped log directory and file
 timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-log_file = f'logs/experiment_{timestamp}.log'
+log_dir = f'logs/{timestamp}'
+os.makedirs(log_dir, exist_ok=True)
+log_file = f'{log_dir}/experiment.log'
 
 # Set up logging
 logging.basicConfig(
@@ -72,7 +73,8 @@ def run_experiment(
     evaluative_personas: List[str],
     openai_client: OpenAI,
     output_dir: str = "data/large_scale/results",
-    skip_if_exists: bool = True
+    skip_if_exists: bool = True,
+    test_mode: bool = False
 ) -> Dict:
     """
     Run a single experiment for a topic.
@@ -104,42 +106,45 @@ def run_experiment(
         with open(output_path, 'r') as f:
             return json.load(f)
     
+    # Determine base directory based on test_mode
+    base_dir = "data/large_scale/test" if test_mode else "data/large_scale/prod"
+    
     # Step 1: Generate statements
     logger.info(f"\n📝 Step 1: Generating statements from {len(generative_personas)} generative personas...")
     step_start = time.time()
-    statements_path = f"data/large_scale/statements/{topic_slug}.json"
+    statements_path = f"{base_dir}/statements/{topic_slug}.json"
     if os.path.exists(statements_path):
         logger.info(f"  ✓ Loading existing statements from {statements_path}")
-        statements = load_statements(topic_slug)
+        statements = load_statements(topic_slug, input_dir=f"{base_dir}/statements")
     else:
         statements = generate_all_statements(topic, generative_personas, openai_client)
-        save_statements(statements, topic_slug)
+        save_statements(statements, topic_slug, output_dir=f"{base_dir}/statements")
     logger.info(f"  ⏱️  Step 1 completed in {time.time() - step_start:.1f}s")
     
     # Step 2: Get discriminative rankings
     logger.info(f"\n🗳️  Step 2: Getting preference rankings from {len(discriminative_personas)} discriminative personas...")
     step_start = time.time()
-    preferences_path = f"data/large_scale/preferences/{topic_slug}.json"
+    preferences_path = f"{base_dir}/preferences/{topic_slug}.json"
     if os.path.exists(preferences_path):
         logger.info(f"  ✓ Loading existing preferences from {preferences_path}")
-        preference_matrix = load_preferences(topic_slug)
+        preference_matrix = load_preferences(topic_slug, input_dir=f"{base_dir}/preferences")
     else:
         preference_matrix = get_discriminative_rankings(
             discriminative_personas, statements, topic, openai_client
         )
-        save_preferences(preference_matrix, topic_slug)
+        save_preferences(preference_matrix, topic_slug, output_dir=f"{base_dir}/preferences")
     logger.info(f"  ⏱️  Step 2 completed in {time.time() - step_start:.1f}s")
     
     # Step 3: Get evaluative ratings
     logger.info(f"\n⭐ Step 3: Getting Likert ratings from {len(evaluative_personas)} evaluative personas...")
     step_start = time.time()
-    evaluations_path = f"data/large_scale/evaluations/{topic_slug}.json"
+    evaluations_path = f"{base_dir}/evaluations/{topic_slug}.json"
     if os.path.exists(evaluations_path):
         logger.info(f"  ✓ Loading existing evaluations from {evaluations_path}")
-        evaluations = load_evaluations(topic_slug)
+        evaluations = load_evaluations(topic_slug, input_dir=f"{base_dir}/evaluations")
     else:
         evaluations = get_all_ratings(evaluative_personas, statements, topic, openai_client)
-        save_evaluations(evaluations, topic_slug)
+        save_evaluations(evaluations, topic_slug, output_dir=f"{base_dir}/evaluations")
     logger.info(f"  ⏱️  Step 3 completed in {time.time() - step_start:.1f}s")
     
     # Step 4: Compute PVC using biclique algorithm
@@ -267,7 +272,7 @@ def main():
     # Load or generate personas
     if args.load_personas:
         print("\nLoading existing persona splits...")
-        generative_personas, discriminative_personas, evaluative_personas = load_persona_splits()
+        generative_personas, discriminative_personas, evaluative_personas = load_persona_splits(test_mode=args.test_mode)
         
         # Verify counts match expected
         if len(generative_personas) != n_generative:
@@ -282,7 +287,7 @@ def main():
         generative_personas, discriminative_personas, evaluative_personas = split_personas(
             all_personas, n_generative, n_discriminative, n_evaluative
         )
-        save_persona_splits(generative_personas, discriminative_personas, evaluative_personas)
+        save_persona_splits(generative_personas, discriminative_personas, evaluative_personas, test_mode=args.test_mode)
     
     # Load topics
     topics = load_topics("topics.txt")
@@ -305,7 +310,8 @@ def main():
                 discriminative_personas,
                 evaluative_personas,
                 openai_client,
-                output_dir=args.output_dir
+                output_dir=args.output_dir,
+                test_mode=args.test_mode
             )
             if result:
                 all_results.append(result)

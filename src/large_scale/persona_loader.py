@@ -93,7 +93,8 @@ def save_persona_splits(
     generative: List[str],
     discriminative: List[str],
     evaluative: List[str],
-    output_dir: str = "data/personas"
+    output_dir: str = "data/personas",
+    test_mode: bool = False
 ) -> None:
     """
     Save persona splits to JSON files.
@@ -102,9 +103,13 @@ def save_persona_splits(
         generative: List of generative persona strings
         discriminative: List of discriminative persona strings
         evaluative: List of evaluative persona strings
-        output_dir: Directory to save the splits
+        output_dir: Base directory to save persona splits (will add /test or /prod)
+        test_mode: If True, save to test/ subdirectory, otherwise prod/
     """
-    os.makedirs(output_dir, exist_ok=True)
+    # Determine subdirectory based on mode
+    subdir = "test" if test_mode else "prod"
+    full_output_dir = os.path.join(output_dir, subdir)
+    os.makedirs(full_output_dir, exist_ok=True)
     
     splits = {
         "generative.json": generative,
@@ -113,27 +118,35 @@ def save_persona_splits(
     }
     
     for filename, personas in splits.items():
-        filepath = os.path.join(output_dir, filename)
+        filepath = os.path.join(full_output_dir, filename)
         with open(filepath, 'w') as f:
             json.dump(personas, f, indent=2)
         print(f"Saved {len(personas)} personas to {filepath}")
+    
+    print(f"\nPersona splits saved to {full_output_dir}")
 
 
 def load_persona_splits(
-    input_dir: str = "data/personas"
+    input_dir: str = "data/personas",
+    test_mode: bool = False
 ) -> Tuple[List[str], List[str], List[str]]:
     """
     Load persona splits from JSON files.
     
     Args:
-        input_dir: Directory containing the persona split files
+        input_dir: Base directory containing persona split files
+        test_mode: If True, load from test/ subdirectory, otherwise prod/
     
     Returns:
         Tuple of (generative, discriminative, evaluative) persona lists
     """
-    generative_path = os.path.join(input_dir, "generative.json")
-    discriminative_path = os.path.join(input_dir, "discriminative.json")
-    evaluative_path = os.path.join(input_dir, "evaluative.json")
+    # Determine subdirectory based on mode
+    subdir = "test" if test_mode else "prod"
+    full_input_dir = os.path.join(input_dir, subdir)
+    
+    generative_path = os.path.join(full_input_dir, "generative.json")
+    discriminative_path = os.path.join(full_input_dir, "discriminative.json")
+    evaluative_path = os.path.join(full_input_dir, "evaluative.json")
     
     with open(generative_path, 'r') as f:
         generative = json.load(f)
