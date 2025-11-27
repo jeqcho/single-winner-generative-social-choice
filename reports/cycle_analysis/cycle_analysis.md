@@ -67,8 +67,6 @@ Laws concerning abortion should be guided by the belief that life is sacred from
 - Statement 7 is preferred to Statement 90
 - Statement 90 is preferred to Statement 13
 
-This creates a logical inconsistency where preferences form a cycle rather than a clear hierarchy.
-
 ---
 
 ## pairwise_100_abortion_persona_40.csv
@@ -127,8 +125,6 @@ Laws concerning abortion should balance a woman’s personal freedom with our sh
 - Statement 51 is preferred to Statement 12
 - Statement 12 is preferred to Statement 0
 
-This creates a logical inconsistency where preferences form a cycle rather than a clear hierarchy.
-
 ---
 
 ## pairwise_100_abortion_persona_7.csv
@@ -186,8 +182,6 @@ Laws about abortion should respect a woman’s right to make decisions about her
 - Statement 0 is preferred to Statement 1
 - Statement 1 is preferred to Statement 22
 - Statement 22 is preferred to Statement 0
-
-This creates a logical inconsistency where preferences form a cycle rather than a clear hierarchy.
 
 ---
 

@@ -54,7 +54,7 @@ def main():
         }
 
     # Write markdown report
-    output_path = Path("cycle_analysis.md")
+    output_path = Path("reports/cycle_analysis/cycle_analysis.md")
     with open(output_path, 'w') as f:
         f.write("# Preference Cycle Analysis\n\n")
         f.write("Analysis of preference cycles found in abortion pairwise preference data.\n\n")
@@ -86,7 +86,6 @@ def main():
                 next_i = (i + 1) % len(cycle_data)
                 f.write(f"- Statement {cycle_data[i]['id']} is preferred to Statement {cycle_data[next_i]['id']}\n")
             f.write("\n")
-            f.write("This creates a logical inconsistency where preferences form a cycle rather than a clear hierarchy.\n\n")
             f.write("---\n\n")
 
     print(f"\n✓ Markdown report written to {output_path}")
