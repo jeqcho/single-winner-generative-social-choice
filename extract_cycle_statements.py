@@ -17,7 +17,7 @@ def extract_cycle_statements(statements_data, cycle_ids):
         if stmt_id < len(statements_data):
             result.append({
                 'id': stmt_id,
-                'statement': statements_data[stmt_id]
+                'statement': statements_data[stmt_id]['statement']
             })
     return result
 
