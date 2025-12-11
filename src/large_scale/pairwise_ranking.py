@@ -1,8 +1,9 @@
 """
-Implement pairwise comparison-based ranking using merge sort.
+Implement pairwise comparison-based ranking using Python's built-in sort.
 """
 
 import json
+from functools import cmp_to_key
 from typing import List, Dict, Callable
 from openai import OpenAI
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
@@ -132,7 +133,7 @@ def rank_statements_pairwise(
     openai_client: OpenAI
 ) -> List[int]:
     """
-    Rank statements using pairwise comparisons with merge sort.
+    Rank statements using pairwise comparisons with Python's built-in sort.
     
     Args:
         persona: Persona string description
@@ -157,8 +158,8 @@ def rank_statements_pairwise(
         comparison_count[0] += 1
         return pairwise_compare(persona, a, b, topic, openai_client)
     
-    # Sort using merge sort
-    sorted_statements = merge_sort_with_comparisons(indexed_statements, compare_with_persona)
+    # Sort using Python's built-in sort with cmp_to_key
+    sorted_statements = sorted(indexed_statements, key=cmp_to_key(compare_with_persona))
     
     # Extract indices
     ranking = [stmt["index"] for stmt in sorted_statements]
