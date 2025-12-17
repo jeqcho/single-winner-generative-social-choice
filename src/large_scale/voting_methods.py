@@ -6,7 +6,7 @@ import json
 from typing import List, Dict
 from openai import OpenAI
 from votekit import RankProfile, RankBallot
-from votekit.elections import Plurality, Borda, IRV, RankedPairs
+from votekit.elections import Plurality, Borda, IRV, RankedPairs, Schulze
 
 
 def evaluate_all_methods(
@@ -94,6 +94,18 @@ def evaluate_all_methods(
         }
     except Exception as e:
         results["irv"] = {"winner": None, "error": str(e), "in_pvc": None}
+    
+    # Schulze method (Condorcet method)
+    try:
+        schulze_election = Schulze(profile, tiebreak="random")
+        elected = schulze_election.get_elected()
+        winner = list(elected[0])[0] if elected and elected[0] else None
+        results["schulze"] = {
+            "winner": extract_winner_idx(winner),
+            "in_pvc": None
+        }
+    except Exception as e:
+        results["schulze"] = {"winner": None, "error": str(e), "in_pvc": None}
     
     # RankedPairs method (Condorcet method, similar to Schulze)
     try:
@@ -393,4 +405,106 @@ def _execute_chatgpt_selection(prompt: str, openai_client: OpenAI) -> Dict:
         "winner": str(selected_idx) if selected_idx is not None else None,
         "in_pvc": None
     }
+
+
+def evaluate_six_methods(
+    preference_matrix: List[List[str]],
+    statements: List[Dict],
+    openai_client: OpenAI,
+    pvc: List = None
+) -> Dict:
+    """
+    Evaluate the 6 voting methods: Plurality, Borda, IRV, ChatGPT, Schulze, Veto by Consumption.
+    
+    Args:
+        preference_matrix: Matrix where preferences[rank][voter] is alternative index at rank 'rank' for voter 'voter'
+        statements: List of statement dicts
+        openai_client: OpenAI client instance
+        pvc: List of statement indices in the PVC (precomputed)
+    
+    Returns:
+        Dict with winner for each method
+    """
+    m = len(preference_matrix)  # number of alternatives (ranks)
+    n = len(preference_matrix[0]) if preference_matrix else 0  # number of voters
+    
+    # Create candidate names with prefix
+    candidates = [f"c{i}" for i in range(m)]
+    
+    # Convert to VoteKit format
+    ballots = []
+    for voter in range(n):
+        ranking = []
+        for rank in range(m):
+            alt_idx = int(preference_matrix[rank][voter])
+            ranking.append(frozenset([f"c{alt_idx}"]))
+        ballots.append(RankBallot(ranking=tuple(ranking)))
+    
+    profile = RankProfile(ballots=ballots, candidates=candidates)
+    
+    results = {}
+    
+    def extract_winner_idx(winner):
+        """Convert winner from 'c{idx}' format back to '{idx}' string."""
+        if winner and isinstance(winner, str) and winner.startswith('c'):
+            return winner[1:]
+        return None
+    
+    # 1. Plurality
+    try:
+        plurality_election = Plurality(profile, m=1, tiebreak="random")
+        elected = plurality_election.get_elected()
+        winner = list(elected[0])[0] if elected and elected[0] else None
+        results["plurality"] = {"winner": extract_winner_idx(winner), "in_pvc": None}
+    except Exception as e:
+        results["plurality"] = {"winner": None, "error": str(e), "in_pvc": None}
+    
+    # 2. Borda
+    try:
+        borda_election = Borda(profile, m=1, tiebreak="random")
+        elected = borda_election.get_elected()
+        winner = list(elected[0])[0] if elected and elected[0] else None
+        results["borda"] = {"winner": extract_winner_idx(winner), "in_pvc": None}
+    except Exception as e:
+        results["borda"] = {"winner": None, "error": str(e), "in_pvc": None}
+    
+    # 3. IRV
+    try:
+        irv_election = IRV(profile, tiebreak="random")
+        elected = irv_election.get_elected()
+        winner = list(elected[0])[0] if elected and elected[0] else None
+        results["irv"] = {"winner": extract_winner_idx(winner), "in_pvc": None}
+    except Exception as e:
+        results["irv"] = {"winner": None, "error": str(e), "in_pvc": None}
+    
+    # 4. ChatGPT
+    results["chatgpt"] = chatgpt_select_baseline(statements, openai_client)
+    
+    # 5. Schulze
+    try:
+        schulze_election = Schulze(profile, tiebreak="random")
+        elected = schulze_election.get_elected()
+        winner = list(elected[0])[0] if elected and elected[0] else None
+        results["schulze"] = {"winner": extract_winner_idx(winner), "in_pvc": None}
+    except Exception as e:
+        results["schulze"] = {"winner": None, "error": str(e), "in_pvc": None}
+    
+    # 6. Veto by Consumption (Successive Veto)
+    try:
+        from src.compute_pvc import compute_pvc
+        alternatives = [str(i) for i in range(m)]
+        veto_winners = compute_pvc(preference_matrix, alternatives)
+        veto_winner = veto_winners[0] if veto_winners else None
+        results["veto_by_consumption"] = {"winner": veto_winner, "in_pvc": None}
+    except Exception as e:
+        results["veto_by_consumption"] = {"winner": None, "error": str(e), "in_pvc": None}
+    
+    # Update in_pvc status if PVC was provided
+    if pvc is not None:
+        pvc_set = set(str(p) for p in pvc)
+        for method, result in results.items():
+            if result.get("winner") is not None and "error" not in result:
+                results[method]["in_pvc"] = str(result["winner"]) in pvc_set
+    
+    return results
 
