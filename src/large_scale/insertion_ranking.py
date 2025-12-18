@@ -39,7 +39,9 @@ def find_insertion_position_single_call(
     sorted_statements: List[Dict],
     new_statement: Dict,
     topic: str,
-    openai_client: OpenAI
+    openai_client: OpenAI,
+    model_name: str = "gpt-5-nano",
+    temperature: float = 1.0
 ) -> int:
     """
     Single LLM call to find where to insert a new statement into a sorted list.
@@ -50,6 +52,8 @@ def find_insertion_position_single_call(
         new_statement: Statement dict to insert
         topic: The topic/question being discussed
         openai_client: OpenAI client instance
+        model_name: Name of the model to use (default: gpt-5-nano)
+        temperature: Temperature for sampling (default: 1.0)
     
     Returns:
         Index where the new statement should be inserted (0 = most preferred position)
@@ -86,11 +90,12 @@ Return your answer as JSON: {{"position": <number>}}
 Return only JSON, no other text."""
 
     response = openai_client.responses.create(
-        model="gpt-5-nano",
+        model=model_name,
         input=[
             {"role": "system", "content": "You are evaluating statements based on the given persona. Return ONLY valid JSON."},
             {"role": "user", "content": prompt}
-        ]
+        ],
+        temperature=temperature
     )
     
     result = json.loads(response.output_text)
@@ -108,7 +113,9 @@ def find_insertion_position_hybrid(
     new_statement: Dict,
     topic: str,
     openai_client: OpenAI,
-    threshold: int = DEFAULT_THRESHOLD
+    threshold: int = DEFAULT_THRESHOLD,
+    model_name: str = "gpt-5-nano",
+    temperature: float = 1.0
 ) -> int:
     """
     Find insertion position using hybrid approach:
@@ -122,6 +129,8 @@ def find_insertion_position_hybrid(
         topic: The topic/question being discussed
         openai_client: OpenAI client instance
         threshold: Size threshold for switching to single-call (default 70)
+        model_name: Name of the model to use (default: gpt-5-nano)
+        temperature: Temperature for sampling (default: 1.0)
     
     Returns:
         Index where the new statement should be inserted
@@ -131,7 +140,8 @@ def find_insertion_position_hybrid(
     # If list is small enough, use single call directly
     if n < threshold:
         return find_insertion_position_single_call(
-            persona, sorted_statements, new_statement, topic, openai_client
+            persona, sorted_statements, new_statement, topic, openai_client,
+            model_name=model_name, temperature=temperature
         )
     
     # Binary search until range is small enough
@@ -143,7 +153,8 @@ def find_insertion_position_hybrid(
         # Compare new_statement vs statement at mid
         # pairwise_compare returns -1 if first is preferred, 1 if second is preferred
         comparison = pairwise_compare(
-            persona, new_statement, sorted_statements[mid], topic, openai_client
+            persona, new_statement, sorted_statements[mid], topic, openai_client,
+            model_name=model_name, temperature=temperature
         )
         
         if comparison <= 0:
@@ -160,7 +171,8 @@ def find_insertion_position_hybrid(
         return left
     
     relative_pos = find_insertion_position_single_call(
-        persona, sublist, new_statement, topic, openai_client
+        persona, sublist, new_statement, topic, openai_client,
+        model_name=model_name, temperature=temperature
     )
     
     return left + relative_pos
@@ -171,7 +183,9 @@ def insertion_sort_hybrid(
     persona: str,
     topic: str,
     openai_client: OpenAI,
-    threshold: int = DEFAULT_THRESHOLD
+    threshold: int = DEFAULT_THRESHOLD,
+    model_name: str = "gpt-5-nano",
+    temperature: float = 1.0
 ) -> List[Dict]:
     """
     Sort items using hybrid insertion sort.
@@ -185,6 +199,8 @@ def insertion_sort_hybrid(
         topic: The topic/question being discussed
         openai_client: OpenAI client instance
         threshold: Size threshold for switching to single-call
+        model_name: Name of the model to use (default: gpt-5-nano)
+        temperature: Temperature for sampling (default: 1.0)
     
     Returns:
         Sorted list of items (most preferred first)
@@ -198,7 +214,8 @@ def insertion_sort_hybrid(
     # Insert remaining items one by one
     for i, item in enumerate(items[1:], start=1):
         position = find_insertion_position_hybrid(
-            persona, sorted_list, item, topic, openai_client, threshold
+            persona, sorted_list, item, topic, openai_client, threshold,
+            model_name=model_name, temperature=temperature
         )
         sorted_list.insert(position, item)
         
@@ -213,7 +230,9 @@ def rank_statements_hybrid(
     statements: List[Dict],
     topic: str,
     openai_client: OpenAI,
-    threshold: int = DEFAULT_THRESHOLD
+    threshold: int = DEFAULT_THRESHOLD,
+    model_name: str = "gpt-5-nano",
+    temperature: float = 1.0
 ) -> List[int]:
     """
     Rank statements using hybrid insertion sort.
@@ -228,6 +247,8 @@ def rank_statements_hybrid(
         topic: The topic/question
         openai_client: OpenAI client instance
         threshold: Size threshold for single-call approach (default 70)
+        model_name: Name of the model to use (default: gpt-5-nano)
+        temperature: Temperature for sampling (default: 1.0)
     
     Returns:
         List of statement indices in order from most to least preferred
@@ -253,7 +274,8 @@ def rank_statements_hybrid(
     
     # Sort using hybrid insertion sort
     sorted_statements = insertion_sort_hybrid(
-        indexed_statements, persona, topic, openai_client, threshold
+        indexed_statements, persona, topic, openai_client, threshold,
+        model_name=model_name, temperature=temperature
     )
     
     # Extract indices
@@ -270,7 +292,9 @@ def get_preference_matrix_hybrid(
     topic: str,
     openai_client: OpenAI,
     threshold: int = DEFAULT_THRESHOLD,
-    max_workers: int = 20
+    max_workers: int = 20,
+    model_name: str = "gpt-5-nano",
+    temperature: float = 1.0
 ) -> List[List[str]]:
     """
     Get preference matrix using hybrid insertion sort for all personas.
@@ -282,6 +306,8 @@ def get_preference_matrix_hybrid(
         openai_client: OpenAI client instance
         threshold: Size threshold for single-call approach
         max_workers: Maximum parallel workers for persona processing
+        model_name: Name of the model to use (default: gpt-5-nano)
+        temperature: Temperature for sampling (default: 1.0)
     
     Returns:
         Preference matrix where preferences[rank][voter] is the alternative 
@@ -295,13 +321,15 @@ def get_preference_matrix_hybrid(
     
     logger.info(f"Getting preference rankings from {n_personas} personas for {n_statements} statements")
     logger.info(f"Using hybrid insertion sort with threshold={threshold}")
+    logger.info(f"Model: {model_name}, Temperature: {temperature}")
     
     def process_persona(persona_idx_pair):
         """Process a single persona and return (index, ranking)."""
         idx, persona = persona_idx_pair
         logger.info(f"Processing persona {idx+1}/{n_personas}")
         ranking = rank_statements_hybrid(
-            persona, statements, topic, openai_client, threshold
+            persona, statements, topic, openai_client, threshold,
+            model_name=model_name, temperature=temperature
         )
         return idx, ranking
     

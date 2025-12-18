@@ -25,7 +25,9 @@ def pairwise_compare(
     statement_a: Dict,
     statement_b: Dict,
     topic: str,
-    openai_client: OpenAI
+    openai_client: OpenAI,
+    model_name: str = "gpt-5-nano",
+    temperature: float = 1.0
 ) -> int:
     """
     Ask persona to compare two statements and return preference.
@@ -36,6 +38,8 @@ def pairwise_compare(
         statement_b: Second statement dict with 'statement' key
         topic: The topic/question being discussed
         openai_client: OpenAI client instance
+        model_name: Name of the model to use (default: gpt-5-nano)
+        temperature: Temperature for sampling (default: 1.0)
     
     Returns:
         -1 if persona prefers A, 1 if persona prefers B, 0 if equal
@@ -64,11 +68,12 @@ Return your choice as a JSON object with this format:
 Return only the JSON, no additional text."""
 
     response = openai_client.responses.create(
-        model="gpt-5-nano",
+        model=model_name,
         input=[
             {"role": "system", "content": "You are evaluating statements based on the given persona. Return ONLY valid JSON, no other text."},
             {"role": "user", "content": prompt}
-        ]
+        ],
+        temperature=temperature
     )
     
     result = json.loads(response.output_text)
