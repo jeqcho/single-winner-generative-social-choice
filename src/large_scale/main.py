@@ -59,7 +59,7 @@ def slugify(text: str) -> str:
     return text[:50]  # Limit length
 
 
-def load_topics(filepath: str = "topics.txt") -> List[str]:
+def load_topics(filepath: str = "data/topics.txt") -> List[str]:
     """Load topics from file."""
     with open(filepath, 'r') as f:
         topics = [line.strip() for line in f if line.strip()]
@@ -290,7 +290,7 @@ def main():
         save_persona_splits(generative_personas, discriminative_personas, evaluative_personas, test_mode=args.test_mode)
     
     # Load topics
-    topics = load_topics("topics.txt")
+    topics = load_topics("data/topics.txt")
     print(f"\nLoaded {len(topics)} topics")
     
     # Filter topics if index specified

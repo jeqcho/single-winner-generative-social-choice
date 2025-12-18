@@ -50,7 +50,7 @@ echo ""
 
 # 4. Generate reports
 echo "📊 Step 4: Generating reports..."
-bash generate_timestamped_reports.sh test
+bash scripts/generate_timestamped_reports.sh test
 echo ""
 
 echo "✅ COMPLETE TEST RUN FINISHED!"

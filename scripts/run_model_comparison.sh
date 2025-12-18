@@ -3,13 +3,13 @@
 # 
 # Usage with screen (recommended for SSH sessions):
 #   screen -S model_comparison
-#   ./run_model_comparison.sh
+#   ./scripts/run_model_comparison.sh
 #   # Detach: Ctrl+A, D
 #   # Reattach: screen -r model_comparison
 #
 # Or with tmux:
 #   tmux new -s model_comparison
-#   ./run_model_comparison.sh
+#   ./scripts/run_model_comparison.sh
 #   # Detach: Ctrl+B, D
 #   # Reattach: tmux attach -t model_comparison
 

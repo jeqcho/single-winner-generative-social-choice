@@ -37,7 +37,7 @@ def main():
     openai_client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
     
     # Load topics
-    topics = load_topics("topics.txt")
+    topics = load_topics("data/topics.txt")
     print(f"Loaded {len(topics)} topics\n")
     
     # Create log directory

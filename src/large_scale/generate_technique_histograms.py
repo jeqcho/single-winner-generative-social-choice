@@ -19,9 +19,9 @@ def load_topic_mappings() -> Dict[str, str]:
     if _TOPIC_MAPPINGS is not None:
         return _TOPIC_MAPPINGS
     
-    mapping_file = Path("topic_mappings.json")
+    mapping_file = Path("data/topic_mappings.json")
     if not mapping_file.exists():
-        print("Warning: topic_mappings.json not found, using fallback shortening")
+        print("Warning: data/topic_mappings.json not found, using fallback shortening")
         _TOPIC_MAPPINGS = {}
         return _TOPIC_MAPPINGS
     

@@ -56,7 +56,7 @@ pip install votekit python-dotenv openai datasets matplotlib numpy
 - `src/large_scale/` - Large-scale experiment code (up to 900/50/50 personas)
 - `data/results/` - Results from small-scale experiments
 - `data/large_scale/` - Data and results from large-scale experiments
-- `topics.txt` - List of 13 discussion topics
+- `data/topics.txt` - List of 13 discussion topics
 
 ## Large-Scale Experiment
 
@@ -213,7 +213,7 @@ For each method, shows distribution of evaluative Likert ratings (1-5) across to
 
 ## Topics
 
-The experiment covers 13 topics (see `topics.txt`):
+The experiment covers 13 topics (see `data/topics.txt`):
 1. Trust in US elections
 2. Littering prevention policies
 3. Israel/Gaza campus demonstrations

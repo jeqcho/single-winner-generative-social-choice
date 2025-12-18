@@ -33,7 +33,7 @@ client = openai.OpenAI()
 def setup_logging():
     """Setup timestamped logging directory."""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    log_dir = Path(f"/Users/jeqcho/single-winner-generative-social-choice/logs/{timestamp}")
+    log_dir = Path(f"logs/{timestamp}")
     log_dir.mkdir(parents=True, exist_ok=True)
     
     log_file = log_dir / "builtin_sort_experiment.log"
@@ -49,7 +49,7 @@ def setup_logging():
 
 def load_statements(limit: int = 100) -> List[Dict]:
     """Load first N statements for abortion topic."""
-    statements_file = Path("/Users/jeqcho/single-winner-generative-social-choice/data/large_scale/prod/statements/what-should-guide-laws-concerning-abortion.json")
+    statements_file = Path("data/large_scale/prod/statements/what-should-guide-laws-concerning-abortion.json")
     with open(statements_file, 'r') as f:
         data = json.load(f)
     
@@ -59,7 +59,7 @@ def load_statements(limit: int = 100) -> List[Dict]:
 
 def load_and_sample_personas(seed: int = 42, num_personas: int = 25) -> List[str]:
     """Load discriminative personas and sample a subset."""
-    personas_file = Path("/Users/jeqcho/single-winner-generative-social-choice/data/personas/prod/discriminative.json")
+    personas_file = Path("data/personas/prod/discriminative.json")
     with open(personas_file, 'r') as f:
         personas = json.load(f)
     
@@ -383,7 +383,7 @@ def run_experiment(num_statements: int = 100, num_personas: int = 25, seed: int 
     
     # Step 5: Generate CSV
     logging.info("\n📝 Step 5: Generating CSV table...")
-    output_dir = Path("/Users/jeqcho/single-winner-generative-social-choice/data/large_scale/prod")
+    output_dir = Path("data/large_scale/prod")
     output_dir.mkdir(parents=True, exist_ok=True)
     
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")

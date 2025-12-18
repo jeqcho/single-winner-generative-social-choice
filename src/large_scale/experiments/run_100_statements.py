@@ -40,7 +40,7 @@ file_locks = {}
 def setup_logging():
     """Setup timestamped logging directory."""
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    log_dir = Path(f"/Users/jeqcho/single-winner-generative-social-choice/logs/{timestamp}")
+    log_dir = Path(f"logs/{timestamp}")
     log_dir.mkdir(parents=True, exist_ok=True)
     
     log_file = log_dir / "pairwise_100_abortion.log"
@@ -56,7 +56,7 @@ def setup_logging():
 
 def load_statements(limit: int = 100) -> List[str]:
     """Load first N statements for abortion topic."""
-    statements_file = Path("/Users/jeqcho/single-winner-generative-social-choice/data/large_scale/prod/statements/what-should-guide-laws-concerning-abortion.json")
+    statements_file = Path("data/large_scale/prod/statements/what-should-guide-laws-concerning-abortion.json")
     with open(statements_file, 'r') as f:
         data = json.load(f)
     
@@ -67,7 +67,7 @@ def load_statements(limit: int = 100) -> List[str]:
 
 def load_and_sample_personas(seed: int = 42, num_personas: int = 3) -> List[Dict]:
     """Load discriminative personas and sample a subset."""
-    personas_file = Path("/Users/jeqcho/single-winner-generative-social-choice/data/personas/prod/discriminative.json")
+    personas_file = Path("data/personas/prod/discriminative.json")
     with open(personas_file, 'r') as f:
         personas = json.load(f)
     
@@ -164,7 +164,7 @@ def write_results_to_csv(persona_idx: int, results: List[Tuple[int, int, int]]):
         persona_idx: Index of persona
         results: List of (statement_i, statement_j, preferred_id)
     """
-    output_dir = Path("/Users/jeqcho/single-winner-generative-social-choice/data/large_scale/prod")
+    output_dir = Path("data/large_scale/prod")
     output_dir.mkdir(parents=True, exist_ok=True)
     
     output_file = output_dir / f"pairwise_100_abortion_persona_{persona_idx}.csv"
@@ -219,7 +219,7 @@ def process_batch(persona_idx: int, persona_desc: str, statements: List[str], ba
 
 def get_completed_pairs(persona_idx: int) -> set:
     """Get set of already completed (i, j) pairs for a persona."""
-    output_file = Path(f"/Users/jeqcho/single-winner-generative-social-choice/data/large_scale/prod/pairwise_100_abortion_persona_{persona_idx}.csv")
+    output_file = Path(f"data/large_scale/prod/pairwise_100_abortion_persona_{persona_idx}.csv")
     
     if not output_file.exists():
         return set()

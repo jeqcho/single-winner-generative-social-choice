@@ -40,5 +40,5 @@ echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "To continue monitoring:"
 echo "  tail -f $LOG_FILE"
-echo "  watch -n 60 './monitor_production.sh'"
+echo "  watch -n 60 './scripts/monitor_production.sh'"
 

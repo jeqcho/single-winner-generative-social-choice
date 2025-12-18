@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Dict, List
 
 
-OUTPUT_BASE = Path("/Users/jeqcho/single-winner-generative-social-choice/data/large_scale/gen-200-disc-50-eval-50-nano-low")
+OUTPUT_BASE = Path("data/large_scale/gen-200-disc-50-eval-50-nano-low")
 RESULTS_DIR = OUTPUT_BASE / "results"
 TABLES_DIR = OUTPUT_BASE / "tables"
 

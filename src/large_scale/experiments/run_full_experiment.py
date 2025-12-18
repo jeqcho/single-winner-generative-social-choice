@@ -35,10 +35,10 @@ load_dotenv()
 client = openai.OpenAI()
 
 # Constants
-OUTPUT_BASE = Path("/Users/jeqcho/single-winner-generative-social-choice/data/large_scale/gen-200-disc-50-eval-50-nano-low")
-STATEMENTS_DIR = Path("/Users/jeqcho/single-winner-generative-social-choice/data/large_scale/prod/statements")
-PERSONAS_DIR = Path("/Users/jeqcho/single-winner-generative-social-choice/data/personas/prod")
-TOPICS_FILE = Path("/Users/jeqcho/single-winner-generative-social-choice/topics.txt")
+OUTPUT_BASE = Path("data/large_scale/gen-200-disc-50-eval-50-nano-low")
+STATEMENTS_DIR = Path("data/large_scale/prod/statements")
+PERSONAS_DIR = Path("data/personas/prod")
+TOPICS_FILE = Path("data/topics.txt")
 
 NUM_STATEMENTS = 200
 NUM_DISC_PERSONAS = 50
