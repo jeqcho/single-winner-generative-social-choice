@@ -237,6 +237,105 @@ def create_heatmap(results: Dict, other_models: List[str], output_path: Path, re
     print(f"Saved heatmap to {output_path}")
 
 
+def create_averaged_heatmap(results: List[Dict], other_models: List[str], output_path: Path, reference_model: str):
+    """
+    Create a heatmap averaged across all personas.
+    
+    Shows mean deviation and mean percentile for each (reference percentile, model) cell.
+    """
+    n_personas = len(results)
+    n_percentiles = len(PERCENTILES)
+    n_models = len(other_models)
+    
+    # Accumulate deviations and percentiles across all personas
+    deviation_sum = np.zeros((n_percentiles, n_models))
+    percentile_sum = np.zeros((n_percentiles, n_models))
+    
+    for persona_result in results:
+        rows = persona_result["rows"]
+        for i, row in enumerate(rows):
+            ref_pct = row["ref_percentile"]
+            for j, model in enumerate(other_models):
+                other_pct = row["other_percentiles"][model]
+                deviation = abs(other_pct - ref_pct)
+                deviation_sum[i, j] += deviation
+                percentile_sum[i, j] += other_pct
+    
+    # Compute means
+    deviation_matrix = deviation_sum / n_personas
+    percentile_matrix = percentile_sum / n_personas
+    
+    ref_percentiles = [f"{p}%" for p in PERCENTILES]
+    
+    # Create custom colormap: green (<10) -> yellow (10-20) -> red (>20)
+    colors = ['#2ecc71', '#f1c40f', '#e74c3c']  # green, yellow, red
+    n_bins = 100
+    cmap = mcolors.LinearSegmentedColormap.from_list('deviation', colors, N=n_bins)
+    
+    # Normalize: 0-10 = green, 10-20 = yellow, 20+ = red
+    norm = mcolors.TwoSlopeNorm(vmin=0, vcenter=15, vmax=50)
+    
+    fig, ax = plt.subplots(figsize=(14, 6))
+    
+    im = ax.imshow(deviation_matrix, cmap=cmap, norm=norm, aspect='auto')
+    
+    # Add colorbar
+    cbar = ax.figure.colorbar(im, ax=ax, extend='max')
+    cbar.ax.set_ylabel('Mean Absolute Deviation from Reference (%)', rotation=-90, va="bottom", fontsize=11)
+    
+    # Add reference lines on colorbar
+    cbar.ax.axhline(y=10, color='black', linewidth=1, linestyle='--')
+    cbar.ax.axhline(y=20, color='black', linewidth=1, linestyle='--')
+    
+    # Set ticks and labels
+    ax.set_xticks(np.arange(n_models))
+    ax.set_yticks(np.arange(n_percentiles))
+    
+    # Format model names for display - shorter labels
+    model_labels = []
+    for m in other_models:
+        label = m.replace('gpt-5.2-', '5.2-').replace('gpt-5-', '')
+        label = label.replace('-t1-', '\nt1-').replace('-t0', '\nt0')
+        model_labels.append(label)
+    ax.set_xticklabels(model_labels, fontsize=9)
+    
+    # Y-axis: show reference percentile only
+    ax.set_yticklabels(ref_percentiles, fontsize=10)
+    
+    # Add cell values (show mean percentile, not deviation)
+    for i in range(n_percentiles):
+        for j in range(n_models):
+            deviation = deviation_matrix[i, j]
+            mean_pct = percentile_matrix[i, j]
+            
+            # Choose text color based on deviation
+            if deviation < 10:
+                text_color = 'black'
+            elif deviation < 20:
+                text_color = 'black'
+            else:
+                text_color = 'white'
+            
+            ax.text(j, i, f'{mean_pct:.0f}%',
+                   ha="center", va="center", color=text_color, fontsize=10, fontweight='bold')
+    
+    ax.set_title(f'Average Across {n_personas} Personas: Percentile Mapping\n(Reference: {reference_model})', 
+                 fontsize=13, fontweight='bold')
+    ax.set_xlabel('Model', fontsize=12)
+    ax.set_ylabel('Reference Percentile', fontsize=12)
+    
+    # Add legend annotation
+    ax.annotate('Green: <10% deviation | Yellow: 10-20% | Red: >20%', 
+                xy=(0.5, -0.18), xycoords='axes fraction',
+                ha='center', fontsize=10, style='italic')
+    
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    
+    print(f"Saved averaged heatmap to {output_path}")
+
+
 def generate_for_reference(all_rankings: Dict[str, List[List[int]]], reference_model: str):
     """Generate all percentile mapping outputs for a specific reference model."""
     # Create subfolder for this reference model
@@ -260,7 +359,10 @@ def generate_for_reference(all_rankings: Dict[str, List[List[int]]], reference_m
         output_path = model_output_dir / f"percentile_mapping_persona_{persona_idx}.png"
         create_heatmap(persona_result, other_models, output_path, reference_model)
     
-    print(f"  Saved {len(results)} heatmaps to {model_output_dir}")
+    # Create averaged heatmap across all personas
+    create_averaged_heatmap(results, other_models, model_output_dir / "percentile_mapping_averaged.png", reference_model)
+    
+    print(f"  Saved {len(results) + 1} heatmaps to {model_output_dir}")
 
 
 def main():
