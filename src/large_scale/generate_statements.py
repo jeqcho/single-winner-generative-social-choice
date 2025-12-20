@@ -58,7 +58,8 @@ Write only the statement, no additional commentary."""
             input=[
                 {"role": "system", "content": f"You are a person with the characteristics described."},
                 {"role": "user", "content": prompt}
-            ]
+            ],
+            timeout=60.0
         )
         
         statement_text = response.output_text.strip()
