@@ -11,6 +11,7 @@ This is more economical than pure pairwise comparison sorting for n < 70.
 
 import json
 import logging
+import time
 from typing import List, Dict, Callable
 from functools import cmp_to_key
 from openai import OpenAI
@@ -19,6 +20,8 @@ import numpy as np
 
 # Import pairwise_compare from existing module for binary search comparisons
 from src.large_scale.pairwise_ranking import pairwise_compare
+# Import api_timer for timing tracking
+from src.full_experiment.config import api_timer
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -89,14 +92,17 @@ Determine where this new statement should be inserted to maintain your preferenc
 Return your answer as JSON: {{"position": <number>}}
 Return only JSON, no other text."""
 
+    start_time = time.time()
     response = openai_client.responses.create(
         model=model_name,
         input=[
             {"role": "system", "content": "You are evaluating statements based on the given persona. Return ONLY valid JSON."},
             {"role": "user", "content": prompt}
         ],
-        temperature=temperature
+        temperature=temperature,
+        reasoning={"effort": "minimal"}
     )
+    api_timer.record(time.time() - start_time)
     
     result = json.loads(response.output_text)
     position = result.get("position", n // 2)

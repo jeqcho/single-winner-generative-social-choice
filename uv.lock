@@ -1658,6 +1658,11 @@ wheels = [
 ]
 
 [[package]]
+name = "pvc-toolbox"
+version = "0.1.0"
+source = { git = "https://github.com/jeqcho/pvc-toolbox.git#fda37b7c4015e1a75d32ebec2e36d9cc073784f1" }
+
+[[package]]
 name = "pyarrow"
 version = "22.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2071,6 +2076,7 @@ dependencies = [
     { name = "numpy" },
     { name = "openai" },
     { name = "pandas" },
+    { name = "pvc-toolbox" },
     { name = "pyarrow" },
     { name = "python-dotenv" },
     { name = "tenacity" },
@@ -2085,6 +2091,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=1.20.0" },
     { name = "openai", specifier = ">=1.0.0" },
     { name = "pandas", specifier = ">=2.0.0" },
+    { name = "pvc-toolbox", git = "https://github.com/jeqcho/pvc-toolbox.git" },
     { name = "pyarrow", specifier = ">=14.0.0" },
     { name = "python-dotenv", specifier = ">=1.0.0" },
     { name = "tenacity", specifier = ">=8.0.0" },

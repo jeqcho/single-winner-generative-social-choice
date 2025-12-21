@@ -3,6 +3,7 @@ Implement pairwise comparison-based ranking using Python's built-in sort.
 """
 
 import json
+import time
 from functools import cmp_to_key
 from typing import List, Dict, Callable
 from openai import OpenAI
@@ -12,6 +13,9 @@ import logging
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
+
+# Import api_timer for timing tracking
+from src.full_experiment.config import api_timer
 
 
 @retry(
@@ -67,14 +71,17 @@ Return your choice as a JSON object with this format:
 
 Return only the JSON, no additional text."""
 
+    start_time = time.time()
     response = openai_client.responses.create(
         model=model_name,
         input=[
             {"role": "system", "content": "You are evaluating statements based on the given persona. Return ONLY valid JSON, no other text."},
             {"role": "user", "content": prompt}
         ],
-        temperature=temperature
+        temperature=temperature,
+        reasoning={"effort": "minimal"}
     )
+    api_timer.record(time.time() - start_time)
     
     result = json.loads(response.output_text)
     preference = result.get("preference", "equal").lower()
