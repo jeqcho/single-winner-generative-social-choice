@@ -85,7 +85,12 @@ def setup_logging(output_dir: Path, test_mode: bool = False) -> None:
     log_dir = output_dir / "logs"
     log_dir.mkdir(parents=True, exist_ok=True)
     
-    log_file = log_dir / ("test.log" if test_mode else "experiment.log")
+    # Create timestamped log filename
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    if test_mode:
+        log_file = log_dir / f"test_{timestamp}.log"
+    else:
+        log_file = log_dir / f"experiment_{timestamp}.log"
     
     # Create handlers
     file_handler = logging.FileHandler(log_file, mode='a')
