@@ -12,8 +12,7 @@ from openai import OpenAI
 import time
 
 from .config import (
-    MODEL,
-    TEMPERATURE,
+    FILTERING_MODEL,
     TOPIC_QUESTIONS,
     api_timer,
 )
@@ -75,7 +74,7 @@ Rules:
 - Within each cluster, exactly ONE statement should have keep=1
 - The statement with keep=1 should be the clearest/most well-written in that cluster
 
-Return a JSON array with {len(statements)} objects:
+Return a JSON array with {len(statements)} objects. For example:
 [
   {{"statement_idx": 0, "cluster_id": 0, "keep": 1}},
   {{"statement_idx": 1, "cluster_id": 0, "keep": 0}},
@@ -89,13 +88,11 @@ Return only the JSON array, no other text."""
     
     start_time = time.time()
     response = openai_client.responses.create(
-        model=MODEL,
+        model=FILTERING_MODEL,
         input=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
         ],
-        temperature=TEMPERATURE,
-        reasoning={"effort": "minimal"}
     )
     api_timer.record(time.time() - start_time)
     

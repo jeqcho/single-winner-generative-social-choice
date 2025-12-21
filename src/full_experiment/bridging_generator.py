@@ -14,8 +14,7 @@ from openai import OpenAI
 import time
 
 from .config import (
-    MODEL,
-    TEMPERATURE,
+    BRIDGING_MODEL,
     MAX_WORKERS,
     TOPIC_QUESTIONS,
     api_timer,
@@ -80,13 +79,11 @@ Write only the bridging statement:"""
 
     start_time = time.time()
     response = openai_client.responses.create(
-        model=MODEL,
+        model=BRIDGING_MODEL,
         input=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
         ],
-        temperature=TEMPERATURE,
-        reasoning={"effort": "minimal"}
     )
     api_timer.record(time.time() - start_time)
     

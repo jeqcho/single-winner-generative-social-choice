@@ -13,6 +13,8 @@ logger = logging.getLogger(__name__)
 # API Configuration
 # =============================================================================
 MODEL = "gpt-5-nano"
+BRIDGING_MODEL = "gpt-5.2"     # Model for generating bridging statements
+FILTERING_MODEL = "gpt-5.2"   # Model for filtering/clustering statements
 TEMPERATURE = 1  # gpt-5-nano requires temperature=1
 
 # =============================================================================

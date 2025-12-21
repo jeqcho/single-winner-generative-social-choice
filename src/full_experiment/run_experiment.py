@@ -169,6 +169,9 @@ def run_single_experiment(
     # =========================================================================
     # Step 2: Generate bridging statements (skip for no_bridging ablation)
     # =========================================================================
+    # For no_bridging: use original statements, cache in data_dir (ablation-specific)
+    # For full/no_filtering: use bridging statements, cache in rep_dir (shared)
+    # This ensures no_filtering only differs from full in the filtering step
     if ablation == ABLATION_NO_BRIDGING:
         logger.info("Step 2: SKIPPED (no bridging ablation)")
         # Use original statements as "bridging statements"
@@ -176,17 +179,22 @@ def run_single_experiment(
             {"persona_idx": i, "persona": personas[i], "statement": stmt["statement"]}
             for i, stmt in enumerate(statements)
         ]
+        # no_bridging uses its own cache directory since statements differ
+        shared_cache_dir = data_dir
     else:
         logger.info("Step 2: Generating bridging statements...")
         
-        if check_cache_exists(data_dir, "bridging_statements.json"):
+        # full and no_filtering share bridging statements from rep_dir
+        shared_cache_dir = rep_dir
+        
+        if check_cache_exists(shared_cache_dir, "bridging_statements.json"):
             logger.info("  Loading cached bridging statements...")
-            bridging_statements = load_bridging_statements(data_dir)
+            bridging_statements = load_bridging_statements(shared_cache_dir)
         else:
             bridging_statements = generate_bridging_statements(
                 personas, statements, topic_slug, openai_client
             )
-            save_bridging_statements(bridging_statements, data_dir)
+            save_bridging_statements(bridging_statements, shared_cache_dir)
         
         logger.info(f"  Generated {len(bridging_statements)} bridging statements")
     
@@ -198,34 +206,36 @@ def run_single_experiment(
     # Use bridging statements for preference building
     stmt_dicts = [{"statement": s["statement"]} for s in bridging_statements]
     
-    if check_cache_exists(data_dir, "full_preferences.json"):
+    # Use shared_cache_dir: rep_dir for full/no_filtering, data_dir for no_bridging
+    # This ensures no_filtering reuses preferences from full experiment
+    if check_cache_exists(shared_cache_dir, "full_preferences.json"):
         logger.info("  Loading cached preferences...")
-        preferences = load_preferences(data_dir)
+        preferences = load_preferences(shared_cache_dir)
     else:
         preferences = build_full_preferences(
             personas, stmt_dicts, topic_slug, openai_client
         )
-        save_preferences(preferences, data_dir)
+        save_preferences(preferences, shared_cache_dir)
     
     logger.info(f"  Built preferences: {len(preferences)} x {len(preferences[0])}")
     
     # Build Likert ratings
-    if check_cache_exists(data_dir, "full_likert.json"):
+    if check_cache_exists(shared_cache_dir, "full_likert.json"):
         logger.info("  Loading cached Likert ratings...")
-        likert = load_likert(data_dir)
+        likert = load_likert(shared_cache_dir)
     else:
         likert = build_full_likert(
             personas, stmt_dicts, topic_slug, openai_client
         )
-        save_likert(likert, data_dir)
+        save_likert(likert, shared_cache_dir)
     
     logger.info(f"  Built Likert: {len(likert)} x {len(likert[0])}")
     
     # =========================================================================
-    # Step 4: Filter similar statements (skip for no_filtering ablation)
+    # Step 4: Filter similar statements (skip for no_filtering and no_bridging)
     # =========================================================================
-    if ablation == ABLATION_NO_FILTERING:
-        logger.info("Step 4: SKIPPED (no filtering ablation)")
+    if ablation in (ABLATION_NO_FILTERING, ABLATION_NO_BRIDGING):
+        logger.info(f"Step 4: SKIPPED ({ablation} ablation)")
         # No filtering - keep all statements
         assignments = create_no_filter_assignments(len(bridging_statements))
         filtered_prefs = preferences
