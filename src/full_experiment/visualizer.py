@@ -188,9 +188,8 @@ def plot_epsilon_histogram(
         logger.warning("No epsilon values to plot")
         return
     
-    min_val = min(all_values)
-    max_val = max(all_values)
-    bin_edges = np.linspace(min_val, max_val, bins + 1)
+    # Fixed range 0 to 1 for epsilon
+    bin_edges = np.linspace(0, 1, bins + 1)
     
     # Collect data for stacked histogram
     data_to_plot = []
@@ -218,6 +217,7 @@ def plot_epsilon_histogram(
     ax.set_xlabel("Epsilon (ε)", fontsize=12)
     ax.set_ylabel("Count", fontsize=12)
     ax.set_title(title, fontsize=14)
+    ax.set_xlim(0, 1)
     ax.legend(loc="upper right")
     ax.grid(True, alpha=0.3)
     
@@ -227,6 +227,68 @@ def plot_epsilon_histogram(
         output_path.parent.mkdir(parents=True, exist_ok=True)
         plt.savefig(output_path, dpi=150, bbox_inches='tight')
         logger.info(f"Saved histogram to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
+def plot_single_method_histogram(
+    values: List[float],
+    method: str,
+    title: str = None,
+    output_path: Optional[Path] = None,
+    bins: int = 20
+) -> None:
+    """
+    Plot histogram of epsilon values for a single voting method.
+    
+    Args:
+        values: List of epsilon values
+        method: Method name (for color and default title)
+        title: Plot title (optional)
+        output_path: Path to save figure (None = show)
+        bins: Number of histogram bins
+    """
+    clean_values = [v for v in values if v is not None]
+    
+    if not clean_values:
+        logger.warning(f"No epsilon values for {method}")
+        return
+    
+    fig, ax = plt.subplots(figsize=(10, 5))
+    
+    color = METHOD_COLORS.get(method, "#1f77b4")
+    display_name = METHOD_NAMES.get(method, method)
+    
+    # Fixed range 0 to 1 for epsilon
+    bin_edges = np.linspace(0, 1, bins + 1)
+    
+    ax.hist(
+        clean_values,
+        bins=bin_edges,
+        color=color,
+        edgecolor='white',
+        linewidth=0.5,
+        alpha=0.8
+    )
+    
+    ax.set_xlabel("Epsilon (ε)", fontsize=12)
+    ax.set_ylabel("Count", fontsize=12)
+    ax.set_title(title or f"Epsilon Distribution: {display_name}", fontsize=14)
+    ax.set_xlim(0, 1)
+    ax.grid(True, alpha=0.3)
+    
+    # Add stats annotation
+    mean_val = np.mean(clean_values)
+    std_val = np.std(clean_values)
+    ax.axvline(mean_val, color='red', linestyle='--', linewidth=2, label=f'Mean: {mean_val:.3f}')
+    ax.legend()
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
         plt.close()
     else:
         plt.show()
@@ -433,6 +495,137 @@ def plot_likert_barplot(
         plt.show()
 
 
+def plot_likert_histogram(
+    results: Dict[str, List[float]],
+    title: str = "Likert Rating Distribution by Voting Method",
+    output_path: Optional[Path] = None,
+    bins: int = 20
+) -> None:
+    """
+    Plot stacked histogram of Likert ratings for each voting method.
+    
+    Args:
+        results: Dict mapping method to list of Likert ratings
+        title: Plot title
+        output_path: Path to save figure (None = show)
+        bins: Number of histogram bins
+    """
+    fig, ax = plt.subplots(figsize=(12, 6))
+    
+    # Get all values to determine range
+    all_values = []
+    for values in results.values():
+        all_values.extend([v for v in values if v is not None])
+    
+    if not all_values:
+        logger.warning("No Likert values to plot")
+        return
+    
+    # Fixed range 1 to 5 for Likert scale
+    bin_edges = np.linspace(1, 5, bins + 1)
+    
+    # Collect data for stacked histogram
+    data_to_plot = []
+    labels = []
+    colors = []
+    for method in VOTING_METHODS:
+        values = [v for v in results.get(method, []) if v is not None]
+        if values:
+            data_to_plot.append(values)
+            labels.append(METHOD_NAMES.get(method, method))
+            colors.append(METHOD_COLORS.get(method, None))
+    
+    # Plot stacked histogram
+    if data_to_plot:
+        ax.hist(
+            data_to_plot,
+            bins=bin_edges,
+            label=labels,
+            color=colors,
+            stacked=True,
+            edgecolor='white',
+            linewidth=0.5
+        )
+    
+    ax.set_xlabel("Likert Rating", fontsize=12)
+    ax.set_ylabel("Count", fontsize=12)
+    ax.set_title(title, fontsize=14)
+    ax.set_xlim(1, 5)
+    ax.legend(loc="upper right")
+    ax.grid(True, alpha=0.3)
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved Likert histogram to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
+def plot_single_method_likert_histogram(
+    values: List[float],
+    method: str,
+    title: str = None,
+    output_path: Optional[Path] = None,
+    bins: int = 20
+) -> None:
+    """
+    Plot histogram of Likert ratings for a single voting method.
+    
+    Args:
+        values: List of Likert ratings
+        method: Method name (for color and default title)
+        title: Plot title (optional)
+        output_path: Path to save figure (None = show)
+        bins: Number of histogram bins
+    """
+    clean_values = [v for v in values if v is not None]
+    
+    if not clean_values:
+        logger.warning(f"No Likert values for {method}")
+        return
+    
+    fig, ax = plt.subplots(figsize=(10, 5))
+    
+    color = METHOD_COLORS.get(method, "#1f77b4")
+    display_name = METHOD_NAMES.get(method, method)
+    
+    # Fixed range 1 to 5 for Likert scale
+    bin_edges = np.linspace(1, 5, bins + 1)
+    
+    ax.hist(
+        clean_values,
+        bins=bin_edges,
+        color=color,
+        edgecolor='white',
+        linewidth=0.5,
+        alpha=0.8
+    )
+    
+    ax.set_xlabel("Likert Rating", fontsize=12)
+    ax.set_ylabel("Count", fontsize=12)
+    ax.set_title(title or f"Likert Distribution: {display_name}", fontsize=14)
+    ax.set_xlim(1, 5)
+    ax.grid(True, alpha=0.3)
+    
+    # Add stats annotation
+    mean_val = np.mean(clean_values)
+    ax.axvline(mean_val, color='red', linestyle='--', linewidth=2, label=f'Mean: {mean_val:.2f}')
+    ax.legend()
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        plt.close()
+    else:
+        plt.show()
+
+
 def generate_all_plots(
     output_dir: Path = OUTPUT_DIR,
     topics: Optional[List[str]] = None,
@@ -453,24 +646,43 @@ def generate_all_plots(
         ablations = ["full"]
     
     for ablation in ablations:
-        suffix = f"_{ablation}" if ablation != "full" else ""
+        # Create subfolder for this ablation
+        ablation_dir = figures_dir / ablation
+        ablation_dir.mkdir(parents=True, exist_ok=True)
         
-        # Aggregate plots
+        ablation_label = f" ({ablation.replace('_', ' ')})" if ablation != "full" else ""
+        
+        # Aggregate plots in ablation/aggregate/
+        aggregate_dir = ablation_dir / "aggregate"
+        aggregate_dir.mkdir(parents=True, exist_ok=True)
+        
         all_results = collect_all_results(output_dir, ablation, topics)
         
         plot_epsilon_histogram(
             all_results,
-            title=f"Epsilon Distribution by Voting Method{suffix.replace('_', ' ').title()}",
-            output_path=figures_dir / f"epsilon_histogram_aggregate{suffix}.png"
+            title=f"Epsilon Distribution by Voting Method{ablation_label}",
+            output_path=aggregate_dir / "epsilon_histogram.png"
         )
         
         plot_epsilon_barplot(
             all_results,
-            title=f"Average Epsilon by Voting Method{suffix.replace('_', ' ').title()}",
-            output_path=figures_dir / f"epsilon_barplot_aggregate{suffix}.png"
+            title=f"Average Epsilon by Voting Method{ablation_label}",
+            output_path=aggregate_dir / "epsilon_barplot.png"
         )
         
-        # Per-topic plots
+        # Per-method epsilon histograms for aggregate
+        for method in VOTING_METHODS:
+            method_values = all_results.get(method, [])
+            if method_values:
+                method_display = METHOD_NAMES.get(method, method)
+                plot_single_method_histogram(
+                    method_values,
+                    method,
+                    title=f"Epsilon: All Topics - {method_display}{ablation_label}",
+                    output_path=aggregate_dir / f"epsilon_histogram_{method}.png"
+                )
+        
+        # Per-topic plots in ablation/topic_short_name/
         data_dir = output_dir / "data"
         if topics is None and data_dir.exists():
             topics_to_plot = [d.name for d in data_dir.iterdir() if d.is_dir()]
@@ -478,24 +690,39 @@ def generate_all_plots(
             topics_to_plot = topics or []
         
         for topic in topics_to_plot:
-            # Use short name for filename, display name for title
+            # Use short name for folder, display name for title
             short_name = TOPIC_SHORT_NAMES.get(topic, topic[:20])
             display_name = TOPIC_DISPLAY_NAMES.get(topic, topic[:50])
-            ablation_label = suffix.replace('_', ' ').title() if suffix else ""
+            
+            # Create subfolder for this topic
+            topic_dir = ablation_dir / short_name
+            topic_dir.mkdir(parents=True, exist_ok=True)
             
             topic_results = collect_results_for_topic(topic, output_dir, ablation)
             
             plot_epsilon_histogram(
                 topic_results,
                 title=f"Epsilon Distribution: {display_name}{ablation_label}",
-                output_path=figures_dir / f"epsilon_histogram_{short_name}{suffix}.png"
+                output_path=topic_dir / "epsilon_histogram.png"
             )
             
             plot_epsilon_barplot(
                 topic_results,
                 title=f"Average Epsilon: {display_name}{ablation_label}",
-                output_path=figures_dir / f"epsilon_barplot_{short_name}{suffix}.png"
+                output_path=topic_dir / "epsilon_barplot.png"
             )
+            
+            # Per-method epsilon histograms
+            for method in VOTING_METHODS:
+                method_values = topic_results.get(method, [])
+                if method_values:
+                    method_display = METHOD_NAMES.get(method, method)
+                    plot_single_method_histogram(
+                        method_values,
+                        method,
+                        title=f"Epsilon: {display_name} - {method_display}{ablation_label}",
+                        output_path=topic_dir / f"epsilon_histogram_{method}.png"
+                    )
             
             # Likert plots
             likert_results = collect_likert_for_topic(topic, output_dir, ablation)
@@ -503,8 +730,26 @@ def generate_all_plots(
             plot_likert_barplot(
                 likert_results,
                 title=f"Average Likert Rating: {display_name}{ablation_label}",
-                output_path=figures_dir / f"likert_barplot_{short_name}{suffix}.png"
+                output_path=topic_dir / "likert_barplot.png"
             )
+            
+            plot_likert_histogram(
+                likert_results,
+                title=f"Likert Distribution: {display_name}{ablation_label}",
+                output_path=topic_dir / "likert_histogram.png"
+            )
+            
+            # Per-method Likert histograms
+            for method in VOTING_METHODS:
+                method_values = likert_results.get(method, [])
+                if method_values:
+                    method_display = METHOD_NAMES.get(method, method)
+                    plot_single_method_likert_histogram(
+                        method_values,
+                        method,
+                        title=f"Likert: {display_name} - {method_display}{ablation_label}",
+                        output_path=topic_dir / f"likert_histogram_{method}.png"
+                    )
     
     logger.info(f"Generated all plots in {figures_dir}")
 
