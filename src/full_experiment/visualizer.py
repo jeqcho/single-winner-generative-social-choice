@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import List, Dict, Optional
 import matplotlib.pyplot as plt
 import numpy as np
+from scipy import stats
 
 from .config import VOTING_METHODS, OUTPUT_DIR
 
@@ -121,6 +122,153 @@ def collect_results_for_topic(
                         results[method].append(epsilon)
     
     return results
+
+
+def collect_results_clustered_for_topic(
+    topic_slug: str,
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full"
+) -> Dict[str, List[List[float]]]:
+    """
+    Collect epsilon results preserving the hierarchical structure (outer reps → inner samples).
+    
+    Args:
+        topic_slug: Topic slug
+        output_dir: Output directory
+        ablation: Ablation type
+    
+    Returns:
+        Dict mapping method name to list of lists: outer list = outer reps, inner list = samples within rep
+    """
+    # Initialize with empty lists for each method
+    results = {method: [] for method in VOTING_METHODS}
+    
+    topic_dir = output_dir / "data" / topic_slug
+    
+    if not topic_dir.exists():
+        logger.warning(f"Topic directory not found: {topic_dir}")
+        return results
+    
+    # Iterate through all rep directories (outer loop)
+    for rep_dir in sorted(topic_dir.glob("rep*")):
+        # Handle ablation subdirectory
+        if ablation != "full":
+            data_dir = rep_dir / f"ablation_{ablation}"
+        else:
+            data_dir = rep_dir
+        
+        if not data_dir.exists():
+            continue
+        
+        # Collect all samples for this rep (inner loop)
+        rep_results = {method: [] for method in VOTING_METHODS}
+        
+        for sample_dir in sorted(data_dir.glob("sample*")):
+            results_file = sample_dir / "results.json"
+            if not results_file.exists():
+                continue
+            
+            with open(results_file, 'r') as f:
+                sample_results = json.load(f)
+            
+            for method in VOTING_METHODS:
+                if method in sample_results:
+                    epsilon = sample_results[method].get("epsilon")
+                    if epsilon is not None:
+                        rep_results[method].append(epsilon)
+        
+        # Add this rep's results to the main results
+        for method in VOTING_METHODS:
+            if rep_results[method]:  # Only add if we have samples
+                results[method].append(rep_results[method])
+    
+    return results
+
+
+def collect_all_results_clustered(
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full",
+    topics: Optional[List[str]] = None
+) -> Dict[str, List[List[float]]]:
+    """
+    Collect all epsilon results across topics, preserving cluster structure.
+    
+    Each outer rep across all topics is treated as one cluster.
+    
+    Args:
+        output_dir: Output directory
+        ablation: Ablation type
+        topics: List of topics to include (None = all)
+    
+    Returns:
+        Dict mapping method name to list of lists (clusters)
+    """
+    all_results = {method: [] for method in VOTING_METHODS}
+    
+    data_dir = output_dir / "data"
+    if not data_dir.exists():
+        logger.warning(f"Data directory not found: {data_dir}")
+        return all_results
+    
+    # Get all topic directories
+    if topics is None:
+        topic_dirs = [d for d in data_dir.iterdir() if d.is_dir()]
+    else:
+        topic_dirs = [data_dir / t for t in topics if (data_dir / t).exists()]
+    
+    for topic_dir in topic_dirs:
+        topic_results = collect_results_clustered_for_topic(
+            topic_dir.name, output_dir, ablation
+        )
+        for method in VOTING_METHODS:
+            all_results[method].extend(topic_results[method])
+    
+    return all_results
+
+
+def compute_cluster_ci(clustered_values: List[List[float]], confidence: float = 0.95):
+    """
+    Compute cluster-aware confidence interval.
+    
+    1. Average the inner samples within each cluster (outer rep)
+    2. Compute CI on the cluster means using t-distribution
+    
+    Args:
+        clustered_values: List of lists, where each inner list is samples from one cluster
+        confidence: Confidence level (default 0.95 for 95% CI)
+    
+    Returns:
+        Tuple of (grand_mean, ci_half_width, n_clusters)
+    """
+    if not clustered_values:
+        return None, None, 0
+    
+    # Step 1: Compute mean within each cluster
+    cluster_means = []
+    for cluster in clustered_values:
+        valid = [v for v in cluster if v is not None]
+        if valid:
+            cluster_means.append(np.mean(valid))
+    
+    if not cluster_means:
+        return None, None, 0
+    
+    n = len(cluster_means)
+    
+    if n < 2:
+        # Not enough clusters for CI, return mean with no CI
+        return np.mean(cluster_means), None, n
+    
+    # Step 2: Compute CI on cluster means
+    grand_mean = np.mean(cluster_means)
+    sem = np.std(cluster_means, ddof=1) / np.sqrt(n)
+    
+    # t-value for confidence interval
+    alpha = 1 - confidence
+    t_val = stats.t.ppf(1 - alpha / 2, df=n - 1)
+    ci_half_width = t_val * sem
+    
+    return grand_mean, ci_half_width, n
 
 
 def collect_all_results(
@@ -295,15 +443,15 @@ def plot_single_method_histogram(
 
 
 def plot_epsilon_barplot(
-    results: Dict[str, List[float]],
+    clustered_results: Dict[str, List[List[float]]],
     title: str = "Average Epsilon by Voting Method",
     output_path: Optional[Path] = None
 ) -> None:
     """
-    Plot bar chart of average epsilon with error bars.
+    Plot bar chart of average epsilon with 95% CI error bars (cluster-aware).
     
     Args:
-        results: Dict mapping method to list of epsilon values
+        clustered_results: Dict mapping method to list of lists (outer reps → inner samples)
         title: Plot title
         output_path: Path to save figure (None = show)
     """
@@ -311,23 +459,33 @@ def plot_epsilon_barplot(
     
     methods = []
     means = []
-    stds = []
+    cis = []
     colors = []
+    n_clusters_list = []
     
     for method in VOTING_METHODS:
-        values = [v for v in results.get(method, []) if v is not None]
-        if values:
-            methods.append(METHOD_NAMES.get(method, method))
-            means.append(np.mean(values))
-            stds.append(np.std(values))
-            colors.append(METHOD_COLORS.get(method, "#333333"))
+        clusters = clustered_results.get(method, [])
+        if clusters:
+            mean, ci, n_clusters = compute_cluster_ci(clusters)
+            if mean is not None:
+                methods.append(METHOD_NAMES.get(method, method))
+                means.append(mean)
+                cis.append(ci if ci is not None else 0)
+                colors.append(METHOD_COLORS.get(method, "#333333"))
+                n_clusters_list.append(n_clusters)
     
     if not methods:
         logger.warning("No data to plot")
         return
     
     x = np.arange(len(methods))
-    bars = ax.bar(x, means, yerr=stds, capsize=5, color=colors, alpha=0.8)
+    
+    # Asymmetric error bars: clip to [0, 1] (epsilon ∈ [0, 1])
+    lower_errors = [min(ci, mean) for mean, ci in zip(means, cis)]  # Can't go below 0
+    upper_errors = [min(ci, 1 - mean) for mean, ci in zip(means, cis)]  # Can't go above 1
+    yerr = [lower_errors, upper_errors]
+    
+    bars = ax.bar(x, means, yerr=yerr, capsize=5, color=colors, alpha=0.8)
     
     ax.set_xlabel("Voting Method", fontsize=12)
     ax.set_ylabel("Average Epsilon (ε)", fontsize=12)
@@ -337,7 +495,7 @@ def plot_epsilon_barplot(
     ax.grid(True, alpha=0.3, axis='y')
     
     # Add value labels on bars
-    for bar, mean, std in zip(bars, means, stds):
+    for bar, mean, ci in zip(bars, means, cis):
         height = bar.get_height()
         ax.annotate(
             f'{mean:.3f}',
@@ -347,6 +505,12 @@ def plot_epsilon_barplot(
             ha='center', va='bottom',
             fontsize=9
         )
+    
+    # Add note about error bars
+    n_clusters = n_clusters_list[0] if n_clusters_list else 0
+    ax.text(0.02, 0.98, f"Error bars: 95% CI (n={n_clusters} outer reps)",
+            transform=ax.transAxes, fontsize=8, verticalalignment='top',
+            color='gray')
     
     plt.tight_layout()
     
@@ -429,16 +593,92 @@ def collect_likert_for_topic(
     return results
 
 
+def collect_likert_clustered_for_topic(
+    topic_slug: str,
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full"
+) -> Dict[str, List[List[float]]]:
+    """
+    Collect Likert ratings preserving the hierarchical structure (outer reps → inner samples).
+    
+    Args:
+        topic_slug: Topic slug
+        output_dir: Output directory
+        ablation: Ablation type
+    
+    Returns:
+        Dict mapping method name to list of lists: outer list = outer reps, inner list = samples within rep
+    """
+    results = {method: [] for method in VOTING_METHODS}
+    
+    topic_dir = output_dir / "data" / topic_slug
+    
+    if not topic_dir.exists():
+        return results
+    
+    for rep_dir in sorted(topic_dir.glob("rep*")):
+        if ablation != "full":
+            data_dir = rep_dir / f"ablation_{ablation}"
+        else:
+            data_dir = rep_dir
+        
+        if not data_dir.exists():
+            continue
+        
+        # Load filtered Likert ratings
+        likert_file = data_dir / "filtered_likert.json"
+        if not likert_file.exists():
+            continue
+        
+        with open(likert_file, 'r') as f:
+            likert = json.load(f)
+        
+        # Collect all samples for this rep
+        rep_results = {method: [] for method in VOTING_METHODS}
+        
+        for sample_dir in sorted(data_dir.glob("sample*")):
+            results_file = sample_dir / "results.json"
+            if not results_file.exists():
+                continue
+            
+            with open(results_file, 'r') as f:
+                sample_results = json.load(f)
+            
+            # Load sampled persona indices
+            persona_file = sample_dir / "persona_indices.json"
+            if not persona_file.exists():
+                continue
+            
+            with open(persona_file, 'r') as f:
+                persona_indices = json.load(f)
+            
+            for method in VOTING_METHODS:
+                if method in sample_results:
+                    winner = sample_results[method].get("winner")
+                    if winner is not None:
+                        winner_idx = int(winner)
+                        ratings = [likert[p_idx][winner_idx] for p_idx in persona_indices]
+                        avg_rating = np.mean(ratings)
+                        rep_results[method].append(avg_rating)
+        
+        # Add this rep's results to the main results
+        for method in VOTING_METHODS:
+            if rep_results[method]:
+                results[method].append(rep_results[method])
+    
+    return results
+
+
 def plot_likert_barplot(
-    results: Dict[str, List[float]],
+    clustered_results: Dict[str, List[List[float]]],
     title: str = "Average Likert Rating by Voting Method",
     output_path: Optional[Path] = None
 ) -> None:
     """
-    Plot bar chart of average Likert ratings with error bars.
+    Plot bar chart of average Likert ratings with 95% CI error bars (cluster-aware).
     
     Args:
-        results: Dict mapping method to list of average Likert ratings
+        clustered_results: Dict mapping method to list of lists (outer reps → inner samples)
         title: Plot title
         output_path: Path to save figure (None = show)
     """
@@ -446,23 +686,33 @@ def plot_likert_barplot(
     
     methods = []
     means = []
-    stds = []
+    cis = []
     colors = []
+    n_clusters_list = []
     
     for method in VOTING_METHODS:
-        values = [v for v in results.get(method, []) if v is not None]
-        if values:
-            methods.append(METHOD_NAMES.get(method, method))
-            means.append(np.mean(values))
-            stds.append(np.std(values))
-            colors.append(METHOD_COLORS.get(method, "#333333"))
+        clusters = clustered_results.get(method, [])
+        if clusters:
+            mean, ci, n_clusters = compute_cluster_ci(clusters)
+            if mean is not None:
+                methods.append(METHOD_NAMES.get(method, method))
+                means.append(mean)
+                cis.append(ci if ci is not None else 0)
+                colors.append(METHOD_COLORS.get(method, "#333333"))
+                n_clusters_list.append(n_clusters)
     
     if not methods:
         logger.warning("No data to plot")
         return
     
     x = np.arange(len(methods))
-    bars = ax.bar(x, means, yerr=stds, capsize=5, color=colors, alpha=0.8)
+    
+    # Asymmetric error bars: clip lower bound at 1 (Likert scale is 1-5)
+    lower_errors = [min(ci, mean - 1) for mean, ci in zip(means, cis)]  # Can't go below 1
+    upper_errors = [min(ci, 5 - mean) for mean, ci in zip(means, cis)]  # Can't go above 5
+    yerr = [lower_errors, upper_errors]
+    
+    bars = ax.bar(x, means, yerr=yerr, capsize=5, color=colors, alpha=0.8)
     
     ax.set_xlabel("Voting Method", fontsize=12)
     ax.set_ylabel("Average Likert Rating (1-5)", fontsize=12)
@@ -483,6 +733,12 @@ def plot_likert_barplot(
             ha='center', va='bottom',
             fontsize=9
         )
+    
+    # Add note about error bars
+    n_clusters = n_clusters_list[0] if n_clusters_list else 0
+    ax.text(0.02, 0.98, f"Error bars: 95% CI (n={n_clusters} outer reps)",
+            transform=ax.transAxes, fontsize=8, verticalalignment='top',
+            color='gray')
     
     plt.tight_layout()
     
@@ -656,7 +912,10 @@ def generate_all_plots(
         aggregate_dir = ablation_dir / "aggregate"
         aggregate_dir.mkdir(parents=True, exist_ok=True)
         
+        # Flat results for histograms
         all_results = collect_all_results(output_dir, ablation, topics)
+        # Clustered results for barplots (95% CI)
+        all_results_clustered = collect_all_results_clustered(output_dir, ablation, topics)
         
         plot_epsilon_histogram(
             all_results,
@@ -665,7 +924,7 @@ def generate_all_plots(
         )
         
         plot_epsilon_barplot(
-            all_results,
+            all_results_clustered,
             title=f"Average Epsilon by Voting Method{ablation_label}",
             output_path=aggregate_dir / "epsilon_barplot.png"
         )
@@ -698,7 +957,10 @@ def generate_all_plots(
             topic_dir = ablation_dir / short_name
             topic_dir.mkdir(parents=True, exist_ok=True)
             
+            # Flat results for histograms
             topic_results = collect_results_for_topic(topic, output_dir, ablation)
+            # Clustered results for barplots (95% CI)
+            topic_results_clustered = collect_results_clustered_for_topic(topic, output_dir, ablation)
             
             plot_epsilon_histogram(
                 topic_results,
@@ -707,7 +969,7 @@ def generate_all_plots(
             )
             
             plot_epsilon_barplot(
-                topic_results,
+                topic_results_clustered,
                 title=f"Average Epsilon: {display_name}{ablation_label}",
                 output_path=topic_dir / "epsilon_barplot.png"
             )
@@ -724,11 +986,12 @@ def generate_all_plots(
                         output_path=topic_dir / f"epsilon_histogram_{method}.png"
                     )
             
-            # Likert plots
+            # Likert plots - flat for histograms, clustered for barplot
             likert_results = collect_likert_for_topic(topic, output_dir, ablation)
+            likert_results_clustered = collect_likert_clustered_for_topic(topic, output_dir, ablation)
             
             plot_likert_barplot(
-                likert_results,
+                likert_results_clustered,
                 title=f"Average Likert Rating: {display_name}{ablation_label}",
                 output_path=topic_dir / "likert_barplot.png"
             )
