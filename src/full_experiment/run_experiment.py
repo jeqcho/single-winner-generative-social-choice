@@ -424,8 +424,8 @@ def main():
     logger.info(f"Topics: {topics}")
     logger.info(f"Ablations: {ablations}")
     
-    # Create OpenAI client
-    openai_client = OpenAI()
+    # Create OpenAI client with 60s read timeout
+    openai_client = OpenAI(timeout=60.0)
     
     # Run experiment
     run_full_experiment(topics, ablations, args.output_dir, openai_client, test_mode=args.test)

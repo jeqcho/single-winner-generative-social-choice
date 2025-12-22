@@ -1,30 +1,30 @@
 {
   "schulze": {
-    "winner": "78",
+    "winner": "75",
     "epsilon": 0.0
   },
   "borda": {
-    "winner": "54",
+    "winner": "75",
     "epsilon": 0.0
   },
   "irv": {
-    "winner": "78",
+    "winner": "75",
     "epsilon": 0.0
   },
   "plurality": {
-    "winner": "64",
-    "epsilon": 0.03979591836734686
+    "winner": "6",
+    "epsilon": 0.24
   },
   "veto_by_consumption": {
-    "winner": "54",
+    "winner": "94",
     "epsilon": 0.0
   },
   "chatgpt": {
-    "winner": "12",
-    "epsilon": 0.06428571428571428
+    "winner": "32",
+    "epsilon": 0.0
   },
   "chatgpt_with_rankings": {
-    "winner": "14",
-    "epsilon": 0.009183673469387754
+    "winner": "12",
+    "epsilon": 0.0
   }
 }
