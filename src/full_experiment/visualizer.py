@@ -12,6 +12,7 @@ import seaborn as sns
 from scipy import stats
 
 from .config import VOTING_METHODS, OUTPUT_DIR
+from .statement_filter import load_filter_assignments
 
 logger = logging.getLogger(__name__)
 
@@ -392,6 +393,404 @@ def collect_likert_by_topic(
         results_by_topic[topic_slug] = topic_results
     
     return results_by_topic
+
+
+def collect_cluster_sizes_for_topic(
+    topic_slug: str,
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full"
+) -> Dict[str, List[tuple]]:
+    """
+    Collect cluster size data for each voting method, with flags indicating winner clusters.
+    
+    Args:
+        topic_slug: Topic slug
+        output_dir: Output directory
+        ablation: Ablation type
+    
+    Returns:
+        Dict mapping method name to list of tuples: (cluster_size, is_winner_cluster)
+    """
+    results = {method: [] for method in VOTING_METHODS}
+    
+    topic_dir = output_dir / "data" / topic_slug
+    
+    if not topic_dir.exists():
+        logger.warning(f"Topic directory not found: {topic_dir}")
+        return results
+    
+    # Iterate through all rep directories
+    for rep_dir in sorted(topic_dir.glob("rep*")):
+        # Handle ablation subdirectory
+        if ablation != "full":
+            data_dir = rep_dir / f"ablation_{ablation}"
+        else:
+            data_dir = rep_dir
+        
+        if not data_dir.exists():
+            continue
+        
+        # Load filter assignments (clustering data)
+        assignments_file = data_dir / "filter_assignments.json"
+        if not assignments_file.exists():
+            # Skip if no clustering data (e.g., for no_filtering ablation)
+            continue
+        
+        try:
+            assignments = load_filter_assignments(data_dir)
+        except Exception as e:
+            logger.warning(f"Failed to load filter assignments from {data_dir}: {e}")
+            continue
+        
+        # Compute cluster sizes: count statements per cluster_id
+        cluster_sizes = {}
+        for assignment in assignments:
+            cluster_id = assignment["cluster_id"]
+            cluster_sizes[cluster_id] = cluster_sizes.get(cluster_id, 0) + 1
+        
+        # Get kept_indices: sorted list of original statement indices where keep=1
+        kept_indices = sorted([
+            a["statement_idx"]
+            for a in assignments
+            if a["keep"] == 1
+        ])
+        
+        # Create mapping from statement_idx to cluster_id
+        stmt_to_cluster = {a["statement_idx"]: a["cluster_id"] for a in assignments}
+        
+        # Iterate through all sample directories
+        for sample_dir in sorted(data_dir.glob("sample*")):
+            results_file = sample_dir / "results.json"
+            if not results_file.exists():
+                continue
+            
+            try:
+                with open(results_file, 'r') as f:
+                    sample_results = json.load(f)
+            except Exception as e:
+                logger.warning(f"Failed to load results from {results_file}: {e}")
+                continue
+            
+            # For each method, find which cluster contains the winner
+            for method in VOTING_METHODS:
+                if method not in sample_results:
+                    continue
+                
+                winner = sample_results[method].get("winner")
+                if winner is None:
+                    continue
+                
+                try:
+                    winner_idx = int(winner)
+                    # Map winner index (filtered) → original statement index
+                    if winner_idx >= len(kept_indices):
+                        logger.warning(f"Winner index {winner_idx} out of range for {method} in {sample_dir}")
+                        continue
+                    
+                    original_idx = kept_indices[winner_idx]
+                    winner_cluster_id = stmt_to_cluster.get(original_idx)
+                    
+                    if winner_cluster_id is None:
+                        logger.warning(f"Could not find cluster for statement {original_idx} in {sample_dir}")
+                        continue
+                    
+                    # Add all cluster sizes with flags
+                    for cluster_id, size in cluster_sizes.items():
+                        is_winner = (cluster_id == winner_cluster_id)
+                        results[method].append((size, is_winner))
+                
+                except (ValueError, KeyError, IndexError) as e:
+                    logger.warning(f"Error processing winner for {method} in {sample_dir}: {e}")
+                    continue
+    
+    return results
+
+
+def collect_winner_cluster_percentile_clustered_for_topic(
+    topic_slug: str,
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full"
+) -> Dict[str, List[List[float]]]:
+    """
+    Collect percentile rankings of winner cluster sizes, preserving hierarchical structure.
+    
+    For each sample, compute the percentile ranking of the winner cluster size
+    among all cluster sizes in that sample.
+    
+    Args:
+        topic_slug: Topic slug
+        output_dir: Output directory
+        ablation: Ablation type
+    
+    Returns:
+        Dict mapping method name to list of lists: outer list = outer reps, inner list = percentile rankings
+    """
+    results = {method: [] for method in VOTING_METHODS}
+    
+    topic_dir = output_dir / "data" / topic_slug
+    
+    if not topic_dir.exists():
+        logger.warning(f"Topic directory not found: {topic_dir}")
+        return results
+    
+    # Iterate through all rep directories (outer loop)
+    for rep_dir in sorted(topic_dir.glob("rep*")):
+        # Handle ablation subdirectory
+        if ablation != "full":
+            data_dir = rep_dir / f"ablation_{ablation}"
+        else:
+            data_dir = rep_dir
+        
+        if not data_dir.exists():
+            continue
+        
+        # Load filter assignments (clustering data)
+        assignments_file = data_dir / "filter_assignments.json"
+        if not assignments_file.exists():
+            continue
+        
+        try:
+            assignments = load_filter_assignments(data_dir)
+        except Exception as e:
+            logger.warning(f"Failed to load filter assignments from {data_dir}: {e}")
+            continue
+        
+        # Compute cluster sizes: count statements per cluster_id
+        cluster_sizes = {}
+        for assignment in assignments:
+            cluster_id = assignment["cluster_id"]
+            cluster_sizes[cluster_id] = cluster_sizes.get(cluster_id, 0) + 1
+        
+        # Get kept_indices: sorted list of original statement indices where keep=1
+        kept_indices = sorted([
+            a["statement_idx"]
+            for a in assignments
+            if a["keep"] == 1
+        ])
+        
+        # Create mapping from statement_idx to cluster_id
+        stmt_to_cluster = {a["statement_idx"]: a["cluster_id"] for a in assignments}
+        
+        # Collect all samples for this rep
+        rep_results = {method: [] for method in VOTING_METHODS}
+        
+        # Iterate through all sample directories
+        for sample_dir in sorted(data_dir.glob("sample*")):
+            results_file = sample_dir / "results.json"
+            if not results_file.exists():
+                continue
+            
+            try:
+                with open(results_file, 'r') as f:
+                    sample_results = json.load(f)
+            except Exception as e:
+                logger.warning(f"Failed to load results from {results_file}: {e}")
+                continue
+            
+            # Get all cluster sizes for this sample (sorted)
+            all_sizes = sorted(cluster_sizes.values())
+            
+            # For each method, find percentile of winner cluster
+            for method in VOTING_METHODS:
+                if method not in sample_results:
+                    continue
+                
+                winner = sample_results[method].get("winner")
+                if winner is None:
+                    continue
+                
+                try:
+                    winner_idx = int(winner)
+                    # Map winner index (filtered) → original statement index
+                    if winner_idx >= len(kept_indices):
+                        logger.warning(f"Winner index {winner_idx} out of range for {method} in {sample_dir}")
+                        continue
+                    
+                    original_idx = kept_indices[winner_idx]
+                    winner_cluster_id = stmt_to_cluster.get(original_idx)
+                    
+                    if winner_cluster_id is None:
+                        logger.warning(f"Could not find cluster for statement {original_idx} in {sample_dir}")
+                        continue
+                    
+                    winner_cluster_size = cluster_sizes[winner_cluster_id]
+                    
+                    # Compute percentile ranking (0-100)
+                    # percentileofscore gives the percentile where the score would fall
+                    percentile = stats.percentileofscore(all_sizes, winner_cluster_size, kind='rank')
+                    rep_results[method].append(percentile)
+                
+                except (ValueError, KeyError, IndexError) as e:
+                    logger.warning(f"Error processing winner for {method} in {sample_dir}: {e}")
+                    continue
+        
+        # Add this rep's results to the main results
+        for method in VOTING_METHODS:
+            if rep_results[method]:  # Only add if we have samples
+                results[method].append(rep_results[method])
+    
+    return results
+
+
+def collect_all_winner_cluster_percentile_clustered(
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full",
+    topics: Optional[List[str]] = None
+) -> Dict[str, List[List[float]]]:
+    """
+    Collect all winner cluster percentile rankings across topics, preserving cluster structure.
+    
+    Args:
+        output_dir: Output directory
+        ablation: Ablation type
+        topics: List of topics to include (None = all)
+    
+    Returns:
+        Dict mapping method name to list of lists (clusters)
+    """
+    all_results = {method: [] for method in VOTING_METHODS}
+    
+    data_dir = output_dir / "data"
+    if not data_dir.exists():
+        logger.warning(f"Data directory not found: {data_dir}")
+        return all_results
+    
+    # Get all topic directories
+    if topics is None:
+        topic_dirs = [d for d in data_dir.iterdir() if d.is_dir()]
+    else:
+        topic_dirs = [data_dir / t for t in topics if (data_dir / t).exists()]
+    
+    for topic_dir in topic_dirs:
+        topic_results = collect_winner_cluster_percentile_clustered_for_topic(
+            topic_dir.name, output_dir, ablation
+        )
+        for method in VOTING_METHODS:
+            all_results[method].extend(topic_results[method])
+    
+    return all_results
+
+
+def plot_winner_cluster_percentile_barplot(
+    clustered_results: Dict[str, List[List[float]]],
+    title: str = "Winner Cluster Size Percentile Ranking by Voting Method",
+    output_path: Optional[Path] = None
+) -> None:
+    """
+    Plot bar chart of average percentile ranking of winner cluster sizes with 95% CI error bars.
+    
+    Args:
+        clustered_results: Dict mapping method to list of lists (outer reps → inner samples)
+        title: Plot title
+        output_path: Path to save figure (None = show)
+    """
+    fig, ax = plt.subplots(figsize=(10, 6))
+    
+    methods = []
+    means = []
+    cis = []
+    colors = []
+    n_clusters_list = []
+    
+    # Use custom order for bar plots
+    for method in BARPLOT_METHOD_ORDER:
+        clusters = clustered_results.get(method, [])
+        if clusters:
+            mean, ci, n_clusters = compute_cluster_ci(clusters)
+            if mean is not None:
+                methods.append(METHOD_NAMES.get(method, method))
+                means.append(mean)
+                cis.append(ci if ci is not None else 0)
+                colors.append(METHOD_COLORS.get(method, "#333333"))
+                n_clusters_list.append(n_clusters)
+    
+    if not methods:
+        logger.warning("No data to plot")
+        return
+    
+    x = np.arange(len(methods))
+    
+    # Asymmetric error bars: clip to [0, 100] (percentile ∈ [0, 100])
+    lower_errors = [min(ci, mean) for mean, ci in zip(means, cis)]  # Can't go below 0
+    upper_errors = [min(ci, 100 - mean) for mean, ci in zip(means, cis)]  # Can't go above 100
+    yerr = [lower_errors, upper_errors]
+    
+    bars = ax.bar(x, means, yerr=yerr, capsize=5, color=colors, alpha=0.8)
+    
+    ax.set_xlabel("Voting Method", fontsize=12)
+    ax.set_ylabel("Percentile Ranking", fontsize=12)
+    ax.set_title(title, fontsize=14)
+    ax.set_xticks(x)
+    ax.set_xticklabels(methods, rotation=45, ha='right')
+    ax.set_ylim(0, 100)
+    ax.grid(True, alpha=0.3, axis='y')
+    
+    # Add value labels on bars
+    for bar, mean, ci in zip(bars, means, cis):
+        height = bar.get_height()
+        ax.annotate(
+            f'{mean:.1f}',
+            xy=(bar.get_x() + bar.get_width() / 2, height),
+            xytext=(0, 3),
+            textcoords="offset points",
+            ha='center', va='bottom',
+            fontsize=9
+        )
+    
+    # Add note about error bars
+    n_clusters = n_clusters_list[0] if n_clusters_list else 0
+    ax.text(0.02, 0.98, f"Error bars: 95% CI (n={n_clusters} outer reps)",
+            transform=ax.transAxes, fontsize=8, verticalalignment='top',
+            color='gray')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved winner cluster percentile bar plot to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
+def collect_all_cluster_sizes(
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full",
+    topics: Optional[List[str]] = None
+) -> Dict[str, List[tuple]]:
+    """
+    Collect all cluster size data across topics.
+    
+    Args:
+        output_dir: Output directory
+        ablation: Ablation type
+        topics: List of topics to include (None = all)
+    
+    Returns:
+        Dict mapping method name to list of tuples: (cluster_size, is_winner_cluster)
+    """
+    all_results = {method: [] for method in VOTING_METHODS}
+    
+    data_dir = output_dir / "data"
+    if not data_dir.exists():
+        logger.warning(f"Data directory not found: {data_dir}")
+        return all_results
+    
+    # Get all topic directories
+    if topics is None:
+        topic_dirs = [d for d in data_dir.iterdir() if d.is_dir()]
+    else:
+        topic_dirs = [data_dir / t for t in topics if (data_dir / t).exists()]
+    
+    for topic_dir in topic_dirs:
+        topic_results = collect_cluster_sizes_for_topic(
+            topic_dir.name, output_dir, ablation
+        )
+        for method in VOTING_METHODS:
+            all_results[method].extend(topic_results[method])
+    
+    return all_results
 
 
 def plot_epsilon_histogram(
@@ -1393,6 +1792,204 @@ def plot_single_method_likert_histogram(
         plt.show()
 
 
+def plot_cluster_size_stripplot(
+    results: Dict[str, List[tuple]],
+    title: str = "Cluster Size Distribution by Voting Method",
+    output_path: Optional[Path] = None,
+    use_log_scale: bool = False
+) -> None:
+    """
+    Plot horizontal strip plot of cluster sizes with methods as rows.
+    Red dots indicate clusters containing the winner, blue dots indicate other clusters.
+    
+    Args:
+        results: Dict mapping method to list of tuples: (cluster_size, is_winner_cluster)
+        title: Plot title
+        output_path: Path to save figure (None = show)
+        use_log_scale: If True, use logarithmic x-axis
+    """
+    # Prepare data for seaborn
+    data = []
+    for method in BARPLOT_METHOD_ORDER:
+        values = results.get(method, [])
+        display_name = METHOD_NAMES.get(method, method)
+        for cluster_size, is_winner in values:
+            data.append({
+                "Method": display_name,
+                "ClusterSize": cluster_size,
+                "IsWinner": is_winner,
+                "method_key": method
+            })
+    
+    if not data:
+        logger.warning("No cluster size values to plot")
+        return
+    
+    import pandas as pd
+    df = pd.DataFrame(data)
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=(12, 6))
+    
+    # Get method order
+    method_order = [METHOD_NAMES.get(m, m) for m in BARPLOT_METHOD_ORDER if METHOD_NAMES.get(m, m) in df["Method"].values]
+    
+    # Plot strip plot with jitter
+    # We'll plot winner and non-winner clusters separately to control colors
+    winner_data = df[df["IsWinner"] == True]
+    other_data = df[df["IsWinner"] == False]
+    
+    if len(other_data) > 0:
+        sns.stripplot(
+            data=other_data,
+            x="ClusterSize",
+            y="Method",
+            order=method_order,
+            color='blue',
+            alpha=0.6,
+            jitter=0.3,
+            size=4,
+            ax=ax,
+            label='Other clusters'
+        )
+    
+    if len(winner_data) > 0:
+        sns.stripplot(
+            data=winner_data,
+            x="ClusterSize",
+            y="Method",
+            order=method_order,
+            color='red',
+            alpha=0.6,
+            jitter=0.3,
+            size=4,
+            ax=ax,
+            label='Winner cluster'
+        )
+    
+    ax.set_xlabel("Cluster Size", fontsize=12)
+    ax.set_ylabel("Voting Method", fontsize=12)
+    ax.set_title(title, fontsize=14)
+    if use_log_scale:
+        ax.set_xscale('log')
+    ax.grid(True, alpha=0.3, axis='x')
+    
+    # Add legend with only one blue and one red entry
+    from matplotlib.patches import Patch
+    legend_elements = [
+        Patch(facecolor='blue', alpha=0.6, label='Other clusters'),
+        Patch(facecolor='red', alpha=0.6, label='Winner cluster')
+    ]
+    ax.legend(handles=legend_elements, loc='best')
+    
+    # Add note about sample size
+    n_samples = len(df)
+    n_winner = len(winner_data)
+    ax.text(0.98, 0.02, f"n={n_samples} clusters (n={n_winner} winner clusters)",
+            transform=ax.transAxes, fontsize=8, verticalalignment='bottom',
+            horizontalalignment='right', color='gray')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved cluster size strip plot to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
+def plot_cluster_size_violinplot(
+    results: Dict[str, List[tuple]],
+    title: str = "Cluster Size Distribution by Voting Method",
+    output_path: Optional[Path] = None,
+    use_log_scale: bool = False
+) -> None:
+    """
+    Plot violin plot of cluster sizes with methods as rows.
+    For each method, two violins side by side: blue for other clusters, red for winner clusters.
+    
+    Args:
+        results: Dict mapping method to list of tuples: (cluster_size, is_winner_cluster)
+        title: Plot title
+        output_path: Path to save figure (None = show)
+        use_log_scale: If True, use logarithmic x-axis
+    """
+    # Prepare data for seaborn
+    data = []
+    for method in BARPLOT_METHOD_ORDER:
+        values = results.get(method, [])
+        display_name = METHOD_NAMES.get(method, method)
+        for cluster_size, is_winner in values:
+            data.append({
+                "Method": display_name,
+                "ClusterSize": cluster_size,
+                "IsWinner": is_winner,
+                "ClusterType": "Winner cluster" if is_winner else "Other clusters",
+                "method_key": method
+            })
+    
+    if not data:
+        logger.warning("No cluster size values to plot")
+        return
+    
+    import pandas as pd
+    df = pd.DataFrame(data)
+    
+    # Get method order
+    method_order = [METHOD_NAMES.get(m, m) for m in BARPLOT_METHOD_ORDER if METHOD_NAMES.get(m, m) in df["Method"].values]
+    
+    # Create figure with more width to accommodate side-by-side violins
+    fig, ax = plt.subplots(figsize=(14, 6))
+    
+    # Plot violin plot with hue to create side-by-side violins
+    sns.violinplot(
+        data=df,
+        x="ClusterSize",
+        y="Method",
+        hue="ClusterType",
+        order=method_order,
+        hue_order=["Other clusters", "Winner cluster"],
+        palette={"Other clusters": "blue", "Winner cluster": "red"},
+        alpha=0.6,
+        ax=ax,
+        inner="quart"  # Show quartiles inside violins
+    )
+    
+    ax.set_xlabel("Cluster Size", fontsize=12)
+    ax.set_ylabel("Voting Method", fontsize=12)
+    ax.set_title(title, fontsize=14)
+    if use_log_scale:
+        ax.set_xscale('log')
+    ax.grid(True, alpha=0.3, axis='x')
+    
+    # Add legend outside the plot with only one blue and one red entry
+    from matplotlib.patches import Patch
+    legend_elements = [
+        Patch(facecolor='blue', alpha=0.6, label='Other clusters'),
+        Patch(facecolor='red', alpha=0.6, label='Winner cluster')
+    ]
+    ax.legend(handles=legend_elements, loc='center left', bbox_to_anchor=(1, 0.5))
+    
+    # Add note about sample size
+    n_samples = len(df)
+    n_winner = len(df[df["IsWinner"] == True])
+    ax.text(0.98, 0.02, f"n={n_samples} clusters (n={n_winner} winner clusters)",
+            transform=ax.transAxes, fontsize=8, verticalalignment='bottom',
+            horizontalalignment='right', color='gray')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved cluster size violin plot to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
 def generate_all_plots(
     output_dir: Path = OUTPUT_DIR,
     topics: Optional[List[str]] = None,
@@ -1519,6 +2116,42 @@ def generate_all_plots(
             output_path=aggregate_dir / "likert_stripplot.png"
         )
         
+        # Cluster size strip plot (only for full ablation)
+        if ablation == "full":
+            all_cluster_sizes = collect_all_cluster_sizes(output_dir, ablation, topics)
+            plot_cluster_size_stripplot(
+                all_cluster_sizes,
+                title=f"Cluster Size Distribution by Voting Method{ablation_label}",
+                output_path=aggregate_dir / "cluster_size_stripplot.png",
+                use_log_scale=False
+            )
+            plot_cluster_size_stripplot(
+                all_cluster_sizes,
+                title=f"Cluster Size Distribution by Voting Method (Log Scale){ablation_label}",
+                output_path=aggregate_dir / "cluster_size_stripplot_log.png",
+                use_log_scale=True
+            )
+            plot_cluster_size_violinplot(
+                all_cluster_sizes,
+                title=f"Cluster Size Distribution by Voting Method{ablation_label}",
+                output_path=aggregate_dir / "cluster_size_violinplot.png",
+                use_log_scale=False
+            )
+            plot_cluster_size_violinplot(
+                all_cluster_sizes,
+                title=f"Cluster Size Distribution by Voting Method (Log Scale){ablation_label}",
+                output_path=aggregate_dir / "cluster_size_violinplot_log.png",
+                use_log_scale=True
+            )
+            
+            # Winner cluster percentile ranking bar plot
+            all_percentile_clustered = collect_all_winner_cluster_percentile_clustered(output_dir, ablation, topics)
+            plot_winner_cluster_percentile_barplot(
+                all_percentile_clustered,
+                title=f"Winner Cluster Size Percentile Ranking by Voting Method{ablation_label}",
+                output_path=aggregate_dir / "winner_cluster_percentile_barplot.png"
+            )
+        
         # Per-method Likert strip plots (topics as rows)
         for method in VOTING_METHODS:
             # Collect this method's values organized by topic
@@ -1605,6 +2238,42 @@ def generate_all_plots(
                 title=f"Likert Distribution: {display_name}{ablation_label}",
                 output_path=topic_dir / "likert_stripplot.png"
             )
+            
+            # Cluster size strip plot (only for full ablation)
+            if ablation == "full":
+                topic_cluster_sizes = collect_cluster_sizes_for_topic(topic, output_dir, ablation)
+                plot_cluster_size_stripplot(
+                    topic_cluster_sizes,
+                    title=f"Cluster Size Distribution: {display_name}{ablation_label}",
+                    output_path=topic_dir / "cluster_size_stripplot.png",
+                    use_log_scale=False
+                )
+                plot_cluster_size_stripplot(
+                    topic_cluster_sizes,
+                    title=f"Cluster Size Distribution: {display_name} (Log Scale){ablation_label}",
+                    output_path=topic_dir / "cluster_size_stripplot_log.png",
+                    use_log_scale=True
+                )
+                plot_cluster_size_violinplot(
+                    topic_cluster_sizes,
+                    title=f"Cluster Size Distribution: {display_name}{ablation_label}",
+                    output_path=topic_dir / "cluster_size_violinplot.png",
+                    use_log_scale=False
+                )
+                plot_cluster_size_violinplot(
+                    topic_cluster_sizes,
+                    title=f"Cluster Size Distribution: {display_name} (Log Scale){ablation_label}",
+                    output_path=topic_dir / "cluster_size_violinplot_log.png",
+                    use_log_scale=True
+                )
+                
+                # Winner cluster percentile ranking bar plot
+                topic_percentile_clustered = collect_winner_cluster_percentile_clustered_for_topic(topic, output_dir, ablation)
+                plot_winner_cluster_percentile_barplot(
+                    topic_percentile_clustered,
+                    title=f"Winner Cluster Size Percentile Ranking: {display_name}{ablation_label}",
+                    output_path=topic_dir / "winner_cluster_percentile_barplot.png"
+                )
             
             plot_likert_histogram(
                 likert_results,
