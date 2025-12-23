@@ -1084,7 +1084,8 @@ def collect_all_likert_clustered(
 def plot_likert_barplot(
     clustered_results: Dict[str, List[List[float]]],
     title: str = "Average Likert Rating by Voting Method",
-    output_path: Optional[Path] = None
+    output_path: Optional[Path] = None,
+    highlight_vbc_lower_ci: bool = False
 ) -> None:
     """
     Plot bar chart of average Likert ratings with 95% CI error bars (cluster-aware).
@@ -1093,6 +1094,7 @@ def plot_likert_barplot(
         clustered_results: Dict mapping method to list of lists (outer reps → inner samples)
         title: Plot title
         output_path: Path to save figure (None = show)
+        highlight_vbc_lower_ci: If True, draw a red horizontal line at the lower CI of Veto by Consumption
     """
     fig, ax = plt.subplots(figsize=(10, 6))
     
@@ -1101,6 +1103,7 @@ def plot_likert_barplot(
     cis = []
     colors = []
     n_clusters_list = []
+    method_keys = []  # Store method keys to find VBC later
     
     # Use custom order for bar plots
     for method in BARPLOT_METHOD_ORDER:
@@ -1113,6 +1116,7 @@ def plot_likert_barplot(
                 cis.append(ci if ci is not None else 0)
                 colors.append(METHOD_COLORS.get(method, "#333333"))
                 n_clusters_list.append(n_clusters)
+                method_keys.append(method)
     
     if not methods:
         logger.warning("No data to plot")
@@ -1126,6 +1130,18 @@ def plot_likert_barplot(
     yerr = [lower_errors, upper_errors]
     
     bars = ax.bar(x, means, yerr=yerr, capsize=5, color=colors, alpha=0.8)
+    
+    # Add red line at lower CI of Veto by Consumption if requested
+    if highlight_vbc_lower_ci:
+        vbc_method = "veto_by_consumption"
+        if vbc_method in method_keys:
+            vbc_idx = method_keys.index(vbc_method)
+            vbc_mean = means[vbc_idx]
+            vbc_ci = cis[vbc_idx]
+            vbc_lower_ci = max(1, vbc_mean - vbc_ci)  # Clip at 1 (minimum Likert value)
+            ax.axhline(y=vbc_lower_ci, color='red', linestyle='--', linewidth=2, 
+                      label=f'VBC Lower CI: {vbc_lower_ci:.2f}', zorder=10)
+            ax.legend(loc='best')
     
     ax.set_xlabel("Voting Method", fontsize=12)
     ax.set_ylabel("Average Likert Rating (1-5)", fontsize=12)
@@ -1486,6 +1502,15 @@ def generate_all_plots(
             title=f"Average Likert Rating by Voting Method{ablation_label}",
             output_path=aggregate_dir / "likert_barplot.png"
         )
+        
+        # Special plot for no_bridging with red line at VBC lower CI
+        if ablation == "no_bridging":
+            plot_likert_barplot(
+                all_likert_results_clustered,
+                title=f"Average Likert Rating by Voting Method{ablation_label}",
+                output_path=aggregate_dir / "likert_barplot_vbc_highlight.png",
+                highlight_vbc_lower_ci=True
+            )
         
         # Aggregate Likert strip plot (methods as rows)
         plot_likert_stripplot(
