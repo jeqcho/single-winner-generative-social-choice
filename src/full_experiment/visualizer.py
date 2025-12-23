@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import List, Dict, Optional
 import matplotlib.pyplot as plt
 import numpy as np
+import seaborn as sns
 from scipy import stats
 
 from .config import VOTING_METHODS, OUTPUT_DIR
@@ -35,6 +36,17 @@ METHOD_NAMES = {
     "chatgpt": "ChatGPT",
     "chatgpt_with_rankings": "ChatGPT + Rankings",
 }
+
+# Custom order for bar plots: veto, borda, schulze, irv, plurality, gpt, gpt+rankings
+BARPLOT_METHOD_ORDER = [
+    "veto_by_consumption",
+    "borda",
+    "schulze",
+    "irv",
+    "plurality",
+    "chatgpt",
+    "chatgpt_with_rankings",
+]
 
 # Short names for topics (for filenames)
 TOPIC_SHORT_NAMES = {
@@ -310,6 +322,78 @@ def collect_all_results(
     return all_results
 
 
+def collect_epsilon_by_topic(
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full",
+    topics: Optional[List[str]] = None
+) -> Dict[str, Dict[str, List[float]]]:
+    """
+    Collect epsilon results organized by topic, then by method.
+    
+    Args:
+        output_dir: Output directory
+        ablation: Ablation type
+        topics: List of topics to include (None = all)
+    
+    Returns:
+        Dict mapping topic_slug to {method: [epsilon values]}
+    """
+    results_by_topic = {}
+    
+    data_dir = output_dir / "data"
+    if not data_dir.exists():
+        return results_by_topic
+    
+    # Get all topic directories
+    if topics is None:
+        topic_dirs = [d for d in data_dir.iterdir() if d.is_dir()]
+    else:
+        topic_dirs = [data_dir / t for t in topics if (data_dir / t).exists()]
+    
+    for topic_dir in topic_dirs:
+        topic_slug = topic_dir.name
+        topic_results = collect_results_for_topic(topic_slug, output_dir, ablation)
+        results_by_topic[topic_slug] = topic_results
+    
+    return results_by_topic
+
+
+def collect_likert_by_topic(
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full",
+    topics: Optional[List[str]] = None
+) -> Dict[str, Dict[str, List[float]]]:
+    """
+    Collect Likert results organized by topic, then by method.
+    
+    Args:
+        output_dir: Output directory
+        ablation: Ablation type
+        topics: List of topics to include (None = all)
+    
+    Returns:
+        Dict mapping topic_slug to {method: [Likert values]}
+    """
+    results_by_topic = {}
+    
+    data_dir = output_dir / "data"
+    if not data_dir.exists():
+        return results_by_topic
+    
+    # Get all topic directories
+    if topics is None:
+        topic_dirs = [d for d in data_dir.iterdir() if d.is_dir()]
+    else:
+        topic_dirs = [data_dir / t for t in topics if (data_dir / t).exists()]
+    
+    for topic_dir in topic_dirs:
+        topic_slug = topic_dir.name
+        topic_results = collect_likert_for_topic(topic_slug, output_dir, ablation)
+        results_by_topic[topic_slug] = topic_results
+    
+    return results_by_topic
+
+
 def plot_epsilon_histogram(
     results: Dict[str, List[float]],
     title: str = "Epsilon Distribution by Voting Method",
@@ -463,7 +547,8 @@ def plot_epsilon_barplot(
     colors = []
     n_clusters_list = []
     
-    for method in VOTING_METHODS:
+    # Use custom order for bar plots
+    for method in BARPLOT_METHOD_ORDER:
         clusters = clustered_results.get(method, [])
         if clusters:
             mean, ci, n_clusters = compute_cluster_ci(clusters)
@@ -523,6 +608,256 @@ def plot_epsilon_barplot(
         plt.show()
 
 
+def plot_epsilon_stripplot(
+    results: Dict[str, List[float]],
+    title: str = "Epsilon Distribution by Voting Method",
+    output_path: Optional[Path] = None
+) -> None:
+    """
+    Plot horizontal strip plot of epsilon values with methods as rows.
+    
+    Args:
+        results: Dict mapping method to list of epsilon values
+        title: Plot title
+        output_path: Path to save figure (None = show)
+    """
+    # Prepare data for seaborn
+    data = []
+    for method in BARPLOT_METHOD_ORDER:
+        values = results.get(method, [])
+        display_name = METHOD_NAMES.get(method, method)
+        for v in values:
+            if v is not None and v >= 0:  # Filter out sentinel values
+                data.append({"Method": display_name, "Epsilon": v, "method_key": method})
+    
+    if not data:
+        logger.warning("No epsilon values to plot")
+        return
+    
+    import pandas as pd
+    df = pd.DataFrame(data)
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=(12, 6))
+    
+    # Create color palette based on method order (use custom order, but only include methods that have data)
+    method_order = [METHOD_NAMES.get(m, m) for m in BARPLOT_METHOD_ORDER if METHOD_NAMES.get(m, m) in df["Method"].values]
+    palette = {METHOD_NAMES.get(m, m): METHOD_COLORS.get(m, "#333333") for m in BARPLOT_METHOD_ORDER}
+    
+    # Plot strip plot with jitter
+    sns.stripplot(
+        data=df,
+        x="Epsilon",
+        y="Method",
+        hue="Method",
+        order=method_order,
+        hue_order=method_order,
+        palette=palette,
+        jitter=0.3,
+        alpha=0.6,
+        size=4,
+        ax=ax,
+        legend=False
+    )
+    
+    # Add mean markers
+    for i, method in enumerate(method_order):
+        method_data = df[df["Method"] == method]["Epsilon"]
+        if len(method_data) > 0:
+            mean_val = method_data.mean()
+            ax.scatter([mean_val], [i], color='black', s=100, marker='|', linewidths=2, zorder=10)
+    
+    ax.set_xlabel("Epsilon (ε)", fontsize=12)
+    ax.set_ylabel("Voting Method", fontsize=12)
+    ax.set_title(title, fontsize=14)
+    ax.set_xlim(0, 1)
+    ax.grid(True, alpha=0.3, axis='x')
+    
+    # Add note about sample size
+    n_samples = len(df)
+    ax.text(0.98, 0.02, f"n={n_samples} samples | bars = means",
+            transform=ax.transAxes, fontsize=8, verticalalignment='bottom',
+            horizontalalignment='right', color='gray')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved strip plot to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
+def plot_epsilon_stripplot_by_topic(
+    results_by_topic: Dict[str, List[float]],
+    method: str,
+    title: str = None,
+    output_path: Optional[Path] = None
+) -> None:
+    """
+    Plot horizontal strip plot of epsilon values with topics as rows (for a single method).
+    
+    Args:
+        results_by_topic: Dict mapping topic_slug to list of epsilon values
+        method: Voting method name (for title)
+        title: Plot title (optional)
+        output_path: Path to save figure (None = show)
+    """
+    # Prepare data for seaborn
+    data = []
+    for topic_slug, values in results_by_topic.items():
+        display_name = TOPIC_DISPLAY_NAMES.get(topic_slug, topic_slug[:30])
+        for v in values:
+            if v is not None and v >= 0:  # Filter out sentinel values
+                data.append({"Topic": display_name, "Epsilon": v})
+    
+    if not data:
+        logger.warning(f"No epsilon values to plot for {method}")
+        return
+    
+    import pandas as pd
+    df = pd.DataFrame(data)
+    
+    # Create figure - adjust height based on number of topics
+    n_topics = df["Topic"].nunique()
+    fig_height = max(4, n_topics * 0.6)
+    fig, ax = plt.subplots(figsize=(12, fig_height))
+    
+    # Get topic order (sorted alphabetically)
+    topic_order = sorted(df["Topic"].unique())
+    
+    method_display = METHOD_NAMES.get(method, method)
+    method_color = METHOD_COLORS.get(method, "#333333")
+    
+    # Plot strip plot with jitter
+    sns.stripplot(
+        data=df,
+        x="Epsilon",
+        y="Topic",
+        order=topic_order,
+        color=method_color,
+        jitter=0.3,
+        alpha=0.6,
+        size=4,
+        ax=ax
+    )
+    
+    # Add mean markers
+    for i, topic in enumerate(topic_order):
+        topic_data = df[df["Topic"] == topic]["Epsilon"]
+        if len(topic_data) > 0:
+            mean_val = topic_data.mean()
+            ax.scatter([mean_val], [i], color='black', s=100, marker='|', linewidths=2, zorder=10)
+    
+    ax.set_xlabel("Epsilon (ε)", fontsize=12)
+    ax.set_ylabel("Topic", fontsize=12)
+    ax.set_title(title or f"Epsilon by Topic: {method_display}", fontsize=14)
+    ax.set_xlim(0, 1)
+    ax.grid(True, alpha=0.3, axis='x')
+    
+    # Add note about sample size
+    n_samples = len(df)
+    ax.text(0.98, 0.02, f"n={n_samples} samples | bars = means",
+            transform=ax.transAxes, fontsize=8, verticalalignment='bottom',
+            horizontalalignment='right', color='gray')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved topic strip plot to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
+def plot_likert_stripplot_by_topic(
+    results_by_topic: Dict[str, List[float]],
+    method: str,
+    title: str = None,
+    output_path: Optional[Path] = None
+) -> None:
+    """
+    Plot horizontal strip plot of Likert ratings with topics as rows (for a single method).
+    
+    Args:
+        results_by_topic: Dict mapping topic_slug to list of Likert ratings
+        method: Voting method name (for title)
+        title: Plot title (optional)
+        output_path: Path to save figure (None = show)
+    """
+    # Prepare data for seaborn
+    data = []
+    for topic_slug, values in results_by_topic.items():
+        display_name = TOPIC_DISPLAY_NAMES.get(topic_slug, topic_slug[:30])
+        for v in values:
+            if v is not None:
+                data.append({"Topic": display_name, "Likert": v})
+    
+    if not data:
+        logger.warning(f"No Likert values to plot for {method}")
+        return
+    
+    import pandas as pd
+    df = pd.DataFrame(data)
+    
+    # Create figure - adjust height based on number of topics
+    n_topics = df["Topic"].nunique()
+    fig_height = max(4, n_topics * 0.6)
+    fig, ax = plt.subplots(figsize=(12, fig_height))
+    
+    # Get topic order (sorted alphabetically)
+    topic_order = sorted(df["Topic"].unique())
+    
+    method_display = METHOD_NAMES.get(method, method)
+    method_color = METHOD_COLORS.get(method, "#333333")
+    
+    # Plot strip plot with jitter
+    sns.stripplot(
+        data=df,
+        x="Likert",
+        y="Topic",
+        order=topic_order,
+        color=method_color,
+        jitter=0.3,
+        alpha=0.6,
+        size=4,
+        ax=ax
+    )
+    
+    # Add mean markers
+    for i, topic in enumerate(topic_order):
+        topic_data = df[df["Topic"] == topic]["Likert"]
+        if len(topic_data) > 0:
+            mean_val = topic_data.mean()
+            ax.scatter([mean_val], [i], color='black', s=100, marker='|', linewidths=2, zorder=10)
+    
+    ax.set_xlabel("Likert Rating (1-5)", fontsize=12)
+    ax.set_ylabel("Topic", fontsize=12)
+    ax.set_title(title or f"Likert by Topic: {method_display}", fontsize=14)
+    ax.set_xlim(1, 5)
+    ax.grid(True, alpha=0.3, axis='x')
+    
+    # Add note about sample size
+    n_samples = len(df)
+    ax.text(0.98, 0.02, f"n={n_samples} samples | bars = means",
+            transform=ax.transAxes, fontsize=8, verticalalignment='bottom',
+            horizontalalignment='right', color='gray')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved Likert topic strip plot to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
 def collect_likert_for_topic(
     topic_slug: str,
     output_dir: Path = OUTPUT_DIR,
@@ -555,8 +890,16 @@ def collect_likert_for_topic(
         if not data_dir.exists():
             continue
         
-        # Load filtered Likert ratings
-        likert_file = data_dir / "filtered_likert.json"
+        # Load Likert ratings - path depends on ablation type
+        if ablation == "full":
+            likert_file = data_dir / "filtered_likert.json"
+        elif ablation == "no_bridging":
+            likert_file = data_dir / "full_likert.json"
+        elif ablation == "no_filtering":
+            likert_file = rep_dir / "full_likert.json"
+        else:
+            likert_file = data_dir / "filtered_likert.json"
+        
         if not likert_file.exists():
             continue
         
@@ -585,6 +928,16 @@ def collect_likert_for_topic(
                     winner = sample_results[method].get("winner")
                     if winner is not None:
                         winner_idx = int(winner)
+                        # #region agent log
+                        _log_path = Path("/home/ec2-user/single-winner-generative-social-choice/.cursor/debug.log")
+                        _likert_rows = len(likert)
+                        _likert_cols = len(likert[0]) if likert else 0
+                        _max_p_idx = max(persona_indices) if persona_indices else -1
+                        _debug_data = {"topic": topic_slug, "ablation": ablation, "rep": rep_dir.name, "sample": sample_dir.name, "method": method, "winner_idx": winner_idx, "likert_rows": _likert_rows, "likert_cols": _likert_cols, "max_persona_idx": _max_p_idx, "likert_file": str(likert_file)}
+                        if winner_idx >= _likert_cols or _max_p_idx >= _likert_rows:
+                            with open(_log_path, 'a') as _f: _f.write(json.dumps({"hypothesisId": "A-E", "location": "visualizer.py:920", "message": "INDEX_OUT_OF_BOUNDS_SKIPPED", "data": _debug_data, "timestamp": int(__import__('time').time()*1000)}) + "\n")
+                            continue  # Skip this entry - data mismatch
+                        # #endregion
                         # Average Likert rating for winner across sampled personas
                         ratings = [likert[p_idx][winner_idx] for p_idx in persona_indices]
                         avg_rating = np.mean(ratings)
@@ -625,8 +978,16 @@ def collect_likert_clustered_for_topic(
         if not data_dir.exists():
             continue
         
-        # Load filtered Likert ratings
-        likert_file = data_dir / "filtered_likert.json"
+        # Load Likert ratings - path depends on ablation type
+        if ablation == "full":
+            likert_file = data_dir / "filtered_likert.json"
+        elif ablation == "no_bridging":
+            likert_file = data_dir / "full_likert.json"
+        elif ablation == "no_filtering":
+            likert_file = rep_dir / "full_likert.json"
+        else:
+            likert_file = data_dir / "filtered_likert.json"
+        
         if not likert_file.exists():
             continue
         
@@ -657,6 +1018,16 @@ def collect_likert_clustered_for_topic(
                     winner = sample_results[method].get("winner")
                     if winner is not None:
                         winner_idx = int(winner)
+                        # #region agent log
+                        _log_path = Path("/home/ec2-user/single-winner-generative-social-choice/.cursor/debug.log")
+                        _likert_rows = len(likert)
+                        _likert_cols = len(likert[0]) if likert else 0
+                        _max_p_idx = max(persona_indices) if persona_indices else -1
+                        _debug_data = {"topic": topic_slug, "ablation": ablation, "rep": rep_dir.name, "sample": sample_dir.name, "method": method, "winner_idx": winner_idx, "likert_rows": _likert_rows, "likert_cols": _likert_cols, "max_persona_idx": _max_p_idx, "likert_file": str(likert_file)}
+                        if winner_idx >= _likert_cols or _max_p_idx >= _likert_rows:
+                            with open(_log_path, 'a') as _f: _f.write(json.dumps({"hypothesisId": "A-E", "location": "visualizer.py:clustered", "message": "INDEX_OUT_OF_BOUNDS_SKIPPED", "data": _debug_data, "timestamp": int(__import__('time').time()*1000)}) + "\n")
+                            continue  # Skip this entry - data mismatch
+                        # #endregion
                         ratings = [likert[p_idx][winner_idx] for p_idx in persona_indices]
                         avg_rating = np.mean(ratings)
                         rep_results[method].append(avg_rating)
@@ -667,6 +1038,47 @@ def collect_likert_clustered_for_topic(
                 results[method].append(rep_results[method])
     
     return results
+
+
+def collect_all_likert_clustered(
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full",
+    topics: Optional[List[str]] = None
+) -> Dict[str, List[List[float]]]:
+    """
+    Collect all Likert results across topics, preserving cluster structure.
+    
+    Each outer rep across all topics is treated as one cluster.
+    
+    Args:
+        output_dir: Output directory
+        ablation: Ablation type
+        topics: List of topics to include (None = all)
+    
+    Returns:
+        Dict mapping method name to list of lists (clusters)
+    """
+    all_results = {method: [] for method in VOTING_METHODS}
+    
+    data_dir = output_dir / "data"
+    if not data_dir.exists():
+        logger.warning(f"Data directory not found: {data_dir}")
+        return all_results
+    
+    # Get all topic directories
+    if topics is None:
+        topic_dirs = [d for d in data_dir.iterdir() if d.is_dir()]
+    else:
+        topic_dirs = [data_dir / t for t in topics if (data_dir / t).exists()]
+    
+    for topic_dir in topic_dirs:
+        topic_results = collect_likert_clustered_for_topic(
+            topic_dir.name, output_dir, ablation
+        )
+        for method in VOTING_METHODS:
+            all_results[method].extend(topic_results[method])
+    
+    return all_results
 
 
 def plot_likert_barplot(
@@ -690,7 +1102,8 @@ def plot_likert_barplot(
     colors = []
     n_clusters_list = []
     
-    for method in VOTING_METHODS:
+    # Use custom order for bar plots
+    for method in BARPLOT_METHOD_ORDER:
         clusters = clustered_results.get(method, [])
         if clusters:
             mean, ci, n_clusters = compute_cluster_ci(clusters)
@@ -746,6 +1159,88 @@ def plot_likert_barplot(
         output_path.parent.mkdir(parents=True, exist_ok=True)
         plt.savefig(output_path, dpi=150, bbox_inches='tight')
         logger.info(f"Saved Likert bar plot to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
+def plot_likert_stripplot(
+    results: Dict[str, List[float]],
+    title: str = "Likert Rating Distribution by Voting Method",
+    output_path: Optional[Path] = None
+) -> None:
+    """
+    Plot horizontal strip plot of Likert ratings with methods as rows.
+    
+    Args:
+        results: Dict mapping method to list of Likert ratings
+        title: Plot title
+        output_path: Path to save figure (None = show)
+    """
+    # Prepare data for seaborn
+    data = []
+    for method in BARPLOT_METHOD_ORDER:
+        values = results.get(method, [])
+        display_name = METHOD_NAMES.get(method, method)
+        for v in values:
+            if v is not None:
+                data.append({"Method": display_name, "Likert": v, "method_key": method})
+    
+    if not data:
+        logger.warning("No Likert values to plot")
+        return
+    
+    import pandas as pd
+    df = pd.DataFrame(data)
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=(12, 6))
+    
+    # Create color palette based on method order (use custom order, but only include methods that have data)
+    method_order = [METHOD_NAMES.get(m, m) for m in BARPLOT_METHOD_ORDER if METHOD_NAMES.get(m, m) in df["Method"].values]
+    palette = {METHOD_NAMES.get(m, m): METHOD_COLORS.get(m, "#333333") for m in BARPLOT_METHOD_ORDER}
+    
+    # Plot strip plot with jitter
+    sns.stripplot(
+        data=df,
+        x="Likert",
+        y="Method",
+        hue="Method",
+        order=method_order,
+        hue_order=method_order,
+        palette=palette,
+        jitter=0.3,
+        alpha=0.6,
+        size=4,
+        ax=ax,
+        legend=False
+    )
+    
+    # Add mean markers
+    for i, method in enumerate(method_order):
+        method_data = df[df["Method"] == method]["Likert"]
+        if len(method_data) > 0:
+            mean_val = method_data.mean()
+            ax.scatter([mean_val], [i], color='black', s=100, marker='|', linewidths=2, zorder=10)
+    
+    ax.set_xlabel("Likert Rating (1-5)", fontsize=12)
+    ax.set_ylabel("Voting Method", fontsize=12)
+    ax.set_title(title, fontsize=14)
+    ax.set_xlim(1, 5)
+    ax.grid(True, alpha=0.3, axis='x')
+    
+    # Add note about sample size
+    n_samples = len(df)
+    ax.text(0.98, 0.02, f"n={n_samples} samples | bars = means",
+            transform=ax.transAxes, fontsize=8, verticalalignment='bottom',
+            horizontalalignment='right', color='gray')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved Likert strip plot to {output_path}")
         plt.close()
     else:
         plt.show()
@@ -929,6 +1424,34 @@ def generate_all_plots(
             output_path=aggregate_dir / "epsilon_barplot.png"
         )
         
+        # Aggregate strip plot (methods as rows)
+        plot_epsilon_stripplot(
+            all_results,
+            title=f"Epsilon Distribution by Voting Method{ablation_label}",
+            output_path=aggregate_dir / "epsilon_stripplot.png"
+        )
+        
+        # Collect epsilon by topic for per-method strip plots
+        epsilon_by_topic = collect_epsilon_by_topic(output_dir, ablation, topics)
+        
+        # Per-method epsilon strip plots (topics as rows)
+        for method in VOTING_METHODS:
+            # Collect this method's values organized by topic
+            method_by_topic = {
+                topic_slug: topic_results.get(method, [])
+                for topic_slug, topic_results in epsilon_by_topic.items()
+            }
+            # Filter out empty topics
+            method_by_topic = {k: v for k, v in method_by_topic.items() if v}
+            if method_by_topic:
+                method_display = METHOD_NAMES.get(method, method)
+                plot_epsilon_stripplot_by_topic(
+                    method_by_topic,
+                    method,
+                    title=f"Epsilon by Topic: {method_display}{ablation_label}",
+                    output_path=aggregate_dir / f"epsilon_stripplot_{method}.png"
+                )
+        
         # Per-method epsilon histograms for aggregate
         for method in VOTING_METHODS:
             method_values = all_results.get(method, [])
@@ -939,6 +1462,54 @@ def generate_all_plots(
                     method,
                     title=f"Epsilon: All Topics - {method_display}{ablation_label}",
                     output_path=aggregate_dir / f"epsilon_histogram_{method}.png"
+                )
+        
+        # Collect all Likert results for aggregate plots
+        all_likert_results = {}
+        for method in VOTING_METHODS:
+            all_likert_results[method] = []
+        
+        # Collect Likert by topic for per-method strip plots
+        likert_by_topic = collect_likert_by_topic(output_dir, ablation, topics)
+        
+        # Aggregate Likert results from all topics
+        for topic_slug, topic_results in likert_by_topic.items():
+            for method in VOTING_METHODS:
+                all_likert_results[method].extend(topic_results.get(method, []))
+        
+        # Clustered results for barplots (95% CI)
+        all_likert_results_clustered = collect_all_likert_clustered(output_dir, ablation, topics)
+        
+        # Aggregate Likert bar plot
+        plot_likert_barplot(
+            all_likert_results_clustered,
+            title=f"Average Likert Rating by Voting Method{ablation_label}",
+            output_path=aggregate_dir / "likert_barplot.png"
+        )
+        
+        # Aggregate Likert strip plot (methods as rows)
+        plot_likert_stripplot(
+            all_likert_results,
+            title=f"Likert Rating Distribution by Voting Method{ablation_label}",
+            output_path=aggregate_dir / "likert_stripplot.png"
+        )
+        
+        # Per-method Likert strip plots (topics as rows)
+        for method in VOTING_METHODS:
+            # Collect this method's values organized by topic
+            method_by_topic = {
+                topic_slug: topic_results.get(method, [])
+                for topic_slug, topic_results in likert_by_topic.items()
+            }
+            # Filter out empty topics
+            method_by_topic = {k: v for k, v in method_by_topic.items() if v}
+            if method_by_topic:
+                method_display = METHOD_NAMES.get(method, method)
+                plot_likert_stripplot_by_topic(
+                    method_by_topic,
+                    method,
+                    title=f"Likert by Topic: {method_display}{ablation_label}",
+                    output_path=aggregate_dir / f"likert_stripplot_{method}.png"
                 )
         
         # Per-topic plots in ablation/topic_short_name/
@@ -974,6 +1545,13 @@ def generate_all_plots(
                 output_path=topic_dir / "epsilon_barplot.png"
             )
             
+            # Per-topic epsilon strip plot (methods as rows)
+            plot_epsilon_stripplot(
+                topic_results,
+                title=f"Epsilon Distribution: {display_name}{ablation_label}",
+                output_path=topic_dir / "epsilon_stripplot.png"
+            )
+            
             # Per-method epsilon histograms
             for method in VOTING_METHODS:
                 method_values = topic_results.get(method, [])
@@ -994,6 +1572,13 @@ def generate_all_plots(
                 likert_results_clustered,
                 title=f"Average Likert Rating: {display_name}{ablation_label}",
                 output_path=topic_dir / "likert_barplot.png"
+            )
+            
+            # Per-topic Likert strip plot (methods as rows)
+            plot_likert_stripplot(
+                likert_results,
+                title=f"Likert Distribution: {display_name}{ablation_label}",
+                output_path=topic_dir / "likert_stripplot.png"
             )
             
             plot_likert_histogram(
