@@ -1954,7 +1954,8 @@ def plot_cluster_size_violinplot(
         palette={"Other clusters": "blue", "Winner cluster": "red"},
         alpha=0.6,
         ax=ax,
-        inner="quart"  # Show quartiles inside violins
+        inner="quart",  # Show quartiles inside violins
+        cut=0  # Clip KDE at data bounds (prevents extending below 0)
     )
     
     ax.set_xlabel("Cluster Size", fontsize=12)
