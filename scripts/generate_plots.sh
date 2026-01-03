@@ -23,3 +23,7 @@ print('Done!')
 echo "Generating cluster size histograms..."
 bash scripts/generate_cluster_histogram.sh
 
+# Generate winner-in-biggest-cluster tables
+echo "Generating winner-in-biggest-cluster tables..."
+bash scripts/generate_winner_biggest_cluster_table.sh
+

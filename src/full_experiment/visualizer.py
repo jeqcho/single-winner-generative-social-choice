@@ -1139,6 +1139,121 @@ def plot_epsilon_stripplot_by_topic(
         plt.show()
 
 
+def plot_epsilon_stripplot_comparison(
+    output_dir: Path = OUTPUT_DIR,
+    method: str = "chatgpt",
+    output_path: Optional[Path] = None
+) -> None:
+    """
+    Plot horizontal strip plot comparing filtering vs no_filtering for selected topics.
+    
+    Creates a plot with 4 topics (Campus Speech, Free Speech, Littering, Environment),
+    each with 2 mini-rows showing no_filtering (top) and filtering (bottom).
+    Campus Speech and Free Speech are colored blue, Littering and Environment are red.
+    
+    Args:
+        output_dir: Output directory containing experiment data
+        method: Voting method to display (default: "chatgpt")
+        output_path: Path to save figure (None = show)
+    """
+    import pandas as pd
+    
+    # Define topics with their slugs, display names, and colors
+    topics_config = [
+        ("what-are-your-thoughts-on-the-way-university-campu", "Campus Speech", "#2563eb"),  # blue
+        ("what-limits-if-any-should-exist-on-free-speech-reg", "Free Speech", "#2563eb"),     # blue
+        ("what-are-the-best-policies-to-prevent-littering-in", "Littering", "#dc2626"),       # red
+    ]
+    
+    # Collect data for each topic and ablation
+    data = []
+    row_order = []
+    row_colors = {}
+    
+    for topic_slug, display_name, color in topics_config:
+        for ablation, ablation_label in [("no_filtering", "no filtering"), ("full", "filtering")]:
+            row_label = f"{display_name} ({ablation_label})"
+            row_order.append(row_label)
+            row_colors[row_label] = color
+            
+            # Collect results for this topic and ablation
+            topic_results = collect_results_for_topic(topic_slug, output_dir, ablation)
+            method_values = topic_results.get(method, [])
+            
+            for v in method_values:
+                if v is not None and v >= 0:
+                    data.append({
+                        "Row": row_label,
+                        "Epsilon": v,
+                        "Color": color
+                    })
+    
+    if not data:
+        logger.warning(f"No epsilon values to plot for comparison")
+        return
+    
+    df = pd.DataFrame(data)
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=(12, 6))
+    
+    # Plot each row separately to control colors
+    for i, row_label in enumerate(row_order):
+        row_data = df[df["Row"] == row_label]
+        if len(row_data) > 0:
+            color = row_colors[row_label]
+            ax.scatter(
+                row_data["Epsilon"],
+                [i] * len(row_data) + np.random.uniform(-0.2, 0.2, len(row_data)),
+                color=color,
+                alpha=0.6,
+                s=20,
+                zorder=5
+            )
+            # Add mean marker
+            mean_val = row_data["Epsilon"].mean()
+            ax.scatter([mean_val], [i], color='black', s=100, marker='|', linewidths=2, zorder=10)
+    
+    # Set y-axis labels with colored text
+    ax.set_yticks(range(len(row_order)))
+    ax.set_yticklabels(row_order)
+    
+    # Color the y-axis tick labels
+    for i, label in enumerate(ax.get_yticklabels()):
+        label.set_color(row_colors[row_order[i]])
+    
+    # Add horizontal lines to separate topic groups
+    n_topics = len(topics_config)
+    for i in range(1, n_topics):
+        ax.axhline(y=i * 2 - 0.5, color='gray', linestyle='--', linewidth=0.5, alpha=0.5)
+    
+    method_display = METHOD_NAMES.get(method, method)
+    ax.set_xlabel("Epsilon (ε)", fontsize=12)
+    ax.set_ylabel("")
+    ax.set_title(f"Epsilon Comparison: Filtering vs No Filtering ({method_display})", fontsize=14)
+    ax.set_xlim(0, 1)
+    ax.grid(True, alpha=0.3, axis='x')
+    
+    # Invert y-axis so first topic is at top
+    ax.invert_yaxis()
+    
+    # Add note about sample size
+    n_samples = len(df)
+    ax.text(0.98, 0.02, f"n={n_samples} samples | bars = means",
+            transform=ax.transAxes, fontsize=8, verticalalignment='bottom',
+            horizontalalignment='right', color='gray')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved comparison strip plot to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
 def plot_likert_stripplot_by_topic(
     results_by_topic: Dict[str, List[float]],
     method: str,
