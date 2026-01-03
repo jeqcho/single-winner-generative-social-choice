@@ -11,7 +11,7 @@ import numpy as np
 import seaborn as sns
 from scipy import stats
 
-from .config import VOTING_METHODS, OUTPUT_DIR
+from .config import VOTING_METHODS, OUTPUT_DIR, TOPIC_SHORT_NAMES, TOPIC_DISPLAY_NAMES
 from .statement_filter import load_filter_assignments
 
 logger = logging.getLogger(__name__)
@@ -48,40 +48,6 @@ BARPLOT_METHOD_ORDER = [
     "chatgpt",
     "chatgpt_with_rankings",
 ]
-
-# Short names for topics (for filenames)
-TOPIC_SHORT_NAMES = {
-    "how-should-we-increase-the-general-publics-trust-i": "trust",
-    "what-are-the-best-policies-to-prevent-littering-in": "littering",
-    "what-are-your-thoughts-on-the-way-university-campu": "campus_speech",
-    "what-balance-should-be-struck-between-environmenta": "environment",
-    "what-balance-should-exist-between-gun-safety-laws-": "guns",
-    "what-limits-if-any-should-exist-on-free-speech-reg": "free_speech",
-    "what-principles-should-guide-immigration-policy-an": "immigration",
-    "what-reforms-if-any-should-replace-or-modify-the-e": "electoral",
-    "what-responsibilities-should-tech-companies-have-w": "tech_privacy",
-    "what-role-should-artificial-intelligence-play-in-s": "ai",
-    "what-role-should-the-government-play-in-ensuring-u": "healthcare",
-    "what-should-guide-laws-concerning-abortion": "abortion",
-    "what-strategies-should-guide-policing-to-address-b": "policing",
-}
-
-# Display names for topics (for plot titles)
-TOPIC_DISPLAY_NAMES = {
-    "how-should-we-increase-the-general-publics-trust-i": "Public Trust in Institutions",
-    "what-are-the-best-policies-to-prevent-littering-in": "Littering Prevention",
-    "what-are-your-thoughts-on-the-way-university-campu": "Campus Free Speech",
-    "what-balance-should-be-struck-between-environmenta": "Environment vs Economy",
-    "what-balance-should-exist-between-gun-safety-laws-": "Gun Safety",
-    "what-limits-if-any-should-exist-on-free-speech-reg": "Free Speech Limits",
-    "what-principles-should-guide-immigration-policy-an": "Immigration Policy",
-    "what-reforms-if-any-should-replace-or-modify-the-e": "Electoral Reform",
-    "what-responsibilities-should-tech-companies-have-w": "Tech Privacy",
-    "what-role-should-artificial-intelligence-play-in-s": "AI in Society",
-    "what-role-should-the-government-play-in-ensuring-u": "Healthcare",
-    "what-should-guide-laws-concerning-abortion": "Abortion Laws",
-    "what-strategies-should-guide-policing-to-address-b": "Policing & Civil Rights",
-}
 
 
 def collect_results_for_topic(

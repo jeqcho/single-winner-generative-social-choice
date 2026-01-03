@@ -19,3 +19,7 @@ generate_all_plots(output_dir, topics=topics, ablations=['full', 'no_bridging', 
 print('Done!')
 "
 
+# Generate cluster size histograms
+echo "Generating cluster size histograms..."
+bash scripts/generate_cluster_histogram.sh
+
