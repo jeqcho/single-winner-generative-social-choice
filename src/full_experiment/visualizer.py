@@ -2072,6 +2072,412 @@ def plot_cluster_size_violinplot(
         plt.show()
 
 
+# =============================================================================
+# Multi-Persona Collection and Plotting Functions
+# =============================================================================
+
+# Standard persona counts to support
+PERSONA_COUNTS = [5, 10, 20]
+
+
+def get_sample_results_dir_for_n_personas(
+    rep_dir: Path,
+    ablation: str,
+    n_personas: int
+) -> Path:
+    """
+    Get the directory containing sample results for a given ablation and persona count.
+    
+    Args:
+        rep_dir: Path to the rep directory (e.g., data/topic/rep0)
+        ablation: Ablation type ('full', 'no_filtering', 'no_bridging')
+        n_personas: Number of personas (5, 10, or 20)
+    
+    Returns:
+        Path to the directory containing sample subdirectories
+    """
+    if ablation == "full":
+        base_dir = rep_dir
+    elif ablation == "no_filtering":
+        base_dir = rep_dir / "ablation_no_filtering"
+    elif ablation == "no_bridging":
+        base_dir = rep_dir / "ablation_no_bridging"
+    else:
+        raise ValueError(f"Unknown ablation: {ablation}")
+    
+    if n_personas == 20:
+        # Standard 20 personas go directly in base_dir
+        return base_dir
+    else:
+        # Other counts go in subdirectories
+        return base_dir / f"{n_personas}-personas"
+
+
+def collect_results_for_n_personas_topic(
+    topic_slug: str,
+    n_personas: int,
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full"
+) -> Dict[str, List[float]]:
+    """
+    Collect epsilon results for a specific persona count for a topic.
+    
+    Args:
+        topic_slug: Topic slug
+        n_personas: Number of personas (5, 10, or 20)
+        output_dir: Output directory
+        ablation: Ablation type
+    
+    Returns:
+        Dict mapping method name to list of epsilon values
+    """
+    results = {method: [] for method in VOTING_METHODS}
+    
+    topic_dir = output_dir / "data" / topic_slug
+    
+    if not topic_dir.exists():
+        logger.warning(f"Topic directory not found: {topic_dir}")
+        return results
+    
+    # Iterate through all rep directories
+    for rep_dir in sorted(topic_dir.glob("rep*")):
+        # Get sample results directory for this persona count
+        sample_base = get_sample_results_dir_for_n_personas(rep_dir, ablation, n_personas)
+        
+        if not sample_base.exists():
+            continue
+        
+        # Iterate through all sample directories
+        for sample_dir in sorted(sample_base.glob("sample*")):
+            results_file = sample_dir / "results.json"
+            if not results_file.exists():
+                continue
+            
+            with open(results_file, 'r') as f:
+                sample_results = json.load(f)
+            
+            for method in VOTING_METHODS:
+                if method in sample_results:
+                    epsilon = sample_results[method].get("epsilon")
+                    if epsilon is not None:
+                        results[method].append(epsilon)
+    
+    return results
+
+
+def collect_results_for_n_personas_clustered_topic(
+    topic_slug: str,
+    n_personas: int,
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full"
+) -> Dict[str, List[List[float]]]:
+    """
+    Collect epsilon results clustered by repetition for a specific persona count.
+    
+    Args:
+        topic_slug: Topic slug
+        n_personas: Number of personas (5, 10, or 20)
+        output_dir: Output directory
+        ablation: Ablation type
+    
+    Returns:
+        Dict mapping method name to list of lists (outer: reps, inner: samples)
+    """
+    results = {method: [] for method in VOTING_METHODS}
+    
+    topic_dir = output_dir / "data" / topic_slug
+    
+    if not topic_dir.exists():
+        logger.warning(f"Topic directory not found: {topic_dir}")
+        return results
+    
+    # Iterate through all rep directories
+    for rep_dir in sorted(topic_dir.glob("rep*")):
+        # Get sample results directory for this persona count
+        sample_base = get_sample_results_dir_for_n_personas(rep_dir, ablation, n_personas)
+        
+        if not sample_base.exists():
+            continue
+        
+        # Collect all samples for this rep
+        rep_results = {method: [] for method in VOTING_METHODS}
+        
+        for sample_dir in sorted(sample_base.glob("sample*")):
+            results_file = sample_dir / "results.json"
+            if not results_file.exists():
+                continue
+            
+            with open(results_file, 'r') as f:
+                sample_results = json.load(f)
+            
+            for method in VOTING_METHODS:
+                if method in sample_results:
+                    epsilon = sample_results[method].get("epsilon")
+                    if epsilon is not None:
+                        rep_results[method].append(epsilon)
+        
+        # Add this rep's results to the clustered results
+        for method in VOTING_METHODS:
+            if rep_results[method]:
+                results[method].append(rep_results[method])
+    
+    return results
+
+
+def collect_all_results_for_n_personas(
+    n_personas: int,
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full",
+    topics: Optional[List[str]] = None
+) -> Dict[str, List[float]]:
+    """
+    Collect all epsilon results for a specific persona count across all topics.
+    
+    Args:
+        n_personas: Number of personas (5, 10, or 20)
+        output_dir: Output directory
+        ablation: Ablation type
+        topics: List of topics to include (None = all)
+    
+    Returns:
+        Dict mapping method name to list of epsilon values
+    """
+    all_results = {method: [] for method in VOTING_METHODS}
+    
+    data_dir = output_dir / "data"
+    if not data_dir.exists():
+        logger.warning(f"Data directory not found: {data_dir}")
+        return all_results
+    
+    # Get all topic directories
+    if topics is None:
+        topic_dirs = [d for d in data_dir.iterdir() if d.is_dir()]
+    else:
+        topic_dirs = [data_dir / t for t in topics if (data_dir / t).exists()]
+    
+    for topic_dir in topic_dirs:
+        topic_results = collect_results_for_n_personas_topic(
+            topic_dir.name, n_personas, output_dir, ablation
+        )
+        for method in VOTING_METHODS:
+            all_results[method].extend(topic_results[method])
+    
+    return all_results
+
+
+def collect_all_results_for_n_personas_clustered(
+    n_personas: int,
+    output_dir: Path = OUTPUT_DIR,
+    ablation: str = "full",
+    topics: Optional[List[str]] = None
+) -> Dict[str, List[List[float]]]:
+    """
+    Collect all epsilon results clustered by repetition for a specific persona count.
+    
+    Args:
+        n_personas: Number of personas (5, 10, or 20)
+        output_dir: Output directory
+        ablation: Ablation type
+        topics: List of topics to include (None = all)
+    
+    Returns:
+        Dict mapping method name to list of lists (outer: reps, inner: samples)
+    """
+    all_results = {method: [] for method in VOTING_METHODS}
+    
+    data_dir = output_dir / "data"
+    if not data_dir.exists():
+        logger.warning(f"Data directory not found: {data_dir}")
+        return all_results
+    
+    # Get all topic directories
+    if topics is None:
+        topic_dirs = [d for d in data_dir.iterdir() if d.is_dir()]
+    else:
+        topic_dirs = [data_dir / t for t in topics if (data_dir / t).exists()]
+    
+    for topic_dir in topic_dirs:
+        topic_results = collect_results_for_n_personas_clustered_topic(
+            topic_dir.name, n_personas, output_dir, ablation
+        )
+        for method in VOTING_METHODS:
+            all_results[method].extend(topic_results[method])
+    
+    return all_results
+
+
+def plot_epsilon_multi_persona_barplot(
+    results_by_n_personas: Dict[int, Dict[str, List[List[float]]]],
+    title: str = "Average Epsilon by Persona Count",
+    output_path: Optional[Path] = None
+) -> None:
+    """
+    Plot bar chart comparing average epsilon across different persona counts.
+    
+    Args:
+        results_by_n_personas: Dict mapping n_personas to clustered results
+        title: Plot title
+        output_path: Path to save figure (None = show)
+    """
+    fig, ax = plt.subplots(figsize=(14, 6))
+    
+    # Get persona counts and methods
+    persona_counts = sorted(results_by_n_personas.keys())
+    n_groups = len(BARPLOT_METHOD_ORDER)
+    n_bars = len(persona_counts)
+    
+    bar_width = 0.8 / n_bars
+    x = np.arange(n_groups)
+    
+    # Colors for different persona counts
+    persona_colors = {
+        5: '#e74c3c',   # red
+        10: '#f39c12',  # orange
+        20: '#27ae60',  # green
+    }
+    
+    for i, n_personas in enumerate(persona_counts):
+        clustered_results = results_by_n_personas[n_personas]
+        
+        means = []
+        cis = []
+        
+        for method in BARPLOT_METHOD_ORDER:
+            clusters = clustered_results.get(method, [])
+            if clusters:
+                mean, ci, _ = compute_cluster_ci(clusters)
+                means.append(mean if mean is not None else 0)
+                cis.append(ci if ci is not None else 0)
+            else:
+                means.append(0)
+                cis.append(0)
+        
+        # Asymmetric error bars
+        lower_errors = [min(ci, mean) for mean, ci in zip(means, cis)]
+        upper_errors = [min(ci, 1 - mean) for mean, ci in zip(means, cis)]
+        yerr = [lower_errors, upper_errors]
+        
+        offset = (i - (n_bars - 1) / 2) * bar_width
+        color = persona_colors.get(n_personas, '#333333')
+        
+        ax.bar(
+            x + offset,
+            means,
+            bar_width,
+            yerr=yerr,
+            capsize=3,
+            color=color,
+            alpha=0.8,
+            label=f'{n_personas} personas'
+        )
+    
+    ax.set_xlabel("Voting Method", fontsize=12)
+    ax.set_ylabel("Average Epsilon (ε)", fontsize=12)
+    ax.set_title(title, fontsize=14)
+    ax.set_xticks(x)
+    ax.set_xticklabels([METHOD_NAMES.get(m, m) for m in BARPLOT_METHOD_ORDER], rotation=45, ha='right')
+    ax.grid(True, alpha=0.3, axis='y')
+    ax.legend(loc='upper right')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved multi-persona barplot to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
+def plot_epsilon_multi_persona_stripplot(
+    results_by_n_personas: Dict[int, Dict[str, List[float]]],
+    title: str = "Epsilon Distribution by Persona Count",
+    output_path: Optional[Path] = None
+) -> None:
+    """
+    Plot strip plot comparing epsilon distributions across different persona counts.
+    
+    Args:
+        results_by_n_personas: Dict mapping n_personas to flat results
+        title: Plot title
+        output_path: Path to save figure (None = show)
+    """
+    import pandas as pd
+    
+    # Prepare data for seaborn
+    data = []
+    for n_personas, results in results_by_n_personas.items():
+        for method in BARPLOT_METHOD_ORDER:
+            values = results.get(method, [])
+            display_name = METHOD_NAMES.get(method, method)
+            for v in values:
+                if v is not None and v >= 0:
+                    data.append({
+                        "Method": display_name,
+                        "Epsilon": v,
+                        "Personas": f"{n_personas}",
+                        "method_key": method
+                    })
+    
+    if not data:
+        logger.warning("No epsilon values to plot")
+        return
+    
+    df = pd.DataFrame(data)
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=(14, 8))
+    
+    # Get method order
+    method_order = [METHOD_NAMES.get(m, m) for m in BARPLOT_METHOD_ORDER if METHOD_NAMES.get(m, m) in df["Method"].values]
+    
+    # Colors for different persona counts
+    persona_palette = {
+        '5': '#e74c3c',   # red
+        '10': '#f39c12',  # orange
+        '20': '#27ae60',  # green
+    }
+    
+    # Plot strip plot with hue for persona counts
+    sns.stripplot(
+        data=df,
+        x="Epsilon",
+        y="Method",
+        hue="Personas",
+        order=method_order,
+        hue_order=['5', '10', '20'],
+        palette=persona_palette,
+        jitter=0.3,
+        alpha=0.6,
+        size=4,
+        ax=ax,
+        dodge=True
+    )
+    
+    ax.set_xlabel("Epsilon (ε)", fontsize=12)
+    ax.set_ylabel("Voting Method", fontsize=12)
+    ax.set_title(title, fontsize=14)
+    ax.grid(True, alpha=0.3, axis='x')
+    ax.legend(title="Personas", loc='lower right')
+    
+    # Add note about sample size
+    n_samples = len(df)
+    ax.text(0.98, 0.02, f"n={n_samples} total samples",
+            transform=ax.transAxes, fontsize=8, verticalalignment='bottom',
+            horizontalalignment='right', color='gray')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved multi-persona stripplot to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
 def generate_all_plots(
     output_dir: Path = OUTPUT_DIR,
     topics: Optional[List[str]] = None,

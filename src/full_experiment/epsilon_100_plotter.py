@@ -25,6 +25,9 @@ from .epsilon_100 import (
     collect_all_epsilon_100,
     collect_all_epsilon_100_clustered,
     collect_epsilon_100_for_topic,
+    collect_all_epsilon_100_for_n_personas,
+    collect_all_epsilon_100_for_n_personas_clustered,
+    PERSONA_COUNTS,
 )
 
 logger = logging.getLogger(__name__)
@@ -193,6 +196,176 @@ def plot_epsilon_100_stripplot(
         plt.show()
 
 
+def plot_epsilon_100_multi_persona_barplot(
+    results_by_n_personas: Dict[int, Dict[str, List[List[float]]]],
+    title: str = "Average Epsilon (100 Personas) by Persona Count",
+    output_path: Optional[Path] = None
+) -> None:
+    """
+    Plot bar chart comparing average epsilon-100 across different persona counts.
+    
+    Args:
+        results_by_n_personas: Dict mapping n_personas to clustered results
+        title: Plot title
+        output_path: Path to save figure (None = show)
+    """
+    fig, ax = plt.subplots(figsize=(14, 6))
+    
+    # Get persona counts and methods
+    persona_counts = sorted(results_by_n_personas.keys())
+    n_groups = len(BARPLOT_METHOD_ORDER)
+    n_bars = len(persona_counts)
+    
+    bar_width = 0.8 / n_bars
+    x = np.arange(n_groups)
+    
+    # Colors for different persona counts
+    persona_colors = {
+        5: '#e74c3c',   # red
+        10: '#f39c12',  # orange
+        20: '#27ae60',  # green
+    }
+    
+    for i, n_personas in enumerate(persona_counts):
+        clustered_results = results_by_n_personas[n_personas]
+        
+        means = []
+        cis = []
+        
+        for method in BARPLOT_METHOD_ORDER:
+            clusters = clustered_results.get(method, [])
+            if clusters:
+                mean, ci, _ = compute_cluster_ci(clusters)
+                means.append(mean if mean is not None else 0)
+                cis.append(ci if ci is not None else 0)
+            else:
+                means.append(0)
+                cis.append(0)
+        
+        # Asymmetric error bars
+        lower_errors = [min(ci, mean) for mean, ci in zip(means, cis)]
+        upper_errors = [min(ci, 1 - mean) for mean, ci in zip(means, cis)]
+        yerr = [lower_errors, upper_errors]
+        
+        offset = (i - (n_bars - 1) / 2) * bar_width
+        color = persona_colors.get(n_personas, '#333333')
+        
+        ax.bar(
+            x + offset,
+            means,
+            bar_width,
+            yerr=yerr,
+            capsize=3,
+            color=color,
+            alpha=0.8,
+            label=f'{n_personas} personas'
+        )
+    
+    ax.set_xlabel("Voting Method", fontsize=12)
+    ax.set_ylabel("Average Epsilon (ε)", fontsize=12)
+    ax.set_title(title, fontsize=14)
+    ax.set_xticks(x)
+    ax.set_xticklabels([METHOD_NAMES.get(m, m) for m in BARPLOT_METHOD_ORDER], rotation=45, ha='right')
+    ax.grid(True, alpha=0.3, axis='y')
+    ax.legend(loc='upper right')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved epsilon-100 multi-persona barplot to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
+def plot_epsilon_100_multi_persona_stripplot(
+    results_by_n_personas: Dict[int, Dict[str, List[float]]],
+    title: str = "Epsilon (100 Personas) Distribution by Persona Count",
+    output_path: Optional[Path] = None
+) -> None:
+    """
+    Plot strip plot comparing epsilon-100 distributions across different persona counts.
+    
+    Args:
+        results_by_n_personas: Dict mapping n_personas to flat results
+        title: Plot title
+        output_path: Path to save figure (None = show)
+    """
+    # Prepare data for seaborn
+    data = []
+    for n_personas, results in results_by_n_personas.items():
+        for method in BARPLOT_METHOD_ORDER:
+            values = results.get(method, [])
+            display_name = METHOD_NAMES.get(method, method)
+            for v in values:
+                if v is not None and v >= 0:
+                    data.append({
+                        "Method": display_name,
+                        "Epsilon": v,
+                        "Personas": f"{n_personas}",
+                        "method_key": method
+                    })
+    
+    if not data:
+        logger.warning("No epsilon-100 values to plot")
+        return
+    
+    df = pd.DataFrame(data)
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=(14, 8))
+    
+    # Get method order
+    method_order = [METHOD_NAMES.get(m, m) for m in BARPLOT_METHOD_ORDER if METHOD_NAMES.get(m, m) in df["Method"].values]
+    
+    # Colors for different persona counts
+    persona_palette = {
+        '5': '#e74c3c',   # red
+        '10': '#f39c12',  # orange
+        '20': '#27ae60',  # green
+    }
+    
+    # Plot strip plot with hue for persona counts
+    sns.stripplot(
+        data=df,
+        x="Epsilon",
+        y="Method",
+        hue="Personas",
+        order=method_order,
+        hue_order=['5', '10', '20'],
+        palette=persona_palette,
+        jitter=0.3,
+        alpha=0.6,
+        size=4,
+        ax=ax,
+        dodge=True
+    )
+    
+    ax.set_xlabel("Epsilon (ε)", fontsize=12)
+    ax.set_ylabel("Voting Method", fontsize=12)
+    ax.set_title(title, fontsize=14)
+    ax.grid(True, alpha=0.3, axis='x')
+    ax.legend(title="Personas", loc='lower right')
+    
+    # Add note about sample size
+    n_samples = len(df)
+    ax.text(0.98, 0.02, f"n={n_samples} total samples",
+            transform=ax.transAxes, fontsize=8, verticalalignment='bottom',
+            horizontalalignment='right', color='gray')
+    
+    plt.tight_layout()
+    
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches='tight')
+        logger.info(f"Saved epsilon-100 multi-persona stripplot to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
 def generate_epsilon_100_plots(
     output_dir: Path = OUTPUT_DIR,
     topics: Optional[List[str]] = None,
@@ -276,6 +449,83 @@ def generate_epsilon_100_plots(
     logger.info("Epsilon-100 plot generation complete!")
 
 
+def generate_multi_persona_epsilon_100_plots(
+    output_dir: Path = OUTPUT_DIR,
+    topics: Optional[List[str]] = None,
+    ablations: Optional[List[str]] = None,
+    persona_counts: Optional[List[int]] = None
+) -> None:
+    """
+    Generate multi-persona comparison plots for epsilon-100.
+    
+    Args:
+        output_dir: Output directory
+        topics: List of topics (None = auto-detect)
+        ablations: List of ablations to plot
+        persona_counts: List of persona counts to compare (default: [5, 10, 20])
+    """
+    figures_dir = output_dir / "figures"
+    figures_dir.mkdir(parents=True, exist_ok=True)
+    
+    if ablations is None:
+        ablations = ["full"]
+    
+    if persona_counts is None:
+        persona_counts = PERSONA_COUNTS
+    
+    for ablation in ablations:
+        logger.info(f"Generating multi-persona epsilon-100 plots for ablation: {ablation}")
+        
+        # Create subfolder for this ablation
+        ablation_dir = figures_dir / ablation
+        ablation_dir.mkdir(parents=True, exist_ok=True)
+        
+        ablation_label = f" ({ablation.replace('_', ' ')})" if ablation != "full" else ""
+        
+        # Aggregate plots in ablation/aggregate/
+        aggregate_dir = ablation_dir / "aggregate"
+        aggregate_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Collect epsilon-100 results for each persona count
+        flat_results_by_n = {}
+        clustered_results_by_n = {}
+        
+        for n_personas in persona_counts:
+            flat_results = collect_all_epsilon_100_for_n_personas(
+                n_personas, output_dir, ablation, topics
+            )
+            clustered_results = collect_all_epsilon_100_for_n_personas_clustered(
+                n_personas, output_dir, ablation, topics
+            )
+            
+            # Only include if we have data
+            total_samples = sum(len(v) for v in flat_results.values())
+            if total_samples > 0:
+                flat_results_by_n[n_personas] = flat_results
+                clustered_results_by_n[n_personas] = clustered_results
+                logger.info(f"  {n_personas} personas: {total_samples} epsilon-100 values")
+        
+        if not flat_results_by_n:
+            logger.warning(f"No multi-persona data found for ablation {ablation}")
+            continue
+        
+        # Generate multi-persona barplot
+        plot_epsilon_100_multi_persona_barplot(
+            clustered_results_by_n,
+            title=f"Average Epsilon (100 Personas) by Persona Count{ablation_label}",
+            output_path=aggregate_dir / "epsilon_100_multi_persona_barplot.png"
+        )
+        
+        # Generate multi-persona stripplot
+        plot_epsilon_100_multi_persona_stripplot(
+            flat_results_by_n,
+            title=f"Epsilon (100 Personas) Distribution by Persona Count{ablation_label}",
+            output_path=aggregate_dir / "epsilon_100_multi_persona_stripplot.png"
+        )
+    
+    logger.info("Multi-persona epsilon-100 plot generation complete!")
+
+
 if __name__ == "__main__":
     # Allow running as a script
     import sys
@@ -296,5 +546,12 @@ if __name__ == "__main__":
         output_dir=output_dir,
         topics=topics,
         ablations=["full", "no_bridging", "no_filtering"]
+    )
+    
+    # Also generate multi-persona comparison plots
+    generate_multi_persona_epsilon_100_plots(
+        output_dir=output_dir,
+        topics=topics,
+        ablations=["full"]
     )
 
