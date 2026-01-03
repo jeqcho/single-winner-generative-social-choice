@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-from .config import VOTING_METHODS, OUTPUT_DIR
+from .config import VOTING_METHODS, OUTPUT_DIR, TOPIC_SHORT_NAMES, TOPIC_DISPLAY_NAMES
 from .visualizer import (
     METHOD_COLORS,
     METHOD_NAMES,
@@ -24,6 +24,7 @@ from .visualizer import (
 from .epsilon_100 import (
     collect_all_epsilon_100,
     collect_all_epsilon_100_clustered,
+    collect_epsilon_100_for_topic,
 )
 
 logger = logging.getLogger(__name__)
@@ -245,6 +246,32 @@ def generate_epsilon_100_plots(
             title=f"Epsilon (100 Personas) Distribution by Voting Method{ablation_label}",
             output_path=aggregate_dir / "epsilon_100_stripplot.png"
         )
+        
+        # Per-topic plots in ablation/topic_short_name/
+        data_dir = output_dir / "data"
+        if topics is None and data_dir.exists():
+            topics_to_plot = [d.name for d in data_dir.iterdir() if d.is_dir()]
+        else:
+            topics_to_plot = topics or []
+        
+        for topic in topics_to_plot:
+            # Use short name for folder, display name for title
+            short_name = TOPIC_SHORT_NAMES.get(topic, topic[:20])
+            display_name = TOPIC_DISPLAY_NAMES.get(topic, topic[:50])
+            
+            # Create subfolder for this topic
+            topic_dir = ablation_dir / short_name
+            topic_dir.mkdir(parents=True, exist_ok=True)
+            
+            # Collect epsilon-100 results for this topic
+            topic_results = collect_epsilon_100_for_topic(topic, output_dir, ablation)
+            
+            # Per-topic epsilon-100 strip plot
+            plot_epsilon_100_stripplot(
+                topic_results,
+                title=f"Epsilon (100 Personas): {display_name}{ablation_label}",
+                output_path=topic_dir / "epsilon_100_stripplot.png"
+            )
     
     logger.info("Epsilon-100 plot generation complete!")
 
