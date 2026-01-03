@@ -27,3 +27,7 @@ bash scripts/generate_cluster_histogram.sh
 echo "Generating winner-in-biggest-cluster tables..."
 bash scripts/generate_winner_biggest_cluster_table.sh
 
+# Generate epsilon-100 plots (epsilon wrt 100 personas using winners from 20 personas)
+echo "Generating epsilon-100 plots..."
+bash scripts/generate_epsilon_100_plots.sh
+
