@@ -5,10 +5,13 @@ This script creates:
 1. Combined histogram of all cluster sizes (ignoring winner status)
 2. Per-method histograms
 3. Normalized histogram comparing winner vs non-winner clusters
+4. Biggest cluster size per rep histogram
 """
 
 import argparse
+import json
 import logging
+from collections import Counter
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -249,6 +252,110 @@ def plot_cluster_size_histogram_normalized(
         plt.show()
 
 
+def collect_biggest_cluster_sizes(output_dir: Path) -> List[int]:
+    """
+    Collect the biggest cluster size for each rep across all topics.
+
+    Args:
+        output_dir: Output directory containing data/
+
+    Returns:
+        List of biggest cluster sizes (one per rep)
+    """
+    data_dir = output_dir / "data"
+    biggest_cluster_sizes = []
+
+    for topic_dir in sorted(data_dir.iterdir()):
+        if not topic_dir.is_dir():
+            continue
+
+        for rep_dir in sorted(topic_dir.glob("rep*")):
+            if "_removed" in rep_dir.name:
+                continue
+
+            filter_file = rep_dir / "filter_assignments.json"
+            if not filter_file.exists():
+                continue
+
+            with open(filter_file) as f:
+                assignments = json.load(f)
+
+            # Count cluster sizes
+            cluster_sizes = {}
+            for a in assignments:
+                cid = a["cluster_id"]
+                cluster_sizes[cid] = cluster_sizes.get(cid, 0) + 1
+
+            if cluster_sizes:
+                max_size = max(cluster_sizes.values())
+                biggest_cluster_sizes.append(max_size)
+
+    return biggest_cluster_sizes
+
+
+def plot_biggest_cluster_size_histogram(
+    output_dir: Path,
+    output_path: Optional[Path] = None,
+) -> None:
+    """
+    Plot histogram of the biggest cluster size per rep.
+    Each integer has its own bar (no grouping).
+
+    Args:
+        output_dir: Output directory containing data/
+        output_path: Path to save figure (None = show)
+    """
+    biggest_cluster_sizes = collect_biggest_cluster_sizes(output_dir)
+
+    if not biggest_cluster_sizes:
+        logger.warning("No biggest cluster sizes to plot")
+        return
+
+    logger.info(f"Found {len(biggest_cluster_sizes)} reps")
+
+    # Plot histogram with each integer as its own bar
+    fig, ax = plt.subplots(figsize=(12, 6))
+
+    # Get unique values and their counts
+    counts = Counter(biggest_cluster_sizes)
+    values = sorted(counts.keys())
+    frequencies = [counts[v] for v in values]
+
+    # Create bar plot
+    ax.bar(values, frequencies, width=0.8, edgecolor="black", color="steelblue", alpha=0.8)
+
+    ax.set_xlabel("Biggest Cluster Size", fontsize=12)
+    ax.set_ylabel("Frequency (# of Reps)", fontsize=12)
+    ax.set_title("Distribution of Biggest Cluster Size per Rep", fontsize=14)
+
+    # Y-axis: increments of 1
+    max_freq = max(frequencies)
+    ax.set_yticks(range(0, max_freq + 2))
+
+    # X-axis: increments of 5, plus include 1
+    max_val = max(values)
+    x_ticks = [1]  # Always include 1
+    x_ticks.extend(range(5, max_val + 5, 5))  # 5, 10, 15, ..., up to max
+    x_ticks = sorted(set(x_ticks))  # Remove duplicates and sort
+    ax.set_xticks(x_ticks)
+
+    ax.grid(True, alpha=0.3, axis="y")
+
+    # Add count labels on bars
+    for v, f in zip(values, frequencies):
+        ax.text(v, f + 0.1, str(f), ha="center", va="bottom", fontsize=9)
+
+    plt.tight_layout()
+
+    if output_path:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        plt.savefig(output_path, dpi=150, bbox_inches="tight")
+        logger.info(f"Saved biggest cluster size histogram to {output_path}")
+        plt.close()
+    else:
+        plt.show()
+
+
 def main():
     """Main entry point for generating cluster size histograms."""
     parser = argparse.ArgumentParser(
@@ -321,6 +428,12 @@ def main():
         title="Cluster Size Distribution: Winner vs Non-Winner Clusters",
         output_path=figures_dir / "cluster_size_histogram_normalized.png",
         bins=args.bins,
+    )
+
+    # Generate biggest cluster size per rep histogram
+    plot_biggest_cluster_size_histogram(
+        output_dir,
+        output_path=figures_dir / "biggest_cluster_size_histogram.png",
     )
 
     logger.info("Done generating cluster size histograms!")
