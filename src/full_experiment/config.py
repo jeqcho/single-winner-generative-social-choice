@@ -141,6 +141,7 @@ VOTING_METHODS = [
     "plurality",
     "chatgpt",
     "chatgpt_with_rankings",
+    "chatgpt_with_personas",
 ]
 
 # =============================================================================

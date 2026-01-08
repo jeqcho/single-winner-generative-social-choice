@@ -175,6 +175,8 @@ def generate_multi_persona_epsilon_100_plots_wrapper(
 
 
 def main():
+    from .config import ABLATIONS
+    
     output_dir = OUTPUT_DIR
     
     # Get all topics
@@ -186,30 +188,32 @@ def main():
         topics = ALL_TOPICS
         logger.info("Using default topics list")
     
-    # Generate epsilon plots (computed with N personas)
-    logger.info("=" * 60)
-    logger.info("Generating epsilon plots (computed with N personas)")
-    logger.info("=" * 60)
-    generate_multi_persona_epsilon_plots(
-        output_dir=output_dir,
-        topics=topics,
-        ablation="full",
-        persona_counts=[5, 10, 20]
-    )
+    # Generate plots for all ablations
+    for ablation in ABLATIONS:
+        logger.info("=" * 60)
+        logger.info(f"Generating multi-persona plots for ablation: {ablation}")
+        logger.info("=" * 60)
+        
+        # Generate epsilon plots (computed with N personas)
+        logger.info("Generating epsilon plots (computed with N personas)")
+        generate_multi_persona_epsilon_plots(
+            output_dir=output_dir,
+            topics=topics,
+            ablation=ablation,
+            persona_counts=[5, 10, 20]
+        )
+        
+        # Generate epsilon-100 plots (computed against 100 personas)
+        logger.info("Generating epsilon-100 plots (computed against 100 personas)")
+        generate_multi_persona_epsilon_100_plots_wrapper(
+            output_dir=output_dir,
+            topics=topics,
+            ablation=ablation,
+            persona_counts=[5, 10, 20]
+        )
     
-    # Generate epsilon-100 plots (computed against 100 personas)
     logger.info("=" * 60)
-    logger.info("Generating epsilon-100 plots (computed against 100 personas)")
-    logger.info("=" * 60)
-    generate_multi_persona_epsilon_100_plots_wrapper(
-        output_dir=output_dir,
-        topics=topics,
-        ablation="full",
-        persona_counts=[5, 10, 20]
-    )
-    
-    logger.info("=" * 60)
-    logger.info("All multi-persona plots generated!")
+    logger.info("All multi-persona plots generated for all ablations!")
     logger.info("=" * 60)
 
 

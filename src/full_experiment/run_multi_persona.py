@@ -185,16 +185,20 @@ def run_multi_persona_voting(
     with open(prefs_path, 'r') as f:
         full_preferences = json.load(f)
     
-    # Get statements for ChatGPT methods
+    # Get statements and personas for ChatGPT methods
     statements_path = get_filtered_statements_path(rep_dir, ablation)
+    all_personas = None
     if statements_path.exists():
         with open(statements_path, 'r') as f:
             bridging_statements = json.load(f)
         stmt_dicts = [{"statement": s["statement"]} for s in bridging_statements]
+        # Extract all personas (each bridging statement has a persona)
+        all_personas = [s.get("persona", f"Voter {i}") for i, s in enumerate(bridging_statements)]
     else:
         # Create dummy statements if not available
         n_statements = len(full_preferences)
         stmt_dicts = [{"statement": f"Statement {i}"} for i in range(n_statements)]
+        all_personas = [f"Voter {i}" for i in range(n_statements)]
         logger.warning(f"Bridging statements not found, using placeholders")
     
     # For filtered preferences, we need to filter statements too
@@ -246,13 +250,18 @@ def run_multi_persona_voting(
             full_preferences, sampled_persona_indices
         )
         
+        # Extract persona descriptions for sampled voters
+        sampled_personas = None
+        if all_personas is not None:
+            sampled_personas = [all_personas[i] for i in sampled_persona_indices]
+        
         # Save sampled data
         save_sampled_persona_indices(sampled_persona_indices, sample_dir)
         save_sampled_preferences(sampled_prefs, sample_dir)
         
-        # Run voting methods
+        # Run voting methods (with personas for chatgpt_with_personas)
         results = run_all_voting_methods(
-            sampled_prefs, stmt_dicts, openai_client
+            sampled_prefs, stmt_dicts, openai_client, personas=sampled_personas
         )
         
         # Save results

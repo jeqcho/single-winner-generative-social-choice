@@ -322,6 +322,73 @@ Return only the JSON, no additional text."""
         return {"winner": None, "error": str(e)}
 
 
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=1, min=2, max=10),
+    retry=retry_if_exception_type((Exception,)),
+    reraise=True
+)
+def run_chatgpt_with_personas(
+    statements: List[Dict],
+    personas: List[str],
+    openai_client: OpenAI
+) -> Dict:
+    """Run ChatGPT with persona descriptions of the voters."""
+    statements_text = "\n\n".join([
+        f"Statement {i}: {stmt['statement']}"
+        for i, stmt in enumerate(statements)
+    ])
+    
+    n = len(statements)
+    n_voters = len(personas)
+    
+    # Format personas
+    personas_text = "\n\n".join([
+        f"Voter {i+1}: {persona}"
+        for i, persona in enumerate(personas)
+    ])
+    
+    system_prompt = "You are a helpful assistant that selects consensus statements. Return ONLY valid JSON, no other text."
+    
+    user_prompt = f"""Here are {n} statements from a discussion:
+
+{statements_text}
+
+Here are the {n_voters} voters who will be voting on these statements:
+
+{personas_text}
+
+Based on both the statements and the voter personas, which statement do you think would be the best choice as a consensus/bridging statement? 
+Consider which one best represents a reasonable middle ground that could satisfy these diverse voters.
+
+Return your choice as a JSON object with this format:
+{{"selected_statement_index": 0}}
+
+Where the value is the index (0-{n-1}) of the statement you select.
+Return only the JSON, no additional text."""
+
+    try:
+        start_time = time.time()
+        response = openai_client.responses.create(
+            model=MODEL,
+            input=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ],
+            temperature=TEMPERATURE,
+            reasoning={"effort": "minimal"}
+        )
+        api_timer.record(time.time() - start_time)
+        
+        result = json.loads(response.output_text)
+        winner = str(result.get("selected_statement_index"))
+        
+        return {"winner": winner}
+    except Exception as e:
+        logger.error(f"ChatGPT with personas failed: {e}")
+        return {"winner": None, "error": str(e)}
+
+
 # =============================================================================
 # Epsilon Computation
 # =============================================================================
@@ -364,7 +431,8 @@ def compute_epsilon_for_winner(
 def run_all_voting_methods(
     preferences: List[List[str]],
     statements: List[Dict],
-    openai_client: OpenAI
+    openai_client: OpenAI,
+    personas: List[str] = None
 ) -> Dict[str, Dict]:
     """
     Run all voting methods and compute epsilon for each winner.
@@ -373,6 +441,7 @@ def run_all_voting_methods(
         preferences: Preference matrix [rank][voter]
         statements: List of statement dicts
         openai_client: OpenAI client
+        personas: Optional list of persona descriptions for sampled voters
     
     Returns:
         Dict mapping method name to result dict with winner and epsilon
@@ -408,6 +477,13 @@ def run_all_voting_methods(
     results["chatgpt_with_rankings"] = run_chatgpt_with_rankings(
         statements, preferences, openai_client
     )
+    
+    # ChatGPT with personas (only if personas provided)
+    if personas is not None:
+        logger.info("Running ChatGPT with personas...")
+        results["chatgpt_with_personas"] = run_chatgpt_with_personas(
+            statements, personas, openai_client
+        )
     
     # Compute epsilon for each winner
     logger.info("Computing epsilon values...")

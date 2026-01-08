@@ -25,6 +25,7 @@ METHOD_COLORS = {
     "plurality": "#9467bd",
     "chatgpt": "#8c564b",
     "chatgpt_with_rankings": "#e377c2",
+    "chatgpt_with_personas": "#17becf",
 }
 
 # Display names for methods
@@ -36,9 +37,10 @@ METHOD_NAMES = {
     "plurality": "Plurality",
     "chatgpt": "ChatGPT",
     "chatgpt_with_rankings": "ChatGPT + Rankings",
+    "chatgpt_with_personas": "ChatGPT + Personas",
 }
 
-# Custom order for bar plots: veto, borda, schulze, irv, plurality, gpt, gpt+rankings
+# Custom order for bar plots: veto, borda, schulze, irv, plurality, gpt, gpt+rankings, gpt+personas
 BARPLOT_METHOD_ORDER = [
     "veto_by_consumption",
     "borda",
@@ -47,6 +49,7 @@ BARPLOT_METHOD_ORDER = [
     "plurality",
     "chatgpt",
     "chatgpt_with_rankings",
+    "chatgpt_with_personas",
 ]
 
 
@@ -2780,6 +2783,65 @@ def generate_all_plots(
                         title=f"Likert: {display_name} - {method_display}{ablation_label}",
                         output_path=topic_dir / f"likert_histogram_{method}.png"
                     )
+        
+        # Generate multi-persona plots for this ablation
+        logger.info(f"Generating multi-persona plots for ablation: {ablation}")
+        _generate_multi_persona_plots_for_ablation(output_dir, topics, ablation)
     
     logger.info(f"Generated all plots in {figures_dir}")
+
+
+def _generate_multi_persona_plots_for_ablation(
+    output_dir: Path,
+    topics: Optional[List[str]],
+    ablation: str
+) -> None:
+    """
+    Generate multi-persona comparison plots for a specific ablation.
+    
+    Args:
+        output_dir: Output directory
+        topics: List of topics
+        ablation: Ablation type
+    """
+    figures_dir = output_dir / "figures" / ablation / "aggregate"
+    figures_dir.mkdir(parents=True, exist_ok=True)
+    
+    ablation_label = f" ({ablation.replace('_', ' ')})" if ablation != "full" else ""
+    
+    # Collect results for each persona count
+    flat_results_by_n = {}
+    clustered_results_by_n = {}
+    
+    for n_personas in PERSONA_COUNTS:
+        flat_results = collect_all_results_for_n_personas(
+            n_personas, output_dir, ablation, topics
+        )
+        clustered_results = collect_all_results_for_n_personas_clustered(
+            n_personas, output_dir, ablation, topics
+        )
+        
+        # Only include if we have data
+        total_samples = sum(len(v) for v in flat_results.values())
+        if total_samples > 0:
+            flat_results_by_n[n_personas] = flat_results
+            clustered_results_by_n[n_personas] = clustered_results
+    
+    if not flat_results_by_n:
+        logger.warning(f"No multi-persona data found for ablation {ablation}")
+        return
+    
+    # Generate barplot
+    plot_epsilon_multi_persona_barplot(
+        clustered_results_by_n,
+        title=f"Average Epsilon by Persona Count{ablation_label}",
+        output_path=figures_dir / "epsilon_multi_persona_barplot.png"
+    )
+    
+    # Generate stripplot
+    plot_epsilon_multi_persona_stripplot(
+        flat_results_by_n,
+        title=f"Epsilon Distribution by Persona Count{ablation_label}",
+        output_path=figures_dir / "epsilon_multi_persona_stripplot.png"
+    )
 
