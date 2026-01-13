@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "9",
+    "winner_full": "98",
+    "epsilon": 0.3700000000000001
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "20",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "9",
+    "winner_full": "98",
+    "epsilon": 0.3700000000000001
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "18",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "20",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "6",
+    "winner_full": "65",
+    "epsilon": 0.06000000000000005
+  },
+  "chatgpt_rankings": {
+    "winner": "6",
+    "winner_full": "65",
+    "epsilon": 0.06000000000000005
+  },
+  "chatgpt_personas": {
+    "winner": "6",
+    "winner_full": "65",
+    "epsilon": 0.06000000000000005
+  },
+  "chatgpt_star": {
+    "winner": "79",
+    "epsilon": 0.17999999999999994
+  },
+  "chatgpt_star_rankings": {
+    "winner": "0",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "61",
+    "epsilon": 0.08000000000000007
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when people can see, understand, and independently verify that decisions are made fairly and competently. That means clear, consistently applied rules; transparent data and reasoning; strong safeguards against fraud, corruption, and cybersecurity threats; and routine independent audits with publicly reported results. Institutions should communicate in plain, multilingual language, promptly acknowledge mistakes, explain how they are corrected, and invite responsible oversight from across the political spectrum, media, and civil society. At the same time, access and service must be equitable\u2014so rural communities, working families, disabled people, and newcomers can participate without unnecessary barriers. Sustained funding, professional training, and nonpartisan civic education can help replace rumors with shared facts and demonstrate, over time, that institutions are accountable to the public rather than to any party or special interest.",
+    "is_new": true,
+    "epsilon": null
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014especially elections\u2014we should make decision-making processes easy to verify, clearly explained, and consistently applied. That means using auditable paper records where possible, conducting routine independent post-process audits (such as risk-limiting audits), strengthening cybersecurity and data privacy, and allowing bipartisan/nonpartisan observation so outcomes can be checked rather than merely asserted. Trust also grows when institutions communicate in plain, multilingual language about what happened, why it happened, and how errors or irregularities are handled, with timely public reporting and open access to the methods and data needed for scrutiny. Finally, institutions should invest in well-trained staff and nonpartisan civic education, and remove practical barriers to participation (including accessibility for disabled people and rural communities), so fairness is not only claimed but experienced.",
+    "is_new": true,
+    "epsilon": null
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild the public\u2019s trust in our institutions\u2014especially elections\u2014we should make the system easy to verify, easy to understand, and fair for everyone. That means using auditable paper records where feasible, conducting routine risk\u2011limiting post\u2011election audits, strengthening cybersecurity and chain\u2011of\u2011custody safeguards, and allowing transparent, nonpartisan observation and clear accountability when mistakes occur. Trust also grows when institutions communicate early and often in plain language (and multiple languages when needed), publish data and methods for public scrutiny, and provide practical civic education that helps families, young voters, and seniors understand what happens to a ballot from start to finish. Finally, rules should be applied consistently and without partisan advantage\u2014protecting ballot secrecy, expanding accessible voting options for working people, rural communities, and voters with disabilities, and using independent oversight to reduce gerrymandering and shifting procedural games\u2014so people can judge outcomes on evidence rather than rumors.",
+    "is_new": true,
+    "epsilon": null
+  }
+}

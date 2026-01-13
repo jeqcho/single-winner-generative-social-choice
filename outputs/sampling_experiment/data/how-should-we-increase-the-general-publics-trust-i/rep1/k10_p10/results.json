@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "25",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "25",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "1",
+    "winner_full": "25",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "1",
+    "winner_full": "25",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "61",
+    "epsilon": 0.08000000000000007
+  },
+  "chatgpt_star_rankings": {
+    "winner": "0",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "35",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see that the rules are fair, the process is secure, and leaders are accountable. A practical middle ground is to pair broad access for eligible participants with strong, independently verifiable safeguards: paper ballots or voter-verifiable records, transparent chain-of-custody, routine risk-limiting audits, and public reporting that is timely, accurate, and clear about what is known, what is still being counted, and why. Institutions should communicate in plain language and multiple languages, invite nonpartisan observers, publish understandable data and audit results, and correct mistakes openly. Finally, sustained investment in local administration, civic education, and media literacy\u2014along with consistent enforcement against interference and misinformation\u2014can help communities across the political spectrum feel the system is both honest and workable.",
+    "is_new": true,
+    "epsilon": null
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Public trust in elections\u2014and institutions more broadly\u2014grows when people can clearly see that decisions are fair, accurate, and accountable. We should prioritize transparent, verifiable voting with paper ballots (or auditable ballot records), strong chain-of-custody, routine nonpartisan risk-limiting audits, and public reporting of audit findings and security standards. Election administration should be independent and professional, with meaningful accountability for errors or interference and opportunities for neutral observers to verify procedures. Trust also depends on inclusion: invest in well-run local election offices, safe and convenient polling places, and consistent rules with reasonable early voting and accessible options for all eligible voters. Finally, communicate results and processes in plain, multilingual language and strengthen civics and media literacy efforts to reduce misinformation so every community understands how votes are counted, certified, and protected.",
+    "is_new": true,
+    "epsilon": null
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild trust in institutions\u2014especially elections\u2014we should focus on processes that ordinary people can verify and understand. That means using paper ballots (or auditable ballot records), maintaining strong chain-of-custody, and conducting routine, independent post-election audits (such as risk-limiting audits) with results published promptly in plain language. Institutions should be run in a clearly nonpartisan way, welcome neutral observers, and share consistent, evidence-based information about how decisions are made, how problems are reported and fixed, and what safeguards protect privacy and security. Just as importantly, access must be fair and practical: well-funded local offices, reliable polling locations, reasonable early voting options, and clear, multilingual communication and civic education that reach families, busy workers, and underserved communities. Transparency, accountability when mistakes happen, and respectful two-way engagement are the most reliable path to confidence that institutions serve the public rather than politics.",
+    "is_new": true,
+    "epsilon": null
+  }
+}

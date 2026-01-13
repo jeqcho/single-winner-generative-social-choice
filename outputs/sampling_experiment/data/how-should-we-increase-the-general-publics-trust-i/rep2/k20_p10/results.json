@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "21",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "26",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "21",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "21",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "26",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "7",
+    "winner_full": "81",
+    "epsilon": 0.42999999999999994
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "21",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_personas": {
+    "winner": "7",
+    "winner_full": "81",
+    "epsilon": 0.42999999999999994
+  },
+  "chatgpt_star": {
+    "winner": "57",
+    "epsilon": 0.17999999999999994
+  },
+  "chatgpt_star_rankings": {
+    "winner": "0",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "60",
+    "epsilon": 0.20999999999999996
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Trust in institutions\u2014especially elections\u2014grows when people can independently verify outcomes, understand how decisions are made, and see that rules are applied fairly to everyone. A practical middle ground is to standardize transparent, auditable voting: paper ballots (or voter-verifiable paper records), strong chain-of-custody safeguards, routine risk-limiting audits, and public reporting that clearly explains what was checked and what was found. Oversight should be genuinely bipartisan and include independent experts, with clear conflict-of-interest rules and consequences for misconduct, while protecting voter privacy and system security. At the same time, institutions should invest in plain-language, multilingual, nonpartisan public education through trusted local partners, and provide accessible options for seniors, people with disabilities, and working families. Finally, officials should communicate quickly and honestly about problems and fixes, so the public sees a culture of accountability rather than spin.",
+    "is_new": true,
+    "epsilon": -8.673617379884035e-18
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014especially elections\u2014we should make outcomes verifiable, rules consistent, and communication clear. That means using paper ballots or voter-verifiable records, maintaining a secure chain of custody, and conducting routine risk-limiting audits with independent, bipartisan oversight and timely public reporting of findings and fixes. Trust also grows when participation is practical for everyone: accessible polling places for people with disabilities and seniors, reliable options like early voting and mail voting where used, and strong language access with plain-language explanations of how votes are cast, counted, and certified. Finally, institutions should partner with schools, local organizations, and community leaders to provide nonpartisan civics and voter education, safeguard privacy, strengthen cybersecurity, and counter misinformation with transparent, evidence-based information so people can see that the process is fair and accountable.",
+    "is_new": true,
+    "epsilon": -8.673617379884035e-18
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the general public\u2019s trust in institutions\u2014especially elections\u2014we should make the rules clear, the process verifiable, and the information easy for everyone to access. That means using paper ballots or voter-verifiable records, strong chain-of-custody and cybersecurity protections, and routine, publicly reported risk-limiting audits conducted with bipartisan and independent oversight. Trust also grows when participation is genuinely fair: accessible polling places for people with disabilities and seniors, reliable options like early voting or mail voting where used, and straightforward language access (including Spanish and other common local languages) so families understand their rights and how results are certified. Finally, institutions should communicate consistently and nonpartisanly\u2014through schools, community groups, and local leaders\u2014by publishing plain-language explanations, timely corrections when errors occur, and transparent data about problems and fixes, so people can see that accountability is real and every eligible voter\u2019s voice is counted accurately.",
+    "is_new": true,
+    "epsilon": -8.673617379884035e-18
+  }
+}

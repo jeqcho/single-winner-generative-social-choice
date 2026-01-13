@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "7",
+    "winner_full": "64",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "2",
+    "winner_full": "27",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "8",
+    "winner_full": "92",
+    "epsilon": 0.1299999999999999
+  },
+  "plurality": {
+    "winner": "9",
+    "winner_full": "99",
+    "epsilon": 0.30000000000000004
+  },
+  "veto_by_consumption": {
+    "winner": "2",
+    "winner_full": "27",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "5",
+    "winner_full": "50",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "8",
+    "winner_full": "92",
+    "epsilon": 0.1299999999999999
+  },
+  "chatgpt_personas": {
+    "winner": "2",
+    "winner_full": "27",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "14",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "8",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "74",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when people can see that rules are fair, decisions are explainable, and leaders are accountable. Institutions should publish clear, plain-language information about how decisions are made, how money is spent, and what results are being achieved\u2014along with independent audits, open data where appropriate, and strong protections for privacy and security. Oversight should be genuinely independent and bipartisan where relevant, with real consequences for misconduct and conflicts of interest. At the same time, institutions must treat people with respect: provide timely service, accessible and multilingual communication, consistent standards, and easy ways for the public to ask questions, appeal decisions, and give feedback. Investing in civic education, community partnerships, and rapid correction of misinformation\u2014without censoring legitimate disagreement\u2014can help rebuild confidence by making both the process and the outcomes more understandable and verifiable.",
+    "is_new": true,
+    "epsilon": -8.673617379884035e-18
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014especially elections\u2014we should focus on processes people can see, understand, and independently verify. That means nonpartisan administration with bipartisan/independent oversight; secure, paper-based records or voter-verifiable trails; routine risk-limiting audits with results published in plain language; and strong cybersecurity and chain-of-custody protections. Trust also grows when participation is both accessible and secure, through clear rules, consistent standards, reasonable accommodations for disability, work schedules, and military/overseas voters, and straightforward options like early voting and vote-by-mail where implemented securely. Finally, institutions should communicate proactively and multilingualy, open key steps to public observation, invest in nonpartisan civics education, and respond quickly to misinformation with transparent evidence, so people can evaluate claims and see accountability in action.",
+    "is_new": true,
+    "epsilon": -8.673617379884035e-18
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014especially elections\u2014we should make the rules clear, the work visible, and the results verifiable, while treating every community with respect. That means nonpartisan, professional administration with transparent procedures; paper-based or otherwise auditable records; routine, publicly reported independent audits (such as risk-limiting audits); strong cybersecurity and chain-of-custody protections; and clear, timely explanations of decisions and results. Trust also grows when institutions are easy to access and understand: straightforward multilingual information, convenient and secure options for eligible voters (early voting, mail voting where available, accessible polling places), and common-sense identity and eligibility checks paired with practical accommodations so no one is blocked by disability, language, work schedules, or distance. Finally, institutions should invest in ongoing civics education, open public observation, and rapid, evidence-based responses to misinformation\u2014so people can see how the system works, verify claims, and feel confident that the same fair standards apply to everyone.",
+    "is_new": true,
+    "epsilon": -8.673617379884035e-18
+  }
+}

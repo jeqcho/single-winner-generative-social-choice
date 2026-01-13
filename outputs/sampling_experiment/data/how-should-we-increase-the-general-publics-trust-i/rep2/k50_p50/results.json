@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "4",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "16",
+    "winner_full": "34",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "26",
+    "winner_full": "49",
+    "epsilon": 0.10000000000000009
+  },
+  "chatgpt_personas": {
+    "winner": "16",
+    "winner_full": "34",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "76",
+    "epsilon": 0.3700000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "0",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "57",
+    "epsilon": 0.17999999999999994
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in elections\u2014and institutions more broadly\u2014grows when rules are clear, outcomes are independently verifiable, and the public can see how decisions are made and corrected. For elections, that means using voter-verified records (such as paper ballots or equivalent auditable backups), routine risk-limiting audits with publicly posted methods and results, strong chain-of-custody and cybersecurity protections, and transparent incident reporting with deadlines for fixes and after-action reviews. Access and integrity should be advanced together: maintain multiple secure ways to vote (in-person, early, and mail where offered), ensure polling places and information are accessible for people with disabilities and in multiple languages, and apply consistent, well-communicated standards across jurisdictions. Finally, institutions should earn trust through calm, nonpartisan communication and accountability\u2014inviting bipartisan observers, protecting voter privacy, enforcing rules evenly, and partnering with trusted local organizations (libraries, schools, civic and faith groups) to provide fact-based education and counter misinformation without political spin.",
+    "is_new": true,
+    "epsilon": -8.673617379884035e-18
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see clear, consistently applied rules and independently verify that results match the ballots. We should use paper ballots or voter-verified paper records; conduct routine, publicly reported risk-limiting audits; maintain strict chain-of-custody and strong cybersecurity; and ensure bipartisan/nonpartisan oversight with transparent processes that allow lawful observation while protecting voter privacy. Trust also depends on a smooth, accessible experience\u2014adequate staffing, accessible polling places, early voting and secure mail/absentee options with trackable status\u2014and plain-language, multilingual public education that explains how counting, certification, and error-correction work and promptly addresses misinformation with facts.",
+    "is_new": true,
+    "epsilon": -8.673617379884035e-18
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when people can see clear standards, independent checks, and fair treatment in everyday interactions\u2014not just promises. Across elections, public health, schools, courts, and local services, we should commit to four shared practices: (1) transparency people can understand\u2014plain-language explanations, multilingual access, and publicly posted data and decisions; (2) verifiable accountability\u2014independent audits/inspections, strong chain-of-custody and records, open reporting of mistakes and corrections, and real consequences for misconduct; (3) equal, practical access\u2014services and participation options that work for seniors, workers with shifting schedules, people with disabilities, rural residents, and families who need language support; and (4) protection from harm\u2014privacy safeguards, strong cyber and physical security, and rapid, nonpartisan responses to misinformation.\n\nIn elections specifically, that means paper-backed or otherwise verifiable voting, routine risk-limiting audits, secure ballot handling, accurate voter rolls, bipartisan/nonpartisan oversight with public observer rules, and timely, clear reporting of results and any issues\u2014alongside civics education delivered through trusted local channels like schools, libraries, faith and community groups. When institutions prove their work with evidence, communicate honestly, and make it easier for ordinary people to participate and be heard, trust can be rebuilt across different communities and political viewpoints.",
+    "is_new": true,
+    "epsilon": -8.673617379884035e-18
+  }
+}

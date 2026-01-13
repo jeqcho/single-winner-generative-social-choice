@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "5",
+    "winner_full": "50",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "8",
+    "winner_full": "92",
+    "epsilon": 0.10000000000000009
+  },
+  "irv": {
+    "winner": "7",
+    "winner_full": "64",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "7",
+    "winner_full": "64",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "7",
+    "winner_full": "64",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "8",
+    "winner_full": "92",
+    "epsilon": 0.10000000000000009
+  },
+  "chatgpt_rankings": {
+    "winner": "5",
+    "winner_full": "50",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "8",
+    "winner_full": "92",
+    "epsilon": 0.10000000000000009
+  },
+  "chatgpt_star": {
+    "winner": "32",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "8",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "13",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in elections grows when people can verify outcomes, understand the rules, and see that those rules are applied fairly to everyone. A strong middle-ground approach is to use auditable voting systems (including paper records where feasible), publish clear chain-of-custody and counting procedures, and run routine independent post-election audits with results reported in plain language. Keep voting accessible\u2014through well-run polling places, secure absentee or early options where offered, and accommodations for voters with disabilities\u2014while also protecting integrity with accurate voter rolls and identity checks that are reliable and do not create undue barriers. Finally, invest in nonpartisan, multilingual public education and rapid correction of misinformation, led by trusted local officials and community partners, so confidence is built through transparency, accountability, and respectful communication rather than partisan messaging.",
+    "is_new": true,
+    "epsilon": -8.673617379884035e-18
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase public trust in institutions like elections, we should make the work of those institutions easy for ordinary people to see, check, and understand\u2014without favoring any party. That means using verifiable records (such as paper ballots or voter-verifiable audit trails), strong chain-of-custody and cybersecurity protections, and routine independent post-process audits (including risk-limiting audits) with results published in plain language. Trust also grows when access is practical and fair: clear rules, well-run polling places, secure early and mail options where used, and accommodations for people with disabilities, alongside accurate voter registration maintenance and safeguards that confirm eligibility while protecting privacy and preventing intimidation. Finally, institutions should communicate quickly and consistently, partner with trusted local messengers (community groups, educators, faith and civic leaders), and correct misinformation with transparent evidence so the public can judge performance based on facts rather than hype.",
+    "is_new": true,
+    "epsilon": -8.673617379884035e-18
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild the public\u2019s trust in our institutions\u2014starting with elections\u2014we should focus on rules that are easy to understand, applied the same way to everyone, and proven to work through independent verification. That means: reliable paper ballots (or voter-verifiable records), strong chain-of-custody and cybersecurity, routine post-election audits (including risk-limiting audits where feasible), and transparent public reporting so any voter can see how results were secured and confirmed.\n\nTrust also grows when access and integrity are strengthened together: accurate voter rolls and clear eligibility checks, voting options that work for busy workers, seniors, people with disabilities, and students, and well-trained nonpartisan local officials with stable funding and open, bipartisan oversight. Finally, institutions should communicate in plain language\u2014early, consistently, and in multiple languages\u2014so rumors don\u2019t fill the gap, and community voices (schools, faith groups, unions, veterans\u2019 groups, and local civic organizations) can help explain the process without partisan spin. If people can both participate easily and verify outcomes independently, confidence and legitimacy rise for everyone.",
+    "is_new": true,
+    "epsilon": -8.673617379884035e-18
+  }
+}

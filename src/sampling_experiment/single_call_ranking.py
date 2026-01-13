@@ -1,0 +1,250 @@
+"""
+Single-call ranking using GPT-5.2.
+
+Instead of pairwise comparisons or insertion sort, we ask the model to
+rank all statements in a single API call and return sorted IDs.
+"""
+
+import json
+import logging
+import time
+from typing import List, Dict
+from openai import OpenAI
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+
+from .config import MODEL, TEMPERATURE, api_timer
+
+logger = logging.getLogger(__name__)
+
+
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=1, min=2, max=10),
+    retry=retry_if_exception_type((Exception,)),
+    reraise=True
+)
+def rank_all_statements_single_call(
+    persona: str,
+    statements: List[Dict],
+    topic: str,
+    openai_client: OpenAI,
+    model: str = MODEL,
+    temperature: float = TEMPERATURE
+) -> List[int]:
+    """
+    Rank all statements in a single API call.
+    
+    Args:
+        persona: Persona string description
+        statements: List of statement dicts with 'statement' key
+        topic: The topic/question being discussed
+        openai_client: OpenAI client instance
+        model: Model to use (default: GPT-5.2)
+        temperature: Temperature for sampling
+    
+    Returns:
+        List of statement indices in order from most to least preferred
+    """
+    n = len(statements)
+    
+    # Build numbered statement list
+    statements_text = "\n".join(
+        f"{i}: {stmt['statement']}"
+        for i, stmt in enumerate(statements)
+    )
+    
+    system_prompt = "You are ranking statements based on the given persona. Return ONLY valid JSON, no other text."
+    
+    user_prompt = f"""You are a person with the following characteristics:
+{persona}
+
+Given the topic: "{topic}"
+
+Below are {n} statements. Rank them from MOST preferred to LEAST preferred based on your persona.
+
+{statements_text}
+
+Return ONLY a JSON object with the statement indices (0-{n-1}) in order from most to least preferred:
+{{"ranking": [most_preferred_idx, ..., least_preferred_idx]}}
+
+The ranking array must contain exactly {n} unique indices from 0 to {n-1}.
+Return only the JSON, no additional text."""
+
+    start_time = time.time()
+    response = openai_client.responses.create(
+        model=model,
+        input=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ],
+        temperature=temperature,
+    )
+    api_timer.record(time.time() - start_time)
+    
+    result = json.loads(response.output_text)
+    ranking = result.get("ranking", [])
+    
+    # Validate ranking
+    if len(ranking) != n or set(ranking) != set(range(n)):
+        logger.warning(f"Invalid ranking returned: {ranking}, using default order")
+        ranking = list(range(n))
+    
+    return ranking
+
+
+def get_preference_matrix_single_call(
+    personas: List[str],
+    statements: List[Dict],
+    topic: str,
+    openai_client: OpenAI,
+    max_workers: int = 50,
+    model: str = MODEL,
+    temperature: float = TEMPERATURE
+) -> List[List[str]]:
+    """
+    Build preference matrix using single-call ranking for all personas.
+    
+    Args:
+        personas: List of persona string descriptions
+        statements: List of statement dicts
+        topic: The topic/question
+        openai_client: OpenAI client instance
+        max_workers: Maximum parallel workers
+        model: Model to use
+        temperature: Temperature for sampling
+    
+    Returns:
+        Preference matrix where preferences[rank][voter] is the alternative
+        index (as string) at rank 'rank' for voter 'voter'
+    """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    from tqdm import tqdm
+    
+    n_statements = len(statements)
+    n_personas = len(personas)
+    
+    logger.info(f"Building preference matrix: {n_personas} personas x {n_statements} statements")
+    logger.info(f"Using single-call ranking with model={model}")
+    
+    def process_persona(args):
+        """Process a single persona and return (index, ranking)."""
+        idx, persona = args
+        ranking = rank_all_statements_single_call(
+            persona, statements, topic, openai_client, model, temperature
+        )
+        return idx, ranking
+    
+    rankings = [None] * n_personas
+    
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {
+            executor.submit(process_persona, (i, persona)): i
+            for i, persona in enumerate(personas)
+        }
+        
+        for future in tqdm(as_completed(futures), total=len(futures), 
+                          desc="Ranking personas", unit="persona"):
+            idx, ranking = future.result()
+            rankings[idx] = ranking
+    
+    # Convert to preference matrix format: preferences[rank][voter]
+    preferences = []
+    for rank in range(n_statements):
+        rank_row = []
+        for voter in range(n_personas):
+            # The statement index at this rank for this voter
+            statement_idx = rankings[voter][rank]
+            rank_row.append(str(statement_idx))
+        preferences.append(rank_row)
+    
+    logger.info(f"Built preference matrix: {len(preferences)} x {len(preferences[0])}")
+    
+    return preferences
+
+
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=1, min=2, max=10),
+    retry=retry_if_exception_type((Exception,)),
+    reraise=True
+)
+def insert_statement_into_ranking(
+    persona: str,
+    current_ranking: List[int],
+    statements: List[Dict],
+    new_statement: str,
+    topic: str,
+    openai_client: OpenAI,
+    model: str = MODEL,
+    temperature: float = TEMPERATURE
+) -> List[int]:
+    """
+    Insert a new statement into an existing ranking.
+    
+    Used for ChatGPT** where we need to re-query voters to insert
+    the newly generated statement.
+    
+    Args:
+        persona: Persona string description
+        current_ranking: Current ranking (list of statement indices, most to least preferred)
+        statements: Original list of statement dicts
+        new_statement: The new statement text to insert
+        topic: The topic/question
+        openai_client: OpenAI client instance
+        model: Model to use
+        temperature: Temperature for sampling
+    
+    Returns:
+        Updated ranking with new statement index (len(statements)) inserted
+    """
+    n = len(current_ranking)
+    new_idx = len(statements)  # New statement gets the next available index
+    
+    # Build the ranked statements for context
+    ranked_text = "\n".join(
+        f"Rank {i+1} (ID {idx}): {statements[idx]['statement']}"
+        for i, idx in enumerate(current_ranking)
+    )
+    
+    system_prompt = "You are inserting a new statement into your preference ranking. Return ONLY valid JSON."
+    
+    user_prompt = f"""You are a person with the following characteristics:
+{persona}
+
+Given the topic: "{topic}"
+
+You previously ranked these statements from most to least preferred:
+
+{ranked_text}
+
+NEW STATEMENT (ID {new_idx}): {new_statement}
+
+Where should this new statement be inserted in your ranking?
+- Return 0 to make it your MOST preferred (before rank 1)
+- Return {n} to make it your LEAST preferred (after rank {n})
+- Return any position 1-{n-1} to insert it between existing ranks
+
+Return JSON: {{"insert_position": <number>}}"""
+
+    start_time = time.time()
+    response = openai_client.responses.create(
+        model=model,
+        input=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt}
+        ],
+        temperature=temperature,
+    )
+    api_timer.record(time.time() - start_time)
+    
+    result = json.loads(response.output_text)
+    position = result.get("insert_position", n // 2)
+    
+    # Clamp position to valid range
+    position = max(0, min(n, int(position)))
+    
+    # Insert new statement at position
+    new_ranking = current_ranking.copy()
+    new_ranking.insert(position, new_idx)
+    
+    return new_ranking
