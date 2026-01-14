@@ -19,7 +19,7 @@ TEMPERATURE = 1.0
 # =============================================================================
 N_VOTER_POOL = 100         # Number of personas in voter pool
 N_ALT_POOL = 100           # Number of alternatives in alternative pool
-N_REPS = 5                 # Number of replications
+N_REPS = 10                # Number of replications
 
 # Sampling parameters
 K_VALUES = [10, 20, 50, 100]    # Number of voters to sample
@@ -146,7 +146,7 @@ ALL_METHODS = (
 # =============================================================================
 # Parallelization
 # =============================================================================
-MAX_WORKERS = 50  # Maximum parallel API calls
+MAX_WORKERS = 100  # Maximum parallel API calls
 
 
 # =============================================================================

@@ -17,33 +17,22 @@ from .config import MODEL, TEMPERATURE, api_timer
 logger = logging.getLogger(__name__)
 
 
-@retry(
-    stop=stop_after_attempt(3),
-    wait=wait_exponential(multiplier=1, min=2, max=10),
-    retry=retry_if_exception_type((Exception,)),
-    reraise=True
-)
-def rank_all_statements_single_call(
+# Sentinel value for invalid/failed rankings
+INVALID_RANKING_VALUE = -999
+MAX_RANKING_RETRIES = 10
+
+
+def _make_single_ranking_api_call(
     persona: str,
     statements: List[Dict],
     topic: str,
     openai_client: OpenAI,
-    model: str = MODEL,
-    temperature: float = TEMPERATURE
+    model: str,
+    temperature: float
 ) -> List[int]:
     """
-    Rank all statements in a single API call.
-    
-    Args:
-        persona: Persona string description
-        statements: List of statement dicts with 'statement' key
-        topic: The topic/question being discussed
-        openai_client: OpenAI client instance
-        model: Model to use (default: GPT-5.2)
-        temperature: Temperature for sampling
-    
-    Returns:
-        List of statement indices in order from most to least preferred
+    Make a single API call for ranking. Returns the ranking or raises an exception.
+    This is a helper function that does NOT handle validation - just the API call.
     """
     n = len(statements)
     
@@ -67,7 +56,8 @@ Below are {n} statements. Rank them from MOST preferred to LEAST preferred based
 Return ONLY a JSON object with the statement indices (0-{n-1}) in order from most to least preferred:
 {{"ranking": [most_preferred_idx, ..., least_preferred_idx]}}
 
-The ranking array must contain exactly {n} unique indices from 0 to {n-1}.
+IMPORTANT: The ranking array must contain EXACTLY {n} unique integers from 0 to {n-1}. 
+Each number must appear exactly once. No duplicates, no missing numbers.
 Return only the JSON, no additional text."""
 
     start_time = time.time()
@@ -84,12 +74,78 @@ Return only the JSON, no additional text."""
     result = json.loads(response.output_text)
     ranking = result.get("ranking", [])
     
-    # Validate ranking
-    if len(ranking) != n or set(ranking) != set(range(n)):
-        logger.warning(f"Invalid ranking returned: {ranking}, using default order")
-        ranking = list(range(n))
-    
     return ranking
+
+
+def _validate_ranking(ranking: List[int], n: int) -> bool:
+    """Validate that a ranking is a valid permutation of 0 to n-1."""
+    if not isinstance(ranking, list):
+        return False
+    if len(ranking) != n:
+        return False
+    if set(ranking) != set(range(n)):
+        return False
+    return True
+
+
+def rank_all_statements_single_call(
+    persona: str,
+    statements: List[Dict],
+    topic: str,
+    openai_client: OpenAI,
+    model: str = MODEL,
+    temperature: float = TEMPERATURE
+) -> List[int]:
+    """
+    Rank all statements in a single API call with retry logic.
+    
+    Args:
+        persona: Persona string description
+        statements: List of statement dicts with 'statement' key
+        topic: The topic/question being discussed
+        openai_client: OpenAI client instance
+        model: Model to use (default: GPT-5.2)
+        temperature: Temperature for sampling
+    
+    Returns:
+        List of statement indices in order from most to least preferred.
+        Returns [INVALID_RANKING_VALUE] * n if all retries fail (hard fail).
+    """
+    n = len(statements)
+    
+    for attempt in range(1, MAX_RANKING_RETRIES + 1):
+        try:
+            ranking = _make_single_ranking_api_call(
+                persona, statements, topic, openai_client, model, temperature
+            )
+            
+            # Validate ranking
+            if _validate_ranking(ranking, n):
+                if attempt > 1:
+                    logger.info(f"Valid ranking obtained on attempt {attempt}")
+                return ranking
+            else:
+                # Log the invalid ranking details
+                actual_len = len(ranking) if isinstance(ranking, list) else "N/A"
+                has_duplicates = len(ranking) != len(set(ranking)) if isinstance(ranking, list) else "N/A"
+                logger.warning(
+                    f"Invalid ranking on attempt {attempt}/{MAX_RANKING_RETRIES}: "
+                    f"length={actual_len} (expected {n}), has_duplicates={has_duplicates}, "
+                    f"ranking={ranking[:20]}..." if len(str(ranking)) > 100 else f"ranking={ranking}"
+                )
+                
+        except json.JSONDecodeError as e:
+            logger.warning(f"JSON decode error on attempt {attempt}/{MAX_RANKING_RETRIES}: {e}")
+        except Exception as e:
+            logger.warning(f"API error on attempt {attempt}/{MAX_RANKING_RETRIES}: {type(e).__name__}: {e}")
+    
+    # All retries exhausted - hard fail with invalid marker
+    logger.error(
+        f"HARD FAIL: All {MAX_RANKING_RETRIES} attempts failed to produce a valid ranking. "
+        f"Returning invalid ranking marker (all {INVALID_RANKING_VALUE}). "
+        f"Persona preview: {persona[:100]}..."
+    )
+    return [INVALID_RANKING_VALUE] * n
 
 
 def get_preference_matrix_single_call(
@@ -115,7 +171,8 @@ def get_preference_matrix_single_call(
     
     Returns:
         Preference matrix where preferences[rank][voter] is the alternative
-        index (as string) at rank 'rank' for voter 'voter'
+        index (as string) at rank 'rank' for voter 'voter'.
+        Invalid rankings will contain INVALID_RANKING_VALUE (-999) for all positions.
     """
     from concurrent.futures import ThreadPoolExecutor, as_completed
     from tqdm import tqdm
@@ -125,6 +182,7 @@ def get_preference_matrix_single_call(
     
     logger.info(f"Building preference matrix: {n_personas} personas x {n_statements} statements")
     logger.info(f"Using single-call ranking with model={model}")
+    logger.info(f"Max retries per persona: {MAX_RANKING_RETRIES}")
     
     def process_persona(args):
         """Process a single persona and return (index, ranking)."""
@@ -146,6 +204,21 @@ def get_preference_matrix_single_call(
                           desc="Ranking personas", unit="persona"):
             idx, ranking = future.result()
             rankings[idx] = ranking
+    
+    # Count invalid rankings (those that failed all retries)
+    invalid_count = sum(
+        1 for r in rankings 
+        if r and r[0] == INVALID_RANKING_VALUE
+    )
+    
+    if invalid_count > 0:
+        invalid_voter_ids = [i for i, r in enumerate(rankings) if r and r[0] == INVALID_RANKING_VALUE]
+        logger.error(
+            f"PREFERENCE MATRIX CONTAINS {invalid_count}/{n_personas} INVALID RANKINGS "
+            f"(voters: {invalid_voter_ids}). These voters have all {INVALID_RANKING_VALUE} values."
+        )
+    else:
+        logger.info(f"All {n_personas} rankings are valid.")
     
     # Convert to preference matrix format: preferences[rank][voter]
     preferences = []

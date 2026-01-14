@@ -1,17 +1,17 @@
 {
   "schulze": {
-    "winner": "0",
-    "winner_full": "0",
+    "winner": "10",
+    "winner_full": "55",
     "epsilon": 0.0
   },
   "borda": {
-    "winner": "0",
-    "winner_full": "0",
+    "winner": "10",
+    "winner_full": "55",
     "epsilon": 0.0
   },
   "irv": {
-    "winner": "0",
-    "winner_full": "0",
+    "winner": "10",
+    "winner_full": "55",
     "epsilon": 0.0
   },
   "plurality": {
@@ -20,53 +20,53 @@
     "epsilon": 0.0
   },
   "veto_by_consumption": {
-    "winner": "5",
-    "winner_full": "25",
+    "winner": "10",
+    "winner_full": "55",
     "epsilon": 0.0
   },
   "chatgpt": {
-    "winner": "19",
-    "winner_full": "99",
-    "epsilon": 0.4099999999999999
+    "winner": "10",
+    "winner_full": "55",
+    "epsilon": 0.0
   },
   "chatgpt_rankings": {
-    "winner": "0",
-    "winner_full": "0",
+    "winner": "10",
+    "winner_full": "55",
     "epsilon": 0.0
   },
   "chatgpt_personas": {
-    "winner": "2",
-    "winner_full": "10",
+    "winner": "10",
+    "winner_full": "55",
     "epsilon": 0.0
   },
   "chatgpt_star": {
-    "winner": "61",
-    "epsilon": 0.08000000000000007
+    "winner": "79",
+    "epsilon": 0.0
   },
   "chatgpt_star_rankings": {
-    "winner": "0",
+    "winner": "7",
     "epsilon": 0.0
   },
   "chatgpt_star_personas": {
-    "winner": "56",
+    "winner": "35",
     "epsilon": 0.0
   },
   "chatgpt_double_star": {
     "winner": "100",
-    "new_statement": "Public trust in elections grows when people can easily see that the rules are fair, the process is secure, and problems are handled openly\u2014regardless of who wins. A strong middle-ground approach is to combine (1) verifiable administration: voter-verifiable ballots (typically paper), clear chain-of-custody, routine post\u2011election audits conducted by independent professionals with bipartisan/public observation, and strong cybersecurity for registration and reporting systems; (2) clear, consistent communication: plain\u2011language, multilingual explanations of how voting, counting, auditing, and certification work, plus timely updates when issues occur and transparent documentation of fixes; and (3) broad, practical access: reliable polling locations and hours, accommodations for disability and language needs, and well-defined options like early or mail voting where offered\u2014paired with reasonable identity and eligibility checks that protect both access and integrity. Finally, building trust requires ongoing local engagement (community briefings, open data where appropriate, and respectful response channels) so residents feel heard, can verify claims, and see election officials held accountable.",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can both verify the rules are fair and experience the system as respectful and responsive. A practical middle ground is to set clear, consistent procedures; keep a voter-verifiable record for every ballot (such as paper or an equivalent independent audit trail); and require routine, independent post-event audits with publicly accessible results and explanations in plain language. At the same time, participation should be straightforward and secure: reliable polling locations and hours, well-designed ballots, strong chain-of-custody and cybersecurity, and accommodations for language, disability, and work or caregiving schedules. Institutions should also publish timely incident reports when problems occur\u2014what happened, what was fixed, and who is accountable\u2014while partnering with trusted local messengers to answer questions and counter misinformation without partisanship. When transparency, security, access, and accountability are built into the system and communicated clearly, people with different views can disagree about outcomes without doubting the legitimacy of the process.",
     "is_new": true,
-    "epsilon": null
+    "epsilon": 0.0
   },
   "chatgpt_double_star_rankings": {
     "winner": "100",
-    "new_statement": "Public trust in institutions\u2014especially elections\u2014should be earned through processes that are easy to understand, consistently applied, and independently verifiable. That means nonpartisan administration with clear rules, secure systems, and a paper record (or voter-verifiable audit trail) for every ballot; strict chain-of-custody and professional training for election staff; robust cybersecurity; and routine, independent post-election audits (such as risk-limiting audits) with timely, plain-language public reporting of what was checked and what was found. Trust also grows when participation is straightforward and fair: accessible polling places, reasonable hours, language access, and clear instructions for in-person and mail voting with sensible safeguards. Finally, institutions should communicate early and often through credible local messengers, openly address problems and fixes, and push back on misinformation with transparent evidence so people can see\u2014step by step\u2014that outcomes match the votes actually cast.",
+    "new_statement": "To rebuild public trust in our institutions\u2014especially elections\u2014we should make the rules clear, the process easy to observe, and the results independently verifiable. That starts with nonpartisan administration, consistent procedures, and strong chain-of-custody and cybersecurity protections for voter rolls and ballots. Wherever feasible, use voter-verifiable paper records (or robust audit trails) and conduct routine, independent risk-limiting audits with bipartisan and community observers, then publish the methods and findings in plain language so people can see how outcomes were confirmed.\n\nTrust also depends on access and dignity: convenient polling locations and hours, secure options like early voting and well-designed absentee systems, language assistance, and accommodations so eligible voters can participate without unnecessary barriers while preserving privacy. Finally, institutions should communicate quickly and credibly when problems occur\u2014what happened, what was fixed, and how it was verified\u2014while partnering with trusted local messengers to counter misinformation with transparent facts. When people can understand the rules, watch the safeguards work, and verify the results, confidence grows even when their preferred side loses.",
     "is_new": true,
-    "epsilon": null
+    "epsilon": 0.0
   },
   "chatgpt_double_star_personas": {
     "winner": "100",
-    "new_statement": "Public trust in institutions\u2014including elections\u2014grows when people can clearly see how decisions are made, verify that rules are applied fairly, and experience services that work reliably in everyday life. We should strengthen trust by committing to transparent, nonpartisan administration; clear, consistent rules; and independent oversight that publishes plain-language results and corrective actions when problems occur. For elections specifically, that means voter-verifiable records (such as paper ballots or equivalent audit trails), routine independent audits, strong cybersecurity and chain-of-custody standards, and open public reporting that explains what happened in a way ordinary voters can understand. At the same time, trust requires dignity and access: convenient and secure voting options, language access, disability accommodations, and community-based education led by trusted local partners. Finally, institutions should actively reduce misinformation by sharing timely, factual updates and making it easy for the public to ask questions and get accountable answers\u2014so confidence is earned through evidence, fairness, and consistent performance, regardless of politics.",
+    "new_statement": "Public trust in institutions is earned when people can see how decisions are made, verify that rules are applied fairly, and experience services that work for everyone. Across agencies, that means (1) clear, consistent standards and plain-language explanations of what is being decided and why; (2) real transparency\u2014open data where possible, public reporting of performance, and independent audits with findings published promptly; (3) strong ethics and accountability, including protections for whistleblowers and consequences for misconduct; (4) nonpartisan, professionally run operations that reduce conflicts of interest and limit political interference; and (5) meaningful access and responsiveness\u2014multilingual communication, accommodations for disabilities, respectful customer service, and easy ways to ask questions, appeal decisions, and get timely answers. Finally, institutions should partner with trusted local messengers\u2014schools, faith communities, community groups, and frontline workers\u2014to counter misinformation with evidence, acknowledge mistakes quickly, and show the concrete steps taken to fix them. When people can understand the process, check the results, and feel treated with dignity, trust grows even when outcomes aren\u2019t everyone\u2019s first choice.",
     "is_new": true,
-    "epsilon": null
+    "epsilon": 0.0
   }
 }

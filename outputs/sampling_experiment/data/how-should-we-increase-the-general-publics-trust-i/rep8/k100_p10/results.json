@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "5",
+    "winner_full": "65",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "5",
+    "winner_full": "65",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "5",
+    "winner_full": "65",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "5",
+    "winner_full": "65",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "2",
+    "winner_full": "27",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt": {
+    "winner": "7",
+    "winner_full": "84",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "2",
+    "winner_full": "27",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_personas": {
+    "winner": "7",
+    "winner_full": "84",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "72",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "5",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_star_personas": {
+    "winner": "72",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see that the rules are fair, the work is competent, and the results can be checked. A durable middle ground is to standardize baseline integrity measures (secure chain-of-custody, auditable paper or voter-verifiable records, routine risk-limiting audits, and transparent incident reporting), while also protecting broad, practical access for eligible participants through well-funded administration, clear polling options, and disability- and language-accessible materials. Oversight should be genuinely cross-partisan and independent, with meaningful observer access that respects voter privacy and prevents intimidation. Finally, institutions and media should communicate what is known and what is still being verified in plain language, publish evidence for claims, correct errors quickly, and invest in civic education so people understand how decisions are made and how accountability works.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014especially elections\u2014we should make core processes transparent, consistent, and independently verifiable while keeping access fair for all eligible participants. That means maintaining clear, stable rules; using auditable records (such as paper ballots or voter-verifiable paper trails where relevant); conducting routine, independent post-process audits (e.g., risk-limiting audits); and publishing timely, plain-language reports about procedures, incidents, and results. Oversight should be genuinely nonpartisan, with meaningful observer access and strong safeguards for privacy and security, backed by adequate funding and professional administration. Finally, institutions should invest in civic education and straightforward public communication that explains how decisions are made and how the public can verify outcomes, so trust rests on evidence and accountability rather than partisan messaging.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions (including elections), we should focus on transparency, fairness, and proof that rules are followed the same way for everyone. That means clear, plain-language explanations of how decisions are made; open data and timely reporting when problems happen; and independent oversight with real authority to audit and verify results. In elections specifically, trust is strengthened by verifiable records (such as auditable paper ballots or voter-verifiable paper records), routine risk-limiting audits, strong cybersecurity, secure chain-of-custody, and observer access that protects voter privacy. At the same time, institutions should be easy to use and accessible\u2014well-staffed locations, clear instructions, reliable customer service, and resources for civic education\u2014so ordinary people experience the system as competent and respectful. Finally, leaders and media should communicate carefully: explain what is known, what is still being checked, and why safeguards work, so confidence comes from evidence and consistency rather than partisan messaging.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

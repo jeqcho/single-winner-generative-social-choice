@@ -1,50 +1,50 @@
 {
   "schulze": {
-    "winner": "0",
-    "winner_full": "0",
+    "winner": "26",
+    "winner_full": "49",
     "epsilon": 0.0
   },
   "borda": {
-    "winner": "0",
-    "winner_full": "0",
+    "winner": "26",
+    "winner_full": "49",
     "epsilon": 0.0
   },
   "irv": {
-    "winner": "0",
-    "winner_full": "0",
+    "winner": "43",
+    "winner_full": "86",
     "epsilon": 0.0
   },
   "plurality": {
-    "winner": "0",
-    "winner_full": "0",
+    "winner": "40",
+    "winner_full": "78",
     "epsilon": 0.0
   },
   "veto_by_consumption": {
-    "winner": "0",
-    "winner_full": "0",
+    "winner": "29",
+    "winner_full": "52",
     "epsilon": 0.0
   },
   "chatgpt": {
     "winner": "33",
     "winner_full": "57",
-    "epsilon": 0.10000000000000009
+    "epsilon": 0.020000000000000018
   },
   "chatgpt_rankings": {
-    "winner": "0",
-    "winner_full": "0",
-    "epsilon": 0.0
-  },
-  "chatgpt_personas": {
     "winner": "26",
     "winner_full": "49",
     "epsilon": 0.0
   },
+  "chatgpt_personas": {
+    "winner": "33",
+    "winner_full": "57",
+    "epsilon": 0.020000000000000018
+  },
   "chatgpt_star": {
     "winner": "79",
-    "epsilon": 0.17999999999999994
+    "epsilon": 0.0
   },
   "chatgpt_star_rankings": {
-    "winner": "1",
+    "winner": "31",
     "epsilon": 0.0
   },
   "chatgpt_star_personas": {
@@ -53,20 +53,20 @@
   },
   "chatgpt_double_star": {
     "winner": "100",
-    "new_statement": "Public trust in institutions grows when people can see how decisions are made, verify that rules are followed, and experience fair treatment\u2014especially when mistakes happen. A practical middle ground is to pair strong, independently \u043f\u0440\u043e\u0432\u0435\u0440\u044f\u0435\u043c\u044b\u0435 safeguards (clear standards, routine third\u2011party audits, open data and plain-language reports, and real consequences for misconduct) with reliable, user-friendly access (simple procedures, reasonable hours, multilingual and disability-accessible services, and timely help when problems arise). Institutions should communicate early and often in a calm, nonpartisan tone, publish what went right and what went wrong, and show how issues were fixed. Finally, trust improves when oversight includes the public: citizen observers, community advisory panels, and open forums where people can ask questions and get evidence-based answers without being dismissed. In short: transparency + verification + respectful service + shared accountability.",
+    "new_statement": "Public trust in institutions grows when people can see that decisions are made fairly, competently, and with real consequences for mistakes. A practical middle ground is to pair strong, verifiable safeguards with broad, non-discriminatory access and clear, consistent rules that are applied the same way to everyone.\n\nThat means: (1) transparency by default\u2014plain-language explanations, open data where privacy allows, and public reporting that is timely and easy to understand; (2) independent verification\u2014regular third-party audits and oversight bodies that are insulated from partisan pressure; (3) accountability\u2014clear standards, documented procedures, and meaningful penalties for misconduct or negligence; and (4) public participation\u2014accessible services, multilingual communication, and opportunities for community members to observe, volunteer, and ask questions in respectful public forums.\n\nFinally, institutions should communicate honestly about what went wrong and how it was fixed, rather than overpromising perfection. When people can verify the process, understand the rules, and see accountability in action, trust becomes earned across ideological and cultural lines.",
     "is_new": true,
-    "epsilon": null
+    "epsilon": 0.0
   },
   "chatgpt_double_star_rankings": {
     "winner": "100",
-    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see that decisions are made fairly, verified independently, and explained clearly in everyday language. We should strengthen transparent, nonpartisan administration with a voter-verifiable record (such as paper ballots or auditable ballot images), routine independent post-election audits (including risk-limiting audits where feasible), robust cybersecurity, and strict chain-of-custody so results can be checked and confirmed. Just as important, institutions should communicate promptly and honestly about procedures, errors, and fixes through plain-language, multilingual updates, open data dashboards, and opportunities for public observation and bipartisan oversight. Finally, trust increases when access is real for working families, seniors, rural voters, and people with disabilities\u2014through well-funded polling places, reasonable early voting options, and secure, trackable absentee or mail voting where offered\u2014paired with practical civic education through schools, libraries, and local community partners to reduce confusion and misinformation.",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see clear rules being applied consistently, with results that are verifiable, secure, and fair. That means using voter\u2011verifiable records (such as paper ballots or auditable ballot images), strict chain\u2011of\u2011custody procedures, robust cybersecurity, and routine independent post\u2011election audits (including risk\u2011limiting audits) with transparent public reporting. Trust also depends on access: convenient and disability\u2011accessible polling places, reasonable early voting and secure mail options where used, multilingual and plain\u2011language information, and timely explanations of how results are counted, certified, and corrected if errors occur. Finally, institutions should invite public oversight\u2014bipartisan observers, opportunities for community members to volunteer, open forums and clear data dashboards\u2014while enforcing strong protections against intimidation, fraud, and partisan interference. When institutions combine rigorous verification with straightforward communication and equal access, confidence can be rebuilt across communities and political views.",
     "is_new": true,
-    "epsilon": null
+    "epsilon": 0.0
   },
   "chatgpt_double_star_personas": {
     "winner": "100",
-    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see clear rules, consistent enforcement, and real accountability, regardless of party, income, or neighborhood. We should run critical public systems with \u201cproof you can check\u201d: voter-verifiable records (such as paper ballots or auditable ballot images), strong chain-of-custody and cybersecurity protections, and routine independent audits (including risk-limiting audits where appropriate) with publicly posted, plain-language results. At the same time, participation must be practical for working families, seniors, and people with disabilities: reliable polling sites and hours, secure early and mail options with tracking, multilingual information, and straightforward ballots and instructions. To counter rumors without lecturing, institutions should communicate quickly and honestly about problems and fixes, invite bipartisan and community observers, and expand opportunities for regular neighbors to serve as poll workers and help explain the process through schools, libraries, faith groups, and local organizations. When institutions are transparent, secure, accessible, and responsive, trust can be rebuilt through shared evidence rather than partisan claims.",
+    "new_statement": "To increase the public\u2019s trust in institutions, we should make the rules clear, the work measurable, and the people in charge visibly accountable\u2014so trust is earned through evidence, not slogans. Institutions should publish plain-language standards for how decisions are made, protect privacy and safety, and use independent oversight (including routine audits and public reporting) so outcomes can be verified and mistakes are acknowledged and fixed. Just as important, services must be reliably accessible: information in English and Spanish, simple explanations that families can understand, and convenient ways for working people, seniors, and people with disabilities to participate and get help. Trust grows when local communities can see the process up close\u2014through open meetings, transparent dashboards, and trained community volunteers\u2014while strong security and anti-corruption safeguards prevent abuse. If institutions consistently tell the truth, explain decisions clearly, enforce rules fairly, and show receipts through independent checks, more people across backgrounds will feel respected and confident that the system works for everyone.",
     "is_new": true,
-    "epsilon": null
+    "epsilon": 0.0
   }
 }

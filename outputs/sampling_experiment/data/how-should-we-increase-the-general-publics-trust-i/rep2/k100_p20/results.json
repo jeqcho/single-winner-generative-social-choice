@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "4",
+    "winner_full": "31",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "4",
+    "winner_full": "31",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "17",
+    "winner_full": "93",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "4",
+    "winner_full": "31",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "14",
+    "winner_full": "81",
+    "epsilon": 0.1100000000000001
+  },
+  "chatgpt_rankings": {
+    "winner": "4",
+    "winner_full": "31",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "14",
+    "winner_full": "81",
+    "epsilon": 0.1100000000000001
+  },
+  "chatgpt_star": {
+    "winner": "49",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "4",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "57",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in elections grows when people can independently see that the rules are fair, the votes are counted accurately, and the system treats every community with equal respect. A strong middle-ground approach is to pair broad access with strong verification: maintain convenient options like early voting and secure absentee/mail voting with tracking, while using paper-backed ballots (or equivalent auditable records), strict chain-of-custody procedures, and routine risk-limiting audits whose results are posted publicly in plain language. Oversight should be genuinely nonpartisan and transparent\u2014through bipartisan boards, open observation rules, and clear enforcement when mistakes or misconduct occur\u2014so accountability is real rather than rhetorical. Finally, invest in year-round, multilingual voter information and civics education delivered through trusted local institutions (schools, libraries, community groups) to reduce confusion and misinformation without favoring any party. When access, security, and transparency move together, more people can participate confidently and accept results even when their side loses.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase public trust in institutions\u2014especially elections\u2014we should make the rules and results easy for any reasonable person to verify, while keeping participation practical for everyday life. That means: using secure, paper-backed records where possible; conducting routine independent, risk-limiting audits with clear chain-of-custody protections; and publishing timely, plain-language explanations of how decisions are made, how errors are detected, and how issues are fixed. Trust also grows when access is real: convenient options (like early voting, accessible polling places, and secure mail-in with tracking where used), disability and language access, and well-trained, nonpartisan staff. Finally, invest in nonpartisan civics education and local, trusted messengers (schools, libraries, community and faith groups) to answer questions and counter misinformation with calm, factual information\u2014so people don\u2019t have to rely on rumors, and can see that the same standards apply to everyone.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when people can see how decisions are made, verify that rules are applied fairly, and experience services that work reliably for everyone. We should strengthen transparent, auditable processes (clear standards, independent oversight, and public reporting that is easy to find), protect privacy and security, and correct mistakes quickly with accountability when systems fail. Just as important, institutions should communicate in plain language and multiple languages, partner with trusted local messengers (schools, libraries, community and faith groups, workplaces), and expand civic education so people understand their rights, how outcomes are checked, and how to raise concerns. If institutions are consistent, accessible, and open to scrutiny\u2014while treating all communities with respect\u2014confidence can be rebuilt across political views and life experiences.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

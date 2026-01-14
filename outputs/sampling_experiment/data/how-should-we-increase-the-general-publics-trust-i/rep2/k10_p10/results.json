@@ -1,7 +1,7 @@
 {
   "schulze": {
-    "winner": "0",
-    "winner_full": "18",
+    "winner": "1",
+    "winner_full": "20",
     "epsilon": 0.0
   },
   "borda": {
@@ -10,18 +10,18 @@
     "epsilon": 0.0
   },
   "irv": {
-    "winner": "0",
-    "winner_full": "18",
+    "winner": "1",
+    "winner_full": "20",
     "epsilon": 0.0
   },
   "plurality": {
-    "winner": "0",
-    "winner_full": "18",
+    "winner": "4",
+    "winner_full": "32",
     "epsilon": 0.0
   },
   "veto_by_consumption": {
-    "winner": "0",
-    "winner_full": "18",
+    "winner": "1",
+    "winner_full": "20",
     "epsilon": 0.0
   },
   "chatgpt": {
@@ -30,8 +30,8 @@
     "epsilon": 0.0
   },
   "chatgpt_rankings": {
-    "winner": "0",
-    "winner_full": "18",
+    "winner": "4",
+    "winner_full": "32",
     "epsilon": 0.0
   },
   "chatgpt_personas": {
@@ -41,32 +41,32 @@
   },
   "chatgpt_star": {
     "winner": "57",
-    "epsilon": 0.17999999999999994
+    "epsilon": 0.0
   },
   "chatgpt_star_rankings": {
-    "winner": "0",
+    "winner": "4",
     "epsilon": 0.0
   },
   "chatgpt_star_personas": {
     "winner": "57",
-    "epsilon": 0.17999999999999994
+    "epsilon": 0.0
   },
   "chatgpt_double_star": {
     "winner": "100",
-    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see clear rules, consistent enforcement, and real consequences for mistakes or misconduct. We should set transparent standards that apply across jurisdictions: verifiable records (such as paper backups where relevant), routine independent audits, strong chain-of-custody and cybersecurity practices, and public reporting that explains results and any irregularities in plain language without partisan spin. At the same time, institutions should earn confidence by serving everyone fairly\u2014removing unnecessary barriers to participation, protecting privacy, offering language and disability access, and investing in local staff so processes run competently and on time. When oversight is independent, information is easy to verify, and leaders communicate honestly and promptly, people don\u2019t have to rely on trust alone\u2014they can rely on evidence.",
+    "new_statement": "Public trust in institutions grows when people can see how decisions are made, how money is spent, and how mistakes are found and fixed. A practical middle ground is to set clear, nonpartisan standards for transparency and accountability across government and civic systems: publish understandable data and rationales for major decisions, use independent oversight and routine audits, protect privacy while enabling public verification, and enforce consistent ethics and anti-corruption rules. Institutions should also invest in plain-language communication, open meetings and records that are easy to access, and meaningful public input\u2014especially from communities that feel ignored\u2014while responding quickly and factually to concerns and misinformation. By combining openness, fair rules, and reliable performance, we can rebuild confidence without turning governance into partisan theater.",
     "is_new": true,
-    "epsilon": null
+    "epsilon": 0.0
   },
   "chatgpt_double_star_rankings": {
     "winner": "100",
-    "new_statement": "Public trust in elections\u2014and in our institutions more broadly\u2014grows when people can see that decisions are made fairly, checked independently, and explained clearly. We should standardize transparent, nonpartisan administration with verifiable records (such as auditable paper ballots or paper backups), strict chain-of-custody, and routine risk-limiting audits overseen by bipartisan and independent observers, with timely public reporting of results and any discrepancies. At the same time, institutions should ensure equal, practical access and privacy protections, invest in consistent funding for local offices, and provide plain-language civic education and easily found online explanations of safeguards to reduce confusion and misinformation. By combining integrity, transparency, accessibility, and straightforward communication, we make it easier for people across the political spectrum to trust that outcomes reflect the public\u2019s true will.",
+    "new_statement": "To rebuild public trust in institutions\u2014starting with elections\u2014we should make key processes easy to verify, clearly communicated, and consistently fair. That means using simple, observable safeguards like auditable paper records, strong chain-of-custody, routine risk-limiting audits, and independent, bipartisan oversight, with clear timelines and plain-language explanations of results and any discrepancies. Trust also depends on access and respect: ensure every eligible person can participate through reliable polling options, language access, and outreach, while protecting privacy and security. By combining verifiable procedures with transparency, nonpartisan administration, and civic education that counters misinformation, institutions can earn confidence through what the public can see, understand, and check.",
     "is_new": true,
-    "epsilon": null
+    "epsilon": 0.0
   },
   "chatgpt_double_star_personas": {
     "winner": "100",
-    "new_statement": "To rebuild the public\u2019s trust in institutions\u2014especially elections\u2014we should make key decisions and results easy to verify, fair to everyone, and clearly explained. That means using simple, checkable safeguards (like paper records, strict chain-of-custody, and routine independent audits), publishing clear timelines and plain-language explanations of how outcomes are verified, and promptly correcting mistakes with transparency. Trust also grows when institutions treat people with dignity and make services accessible: consistent rules, strong privacy protections, language access (including Spanish), and straightforward ways for communities to ask questions, observe processes, and get answers without partisan spin. Finally, investing in practical civics education and local outreach\u2014through schools, community groups, and online resources\u2014can reduce misinformation and help people see how the system works, so confidence is earned through openness, accountability, and equal treatment.",
+    "new_statement": "To rebuild public trust in our institutions\u2014starting with elections\u2014we should make decisions and results easy for ordinary people to verify, not just experts. That means clear, consistent rules; secure paper records and strong chain-of-custody; routine, independent audits that are open to bipartisan and community observation; and timely, plain-language explanations when questions arise. Trust also depends on fairness and access: dependable local services, reasonable options for participation, strong privacy protections, and accurate information in the languages people use at home. When institutions are transparent about how they work, accountable when they make mistakes, and respectful of every community\u2019s needs, confidence grows across generations and political views.",
     "is_new": true,
-    "epsilon": null
+    "epsilon": 0.0
   }
 }

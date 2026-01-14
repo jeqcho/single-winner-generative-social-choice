@@ -1,7 +1,7 @@
 {
   "schulze": {
-    "winner": "0",
-    "winner_full": "1",
+    "winner": "1",
+    "winner_full": "2",
     "epsilon": 0.0
   },
   "borda": {
@@ -10,63 +10,63 @@
     "epsilon": 0.0
   },
   "irv": {
-    "winner": "0",
-    "winner_full": "1",
+    "winner": "1",
+    "winner_full": "2",
     "epsilon": 0.0
   },
   "plurality": {
-    "winner": "0",
-    "winner_full": "1",
-    "epsilon": 0.0
+    "winner": "49",
+    "winner_full": "95",
+    "epsilon": 0.07000000000000006
   },
   "veto_by_consumption": {
-    "winner": "1",
-    "winner_full": "2",
+    "winner": "22",
+    "winner_full": "49",
     "epsilon": 0.0
   },
   "chatgpt": {
     "winner": "22",
     "winner_full": "49",
-    "epsilon": 0.10000000000000009
+    "epsilon": 0.0
   },
   "chatgpt_rankings": {
     "winner": "22",
     "winner_full": "49",
-    "epsilon": 0.10000000000000009
+    "epsilon": 0.0
   },
   "chatgpt_personas": {
     "winner": "22",
     "winner_full": "49",
-    "epsilon": 0.10000000000000009
+    "epsilon": 0.0
   },
   "chatgpt_star": {
     "winner": "49",
-    "epsilon": 0.10000000000000009
+    "epsilon": 0.0
   },
   "chatgpt_star_rankings": {
-    "winner": "0",
-    "epsilon": 0.0
+    "winner": "30",
+    "epsilon": 0.010000000000000009
   },
   "chatgpt_star_personas": {
     "winner": "57",
-    "epsilon": 0.17999999999999994
+    "epsilon": 0.0
   },
   "chatgpt_double_star": {
     "winner": "100",
-    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can independently confirm that rules are applied fairly, mistakes are caught, and concerns are answered without spin. A durable middle ground is to combine (1) verifiable safeguards (paper or otherwise voter-verifiable records, strict chain-of-custody, routine risk-limiting audits, and public reporting of findings), (2) professional, nonpartisan administration with transparent standards, training, and consequences for misconduct, and (3) an accessible, predictable public experience (reasonable early and Election Day options, secure absentee voting where used, disability access, and clear timelines so slower counts aren\u2019t mistaken for fraud). Just as important, institutions should communicate plainly and proactively\u2014through local officials, libraries, schools, and community groups\u2014in multiple languages, publish data and explanations people can check, and correct misinformation quickly with evidence. When verification, accountability, and inclusion are built into the system and visible to everyday residents, confidence can increase across political and cultural lines.",
+    "new_statement": "Public trust in institutions\u2014including elections\u2014grows when rules are predictable, decisions are explainable, and outcomes can be independently checked. For elections, that means a verifiable record for every ballot (such as paper or an auditable equivalent), routine risk-limiting audits with publicly posted results, strong chain-of-custody and cybersecurity, and clear standards that are applied consistently while still allowing local officials to run elections with professional, nonpartisan training and accountability. At the same time, participation should be practical for working families, people with disabilities, and rural and urban communities through well-managed early voting, secure mail or drop options where used, and transparent wait-time and staffing plans. Finally, institutions should communicate in plain language and multiple languages, partner with trusted community organizations, and respond quickly with evidence when misinformation spreads\u2014so people don\u2019t have to \u201ctake it on faith\u201d that the system is fair.",
     "is_new": true,
-    "epsilon": -8.673617379884035e-18
+    "epsilon": 0.0
   },
   "chatgpt_double_star_rankings": {
     "winner": "100",
-    "new_statement": "Public trust in U.S. elections grows when the process is easy to see, easy to verify, and run by trained, nonpartisan professionals who are accountable to the public. We should use verifiable paper ballots (or auditable paper records), secure chain-of-custody, robust cyber protections, and routine independent risk-limiting post\u2011election audits, with the results posted quickly in plain language so any voter can understand what was checked and why the outcome is reliable. At the same time, voting should be practical for working families and people with disabilities through clear, consistently applied rules, well-run polling places, and secure options like early voting and trackable mail ballots where offered. Finally, trusted local officials, schools, libraries, and community organizations should provide nonpartisan, multilingual voter education and rapid, factual responses to misinformation\u2014so confidence comes from evidence and transparency, not partisan claims.",
+    "new_statement": "Public trust in elections grows when the process is easy to understand, consistently applied, and independently verifiable\u2014regardless of party. We should use paper ballots (or voter-verifiable paper records), enforce secure chain-of-custody and strong cyber protections, and conduct routine risk\u2011limiting post\u2011election audits with results published quickly in plain language. Election administration should be professional and nonpartisan, with bipartisan and community observers allowed to watch key steps and clear rules that minimize confusion and last\u2011minute changes. Trust also depends on an accessible voter experience\u2014reliable polling places, reasonable early voting, and secure mail voting with tracking where offered\u2014paired with multilingual, nonpartisan voter education through trusted local channels (schools, libraries, community and faith groups) and rapid, factual responses to misinformation.",
     "is_new": true,
-    "epsilon": -8.673617379884035e-18
+    "epsilon": 0.010000000000000009
   },
   "chatgpt_double_star_personas": {
     "winner": "100",
-    "new_statement": "To increase the public\u2019s trust in institutions\u2014especially elections\u2014we should focus on what people can see, check, and understand: clear rules, transparent decision-making, and independent verification. That means using verifiable records (like auditable paper ballots or equivalent safeguards), routine independent post-election audits, strong cybersecurity and chain-of-custody protections, and prompt public reporting of results and audit findings in plain language. Trust also grows when participation is practical for real lives\u2014reliable polling places, reasonable early voting, and secure mail options with trackable status\u2014while keeping standards consistent and nonpartisan so the rules don\u2019t feel like they change for political advantage. Finally, institutions must communicate early and often through trusted local messengers (schools, libraries, community and faith groups, local officials) with multilingual, accessible information and quick, factual responses to misinformation, so every community can understand how the system works and how concerns are addressed.",
+    "new_statement": "Public trust in institutions grows when people can see how decisions are made, verify results independently, and experience services that are fair, consistent, and respectful. We should set clear standards for transparency (plain-language explanations, multilingual access, and open public data where privacy allows), accountability (independent audits/inspector generals, strong ethics rules, and consequences for misconduct), and performance (reliable staffing, adequate funding, and measurable service goals). Institutions should work with trusted local messengers\u2014schools, libraries, faith and community groups, and frontline workers\u2014to explain processes, answer questions, and correct misinformation quickly with evidence rather than politics. Finally, policies should be designed around everyday realities\u2014work schedules, disability access, rural access, and language needs\u2014so people feel included, heard, and confident that the system treats everyone by the same rules.",
     "is_new": true,
-    "epsilon": -8.673617379884035e-18
+    "epsilon": 0.0
   }
 }

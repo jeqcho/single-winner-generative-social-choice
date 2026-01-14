@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "15",
+    "winner_full": "15",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "15",
+    "winner_full": "15",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "96",
+    "winner_full": "96",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "96",
+    "winner_full": "96",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "65",
+    "winner_full": "65",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "34",
+    "winner_full": "34",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "58",
+    "winner_full": "58",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "34",
+    "winner_full": "34",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "65",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "34",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "32",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014rises when people can see clear standards, real accountability, and fair treatment in practice, not just promises. A workable middle ground is to strengthen both integrity and access: use auditable voting (paper ballots or voter-verified records), routine independent risk-limiting audits with publicly posted plain-language results, and strong chain-of-custody plus cybersecurity. At the same time, keep participation practical with well-run polling places, reasonable early and mail options with tracking, and language/disability accommodations so eligible voters aren\u2019t shut out. Institutions should publish consistent rules ahead of time, respond quickly and transparently to problems, protect frontline workers, and partner with trusted local messengers\u2014schools, libraries, faith and civic groups\u2014to provide nonpartisan, multilingual explanations and counter misinformation with verifiable facts. When rules are stable, oversight is credible, and evidence is easy to understand, confidence can be earned across political lines.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Public trust in elections is earned through processes that people can see, understand, and independently verify\u2014without making it harder for eligible citizens to vote. We should use auditable paper ballots (or voter-verified paper records), routine risk-limiting post\u2011election audits with publicly released results in plain language, and strong chain\u2011of\u2011custody and cybersecurity protections from ballot printing through certification. Election administration should be nonpartisan and locally accountable, with bipartisan and community observation opportunities and stable funding to hire, train, and protect election workers. To reduce confusion and misinformation, officials should provide timely, factual updates, clear instructions, and accessible voter education in multiple languages, while maintaining practical options like early voting, secure mail voting with tracking where available, and accessible polling places for seniors and people with disabilities. When rules are clear, checks are routine, and the evidence is public, people can disagree on politics while agreeing the outcome is legitimate.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild the general public\u2019s trust in institutions\u2014starting with elections\u2014we should focus less on rhetoric and more on practices people can see, understand, and verify. That means clear, consistent rules; secure, auditable records (such as paper ballots or voter-verified paper backups); strict chain-of-custody and cybersecurity protections; and routine independent post-election audits with results published quickly in plain language. At the same time, institutions should make participation and access practical\u2014safe and reliable in-person voting, early and mail options where offered, disability accommodations, and accurate information in multiple languages\u2014so every eligible person can take part without confusion or unnecessary barriers. Trust also grows when local officials are well-funded, nonpartisan, and accountable; when community observers can watch the process; when workers are protected; and when misinformation is met with timely, factual explanations and transparent correction of errors. If people from every background can follow the rules, see the checks, and understand the results, confidence in institutions can be earned and sustained.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

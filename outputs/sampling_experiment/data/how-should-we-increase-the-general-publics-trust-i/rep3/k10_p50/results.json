@@ -1,27 +1,27 @@
 {
   "schulze": {
-    "winner": "8",
-    "winner_full": "16",
+    "winner": "12",
+    "winner_full": "26",
     "epsilon": 0.0
   },
   "borda": {
-    "winner": "8",
-    "winner_full": "16",
+    "winner": "37",
+    "winner_full": "74",
     "epsilon": 0.0
   },
   "irv": {
-    "winner": "0",
-    "winner_full": "1",
+    "winner": "12",
+    "winner_full": "26",
     "epsilon": 0.0
   },
   "plurality": {
-    "winner": "0",
-    "winner_full": "1",
+    "winner": "12",
+    "winner_full": "26",
     "epsilon": 0.0
   },
   "veto_by_consumption": {
-    "winner": "8",
-    "winner_full": "16",
+    "winner": "37",
+    "winner_full": "74",
     "epsilon": 0.0
   },
   "chatgpt": {
@@ -30,8 +30,8 @@
     "epsilon": 0.0
   },
   "chatgpt_rankings": {
-    "winner": "8",
-    "winner_full": "16",
+    "winner": "12",
+    "winner_full": "26",
     "epsilon": 0.0
   },
   "chatgpt_personas": {
@@ -44,29 +44,29 @@
     "epsilon": 0.0
   },
   "chatgpt_star_rankings": {
-    "winner": "37",
+    "winner": "39",
     "epsilon": 0.0
   },
   "chatgpt_star_personas": {
-    "winner": "14",
-    "epsilon": 0.0
+    "winner": "32",
+    "epsilon": 0.09000000000000008
   },
   "chatgpt_double_star": {
     "winner": "100",
-    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see clear rules, fair treatment, and real consequences for mistakes. A strong middle-ground approach is to make outcomes independently verifiable (e.g., auditable records and routine post-process reviews), publish plain-language explanations and timely reports about what worked and what didn\u2019t, and protect the professionals who administer the system from partisan pressure. Trust also depends on equal access: information in the languages people use, disability accommodations, and voting options that fit different work and family schedules, while maintaining sensible security and chain-of-custody standards. Finally, institutions should partner with trusted local groups\u2014schools, libraries, community organizations, and faith communities\u2014to provide nonpartisan civic education and rapid, factual responses to misinformation, so people don\u2019t have to \u201ctake it on faith\u201d that the system is fair.",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see clear rules, consistent enforcement, and real accountability, regardless of party or viewpoint. We should use verifiable systems (such as auditable paper records where appropriate), routine independent post\u2011process audits with publicly posted results, and strong protections against tampering or interference, alongside strict transparency about what went right, what went wrong, and how issues were fixed. At the same time, access should be practical for working families, seniors, people with disabilities, and language-minority communities through well-funded service, clear multilingual information, and multiple secure ways to participate. Finally, institutions should communicate in plain language, correct false claims quickly with evidence, protect frontline staff from threats, and invite community observation and feedback so trust is earned through openness, competence, and fair treatment for everyone.",
     "is_new": true,
-    "epsilon": -8.673617379884035e-18
+    "epsilon": 0.0
   },
   "chatgpt_double_star_rankings": {
     "winner": "100",
-    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see, verify, and understand how decisions are made, and when rules are applied fairly across communities. We should use transparent, nonpartisan administration with practical safeguards people can observe: auditable paper records (or strong paper backups), strict chain-of-custody, robust cybersecurity, and routine independent risk-limiting audits with timely public reporting of results and any issues found.\n\nTrust also depends on equal, barrier-free access and clear communication. That means well-funded local offices and polling places, convenient options like early voting and secure mail voting, disability accommodations, and accurate, plain-language, multilingual information about how registration, voting, counting, and certification work. Finally, sustained civics education and rapid, fact-based responses to misinformation\u2014delivered through trusted community partners like schools, libraries, and local organizations\u2014help people separate rumors from real safeguards and hold institutions accountable.",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see, understand, and independently verify that rules are applied fairly and results are accurate. We should use simple, auditable safeguards (verifiable paper ballots or equivalent auditable records, strict chain-of-custody, robust cybersecurity, and routine risk-limiting post\u2011election audits) with nonpartisan, bipartisan, and independent oversight, and publish timely, plain-language audit results and incident reports. Trust also depends on equal, practical access: well-funded polling places, safe early and mail options, disability accommodations, and clear multilingual voter information so every eligible voter can participate without confusion or undue barriers. Finally, institutions should invest in ongoing, nonpartisan civic education and rapid, fact-based responses to misinformation\u2014working with trusted local partners like schools, libraries, and community organizations\u2014so accountability is visible, participation is welcomed, and confidence can be earned over time.",
     "is_new": true,
-    "epsilon": -8.673617379884035e-18
+    "epsilon": 0.0
   },
   "chatgpt_double_star_personas": {
     "winner": "100",
-    "new_statement": "To rebuild the public\u2019s trust in our institutions\u2014starting with elections\u2014we should focus on a few simple, widely shared expectations: clear rules, visible accountability, equal treatment, and communication people can actually use. That means nonpartisan administration with consistent standards, secure and auditable records (including paper backups where appropriate), routine independent audits with publicly posted results, strong cybersecurity, and strict chain-of-custody so outcomes can be verified without relying on anyone\u2019s word. Trust also grows when participation is practical for real life\u2014well-staffed polling places, reasonable wait times, accessible sites and ballots for seniors and people with disabilities, and accurate voter information in plain language and the languages communities speak (including Spanish). Finally, institutions should correct mistakes openly, protect frontline workers from threats, and partner with trusted local messengers\u2014schools, libraries, community groups, and veterans\u2019 organizations\u2014to teach civics and counter misinformation with facts. When people can see how decisions are made, check the receipts, and be treated with respect, confidence can grow across generations and communities.",
+    "new_statement": "To rebuild the public\u2019s trust in institutions\u2014especially elections\u2014we should focus on what people across backgrounds can verify for themselves: clear rules, transparent processes, and real accountability. That means nonpartisan administration; secure, auditable systems (including paper records where possible); strong chain-of-custody and cybersecurity; and routine, independent post\u2011process audits with results published quickly in plain language. Trust also depends on fair access: well-funded polling locations with reasonable wait times, flexible options like early and mail voting where allowed, and clear voter information in the languages communities use. Finally, institutions should communicate openly about problems and fixes, protect frontline workers from intimidation, and invest in practical civics education and community outreach (schools, libraries, veterans\u2019 groups, and local organizations) so misinformation loses power and people feel respected, included, and confident that the process is both secure and fair.",
     "is_new": true,
-    "epsilon": -8.673617379884035e-18
+    "epsilon": 0.0
   }
 }

@@ -812,7 +812,7 @@ def insert_new_statement_into_rankings(
     full_preferences: List[List[str]],
     topic: str,
     openai_client: OpenAI,
-    max_workers: int = 20,
+    max_workers: int = 100,
     model: str = MODEL,
     temperature: float = TEMPERATURE
 ) -> List[List[str]]:

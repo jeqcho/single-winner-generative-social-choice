@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "5",
+    "winner_full": "58",
+    "epsilon": 0.21999999999999997
+  },
+  "chatgpt_rankings": {
+    "winner": "4",
+    "winner_full": "45",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_personas": {
+    "winner": "4",
+    "winner_full": "45",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_star": {
+    "winner": "83",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "8",
+    "epsilon": 0.06000000000000005
+  },
+  "chatgpt_star_personas": {
+    "winner": "56",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in elections grows when the process is easy to verify, easy to understand, and applied fairly to everyone. We should use auditable paper records or voter-verifiable paper trails, conduct routine risk-limiting audits with public reporting, and maintain strong chain-of-custody and cybersecurity standards, with bipartisan/nonpartisan oversight and clear opportunities for credentialed observers. At the same time, election rules should be consistent and communicated early, voter registration lists should be kept accurate with transparent safeguards and due process, and any identity checks should be secure while offering practical, no-cost ways for eligible voters to comply. Finally, institutions should invest in accessible, plain-language and multilingual voter information, disability accommodations, and community-based outreach so people can see how the system works, participate without undue barriers, and trust the results.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase public trust in institutions\u2014especially elections\u2014we should focus on measures people can verify, understand, and see applied fairly. That means nonpartisan administration; clear, consistent rules; auditable records (such as paper ballots or voter-verifiable paper trails); routine, publicly reported risk-limiting audits; strong chain-of-custody and cybersecurity standards; and transparent opportunities for bipartisan/independent observers. Security and access should advance together: accurate, regularly maintained voter rolls; straightforward identity and eligibility checks with practical accommodations so eligible voters (including people with disabilities, language needs, or demanding work schedules) can participate without undue barriers. Finally, institutions should communicate in plain language through trusted local channels, promptly disclose issues and fixes, and invest in ongoing civics education so the public knows how processes work and how accountability is enforced.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild the public\u2019s trust in institutions\u2014especially elections\u2014we should focus on three shared priorities: verification, fairness, and clear communication.\n\nFirst, make outcomes verifiable. Use auditable paper ballots or voter-verifiable records, maintain strict chain-of-custody, and conduct routine, publicly reported risk-limiting audits with bipartisan/nonpartisan oversight and independent observers. Ensure strong cybersecurity and prompt disclosure of problems and fixes.\n\nSecond, apply rules consistently and fairly. Use straightforward, uniform procedures where possible, keep voter rolls accurate through regular, transparent maintenance, and protect ballot access with practical options for working people, seniors, and voters with disabilities. If ID is required, pair it with free, easy-to-obtain IDs and reasonable alternatives so eligible voters aren\u2019t blocked.\n\nThird, communicate in ways people can understand and trust. Provide plain-language explanations of how registration, voting, counting, and audits work; publish simple summaries and detailed technical reports; and partner with local, trusted messengers\u2014schools, libraries, community centers, faith groups, and healthcare/community leaders\u2014to answer questions respectfully and counter misinformation without partisan spin.\n\nInstitutions earn trust by making it easy to see that the process is secure, the rules are evenhanded, and every eligible person\u2019s vote is counted as cast.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

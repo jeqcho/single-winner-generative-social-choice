@@ -1,27 +1,27 @@
 {
   "schulze": {
-    "winner": "10",
-    "winner_full": "14",
+    "winner": "27",
+    "winner_full": "46",
     "epsilon": 0.0
   },
   "borda": {
-    "winner": "11",
-    "winner_full": "15",
+    "winner": "27",
+    "winner_full": "46",
     "epsilon": 0.0
   },
   "irv": {
-    "winner": "30",
-    "winner_full": "53",
+    "winner": "43",
+    "winner_full": "92",
     "epsilon": 0.0
   },
   "plurality": {
-    "winner": "0",
-    "winner_full": "0",
-    "epsilon": 0.10000000000000009
+    "winner": "30",
+    "winner_full": "53",
+    "epsilon": 0.010000000000000009
   },
   "veto_by_consumption": {
-    "winner": "11",
-    "winner_full": "15",
+    "winner": "27",
+    "winner_full": "46",
     "epsilon": 0.0
   },
   "chatgpt": {
@@ -44,29 +44,29 @@
     "epsilon": 0.0
   },
   "chatgpt_star_rankings": {
-    "winner": "0",
-    "epsilon": 0.10000000000000009
+    "winner": "27",
+    "epsilon": 0.3600000000000001
   },
   "chatgpt_star_personas": {
-    "winner": "32",
+    "winner": "13",
     "epsilon": 0.0
   },
   "chatgpt_double_star": {
     "winner": "100",
-    "new_statement": "Public trust in institutions is rebuilt when people can see how decisions are made, verify outcomes, and experience fair, respectful treatment regardless of politics or background. We should set clear, consistent rules; publish plain-language data and explanations; and use independent oversight (including audits and ethics enforcement) so mistakes and misconduct are found and fixed openly. Institutions also need accessible, multilingual communication; strong protections for privacy and civil rights; and real opportunities for community input through local forums and partnerships with trusted civic groups. When leaders are held accountable, information is timely and understandable, and services work reliably for everyone, trust can be earned and sustained.",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see that the rules are fair, applied consistently, and backed by evidence rather than partisan claims. We should strengthen transparency and accountability with voter-verifiable ballots (such as paper records), routine independent risk-limiting audits, and clear chain-of-custody and cybersecurity standards, with audit results published promptly in plain language. At the same time, access should be protected through well-run polling places, secure early and mail options, disability accommodations, and multilingual information so eligible voters can participate without confusion or unnecessary barriers. Finally, institutions should communicate quickly and calmly about problems and fixes, invite bipartisan and community observation, and invest in ongoing civics education so confidence is earned through understandable processes and demonstrated integrity.",
     "is_new": true,
-    "epsilon": -8.673617379884035e-18
+    "epsilon": 0.0
   },
   "chatgpt_double_star_rankings": {
     "winner": "100",
-    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can clearly see that the rules are fair, the process is secure, and results are independently verified. We should use auditable paper ballots or voter-verifiable records, routine risk-limiting post-election audits, and strong chain-of-custody and cybersecurity protections, with bipartisan/nonpartisan oversight that is accountable at the local level. At the same time, participation should be practical and accessible for every eligible voter through well-run polling places, early voting and secure mail options where offered, and clear accommodations for seniors and people with disabilities. Election officials should publish timely, plain-language reports of procedures, audit results, and fixes when problems occur, and invest in civics education and multilingual outreach so families can understand how voting works and misinformation has less room to spread. When institutions operate transparently, communicate calmly and factually, and welcome independent verification, confidence is earned across political and community lines.",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can clearly see that the system is fair, secure, and accountable, without making participation harder for eligible citizens. We should strengthen transparency and verifiability through voter-verified paper ballots or equivalent auditable records, routine independent risk-limiting post-election audits, strict chain-of-custody procedures, and strong cybersecurity for voter rolls and tabulation systems, with bipartisan/nonpartisan oversight at every stage. Just as important, institutions must communicate in plain, timely language (and in multiple languages where needed), publish audit findings and explanations that ordinary people can understand, and respond quickly and calmly to mistakes and misinformation with evidence. Finally, investing in civic education and trusted local outreach\u2014through schools, libraries, and community organizations\u2014can help people understand how decisions are made and checked, so confidence is earned through demonstrated openness, equal treatment, and consistent rules.",
     "is_new": true,
-    "epsilon": -8.673617379884035e-18
+    "epsilon": 0.0
   },
   "chatgpt_double_star_personas": {
     "winner": "100",
-    "new_statement": "To increase the general public\u2019s trust in institutions\u2014especially elections\u2014we should make decisions and results easy to verify, easy to understand, and fair to everyone. That means setting clear, consistent rules; using auditable records (like paper ballots or voter-verified trails); conducting routine, independent post-election audits with bipartisan oversight; and maintaining strong cybersecurity and strict chain-of-custody so mistakes and tampering are prevented and caught quickly. Trust also grows when access is real: convenient in-person, early, and secure mail options; accessible polling places; and clear, multilingual, plain-language information so busy families, seniors, people with disabilities, and communities where English isn\u2019t the first language can participate confidently. Finally, institutions should communicate promptly and calmly, publish audit findings and fixes transparently, and invest in ongoing civics education and local community outreach\u2014so trust is earned through visible evidence and accountability, not partisan claims.",
+    "new_statement": "To increase the general public\u2019s trust in institutions\u2014starting with elections\u2014we should make decisions and outcomes easier for everyday people to verify, understand, and challenge fairly. That means clear, consistent rules; transparent processes with strong chain-of-custody and cybersecurity; routine independent audits with results published quickly in plain language; and well-funded, nonpartisan administration with bipartisan and community observation. Trust also grows when access is real: convenient voting options, disability accommodations, reliable polling locations, and multilingual information (including Spanish and other commonly used languages) so families can participate confidently. Finally, institutions should communicate early and honestly about problems and fixes, strengthen civics education through schools and local organizations, and respond to misinformation with calm, factual, evidence-based updates\u2014so confidence is earned through openness, accountability, and equal treatment for all eligible residents.",
     "is_new": true,
-    "epsilon": -8.673617379884035e-18
+    "epsilon": 0.0
   }
 }
