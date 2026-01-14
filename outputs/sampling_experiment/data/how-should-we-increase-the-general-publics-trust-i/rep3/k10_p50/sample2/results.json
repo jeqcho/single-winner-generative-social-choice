@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "4",
+    "winner_full": "15",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "15",
+    "winner_full": "34",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "49",
+    "winner_full": "99",
+    "epsilon": 0.06000000000000005
+  },
+  "plurality": {
+    "winner": "49",
+    "winner_full": "99",
+    "epsilon": 0.06000000000000005
+  },
+  "veto_by_consumption": {
+    "winner": "15",
+    "winner_full": "34",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "5",
+    "winner_full": "16",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "37",
+    "winner_full": "74",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "37",
+    "winner_full": "74",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "74",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "37",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "74",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in elections\u2014and in institutions more broadly\u2014grows when people can see clear standards, real accountability, and fair treatment regardless of party, zip code, language, or ability. A practical middle path is to pair strong, visible verification (auditable paper records where feasible, routine post-election audits that are publicly explained, secure chain-of-custody, and independent oversight that includes multiple viewpoints) with wide, lawful access (convenient voting options, disability accommodations, and multilingual, plain-language materials). Institutions should publish timely, easy-to-read reports on what went right, what problems occurred, and how they were fixed, and they should invite trained community observers while protecting voter privacy. Finally, sustained nonpartisan civic education and rapid correction of misinformation\u2014without dismissing good-faith questions\u2014can help people judge claims by evidence rather than politics and rebuild durable confidence.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Public trust in elections\u2014and in the institutions that run them\u2014grows when the rules are clear, the process is visible, and results are independently verifiable without making it harder for eligible people to vote. We should use auditable paper ballots (or voter-verifiable paper records), protect chain-of-custody, and conduct routine risk-limiting post\u2011election audits with bipartisan/nonpartisan oversight, strong cybersecurity, and timely public reporting that explains what was checked and what was found in plain language. At the same time, we should keep voting accessible for working families, seniors, people with disabilities, and language communities through convenient early and mail voting where allowed, well-staffed polling places, and accurate multilingual information. Finally, sustained nonpartisan civic education and local community outreach\u2014plus quick, fact-based responses to misinformation and intimidation\u2014can address real concerns respectfully and help people see that the system is fair, secure, and accountable.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild the public\u2019s trust in institutions\u2014starting with elections\u2014we should focus on rules that are easy to understand, applied consistently, and proven in practice. That means nonpartisan, locally run administration backed by strong safeguards: auditable paper ballots (or an equivalent voter-verifiable paper record), secure chain-of-custody, robust cybersecurity, and routine independent risk-limiting audits with public, plain-language summaries of what was checked and what was found. Trust also requires equal, practical access for every eligible voter: convenient early and Election Day options, secure mail voting with tracking where used, disability accommodations, and clear multilingual information so families don\u2019t have to rely on rumors or partisan media to know their rights and how results are certified. Finally, institutions should communicate quickly and honestly about problems and fixes, protect election workers and voters from intimidation, and invest in ongoing civics education and community outreach\u2014through schools, libraries, and trusted local organizations\u2014so people can see how decisions are made, how accountability works, and why the outcomes are legitimate.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

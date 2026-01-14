@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "25",
+    "winner_full": "49",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "25",
+    "winner_full": "49",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "45",
+    "winner_full": "91",
+    "epsilon": 0.020000000000000018
+  },
+  "plurality": {
+    "winner": "45",
+    "winner_full": "91",
+    "epsilon": 0.020000000000000018
+  },
+  "veto_by_consumption": {
+    "winner": "25",
+    "winner_full": "49",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "20",
+    "winner_full": "41",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "25",
+    "winner_full": "49",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "25",
+    "winner_full": "49",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "49",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "45",
+    "epsilon": 0.040000000000000036
+  },
+  "chatgpt_star_personas": {
+    "winner": "32",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can verify that rules are fair, applied consistently, and enforced without partisan favoritism. A durable middle-ground approach is to pair strong integrity safeguards (auditable paper records or equivalent, routine independent post-election audits, transparent chain-of-custody, and clear standards for voter eligibility) with broad, practical access (well-staffed polling places, accessible options for seniors and people with disabilities, and reliable early/mail voting where used). Institutions should communicate in plain language and multiple languages, publish timely explanations when problems occur, invite public observation and community partners to see processes firsthand, and invest in civics/media literacy so misinformation has less room to spread. When institutions are both secure and welcoming\u2014and admit, fix, and report errors openly\u2014people are more likely to accept outcomes even when they disagree with them.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can clearly see that the rules are fair, consistently applied, and followed by accountable, nonpartisan professionals. That means secure, verifiable processes such as paper ballots or voter-verifiable records, strong chain-of-custody and cybersecurity protections, routine independent bipartisan post-election audits (including risk-limiting audits), and prompt, plain-language public reporting of results and any errors with clear fixes. Trust also depends on broad, practical access\u2014safe and well-staffed polling places, reliable early and mail options with safeguards, and accommodations for seniors, people with disabilities, and working families\u2014so eligible voters can participate without unnecessary barriers. Finally, institutions should actively counter misinformation by offering multilingual, community-based education and transparency (e.g., open houses, published procedures, and trusted local messengers), so people don\u2019t have to rely on rumors to understand how decisions are made and verified.",
+    "is_new": true,
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014starting with elections\u2014we should make decisions and results easy for ordinary people to verify, understand, and challenge fairly. That means clear, consistently applied rules; strong security and privacy protections; auditable records (like paper trails or equivalent); routine independent, bipartisan/nonpartisan audits with publicly posted findings; and transparent handling of mistakes with prompt correction and accountability. Trust also grows when institutions communicate in plain language and multiple languages, proactively counter misinformation with evidence, and invite community participation through observers, open houses, and partnerships with schools, libraries, faith groups, and local civic leaders. Finally, institutions must be accessible and respectful to everyone\u2014including seniors, people with disabilities, immigrants, and working families\u2014so that integrity and equal treatment are visible in practice, not just promised.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "13",
+    "winner_full": "74",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "13",
+    "winner_full": "74",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "7",
+    "winner_full": "50",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "19",
+    "winner_full": "95",
+    "epsilon": 0.1200000000000001
+  },
+  "veto_by_consumption": {
+    "winner": "13",
+    "winner_full": "74",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "11",
+    "winner_full": "69",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_rankings": {
+    "winner": "13",
+    "winner_full": "74",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "7",
+    "winner_full": "50",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "8",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "13",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "23",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in elections, we should make the system both easier to verify and easier to use\u2014without favoring any party. That means requiring voting methods that produce a voter-verified record (such as paper ballots or equivalent), conducting routine independent post-election audits (including risk-limiting audits where feasible), and enforcing strong chain-of-custody and cybersecurity standards with clear, consistent rules that are applied the same way to everyone. At the same time, states should ensure real access for eligible voters through well-staffed polling places, reasonable early voting options, secure and trackable mail voting where offered, and accommodations for voters with disabilities. Trust also depends on communication: election offices should publish plain-language, multilingual explanations of procedures and results, quickly correct mistakes, protect election workers, and invite bipartisan and community observation under fair, uniform guidelines. When people can see how votes are protected, counted, checked, and explained\u2014and can participate without unnecessary barriers\u2014confidence in the outcome grows.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in our elections, we should focus on a process that is secure, transparent, and easy for everyday voters to verify and understand. That means using auditable paper ballots (or voter-verifiable paper records), strict chain-of-custody procedures, strong cybersecurity, and routine independent post-election audits\u2014such as risk-limiting audits\u2014with results and methods published in plain language. We should also keep voting accessible for eligible citizens through reliable polling places, early voting, and secure mail voting with clear instructions and tracking where feasible, while applying rules consistently and fairly across jurisdictions. Trust grows when election administration is nonpartisan and locally accountable, observers and audits are bipartisan and open to public scrutiny, election workers are protected and treated with respect, and voter education is clear, nonpartisan, and available in multiple languages through trusted community partners like schools and local organizations.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014especially elections\u2014we should focus on a few shared commitments: clear rules, verifiable evidence, equal access, and respectful accountability. That means using voting systems that produce a paper record, enforcing strong chain-of-custody and cybersecurity protections, and conducting routine independent, bipartisan audits (such as risk-limiting audits) with results published in plain language. Voting should be accessible and secure for all eligible citizens\u2014reliable polling places, early voting and secure mail options with tracking, accommodations for disabilities, and fair identification policies that don\u2019t create unnecessary barriers. Just as important, institutions should communicate consistently and calmly, correct errors openly, protect frontline workers from threats, and partner with trusted local messengers\u2014schools, veterans\u2019 groups, faith and community organizations\u2014to provide multilingual, nonpartisan information and civics education so people can see how decisions are made and how to verify the outcome for themselves.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

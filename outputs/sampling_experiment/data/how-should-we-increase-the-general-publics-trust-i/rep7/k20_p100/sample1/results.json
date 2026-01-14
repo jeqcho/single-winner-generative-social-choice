@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "91",
+    "winner_full": "91",
+    "epsilon": 0.020000000000000018
+  },
+  "plurality": {
+    "winner": "91",
+    "winner_full": "91",
+    "epsilon": 0.020000000000000018
+  },
+  "veto_by_consumption": {
+    "winner": "49",
+    "winner_full": "49",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "60",
+    "winner_full": "60",
+    "epsilon": 0.56
+  },
+  "chatgpt_rankings": {
+    "winner": "91",
+    "winner_full": "91",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_personas": {
+    "winner": "49",
+    "winner_full": "49",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "49",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "91",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_star_personas": {
+    "winner": "32",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when people can see how decisions are made, verify that rules are followed, and experience fair, respectful treatment regardless of politics or background. Institutions should adopt clear, consistent standards; publish plain-language explanations of goals, budgets, and outcomes; and invite independent oversight such as audits, inspector generals, citizen review panels, and open data where privacy allows. Trust also depends on accountability\u2014acknowledging mistakes quickly, correcting them transparently, and enforcing consequences for misconduct\u2014alongside reliable service that reduces everyday barriers and treats communities equally. Finally, institutions should communicate through trusted local partners and accessible formats (multiple languages, disability accommodations) and invest in civics and media literacy so the public can distinguish evidence from rumor and engage constructively.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in our elections\u2014and in the institutions that uphold them\u2014we should combine clear, consistently enforced rules with strong transparency that everyday people can verify. That means auditable paper records (or equivalent verifiable backups), strict ballot chain-of-custody, routine independent post\u2011election audits with bipartisan oversight, and public reporting that is plain\u2011language, timely, and standardized so the numbers and checks are easy to follow. Voting should remain accessible for all eligible citizens (including seniors, people with disabilities, military/overseas voters, and multilingual communities) while maintaining practical safeguards that prevent fraud and protect privacy. Finally, trust grows when officials communicate calmly and honestly about problems, fix errors quickly, protect election workers, and counter deliberate misinformation with evidence\u2014so citizens can see that the process is fair, secure, and accountable even when their side loses.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014starting with elections\u2014we should make the rules clear, the work visible, and the results verifiable. That means using secure systems with auditable records (such as paper ballots or equivalent voter-verifiable trails), strict chain-of-custody and cybersecurity protections, and routine independent audits whose findings are published in plain language. Institutions should apply consistent, nonpartisan standards, protect privacy and civil rights, and provide practical access for all eligible people\u2014including seniors, people with disabilities, working families, and communities that need information in Spanish and other languages. Trust also grows when leaders communicate early and honestly about problems, fix errors quickly, protect frontline workers from threats, and invite community observation (open houses, trained observers, and public reporting) so people don\u2019t have to rely on rumors. When everyday people can see how decisions are made, how money is used, and how mistakes are corrected, institutions earn confidence over time\u2014across parties, backgrounds, and generations.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

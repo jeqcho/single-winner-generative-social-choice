@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "8",
+    "winner_full": "73",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "9",
+    "winner_full": "81",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "8",
+    "winner_full": "73",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "8",
+    "winner_full": "73",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "8",
+    "winner_full": "73",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "1",
+    "winner_full": "8",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_rankings": {
+    "winner": "4",
+    "winner_full": "30",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "1",
+    "winner_full": "8",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_star": {
+    "winner": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "8",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_star_personas": {
+    "winner": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014rises when people can see, understand, and verify that rules are applied fairly and outcomes are accurate. A practical middle ground is to strengthen transparency and accountability without favoring any party: use verifiable voting records (such as paper ballots or voter-verifiable backups), conduct routine independent risk-limiting audits, and publish clear, timely explanations of results and any problems found and fixed. Institutions should set consistent standards, protect privacy and cybersecurity, and invite bipartisan/community observation and oversight. Finally, sustained civics education and plain-language public communication\u2014paired with accessible voting options and language support\u2014can reduce confusion and misinformation while ensuring every eligible voter can participate confidently.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014especially elections\u2014we should make key decisions transparent, verifiable, and nonpartisan, with clear accountability for mistakes. That means using auditable records (such as paper ballots or voter-verifiable backups), routine independent risk-limiting audits, and timely public reporting of results and audit findings in plain language. Institutions should protect privacy while investing in strong cybersecurity and prompt, thorough investigations of irregularities with publicly explained outcomes. Finally, sustained civic education and media literacy, plus accessible services (including language access and reliable in-person and mail options where appropriate), help everyone understand the process, participate confidently, and reduce misinformation.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions, we should make decisions and outcomes easier to verify, easier to understand, and harder to manipulate\u2014regardless of who is in power. That means setting clear, consistent rules; publishing plain-language explanations of how processes work; and backing claims with evidence people can independently check (such as accessible records, independent audits, and public reporting of findings and corrections). Institutions should protect privacy while strengthening security, welcome bipartisan/community oversight, and respond quickly and transparently when mistakes happen\u2014explaining what went wrong, what was fixed, and how it will be prevented next time. Finally, long-term trust requires investing in civics education and media literacy, expanding language access and accommodations, and creating reliable local channels (schools, libraries, community groups, and trusted service providers) where people can ask questions and get nonpartisan answers. Trust grows when institutions consistently show competence, fairness, accountability, and respect for everyone affected.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

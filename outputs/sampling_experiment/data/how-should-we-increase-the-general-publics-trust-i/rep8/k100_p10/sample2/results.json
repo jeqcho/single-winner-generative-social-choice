@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "3",
+    "winner_full": "42",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "3",
+    "winner_full": "42",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "3",
+    "winner_full": "42",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "3",
+    "winner_full": "42",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "3",
+    "winner_full": "42",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "2",
+    "winner_full": "39",
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_rankings": {
+    "winner": "3",
+    "winner_full": "42",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "2",
+    "winner_full": "39",
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_star": {
+    "winner": "84",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "3",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "22",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions\u2014especially elections\u2014we should focus on rules and evidence that people can verify, not on who benefits politically. That means clear, consistent standards for secure administration; a voter-verified record (such as paper or an equivalent independently auditable record); routine risk-limiting audits and transparent reporting of results and problems; and strong protections for privacy and equal access. Oversight should be independent and broadly representative, with room for local administration but with baseline security and transparency requirements that apply everywhere. Institutions also need plain-language communication, timely correction of errors, and sustained civic education and community partnerships to counter misinformation without dismissing honest questions. Trust grows when the process is understandable, observable, and accountable\u2014so that any reasonable person can see how decisions are made and how mistakes are caught and fixed.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions\u2014especially elections\u2014we should focus on verifiable fairness, clear accountability, and straightforward communication. That means using secure, auditable voting records (such as paper ballots or voter-verifiable paper trails), conducting routine independent post-election audits, and maintaining transparent, nonpartisan administration with bipartisan oversight and clear rules applied consistently. We should publish plain-language explanations of how ballots are cast, counted, and audited; protect voter privacy; strengthen cybersecurity and chain-of-custody procedures; and allow reasonable public observation so people can see the safeguards in practice. Finally, sustained civics education and timely, factual responses to misinformation\u2014shared through trusted local partners and in multiple languages\u2014can help communities understand the process and feel confident that results reflect the will of the voters.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions\u2014especially elections\u2014we should focus on practices that any reasonable person can verify, regardless of politics. That means clear, consistent rules; locally administered processes with transparent oversight; and results backed by strong evidence, such as auditable paper records (or equally secure, voter-verifiable records), routine post-election audits, and published, plain-language explanations of how ballots are handled, counted, and challenged. Oversight should be genuinely nonpartisan and independent, with opportunities for public observation, cybersecurity standards that protect privacy, and prompt, factual communication when problems occur. Trust also grows when institutions serve everyone fairly: accessible services, language assistance where needed, respectful treatment at the point of service, and ongoing civics education so people understand how decisions are made. In short: make institutions easier to inspect, harder to manipulate, and better at communicating\u2014so confidence comes from evidence, not slogans.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

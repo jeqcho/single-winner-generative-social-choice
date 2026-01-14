@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "12",
+    "winner_full": "24",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "12",
+    "winner_full": "24",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "12",
+    "winner_full": "24",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "16",
+    "winner_full": "31",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "32",
+    "winner_full": "60",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "32",
+    "winner_full": "60",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "12",
+    "winner_full": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "32",
+    "winner_full": "60",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "60",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "12",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "58",
+    "epsilon": 0.77
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions rises when people can see how decisions are made, check the evidence for themselves, and experience fair, respectful treatment\u2014regardless of politics or background. We should adopt clear, consistent standards for transparency (plain-language reporting, open data where privacy allows, and published rationales for major decisions), independent oversight and regular audits, and strong ethics rules that prevent conflicts of interest and hold misconduct accountable. At the same time, institutions must deliver reliable basic services, protect civil rights, and make access practical\u2014through multilingual communication, disability accommodations, and responsive local offices\u2014so the public\u2019s everyday experience matches the promises. Finally, leaders and media partners should focus on timely corrections, clear uncertainty when facts are incomplete, and community partnerships that teach how institutions work, so misinformation has less room to grow and trust can be rebuilt through repeated proof, not slogans.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see that the rules are fair, the work is competent, and results can be independently verified. We should standardize clear, nonpartisan procedures; use auditable paper ballots (or voter-verifiable paper records) with strict chain-of-custody; and conduct routine, transparent risk-limiting post-election audits with publicly explained methods and results. At the same time, institutions must keep access broad and nondiscriminatory through reliable early, in-person, and mail options; strong cybersecurity and privacy protections; well-trained, diverse staff; and plain-language, multilingual information (including disability-accessible formats) delivered through trusted local partners like schools, libraries, and community groups. By pairing visible safeguards with honest, timely communication and ongoing civics education that counters misinformation with facts, institutions can earn durable confidence across communities and political viewpoints.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014starting with elections\u2014we should focus on a few shared basics: transparent rules, independent verification, equal treatment, and clear communication. That means using auditable records (such as paper ballots or voter-verifiable paper trails), strict chain-of-custody, routine bipartisan/nonpartisan post-election audits (including risk-limiting audits where feasible), and public reporting that explains results and any problems in plain language.\n\nTrust also grows when institutions are easy to use and respectful of every community: convenient and reliable options to participate (in-person, early, and mail where permitted), well-trained local staff, and strong accessibility for seniors, people with disabilities, and working families. Information should be timely, factual, and available in the languages people use at home\u2014especially Spanish and Asian/Pacific Island languages\u2014with simple guides that young people and first-time participants can understand.\n\nFinally, institutions should earn trust by being accountable and consistent: stable funding for local offices, clear standards applied fairly across places, strong cybersecurity and privacy protections, and partnerships with schools, libraries, community groups, and trusted local leaders to build civic understanding and counter misinformation with evidence rather than politics.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

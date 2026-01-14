@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "1",
+    "winner_full": "11",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "15",
+    "winner_full": "73",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "15",
+    "winner_full": "73",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "18",
+    "winner_full": "95",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "11",
+    "winner_full": "52",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "17",
+    "winner_full": "88",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "17",
+    "winner_full": "88",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "11",
+    "winner_full": "52",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "10",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "15",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_star_personas": {
+    "winner": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see that the rules are fair, the process is secure, and problems are handled openly. A strong middle-ground approach is to standardize a few core safeguards everywhere: voter-verified paper records, routine independent risk-limiting audits, clear chain-of-custody procedures, and meaningful access for bipartisan and community observers\u2014while keeping voting practical through accessible polling places, early voting, and secure absentee options for those who need them. Just as important, officials should communicate in plain, multilingual language, publish timely data and audit results, and quickly explain errors and fixes without defensiveness or partisan messaging. Pairing these reforms with ongoing civics education and local partnerships (libraries, schools, veterans and faith groups, community organizations) can reduce misinformation and show, year after year, that institutions earn trust through transparency, consistency, and accountability.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase public trust in our elections, we should focus on a process that is transparent, verifiable, and convenient for everyday voters\u2014so people across parties can see that results are accurate and fairly administered. That means universal voter\u2011verified paper ballots (or a clear paper record), routine independent risk\u2011limiting audits, strong cybersecurity, and real access for bipartisan/nonpartisan observers at key steps like ballot handling, counting, and auditing. We should also publish clear, plain\u2011language explanations and timely public reporting when issues arise\u2014what happened, what was corrected, and how safeguards worked\u2014using easy public dashboards and community briefings. Finally, we should protect broad access through reliable early and in\u2011person options, secure mail voting where available, accessible polling for seniors and people with disabilities, and multilingual voter education delivered through trusted local institutions. A system that people can understand, verify, and participate in is the best foundation for lasting trust in institutions.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the general public\u2019s trust in institutions\u2014especially elections\u2014we should focus on transparency people can verify, fair rules applied consistently, and clear communication that respects diverse communities. That means using voter-verifiable paper records (or equivalent auditable backups), routine independent post\u2011election audits (such as risk\u2011limiting audits), strong cybersecurity, and a clear chain of custody so results can be checked without relying on partisan claims. Oversight should be genuinely nonpartisan, with meaningful access for observers from multiple viewpoints and prompt public reporting when issues occur\u2014what happened, how it was fixed, and how it will be prevented next time. Trust also grows when institutions serve everyday life: accessible polling locations and hours, secure early and mail voting options, accommodations for seniors and people with disabilities, and accurate voter rolls with transparent, lawful checks. Finally, sustained civics education and plain\u2011language, multilingual information\u2014shared through trusted local partners like schools, libraries, and community groups\u2014can reduce misinformation and help people understand how decisions are made, how accountability works, and how their voice is protected.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

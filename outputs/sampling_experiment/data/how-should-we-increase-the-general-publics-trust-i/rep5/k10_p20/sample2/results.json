@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "8",
+    "winner_full": "24",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "8",
+    "winner_full": "24",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "16",
+    "winner_full": "67",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "16",
+    "winner_full": "67",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "8",
+    "winner_full": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "14",
+    "winner_full": "62",
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_rankings": {
+    "winner": "16",
+    "winner_full": "67",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "8",
+    "winner_full": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "16",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "83",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014rises when people can see that rules are fair, consistent, and enforced the same way for everyone, and when mistakes are found and fixed openly. A practical middle ground is to pair strong, privacy-protecting security (clear chain-of-custody, modern cybersecurity, and voter-verifiable records with routine post-election audits) with broad, practical access (well-staffed polling places, reliable registration, and language assistance). Oversight should be independent and cross-partisan, with transparent reporting that explains not just outcomes but the evidence behind them. Finally, institutions should invest in year-round civic education and plain-language communication through trusted local partners, and respond quickly to concerns with facts, not slogans, so accountability is visible and trust can be earned over time.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can clearly see that decisions are made fairly, competently, and with real accountability. We should commit to transparent, verifiable processes: voter-verified paper ballots (or equally auditable records), strict chain-of-custody, routine independent risk-limiting audits, and bipartisan/nonpartisan oversight with consistent baseline standards across jurisdictions. Just as important, institutions must communicate in plain language and multiple languages, quickly publish results and audit findings (including how discrepancies are handled), and invest in ongoing civic education through schools, libraries, and trusted local partners. By pairing rigorous security and integrity with broad access, respectful service, and clear public explanations, we reduce confusion, counter misinformation, and give everyone evidence-based reasons to trust the outcome.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014especially elections\u2014we should focus on the basics people across backgrounds can verify: clear rules, transparent processes, and consistent accountability. That means using auditable voting systems (including voter-verified paper records where possible), routine post-election audits with published results, strong chain-of-custody and cybersecurity standards, and independent oversight with representation from multiple viewpoints. Trust also grows when institutions serve people respectfully and accessibly: convenient and well-staffed polling places, secure and private participation, and language-accessible, plain\u2011language information so families can understand how decisions are made and how problems are corrected. Finally, we should invest in year-round civic education and open public reporting\u2014through schools, libraries, and local community partners\u2014so people can judge evidence over rumors and see that mistakes are acknowledged and fixed promptly, without partisan spin.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

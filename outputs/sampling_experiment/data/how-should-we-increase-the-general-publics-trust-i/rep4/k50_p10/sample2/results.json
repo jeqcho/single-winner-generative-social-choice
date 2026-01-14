@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "5",
+    "winner_full": "41",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "5",
+    "winner_full": "41",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "5",
+    "winner_full": "41",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "5",
+    "winner_full": "41",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "6",
+    "winner_full": "52",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "7",
+    "winner_full": "57",
+    "epsilon": 0.06000000000000005
+  },
+  "chatgpt_rankings": {
+    "winner": "5",
+    "winner_full": "41",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "1",
+    "winner_full": "27",
+    "epsilon": 0.3600000000000001
+  },
+  "chatgpt_star": {
+    "winner": "23",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_star_rankings": {
+    "winner": "6",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "23",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see and verify that rules are fair, results are accurate, and leaders are accountable. A strong middle-ground approach is to combine secure, auditable systems (paper records or equivalent voter-verifiable trails, strong chain-of-custody, modern cybersecurity, and routine independent risk-limiting audits) with transparent, timely public reporting that explains what was done and what was found. Participation should be genuinely accessible: clear plain-language and multilingual instructions, well-run polling locations, and reliable early and mail options with consistent standards. Oversight should be nonpartisan and community-facing\u2014bipartisan observers, open data where appropriate, and partnerships with trusted local organizations\u2014so concerns are heard and corrected without turning administration into political theater. Finally, ongoing civics education and rapid, evidence-based responses to misinformation can help people understand the process and hold institutions to their promises.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when people can clearly see how decisions are made, how money is spent, and how mistakes are found and fixed. That means transparent rules and data, independent and nonpartisan oversight, routine audits with results published in plain language, and strong security and privacy protections. Institutions should communicate early and consistently through trusted local partners, provide multilingual information, and make participation and services genuinely accessible\u2014without unnecessary barriers for working families, seniors, or people with disabilities. Pair these safeguards with practical civics education and respectful two-way dialogue so communities feel heard, misinformation is addressed quickly, and accountability is visible rather than partisan.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild the public\u2019s trust in institutions\u2014especially elections\u2014we should focus on processes people can verify, communication people can understand, and service that treats everyone with dignity. That means clear, consistent rules; secure systems with auditable paper records; routine independent audits with publicly posted results; strong cybersecurity and chain-of-custody safeguards; and bipartisan/nonpartisan oversight that is transparent about what worked and what needs improvement. Trust also grows when institutions meet communities where they are: plain-language explanations, multilingual information (including Spanish and Asian/Pacific Island languages where needed), partnerships with trusted local groups, and practical access\u2014reasonable polling locations, straightforward mail/early voting options, and help for seniors and people with disabilities\u2014while protecting privacy and fairness. Finally, invest in civics education and rapid, fact-based responses to misinformation so people can see how decisions are made, how errors are corrected, and why the system is worthy of confidence.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

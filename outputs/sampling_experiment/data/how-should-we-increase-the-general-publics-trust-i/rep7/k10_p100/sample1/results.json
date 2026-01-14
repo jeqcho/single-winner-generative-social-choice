@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "88",
+    "winner_full": "88",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "91",
+    "winner_full": "91",
+    "epsilon": 0.020000000000000018
+  },
+  "veto_by_consumption": {
+    "winner": "5",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "60",
+    "winner_full": "60",
+    "epsilon": 0.56
+  },
+  "chatgpt_rankings": {
+    "winner": "5",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "68",
+    "winner_full": "68",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "49",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "68",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "62",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions, we should make how decisions are made and how money is spent easy to see, easy to verify, and easy to question\u2014without needing insider knowledge. That means clear, plain-language explanations of rules and outcomes; independent oversight and regular public audits; strong ethics standards with real consequences for conflicts of interest and misconduct; and open data and records where privacy allows. Institutions should also set measurable service standards (wait times, error rates, responsiveness), report performance publicly, and admit mistakes quickly with a transparent plan to fix them. Finally, trust grows when people feel included: provide information in multiple languages and accessible formats, create meaningful ways for community members to observe, give feedback, and appeal decisions, and protect frontline workers and whistleblowers so accountability is real and not partisan.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To rebuild the public\u2019s trust in institutions\u2014especially elections\u2014we should pair strong, common-sense safeguards with radical, easy-to-see transparency. That means verifiable records (such as paper ballots or auditable paper trails), strict chain-of-custody and security practices, and routine independent post-election audits (including risk-limiting audits) with results published promptly in plain language. Institutions should apply clear, consistent rules, keep administration nonpartisan and accountable, protect workers and the public from intimidation, and quickly acknowledge and fix mistakes. Trust also rises when access is fair and practical\u2014accessible polling places and clear options like early voting or secure mail voting where used\u2014while ensuring only eligible ballots are counted through reasonable, lawful verification. Finally, institutions should counter misinformation with ongoing public education, open houses/observer opportunities, and simple public reporting so everyday people can understand and verify how decisions and results are produced.",
+    "is_new": true,
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the general public\u2019s trust in institutions\u2014especially elections\u2014we should focus on transparent, verifiable processes, consistent rules, and respectful communication that people can see and understand. That means using auditable records (such as paper ballots or equivalent verifiable paper trails), routine independent post-election audits with publicly available results, strong chain-of-custody and cybersecurity protections, and clear accountability when mistakes happen\u2014including prompt explanations and fixes. Institutions should also make services easy to access and fair for everyone by offering clear, plain-language information, reasonable accommodations for seniors and people with disabilities, and practical options that fit real life (in-person, early, and secure absentee/mail methods where used). Finally, rebuilding trust requires nonpartisan public education and local community engagement\u2014open houses, observer opportunities, and partnerships with schools, libraries, and trusted local groups\u2014so families can ask questions, see how decisions are made, and feel confident that the same standards apply to everyone.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

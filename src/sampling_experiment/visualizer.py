@@ -36,10 +36,14 @@ sns.set_palette("husl")
 
 def load_all_results(output_dir: Path, topic_slug: str, n_reps: int) -> Dict:
     """
-    Load all results for a topic across all reps and (K, P) combinations.
+    Load all results for a topic across all reps, (K, P) combinations, and samples.
+    
+    Supports both old format (results.json directly in k{k}_p{p}/) and 
+    new format (results.json in k{k}_p{p}/sample{idx}/).
     
     Returns:
-        Dict with structure: {rep_idx: {(k, p): {method: {winner, epsilon, ...}}}}
+        Dict with structure: {(rep_idx, sample_idx): {(k, p): {method: {winner, epsilon, ...}}}}
+        For backward compatibility with old format, sample_idx will be 0.
     """
     all_results = {}
     
@@ -48,16 +52,40 @@ def load_all_results(output_dir: Path, topic_slug: str, n_reps: int) -> Dict:
         if not rep_dir.exists():
             continue
         
-        all_results[rep_idx] = {}
-        
         for k in K_VALUES:
             for p in P_VALUES:
-                sample_dir = rep_dir / f"k{k}_p{p}"
-                results_file = sample_dir / "results.json"
+                kp_dir = rep_dir / f"k{k}_p{p}"
+                if not kp_dir.exists():
+                    continue
                 
-                if results_file.exists():
-                    with open(results_file) as f:
-                        all_results[rep_idx][(k, p)] = json.load(f)
+                # Check for new format (sample subdirectories)
+                sample_dirs = sorted(kp_dir.glob("sample*"))
+                
+                if sample_dirs:
+                    # New format: load from each sample subdirectory
+                    for sample_dir in sample_dirs:
+                        results_file = sample_dir / "results.json"
+                        if results_file.exists():
+                            # Extract sample index from directory name
+                            sample_idx = int(sample_dir.name.replace("sample", ""))
+                            key = (rep_idx, sample_idx)
+                            
+                            if key not in all_results:
+                                all_results[key] = {}
+                            
+                            with open(results_file) as f:
+                                all_results[key][(k, p)] = json.load(f)
+                else:
+                    # Old format: results.json directly in k{k}_p{p}/
+                    results_file = kp_dir / "results.json"
+                    if results_file.exists():
+                        key = (rep_idx, 0)  # Treat as sample 0
+                        
+                        if key not in all_results:
+                            all_results[key] = {}
+                        
+                        with open(results_file) as f:
+                            all_results[key][(k, p)] = json.load(f)
     
     return all_results
 
@@ -66,12 +94,15 @@ def collect_epsilons_by_method(all_results: Dict) -> Dict[str, List[float]]:
     """
     Collect all epsilon values grouped by method.
     
+    Args:
+        all_results: Dict with keys (rep_idx, sample_idx) or rep_idx
+    
     Returns:
         Dict mapping method name to list of epsilon values
     """
     epsilons = {method: [] for method in ALL_METHODS}
     
-    for rep_idx, rep_results in all_results.items():
+    for key, rep_results in all_results.items():
         for (k, p), kp_results in rep_results.items():
             for method, result in kp_results.items():
                 if method in epsilons and result.get("epsilon") is not None:
@@ -84,6 +115,9 @@ def collect_epsilons_by_kp(all_results: Dict) -> Dict[Tuple[int, int], Dict[str,
     """
     Collect epsilon values grouped by (K, P) combination, then by method.
     
+    Args:
+        all_results: Dict with keys (rep_idx, sample_idx) or rep_idx
+    
     Returns:
         Dict mapping (k, p) to {method: [epsilons]}
     """
@@ -93,7 +127,7 @@ def collect_epsilons_by_kp(all_results: Dict) -> Dict[Tuple[int, int], Dict[str,
         for p in P_VALUES:
             kp_epsilons[(k, p)] = {method: [] for method in ALL_METHODS}
     
-    for rep_idx, rep_results in all_results.items():
+    for key, rep_results in all_results.items():
         for (k, p), kp_results in rep_results.items():
             for method, result in kp_results.items():
                 if method in kp_epsilons[(k, p)] and result.get("epsilon") is not None:
@@ -145,9 +179,14 @@ def plot_epsilon_bar_chart(
         else:
             colors.append('#95a5a6')  # Gray for unknown
     
-    # Plot bars
+    # Plot bars with asymmetric error bars (clipped to not go below 0)
     x = np.arange(len(methods))
-    bars = ax.bar(x, means, yerr=stds, capsize=3, color=colors, alpha=0.8, edgecolor='black')
+    means_arr = np.array(means)
+    stds_arr = np.array(stds)
+    # Clip lower error bar so it doesn't go below 0
+    yerr_lower = np.minimum(stds_arr, means_arr)
+    yerr_upper = stds_arr
+    bars = ax.bar(x, means, yerr=[yerr_lower, yerr_upper], capsize=3, color=colors, alpha=0.8, edgecolor='black')
     
     # Add mean line
     if show_mean_line:
@@ -269,7 +308,12 @@ def plot_chatgpt_comparison(
                 bar_colors.append(colors['chatgpt'])
                 bar_labels.append(labels['chatgpt'])
         
-        bars = ax.bar(x, means, yerr=stds, capsize=3, color=bar_colors, alpha=0.8, edgecolor='black')
+        # Clip lower error bar so it doesn't go below 0
+        means_arr = np.array(means)
+        stds_arr = np.array(stds)
+        yerr_lower = np.minimum(stds_arr, means_arr)
+        yerr_upper = stds_arr
+        bars = ax.bar(x, means, yerr=[yerr_lower, yerr_upper], capsize=3, color=bar_colors, alpha=0.8, edgecolor='black')
         
         # Mean line
         all_means = [m for m in means if m > 0]

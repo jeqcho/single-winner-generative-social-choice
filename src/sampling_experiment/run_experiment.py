@@ -30,6 +30,7 @@ from .config import (
     N_ALT_POOL,
     K_VALUES,
     P_VALUES,
+    N_SAMPLES_PER_KP,
     BASE_SEED,
     MAX_WORKERS,
     TOPIC_QUESTIONS,
@@ -389,77 +390,80 @@ def run_single_rep(
     
     for k in K_VALUES:
         for p in P_VALUES:
-            sample_dir = rep_dir / f"k{k}_p{p}"
-            
-            if check_cache_exists(sample_dir, "results.json"):
-                logger.info(f"  K={k}, P={p}: cached, skipping")
-                continue
-            
-            logger.info(f"  K={k}, P={p}: Running...")
-            sample_dir.mkdir(parents=True, exist_ok=True)
-            
-            # Sample K voters and P alternatives
-            sample_seed = seed * 1000 + k * 100 + p
-            voter_sample, alt_sample = sample_kp(N_VOTER_POOL, N_ALT_POOL, k, p, sample_seed)
-            
-            # Extract subprofile
-            sample_prefs, alt_mapping = extract_subprofile(
-                full_preferences, voter_sample, alt_sample
-            )
-            
-            # Get sample statements and personas
-            sample_statements = [alt_statements[i] for i in alt_sample]
-            sample_personas = [voter_personas[i] for i in voter_sample]
-            
-            # Save sample info
-            with open(sample_dir / "sample_info.json", 'w') as f:
-                json.dump({
-                    "k": k, "p": p,
-                    "voter_sample": voter_sample,
-                    "alt_sample": alt_sample,
-                    "alt_mapping": {str(k): v for k, v in alt_mapping.items()},
-                }, f, indent=2)
-            
-            # Run all methods
-            results = {}
-            
-            # Traditional methods
-            trad_results = run_traditional_methods(
-                sample_prefs, alt_mapping, precomputed_epsilons
-            )
-            results.update(trad_results)
-            
-            # ChatGPT methods
-            chatgpt_results = run_chatgpt_methods(
-                sample_statements, sample_prefs, sample_personas,
-                alt_mapping, precomputed_epsilons, openai_client
-            )
-            results.update(chatgpt_results)
-            
-            # ChatGPT* methods
-            star_results = run_chatgpt_star_methods(
-                alt_statements, sample_statements, sample_prefs, sample_personas,
-                precomputed_epsilons, openai_client
-            )
-            results.update(star_results)
-            
-            # ChatGPT** methods
-            double_star_results = run_chatgpt_double_star_methods(
-                alt_statements, sample_statements, sample_prefs, sample_personas,
-                full_preferences, voter_sample, voter_personas, topic,
-                precomputed_epsilons, openai_client
-            )
-            results.update(double_star_results)
-            
-            # Save results
-            with open(sample_dir / "results.json", 'w') as f:
-                json.dump(results, f, indent=2)
-            
-            # Log summary
-            logger.info(f"    Results: " + ", ".join(
-                f"{m}={r.get('epsilon', 'N/A'):.3f}" if r.get('epsilon') else f"{m}=N/A"
-                for m, r in list(results.items())[:5]
-            ))
+            for sample_idx in range(N_SAMPLES_PER_KP):
+                sample_dir = rep_dir / f"k{k}_p{p}" / f"sample{sample_idx}"
+                
+                if check_cache_exists(sample_dir, "results.json"):
+                    logger.info(f"  K={k}, P={p}, Sample {sample_idx}: cached, skipping")
+                    continue
+                
+                logger.info(f"  K={k}, P={p}, Sample {sample_idx}: Running...")
+                sample_dir.mkdir(parents=True, exist_ok=True)
+                
+                # Sample K voters and P alternatives
+                # Use sample_idx * 10000 to ensure different samples get different seeds
+                sample_seed = seed * 1000 + k * 100 + p + sample_idx * 10000
+                voter_sample, alt_sample = sample_kp(N_VOTER_POOL, N_ALT_POOL, k, p, sample_seed)
+                
+                # Extract subprofile
+                sample_prefs, alt_mapping = extract_subprofile(
+                    full_preferences, voter_sample, alt_sample
+                )
+                
+                # Get sample statements and personas
+                sample_statements = [alt_statements[i] for i in alt_sample]
+                sample_personas = [voter_personas[i] for i in voter_sample]
+                
+                # Save sample info
+                with open(sample_dir / "sample_info.json", 'w') as f:
+                    json.dump({
+                        "k": k, "p": p,
+                        "sample_idx": sample_idx,
+                        "voter_sample": voter_sample,
+                        "alt_sample": alt_sample,
+                        "alt_mapping": {str(k): v for k, v in alt_mapping.items()},
+                    }, f, indent=2)
+                
+                # Run all methods
+                results = {}
+                
+                # Traditional methods
+                trad_results = run_traditional_methods(
+                    sample_prefs, alt_mapping, precomputed_epsilons
+                )
+                results.update(trad_results)
+                
+                # ChatGPT methods
+                chatgpt_results = run_chatgpt_methods(
+                    sample_statements, sample_prefs, sample_personas,
+                    alt_mapping, precomputed_epsilons, openai_client
+                )
+                results.update(chatgpt_results)
+                
+                # ChatGPT* methods
+                star_results = run_chatgpt_star_methods(
+                    alt_statements, sample_statements, sample_prefs, sample_personas,
+                    precomputed_epsilons, openai_client
+                )
+                results.update(star_results)
+                
+                # ChatGPT** methods
+                double_star_results = run_chatgpt_double_star_methods(
+                    alt_statements, sample_statements, sample_prefs, sample_personas,
+                    full_preferences, voter_sample, voter_personas, topic,
+                    precomputed_epsilons, openai_client
+                )
+                results.update(double_star_results)
+                
+                # Save results
+                with open(sample_dir / "results.json", 'w') as f:
+                    json.dump(results, f, indent=2)
+                
+                # Log summary
+                logger.info(f"    Results: " + ", ".join(
+                    f"{m}={r.get('epsilon', 'N/A'):.3f}" if r.get('epsilon') else f"{m}=N/A"
+                    for m, r in list(results.items())[:5]
+                ))
     
     logger.info(f"Completed rep {rep_idx}")
 

@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "12",
+    "winner_full": "51",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "8",
+    "winner_full": "28",
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_rankings": {
+    "winner": "17",
+    "winner_full": "86",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_personas": {
+    "winner": "8",
+    "winner_full": "28",
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_star": {
+    "winner": "2",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "17",
+    "epsilon": 0.040000000000000036
+  },
+  "chatgpt_star_personas": {
+    "winner": "83",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in elections\u2014and in institutions more broadly\u2014grows when people can see clear rules, consistent enforcement, and real-world proof that systems work fairly for everyone. A practical middle ground is to pair strong access with strong verification: secure, auditable voting methods (including voter-verifiable records where feasible), accurate voter rolls updated with due process, transparent chain-of-custody, and routine post\u2011election audits that are open to bipartisan and nonpartisan observers. Institutions should publish timely, plain-language explanations of procedures and results, investigate irregularities quickly with evidence-based reporting, and protect both voter privacy and election workers. Finally, sustained civic education and coordinated responses to misinformation\u2014using trusted local messengers and publicly available data\u2014can help people evaluate claims and regain confidence without requiring anyone to \u201cjust trust\u201d authority.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase public trust in elections and other core institutions, we should make processes transparent, secure, and independently verifiable\u2014so people can see the evidence behind decisions and results. That means using auditable records (such as paper trails where appropriate), routine post-process audits with publicly reported findings, strong chain-of-custody and cybersecurity protections, and open access for bipartisan/nonpartisan observers. Trust also grows when participation is practical and fair: clear rules applied consistently, accurate and regularly maintained records, accessible voting options and polling places, and prompt investigation of credible irregularities. Finally, institutions must communicate in plain language (and multiple languages where needed), invest in nonpartisan civic education, protect staff and volunteers who administer the process, and counter misinformation with timely, factual information\u2014so every eligible person can understand how the system works and why the outcome is trustworthy.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild the public\u2019s trust in institutions\u2014especially elections\u2014we should focus on steps people can see, verify, and rely on regardless of party. That means clear, uniform rules; strong safeguards that protect both ballot security and voter privacy; and results that can be independently checked through auditable records (such as paper trails where appropriate), risk-limiting audits, and transparent chain-of-custody. Institutions should invite bipartisan/nonpartisan observation, publish easy-to-read explanations of procedures and audit findings, and correct mistakes quickly and publicly.\n\nTrust also depends on fair access and equal treatment: convenient options to participate (in-person, early, and mail where authorized), accessible polling places, language assistance, and well-funded local offices so the experience is consistent and respectful everywhere. To address concerns about integrity, maintain accurate voter rolls using lawful, evidence-based processes and enforce clear penalties for proven fraud\u2014while avoiding policies that unnecessarily block eligible voters.\n\nFinally, institutions should invest in ongoing civics education and straightforward public communication that counters misinformation with timely facts, so students, working families, older adults, and first-time voters all understand how decisions are made, how accountability works, and how the public can verify outcomes.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

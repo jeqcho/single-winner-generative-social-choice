@@ -24,6 +24,7 @@ N_REPS = 10                # Number of replications
 # Sampling parameters
 K_VALUES = [10, 20, 50, 100]    # Number of voters to sample
 P_VALUES = [10, 20, 50, 100]    # Number of alternatives to sample
+N_SAMPLES_PER_KP = 3           # Number of samples per (K, P) configuration
 
 # Test mode parameters
 N_REPS_TEST = 2            # Reduced reps for testing

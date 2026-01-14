@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "41",
+    "winner_full": "41",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "41",
+    "winner_full": "41",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "99",
+    "winner_full": "99",
+    "epsilon": 0.040000000000000036
+  },
+  "plurality": {
+    "winner": "99",
+    "winner_full": "99",
+    "epsilon": 0.040000000000000036
+  },
+  "veto_by_consumption": {
+    "winner": "86",
+    "winner_full": "86",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "49",
+    "winner_full": "49",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "47",
+    "winner_full": "47",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "83",
+    "winner_full": "83",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "86",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "51",
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_star_personas": {
+    "winner": "8",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can see clear rules being followed, verify outcomes with evidence, and feel they are treated fairly. We should set transparent baseline standards for election administration (while allowing local flexibility), use voter-verified records with strong chain-of-custody and cybersecurity, and require routine, publicly explained audits with prompt correction of any errors. Access and integrity should be strengthened together: convenient options for eligible voters, reliable registration and roll maintenance, reasonable identity checks where used that don\u2019t create undue barriers, and strong protections against intimidation or partisan interference. Finally, institutions should communicate consistently in plain language, share open data where it doesn\u2019t compromise privacy or security, and invest in ongoing civic education and community partnerships so misinformation is met with trustworthy, accessible facts.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014especially elections\u2014we should make key decisions and results transparent, verifiable, and communicated in plain, nonpartisan language. That means using voter-verified paper ballots (or equivalent auditable records), maintaining strict chain-of-custody and strong cybersecurity, and conducting routine independent post\u2011election audits (such as risk\u2011limiting audits) with publicly posted methods and findings. Where voters want additional reassurance, policies like reasonable voter ID and accurate voter-roll maintenance should be implemented in ways that are uniform, lawful, and do not block eligible voters from participating.\n\nTrust also depends on respectful service and public understanding: provide clear, timely explanations of rules, results, and any problems that arise; invite bipartisan and nonpartisan observers; and expand multilingual, accessible voter education through schools, libraries, and trusted local partners. By pairing rigorous safeguards and accountability with broad, inclusive access and calm, factual communication, institutions can earn confidence across communities and political perspectives.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild the general public\u2019s trust in institutions\u2014especially elections\u2014we should make decisions and results easy for ordinary people to verify, while treating everyone with equal dignity. That means clear, consistently applied rules; secure systems with a voter-verifiable paper trail (or equally auditable records); strict chain-of-custody and modern cybersecurity; and routine independent audits (such as risk-limiting audits) with public, plain-language reports of what was checked and what was found. Trust also grows when access is practical for working people, seniors, disabled voters, rural communities, and language minorities\u2014through well-staffed, conveniently located polling places; safe early and mail options with tracking; and information provided in multiple languages. Finally, institutions must communicate calmly and nonpartisanly, invite bipartisan and nonpartisan observers, investigate problems quickly with transparent corrective action, and strengthen civics education and community partnerships (schools, libraries, faith and civic groups) so people can understand the process, spot misinformation, and feel confident that every eligible vote is counted\u2014and that rules are enforced fairly for everyone.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

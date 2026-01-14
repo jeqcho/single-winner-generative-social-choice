@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "8",
+    "winner_full": "40",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "12",
+    "winner_full": "71",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "8",
+    "winner_full": "40",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "16",
+    "winner_full": "88",
+    "epsilon": 0.040000000000000036
+  },
+  "veto_by_consumption": {
+    "winner": "12",
+    "winner_full": "71",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "6",
+    "winner_full": "31",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "19",
+    "winner_full": "98",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "12",
+    "winner_full": "71",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "79",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "15",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "35",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when people can see clear rules, fair treatment, and real accountability\u2014especially when decisions affect everyday life. A practical middle ground is to focus on transparency that doesn\u2019t compromise privacy: publish plain-language explanations of how decisions are made, open performance data and budgets, and independent audits with findings that are easy for the public to understand. Institutions should also strengthen nonpartisan oversight and consistent standards, respond quickly and honestly when mistakes happen, and show how problems are fixed.\n\nAt the same time, trust depends on access and dignity. Services and participation should be easy to use (including disability access and multilingual information), with clear ways for residents to ask questions, appeal decisions, and be heard through regular community forums and feedback channels. Finally, institutions can rebuild credibility by limiting conflicts of interest, enforcing ethics rules, and partnering with trusted local leaders\u2014schools, faith groups, libraries, and community organizations\u2014to provide reliable information and civic education. Over time, predictable performance, openness, and respectful treatment are what turn skepticism into confidence.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when people can see\u2014clearly and consistently\u2014that decisions are made fairly, competently, and in the public interest. That means transparent rules that are applied the same way everywhere, strong safeguards and independent audits that allow outcomes to be verified, and public reporting that explains what happened in plain language, including when mistakes occur and how they are fixed. Institutions should also make participation and access straightforward for everyone\u2014through clear, multilingual information, welcoming and accessible services, and well-trained, nonpartisan staff who answer questions respectfully. Finally, ongoing civic education and open channels for feedback and oversight\u2014paired with rapid, evidence-based responses to misinformation\u2014help communities stay informed and hold leaders accountable, rebuilding confidence over time.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions, we should make decisions and outcomes easy to verify, easy to understand, and fair in practice\u2014not just in intent. That starts with clear, consistent rules; transparent reporting of performance and mistakes; and independent oversight (including regular audits and publicly available, plain\u2011language explanations of what was checked and what was found). Institutions should invest in strong security and privacy protections, publish open data where appropriate, and create simple ways for residents to ask questions, raise concerns, and get timely answers.\n\nTrust also depends on equal access and respectful service. Information should be multilingual and culturally competent; processes should be designed for working families, seniors, people with disabilities, and communities that have historically been underserved; and frontline staff should be well trained, nonpartisan, and accountable to professional standards. Finally, institutions should partner with trusted local messengers\u2014schools, community organizations, faith groups, and employers\u2014to strengthen civic education and counter misinformation with facts, transparency, and consistent follow-through. When people can see how decisions are made, confirm that safeguards work, and experience fair treatment, confidence grows across political and cultural lines.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

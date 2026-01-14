@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "20",
+    "winner_full": "44",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "20",
+    "winner_full": "44",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "47",
+    "winner_full": "95",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "47",
+    "winner_full": "95",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "20",
+    "winner_full": "44",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "17",
+    "winner_full": "36",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_rankings": {
+    "winner": "34",
+    "winner_full": "74",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "30",
+    "winner_full": "67",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "44",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "34",
+    "epsilon": 0.1200000000000001
+  },
+  "chatgpt_star_personas": {
+    "winner": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when people can verify that rules are fair, consistently applied, and honestly enforced. A strong middle-ground approach is to pair secure, auditable systems (such as voter-verified records, clear chain-of-custody, routine risk-limiting audits, and bipartisan/independent observation) with practical access (reliable in-person voting, well-defined vote-by-mail safeguards, accessible polling locations and hours, and language/disability accommodations). Institutions should communicate in plain, nonpartisan language, publish timely data and audit results, and explain how problems are investigated and fixed. Finally, long-term trust requires civic education and community partnerships\u2014libraries, schools, faith and neighborhood groups\u2014so people can ask questions, get accurate information, and see transparency in action rather than being asked to rely on slogans or partisan claims.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase the public\u2019s trust in institutions\u2014especially elections\u2014we should focus on practices people can see, understand, and independently verify. That means transparent, nonpartisan administration; clear, consistently applied rules; and verifiable records (such as paper ballots or equivalent audit trails) paired with routine independent audits and publicly reported results. Trust also grows when institutions communicate promptly in plain language, correct mistakes openly, and address concerns with evidence rather than rhetoric. At the same time, systems should be secure (strong cybersecurity, chain-of-custody, accurate rolls), protect privacy, and remain accessible to all eligible participants through practical options like reasonable hours and clear guidance. Finally, sustained civics education and community-based outreach\u2014through schools, libraries, and local organizations\u2014can reduce misinformation and help people understand how safeguards work, so confidence is earned through accountability and real-world performance.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase the general public\u2019s trust in institutions\u2014especially elections\u2014we should focus on three shared priorities: (1) make decisions and results provable, (2) make rules fair and consistently applied, and (3) communicate clearly and respectfully.\n\nThat means using transparent, verifiable processes (for elections: a voter-verifiable paper record or equivalent, strict chain-of-custody, routine independent risk-limiting audits, and meaningful bipartisan/independent observation), paired with strong cybersecurity and prompt investigation and public reporting when problems occur. It also means keeping participation practical and accessible\u2014reliable polling locations and hours, accommodations for disabilities, and clear guidance for mail/early voting where used\u2014so eligible voters can take part without confusion.\n\nFinally, institutions should earn trust through plain-language, multilingual information, open data where appropriate, and ongoing civic education delivered through trusted local partners (schools, libraries, community and faith organizations), while protecting privacy and rejecting misinformation with timely, evidence-based corrections. Trust grows when people can see how the system works, verify outcomes, and feel that the same rules and respect apply to everyone.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

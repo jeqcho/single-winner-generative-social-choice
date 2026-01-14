@@ -1,0 +1,72 @@
+{
+  "schulze": {
+    "winner": "16",
+    "winner_full": "26",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "22",
+    "winner_full": "35",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "35",
+    "winner_full": "68",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "42",
+    "winner_full": "80",
+    "epsilon": 0.24
+  },
+  "veto_by_consumption": {
+    "winner": "22",
+    "winner_full": "35",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "29",
+    "winner_full": "57",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_rankings": {
+    "winner": "22",
+    "winner_full": "35",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "22",
+    "winner_full": "35",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "79",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "33",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "32",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when people can see clear rules being applied consistently, results being independently checked, and leaders being held accountable when things go wrong. For elections, that means a verifiable record of each ballot (such as voter-verifiable paper records), strong chain-of-custody and cybersecurity protections, routine independent audits with publicly posted methods and findings, and meaningful opportunities for bipartisan and nonpartisan observation. Trust also depends on fairness and access: straightforward registration and voting options (in-person, early, and mail where offered) paired with practical identity and eligibility checks that protect security without creating unnecessary barriers, plus accessible polling places and multilingual, plain-language information. Finally, institutions should communicate quickly and calmly\u2014sharing what happened, what is known, and what is being fixed\u2014while supporting civic education and local partnerships (schools, libraries, community and faith groups) so accurate information reaches people through messengers they already trust.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase the general public\u2019s trust in institutions\u2014especially elections\u2014we should focus on verifiable fairness that people can see, understand, and experience firsthand. That means clear, consistent rules; secure, voter-verifiable paper ballots (or equivalent audit trails); strong chain-of-custody and cybersecurity; and routine independent post-election audits (such as risk-limiting audits) with results published promptly in plain language. Trust also grows when oversight is genuinely nonpartisan and transparent, with bipartisan or cross-community observers and clear accountability when problems occur.\n\nAt the same time, institutions must protect broad, equal access: convenient polling locations and hours, secure early/mail options with clear safeguards, and information that is easy to find, multilingual, and accessible for people with disabilities. Finally, invest in ongoing civic education and local, trusted messengers\u2014schools, libraries, community groups, and trained poll workers\u2014so misinformation is answered with timely facts and neighbors can see the process up close. When security, access, and transparency advance together, people are more likely to accept outcomes even when their preferred side loses.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild the public\u2019s trust in institutions, we should make decision-making easy to see, easy to check, and fair in practice\u2014so ordinary people can verify that rules are followed and problems are fixed. That starts with clear, consistent standards; strong security and privacy protections; and independent, routine audits or inspections whose results are published in plain language. Institutions should communicate early and honestly\u2014what happened, what is known, what is being investigated, and what will change\u2014rather than relying on jargon or waiting for rumors to fill the gap.\n\nTrust also grows when access and dignity are prioritized. Services and public processes should be designed so working families, seniors, people with disabilities, and people who speak languages other than English can participate without unnecessary hurdles, with multilingual information, accessible locations and hours, and staff trained to treat everyone respectfully. Finally, institutions should invite real community oversight\u2014local advisory groups, public dashboards, and opportunities for residents to volunteer or observe\u2014so trust is built not only by officials, but by neighbors who can see the system working and hold it accountable.",
+    "is_new": true,
+    "epsilon": 0.0
+  }
+}

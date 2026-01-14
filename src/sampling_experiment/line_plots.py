@@ -55,12 +55,16 @@ METHOD_DISPLAY = {
     'chatgpt_double_star_personas': 'GPT**+Pers',
 }
 
-P_COLORS = {10: '#1f77b4', 20: '#ff7f0e', 50: '#2ca02c'}
-P_MARKERS = {10: 'o', 20: 's', 50: '^'}
+P_COLORS = {10: '#1f77b4', 20: '#ff7f0e', 50: '#2ca02c', 100: '#d62728'}
+P_MARKERS = {10: 'o', 20: 's', 50: '^', 100: 'D'}
 
 
 def load_all_results(output_dir: Path, topic_slug: str, n_reps: int) -> Dict:
-    """Load all results for a topic."""
+    """Load all results for a topic.
+    
+    Handles both old structure (results.json directly in kX_pY/) and 
+    new structure (results.json in kX_pY/sample0/).
+    """
     all_results = {}
     
     for rep_idx in range(n_reps):
@@ -72,14 +76,99 @@ def load_all_results(output_dir: Path, topic_slug: str, n_reps: int) -> Dict:
         
         for k in K_VALUES:
             for p in P_VALUES:
-                sample_dir = rep_dir / f"k{k}_p{p}"
-                results_file = sample_dir / "results.json"
+                # Try new structure first (sample0 subfolder)
+                results_file = rep_dir / f"k{k}_p{p}" / "sample0" / "results.json"
+                if not results_file.exists():
+                    # Fall back to old structure
+                    results_file = rep_dir / f"k{k}_p{p}" / "results.json"
                 
                 if results_file.exists():
                     with open(results_file) as f:
                         all_results[rep_idx][(k, p)] = json.load(f)
     
     return all_results
+
+
+def load_sample_info_and_epsilons(output_dir: Path, topic_slug: str, n_reps: int) -> Dict:
+    """
+    Load sample_info.json and precomputed_epsilons.json for computing random baseline.
+    
+    Handles both old structure (results.json directly in kX_pY/) and 
+    new structure (results.json in kX_pY/sample0/).
+    
+    Returns:
+        Dict[rep_idx] -> Dict[(k, p)] -> {'alt_sample': [...], 'precomputed_epsilons': {...}}
+    """
+    all_sample_data = {}
+    
+    for rep_idx in range(n_reps):
+        rep_dir = output_dir / "data" / topic_slug / f"rep{rep_idx}"
+        if not rep_dir.exists():
+            continue
+        
+        # Load precomputed epsilons for this rep
+        precomputed_file = rep_dir / "precomputed_epsilons.json"
+        if not precomputed_file.exists():
+            continue
+        
+        with open(precomputed_file) as f:
+            precomputed_epsilons = json.load(f)
+        
+        all_sample_data[rep_idx] = {}
+        
+        for k in K_VALUES:
+            for p in P_VALUES:
+                # Try new structure first (sample0 subfolder)
+                sample_info_file = rep_dir / f"k{k}_p{p}" / "sample0" / "sample_info.json"
+                if not sample_info_file.exists():
+                    # Fall back to old structure
+                    sample_info_file = rep_dir / f"k{k}_p{p}" / "sample_info.json"
+                
+                if sample_info_file.exists():
+                    with open(sample_info_file) as f:
+                        sample_info = json.load(f)
+                    
+                    all_sample_data[rep_idx][(k, p)] = {
+                        'alt_sample': sample_info.get('alt_sample', []),
+                        'precomputed_epsilons': precomputed_epsilons
+                    }
+    
+    return all_sample_data
+
+
+def compute_mean_random_epsilon_grid(all_sample_data: Dict) -> Dict[Tuple[int, int], float]:
+    """
+    Compute mean random epsilon for each (K, P) combination.
+    
+    Random epsilon = mean of epsilons for all alternatives in the sample.
+    
+    Returns:
+        Dict[(k, p)] -> mean_random_epsilon
+    """
+    random_by_kp = defaultdict(list)
+    
+    for rep_idx, rep_data in all_sample_data.items():
+        for (k, p), sample_data in rep_data.items():
+            alt_sample = sample_data['alt_sample']
+            precomputed = sample_data['precomputed_epsilons']
+            
+            if alt_sample and precomputed:
+                sample_epsilons = []
+                for alt_id in alt_sample:
+                    eps = precomputed.get(str(alt_id))
+                    if eps is not None:
+                        sample_epsilons.append(eps)
+                
+                if sample_epsilons:
+                    random_by_kp[(k, p)].append(np.mean(sample_epsilons))
+    
+    # Compute mean across reps
+    mean_random_grid = {}
+    for (k, p), random_list in random_by_kp.items():
+        if random_list:
+            mean_random_grid[(k, p)] = np.mean(random_list)
+    
+    return mean_random_grid
 
 
 def compute_mean_epsilon_grid(all_results: Dict) -> Dict[Tuple[int, int], Dict[str, float]]:
@@ -109,9 +198,10 @@ def compute_mean_epsilon_grid(all_results: Dict) -> Dict[Tuple[int, int], Dict[s
     return mean_grid
 
 
-def plot_by_p(mean_grid: Dict, topic_short: str, output_dir: Path) -> None:
+def plot_by_p(mean_grid: Dict, random_grid: Dict, topic_short: str, output_dir: Path) -> None:
     """
     Create line plots: x=K, lines=methods, one file per P.
+    Includes black 'Random' baseline line.
     """
     folder = output_dir / "lines_by_p"
     folder.mkdir(parents=True, exist_ok=True)
@@ -136,6 +226,22 @@ def plot_by_p(mean_grid: Dict, topic_short: str, output_dir: Path) -> None:
                        linewidth=2,
                        markersize=6)
         
+        # Add Random baseline (black line)
+        random_k_vals = []
+        random_eps_vals = []
+        for k in K_VALUES:
+            if (k, p) in random_grid:
+                random_k_vals.append(k)
+                random_eps_vals.append(random_grid[(k, p)])
+        
+        if random_k_vals:
+            ax.plot(random_k_vals, random_eps_vals,
+                   marker='o',
+                   label='Random',
+                   color='black',
+                   linewidth=2,
+                   markersize=6)
+        
         ax.set_xlabel('K (Number of Voters)', fontsize=12)
         ax.set_ylabel('Mean Epsilon', fontsize=12)
         ax.set_title(f'{topic_short}: Epsilon vs K (P={p})', fontsize=14)
@@ -151,9 +257,10 @@ def plot_by_p(mean_grid: Dict, topic_short: str, output_dir: Path) -> None:
         logger.info(f"Saved {folder / f'p{p}.png'}")
 
 
-def plot_by_k(mean_grid: Dict, topic_short: str, output_dir: Path) -> None:
+def plot_by_k(mean_grid: Dict, random_grid: Dict, topic_short: str, output_dir: Path) -> None:
     """
     Create line plots: x=P, lines=methods, one file per K.
+    Includes black 'Random' baseline line.
     """
     folder = output_dir / "lines_by_k"
     folder.mkdir(parents=True, exist_ok=True)
@@ -177,6 +284,22 @@ def plot_by_k(mean_grid: Dict, topic_short: str, output_dir: Path) -> None:
                        color=METHOD_COLORS.get(method, None),
                        linewidth=2,
                        markersize=6)
+        
+        # Add Random baseline (black line)
+        random_p_vals = []
+        random_eps_vals = []
+        for p in P_VALUES:
+            if (k, p) in random_grid:
+                random_p_vals.append(p)
+                random_eps_vals.append(random_grid[(k, p)])
+        
+        if random_p_vals:
+            ax.plot(random_p_vals, random_eps_vals,
+                   marker='o',
+                   label='Random',
+                   color='black',
+                   linewidth=2,
+                   markersize=6)
         
         ax.set_xlabel('P (Number of Alternatives)', fontsize=12)
         ax.set_ylabel('Mean Epsilon', fontsize=12)
@@ -257,14 +380,20 @@ def generate_line_plots(output_dir: Path, topic_slug: str, n_reps: int) -> None:
         logger.warning(f"No results found for {topic_slug}")
         return
     
+    # Load sample info and precomputed epsilons for random baseline
+    all_sample_data = load_sample_info_and_epsilons(output_dir, topic_slug, n_reps)
+    
     # Compute mean epsilon grid
     mean_grid = compute_mean_epsilon_grid(all_results)
+    
+    # Compute mean random epsilon grid
+    random_grid = compute_mean_random_epsilon_grid(all_sample_data)
     
     topic_short = TOPIC_SHORT_NAMES.get(topic_slug, topic_slug[:15])
     
     # Generate all three types of plots
-    plot_by_p(mean_grid, topic_short, figures_dir)
-    plot_by_k(mean_grid, topic_short, figures_dir)
+    plot_by_p(mean_grid, random_grid, topic_short, figures_dir)
+    plot_by_k(mean_grid, random_grid, topic_short, figures_dir)
     plot_by_method(mean_grid, topic_short, figures_dir)
     
     logger.info(f"Completed line plots for {topic_slug}")
@@ -277,7 +406,7 @@ def main():
     
     output_dir = Path(__file__).parent.parent.parent / 'outputs' / 'sampling_experiment'
     topic_slug = 'how-should-we-increase-the-general-publics-trust-i'
-    n_reps = 5
+    n_reps = 10
     
     generate_line_plots(output_dir, topic_slug, n_reps)
 
