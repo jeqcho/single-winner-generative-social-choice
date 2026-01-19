@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "18",
+    "winner_full": "81",
+    "epsilon": 0.69
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "10",
+    "winner_full": "58",
+    "epsilon": 0.47
+  },
+  "chatgpt_star": {
+    "winner": "30",
+    "epsilon": 0.18999999999999995
+  },
+  "chatgpt_star_rankings": {
+    "winner": "41",
+    "epsilon": 0.29000000000000004
+  },
+  "chatgpt_star_personas": {
+    "winner": "39",
+    "epsilon": 0.28
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Laws about abortion should balance respect for the value of unborn life with respect for a pregnant person\u2019s autonomy and health, guided primarily by medical evidence, compassion, and the realities families face. Policy should protect access to safe, timely care and reasonable exceptions in serious cases, while also investing in prevention, support services, and alternatives so people are not driven to choose abortion by lack of resources or coercion.",
+    "is_new": true,
+    "epsilon": 0.29000000000000004
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Laws concerning abortion should respect women's moral agency and bodily autonomy while also protecting health and life; decisions are best made by women in consultation with medical professionals, conscience, and family rather than by religious institutions or partisan politics. Public policy should ensure safe, legal, and accessible reproductive care for all\u2014paired with comprehensive sex education, contraception access, and robust social supports\u2014while allowing narrowly defined, medically informed exceptions and community-based judgment where deeply held beliefs about unborn life apply.",
+    "is_new": true,
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Laws on abortion should balance respect for the sanctity of life with respect for a woman\u2019s right to make deeply personal medical decisions, guided by medical evidence, compassion, and individual conscience rather than imposition of a single religious or political view. Policy should protect safe, legal access to reproductive healthcare while also expanding supports\u2014comprehensive sex education, contraception, maternal healthcare, childcare, and economic assistance\u2014so fewer people face crisis choices, and allow narrowly defined exceptions when a pregnancy endangers a woman\u2019s health or arises from violence.",
+    "is_new": true,
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Laws on abortion should balance respect for reproductive autonomy with protections for fetal life by ensuring accessible, safe care early in pregnancy while allowing for thoughtful limits grounded in medical evidence and widely held ethical considerations. Policy should guarantee comprehensive sex education, contraception access, and support for parents and children so that fewer people face unwanted pregnancies, while permitting reasonable, clearly defined restrictions later in pregnancy that reflect medical necessity and societal interests.",
+      "Laws governing abortion should protect the health, autonomy, and dignity of pregnant people while recognizing the moral concerns and potential interests of others; they should ensure safe, accessible care early in pregnancy, allow time-limited exceptions, and provide support for parenting and alternatives like adoption. Policy should be grounded in medical evidence, respect for individual conscience, and practical measures\u2014such as counseling, social services, and safeguards against coercion\u2014that reduce unwanted pregnancies and help families thrive.",
+      "Laws governing abortion should protect individual health, safety, and dignity while recognizing the moral concerns others hold about fetal life; they should ensure timely access to safe medical care, especially for those facing medical risks or socioeconomic hardship, while allowing for reasonable limits that reflect compelling state interests applied transparently and based on medical evidence. Policymaking should prioritize reducing the need for abortion through comprehensive sex education, accessible contraception, maternal supports, and healthcare access, and should be shaped through inclusive dialogue that respects conscience, public health data, and the diverse values of the community.",
+      "Laws concerning abortion should balance the rights and health of pregnant people with respect for emerging fetal life by ensuring safe, accessible reproductive healthcare, clear protections for maternal health and informed consent, and reasonable limits grounded in medical evidence. Policy should accommodate deeply held moral convictions by providing alternatives like counseling, support for parenting and adoption, and conscientious objection for providers, while preserving timely access to care when needed to protect a person\u2019s health and autonomy.",
+      "Laws concerning abortion should balance respect for individuals\u2019 moral convictions and bodily autonomy with a commitment to protecting health and minimizing harm, ensuring safe access to care while allowing reasonable limits informed by medical evidence. Policy should prioritize comprehensive reproductive health services, support for pregnant people and families, and safeguards for conscientious objection that do not unduly restrict access, so that diverse convictions are acknowledged without compromising public health and individual rights."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

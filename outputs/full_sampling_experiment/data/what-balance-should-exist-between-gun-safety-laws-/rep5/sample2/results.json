@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt": {
+    "winner": "7",
+    "winner_full": "28",
+    "epsilon": 0.19999999999999996
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_personas": {
+    "winner": "8",
+    "winner_full": "29",
+    "epsilon": 0.20999999999999996
+  },
+  "chatgpt_star": {
+    "winner": "89",
+    "epsilon": 0.81
+  },
+  "chatgpt_star_rankings": {
+    "winner": "89",
+    "epsilon": 0.81
+  },
+  "chatgpt_star_personas": {
+    "winner": "89",
+    "epsilon": 0.81
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "I believe the Second Amendment protects a core right for law\u2011abiding people, but that right should be paired with practical, evidence\u2011based safeguards to reduce violence and accidents. Reasonable measures\u2014universal background checks, mandatory safety training and secure storage, targeted restrictions on weapons designed for mass harm, and improved mental\u2011health interventions and enforcement\u2014can protect families and public safety without broadly stripping rights from responsible owners.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "I respect the Second Amendment and the right of law\u2011abiding people to own firearms for protection, sport, and tradition, but that right should come with clear, common\u2011sense safeguards\u2014universal background checks, basic safety training and secure storage requirements, and targeted steps to keep guns from violent criminals and those who are a danger to themselves or others. Balancing constitutional rights with practical, enforceable rules will protect families and communities without unduly burdening responsible owners.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "The Second Amendment protects the right of law-abiding people to own firearms, but that right should be paired with practical, evidence-based safety measures to keep communities and children safe. We should strengthen and consistently enforce universal background checks, require basic safety training and secure storage, and use targeted tools\u2014like red-flag laws and licensing\u2014to keep weapons out of the hands of criminals and those clearly dangerous, while avoiding broad rules that punish responsible owners.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "A balanced approach recognizes the constitutional right to keep and bear arms while also supporting sensible, evidence-based measures to reduce gun violence and enhance public safety. By protecting responsible ownership through background checks, safety training, and secure storage requirements while preserving access for lawful purposes, policy can respect individual rights and address community safety concerns in ways that earn broad public trust.",
+      "We can respect the Second Amendment while pursuing sensible, evidence-based measures that reduce firearm deaths and protect public safety, such as universal background checks, safe-storage requirements, and red flag laws with due process. By combining responsible regulation with respect for lawful ownership and opportunities for training and community-based violence prevention, policymakers can balance individual rights and collective safety in ways that earn broad public trust.",
+      "Protecting public safety and respecting the Second Amendment are both legitimate goals; a balanced approach combines reasonable, evidence-based regulations\u2014such as universal background checks, safe-storage requirements, and prohibitions for those proven dangerous\u2014with strong protections for lawful ownership, hunting, and self-defense. By focusing laws on reducing violent misuse rather than broadly restricting responsible owners, policymakers can build trust across perspectives while preserving constitutional rights and enhancing community safety.",
+      "We can honor the Second Amendment while pursuing sensible, evidence-based measures that reduce gun violence and keep firearms out of the hands of those who pose a danger to themselves or others. Common-sense policies\u2014such as universal background checks, safe-storage requirements, and funding for mental-health and violence-prevention programs\u2014can protect public safety without unduly infringing on law-abiding citizens\u2019 rights to own guns for self-defense, sport, and hunting.",
+      "Protecting public safety and respecting the Second Amendment are both vital goals; sensible gun policy should therefore combine lawful access for responsible, law-abiding citizens with evidence-based regulations that reduce violence and prevent misuse. By supporting universal background checks, safe storage requirements, and targeted prohibitions on high-risk individuals and weapons while preserving lawful ownership for recreation, self-defense, and sporting use, we can uphold constitutional rights while minimizing harm to communities."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "1",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "12",
+    "winner_full": "51",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "6",
+    "winner_full": "32",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "1",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "1",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "12",
+    "winner_full": "51",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "1",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "6",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "86",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Universities should treat campus speech like a shared civic space: protect the widest possible range of views and peaceful protest, while making it unmistakably clear that targeted harassment, threats, or preventing others from studying, worshiping, or working is not protected. The best approach is transparent, viewpoint-neutral rules (including time/place/manner) that are enforced consistently, paired with predictable de-escalation and support resources for students who feel targeted. When conflict spikes, administrators should actively convene facilitated dialogue and educational programming so disagreement can be heard and examined without turning into intimidation or shutdown.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "University campuses should strongly protect free speech and the right to peaceful protest, while drawing clear, content-neutral boundaries against harassment, threats, vandalism, blocking access, or disrupting classes and university operations. Administrators should communicate and enforce these rules consistently for all groups, without the institution taking partisan political positions. Alongside fair enforcement, universities should offer structured opportunities for learning and dialogue\u2014such as moderated forums, teach-ins, and interfaith or cross-group meetings\u2014and provide support services for students who feel targeted or unsafe.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "University campuses should protect free speech and the right to peaceful protest while enforcing clear, content-neutral rules that prevent harassment, threats, vandalism, or blocking access to classes and campus services. Policies and consequences should be transparent and applied consistently to everyone, without the institution taking an official partisan stance. At the same time, administrators should provide structured ways to engage\u2014like moderated forums, teach-ins, and mediation\u2014and ensure support for students who feel targeted or unsafe so the campus remains both open to debate and physically safe.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "University campuses should protect robust free expression as a core academic value while also maintaining reasonable, content-neutral rules that keep learning environments safe and functional. It\u2019s fair to worry both about censorship that chills debate and about harassment or disruption that prevents others from participating. A good middle ground is transparent policies that encourage open dialogue, provide clear due process when conflicts arise, and focus on behavior (threats, targeted harassment, or substantial disruption) rather than unpopular viewpoints.",
+      "University campuses should strongly protect free expression as a core academic value while also setting clear, content-neutral rules that keep events safe and allow learning to continue. It\u2019s reasonable to worry both about censorship of unpopular views and about harassment or disruption that silences others, so policies should distinguish protected speech from targeted threats, intimidation, or persistent harassment. The best approach is transparent procedures, consistent enforcement, and more opportunities for debate and counter-speech rather than bans, so disagreement can be aired without compromising safety and equal access to education.",
+      "University campuses should protect robust free expression as a core educational value, while also maintaining clear, fair rules that prevent harassment, true threats, and disruption of others\u2019 ability to learn. It\u2019s reasonable to worry both that speech can be chilled by vague policies and that unchecked hostility can marginalize students, so campuses should use transparent, viewpoint-neutral processes and the least restrictive measures when conflicts arise. Expanding opportunities for structured dialogue, ensuring due process, and consistently enforcing standards can help uphold open inquiry without sacrificing safety and inclusion.",
+      "University campuses should protect robust free expression as a core educational value while also ensuring a safe, nondiscriminatory environment where all students can participate. That means allowing controversial ideas to be heard and debated, but setting clear, narrowly tailored limits on direct threats, targeted harassment, and disruption that prevents others from speaking or learning. Transparent rules, viewpoint-neutral enforcement, and strong support for dialogue and due process can help campuses uphold both openness and inclusion.",
+      "University campuses should protect robust free expression as a core academic value while also ensuring students can learn and participate without targeted harassment or credible threats. A balanced approach is to allow a wide range of controversial ideas, enforce clear and viewpoint-neutral rules on time, place, and manner, and respond to harms through due process rather than ad hoc cancellations. Investing in transparent policies, open debate, and support services can help campuses uphold both free speech and an inclusive learning environment."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

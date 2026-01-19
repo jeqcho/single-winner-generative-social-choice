@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "2",
+    "winner_full": "11",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "4",
+    "winner_full": "24",
+    "epsilon": 0.020000000000000018
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "19",
+    "winner_full": "92",
+    "epsilon": 0.25
+  },
+  "chatgpt_rankings": {
+    "winner": "4",
+    "winner_full": "24",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_personas": {
+    "winner": "19",
+    "winner_full": "92",
+    "epsilon": 0.25
+  },
+  "chatgpt_star": {
+    "winner": "96",
+    "epsilon": 0.26
+  },
+  "chatgpt_star_rankings": {
+    "winner": "69",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "20",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "The best approach combines practical infrastructure, fair enforcement, and community engagement: place well\u2011located, clearly labeled trash, recycling, and bottle\u2011return options and encourage businesses to reduce disposable packaging. Pair modest, consistently applied penalties with restorative responses like community service or cleanup, and fund multilingual education and school programs so people understand the impacts of litter. Ensure enforcement is equitable and support neighborhood-led cleanups and paid maintenance crews so residents feel ownership of clean public spaces.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To reduce litter, combine practical infrastructure\u2014plentiful, well\u2011placed trash and recycling bins, deposit\u2011return systems, and incentives for businesses to cut single\u2011use packaging\u2014with consistent, proportionate enforcement of fines. Pair that with funded, community\u2011led cleanup efforts, school\u2011based and multilingual education campaigns, and fair wages for maintenance staff so cleaning is sustainable and enforcement isn\u2019t used inequitably. This mix of convenience, shared responsibility, and equity encourages long\u2011term behavior change rather than relying on punishment alone.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "The best way to cut litter is a balanced approach that makes it easy and rewarding to do the right thing: more well\u2011placed, clearly marked trash and recycling bins, bottle\u2011deposit systems, and incentives for businesses to reduce packaging. Pair that with fair, consistently applied penalties (not over\u2011policing) and funded, multilingual education and community\u2011led clean\u2011up programs so neighborhoods take pride in shared spaces. Also invest in hiring and fairly paying crews to maintain parks and streets, and require accountability from businesses so prevention, convenience, and equity work together.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Preventing littering in public spaces works best through a balanced mix of accessible infrastructure (well-placed bins and regular collection), clear signage and education to shift social norms, and proportionate enforcement that targets repeat offenders. This approach acknowledges that some people prioritize personal responsibility while others want stronger government or business action, and it finds common ground by emphasizing convenience, community engagement, and accountability. When implemented equitably and with public input, these combined measures can reduce litter without imposing undue burdens.",
+      "A balanced approach that most can accept combines accessible, well-maintained waste infrastructure and behavior-change education with proportionate enforcement targeted at repeat offenders and problem locations. It recognizes concerns about over-policing and cost by prioritizing convenient disposal, community-led stewardship, producer responsibility, and incentives for proper disposal while reserving fines as a last resort. Policies should be evidence-based, monitored for equity and effectiveness, and adapted over time based on local data and community input.",
+      "Preventing littering in public spaces is best achieved through a balanced, evidence-based mix of accessible waste infrastructure, public education, and fair, targeted enforcement\u2014complemented by incentives, producer responsibility, and community stewardship. This approach recognizes that some prioritize strict penalties while others emphasize behavior change, and finds common ground by prioritizing convenience and equity, tailoring solutions to local conditions, involving businesses and residents, and regularly evaluating results to refine policy.",
+      "To reduce littering in public spaces, communities should adopt a balanced approach that combines public education, easily accessible waste and recycling infrastructure, and fair, consistently applied enforcement. This respects concerns about personal responsibility and the need for effective deterrents while recognizing barriers like lack of facilities or social supports that require investment and targeted outreach. Policies should be evidence-based, include incentives for good behavior, engage local stakeholders, and ensure equitable application so that benefits and burdens are shared fairly.",
+      "Preventing littering in public spaces is best achieved through a balanced approach that combines convenient, well-maintained disposal infrastructure and clear, consistently enforced rules with public education and community stewardship programs. This strategy respects differing views\u2014recognizing individual responsibility, the role of effective design and access, and the need for proportionate enforcement\u2014while prioritizing cost-effective, evidence-based measures such as strategically placed bins, signage, targeted fines, and local volunteer engagement. By blending prevention, facilitation, and fair accountability, communities can reduce litter while building shared ownership of public spaces."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

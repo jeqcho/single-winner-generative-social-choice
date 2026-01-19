@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "3",
+    "winner_full": "20",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "3",
+    "winner_full": "20",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "7",
+    "winner_full": "40",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "8",
+    "winner_full": "48",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "3",
+    "winner_full": "20",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "4",
+    "winner_full": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "3",
+    "winner_full": "20",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "8",
+    "winner_full": "48",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "57",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "57",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "20",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust grows when institutions adopt consistent, transparent, and verifiable practices that people can inspect and understand. This means independent oversight and routine audits, plain-language nonpartisan communication in multiple languages and formats, strong privacy and security protections, and adequate resources and training for staff who deliver services. Pairing these structural safeguards with local engagement, civic education, and reliable fact\u2011checking helps counter misinformation and rebuild confidence across diverse communities.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To increase public trust in institutions, we should ensure secure, auditable voting systems\u2014preferably paper ballots or equivalent verifiable records\u2014paired with independent, risk-limiting audits and nonpartisan oversight. Election administration must be transparent, with clear, plain-language reporting of procedures and results, strong cybersecurity, and accessible voting options including language and disability accommodations so all communities can participate. Sustained funding for election offices, civic education, and timely, fact-based outreach to counter misinformation will let citizens independently verify outcomes and have lasting confidence in the process.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To build broad public trust, our elections should be run transparently and nonpartisanly with verifiable paper ballots or equivalent auditable records, routine independent post\u2011election audits, and clear public reporting that anyone can inspect. Election offices must communicate procedures and results in plain language and multiple languages, provide disability accommodations, invest in community outreach and civic education, and ensure adequate funding and trained staff. Strong security and privacy protections, open opportunities for independent observers, and active efforts to counter misinformation will help sustain confidence in outcomes across diverse communities.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0020000000000000018,
+    "epsilons": [
+      0.010000000000000009,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "To rebuild public trust in institutions, we should pair greater transparency and independent oversight with clear accountability and consistent, equitable delivery of services. This balances critics\u2019 demands for reform and openness with defenders\u2019 concerns about preserving institutions\u2019 ability to act by establishing predictable rules, due process protections, and safeguards against politicized interference. Regular performance metrics, accessible reporting, and sustained community engagement and civic education will help diverse communities see tangible improvements and reduce misinformation.",
+      "To increase public trust in institutions, we should combine stronger transparency and independent accountability with consistent, clear communication and demonstrable results that protect the public interest. This middle-ground approach recognizes both the value of professional expertise and the need for democratic oversight by encouraging inclusive public engagement, regular performance metrics, and safeguards against corruption and bias so institutions are competent, fair, and responsive to community concerns. By committing to these principles and reporting progress openly, institutions can rebuild confidence across political and social divides.",
+      "To increase public trust in institutions, we should combine greater transparency and independent oversight with clear, measurable performance standards and ethical safeguards so that actions and outcomes are visible and verifiable. This approach honors calls for reform and meaningful citizen participation by expanding avenues for public input and civic education, while also preserving stability and expertise through nonpartisan professional standards and evidence-based decision\u2011making. By communicating results in plain language and acting on verified feedback, institutions can rebuild credibility across diverse perspectives.",
+      "We can rebuild public trust in institutions by combining stronger transparency, independent accountability, and genuine public engagement so institutions are both effective and answerable to the people they serve. This approach recognizes concerns about expertise and efficiency as well as worries about bias, secrecy, and unequal treatment, and calls for open data, independent oversight, clear performance metrics, and accessible channels for citizen feedback. By committing to measurable reforms, protecting whistleblowers, and investing in civic education and inclusive decision\u2011making, institutions can earn legitimacy while maintaining the authority needed to act.",
+      "To increase public trust in institutions, we should combine clearer transparency and independent accountability with meaningful public participation and protections for democratic rights. This approach respects concerns that institutions can be unresponsive or captured by elites while also recognizing the need for expert competence and reliable service delivery, committing to measurable performance, independent oversight, and regular public reporting. By balancing oversight, openness, and inclusive engagement, institutions can rebuild legitimacy and better serve diverse communities."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "16",
+    "winner_full": "84",
+    "epsilon": 0.72
+  },
+  "chatgpt_rankings": {
+    "winner": "7",
+    "winner_full": "46",
+    "epsilon": 0.3400000000000001
+  },
+  "chatgpt_personas": {
+    "winner": "16",
+    "winner_full": "84",
+    "epsilon": 0.72
+  },
+  "chatgpt_star": {
+    "winner": "58",
+    "epsilon": 0.45999999999999996
+  },
+  "chatgpt_star_rankings": {
+    "winner": "36",
+    "epsilon": 0.1299999999999999
+  },
+  "chatgpt_star_personas": {
+    "winner": "36",
+    "epsilon": 0.1299999999999999
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Immigration policy should combine secure, well\u2011managed borders and respect for the rule of law with a humane, practical pathway for people who are already contributing to our communities. A fair system would prioritize family unity, public safety, and workers\u2019 rights while offering clear, attainable requirements\u2014such as background checks, tax compliance, and language or civic preparation\u2014and streamlined, transparent processes so eligible residents can earn legal status and fully participate in civic and economic life.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance secure, well\u2011managed borders and respect for the rule of law with a fair, humane path to citizenship for people who work, pay taxes, and contribute to their communities. The process should be orderly, transparent, and enforceable\u2014including sensible vetting\u2014while protecting families, offering clear requirements like language and civic knowledge, preventing worker exploitation, and ensuring due process for refugees and long\u2011term residents.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "U.S. immigration policy should balance secure, well\u2011managed borders and respect for the rule of law with a humane, efficient pathway that recognizes immigrants\u2019 contributions to our communities and economy. The path to citizenship should be clear, achievable, and fair\u2014requiring background checks, reasonable language and civic preparations, tax and law\u2011abiding participation, and protections for families, Dreamers, and refugees\u2014while also enforcing labor protections and preventing exploitation so the system works for both newcomers and current residents.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Immigration policy should balance the nation\u2019s economic and security needs with humane treatment and a fair, orderly pathway to citizenship for those who contribute to society; this means securing borders and enforcing laws while expanding legal avenues for work and family unity and providing clear, attainable requirements for naturalization. Recognizing concerns about rule of law and resource capacity as well as the humanitarian and economic benefits of migration, policymakers should pursue pragmatic reforms\u2014such as improved processing, employer verification, and targeted humanitarian protections\u2014that uphold national interests and respect human dignity.",
+      "Immigration policy should balance the rule of law and national security with a humane, orderly path to citizenship that recognizes immigrants\u2019 contributions and aspirations; reasonable entry standards, robust border management, and fair, efficient adjudication processes can coexist with clear routes to legal status for longtime residents, essential workers, and refugees. By investing in enforcement that targets serious threats while streamlining legal pathways, providing pathways to citizenship tied to background checks, taxes, and community integration, and supporting workforce and integration programs, we can uphold public safety and economic needs while honoring family unity and human dignity.",
+      "Immigration policy should balance the rule of law and secure borders with a fair, humane process that recognizes immigrants\u2019 contributions and the practical need for labor and family reunification. It should combine clear, enforceable standards for entry and enforcement with accessible, merit- and need-based pathways to legal status and citizenship, including protections for vulnerable populations and mechanisms for integration that promote shared civic values and economic opportunity.",
+      "Immigration policy should balance humanitarian responsibilities, economic needs, and the rule of law by creating a fair, transparent system that secures borders while offering a clear, earned pathway to citizenship for those who contribute and integrate; this includes timely asylum processing, reasonable visa channels tied to labor market demands, and enforceable rules that deter abuse. Recognizing concerns about national security and cultural cohesion as well as the moral imperative to protect refugees and families, policymakers should pursue pragmatic reforms\u2014such as background checks, language and civics requirements, and legal pathways for workers\u2014that honor both national interests and human dignity.",
+      "Immigration policy should balance a secure, law\u2011based system with humane treatment and clear pathways to citizenship that reward contributions and encourage integration. While some emphasize borders and enforcement and others prioritize family unity and refugee protection, common ground exists in strengthening legal entry channels, enforcing fair and consistent rules, and providing realistic, merit- and need\u2011based pathways to regularization tied to background checks, work, and civic integration requirements."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt": {
+    "winner": "6",
+    "winner_full": "31",
+    "epsilon": 0.15999999999999992
+  },
+  "chatgpt_rankings": {
+    "winner": "6",
+    "winner_full": "31",
+    "epsilon": 0.15999999999999992
+  },
+  "chatgpt_personas": {
+    "winner": "6",
+    "winner_full": "31",
+    "epsilon": 0.15999999999999992
+  },
+  "chatgpt_star": {
+    "winner": "98",
+    "epsilon": 0.8899999999999999
+  },
+  "chatgpt_star_rankings": {
+    "winner": "98",
+    "epsilon": 0.8899999999999999
+  },
+  "chatgpt_star_personas": {
+    "winner": "56",
+    "epsilon": 0.45999999999999996
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "We should treat environmental protection and economic growth as complementary goals by setting clear standards to limit pollution and carbon while investing in practical solutions\u2014clean energy, efficiency, and workforce training\u2014that create good jobs and keep energy affordable. Policies should include targeted support for workers, small businesses, and vulnerable communities during transitions, and use science-based, cost-conscious approaches so families and the planet both thrive over the long term.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "We should put environmental protection at the center of policy because a healthy planet is the foundation of long\u2011term prosperity, while also supporting workers, families, and small businesses through practical investments and fair transition policies. That means setting clear limits on pollution and emissions, investing aggressively in clean energy, efficiency, and resilient infrastructure, and providing job training, incentives, and targeted support so communities and industries can adapt without losing livelihoods.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "We should put environmental protection at the center of policy while designing practical, phased approaches that support jobs, affordable energy, and community stability. Invest in clean energy, efficiency, and workforce training, provide targeted support for low\u2011income and transition-affected communities, and use smart regulation and incentives so businesses can innovate without shifting burdens onto families or future generations.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Sustainable progress requires balancing environmental protection with responsible economic growth by pursuing policies that maintain natural systems while enabling livelihoods and innovation. By investing in clean technologies, resilient infrastructure, and fair transition support for affected workers and communities, societies can reduce ecological harm without sacrificing prosperity, recognizing that long-term economic resilience depends on healthy ecosystems.",
+      "We should pursue a balanced approach that protects critical ecosystems and public health while enabling sustainable economic opportunities, recognizing that long-term prosperity depends on a healthy environment. By investing in clean technologies, enforcing smart regulations, and supporting transitional policies for affected communities, we can reconcile conservation goals with job creation and growth, honoring both environmental stewardship and economic well-being.",
+      "We should pursue a pragmatic balance that protects vital ecosystems and public health while encouraging sustainable economic growth, recognizing that long-term prosperity depends on healthy natural systems. By investing in green technologies, smart regulations, and targeted support for communities and industries in transition, policymakers can align environmental stewardship with job creation and innovation, accommodating both conservation priorities and realistic development needs.",
+      "Sustainable prosperity requires balancing environmental protection with responsible economic growth by prioritizing policies that foster innovation, create jobs, and improve living standards while restoring and conserving natural resources. Recognizing legitimate concerns about costs and competitiveness, we should invest in clean technologies, smart regulation, and targeted support for affected workers and communities so that environmental stewardship and economic opportunity reinforce\u2014rather than trade off against\u2014each other.",
+      "Sustainable prosperity requires integrating strong environmental protections with pragmatic economic policies so that growth today does not undermine the natural capital that supports future prosperity. By investing in clean technologies, resource-efficient practices, and fair transition measures for affected workers and communities, we can foster innovation and jobs while maintaining healthy ecosystems; reasonable, evidence-based regulations and incentives should guide this balance and be adapted as science and social needs evolve."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

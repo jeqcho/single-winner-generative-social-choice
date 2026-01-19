@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "10",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "16",
+    "winner_full": "82",
+    "epsilon": 0.69
+  },
+  "chatgpt_rankings": {
+    "winner": "10",
+    "winner_full": "49",
+    "epsilon": 0.3600000000000001
+  },
+  "chatgpt_personas": {
+    "winner": "6",
+    "winner_full": "28",
+    "epsilon": 0.1399999999999999
+  },
+  "chatgpt_star": {
+    "winner": "61",
+    "epsilon": 0.48
+  },
+  "chatgpt_star_rankings": {
+    "winner": "61",
+    "epsilon": 0.48
+  },
+  "chatgpt_star_personas": {
+    "winner": "61",
+    "epsilon": 0.48
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "I believe the Second Amendment protects a legitimate right for law-abiding people to own firearms, but rights come with responsibilities\u2014so we should combine strong enforcement of existing laws with targeted, evidence-based measures like universal background checks, mandatory safety training and secure storage standards, and narrowly tailored limits on weapons that pose outsized risks. That approach focuses enforcement on criminals and clearly dangerous individuals while preserving responsible ownership and common-sense safeguards that help keep families and communities safe.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "I respect the Second Amendment and the rights of law\u2011abiding citizens to own firearms for self\u2011defense, sport, and tradition, while also believing we need common\u2011sense, enforceable safety measures\u2014like universal background checks, mandatory training and safe storage, robust enforcement against straw purchases and trafficking, and targeted red\u2011flag protections\u2014to keep weapons out of dangerous hands. These steps protect communities and preserve responsible ownership without imposing broad bans on law\u2011abiding people.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "I respect the Second Amendment and believe law-abiding people should be able to own firearms for self-defense, tradition, and sport, while also recognizing everyone\u2019s right to live and raise children in safe communities. We should pursue pragmatic, evidence-based measures\u2014universal background checks, meaningful safe-storage and training requirements, better enforcement against trafficking and straw purchases, and targeted interventions (including temporary risk protections and improved mental-health supports)\u2014that keep guns away from dangerous people without unduly burdening responsible owners.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "We uphold the Second Amendment while recognizing the public\u2019s right to safety, and therefore support reasonable, evidence-based regulations\u2014such as universal background checks, safe storage requirements, and targeted prohibitions for those deemed a clear risk\u2014that reduce violence without broadly disarming lawful owners. By focusing on measures that demonstrably prevent harm, protect due process, and preserve responsible gun ownership, policymakers can bridge concerns about rights and safety in a way that respects constitutional protections and promotes community security.",
+      "Protecting public safety and respecting the Second Amendment are both vital goals that can be reconciled through carefully tailored laws: reasonable, evidence-based regulations such as universal background checks, safe storage requirements, and prohibitions for those proven to be a danger to themselves or others, while preserving law-abiding citizens\u2019 ability to own firearms for self-defense, sport, and hunting. By focusing on outcomes that reduce violence and accidental harm rather than broad bans, policymakers can honor constitutional rights and address legitimate concerns about community safety.",
+      "Americans can uphold the Second Amendment while also supporting responsible, evidence-based measures to reduce gun violence: common-sense safety requirements such as universal background checks, safe-storage laws, and prohibitions for those proven dangerous can coexist with lawful ownership for self-defense, hunting, and sport. By prioritizing public safety, due process, and respect for individual rights, policymakers can craft narrowly targeted regulations that prevent misuse without unduly burdening law-abiding gun owners.",
+      "We uphold the Second Amendment as an important constitutional right while recognizing the shared responsibility to protect public safety; reasonable, evidence-based regulations\u2014such as universal background checks, safe-storage requirements, and prohibitions for those with demonstrated violent or severe mental-health risks\u2014can reduce harm without unduly restricting lawful ownership. By focusing on narrowly tailored policies, improved enforcement, and investment in mental-health services and community violence prevention, policymakers can respect individual rights while working to prevent tragedies and build broader public confidence.",
+      "Protecting public safety and respecting the Second Amendment are compatible goals: sensible, evidence-based regulations\u2014such as universal background checks, prohibitions for those with violent criminal histories or severe mental-health risks, and safe-storage requirements\u2014can reduce gun violence while preserving lawful ownership for hunting, sport, and self-defense. Policymaking should be narrowly tailored, transparent, and subject to regular review, with investments in mental-health services and community violence prevention to address root causes and build mutual trust across differing viewpoints."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

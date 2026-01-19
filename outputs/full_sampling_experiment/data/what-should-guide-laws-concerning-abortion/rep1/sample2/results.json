@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "7",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "7",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "7",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "7",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "7",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "7",
+    "winner_full": "29",
+    "epsilon": 0.18999999999999995
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "7",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "7",
+    "winner_full": "29",
+    "epsilon": 0.18999999999999995
+  },
+  "chatgpt_star": {
+    "winner": "98",
+    "epsilon": 0.8899999999999999
+  },
+  "chatgpt_star_rankings": {
+    "winner": "98",
+    "epsilon": 0.8899999999999999
+  },
+  "chatgpt_star_personas": {
+    "winner": "98",
+    "epsilon": 0.8899999999999999
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Laws on abortion should balance respect for unborn life with respect for the pregnant person\u2019s health, autonomy, and circumstances by ensuring safe, timely medical care while allowing narrowly defined exceptions in serious cases; they should be shaped by medical evidence, not solely by partisan or religious mandates. At the same time, policy should expand access to contraception, comprehensive sex education, prenatal and maternal support, and adoption services so people have real options and fewer are pushed into impossible choices.",
+    "is_new": true,
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Laws concerning abortion should center on protecting people\u2019s health, safety, and dignity by ensuring access to safe, legal medical care while respecting individuals\u2019 conscience and faith\u2014rather than imposing one group\u2019s beliefs through politics. At the same time, policy should reduce unwanted pregnancies and support families by investing in comprehensive sex education, affordable contraception, healthcare, childcare, counseling, and adoption services so that everyone has real options and support when facing a pregnancy.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Laws on abortion should balance respect for individual conscience and bodily autonomy with a commitment to protect life and support families: decisions about pregnancy should be guided by medical expertise, personal faith or values, and the needs of the individual rather than partisan politics. At the same time, public policy should ensure safe, affordable health care\u2014including contraception, comprehensive sex education, maternal supports, and meaningful options like adoption\u2014so people have real choices and vulnerable families receive the care they need.",
+    "is_new": true,
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Laws on abortion should protect the health, safety, and dignity of pregnant people while recognizing the moral seriousness many attach to fetal life; therefore policy should ensure access to safe, timely reproductive care, especially in medically necessary cases, while allowing reasonable limits that reflect compelling state interests and respect for conscience. Decisions should be grounded in medical evidence, prioritize reducing harm through comprehensive sex education and contraception access, and include clear, narrowly tailored safeguards so that individuals, families, and clinicians can make private medical choices without undue burden.",
+      "Laws concerning abortion should protect pregnant people's health, autonomy, and access to safe medical care while respecting society's interest in supporting fetal potential, through policies that prioritize timely, evidence-based healthcare, comprehensive reproductive education, and access to contraception and social supports. Such laws should include clear, medically grounded safeguards to ensure informed consent and prevent coercion, allow exceptions to protect maternal health and cases of serious fetal anomaly, and enable conscience protections for providers that do not unduly impede patient access. This approach seeks common ground by balancing individual rights with shared ethical concerns and by reducing unwanted pregnancies and the need for abortion through prevention and support.",
+      "Laws concerning abortion should balance respect for individual autonomy and the protection of potential life by ensuring safe, legal access early in pregnancy while permitting reasonable limits later on with clear medical exceptions. Policy should be informed by medical evidence, support for reproductive health and family resources, and safeguards that minimize harm and respect deeply held moral convictions across the spectrum.",
+      "Laws concerning abortion should balance respect for individuals\u2019 moral convictions and bodily autonomy with society\u2019s interest in protecting potential life, establishing clear, evidence-based limits that account for gestational development and maternal health. Policies should ensure safe, accessible reproductive health care, compassionate support for those facing difficult decisions, and reasonable protections for conscience, while promoting education, contraception access, and social services to reduce unwanted pregnancies and the need for abortion.",
+      "Laws concerning abortion should balance respect for reproductive autonomy with society\u2019s interest in protecting potential life by ensuring safe, legal access early in pregnancy while permitting reasonable regulations that protect maternal health and reflect medical evidence. Policy should prioritize compassionate support\u2014comprehensive sex education, access to contraception, prenatal care, and social services\u2014so fewer people face the decision, and should preserve pathways for thoughtful exceptions where pregnancy poses serious health risks or in cases of rape or incest. This approach acknowledges deeply held moral convictions on both sides while focusing on reducing harm, promoting equity, and grounding rules in science and individual circumstances."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

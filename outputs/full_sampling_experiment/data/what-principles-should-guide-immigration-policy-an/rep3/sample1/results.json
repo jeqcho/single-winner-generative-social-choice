@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "18",
+    "epsilon": 0.1200000000000001
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "18",
+    "epsilon": 0.1200000000000001
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "18",
+    "epsilon": 0.1200000000000001
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "18",
+    "epsilon": 0.1200000000000001
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "18",
+    "epsilon": 0.1200000000000001
+  },
+  "chatgpt": {
+    "winner": "19",
+    "winner_full": "95",
+    "epsilon": 0.8500000000000001
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "18",
+    "epsilon": 0.1200000000000001
+  },
+  "chatgpt_personas": {
+    "winner": "19",
+    "winner_full": "95",
+    "epsilon": 0.8500000000000001
+  },
+  "chatgpt_star": {
+    "winner": "95",
+    "epsilon": 0.8500000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "40",
+    "epsilon": 0.29000000000000004
+  },
+  "chatgpt_star_personas": {
+    "winner": "32",
+    "epsilon": 0.27
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Immigration policy should combine secure, orderly borders and respect for the rule of law with a fair, practical pathway for people already contributing to our communities to gain legal status and citizenship. The process should be efficient and transparent, require background checks and steps that demonstrate commitment (such as employment, English learning, and civics knowledge), protect families and vulnerable people, and align with labor and economic needs so the system is humane, accountable, and sustainable.",
+    "is_new": true,
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Immigration policy should combine secure, orderly borders and respect for the rule of law with a fair, humane, and attainable path to citizenship for people who follow the rules, work, and contribute to their communities. The system should prioritize family unity, protections for children and refugees, background checks and public-safety screening, opportunities to learn English and civic values, and efficient procedures that reduce exploitation and years of uncertainty.",
+    "is_new": true,
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Immigration policy should combine secure, orderly borders and enforceable laws with a fair, efficient pathway to legal status and citizenship for people who work, pay taxes, and respect our communities. Policies should protect families and children, prioritize public safety through background checks and due process, support integration through language and civic education, and ensure humane treatment for asylum seekers and vulnerable groups. This balanced approach honors the rule of law while recognizing the economic and social contributions of immigrants and keeping our communities strong and united.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Immigration policy should balance national security and rule-of-law concerns with a humane, practical approach that recognizes immigrants\u2019 economic and social contributions; this means securing borders and enforcing laws while creating fair, efficient pathways to legal status for those who meet clear requirements and contribute to the community. Policies should protect workers\u2019 rights, prioritize family unity and skilled needs, and include reasonable timelines and criteria for citizenship that reward integration, civic participation, and adherence to the law, reflecting both compassion and responsibility.",
+      "Immigration policy should balance secure, orderly borders and the rule of law with compassion for families, economic needs, and humanitarian obligations, creating clear pathways that reward integration and contribution. By combining robust enforcement and efficient legal channels, including merit- and family-based routes, temporary labor programs, and a fair, attainable path to citizenship for those already contributing to society, we can uphold sovereignty while honoring shared values; ongoing oversight, regular review, and community support services will help ensure the system is humane, practical, and responsive to changing national needs.",
+      "Immigration policy should balance the rule of law and secure borders with humane, practical pathways to legal status that recognize immigrants\u2019 contributions to the economy and communities. Policies should combine clear, enforceable procedures and timely adjudication with opportunities for family unity, labor-market needs, and integration\u2014such as conditional work permits, earned pathways to citizenship, and robust anti-exploitation and integration supports\u2014while protecting public safety and national sovereignty. This approach acknowledges concerns about order and fairness while offering realistic mechanisms for deserving migrants to build stable, productive lives. ",
+      "Immigration policy should balance national security and economic needs with compassion and respect for human dignity by enforcing fair, transparent laws that prioritize public safety while creating realistic, orderly pathways to legal status and citizenship. Recognizing concerns about border control and job competition as well as the humanitarian and family-reunification interests of immigrants, policymakers should pursue comprehensive reforms that are humane, merit- and need-sensitive, and include effective integration supports such as language, job training, and clear rules for eligibility and timelines toward citizenship.",
+      "Immigration policy should balance the rule of law and national security with compassion and economic opportunity, creating a practical, humane path to citizenship that rewards contribution, integrates newcomers, and protects borders. By combining clear, enforceable rules with streamlined legal pathways, fair labor protections, and targeted support for integration and language access, we can respect diverse concerns while promoting shared prosperity and social cohesion."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "16",
+    "winner_full": "73",
+    "epsilon": 0.7
+  },
+  "chatgpt_star": {
+    "winner": "73",
+    "epsilon": 0.7
+  },
+  "chatgpt_star_rankings": {
+    "winner": "96",
+    "epsilon": 0.9299999999999999
+  },
+  "chatgpt_star_personas": {
+    "winner": "79",
+    "epsilon": 0.76
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Tech companies should treat personal data with respect and transparency: they must clearly explain in plain language what they collect, why, and how it is used or monetized, obtain meaningful consent for nonessential uses, and give people simple, effective controls to limit sharing without losing basic service. Companies should minimize data collection, protect what they hold with strong security, and be subject to independent oversight and proportionate enforcement to deter abuse\u2014especially where sensitive groups or children are concerned.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Tech companies should be clear and honest about what data they collect, how they use and monetize it, and who they share it with, explained in plain language with easy, meaningful choices to opt in or out of nonessential uses. They should minimize data collection to what\u2019s necessary, protect what they keep with strong security, and face independent oversight and meaningful consequences if they misuse or expose people\u2019s information\u2014especially for children, vulnerable groups, and sensitive data.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Tech companies should be open and honest about what data they collect, why they collect it, and how they make money from it, using clear plain language everyone can understand. They should limit collection to what\u2019s necessary, get meaningful opt-in consent (with extra protections for children and vulnerable people), give users easy control to access or opt out, and face strong accountability and security standards so privacy, fairness, and community trust are protected.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Tech companies should respect user privacy by collecting only the data necessary for clear, stated purposes, securing it with strong protections, and giving individuals meaningful control over access and use. While recognizing the benefits of data-driven innovation and security needs, companies should be transparent about practices, enable informed consent and easy opt-out options, and be held to enforceable standards that balance user rights with legitimate societal and business interests.",
+      "Tech companies should respect user privacy by collecting only the data necessary for services, being transparent about how data is used, and giving users clear, accessible choices about sharing and control. While recognizing the need for innovation and legitimate uses such as security and personalization, companies should adopt strong security measures, minimize retention, and be accountable through independent audits and regulatory compliance to build trust across differing perspectives.",
+      "Tech companies should respect users\u2019 privacy by collecting only the data necessary for clear, defined purposes, securing it against misuse, and providing transparent controls that let individuals understand and manage how their information is used. While recognizing the value of data for innovation and safety, companies should be held to accountable standards\u2014through industry best practices and sensible regulation\u2014that balance user rights, practical business needs, and the public interest.",
+      "Tech companies should respect user privacy by collecting only the data necessary for providing services, being transparent about how it is used, and giving users clear, easy-to-use controls over their information; regulators and advocates should ensure baseline protections while allowing companies flexibility to innovate. While perspectives differ on the balance between convenience, personalization, and security, a shared commitment to minimizing data retention, robust security practices, independent oversight, and meaningful consent can protect individuals without unduly hampering beneficial technological progress.",
+      "Tech companies should treat user data with transparency, security, and respect for individual choice: collect only what is necessary, protect it with strong safeguards, and clearly communicate how it is used while offering meaningful user controls. This approach balances innovation and business needs with individuals\u2019 right to privacy, acknowledging both the value of data-driven services and concerns about misuse, and calls for accountable practices and oversight to maintain trust."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "12",
+    "winner_full": "71",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "6",
+    "winner_full": "31",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "6",
+    "winner_full": "31",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "7",
+    "winner_full": "45",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "15",
+    "winner_full": "79",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "12",
+    "winner_full": "71",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "15",
+    "winner_full": "79",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "79",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "61",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "32",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions\u2014especially our election system\u2014we should combine transparent, independently verifiable procedures (auditable paper trails, routine independent audits, and standardized chain-of-custody) with strong cybersecurity and timely, nonpartisan public reporting. Equally important is making processes accessible and understandable through multilingual outreach, disability accommodations, civic education, and plain-language explanations so all communities can see how decisions are made. Empowering local officials, independent observers, and community volunteers with consistent standards and resources will anchor confidence in openness and shared civic responsibility rather than partisan rhetoric.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust, elections should follow transparent, standardized, and independently verifiable procedures: auditable paper ballots or records, routine risk\u2011limiting audits, secure chain\u2011of\u2011custody and strong cybersecurity, with bipartisan independent observation and prompt, plain\u2011language public reporting of results. These safeguards should be paired with consistent nationwide best practices, sustained funding for local election offices, and accessible voting options\u2014multilingual outreach, disability and rural access, and reliable early and mail voting\u2014so all communities can participate. Expanded civic education and opportunities for everyday people to observe and volunteer at elections will help make the process understandable and trustworthy.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions\u2014especially elections\u2014we should adopt transparent, verifiable procedures such as auditable paper ballots, routine independent bipartisan audits, clear chain-of-custody, and strong cybersecurity, supported by consistent, adequately funded standards across jurisdictions. Equally important are plain-language, multilingual communications, accessible polling and voting options for seniors, people with disabilities, rural and immigrant communities, and opportunities for community members to observe and serve as poll workers so they can see the process firsthand. Paired with nonpartisan civic education and prompt correction of misinformation, these measures balance security, inclusivity, and openness so citizens from diverse backgrounds can understand, verify, and rely on institutional outcomes.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "We should rebuild public trust in institutions by combining greater transparency, independent oversight, and consistent accountability with meaningful public participation and clearer communication about decisions and outcomes. This balanced approach addresses calls for both reform and efficiency\u2014responding to demands for integrity and results while guarding institutions against politicization and needless bureaucracy. By measuring and publicly reporting performance, inviting community input, and enforcing clear ethical standards, institutions can regain credibility across diverse constituencies.",
+      "While some people call for sweeping reforms and others urge protection of established expertise, most can agree that institutions earn trust through consistent fairness, competence, and openness. By committing to transparent decision-making, independent oversight, inclusive public engagement, and clear, measurable accountability for outcomes, institutions can address legitimate concerns about bias, secrecy, and inefficiency. Investing in accessible communication and civic education while safeguarding nonpartisan standards creates a practical path toward restoring and sustaining broad public confidence.",
+      "We should strengthen public trust in institutions by combining greater transparency, independent accountability, and consistent delivery of fair services with active civic engagement and protections for impartial expertise. This approach respects calls for reform and community oversight while preserving stable, professional decision-making, using measurable standards, open data, and clear communication to build credibility. By inviting diverse voices into oversight and focusing on results rather than partisan wins, institutions can earn trust across the political spectrum.",
+      "We can rebuild public trust in institutions by committing to transparent decision\u2011making, independent accountability, and meaningful public engagement. This approach acknowledges both concerns about bureaucratic overreach and the need for effective, expert\u2011driven policy by ensuring institutions are open about evidence, responsive to community input, and subject to impartial oversight. By balancing rigor with accessibility\u2014measuring and reporting outcomes, protecting individual rights, and investing in civic education\u2014we create institutions that earn trust through demonstrable results and respectful dialogue.",
+      "Increasing public trust in institutions requires a balanced commitment to transparency, accountability, and meaningful public engagement while preserving the role of expertise and efficient decision-making. Institutions should make data and decisions accessible, establish independent oversight and clear remedies for errors, and create avenues for diverse communities to participate in shaping policies. This approach recognizes legitimate concerns about secrecy and competence, and seeks common ground by building mechanisms that both improve performance and ensure respect for citizens' voices."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

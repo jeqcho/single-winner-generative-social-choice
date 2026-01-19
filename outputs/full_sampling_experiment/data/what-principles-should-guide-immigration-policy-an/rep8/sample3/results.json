@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "4",
+    "winner_full": "8",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "2",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "94",
+    "epsilon": 0.8500000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "34",
+    "epsilon": 0.24
+  },
+  "chatgpt_star_personas": {
+    "winner": "94",
+    "epsilon": 0.8500000000000001
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance compassion, security, and the rule of law by providing a fair, transparent path to citizenship for long\u2011term, law\u2011abiding residents while ensuring sensible border management and thorough vetting. The system should minimize family separation, prioritize vulnerable groups like Dreamers and refugees, and reward work, taxpaying, and civic integration\u2014including language and civics requirements\u2014without imposing unnecessary barriers or discriminatory enforcement.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Our immigration policy should balance compassion, fairness, and the rule of law by offering a clear, attainable path to citizenship for long-term, law\u2011abiding residents\u2014especially Dreamers, families, and essential workers\u2014while protecting public safety through sensible border management, thorough vetting, and consistent enforcement. The system should be efficient and transparent, minimize family separation, address humanitarian needs, and set reasonable standards (such as work, tax contribution, and civic integration) so newcomers can fully belong without overwhelming communities.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Our immigration policy should balance compassion, fairness, and the rule of law: protect vulnerable refugees and keep families together while enforcing secure, orderly borders and consistent vetting. Create a clear, affordable pathway to citizenship for long-term, law\u2011abiding residents who work, pay taxes, learn English, and contribute to their communities, while prioritizing efficient processing and measures that safeguard public safety and economic stability.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Immigration policy should balance national security and the rule of law with compassion and respect for human dignity, creating clear, efficient pathways to citizenship for those who contribute economically and socially while addressing enforcement and border integrity. It should recognize the value of legal immigration, protect vulnerable individuals, and include practical reforms\u2014such as streamlined visa processes, fair adjudication, and opportunities for integration\u2014that both deter exploitation and reflect the country\u2019s commitments to opportunity and shared responsibility.",
+      "Immigration policy should balance the nation\u2019s economic and security needs with respect for human dignity by creating clear, humane pathways for work, family reunification, and eventual citizenship while enforcing fair, consistent rules. Recognizing legitimate concerns about borders and the rule of law as well as the contributions of newcomers, the system should combine reasonable enforcement and orderly entry procedures with accessible, merit- and need-based routes to regularization and citizenship that include safeguards against exploitation and provisions for integration.",
+      "Immigration policy should balance the rule of law and secure borders with a fair, humane path to citizenship that recognizes economic needs, family unity, and refugee protection; practical reforms\u2014such as streamlined legal channels, clear criteria, and robust integration support\u2014can reduce irregular migration while upholding national security. By acknowledging concerns about sovereignty and resource allocation alongside the contributions and rights of immigrants, policymakers can craft measurable, transparent pathways that reward compliance, promote civic responsibility, and enable newcomers to fully participate in society.",
+      "Immigration policy should balance a secure, orderly process with compassion and opportunity by enforcing clear laws and borders while providing humane treatment and realistic pathways for long-term residents to earn citizenship through demonstrated contribution, adherence to the law, and integration into society. This approach acknowledges legitimate concerns about sovereignty and public safety, as well as the economic and moral benefits of allowing willing newcomers to fully participate, and it commits to efficient administration, fair due process, and periodic review to adjust standards based on labor needs and social cohesion.",
+      "Immigration policy should balance a sovereign nation\u2019s right to control its borders with a commitment to fairness, human dignity, and economic practicality by enforcing orderly, transparent processes that welcome newcomers who contribute to society while addressing security and labor market needs. A pragmatic path to citizenship can combine clear legal requirements\u2014such as background checks, language and civic knowledge, and contribution through work or community service\u2014with compassion for families and refugees, ensuring integration supports both newcomers\u2019 opportunities and the public interest. This approach respects differing views by upholding the rule of law and national priorities while providing realistic, humane avenues for those who seek to build a stable life here."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

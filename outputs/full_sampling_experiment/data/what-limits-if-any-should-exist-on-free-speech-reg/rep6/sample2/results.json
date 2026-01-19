@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "17",
+    "epsilon": 0.1299999999999999
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "17",
+    "epsilon": 0.1299999999999999
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "17",
+    "epsilon": 0.1299999999999999
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "17",
+    "epsilon": 0.1299999999999999
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "17",
+    "epsilon": 0.1299999999999999
+  },
+  "chatgpt": {
+    "winner": "3",
+    "winner_full": "49",
+    "epsilon": 0.43999999999999995
+  },
+  "chatgpt_rankings": {
+    "winner": "3",
+    "winner_full": "49",
+    "epsilon": 0.43999999999999995
+  },
+  "chatgpt_personas": {
+    "winner": "3",
+    "winner_full": "49",
+    "epsilon": 0.43999999999999995
+  },
+  "chatgpt_star": {
+    "winner": "49",
+    "epsilon": 0.43999999999999995
+  },
+  "chatgpt_star_rankings": {
+    "winner": "0",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "8",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Free speech is a vital foundation for democracy and for airing unpopular ideas, but it is not absolute when words are used to put others in clear danger or strip them of basic dignity. Reasonable, narrowly drawn limits should prohibit direct threats, credible calls to violence, and targeted harassment that aims to intimidate or dehumanize specific people or protected groups, while leaving broad room for robust debate, education, and non\u2011punitive community responses to offensive views.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Free speech is a vital right that lets people share ideas and learn from one another, but it is not absolute: speech that directly threatens, incites violence, or intentionally targets and harasses people because of who they are should be restricted to protect safety and dignity. Laws and institutions should draw narrow, clear lines\u2014reserving legal penalties for true threats and coordinated dehumanization\u2014while relying on education, counter-speech, and community standards to address offensive or prejudiced views that do not pose a real danger.",
+    "is_new": true,
+    "epsilon": 0.09000000000000008
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Free speech is vital for democracy and for exchanging ideas, but it isn\u2019t absolute: speech that directly threatens, incites violence, or intentionally targets and harasses people because of who they are should be restricted to protect safety and dignity. Laws and policies should be narrowly tailored to stop clear, dangerous harms while leaving space for robust debate, education, and community standards to address offensive or hateful views that don\u2019t cross that line.",
+    "is_new": true,
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Free speech is a fundamental right that should be broadly protected, but it does not include a license to incite violence, harassment, or targeted dehumanization that causes real harm to others; reasonable, narrowly tailored limits can be justified to prevent clear, imminent threats and enduring patterns of targeted abuse while preserving robust debate. Policies and laws should focus on behaviors that directly harm safety and dignity, apply neutral, content\u2011neutral criteria where possible, and include safeguards for due process and appeal to prevent overreach and protect legitimate dissent and criticism.",
+      "Free speech should be broadly protected as a foundation for democratic discourse, while narrowly limited where expression directly and imminently incites violence, constitutes targeted threats, or deliberately facilitates unlawful harm; laws and policies should be precisely defined, transparent, and subject to independent oversight to prevent arbitrary suppression. At the same time, society should prioritize non-coercive responses\u2014education, counter-speech, and support for affected communities\u2014to address hateful ideas without unduly chilling legitimate debate, balancing safety and dignity with robust freedoms of expression.",
+      "Free speech is a fundamental right that should be broadly protected, but it is reasonable to limit speech that intentionally incites violence, harassment, or discrimination against individuals or groups where there is a clear and imminent risk of harm. At the same time, laws and policies should be narrowly tailored, enforceable, and accompanied by robust protections for open debate, education, and counter-speech so that legitimate dissent and criticism are not chilled while vulnerable communities are protected from targeted, harmful conduct.",
+      "Free speech is a vital right that should be broadly protected, but it is reasonable to limit expressions that intentionally incite imminent violence, direct harassment, or targeted threats against individuals or clearly defined groups; such limits should be narrowly tailored, proportionate, and subject to transparent legal standards. At the same time, nonviolent, critical, or offensive speech\u2014even when hateful\u2014should generally be countered through public debate, education, and social sanctions rather than broad censorship, recognizing the need to protect vulnerable communities while preserving open discourse.",
+      "Free expression is essential to a democratic society, but it should not be used as a shield for speech that directly incites violence, harassment, or the systematic exclusion of vulnerable groups; narrowly targeted legal limits and well-enforced policies are therefore justified to prevent clear harms while minimizing overreach. At the same time, responses to hateful ideas should prioritize counter-speech, education, and support for affected communities, ensuring that restrictions are proportional, transparent, and subject to oversight so that legitimate debate and dissent remain protected."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

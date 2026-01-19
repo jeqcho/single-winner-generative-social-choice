@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "18",
+    "winner_full": "84",
+    "epsilon": 0.06000000000000005
+  },
+  "borda": {
+    "winner": "16",
+    "winner_full": "73",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "18",
+    "winner_full": "84",
+    "epsilon": 0.06000000000000005
+  },
+  "plurality": {
+    "winner": "18",
+    "winner_full": "84",
+    "epsilon": 0.06000000000000005
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "7",
+    "winner_full": "36",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "18",
+    "winner_full": "84",
+    "epsilon": 0.06000000000000005
+  },
+  "chatgpt_personas": {
+    "winner": "14",
+    "winner_full": "62",
+    "epsilon": 0.1299999999999999
+  },
+  "chatgpt_star": {
+    "winner": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "18",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when people can see how decisions are made, how money is spent, and what happens when leaders get it wrong. Institutions should publish clear performance measures and open data, welcome independent oversight, and enforce consistent ethics rules with real consequences for misconduct. Just as important, they should listen through regular community forums, respond quickly to problems with plain-language updates, and deliver services fairly and reliably across all communities.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Public trust in elections grows when the process is transparent, verifiable, and nonpartisan\u2014using auditable paper ballots or voter-verifiable records, strict chain-of-custody, and routine independent risk-limiting audits with results reported publicly. We should pair strong security and open observer access with clear, plain-language and multilingual explanations of how votes are cast, counted, and checked, and communicate promptly to counter misinformation. At the same time, ensure equal access for all eligible voters through well-funded local election offices, accessible polling places, and options like early and mail voting with clear safeguards.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase public trust in institutions, we should make decisions and results easy to verify: clear standards, transparent data and methods, independent audits/inspections, and public reporting in plain language. Institutions should be insulated from partisan or special-interest interference through nonpartisan oversight, strong ethics rules, and consistent enforcement of the rule of law. Trust also grows when services are accessible and respectful\u2014multilingual communication, disability access, and real opportunities for community input\u2014paired with rapid, factual responses to misinformation and mistakes.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "To increase public trust in institutions, we should pair stronger transparency and accountability with a clear focus on delivering reliable, fair outcomes for everyday people. Those concerned about overreach deserve meaningful oversight, open data where possible, and consequences for misconduct, while those emphasizing stability and expertise deserve well-resourced institutions that can do their jobs effectively. Building trust requires consistent standards, independent auditing, and genuine public participation so institutions both perform well and earn legitimacy over time.",
+      "Public trust in institutions can grow when institutions consistently demonstrate both competence and accountability\u2014delivering results while being transparent about decisions, data, and mistakes. People who emphasize order and effectiveness and those who prioritize fairness and rights can agree on clear standards: independent oversight, open information by default, and real consequences for misconduct. Trust also depends on meaningful public input, so institutions should create regular, accessible ways for communities to participate and to see how feedback changes outcomes.",
+      "To increase public trust in institutions, we should combine stronger transparency and accountability with a commitment to competence and fairness in delivering services. This means making decisions and data easier to scrutinize, enforcing clear consequences for misconduct, and creating simple channels for public input without turning every issue into partisan conflict. At the same time, institutions need stable resources and professional standards so they can reliably do their jobs and communicate honestly about trade-offs and limits.",
+      "Building public trust in institutions requires pairing strong performance with genuine accountability. People who value stability and expertise and those who worry about power and opacity can agree on clearer standards, independent oversight, and transparent data about results and mistakes. Trust grows when institutions consistently deliver fair services, communicate honestly, and create meaningful ways for communities to participate in decisions that affect them.",
+      "To increase public trust in institutions, we should pair stronger transparency and accountability with a commitment to stable, effective service delivery. People who are skeptical deserve clear evidence\u2014open data, independent audits, and real consequences for misconduct\u2014while those who value institutional continuity need reforms that improve performance without undermining essential functions. A practical path forward is to involve communities in setting priorities, communicate decisions and tradeoffs plainly, and measure results publicly so trust is earned through consistent action over time."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

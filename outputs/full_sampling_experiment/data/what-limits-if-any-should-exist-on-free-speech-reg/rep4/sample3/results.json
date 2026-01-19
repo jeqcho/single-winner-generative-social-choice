@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "4",
+    "winner_full": "16",
+    "epsilon": 0.07000000000000006
+  },
+  "chatgpt_rankings": {
+    "winner": "5",
+    "winner_full": "20",
+    "epsilon": 0.1299999999999999
+  },
+  "chatgpt_personas": {
+    "winner": "4",
+    "winner_full": "16",
+    "epsilon": 0.07000000000000006
+  },
+  "chatgpt_star": {
+    "winner": "38",
+    "epsilon": 0.31000000000000005
+  },
+  "chatgpt_star_rankings": {
+    "winner": "46",
+    "epsilon": 0.41999999999999993
+  },
+  "chatgpt_star_personas": {
+    "winner": "36",
+    "epsilon": 0.27
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Free speech is a fundamental right that must be broadly protected, but it is not absolute: there should be clear, narrowly drawn limits on speech that intentionally threatens, incites imminent violence, or is part of sustained, targeted harassment that makes people unsafe. Beyond legal prohibitions, we should rely on community norms, education, and accountable institutions \u2014 including platforms, workplaces, and schools \u2014 to discourage dehumanizing rhetoric while preserving space for difficult or unpopular ideas to be debated.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Free speech is a vital right, but it is not absolute: speech that directly threatens, incites violence, or persistently targets and harasses people because of their race, religion, gender, or other protected traits should be limited by law and community standards. At the same time, we should protect robust debate and difficult opinions, rely first on clear legal lines for real dangers, and use education, moral leadership, and social accountability to counter hateful ideas before expanding censorship.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Free speech is a vital freedom, but it is not absolute: society should protect open debate while drawing clear legal and community lines where speech directly threatens, harasses, or incites violence against people because of who they are. Beyond prosecuting true threats and coordinated calls for harm, we should rely on schools, employers, platforms, faith communities, and civic norms to discourage dehumanizing rhetoric and promote respectful disagreement so that vulnerable people can live safely without silencing legitimate, even unpopular, ideas.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Free speech is a foundational right that should be broadly protected, but it is reasonable to limit expressions that intentionally incite violence, direct harassment, or the dehumanization of identifiable groups in ways that create imminent harm. At the same time, restrictions should be narrowly tailored, clearly defined, and subject to oversight to avoid suppressing legitimate debate, dissent, or artistic expression; society should instead combine legal safeguards with education, counter-speech, and support for vulnerable communities to reduce harm while preserving open discourse.",
+      "Free speech should be broadly protected as a foundation for democratic debate, but it is reasonable to limit expressions that intentionally incite violence, coordinated harassment, or credible threats against individuals or groups; such narrow, clearly defined restrictions protect safety without silencing legitimate criticism. At the same time, civic education and counter-speech should be promoted to challenge hateful ideas in the public sphere, ensuring that restrictions are applied transparently, proportionately, and subject to independent oversight so differing values and minority rights are respected.",
+      "Free speech is a fundamental value that should be broadly protected, but it is reasonable to limit expressions that intentionally incite violence, harassment, or discrimination against identifiable groups; such narrowly tailored restrictions protect public safety and equal dignity without silencing legitimate debate. At the same time, laws and policies should preserve robust, nonviolent discussion, provide clear definitions to avoid arbitrary enforcement, and prioritize education and counter-speech as primary responses to hateful ideas.",
+      "Free speech is a fundamental right that should be protected, but it is not absolute; limits can be justified when speech directly incites violence, constitutes credible threats, or intentionally targets individuals or groups with harassment that prevents their equal participation in society. At the same time, restrictions should be narrowly and clearly defined, applied consistently, and subject to due process to avoid suppressing legitimate debate and dissent, while promoting education and community-led measures to address harmful prejudice.",
+      "Free speech should be broadly protected to preserve open debate and individual liberty, but reasonable, narrowly tailored limits are justified when expression directly incites imminent violence, constitutes targeted harassment, or deliberately seeks to silence marginalized groups through threats or doxxing. Policies and laws should be specific, proportionate, and subject to transparent oversight and due process to prevent misuse while prioritizing education, counter-speech, and community standards to address harmful attitudes without unduly restricting legitimate discourse."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "10",
+    "winner_full": "50",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "6",
+    "winner_full": "34",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "11",
+    "winner_full": "54",
+    "epsilon": 0.020000000000000018
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "6",
+    "winner_full": "34",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "7",
+    "winner_full": "39",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "19",
+    "winner_full": "90",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_personas": {
+    "winner": "7",
+    "winner_full": "39",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "17",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "13",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "17",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "The most effective anti-littering policy is a balanced approach that makes proper disposal easy and makes expectations clear: well-placed, regularly serviced trash and recycling bins, straightforward signage, and dependable maintenance. Pair that with fair, consistent enforcement\u2014starting with warnings or community service and escalating fines for repeat offenders\u2014so accountability doesn\u2019t feel arbitrary or punitive. Finally, involve residents, schools, and local businesses in neighborhood \u201cadopt-a-block\u201d efforts and practical education so clean public spaces become a shared norm rather than just a rule.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "The best way to prevent littering is a practical mix of convenience, accountability, and community pride: put plenty of clearly marked trash and recycling bins where people actually gather, keep them regularly emptied, and use clear signage (including multilingual/pictorial signs where helpful). Pair that with fair, consistently enforced fines\u2014especially for repeat offenders\u2014and options like community service cleanup so consequences also educate. Finally, strengthen the culture through school and community programs and regular volunteer cleanups, while partnering with nearby businesses and local groups to help keep surrounding areas clean.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "The most effective way to prevent littering is a balanced approach that makes doing the right thing easy and keeps expectations clear: place plenty of well-marked trash and recycling bins where people actually gather, empty them regularly, and use simple signs (including multiple languages and kid-friendly visuals). Pair this with fair, consistently enforced consequences\u2014starting with warnings or community service and escalating fines for repeat offenders\u2014so accountability is real without being overly punitive. Build long-term buy-in through school and community programs and regular clean-up events, and partner with nearby businesses and local groups to help keep high-traffic areas clean and cared for.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "The most effective anti-littering approach balances personal responsibility with practical support: clear expectations, fair enforcement, and convenient ways to dispose of waste. Communities can pair targeted fines and cleanup requirements for repeat offenders with investments in more bins, better pickup schedules, and public education, especially in high-traffic areas. This middle path recognizes that behavior matters while also acknowledging that infrastructure and local conditions shape whether people can dispose of trash responsibly.",
+      "Effective anti-littering policy should balance personal responsibility with practical support, pairing fair enforcement (like proportionate fines or community service) with convenient options such as more bins, regular collection, and well-designed public spaces. Those who prioritize education and those who emphasize accountability can agree on consistent public messaging, clear signage, and targeted interventions in high-litter areas. Measuring results and adjusting strategies\u2014while ensuring rules are applied equitably\u2014can reduce litter without overburdening communities or businesses.",
+      "The most effective anti-littering policies combine shared responsibility with practical tools: convenient, well-maintained disposal options and clear, consistent rules that are fairly enforced. Many people prefer education and positive incentives, while others emphasize penalties to deter repeat offenses; a balanced approach can do both by prioritizing outreach and community cleanup partnerships alongside targeted fines for chronic violators. Setting measurable goals and funding enforcement and maintenance transparently can keep public spaces clean without overburdening any one group.",
+      "Preventing litter in public spaces works best with a balanced mix of education, convenient infrastructure, and fair enforcement. Communities can invest in well-placed bins, regular collection, and clear signage while running campaigns that build shared norms and pride in clean neighborhoods. At the same time, proportionate fines and targeted enforcement in problem areas can reinforce expectations without being overly punitive, especially when paired with opportunities like community service or cleanup programs.",
+      "Effective anti-littering policy should combine fair enforcement with practical supports that make proper disposal easy and expected. A balanced approach can pair visible, proportionate fines and community service for repeat offenders with better bin placement, regular maintenance, clear signage, and public education\u2014so people aren\u2019t punished for lack of access or information. By also involving local businesses and community groups in cleanups and prevention efforts, communities can protect public spaces while respecting concerns about equity, costs, and over-policing."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

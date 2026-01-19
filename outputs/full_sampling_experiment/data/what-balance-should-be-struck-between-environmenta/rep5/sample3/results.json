@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "17",
+    "winner_full": "89",
+    "epsilon": 0.79
+  },
+  "chatgpt_rankings": {
+    "winner": "11",
+    "winner_full": "68",
+    "epsilon": 0.5700000000000001
+  },
+  "chatgpt_personas": {
+    "winner": "11",
+    "winner_full": "68",
+    "epsilon": 0.5700000000000001
+  },
+  "chatgpt_star": {
+    "winner": "69",
+    "epsilon": 0.56
+  },
+  "chatgpt_star_rankings": {
+    "winner": "69",
+    "epsilon": 0.56
+  },
+  "chatgpt_star_personas": {
+    "winner": "69",
+    "epsilon": 0.56
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "We should pursue climate policies that protect the air, water, and communities while enabling steady economic opportunity\u2014by pairing clear, science-based environmental standards with market-friendly incentives, investments in clean infrastructure, and robust transition support for affected workers and regions. This balanced approach recognizes urgent ecological limits and uses innovation, job training, and predictable rules to grow a resilient economy that leaves no one behind.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "We must protect the environment while keeping communities and jobs secure by pursuing pragmatic, market-friendly climate policies that drive investment in cleaner technologies, energy efficiency, and resilient infrastructure. Set clear, science-based environmental guardrails and use incentives, targeted regulation, and transition support\u2014job training, community investment, and assistance for affected industries\u2014to ensure the shift to a low-carbon economy is fair, affordable, and strengthens long-term growth and energy reliability.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "We should tackle climate change in ways that protect public health and natural systems while also supporting jobs, families, and long-term economic competitiveness. That means setting clear, science-based environmental goals and using market-friendly tools\u2014like incentives for clean technology, targeted investments in workforce retraining, and support for communities dependent on legacy industries\u2014so innovation and enterprise can thrive as we transition to a cleaner, more resilient economy.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Sustainable prosperity requires balancing environmental protection with responsible economic growth by prioritizing policies that create long-term value for both people and the planet. We can agree to pursue development that safeguards critical ecosystems and public health while investing in green technologies, job retraining, and market-based incentives so economic opportunities expand without degrading natural capital.",
+      "Sustainable prosperity requires policies that protect vital ecosystems while enabling responsible economic development; investments in clean technologies, resource-efficient practices, and just transition programs can support jobs and growth without sacrificing environmental health. By recognizing the need for both short-term livelihoods and long-term planetary limits, stakeholders can pursue pragmatic, evidence-based measures\u2014such as targeted regulation, incentives for innovation, and community-centered planning\u2014that balance conservation with equitable economic opportunity.",
+      "Sustainable progress requires harmonizing environmental protection with responsible economic growth by prioritizing policies that decouple prosperity from ecological harm\u2014investing in clean technologies, resource-efficient practices, and fair transition support for affected workers and communities. While stakeholders may disagree on timelines and trade-offs, we can agree to set science-based environmental limits, incentivize innovation and job creation in green sectors, and use adaptive, evidence-driven policies to balance short-term needs with long-term planetary and economic resilience.",
+      "We should pursue an integrated approach that protects essential ecosystems and public health while enabling sustainable economic opportunities, recognizing that long-term prosperity depends on a healthy environment. By investing in clean technologies, smart regulation, and fair transition supports for affected workers and communities, we can reconcile conservation goals with responsible growth and share the benefits across society.",
+      "A healthy economy and a healthy environment are mutually reinforcing goals, so policies should aim to foster sustainable economic growth that protects natural resources and public health. By prioritizing cost-effective regulations, market-based incentives, investment in clean technologies, and support for communities and workers in transition, we can balance short-term economic needs with long-term ecological resilience and shared prosperity."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

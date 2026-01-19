@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt": {
+    "winner": "5",
+    "winner_full": "41",
+    "epsilon": 0.28
+  },
+  "chatgpt_rankings": {
+    "winner": "5",
+    "winner_full": "41",
+    "epsilon": 0.28
+  },
+  "chatgpt_personas": {
+    "winner": "5",
+    "winner_full": "41",
+    "epsilon": 0.28
+  },
+  "chatgpt_star": {
+    "winner": "58",
+    "epsilon": 0.44999999999999996
+  },
+  "chatgpt_star_rankings": {
+    "winner": "58",
+    "epsilon": 0.44999999999999996
+  },
+  "chatgpt_star_personas": {
+    "winner": "41",
+    "epsilon": 0.28
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "To rebuild broad public trust in institutions, we should adopt transparent, nonpartisan procedures that combine verifiable paper records, routine independent audits, and consistent cybersecurity and chain-of-custody standards while preserving reasonable local control. Pairing those safeguards with clear, plain-language public reporting, accessible voter education and outreach in multiple languages, and independent oversight will help people from different backgrounds see and verify that processes are fair, secure, and applied evenly.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions, especially elections, we should ensure transparent, nonpartisan, and verifiable processes\u2014using voter-verified paper ballots, strong cybersecurity, and independent, bipartisan audits with clear, timely public reporting. Pair these safeguards with plain-language civic education, multilingual outreach, and accessible voting options so all communities can understand and participate confidently. Open data, independent oversight, and consistent standards across jurisdictions will help counter misinformation and demonstrate that every vote is counted and every voice is respected.",
+    "is_new": true,
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions, we should ensure transparent, nonpartisan processes with clear, plain-language explanations and consistent standards so everyone can see how decisions are made. Invest in secure, auditable systems, independent oversight, and routine, publicly reported checks while expanding accessible civic education, multilingual outreach, and community-based engagement so all people\u2014regardless of background or age\u2014can participate confidently and verify that procedures are fair and accountable.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0020000000000000018,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.010000000000000009,
+      0.0
+    ],
+    "statements": [
+      "To increase public trust in institutions, leaders should commit to clear, consistent transparency about decision-making and be held accountable through independent oversight, while institutions also actively engage communities to listen and respond to concerns. This approach respects the need for effective governance and expertise while acknowledging citizens\u2019 demand for openness and participation, balancing stability with responsiveness to diverse perspectives.",
+      "To increase the public's trust in institutions, we should strengthen transparency, accountability, and public participation so people can see how decisions are made and hold leaders responsible. This includes clear communication of evidence and motives, independent oversight to prevent abuses, and meaningful avenues for community input\u2014balancing expert guidance with responsiveness to citizens\u2019 values and concerns.",
+      "To increase public trust in institutions, leaders should combine greater transparency about decision-making and outcomes with meaningful accountability measures, while ensuring policies are responsive to community needs. This approach balances demands for openness and oversight with the practical necessity of effective governance, recognizing both the public\u2019s call for scrutiny and institutions\u2019 need for clear processes to deliver results.",
+      "To strengthen public trust in institutions, we should combine greater transparency and accountability with meaningful opportunities for public input and oversight, ensuring decisions are clearly explained and evidence-based. This approach respects the need for competent, expert-led governance while addressing calls for responsiveness and community representation, creating predictable rules and accessible channels for feedback and redress.",
+      "To increase public trust in institutions, leaders should commit to transparent decision-making, consistent accountability, and accessible communication while inviting independent oversight and regular public input. This approach balances the need for effective, expert-driven action with protections against abuse and ensures that diverse perspectives are heard and addressed, helping institutions earn legitimacy through both performance and fairness."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

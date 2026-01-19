@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "7",
+    "winner_full": "26",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "7",
+    "winner_full": "26",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "7",
+    "winner_full": "26",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "19",
+    "winner_full": "97",
+    "epsilon": 0.08000000000000007
+  },
+  "veto_by_consumption": {
+    "winner": "7",
+    "winner_full": "26",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "13",
+    "winner_full": "64",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_personas": {
+    "winner": "2",
+    "winner_full": "10",
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_star": {
+    "winner": "79",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "15",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "56",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when people can see clear standards, consistent enforcement, and real consequences for mistakes or misconduct\u2014paired with services that treat everyone fairly and respectfully. Institutions should publish plain-language rules, open key decisions and data to independent review, and report errors quickly with specific fixes and timelines. Just as important, they must create regular two-way channels with communities (local forums, ombuds offices, and transparent feedback metrics) so concerns are heard early and trust is rebuilt through demonstrated follow-through.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions, we should make decisions and outcomes easy to verify: publish clear rules, maintain strong records, and use independent, nonpartisan audits with transparent, plain-language reporting of results and any errors\u2014plus how they were fixed. Pair that accountability with practical accessibility, including multilingual information, reasonable hours, and barrier-free services so participation is straightforward for every community. Finally, invest in civic education and local, face-to-face outreach from trusted community partners to reduce misinformation and help people see the system working step by step.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild trust in institutions, we should make the rules clear, the work visible, and the results verifiable: publish plain-language explanations of decisions, disclose funding and conflicts of interest, and use independent audits and public reporting so people can see how conclusions were reached and errors are corrected. Trust also grows when services are easy to access and fair\u2014consistent standards, respectful treatment, and accommodations like multilingual information and disability access\u2014so families, workers, and seniors experience reliability firsthand. Finally, institutions should create regular two-way channels (local forums, ombuds offices, and transparent complaint tracking) and leaders should commit to honesty and accountability even when outcomes are unpopular.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Public trust in institutions can grow when institutions are both effective and accountable: delivering tangible results while being transparent about decisions, data, and mistakes. People who prioritize stability can be assured by consistent performance and professional standards, while those demanding change can see credible oversight, independent audits, and real consequences for misconduct. Creating regular two-way engagement\u2014clear communication, accessible services, and meaningful public input\u2014helps institutions earn trust rather than assume it.",
+      "Public trust in institutions can be strengthened by combining clear accountability with practical improvements people can feel in their daily lives. That means more transparency about decisions and outcomes, independent oversight that applies equally to everyone, and consistent consequences for misconduct, while also ensuring services are reliable, fair, and accessible. At the same time, institutions should invite meaningful public input and communicate honestly about tradeoffs and uncertainty so trust is earned through both integrity and performance.",
+      "Public trust in institutions can be strengthened by pairing meaningful transparency and accountability with fair, effective service delivery that people can see and measure. While some emphasize stronger oversight and others worry about overregulation or politicization, most agree decisions should be explained, outcomes tracked, and misconduct addressed consistently. Building ongoing two-way engagement\u2014so institutions listen, admit mistakes, and improve\u2014can protect independence while ensuring they remain responsive to the communities they serve.",
+      "Public trust in institutions can grow when institutions earn it through consistent transparency, accountability, and measurable results, rather than expecting deference. This means strengthening independent oversight, reducing conflicts of interest, and making decisions and data easier for the public to scrutinize, while also protecting institutions\u2019 ability to act on expertise in emergencies. At the same time, citizens deserve clearer channels for participation and feedback so policies reflect lived experience as well as technical knowledge. Focusing on openness, fairness, and responsiveness can unite those who want reform with those who want institutions to remain capable and stable.",
+      "To rebuild public trust in institutions, we should pair greater transparency and accountability with a commitment to competent, fair service delivery. People who worry about corruption and bias deserve clearer oversight, open data, and real consequences for failures, while those who value stable institutions deserve reforms that strengthen\u2014not undermine\u2014their ability to function. By expanding independent audits, improving public communication, and creating meaningful ways for communities to participate in decisions, institutions can earn trust through consistent results and honest governance."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

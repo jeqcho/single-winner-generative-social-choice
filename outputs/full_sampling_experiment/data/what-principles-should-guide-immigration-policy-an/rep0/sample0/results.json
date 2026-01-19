@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "1",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "1",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "96",
+    "epsilon": 0.8700000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "96",
+    "epsilon": 0.8700000000000001
+  },
+  "chatgpt_star_personas": {
+    "winner": "80",
+    "epsilon": 0.71
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Immigration policy should combine secure, well-managed borders and consistent enforcement with a humane, affordable pathway to legal status and citizenship that rewards work, law-abiding behavior, and community contribution. It should protect families and vulnerable refugees, include sensible requirements like background checks and civic integration (e.g., language and civics), and streamline legal channels so the system is fair, efficient, and aligned with economic needs while upholding human dignity.",
+    "is_new": true,
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Immigration policy should be fair, humane, and orderly: secure and manage our borders responsibly while providing a clear, affordable path to legal status and citizenship for people who work, pay taxes, follow the law, and contribute to their communities. The system should protect families and vulnerable people, include reasonable background checks and integration supports (like English and civics education), and be efficiently enforced so it\u2019s not abused or so slow and costly that only the wealthy can navigate it.",
+    "is_new": true,
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Our immigration policy should be fair, humane, and practical: secure and orderly borders and consistently enforced rules, paired with an affordable, transparent path to legal status and citizenship for people who work, pay taxes, pass reasonable background checks, and commit to learning English and civic responsibilities. The system should protect families, Dreamers, and refugees, prevent exploitation, and be efficient so immigrants who contribute to our communities and economy can fully integrate and belong without being trapped in limbo.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Immigration policy should balance the rule of law and secure borders with humane treatment and clear, attainable pathways to citizenship, recognizing both national interests and immigrants\u2019 contributions to society. By enforcing fair, transparent processes that prioritize family unity, economic needs, and public safety\u2014while providing opportunities for integration such as language, education, and workforce training\u2014we can uphold sovereignty, reduce irregular migration, and honor shared values of opportunity and responsibility.",
+      "Immigration policy should balance the rule of law and national security with a fair, humane approach that recognizes immigrants\u2019 economic contributions and human dignity. A shared pathway to citizenship should include clear, achievable requirements\u2014such as background checks, payment of fines or taxes, and demonstrated commitment to civic integration\u2014while providing protections for vulnerable individuals and mechanisms to address labor needs and family unity. This compromise respects concerns about orderly borders and sovereignty while offering practical, compassionate solutions that strengthen communities and the economy.",
+      "Immigration policy should balance the nation\u2019s security and economic needs with a commitment to human dignity by maintaining orderly, enforceable borders while providing lawful, transparent pathways to work and citizenship for those who contribute and comply with the law. Recognizing concerns about jobs, public resources, and rule of law alongside the humanitarian contributions and family ties of newcomers, policy should combine fair enforcement, efficient processing, and targeted reforms\u2014such as earned legalization, employer verification, and investments in integration\u2014to promote both community stability and opportunity.",
+      "Immigration policy should balance the rule of law and national sovereignty with a humane, orderly approach that recognizes immigrants' contributions and the economic and humanitarian realities that drive migration. Policies should secure borders and enforce reasonable requirements while creating clear, fair, and attainable pathways to citizenship for long-term residents and those with strong ties to the community, paired with investments in processing capacity and integration programs to protect public safety, uphold shared values, and strengthen the economy.",
+      "Immigration policy should balance national security and economic needs with a commitment to fairness and human dignity by enforcing lawful entry while creating realistic, humane pathways for long-term residents to earn citizenship. Recognizing concerns about borders and public resources as well as the contributions of immigrants, policies should combine effective enforcement, streamlined legal immigration channels, and clear, attainable criteria for status adjustment that reward work, family ties, and civic integration."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

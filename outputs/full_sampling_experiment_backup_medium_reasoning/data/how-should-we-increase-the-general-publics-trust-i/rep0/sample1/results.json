@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "1",
+    "winner_full": "10",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "10",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "1",
+    "winner_full": "10",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "18",
+    "winner_full": "94",
+    "epsilon": 0.42999999999999994
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "10",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "8",
+    "winner_full": "67",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "1",
+    "winner_full": "10",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "8",
+    "winner_full": "67",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "10",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "52",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions, leaders should combine verifiable procedures and independent oversight with clear, plain-language reporting that people from diverse communities can understand. Policies must protect access, privacy, and integrity\u2014using auditable records, consistent standards, and routine transparent reviews\u2014so citizens can confirm outcomes without feeling excluded. Ongoing community engagement, multilingual education, and prompt, nonpartisan correction of errors and misinformation will help institutions earn and sustain broad confidence.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Restore public trust by combining transparent, nonpartisan administration with verifiable, evidence-based safeguards\u2014such as paper ballots or equivalent records, routine risk-limiting and independent audits, clear chain-of-custody and cybersecurity protections, and bipartisan or independent oversight. Publish timely, plain-language explanations and audit results in multiple languages and accessible formats, invest in voter education and inclusive access for seniors and people with disabilities, and hold officials accountable for deliberate misinformation so people can see the process is fair, secure, and verifiable.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions, they should operate transparently, independently, and accountably\u2014using verifiable practices, regular nonpartisan oversight or audits, and clear, timely reporting so people can see and understand decisions that affect them. Institutions must also protect access and privacy, communicate in plain language and multiple languages, engage with local communities and trusted leaders, and actively counter misinformation with evidence and education so all people\u2014regardless of age, background, or belief\u2014can participate confidently.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "To rebuild public trust in institutions, leaders should commit to transparent decision-making, consistent accountability, and independent oversight while delivering measurable, equitable results that serve the common good. This approach respects calls for reform and safeguards against hasty dismantling by combining clear rules, accessible information, and regular public engagement to ensure institutions are responsive, fair, and effective. By prioritizing evidence-based policies, ethical standards, and opportunities for meaningful civic participation, diverse stakeholders can find common ground in strengthening institutions that protect rights and improve everyday life.",
+      "To increase public trust in institutions, we should commit to greater transparency, consistent accountability, and meaningful public engagement so people can see decisions, understand the rationale, and have a genuine voice in outcomes. This approach balances calls for necessary reforms and oversight with respect for institutional expertise and stability, ensuring changes are evidence-based, fair, and protect the common good. Complemented by stronger ethics enforcement, independent oversight, and civic education, these steps can rebuild confidence across diverse communities while safeguarding effective governance.",
+      "To strengthen public trust in institutions, leaders should commit to greater transparency, independent accountability, and consistent delivery of fair, evidence-based results while protecting avenues for meaningful public participation. This balances calls for structural reform and respect for professional expertise by combining measurable performance standards with regular community engagement and oversight. Clear, honest communication and timely mechanisms to correct mistakes will help diverse groups see institutions as competent, responsive, and legitimate.",
+      "We should strengthen public trust in institutions by combining greater transparency and independent accountability with meaningful community engagement and clear performance metrics. This approach respects concerns about elitism and political capture by protecting nonpartisan expertise and oversight, while also addressing demands for responsiveness and inclusion through participatory processes and better communication. By committing to measurable reforms, regular public reporting, and accessible avenues for feedback and redress, institutions can rebuild legitimacy across diverse constituencies.",
+      "To increase public trust in institutions, leaders should combine transparent decision-making, accountable oversight, and clear, honest communication about goals, limits, and outcomes. This approach respects both calls for reform and the need for stable public services by involving independent review, community participation, and protections for privacy and fairness. By demonstrating competence through measurable results and promptly addressing errors or abuses, institutions can rebuild confidence across diverse communities while safeguarding democratic values."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

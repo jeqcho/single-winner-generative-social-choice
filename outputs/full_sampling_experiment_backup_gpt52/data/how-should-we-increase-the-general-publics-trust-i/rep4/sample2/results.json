@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "10",
+    "winner_full": "33",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "10",
+    "winner_full": "33",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "10",
+    "winner_full": "33",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "3",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "10",
+    "winner_full": "33",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "11",
+    "winner_full": "34",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "11",
+    "winner_full": "34",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "11",
+    "winner_full": "34",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "65",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "10",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "32",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in elections rises when people can both participate easily and independently verify that rules are followed and results are accurate. We should standardize core safeguards\u2014paper-backed or otherwise auditable ballots, routine risk-limiting audits, strong chain-of-custody and cybersecurity, and transparent public reporting\u2014while keeping voting accessible through well-run in-person options, early voting, and secure mail where used. Clear, multilingual, plain-language explanations from nonpartisan local officials, paired with open observation opportunities and rapid correction of mistakes or misinformation, can help communities see the system\u2019s integrity for themselves.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions\u2014especially elections\u2014we should make decisions and results easy for the public to verify: paper or otherwise auditable records, routine independent post\u2011election audits, strong cybersecurity, and strict chain\u2011of\u2011custody with transparent public reporting. Participation should be secure and accessible through well-run polling places and options like early and mail voting, paired with clear, consistent rules and reasonable identity/eligibility checks that don\u2019t block eligible voters. Finally, institutions should communicate promptly in plain, multilingual language, support civics education, and work with trusted local community leaders to address concerns and misinformation respectfully.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild the public\u2019s trust in institutions, we should make decisions and results easy to verify: clear rules that are applied consistently, open data and plain-language reporting, regular independent audits, and strong cybersecurity and records protections. Trust also grows when services are accessible and respectful\u2014through multilingual information, disability-friendly access, and multiple safe ways to participate\u2014so no community feels shut out. Institutions should be overseen transparently by nonpartisan, community-rooted panels (including local officials, educators, faith and civic groups) and respond quickly and calmly to mistakes and misinformation with evidence and corrective action.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Public trust in institutions can grow when people see both stronger accountability and better everyday performance, without turning reforms into partisan score\u2011settling. We can combine greater transparency (clear metrics, open data where safe, and independent audits) with meaningful public input and consistent enforcement of rules, while still protecting expert judgment in complex decisions. Investing in fair, accessible services and correcting mistakes openly helps show institutions are competent and responsive, giving skeptics reasons to reengage and supporters confidence that trust is being earned.",
+      "We can increase public trust in institutions by pairing stronger transparency and accountability with practical improvements in everyday service and outcomes. People who worry about overreach and bias deserve clear rules, independent oversight, and accessible ways to challenge decisions, while those who value institutional stability can support reforms that protect competence and continuity. A shared path is to publish understandable performance data, enforce consequences for misconduct, and involve communities in decision-making so institutions remain both trustworthy and effective.",
+      "Increasing public trust in institutions should focus on making them more transparent, accountable, and responsive, while recognizing that skepticism can be both a healthy check and a sign of real past failures. We can build confidence by strengthening oversight, publishing clear performance measures, protecting whistleblowers, and ensuring decisions are explained in plain language with meaningful opportunities for public input. At the same time, institutions should be supported to deliver reliable services consistently, so trust is earned through results rather than demanded through authority.",
+      "To increase public trust in institutions, we should pair stronger transparency and accountability with a commitment to stable, effective public service. People who worry about overreach deserve clear limits, independent oversight, and consequences for misconduct, while those who value institutional capacity deserve adequate resources and professional standards to deliver results. Across perspectives, trust grows when decisions and data are openly explained, communities have meaningful input, and institutions consistently show they can correct mistakes and serve everyone fairly.",
+      "To increase public trust in institutions, we should pair stronger transparency and accountability with a commitment to fair, effective service delivery. People who favor reform are right that clear standards, independent oversight, and consequences for misconduct matter, while those wary of constant disruption are right that stable institutions are essential for safety, health, and economic opportunity. A practical consensus is to make decision-making more open, measure performance publicly, and invite regular community input\u2014while protecting institutional independence from partisan swings and ensuring reforms are evaluated for real-world results."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "16",
+    "winner_full": "73",
+    "epsilon": 0.6100000000000001
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "97",
+    "epsilon": 0.8400000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "31",
+    "epsilon": 0.17999999999999994
+  },
+  "chatgpt_star_personas": {
+    "winner": "31",
+    "epsilon": 0.17999999999999994
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Artificial intelligence should be developed and deployed as a widely accountable public tool that enhances human well\u2011being\u2014improving healthcare, education, public services, and environmental protection\u2014while keeping humans in final judgment for decisions that affect rights, livelihoods, and dignity. Its use must be governed by clear, democratically established rules: transparency about how systems work, independent audits for safety and bias, strong privacy protections, and meaningful participation from workers, communities, and affected groups so benefits are shared and harms can be remedied.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Artificial intelligence should be used primarily as a tool to support human well\u2011being\u2014improving healthcare, education, public services, workplace safety, and environmental protection\u2014without replacing human judgment, responsibility, or dignity. Its development and deployment must be transparent, independently audited, and governed by strong, democratically accountable rules that protect privacy, prevent discrimination and surveillance, and give everyday people, workers, and communities a meaningful voice.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "AI should be a practical, well\u2011tested tool that helps improve healthcare, education, jobs, and public services while protecting human dignity, privacy, and community values. Its deployment must keep humans in charge\u2014especially for decisions affecting livelihoods, safety, and civil rights\u2014and be governed by transparent, enforceable rules, independent audits, and meaningful public input so workers, families, faith and community leaders, and vulnerable groups all have a voice.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Artificial intelligence should be developed and deployed to augment human capabilities, improve quality of life, and address societal challenges\u2014while being governed by transparent, accountable, and inclusive safeguards that mitigate harms and protect rights. We can balance innovation and caution by investing in public benefits, equitable access, and robust oversight that includes diverse stakeholders, ensuring AI serves the common good without concentrating power or eroding human dignity.",
+      "Artificial intelligence should be developed and deployed to augment human capabilities, improve public welfare, and drive innovation while being guided by transparent, accountable, and rights-respecting safeguards that minimize harms and bias. By combining responsible regulation, ethical design, and inclusive public input, society can harness AI\u2019s benefits\u2014economic growth, better healthcare, and improved decision-making\u2014while protecting privacy, equity, and democratic values.",
+      "Artificial intelligence should be developed and deployed in ways that augment human capabilities, promote broad social good, and protect individual rights; this means investing in transparency, safety, and equitable access while enforcing clear safeguards against misuse. By combining responsible regulation, ethical design practices, and inclusive public engagement, societies can harness AI\u2019s benefits\u2014economic productivity, better healthcare, and improved services\u2014while managing risks and ensuring accountability for harms.",
+      "Artificial intelligence should be developed and deployed to enhance human well-being and public goods while being governed by transparent, accountable, and inclusive safeguards that mitigate risks and protect rights. Recognizing both the transformative benefits and the potential harms of AI, society should promote responsible innovation, equitable access, and ongoing oversight that balances safety, privacy, and fairness with opportunities for economic growth and human flourishing.",
+      "Artificial intelligence should be developed and deployed responsibly to amplify human well-being\u2014boosting productivity, advancing healthcare, and addressing social challenges\u2014while robust safeguards ensure fairness, privacy, and accountability. Recognizing both the opportunities AI offers and legitimate concerns about bias, job disruption, and misuse, society should adopt transparent rules, inclusive governance, and ongoing public dialogue so benefits are widely shared and risks are managed."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

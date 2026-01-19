@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "16",
+    "winner_full": "87",
+    "epsilon": 0.8300000000000001
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "16",
+    "winner_full": "87",
+    "epsilon": 0.8300000000000001
+  },
+  "chatgpt_star": {
+    "winner": "80",
+    "epsilon": 0.73
+  },
+  "chatgpt_star_rankings": {
+    "winner": "9",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_star_personas": {
+    "winner": "90",
+    "epsilon": 0.8600000000000001
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Artificial intelligence should be developed and deployed as a human-centered tool that expands opportunity, improves public services and safety, and reduces burdensome work, while preserving human judgment, dignity, and community bonds. Robust, democratic governance \u2014 including clear safety standards, privacy protections, transparency about how systems work, and meaningful participation from workers, frontline professionals, and affected communities \u2014 must guide AI so it cannot be used for unjust surveillance, discrimination, or concentration of power. Independent oversight and enforceable accountability should ensure harms are prevented, remedies are available, and benefits are widely shared.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Artificial intelligence should be a tool that strengthens national security, improves healthcare, public services, and economic opportunity, and makes everyday life safer and more efficient\u2014while always remaining under clear human control. Its development and use must be governed by democratically accountable laws and independent oversight that ensure transparency, strong privacy protections, protections for jobs and vulnerable communities, and real consequences for misuse by governments or corporations. AI should augment human judgment and compassion, protect human dignity and civil liberties, and be shaped by diverse voices from affected communities, workers, ethicists, and elected representatives.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "AI should be developed and used as a practical tool to improve healthcare, safety, education, public services, and economic opportunity while always preserving human judgment, dignity, and community values. Its deployment must be transparent, accountable, and democratically overseen with strong privacy protections, bias audits, and enforceable consequences for misuse so that workers, families, and vulnerable communities benefit rather than be harmed or displaced.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Artificial intelligence should be developed and deployed to augment human capabilities, improve public welfare, and drive innovation while being governed by transparent, accountable, and inclusive safeguards that minimize harms and protect fundamental rights. Recognizing legitimate concerns about privacy, bias, displacement, and concentration of power, policymakers, technologists, and civil society should collaborate to set risk-based standards, ensure broad access to benefits, provide education and transition support, and maintain human oversight over critical decisions.",
+      "Artificial intelligence should be developed and deployed responsibly to augment human capabilities, improve quality of life, and address pressing social challenges while safeguarding individual rights, fairness, and safety. By combining transparent governance, robust ethical standards, and ongoing public engagement, society can harness AI\u2019s benefits while managing risks, ensuring accountability, and adapting policies as technologies and values evolve.",
+      "Artificial intelligence should be developed and deployed to augment human capabilities, improve quality of life, and address societal challenges while being governed by clear ethical standards, transparent oversight, and robust safeguards against misuse. Recognizing legitimate concerns about privacy, bias, job disruption, and concentration of power, policymakers, industry, and civil society should collaborate to ensure AI benefits are widely shared, risks are minimized, and individuals retain meaningful control and accountability.",
+      "Artificial intelligence should be developed and deployed to augment human well-being and public good while being governed by transparent, accountable, and rights-respecting frameworks that mitigate harms. Recognizing legitimate concerns about bias, displacement, and misuse, society should balance responsible innovation with robust safety standards, inclusive oversight, and equitable access so benefits are widely shared and risks are constrained.",
+      "Artificial intelligence should be developed and used to augment human capabilities, improve wellbeing, and solve shared challenges while being governed by transparent, accountable, and inclusive rules that protect rights and minimize harms. We recognize differing views about risk, fairness, and economic impact, so policies should combine robust safety standards, public oversight, and equitable access to benefits, ensuring AI serves the common good without entrenching existing inequalities or concentrating unchecked power."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

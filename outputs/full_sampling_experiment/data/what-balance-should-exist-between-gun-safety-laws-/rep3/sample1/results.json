@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "18",
+    "epsilon": 0.1200000000000001
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "21",
+    "epsilon": 0.1100000000000001
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "18",
+    "epsilon": 0.1200000000000001
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "18",
+    "epsilon": 0.1200000000000001
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "18",
+    "epsilon": 0.1200000000000001
+  },
+  "chatgpt": {
+    "winner": "16",
+    "winner_full": "80",
+    "epsilon": 0.7
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "18",
+    "epsilon": 0.1200000000000001
+  },
+  "chatgpt_personas": {
+    "winner": "10",
+    "winner_full": "67",
+    "epsilon": 0.5700000000000001
+  },
+  "chatgpt_star": {
+    "winner": "74",
+    "epsilon": 0.6599999999999999
+  },
+  "chatgpt_star_rankings": {
+    "winner": "85",
+    "epsilon": 0.78
+  },
+  "chatgpt_star_personas": {
+    "winner": "8",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "We can uphold the Second Amendment while also adopting clear, narrowly tailored safety measures that reduce harm\u2014such as universal background checks, required safety training and secure storage, effective enforcement of existing laws, and due-process mechanisms for temporary restrictions on imminent threats. Policies should focus on preventing access by criminals and those proven dangerous, protect lawful owners\u2019 ability to hunt and defend their homes, and be based on evidence, respect for rights, and regular review to ensure they work without imposing undue burdens.",
+    "is_new": true,
+    "epsilon": 0.07000000000000006
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "I respect the Second Amendment and the traditions of lawful gun ownership for self-defense, hunting, and sport, but rights come with responsibilities\u2014so we should adopt common-sense, evidence-based measures like universal background checks, meaningful safe-storage requirements, mandatory safety training, and targeted tools (including red-flag laws and limits on particularly lethal accessories) to keep guns out of the hands of those who are dangerous. These steps preserve lawful ownership while reducing accidental harms and mass shootings, focusing regulation on risk rather than punishing responsible owners.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "I respect the Second Amendment and the traditions of lawful gun ownership for self-defense, hunting, and sport, but rights come with responsibilities\u2014so we should adopt evidence-based, common-sense measures like universal background checks, mandatory safety training and secure storage, red\u2011flag protections for those at acute risk, and sensible limits on weapons designed for mass casualties. These steps focus on keeping guns out of dangerous hands while preserving access for law\u2011abiding citizens, balancing individual freedom with the shared duty to protect our children, communities, and public safety.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "We uphold the Second Amendment while recognizing the shared interest in reducing gun violence, so reasonable, evidence-based safety measures\u2014such as universal background checks, red flag laws with due process, and secure storage requirements\u2014should be implemented without broadly disarming law\u2011abiding citizens. By focusing on policies that target criminal misuse and mental-health crises, protect public safety, and preserve responsible ownership, we can respect constitutional rights while making communities safer for everyone.",
+      "Protecting public safety and respecting the constitutional right to bear arms are both essential goals; reasonable, evidence-based regulations\u2014such as universal background checks, safety training, and restrictions on devices and individuals shown to pose high risk\u2014can reduce violence while preserving lawful ownership. By focusing on measures that target risks rather than blanket bans, and by upholding due process and lawful use, we can build policies that honor responsible gun ownership and better protect communities.",
+      "Respecting the constitutional right to bear arms while protecting public safety requires targeted, evidence-based rules that keep firearms out of the hands of those who pose a clear risk without broadly stripping law-abiding citizens of their ability to own guns for self-defense, hunting, and sport. By focusing on background checks, mental-health interventions, safe-storage requirements, and enforcement of existing laws\u2014while preserving due process and lawful ownership\u2014we can reduce violence and accidental harm while honoring Second Amendment freedoms.",
+      "We can honor the Second Amendment while also protecting public safety by upholding the right to responsible gun ownership alongside targeted, evidence-based regulations that reduce violence\u2014such as universal background checks, safe-storage requirements, and prohibitions for those proven dangerous. By focusing on measures that respect lawful ownership, improve mental-health and safety interventions, and enforce existing laws fairly, communities can work together to reduce harm without undermining constitutional rights.",
+      "We affirm the right of responsible citizens to own firearms as protected by the Second Amendment while also recognizing a shared duty to reduce gun violence through evidence-based safety measures. Common-sense policies\u2014such as universal background checks, safe storage requirements, and targeted restrictions on high-risk individuals\u2014can protect communities without undermining lawful self-defense and recreational use. By focusing on prevention, enforcement of existing laws, and improved mental-health and safety education, we can respect constitutional rights while enhancing public safety."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "2",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "2",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "2",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "91",
+    "epsilon": 0.1499999999999999
+  },
+  "chatgpt_star_rankings": {
+    "winner": "0",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in elections grows when procedures are transparent, secure, and simple to verify\u2014combining clear national standards with accountable local administration so communities can see and trust the process. Practical steps include auditable paper ballots and routine independent, risk\u2011limiting post\u2011election audits, strong cybersecurity and chain-of-custody protections, consistent nonpartisan rules, and accessible, multilingual, plain\u2011language voter information and services. By publicly reporting results and audit findings in understandable form and engaging trusted community organizations in outreach, we can protect rights, counter misinformation, and help everyone feel their vote matters.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Public trust grows when elections are transparent, secure, auditable, and easy for every eligible voter to use. We should use verifiable paper ballots with a secure chain-of-custody, strong cybersecurity and privacy protections, and routine independent, risk-limiting audits whose methods and results are published in plain language, paired with accessible options (early in-person voting, reliable mail ballots and drop boxes, and disability- and language-access services). Local election offices should apply clear standards consistently while welcoming nonpartisan oversight and community-centered outreach so voters can see and understand the process.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Public trust grows when institutions operate openly, consistently, and in ways people can verify. For elections, that means paper-based, auditable systems with independent, nonpartisan risk-limiting audits, strong cybersecurity and chain-of-custody protections, combined with convenient voting options and plain-language, multilingual voter education. Set clear national standards implemented locally with bipartisan oversight and well-trained staff so seniors, working families, language minorities, and people with disabilities can see that every vote is counted, privacy is protected, and outcomes reflect the public\u2019s will.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "While people differ\u2014some wanting rapid reform, others valuing stability\u2014most agree that institutions should be trustworthy, effective, and responsive. To bridge these views, institutions should commit to greater transparency, independent oversight, clear public communication, and accessible avenues for citizen input, paired with measurable performance metrics and anti-corruption safeguards. Protecting expertise and the rule of law while investing in civic education and regular reporting can rebuild confidence without sacrificing accountability or inclusiveness.",
+      "To increase public trust in institutions, we should combine stronger transparency and accountability mechanisms with improved service quality and genuine community engagement. While some emphasize independent oversight and others prioritize cultural responsiveness or efficiency, everyone can agree that clear, accessible information, regular performance reporting, and meaningful opportunities for public input create a shared foundation for credibility. By pairing institutional reforms with sustained dialogue and demonstrated results, institutions can better show they are both competent and responsive to diverse public needs.",
+      "To increase public trust in institutions, we should pair stronger transparency and independent accountability with practical support for institutional capacity so organizations can reliably deliver services. This includes publishing clear data and decisions, enforcing anti\u2011corruption and fairness safeguards, and creating accessible channels for community input and oversight. Pursuing measured reforms that protect professional expertise while empowering citizens with participation and clear performance metrics offers a stable, responsive path most stakeholders can accept.",
+      "While people disagree about the role and performance of institutions\u2014some seeing them as essential guardians of order and others as bureaucratic or untrustworthy\u2014most agree they should serve the public fairly and effectively. A reasonable pathway to rebuild trust is to combine stronger transparency and independent oversight with meaningful public engagement, clear accountability and measurable performance metrics, and demonstrable commitments to equity and evidence\u2011based decision\u2011making. Regular, accessible reporting and open channels for feedback and redress can help institutions prove their reliability and earn broader confidence.",
+      "To increase public trust in institutions, we should strengthen transparency, independent oversight, and community engagement so decisions are understandable, evidence-based, and responsive to people\u2019s needs. Institutions must be held accountable through clear performance metrics, protections against undue influence, and accessible channels for public input and redress, while experts and leaders commit to clear communication and admitting mistakes. By combining rigorous standards with inclusive participation and safeguards for impartiality, diverse perspectives can be respected while rebuilding confidence."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

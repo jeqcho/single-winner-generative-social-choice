@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "17",
+    "winner_full": "95",
+    "epsilon": 0.15999999999999992
+  },
+  "borda": {
+    "winner": "17",
+    "winner_full": "95",
+    "epsilon": 0.15999999999999992
+  },
+  "irv": {
+    "winner": "17",
+    "winner_full": "95",
+    "epsilon": 0.15999999999999992
+  },
+  "plurality": {
+    "winner": "17",
+    "winner_full": "95",
+    "epsilon": 0.15999999999999992
+  },
+  "veto_by_consumption": {
+    "winner": "3",
+    "winner_full": "28",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "11",
+    "winner_full": "69",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "8",
+    "winner_full": "57",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "9",
+    "winner_full": "62",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "52",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "1",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "51",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in elections and other institutions, leaders should combine transparent, consistently applied rules with independent, verifiable checks so outcomes are demonstrably accurate and fair. Practical steps\u2014auditable paper or equivalent records, routine post-election audits, robust cybersecurity, and plain-language, multilingual information and outreach\u2014should be paired with measures that protect access so no eligible voter is excluded. Sustained, honest communication about problems and fixes, plus ongoing civic education, will help diverse communities see institutions as accountable and worthy of confidence.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Rebuild trust in public institutions\u2014especially elections\u2014by making processes transparent, verifiable, and consistently administered by independent, nonpartisan officials with bipartisan oversight and routine, publicly reported audits (e.g., risk-limiting audits and auditable paper trails). Pair those safeguards with accessible, plain-language and multilingual information, proactive community outreach through trusted local partners, and strong cybersecurity and accountability so people can participate easily and verify outcomes for themselves.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when their processes are transparent, independently verifiable, and subject to routine, publicly reported audits and accountability so people can see how decisions are made and corrected. Institutions should pair strong security with broad, equitable access and provide plain-language, multilingual information through trusted local partners to educate the public and counter misinformation.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "We should rebuild public trust in institutions by combining greater transparency and independent accountability with strong protections for expertise and democratic oversight. While acknowledging concerns about bias, inefficiency, and undue influence, institutions can earn trust by communicating clearly, inviting meaningful public participation, demonstrating measurable results, and promptly correcting mistakes. Investing in civic education, equitable service delivery, and robust anti-corruption measures provides practical, broadly acceptable steps forward.",
+      "We should rebuild public trust by combining greater transparency, tangible accountability, and consistent performance with genuine avenues for public participation and independent oversight. This approach acknowledges both the public\u2019s legitimate skepticism\u2014rooted in past failures, bias, or lack of representation\u2014and institutions\u2019 need to apply expertise and maintain long-term stability. By committing to clear communication, measurable outcomes, and accessible channels for input and redress, diverse stakeholders can find common ground and restore confidence.",
+      "To increase public trust in institutions, leaders should adopt transparent decision-making, clear accountability mechanisms, and regular, genuine public engagement while safeguarding professional expertise and the rule of law. This balances the legitimate demand for reform and oversight with the need for stable, competent institutions by prioritizing measurable outcomes, open communication, and inclusive opportunities for citizen input.",
+      "To rebuild public trust in institutions, leaders should combine stronger transparency and accountability measures with genuine community engagement and independent oversight. This approach respects concerns about corruption and elite capture while recognizing the need for effective, evidence-based services; by inviting citizen input, communicating clear outcomes, and enforcing rules fairly, institutions can demonstrate competence and legitimacy to a broad public.",
+      "To increase public trust in institutions, we should combine stronger transparency and independent accountability with inclusive, responsive engagement so institutions are both competent and answerable to the people they serve. This approach respects calls for reform and democratization by opening decision-making and data, while preserving the role of expertise and stable procedures through evidence-based standards and clear safeguards against politicization. Measurable commitments\u2014such as independent audits, accessible public reporting, community advisory mechanisms, and civic education\u2014can build shared confidence by showing results, correcting errors, and inviting ongoing public input."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

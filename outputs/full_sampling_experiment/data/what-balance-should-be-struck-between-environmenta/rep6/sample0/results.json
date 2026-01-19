@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.06000000000000005
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.06000000000000005
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.06000000000000005
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.06000000000000005
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.06000000000000005
+  },
+  "chatgpt": {
+    "winner": "6",
+    "winner_full": "50",
+    "epsilon": 0.47
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.06000000000000005
+  },
+  "chatgpt_personas": {
+    "winner": "3",
+    "winner_full": "29",
+    "epsilon": 0.26
+  },
+  "chatgpt_star": {
+    "winner": "93",
+    "epsilon": 0.8700000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "46",
+    "epsilon": 0.4099999999999999
+  },
+  "chatgpt_star_personas": {
+    "winner": "89",
+    "epsilon": 0.8
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "We should treat environmental protection and economic growth as mutually reinforcing goals: set clear, science-based standards to safeguard health and ecosystems while using market incentives, targeted investments, and worker supports to drive innovation and create good jobs in a clean economy. Policies should be pragmatic and phased to protect vulnerable communities and small businesses through retraining, transition assistance, and affordable energy, so the shift to sustainability is fair, resilient, and economically competitive.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "We should put strong environmental protection at the center of climate policy while also ensuring transitions are fair and affordable for working families and small businesses. That means ambitious standards and investments in clean energy, resilient infrastructure, and innovation\u2014paired with job training, support for communities dependent on legacy industries, and market\u2011friendly incentives so the economy grows without sacrificing public health or competitiveness.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "We should protect the environment as a foundation for healthy communities and long\u2011term prosperity while ensuring the transition is fair and practical for workers, families, and small businesses. That means setting strong, science\u2011based environmental standards, investing in clean energy, resilient infrastructure, and worker retraining, and using market incentives and targeted support so jobs stay affordable and communities\u2014especially those already burdened by pollution\u2014are not left behind.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Sustainable prosperity requires balancing strong environmental protections with policies that allow economic opportunity to grow; we should prioritize investments and regulations that reduce pollution and conserve resources while enabling innovation, jobs, and livelihoods. By setting clear, science-based environmental standards, supporting clean-technology deployment, and providing transitional support for affected workers and communities, we can protect ecosystems and public health without sacrificing economic dynamism.",
+      "Sustainable prosperity requires policies that protect critical environmental systems while enabling fair economic opportunity; we should prioritize proven, cost-effective measures that reduce pollution and conserve resources while supporting innovation, job creation, and a just transition for affected workers and communities. By investing in clean technologies, smart regulations, and targeted incentives, governments and businesses can grow the economy without degrading ecosystem services, balancing short-term needs with long-term resilience.",
+      "Sustainable prosperity requires policies that protect critical ecosystems and public health while enabling responsible economic activity and job creation; we should prioritize investments, regulations, and incentives that reduce environmental harm without unduly constraining innovation or livelihoods. By pursuing cost-effective, science-based safeguards, supporting clean technologies, and ensuring fair transitions for affected workers and communities, we can balance long-term environmental resilience with continued economic opportunity.",
+      "We should pursue an integrated approach that safeguards critical ecosystems and public health while enabling sustainable economic opportunity, recognizing that long-term prosperity depends on healthy natural systems. By investing in clean technologies, efficient resource use, and fair transition policies for affected workers and communities, we can reduce environmental harm without unduly sacrificing livelihoods, finding pragmatic policies that balance protection and growth.",
+      "We should pursue an inclusive strategy that protects vital natural systems and public health while enabling sustainable economic opportunities, recognizing that long-term prosperity depends on healthy ecosystems. By prioritizing cost-effective regulations, market incentives for clean technologies, and support for communities and workers in transition, policymakers can balance ecological stewardship with innovation and growth to meet both environmental and economic needs."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

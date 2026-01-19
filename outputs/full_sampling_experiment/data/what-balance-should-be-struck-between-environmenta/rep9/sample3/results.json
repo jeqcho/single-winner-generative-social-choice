@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_personas": {
+    "winner": "3",
+    "winner_full": "13",
+    "epsilon": 0.08000000000000007
+  },
+  "chatgpt_star": {
+    "winner": "48",
+    "epsilon": 0.4099999999999999
+  },
+  "chatgpt_star_rankings": {
+    "winner": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "40",
+    "epsilon": 0.31000000000000005
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "We should treat a healthy environment as the essential base for long-term prosperity while designing climate policies that minimize harm to workers, small businesses, and households. That means setting clear environmental standards and investing in clean energy, training, and targeted transition support so industries and communities can adapt, while using market incentives and practical regulations to spur innovation and keep the economy resilient and competitive.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "We should treat a healthy environment as the foundation for long\u2011term economic security while designing climate policy that protects workers and keeps communities solvent. That means setting strong, science\u2011based rules to cut pollution and invest in clean energy, resilient infrastructure, and conservation\u2014paired with practical, phased support like training, incentives, and transition assistance so small businesses, tradespeople, and families aren\u2019t left behind. By combining environmental safeguards with market\u2011smart innovation and targeted help, we can create good jobs, lower health and disaster costs, and leave a more stable economy for future generations.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "We should protect our air, water, and climate as the foundation for long-term prosperity while making the transition fair and practical for working families and small businesses. That means setting clear environmental standards and investing in clean energy, resilient infrastructure, training, and targeted incentives so jobs and communities are supported as industries modernize. With smart, phased policies that emphasize innovation and affordability, we can safeguard the planet without leaving people behind.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Sustainable prosperity requires that environmental protection and economic growth be pursued together rather than as opposing goals: policies should prioritize long-term ecological health while fostering innovation, job creation, and competitiveness through investments in clean technology, resource efficiency, and fair transition support for affected communities. By setting science-based environmental limits, using market tools and targeted public funding to incentivize greener practices, and ensuring social safeguards for workers and vulnerable populations, we can balance conservation with opportunity and share the benefits of a resilient economy.",
+      "Sustainable progress requires balancing environmental protection with economic growth by pursuing policies that foster innovation, clean technologies, and efficient resource use so that prosperity does not come at the cost of a healthy planet. Recognizing diverse priorities\u2014from urgent conservation to job creation\u2014we should prioritize pragmatic, evidence-based approaches that create green jobs, protect critical ecosystems, and allow businesses and communities to adapt, ensuring long-term wellbeing for both people and nature.",
+      "We should pursue a pragmatic balance that protects essential ecosystems and public health while enabling sustainable economic opportunities, recognizing that long-term prosperity depends on a healthy environment. By investing in clean technologies, smart regulation, and equitable transition support for affected communities and industries, we can align growth with conservation and share the benefits broadly.",
+      "Sustainable prosperity requires harmonizing environmental protection with responsible economic growth by prioritizing policies and investments that conserve natural capital while fostering innovation, job creation, and shared prosperity. By recognizing both the urgent need to safeguard ecosystems and the legitimate needs for livelihoods and development, governments, businesses, and communities can collaborate on pragmatic solutions \u2014 such as clean technologies, circular economy practices, and targeted supports for transition-affected workers \u2014 that deliver long-term economic resilience and healthier environments for current and future generations.",
+      "Sustainable prosperity requires policies that protect vital ecosystems while enabling economic opportunities, recognizing that a healthy environment underpins long-term growth and community well\u2011being. By prioritizing cost\u2011effective regulations, investing in clean technologies and green jobs, and using transparent, evidence\u2011based planning with input from affected stakeholders, we can balance conservation goals with responsible development that shares benefits broadly."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "13",
+    "winner_full": "51",
+    "epsilon": 0.4099999999999999
+  },
+  "chatgpt_rankings": {
+    "winner": "5",
+    "winner_full": "20",
+    "epsilon": 0.1499999999999999
+  },
+  "chatgpt_personas": {
+    "winner": "5",
+    "winner_full": "20",
+    "epsilon": 0.1499999999999999
+  },
+  "chatgpt_star": {
+    "winner": "51",
+    "epsilon": 0.4099999999999999
+  },
+  "chatgpt_star_rankings": {
+    "winner": "32",
+    "epsilon": 0.27
+  },
+  "chatgpt_star_personas": {
+    "winner": "51",
+    "epsilon": 0.4099999999999999
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Government should ensure that everyone can get essential, affordable healthcare without risking financial ruin by guaranteeing a basic universal floor of coverage and strong protections (like price transparency and coverage for preexisting conditions), while preserving room for private plans and local innovation to offer additional options. This balanced approach would fund and regulate core services for seniors, children, low-income people, and those with disabilities, but also encourage competition and choice so quality and responsiveness improve over time.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "The government should ensure that everyone can access basic, affordable, high-quality healthcare without risking financial ruin by guaranteeing a universal baseline of coverage, protecting vulnerable groups (seniors, children, disabled, veterans), and enforcing strong standards for cost transparency and protections against denial of care. At the same time, it should preserve room for private plans and local providers to offer supplemental options and innovation, while improving and coordinating existing public programs to be more efficient and equitable.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Government should ensure that everyone can get basic, affordable, high-quality healthcare\u2014physical, mental, and dental\u2014so no one faces bankruptcy or must skip care. It should set strong standards, protect vulnerable groups (seniors, disabled, low\u2011income), keep costs and pricing transparent, and provide a public safety net while allowing private plans and local providers to offer supplemental options and innovations.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "While people differ on the best path to universal healthcare, the government should ensure that every person has access to affordable, high-quality basic health services and financial protection against catastrophic costs, while allowing space for private innovation and choice. A pragmatic approach combines public oversight and standards, targeted public funding for those most in need, and partnerships with private providers to expand capacity and preserve options, so differing values for equity, efficiency, and personal choice can be respected.",
+      "The government should ensure that every person has access to basic, affordable healthcare by guaranteeing essential services and protections while partnering with private providers and insurers to preserve choice and innovation. By setting clear standards for coverage, affordability, and quality, funding safety nets for vulnerable populations, and encouraging competition and efficiency, policymakers can balance fiscal responsibility with the moral imperative of health security, recognizing legitimate concerns about costs, individual choice, and system performance.",
+      "While respecting differing views on individual choice and public responsibility, the government should ensure a baseline of accessible, affordable healthcare for all\u2014covering essential primary care, preventive services, and protection from catastrophic costs\u2014while allowing multiple delivery and payment options, including private providers and regulated markets. By partnering with states, insurers, employers, and community providers, government policy should set minimum standards, promote cost transparency and value-based care, and provide safety-net funding so no one is denied necessary care due to ability to pay.",
+      "While recognizing that people value both affordability and choice, the government should ensure a basic, high-quality standard of healthcare accessible to everyone\u2014funding essential services, protecting patients from financial ruin, and guaranteeing care for vulnerable populations\u2014while allowing private options and innovations to coexist. By setting clear minimum standards, regulating costs and protections, and partnering with private providers and local communities, government action can secure universal coverage without eliminating personal choice or market-driven improvements.",
+      "Recognizing that access to basic healthcare is essential for individual wellbeing and the health of the community, the government should ensure a reliable safety net that guarantees affordable, timely primary and emergency care for all while preserving space for private providers and innovation. By combining public funding and regulations to protect equity and cost-control with partnerships that leverage private-sector efficiency and choice, policymakers can balance fiscal responsibility, quality, and individual preferences across diverse viewpoints."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

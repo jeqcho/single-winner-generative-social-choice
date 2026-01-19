@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "6",
+    "winner_full": "44",
+    "epsilon": 0.3500000000000001
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "6",
+    "winner_full": "44",
+    "epsilon": 0.3500000000000001
+  },
+  "chatgpt_star": {
+    "winner": "71",
+    "epsilon": 0.55
+  },
+  "chatgpt_star_rankings": {
+    "winner": "71",
+    "epsilon": 0.55
+  },
+  "chatgpt_star_personas": {
+    "winner": "71",
+    "epsilon": 0.55
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance security, fairness, and compassion by establishing clear, enforceable rules at the border while providing a timely, affordable pathway to citizenship for people who contribute to our communities. That path should include meaningful vetting, protection for families and vulnerable people, and practical supports\u2014like language and civic education and labor protections\u2014so newcomers can integrate without displacing workers or overwhelming services. Together, these principles uphold the rule of law, respect human dignity, and strengthen both families and the economy.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance secure, orderly rules with compassion and human dignity: protect borders and enforce background checks while providing a clear, affordable, and timely path to citizenship for people who work, pay taxes, learn our language, and contribute to their communities. Keep families together, guard against worker exploitation, and offer integration supports like language and civics education so newcomers and long\u2011time residents alike can thrive.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance secure, orderly borders and enforceable rules with compassionate, practical pathways to citizenship that keep families together and protect vulnerable people. A consensus approach would offer a transparent, affordable route to full membership for those who meet clear responsibilities\u2014background checks, tax and work history, and civic and language integration\u2014while safeguarding jobs, preventing exploitation, and ensuring efficient administration so communities and newcomers can thrive together.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0020000000000000018,
+    "epsilons": [
+      0.010000000000000009,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Immigration policy and the path to citizenship should balance national security and economic needs with humane treatment and respect for human dignity by enforcing orderly, predictable rules that prioritize border integrity and lawful entry while creating realistic, transparent pathways for long-term residents to gain legal status. A consensus approach recognizes legitimate concerns about public safety and job protection while also acknowledging the contributions of immigrants and the moral imperative to reunite families and provide refuge; policies should therefore combine effective enforcement, streamlined legal immigration channels, labor-driven visas, and conditional pathways to citizenship tied to background checks, tax compliance, and community contributions. ",
+      "Immigration policy should balance secure, orderly borders and enforcement with fair, humane pathways to legal status that recognize economic needs, family unity, and human dignity. While some prioritize rule of law and national security and others emphasize compassion and inclusion, common ground exists in creating streamlined legal channels, robust labor and integration supports, and clear, attainable criteria for citizenship that uphold public safety and economic stability.",
+      "Immigration policy should balance national security and economic needs with humane treatment and respect for human dignity, creating a fair, efficient path to citizenship for those who contribute to and abide by the law. Recognizing concerns about sovereignty, border control, and labor markets as well as the humanitarian and economic benefits of immigration, policymakers should pursue transparent, enforceable rules that prioritize family unity, skills-based pathways, and timely adjudication to integrate newcomers while protecting communities.",
+      "Immigration policy should balance orderly, secure borders and enforcement with fair, transparent pathways to legal residence and citizenship that recognize immigrants\u2019 economic contributions and humanitarian needs. By combining clear rules, reasonable enforcement, opportunities for earned legalization (including background checks, language and civics requirements, and pathways for family unity and refugees), and targeted investments in integration and border infrastructure, we can respect law and national interests while upholding human dignity and fostering social cohesion.",
+      "Immigration policy should balance the rule of law and secure borders with a humane, pragmatic pathway to citizenship that recognizes immigrants\u2019 contributions to the economy and society. Policies ought to prioritize public safety and orderly entry while offering clear, achievable requirements for legal status, family unity, and integration supports\u2014such as language, employment access, and civic education\u2014so that diverse viewpoints can agree on both responsibility and opportunity. "
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

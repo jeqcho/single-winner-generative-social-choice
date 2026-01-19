@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "6",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt": {
+    "winner": "5",
+    "winner_full": "30",
+    "epsilon": 0.20999999999999996
+  },
+  "chatgpt_rankings": {
+    "winner": "11",
+    "winner_full": "69",
+    "epsilon": 0.6000000000000001
+  },
+  "chatgpt_personas": {
+    "winner": "5",
+    "winner_full": "30",
+    "epsilon": 0.20999999999999996
+  },
+  "chatgpt_star": {
+    "winner": "51",
+    "epsilon": 0.4099999999999999
+  },
+  "chatgpt_star_rankings": {
+    "winner": "51",
+    "epsilon": 0.4099999999999999
+  },
+  "chatgpt_star_personas": {
+    "winner": "41",
+    "epsilon": 0.33000000000000007
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Free speech is vital for democracy and for airing unpopular or challenging ideas, but it is not absolute\u2014society should draw narrow, clearly defined limits on speech that directly and intentionally threatens, harasses, or incites violence against identifiable people or protected groups. Outside those high bars, harmful or offensive views are best countered through education, community norms, and more speech rather than broad legal censorship, to protect both safety and robust public debate.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Free speech is a fundamental value and should generally be protected to allow open debate and dissent, but it is not absolute: clear limits are appropriate where speech directly and intentionally threatens, incites violence, or targets people for harassment or discrimination in ways that endanger their safety or dignity. Laws and community standards should focus narrowly on preventing and punishing true threats, coordinated violence, and targeted harassment, while relying on education, dialogue, and social consequences\u2014not broad censorship\u2014to address offensive or unpopular ideas.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Free speech is fundamental, but it is not absolute: we should protect open debate and unpopular opinions while drawing clear legal and institutional lines against speech that directly threatens, incites violence, or targets people for harassment or discrimination. For everything short of direct threats or coordination of harm, rely first on counter-speech, education, and community standards to challenge hateful ideas while enforcing laws where words create a real and predictable danger to others\u2019 safety and dignity.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Free speech is a fundamental right that should be broadly protected, but it is reasonable to place narrowly tailored limits on speech that intentionally incites imminent violence or constitutes targeted harassment that deprives others of their ability to participate safely in public life. At the same time, protections should guard robust debate, satire, and unpopular opinions, with any restrictions defined clearly, applied transparently, and subject to regular review to prevent abuse and protect vulnerable groups.",
+      "Free speech is a core democratic value that should be protected, but it is reasonable to limit expressions that intentionally incite violence or directly threaten the safety and rights of targeted individuals or groups. At the same time, laws and policies should avoid overly broad or vague restrictions that chill legitimate debate and should include clear, narrowly tailored definitions and due-process safeguards so that both protection from harm and robust public discourse are preserved.",
+      "Free speech is a fundamental right that should be broadly protected, but it does not confer immunity for speech that directly incites imminent violence, harassment, or targeted discrimination against individuals or protected groups. Reasonable limits should focus narrowly on preventing clear harms\u2014such as targeted threats, calls for violence, or coordinated campaigns that silence others\u2014while preserving robust debate, criticism, and uncomfortable ideas; laws and policies should be narrowly defined, transparent, and subject to oversight to avoid chilling legitimate expression.",
+      "Free expression is a foundational right that should be broadly protected, but it does not extend to speech that intentionally and imminently incites violence, constitutes targeted harassment, or materially facilitates harm against vulnerable groups. Reasonable limits should therefore focus narrowly on preventing direct threats, coordinated campaigns of abuse, or speech that creates clear and immediate danger, while preserving robust protections for debate, criticism, and unpopular ideas and ensuring any restrictions are content-neutral, proportionate, and subject to transparent legal safeguards and due process.",
+      "Free speech should be broadly protected as essential to democracy and personal autonomy, but limited where speech intentionally incites imminent violence or constitutes targeted harassment that directly harms others\u2019 safety and basic rights. Reasonable, narrowly framed restrictions\u2014focused on clear, demonstrable threats or coordinated dehumanization that leads to real-world harm\u2014can coexist with strong protections for robust debate and the expression of unpopular ideas, while promoting education and counter-speech as primary responses to hateful attitudes."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

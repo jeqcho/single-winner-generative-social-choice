@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt": {
+    "winner": "17",
+    "winner_full": "83",
+    "epsilon": 0.75
+  },
+  "chatgpt_rankings": {
+    "winner": "7",
+    "winner_full": "32",
+    "epsilon": 0.25
+  },
+  "chatgpt_personas": {
+    "winner": "7",
+    "winner_full": "32",
+    "epsilon": 0.25
+  },
+  "chatgpt_star": {
+    "winner": "53",
+    "epsilon": 0.5
+  },
+  "chatgpt_star_rankings": {
+    "winner": "53",
+    "epsilon": 0.5
+  },
+  "chatgpt_star_personas": {
+    "winner": "53",
+    "epsilon": 0.5
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "I believe the Second Amendment protects the right of law\u2011abiding people to own firearms, but that right should be exercised alongside smart, evidence\u2011based safeguards\u2014such as universal background checks, mandatory safety training and secure storage, and narrowly targeted measures to keep guns from people who pose clear risks. Balancing rights and safety means crafting policies that reduce preventable violence without unduly burdening responsible owners, and investing in enforcement, mental\u2011health supports, and community programs that prevent harm before it starts.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "I respect the Second Amendment and the rights of law\u2011abiding people\u2014especially in communities where guns are part of daily life\u2014but rights come with responsibilities, and we should reduce preventable harm through common\u2011sense measures like universal background checks, safe storage requirements, mandatory safety training, and targeted restrictions on particularly dangerous weapons. These steps should be narrowly tailored to keep firearms out of the hands of criminals and those clearly dangerous to themselves or others while preserving lawful ownership and enforcing existing laws fairly and effectively.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "We can respect the Second Amendment while also reducing preventable harm by adopting targeted, common-sense measures\u2014like universal background checks, safe-storage requirements, mandatory safety training, and focused red-flag protections\u2014that keep guns out of the hands of those who are dangerous without burdening responsible owners. By enforcing existing laws, closing clear loopholes, and investing in mental-health and community-safety programs, we honor individual rights and protect children, families, and communities from needless tragedies.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "We can uphold the constitutional right to bear arms while implementing evidence-based, narrowly tailored safety measures that reduce gun violence and protect public safety. By combining responsible ownership requirements\u2014such as background checks, safe-storage laws, and targeted restrictions on those proven to be dangerous\u2014with respect for lawful use of firearms for self-defense, hunting, and sport, policymakers can build protections that address risks without unduly infringing on Second Amendment rights.",
+      "Protecting public safety and preserving the Second Amendment are both legitimate goals, and a balanced approach ensures responsible firearm ownership while reducing preventable harm. Sensible measures\u2014such as universal background checks, safe-storage requirements, and red flag laws with due process\u2014can help keep guns out of high-risk hands without eroding lawful citizens\u2019 ability to own firearms for self-defense, sport, and tradition. This compromise respects constitutional rights while prioritizing evidence-based policies that protect communities.",
+      "Respecting the Second Amendment while protecting public safety requires laws that responsibly regulate access to firearms\u2014such as universal background checks, safe storage requirements, and red flag provisions\u2014without unduly barring law\u2011abiding citizens from owning guns for self\u2011defense, sport, or hunting. By focusing on evidence\u2011based measures that prevent violence and ensure accountability, policymakers can bridge the gap between individual rights and community safety while preserving constitutional protections.",
+      "Respecting the Second Amendment while reducing gun violence requires a balanced approach that protects lawful ownership and recreational use of firearms while implementing evidence-based safety measures. Common-sense steps\u2014such as universal background checks, sensible waiting periods, safe storage requirements, and targeted restrictions on high-risk individuals and weapons\u2014can help prevent harm without undermining responsible gun owners\u2019 rights.",
+      "We can uphold the Second Amendment while reducing gun violence by protecting responsible ownership and recreation alongside common-sense safety measures\u2014such as universal background checks, safe-storage requirements, and prohibitions for those convicted of violent crimes or judged a clear risk to themselves or others. By focusing laws on preventing harm rather than broadly restricting lawful possession, policymakers can respect constitutional rights while building consensus around practical steps that improve public safety."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

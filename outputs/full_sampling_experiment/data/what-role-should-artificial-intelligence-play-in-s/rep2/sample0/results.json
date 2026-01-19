@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.020000000000000018
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.020000000000000018
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.020000000000000018
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.020000000000000018
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt": {
+    "winner": "4",
+    "winner_full": "24",
+    "epsilon": 0.15999999999999992
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_personas": {
+    "winner": "4",
+    "winner_full": "24",
+    "epsilon": 0.15999999999999992
+  },
+  "chatgpt_star": {
+    "winner": "69",
+    "epsilon": 0.6200000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "50",
+    "epsilon": 0.41999999999999993
+  },
+  "chatgpt_star_personas": {
+    "winner": "50",
+    "epsilon": 0.41999999999999993
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Artificial intelligence should be developed and used as a tool to expand opportunity, improve public services, and reduce harm\u2014supporting healthcare, education, workplace safety, and the environment\u2014while never replacing essential human judgment, dignity, or responsibility. Its deployment must be governed by clear, democratically established rules: transparency about how systems work, independent audits and evidence-based testing in high\u2011stakes areas, strong privacy and worker protections, and meaningful public participation so benefits are shared broadly and harms can be remedied.",
+    "is_new": true,
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "AI should be developed and used to expand opportunity, improve healthcare, education, public services, and workplace safety\u2014especially for underserved communities\u2014while augmenting rather than replacing human judgment and dignity. Its deployment must be governed by strong, democratically accountable rules: transparency about how systems work, independent audits and evidence-based testing, enforceable protections for privacy and workers, and clear avenues for redress when harm occurs. Communities and regular citizens, not just tech firms or elites, should have a meaningful voice in setting priorities and oversight so benefits are broadly shared and abuses prevented.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Artificial intelligence should be developed and used to improve everyday life\u2014making healthcare, education, public services, and workplace safety more accessible, efficient, and fair\u2014while protecting jobs, privacy, and human dignity. Its deployment must be governed by clear, enforceable rules: transparency about how decisions are made, independent audits and oversight, meaningful public input (including from workers and marginalized communities), and strong accountability when systems cause harm. AI should augment human judgment and responsibility, not replace it, and its benefits must be broadly shared rather than concentrated among a few.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Artificial intelligence should be developed and deployed to augment human capabilities, improve well\u2011being, and address societal challenges while being governed by clear ethical standards, transparency, and accountability to minimize harms. Recognizing both the opportunities for innovation and the risks of bias, job disruption, and misuse, policy and industry should work together with public input to ensure AI benefits are distributed fairly, privacy is protected, and human oversight is preserved.",
+      "Artificial intelligence should be developed and deployed to augment human capabilities, improve quality of life, and address societal challenges\u2014while being governed by transparent, accountable, and inclusive policies that protect rights, safety, and equity. Recognizing valid concerns about bias, job disruption, and misuse, we should invest in responsible research, public oversight, and education so benefits are broadly shared and harms are minimized.",
+      "Artificial intelligence should be developed and deployed to augment human capabilities, improve wellbeing, and address shared challenges\u2014while being governed by transparent, accountable safeguards that protect rights, reduce harms, and ensure equitable access. Recognizing both the potential benefits and risks, stakeholders should collaborate on standards, oversight, and public engagement so that AI advances serve the common good without concentrating power or eroding fundamental freedoms.",
+      "Artificial intelligence should be developed and deployed to augment human capabilities and improve societal well\u2011being while being governed by transparent, accountable safeguards that protect privacy, equity, and safety. Recognizing both the potential benefits\u2014such as better healthcare, education, and efficiency\u2014and the legitimate concerns about bias, job disruption, and misuse, policy and design should balance innovation with enforceable standards, public participation, and accessible oversight to ensure AI serves the common good.",
+      "Artificial intelligence should be developed and deployed to augment human capabilities, improve well-being, and address societal challenges while being guided by transparent, accountable, and equitable governance that protects individual rights and public interests. Recognizing both the promise of AI to boost productivity, health, and knowledge and concerns about bias, privacy, and displacement, policymakers, developers, and communities should collaborate to set safety standards, ensure fair access, and provide retraining and social supports so benefits are broadly shared."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "10",
+    "winner_full": "32",
+    "epsilon": 0.24
+  },
+  "chatgpt_rankings": {
+    "winner": "10",
+    "winner_full": "32",
+    "epsilon": 0.24
+  },
+  "chatgpt_personas": {
+    "winner": "10",
+    "winner_full": "32",
+    "epsilon": 0.24
+  },
+  "chatgpt_star": {
+    "winner": "32",
+    "epsilon": 0.24
+  },
+  "chatgpt_star_rankings": {
+    "winner": "0",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_star_personas": {
+    "winner": "6",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Laws on abortion should protect individual health, dignity, and conscience while recognizing the moral seriousness many assign to unborn life; they should rely on medical evidence and allow room for personal, faith-based, and ethical judgment rather than imposing a single view. Policy should ensure safe, legal access\u2014especially early in pregnancy\u2014include carefully considered exceptions later on, and be paired with strong investments in healthcare, contraception, education, and support for families so people have real options and fewer desperate choices.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Laws on abortion should protect individual liberty and privacy by ensuring safe, legal access to reproductive healthcare while recognizing the moral value of unborn life; policymakers should avoid imposing a single religious view and instead rely on medical evidence and respect for personal conscience. Reasonable limits may be appropriate later in pregnancy, with clear exceptions to protect the mother\u2019s life and in cases of rape or incest, and laws should be paired with investments in healthcare, contraception, education, and family supports so people have real options.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Laws on abortion should protect individual conscience, bodily autonomy, and access to safe medical care while also recognizing the moral concerns many people hold about unborn life; reasonable, medically informed limits can be set\u2014particularly later in pregnancy\u2014alongside clear exceptions for life\u2011threatening situations, rape, and incest. Policy should focus equally on expanding prevention and support: comprehensive sex education, affordable contraception, prenatal and family healthcare, childcare, and adoption services so families have real options and no one is forced into desperate choices by lack of resources.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0040000000000000036,
+    "epsilons": [
+      0.010000000000000009,
+      0.010000000000000009,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Laws concerning abortion should balance respect for individual autonomy and the moral weight many place on potential life by ensuring safe, legal access early in pregnancy while permitting reasonable regulations that protect health and reflect substantial ethical concerns. Policymaking should prioritize evidence-based medical guidance, equitable access to reproductive healthcare and support services, and protections for those with deeply held moral objections through conscience safeguards that do not impede others\u2019 access to care.",
+      "Laws concerning abortion should protect individuals' health and bodily autonomy while recognizing society\u2019s interest in supporting potential life, and therefore should ensure safe, legal access to abortion with reasonable, evidence-based limits that respect medical judgment and individual circumstances. Policy should prioritize comprehensive reproductive healthcare, access to contraception and support for parents and children, and safeguard informed consent and equitable access so that decisions are made responsibly and without undue coercion or barriers.",
+      "Laws on abortion should balance respect for a person\u2019s bodily autonomy and health with society\u2019s interest in protecting potential life, creating a framework that prioritizes safe, accessible reproductive healthcare while allowing reasonable and narrowly tailored limits grounded in medical evidence and ethics. Policymaking should include comprehensive sex education, expanded access to contraception and prenatal care, and protections for those facing moral objections, with decisions timed and defined by clinical milestones and supported by equitable resources so that people can make informed choices without coercion or undue burden.",
+      "Laws concerning abortion should balance respect for individual autonomy and bodily integrity with thoughtful protections for prenatal life, recognizing that deeply held moral and religious beliefs vary. Policy should ensure safe, legal access to reproductive healthcare, including reasonable time-limited safeguards and support for those who carry pregnancies to term, while investing in education, contraception, and social services to reduce unwanted pregnancies and help families thrive.",
+      "Laws concerning abortion should protect individual health, dignity, and the ability to make informed decisions while also recognizing the societal interest in supporting potential life; practical policy should therefore ensure safe, legal access to reproductive care alongside measures that expand healthcare, economic support, and resources for parents and children. Respectful debate is essential, and laws should be crafted through evidence-based standards, clear medical guidance, and reasonable limits that balance bodily autonomy with protections for viability and maternal health, while providing exceptions and supports that reflect compassionate compromise."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.020000000000000018
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.020000000000000018
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.020000000000000018
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "11",
+    "winner_full": "58",
+    "epsilon": 0.5
+  },
+  "chatgpt_rankings": {
+    "winner": "11",
+    "winner_full": "58",
+    "epsilon": 0.5
+  },
+  "chatgpt_personas": {
+    "winner": "14",
+    "winner_full": "66",
+    "epsilon": 0.55
+  },
+  "chatgpt_star": {
+    "winner": "71",
+    "epsilon": 0.55
+  },
+  "chatgpt_star_rankings": {
+    "winner": "71",
+    "epsilon": 0.55
+  },
+  "chatgpt_star_personas": {
+    "winner": "71",
+    "epsilon": 0.55
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance compassion and order by providing a fair, affordable pathway to citizenship for long\u2011term contributors while upholding secure, transparent rules that protect communities and workers. That means timely legalization tied to accountability\u2014background checks, steady employment or contributions, and steps toward language and civic integration\u2014alongside effective border management and enforcement to ensure the system is sustainable and keeps families together.",
+    "is_new": true,
+    "epsilon": 0.06000000000000005
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance respect for the rule of law and secure borders with humane treatment that keeps families together and recognizes the contributions of people who work and pay taxes. Establish a clear, affordable, and timely earned path to citizenship that includes reasonable vetting, protections for workers and communities, and supports for integration (language and civic learning), while ensuring transparent, efficient processes that prevent exploitation and preserve public safety.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance secure, orderly enforcement with compassion and a realistic, affordable path to citizenship that keeps families together and rewards steady work and community contribution. Clear, transparent rules\u2014reasonable vetting, protection of workers, and support for language and civic integration\u2014can uphold the rule of law while treating newcomers with dignity and helping communities and businesses thrive.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0020000000000000018,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.010000000000000009,
+      0.0
+    ],
+    "statements": [
+      "Immigration policy should balance the rule of law and orderly borders with compassion for families and pathways that integrate newcomers who contribute to the economy and civic life. Reasonable reform can include secure, efficient legal channels, fair adjudication for asylum seekers, and a transparent, attainable path to citizenship tied to background checks, work requirements, and civic commitments\u2014recognizing both the need for enforcement and the social and economic benefits of inclusion.",
+      "Immigration policy should balance a secure, orderly system with compassion and opportunity, enforcing fair rules and borders while creating realistic, humane pathways to citizenship for those who contribute to society and meet clearly defined requirements. Recognizing concerns about public safety, economic impact, and cultural cohesion alongside the values of family unity and human dignity, policymakers should craft procedures that are transparent, efficient, and grounded in due process, allowing lawful integration and labor needs while addressing backlogs and irregular arrivals. ",
+      "Immigration policy should balance the need for secure, orderly borders and respect for the rule of law with humane treatment of migrants and pathways that integrate newcomers who contribute economically and socially. Recognizing both concerns about national security and the moral and practical benefits of immigration, the path to citizenship should include clear, attainable criteria\u2014such as background checks, language and civic knowledge, and employment or community ties\u2014combined with efficient processes and protections for vulnerable individuals. This approach honors sovereignty while fostering inclusion, economic growth, and family unity, and it allows for adjustments based on labor needs and public safety data.",
+      "Immigration policy should balance national security and economic needs with compassion and respect for human dignity, creating a transparent, fair pathway to citizenship for those who meet clear legal and civic criteria. By combining effective border enforcement and interior immigration controls with opportunities for hardworking immigrants to regularize status through background checks, payment of fines or fees, and commitments to learn the language and civic responsibilities, we can uphold the rule of law while strengthening communities and the economy. This approach acknowledges concerns about public safety and rule-following while recognizing the practical and moral benefits of integrating long-term residents who contribute to society.",
+      "Immigration policy should balance secure borders and rule of law with a fair, transparent pathway to citizenship that reflects economic needs, family unity, and humanitarian obligations. By combining effective enforcement and clear legal channels with practical opportunities for integration\u2014such as job training, language access, and a measured, merit- and need-based route to permanent status\u2014we can protect national interests while upholding human dignity and enabling new residents to contribute to society. "
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -178,6 +178,7 @@ Where the value is the index (0-{n-1}) of the statement you select."""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
+            reasoning={"effort": "minimal"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -242,10 +243,11 @@ Where the value is the index (0-{n-1}) of the statement you select."""
         response = openai_client.responses.create(
             model=model,
             input=[
-                {"role": "system", "content": system_prompt},
+                    {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
+            reasoning={"effort": "minimal"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -308,10 +310,11 @@ Where the value is the index (0-{n-1}) of the statement you select."""
         response = openai_client.responses.create(
             model=model,
             input=[
-                {"role": "system", "content": system_prompt},
+                    {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
+            reasoning={"effort": "minimal"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -383,6 +386,7 @@ Return your choice as JSON: {{"selected_statement_index": <index>}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
+            reasoning={"effort": "minimal"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -455,6 +459,7 @@ Return your choice as JSON: {{"selected_statement_index": <index>}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
+            reasoning={"effort": "minimal"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -524,6 +529,7 @@ Return your choice as JSON: {{"selected_statement_index": <index>}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
+            reasoning={"effort": "minimal"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -571,8 +577,10 @@ Here are some existing statements from a discussion:
 {statements_text}
 
 Generate a NEW statement that could serve as a better consensus/bridging statement.
-The statement should represent a reasonable middle ground that could satisfy diverse perspectives.
-It should be different from the existing statements but address the same topic.
+The statement should:
+- Represent a reasonable middle ground that could satisfy diverse perspectives
+- Be different from the existing statements but address the same topic
+- Be clear and substantive (2-4 sentences)
 
 Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
 
@@ -585,6 +593,7 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
+            reasoning={"effort": "minimal"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -636,7 +645,10 @@ Here are preference rankings from {n_voters} voters:
 {rankings_text}
 
 Based on these rankings, generate a NEW statement that could serve as a better consensus/bridging statement.
-Consider what aspects are most preferred by voters and craft a statement that might satisfy more people.
+The statement should:
+- Consider what aspects are most preferred by voters
+- Craft a statement that might satisfy more people
+- Be clear and substantive (2-4 sentences)
 
 Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
 
@@ -649,6 +661,7 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
+            reasoning={"effort": "minimal"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -700,7 +713,10 @@ Here are the voters who will be voting:
 {personas_text}
 
 Based on these voter personas, generate a NEW statement that could serve as a better consensus/bridging statement.
-Consider the diverse perspectives and craft a statement that might satisfy more people.
+The statement should:
+- Consider the diverse perspectives represented
+- Craft a statement that might satisfy more people
+- Be clear and substantive (2-4 sentences)
 
 Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
 
@@ -713,6 +729,7 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
+            reasoning={"effort": "minimal"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -886,3 +903,193 @@ def insert_new_statement_into_rankings(
         updated_preferences.append(rank_row)
     
     return updated_preferences
+
+
+# =============================================================================
+# ChatGPT*** Methods (Generate blind bridging statement - no context)
+# =============================================================================
+
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=1, min=2, max=10),
+    retry=retry_if_exception_type((Exception,)),
+    reraise=True
+)
+def generate_bridging_statement_no_context(
+    topic: str,
+    openai_client: OpenAI,
+    model: str = MODEL,
+    temperature: float = TEMPERATURE
+) -> Optional[str]:
+    """
+    Generate a bridging statement given ONLY the topic (no existing statements).
+    
+    This is the ChatGPT*** method - completely blind generation.
+    
+    Args:
+        topic: The topic/question being discussed
+        openai_client: OpenAI client instance
+        model: Model to use
+        temperature: Temperature for sampling
+    
+    Returns:
+        Generated bridging statement (2-4 sentences), or None if failed
+    """
+    system_prompt = "You are a helpful assistant that generates bridging statements. Return ONLY valid JSON."
+    
+    user_prompt = f"""Given the topic: "{topic}"
+
+Generate a bridging statement that could serve as a consensus position on this topic.
+The statement should:
+- Represent a reasonable middle ground that could satisfy diverse perspectives
+- Acknowledge different viewpoints while finding common ground
+- Be clear and substantive (2-4 sentences)
+
+Return your statement as JSON: {{"bridging_statement": "<your statement>"}}"""
+
+    try:
+        start_time = time.time()
+        response = openai_client.responses.create(
+            model=model,
+            input=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt}
+            ],
+            temperature=temperature,
+            reasoning={"effort": "minimal"},
+        )
+        api_timer.record(time.time() - start_time)
+        
+        result = json.loads(response.output_text)
+        return result.get("bridging_statement")
+    except Exception as e:
+        logger.error(f"Generate bridging statement (no context) failed: {e}")
+        return None
+
+
+def run_chatgpt_triple_star(
+    topic: str,
+    all_statements: List[Dict],
+    voter_personas: List[str],
+    full_preferences: List[List[str]],
+    openai_client: OpenAI,
+    n_generations: int = 5,
+    max_workers: int = 100,
+    model: str = MODEL,
+    temperature: float = TEMPERATURE
+) -> Dict:
+    """
+    Run ChatGPT*** which generates blind bridging statements (no context).
+    
+    Generates n_generations statements, inserts each into all voters' rankings,
+    computes epsilon for each with m=100, and returns the average epsilon.
+    
+    Args:
+        topic: The topic/question being discussed
+        all_statements: All 100 statement dicts
+        voter_personas: All 100 voter persona strings
+        full_preferences: Full 100x100 preference matrix
+        openai_client: OpenAI client instance
+        n_generations: Number of statements to generate (default: 5)
+        max_workers: Max parallel workers for insertion
+        model: Model to use
+        temperature: Temperature for sampling
+    
+    Returns:
+        Dict with average epsilon, individual epsilons, and generated statements
+    """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    from tqdm import tqdm
+    from src.sampling_experiment.epsilon_calculator import compute_epsilon_for_new_statement
+    
+    n_voters = len(voter_personas)
+    n_alts = len(all_statements)
+    
+    logger.info(f"ChatGPT***: Generating {n_generations} blind bridging statements...")
+    
+    generated_statements = []
+    epsilons = []
+    
+    for gen_idx in range(n_generations):
+        logger.info(f"  Generation {gen_idx + 1}/{n_generations}...")
+        
+        # Generate blind statement
+        new_statement = generate_bridging_statement_no_context(
+            topic, openai_client, model, temperature
+        )
+        
+        if new_statement is None:
+            logger.warning(f"  Generation {gen_idx + 1} failed, skipping...")
+            continue
+        
+        generated_statements.append(new_statement)
+        logger.info(f"  Generated: {new_statement[:100]}...")
+        
+        # Insert into all 100 voters' rankings
+        logger.info(f"  Inserting into {n_voters} voters' rankings...")
+        
+        def process_voter(args):
+            """Process a single voter to insert new statement."""
+            voter_idx, persona = args
+            
+            # Get this voter's current ranking
+            current_ranking = [int(full_preferences[rank][voter_idx]) 
+                             for rank in range(n_alts)]
+            
+            # Insert new statement
+            new_ranking = insert_statement_into_ranking(
+                persona, current_ranking, all_statements, new_statement,
+                topic, openai_client, model, temperature
+            )
+            
+            return voter_idx, new_ranking
+        
+        updated_rankings = [None] * n_voters
+        
+        with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            futures = {
+                executor.submit(process_voter, (i, voter_personas[i])): i
+                for i in range(n_voters)
+            }
+            
+            for future in tqdm(as_completed(futures), total=len(futures),
+                              desc=f"  Inserting gen {gen_idx + 1}", unit="voter"):
+                voter_idx, new_ranking = future.result()
+                updated_rankings[voter_idx] = new_ranking
+        
+        # Convert to preference matrix format [rank][voter]
+        n_total_alts = n_alts + 1
+        updated_preferences = []
+        for rank in range(n_total_alts):
+            rank_row = []
+            for voter in range(n_voters):
+                alt_idx = updated_rankings[voter][rank]
+                rank_row.append(str(alt_idx))
+            updated_preferences.append(rank_row)
+        
+        # Compute epsilon with m=100 (no veto power for new statement)
+        epsilon = compute_epsilon_for_new_statement(updated_preferences, n_alts)
+        epsilons.append(epsilon)
+        logger.info(f"  Epsilon for generation {gen_idx + 1}: {epsilon:.4f}")
+    
+    if not epsilons:
+        return {
+            "winner": None,
+            "epsilon": None,
+            "epsilons": [],
+            "statements": [],
+            "error": "All generations failed"
+        }
+    
+    avg_epsilon = sum(e for e in epsilons if e is not None) / len([e for e in epsilons if e is not None])
+    
+    logger.info(f"ChatGPT***: Average epsilon across {len(epsilons)} generations: {avg_epsilon:.4f}")
+    
+    return {
+        "winner": "generated",  # Not a specific index
+        "epsilon": avg_epsilon,
+        "epsilons": epsilons,
+        "statements": generated_statements,
+        "is_new": True,
+        "n_generations": len(generated_statements)
+    }

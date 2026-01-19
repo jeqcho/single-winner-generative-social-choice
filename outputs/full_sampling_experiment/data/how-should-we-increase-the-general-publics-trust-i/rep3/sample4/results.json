@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "2",
+    "winner_full": "18",
+    "epsilon": 0.15999999999999992
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "1",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "2",
+    "winner_full": "18",
+    "epsilon": 0.15999999999999992
+  },
+  "chatgpt_star": {
+    "winner": "32",
+    "epsilon": 0.31000000000000005
+  },
+  "chatgpt_star_rankings": {
+    "winner": "32",
+    "epsilon": 0.31000000000000005
+  },
+  "chatgpt_star_personas": {
+    "winner": "32",
+    "epsilon": 0.31000000000000005
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions, we should combine transparent, nonpartisan administration with routine, independently verifiable checks\u2014such as auditable paper records, publicly reported post\u2011election audits, and accessible plain\u2011language explanations of procedures\u2014while protecting secure, inclusive access for all eligible voters. Complementing these measures, authorities and community groups must proactively counter misinformation, provide multilingual civic education, and invite local observers so people can see consistent, accountable practices that prioritize the public good over partisan gain.",
+    "is_new": true,
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To build broad public trust in institutions, especially elections, we should ensure transparent, nonpartisan processes that are easy to understand and verify: use auditable paper ballots or verifiable records, routine independent post\u2011election audits, clear plain\u2011language and multilingual explanations of how votes are cast and counted, and timely public reporting. Combine these safeguards with strong cybersecurity, accessible voting options for all eligible citizens, and community outreach through trusted local organizations so people can see and trust the system in practice.",
+    "is_new": true,
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To increase public trust in institutions, make processes transparent, nonpartisan, and easy to understand by providing plain-language, multilingual explanations, auditable paper trails, and routine independent audits with timely public reporting. Combine strong cybersecurity and chain-of-custody safeguards with accessible voting options, civic education, and community outreach so every person \u2014 regardless of language, age, background, or ability \u2014 can participate confidently and hold leaders accountable.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0020000000000000018,
+    "epsilons": [
+      0.010000000000000009,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "To increase public trust in institutions, leaders should commit to transparent decision-making, consistent accountability, and meaningful public engagement, while institutions adopt clear standards for ethics and independent oversight. This approach recognizes the need for both responsive reform and stability, balancing calls for greater participation and scrutiny with the practicalities of effective governance to rebuild confidence across diverse communities.",
+      "To increase the public's trust in institutions, we should commit to transparent decision-making, consistent accountability, and accessible communication that explains how policies are made and evaluated. By combining independent oversight, meaningful public input, and practical reforms that address corruption and inefficiency, institutions can demonstrate competence and integrity while respecting diverse values and priorities.",
+      "To increase public trust in institutions, leaders should commit to transparent decision-making, independent accountability, and consistent enforcement of rules while actively engaging communities to understand their concerns. By combining accessible information, clear ethical standards, and opportunities for meaningful public input, institutions can demonstrate competence and fairness in ways that respect diverse perspectives and rebuild shared confidence.",
+      "To increase public trust in institutions, leaders should commit to transparent decision-making, clear communication, and independent oversight while actively engaging communities to address concerns and incorporate diverse perspectives. By combining accountability measures with regular, accessible reporting and opportunities for civic input, institutions can rebuild credibility without sacrificing expertise or necessary governance.",
+      "To increase the public\u2019s trust in institutions, we should commit to transparent decision\u2011making, consistent accountability, and meaningful public engagement so that policies are both understandable and responsive to community needs. While people differ on which reforms are most urgent, most can agree that clearer communication, independent oversight, and opportunities for citizens to contribute and evaluate outcomes will together rebuild confidence without sacrificing expertise or efficiency."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

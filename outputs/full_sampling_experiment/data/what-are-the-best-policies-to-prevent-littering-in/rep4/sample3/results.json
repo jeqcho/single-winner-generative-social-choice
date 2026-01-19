@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "13",
+    "winner_full": "51",
+    "epsilon": 0.41999999999999993
+  },
+  "chatgpt_rankings": {
+    "winner": "1",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "1",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "41",
+    "epsilon": 0.28
+  },
+  "chatgpt_star_rankings": {
+    "winner": "20",
+    "epsilon": 0.1200000000000001
+  },
+  "chatgpt_star_personas": {
+    "winner": "20",
+    "epsilon": 0.1200000000000001
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "The best approach combines easy access to well-maintained trash and recycling bins (placed where people actually need them) with steady, fair enforcement and community engagement. Pair practical measures\u2014like regular pickups, multilingual public education, and partnerships with schools, churches, and businesses\u2014with modest fines or community service for repeat offenders so norms, convenience, and accountability all reinforce keeping public spaces clean.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "The best way to prevent littering is a balanced approach that makes the right choice easy, builds community pride, and holds repeat offenders accountable. Cities should install and maintain plenty of clearly marked trash and recycling bins (including multilingual signage and tech like fill sensors), fund regular clean-up crews and volunteer neighborhood programs, and run education campaigns in schools, churches, and community groups. Reasonable, consistently enforced fines or community service for littering\u2014focused on repeat violators\u2014reinforce norms without relying solely on punishment.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To prevent littering, cities should make the right choice easy and expected: place and maintain plenty of clearly marked trash and recycling bins (with multilingual signage), use smart collection technology where practical, and run regular community education and volunteer cleanup programs that involve schools, churches, and businesses. Pair these investments with fair, consistently enforced penalties for repeat littering so everyone shares responsibility for keeping public spaces safe and pleasant for families, wildlife, and neighbors.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Preventing littering in public spaces is best achieved through a balanced mix of clear regulations, convenient infrastructure, and community engagement: enforce reasonable penalties for repeated violations while providing ample, well-marked disposal and recycling options. Complement enforcement with education campaigns and local stewardship programs that empower residents and businesses to take pride in shared spaces, recognizing both personal responsibility and practical barriers people face.",
+      "Preventing littering in public spaces is best achieved through a balanced approach that combines clear regulations and fair enforcement with public education, convenient waste and recycling infrastructure, and community engagement. By pairing targeted penalties for repeat or harmful offenses with positive incentives, accessible bins, regular maintenance, and campaigns that emphasize shared civic pride, policymakers can respect individual freedoms while promoting cleaner, healthier public environments.",
+      "Preventing littering in public spaces is best achieved through a balanced approach that combines clear, consistently enforced regulations with practical investments in infrastructure and education. By pairing well-placed bins and regular maintenance with targeted public awareness campaigns and community-led initiatives, policymakers can respect individual responsibility while making clean choices easy and socially supported.",
+      "Effective litter-prevention policy combines practical enforcement with positive incentives: enforce sensible fines and consistent cleanup standards while investing in accessible bins, regular maintenance, and public education campaigns. This balanced approach recognizes the need for accountability and community responsibility, supports businesses and municipalities with feasible implementation, and encourages cultural shifts through education and visible infrastructure improvements.",
+      "Preventing littering in public spaces is best approached through a mix of practical infrastructure, education, and fair enforcement: provide convenient and well-marked disposal and recycling bins, run sustained public awareness campaigns about civic pride and environmental impact, and apply measured penalties for repeated offenders. This balanced strategy recognizes both the need for personal responsibility and the role of policy and design in shaping behavior, and can be tailored to local contexts through community input and ongoing evaluation."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

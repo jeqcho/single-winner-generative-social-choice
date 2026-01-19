@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "2",
+    "winner_full": "7",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "9",
+    "winner_full": "45",
+    "epsilon": 0.3700000000000001
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "9",
+    "winner_full": "45",
+    "epsilon": 0.3700000000000001
+  },
+  "chatgpt_star": {
+    "winner": "51",
+    "epsilon": 0.3700000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "61",
+    "epsilon": 0.42999999999999994
+  },
+  "chatgpt_star_personas": {
+    "winner": "34",
+    "epsilon": 0.17999999999999994
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance the rule of law with compassion by securing borders and enforcing fair rules while providing a clear, affordable pathway to citizenship for long\u2011term residents who contribute through work, taxes, or community service. That path should include reasonable vetting, opportunities for language and civic learning, protections for families and refugees, and streamlined, transparent processes so newcomers and communities can safely thrive together.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "I believe immigration policy should balance respect for the rule of law with basic human dignity: secure, well\u2011managed borders and fair enforcement alongside clear, affordable, and timely pathways to citizenship for long\u2011time, law\u2011abiding residents who work, pay taxes, and integrate. That path should include reasonable vetting, opportunities for language and civic learning, protections for families, refugees, and children, and transparent, efficient processes that help newcomers contribute to and belong in our communities.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance respect for the rule of law with compassion for families and vulnerable people by securing borders and enforcing fair, transparent rules while offering a clear, affordable, and earned path to citizenship for long\u2011time, law\u2011abiding residents who work, pay taxes, learn English, and contribute to their communities. The system should streamline humane processes for refugees and children, include background checks and integration supports like language and civic education, and protect labor standards and public safety so newcomers and communities can thrive together.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Immigration policy and the path to citizenship should balance the rule of law and border integrity with humane treatment and opportunities for integration, creating clear, fair procedures that prioritize public safety, economic needs, and family unity. By combining efficient legal pathways, responsible enforcement, and accessible routes to citizenship for those who contribute and comply with requirements, policymakers can respect diverse concerns while fostering social cohesion and economic vitality.",
+      "Immigration policy should balance a secure, orderly system with humane treatment by enforcing clear rules, protecting borders, and ensuring timely processing while providing pathways for long-term residents who contribute to communities and the economy to earn citizenship. This approach recognizes the legitimate concerns about sovereignty and public safety, the value of legal immigration and workforce needs, and the moral imperative to treat families and vulnerable people with dignity through fair, transparent criteria and opportunities for integration.",
+      "Immigration policy should balance national security and economic needs with humanitarian obligations by enforcing orderly, transparent procedures that prioritize border safety while creating realistic, merit- and family-based pathways to lawful status. Recognizing concerns about rule of law and resource impacts as well as the contributions immigrants make, a fair path to citizenship should include background checks, tax and civic participation requirements, and opportunities for integration and workforce contribution, combined with regularized routes for refugees and reunification of families.",
+      "Immigration policy and the path to citizenship should balance national security and orderly borders with a humane, practical pathway for people who contribute to society, recognizing both the need to enforce laws and the value of human dignity. Policies should combine clear, enforceable rules and efficient legal channels with fair opportunities for integration and citizenship\u2014prioritizing family unity, economic contributions, and protection for those fleeing persecution\u2014so that communities are safe, the economy benefits, and deserving individuals can fully participate in civic life.",
+      "Immigration policy should balance national security and rule of law with compassion and economic practicality by enforcing orderly, transparent processes while creating realistic pathways for integration and citizenship. Recognizing concerns about border control and labor markets alongside the moral and economic case for welcoming newcomers, policy should prioritize humane treatment, merit- and family-based admission, fair enforcement, and accessible routes to citizenship tied to demonstrated contribution and adherence to shared civic values."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

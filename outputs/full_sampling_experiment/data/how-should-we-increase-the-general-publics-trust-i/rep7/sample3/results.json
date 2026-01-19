@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.07000000000000006
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.07000000000000006
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.07000000000000006
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.07000000000000006
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.07000000000000006
+  },
+  "chatgpt": {
+    "winner": "1",
+    "winner_full": "12",
+    "epsilon": 0.08000000000000007
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.07000000000000006
+  },
+  "chatgpt_personas": {
+    "winner": "11",
+    "winner_full": "70",
+    "epsilon": 0.6399999999999999
+  },
+  "chatgpt_star": {
+    "winner": "89",
+    "epsilon": 0.8400000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "33",
+    "epsilon": 0.28
+  },
+  "chatgpt_star_personas": {
+    "winner": "89",
+    "epsilon": 0.8400000000000001
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions, especially elections, we should combine strong, verifiable safeguards\u2014like paper ballots or auditable records, routine independent post-election audits, and robust cybersecurity\u2014with clear, nonpartisan public explanations and multilingual outreach so everyone can understand the process. Local election officials should be supported with consistent standards and training while allowing appropriate local control, and trusted community partners\u2014schools, faith groups, libraries, and civic organizations\u2014should help communicate facts and counter misinformation respectfully. This balanced approach protects access and integrity, makes results transparent and verifiable, and treats all voters with dignity so confidence grows across diverse communities.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions, we should ensure transparent, nonpartisan, and verifiable processes that are accessible to everyone: use auditable paper ballots and routine independent post-election audits, secure systems with strong cybersecurity, and clear, plain-language information in multiple languages. Local, trusted community partners\u2014schools, libraries, faith groups, and civic organizations\u2014should help explain procedures, counter misinformation, and welcome observation so people can see results are accurate and fair.",
+    "is_new": true,
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions, we should ensure transparent, nonpartisan, and verifiable processes that are easy to understand and accessible to everyone\u2014using auditable paper records, routine independent post\u2011election checks, strong cybersecurity, and clear plain\u2011language information in multiple languages. Pair these technical safeguards with community outreach through trusted local institutions\u2014schools, libraries, faith groups, and community centers\u2014so voters of all ages and backgrounds can observe, learn, and see that systems are fair, accountable, and designed to protect every eligible voice.",
+    "is_new": true,
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "To increase public trust in institutions, we should commit to greater transparency, consistent accountability, and inclusive participation\u2014balancing clear rules and oversight with opportunities for community input and independent review. This approach recognizes the need for effective institutions and safeguards against abuse, while ensuring policies are understandable, responsive to diverse concerns, and regularly evaluated for fairness and results.",
+      "To increase public trust in institutions, leaders should commit to greater transparency, independent accountability, and consistent enforcement of fair rules while actively engaging communities to listen and respond to legitimate concerns. A balanced approach that protects essential expertise and institutional capacity, yet opens decision-making to oversight, clear communication, and meaningful public input can help reconcile skepticism with the need for effective collective action.",
+      "To strengthen public trust in institutions, leaders should commit to transparent decision-making, independent accountability, and consistent evidence-based practices while actively engaging with diverse communities to listen and respond to legitimate concerns. By combining clear communication, routine third-party oversight, and accessible avenues for participation and redress, institutions can demonstrate reliability and responsiveness in ways that respect both the need for expertise and citizens\u2019 desire for fairness and inclusion.",
+      "To strengthen public trust in institutions, we should promote transparent decision-making, independent accountability, and inclusive public engagement so that people can see how decisions are made, who is responsible, and have meaningful opportunities to participate. This approach balances the need for professional expertise and effective governance with protections against abuse of power by ensuring open information, fair oversight, and respectful inclusion of diverse community perspectives.",
+      "To strengthen public trust in institutions, we should combine greater transparency and accountability with meaningful community engagement and independent oversight, ensuring decisions are evidence-based and clearly communicated. This approach recognizes the need for both institutional integrity and responsiveness to diverse public concerns, balancing professional expertise with accessible mechanisms for input and redress."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt": {
+    "winner": "12",
+    "winner_full": "50",
+    "epsilon": 0.41999999999999993
+  },
+  "chatgpt_rankings": {
+    "winner": "5",
+    "winner_full": "20",
+    "epsilon": 0.1299999999999999
+  },
+  "chatgpt_personas": {
+    "winner": "12",
+    "winner_full": "50",
+    "epsilon": 0.41999999999999993
+  },
+  "chatgpt_star": {
+    "winner": "50",
+    "epsilon": 0.41999999999999993
+  },
+  "chatgpt_star_rankings": {
+    "winner": "20",
+    "epsilon": 0.1299999999999999
+  },
+  "chatgpt_star_personas": {
+    "winner": "20",
+    "epsilon": 0.1299999999999999
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Laws about abortion should balance respect for unborn life with respect for women\u2019s health, dignity, and personal circumstances, relying on medical expertise rather than ideology. They should protect access to safe, timely care while also investing in contraception, comprehensive sex education, and supports for pregnant people and families so that choosing parenthood is a realistic option. Exceptions should be carefully defined for life\u2011threatening situations and severe fetal conditions, and policy should avoid criminalizing patients or providers while allowing conscience protections and individualized medical judgment.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Laws on abortion should balance respect for unborn life with strong protection for the health, dignity, and autonomy of pregnant people: they should be guided by medical evidence, compassion, and support for families rather than partisan or purely religious mandates. Policy should prioritize safe, accessible healthcare (including contraception, education, and support services), allow narrowly defined exceptions when the mother\u2019s life or health is at serious risk or in cases of rape or incest, and focus resources on helping parents and children thrive so that choosing life is a real option for everyone.",
+    "is_new": true,
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Laws about abortion should respect that this is a deeply personal and morally complex decision by balancing protection for unborn life with the health, dignity, and autonomy of women. Policy should be guided by medical evidence, allow narrow exceptions for serious risks or trauma, and be paired with robust support\u2014affordable healthcare, contraception, sex education, and family services\u2014so people have real options and are not forced into choices by poverty or lack of care.",
+    "is_new": true,
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0020000000000000018,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.010000000000000009,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Laws concerning abortion should balance respect for individual autonomy and bodily integrity with recognition of legitimate societal and ethical concerns about fetal life, grounding policy in medical evidence and protecting access to safe care while allowing for reasonable limits that reflect compelling state interests at defined stages of pregnancy. Policymaking should ensure timely, affordable reproductive health services, informed consent, and support for pregnant people and families, while creating narrowly tailored, evidence-based safeguards that accommodate conscience-based concerns without unduly restricting access to necessary care.",
+      "Laws concerning abortion should protect public health and individual dignity by ensuring safe, accessible reproductive care while recognizing deeply held moral concerns about fetal life; policy should be shaped by medical evidence, respect for personal conscience, and reasonable limits that are time-sensitive and narrowly tailored. By grounding regulations in science, protecting women's health and autonomy, providing support for pregnancy and parenting, and allowing conscience protections for providers, lawmakers can balance competing values and reduce harm across communities.",
+      "Laws concerning abortion should protect the health, dignity, and autonomy of pregnant people while recognizing society\u2019s interest in supporting potential life; this means ensuring safe, legal access to abortion alongside robust support for prenatal care, parental leave, and resources that reduce the need for abortion. Policymaking should be guided by evidence, respect for differing moral views, and protections for medical professionals\u2019 conscience and patients\u2019 access to timely, equitable care.",
+      "Laws concerning abortion should balance respect for individual autonomy with a commitment to protect health and minimize harm, ensuring people can make private reproductive decisions while safeguarding medical standards and vulnerable interests. Policy should prioritize access to safe, evidence-based care, support services, and comprehensive education, while allowing reasonable, well-defined limits informed by medical evidence and broadly shared ethical concerns.",
+      "Laws concerning abortion should protect individuals' health, safety, and autonomy while recognizing deeply held moral concerns about potential life; they should therefore ensure access to safe, timely reproductive care and supports for those who choose to carry pregnancies to term, while permitting reasonable, evidence-based limits when necessary to protect health and public order. Policy should be grounded in medical best practices, minimize coercion or unnecessary barriers, and include resources\u2014such as counseling, healthcare, and social supports\u2014to reduce unwanted pregnancies and help pregnant people and families thrive."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

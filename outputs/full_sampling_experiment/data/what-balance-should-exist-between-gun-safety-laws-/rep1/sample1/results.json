@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.030000000000000027
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.030000000000000027
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.030000000000000027
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.030000000000000027
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt": {
+    "winner": "16",
+    "winner_full": "76",
+    "epsilon": 0.69
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_personas": {
+    "winner": "16",
+    "winner_full": "76",
+    "epsilon": 0.69
+  },
+  "chatgpt_star": {
+    "winner": "80",
+    "epsilon": 0.71
+  },
+  "chatgpt_star_rankings": {
+    "winner": "60",
+    "epsilon": 0.55
+  },
+  "chatgpt_star_personas": {
+    "winner": "80",
+    "epsilon": 0.71
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "The Second Amendment is an important constitutional right, and responsible adults should be able to own firearms for self\u2011defense, hunting, and sport; at the same time, commonsense laws that focus on preventing violence\u2014such as universal background checks, accessible safety training, enforceable safe\u2011storage rules, and narrowly targeted measures to keep guns from high\u2011risk individuals\u2014help protect children and communities without unduly burdening law\u2011abiding owners. Effective policy should prioritize practical, well\u2011enforced rules and resources (education, mental\u2011health support, and enforcement of existing laws) that balance individual liberty with public safety.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "The Second Amendment protects individuals\u2019 ability to own firearms, and that right should be preserved while ensuring public safety through common\u2011sense, evidence\u2011based measures\u2014like universal background checks, enforced safe\u2011storage rules, meaningful safety training, and targeted restrictions to keep guns from violent or high\u2011risk individuals. Focus enforcement on criminals and dangerous actors rather than burdening responsible owners, and pair laws with education and resources so families can protect themselves without putting communities or children at risk.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "The Second Amendment protects individuals\u2019 right to own firearms, and that right should be preserved for lawful purposes like self\u2011defense, hunting, and sport. At the same time, commonsense safety measures\u2014such as universal background checks, mandatory safety training and secure storage, targeted restrictions on those proven to be dangerous, and consistent enforcement of existing laws\u2014help prevent accidents and violence without unduly burdening responsible owners. Balancing rights and safety means protecting constitutional freedoms while taking practical, evidence\u2011based steps to keep children, families, and communities safe.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Respecting the constitutional right to keep and bear arms while protecting public safety requires a balanced approach that preserves lawful ownership and responsible use alongside sensible, evidence-based restrictions to reduce gun violence. Common ground can be found in measures that enhance background checks, promote safe storage and training, and keep firearms out of the hands of those who pose a clear risk, while safeguarding hunting, sport shooting, and self-defense for law-abiding citizens.",
+      "We can uphold the Second Amendment while adopting targeted, evidence-based safety measures that reduce gun violence\u2014such as universal background checks, safe-storage requirements, and prohibitions on access for people demonstrably at high risk\u2014without broadly disarming law-abiding citizens. By focusing on policies that protect public safety, respect responsible ownership, and include avenues for due process and regular review, we can build bipartisan support and practical solutions that address both security and constitutional rights.",
+      "We can respect the Second Amendment while pursuing practical, evidence-based measures that reduce gun violence and keep communities safe, such as universal background checks, safe storage requirements, and prohibitions for those proven dangerous. By combining the rights of responsible gun ownership with targeted safeguards, we honor constitutional freedoms and protect public safety, and we commit to ongoing evaluation and dialogue to adjust laws based on effectiveness and civil liberties concerns.",
+      "A balanced approach recognizes the constitutional right to keep and bear arms while advancing reasonable, evidence-based safety measures that prevent violence and protect the public. By focusing on universal background checks, safe storage requirements, and targeted restrictions for those demonstrably high-risk\u2014paired with respect for lawful ownership and recreational use\u2014we can reduce harm without undermining responsible gun ownership.",
+      "We can uphold the Second Amendment while supporting sensible, evidence-based measures that reduce gun violence\u2014such as universal background checks, safe storage requirements, and targeted bans on weapons designed solely for mass casualty\u2014so long as these policies include due process and respect lawful ownership. By focusing on proven safety interventions, improving mental-health and community-based prevention programs, and ensuring transparent enforcement, society can protect public safety without eroding constitutional rights."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

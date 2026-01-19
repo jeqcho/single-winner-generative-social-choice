@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "1",
+    "winner_full": "12",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "12",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "1",
+    "winner_full": "12",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "1",
+    "winner_full": "12",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "12",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "15",
+    "winner_full": "81",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "1",
+    "winner_full": "12",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "15",
+    "winner_full": "81",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "44",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "1",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_star_personas": {
+    "winner": "32",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "University campuses should default to allowing even passionate, unpopular speech and protest, while enforcing clear, content-neutral limits on conduct\u2014no threats, targeted harassment, doxxing, or blocking people from learning, working, or moving safely. Policies and consequences should be publicly explained and applied consistently, with a focus on de-escalation rather than performative policing or donor-driven decision-making. At the same time, universities should invest in credible channels for disagreement\u2014moderated debates, restorative processes, and support services\u2014so students can engage hard issues like Israel/Gaza without fear or silencing.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Universities should protect free speech and peaceful protest on contentious issues like Israel/Gaza, while enforcing clear, content-neutral time/place/manner rules that keep classes and research functioning. Administrators must draw a bright line against harassment, threats, doxxing, or intimidation of any group, apply consequences consistently, and resist donor or political pressure to favor one side. Alongside enforcement, schools should invest in de-escalation, reporting/support resources, and structured opportunities for dialogue\u2014teach-ins, moderated forums, and mediation\u2014so disagreement can be expressed without dehumanization or fear.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "University campuses should protect broad free speech and peaceful protest on any issue, including Israel/Gaza, while enforcing clear, content-neutral rules that prevent threats, harassment, doxxing, or blocking others from learning and working. Policies and consequences should be transparent and applied consistently so students and staff trust the process and don\u2019t feel the school is favoring one side or bowing to outside pressure. Alongside firm safety measures and de-escalation, universities should offer structured outlets\u2014teach-ins, moderated forums, and support services\u2014so disagreement can be heard and informed without turning into intimidation or disruption.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0020000000000000018,
+    "epsilons": [
+      0.0,
+      0.010000000000000009,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "University campuses should protect robust free expression while also maintaining an environment where students can learn without harassment, threats, or unlawful discrimination. That means setting clear, viewpoint-neutral rules focused on conduct and safety, applying them consistently, and favoring more speech and open debate over suppression whenever possible. When conflicts arise, universities should use transparent processes and provide avenues for dialogue and education so that both free inquiry and community well-being are meaningfully upheld.",
+      "University campuses should protect robust free expression as a core academic value while also maintaining clear, narrowly tailored rules that prevent harassment, credible threats, and disruptions that block others from learning. People can reasonably disagree about where the line is, so policies should be transparent, consistently applied, and grounded in viewpoint neutrality with fair processes for disputes. The goal is a climate where unpopular ideas can be heard and challenged through debate, and where students and faculty also feel safe and able to participate fully in campus life.",
+      "University campuses should protect robust free expression because open debate is central to learning, while also maintaining clear rules that prevent harassment, true threats, and disruption of others\u2019 ability to study and participate. It\u2019s reasonable to expect schools to be viewpoint-neutral in how they apply policies, but also to provide support and context\u2014through counseling, forums, and counter-speech\u2014when controversial ideas arise. A fair approach emphasizes transparent standards, consistent enforcement, and more dialogue rather than reflexive censorship or a free-for-all.",
+      "University campuses should protect robust free expression as central to learning, while recognizing that a healthy climate also requires clear, fair rules against harassment, true threats, and disruption that prevents others from participating. People can reasonably disagree about where lines should be drawn, so policies should be viewpoint-neutral, transparent, and applied consistently, with due process and meaningful avenues for appeal. Campuses can also invest in education and dialogue\u2014such as facilitated forums and support resources\u2014so difficult speech is met with more speech and thoughtful engagement rather than blanket suppression.",
+      "University campuses should protect robust free expression as a core academic value while also setting clear, viewpoint-neutral rules that prevent harassment, true threats, and disruption of others\u2019 ability to learn. People reasonably disagree about where to draw lines, but most can agree on transparent policies, consistent enforcement, and due process that apply regardless of ideology. Creating more structured opportunities for dialogue\u2014alongside supports for those who feel targeted\u2014can help campuses uphold both open inquiry and a safe, functional learning environment."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

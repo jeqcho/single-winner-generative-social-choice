@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "15",
+    "epsilon": 0.040000000000000036
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "15",
+    "epsilon": 0.040000000000000036
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "15",
+    "epsilon": 0.040000000000000036
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "15",
+    "epsilon": 0.040000000000000036
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "15",
+    "epsilon": 0.040000000000000036
+  },
+  "chatgpt": {
+    "winner": "2",
+    "winner_full": "25",
+    "epsilon": 0.09000000000000008
+  },
+  "chatgpt_rankings": {
+    "winner": "2",
+    "winner_full": "25",
+    "epsilon": 0.09000000000000008
+  },
+  "chatgpt_personas": {
+    "winner": "2",
+    "winner_full": "25",
+    "epsilon": 0.09000000000000008
+  },
+  "chatgpt_star": {
+    "winner": "92",
+    "epsilon": 0.8300000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "92",
+    "epsilon": 0.8300000000000001
+  },
+  "chatgpt_star_personas": {
+    "winner": "83",
+    "epsilon": 0.7
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Free speech is fundamental and must be broadly protected, but it is not absolute: speech that intentionally and directly threatens, incites imminent violence, or constitutes targeted, sustained harassment that makes people unsafe should be limited and subject to legal and institutional consequences. Limits should be narrowly defined, focused on intent and real harm rather than mere offense, and paired with non\u2011censorial responses\u2014education, counter\u2011speech, and restorative measures\u2014to preserve open debate while protecting vulnerable people\u2019s safety and dignity.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Free speech is a vital democratic right and should protect even unpopular or uncomfortable ideas, but it should not be a shield for language that directly threatens, incites violence, or targets people for harassment or exclusion based on protected characteristics. Legal and institutional rules should be narrowly and clearly defined to prohibit true threats, organized incitement, and sustained, identity\u2011based harassment while preserving space for robust debate and efforts to counter hateful ideas through speech, education, and community norms.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Free speech is a vital democratic value and should protect robust, even uncomfortable debate, but it should not be a shield for words that intentionally threaten, harass, dehumanize, or directly incite violence or discrimination against people because of who they are. Limits should be narrowly and clearly defined\u2014focused on true threats, targeted harassment, and organized calls for harm\u2014so laws and platforms can protect safety and equal participation without silencing legitimate criticism or unpopular ideas.",
+    "is_new": true,
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Free speech is a fundamental right that should be broadly protected, but it is legitimate to place narrowly tailored limits on expressions that directly and intentionally incite imminent violence, coordinate criminal activity, or constitute targeted, repeated harassment that silences others\u2019 participation. At the same time, safeguards must prevent vague or overly broad restrictions that could stifle legitimate debate, dissent, and artistic or political expression; clear legal standards, due process, and independent oversight should guide when and how restrictions are applied. Together these principles balance protecting individuals and public safety while preserving robust, open discourse.",
+      "Free speech should be broadly protected to preserve open debate and the exchange of ideas, while narrowly limiting only direct, intentional, and imminent harms\u2014such as credible threats, incitement to violence, or targeted harassment\u2014that demonstrably endanger individuals or groups. This approach respects concerns about censorship and the value of dissenting speech, yet acknowledges the need for legal and community measures to prevent speech that directly puts others at serious risk or denies them the ability to participate safely in public life.",
+      "Free speech is a fundamental right that should be protected, but it is reasonable to limit expressions that intentionally incite violence, direct threats, or targeted harassment that makes participation in public life unsafe; at the same time, speech that is offensive or unpopular should generally be countered with more speech, education, and community norms rather than broad censorship. Any restrictions should be narrowly defined, transparent, and subject to legal safeguards and independent review to prevent abuse, while promoting inclusive dialogue and remedies that address harm without unduly silencing legitimate debate.",
+      "Free speech is a fundamental right that should be broadly protected, but it is reasonable to limit speech that intentionally incites imminent violence or targets individuals or groups with coordinated harassment that poses a clear risk to their safety or equal participation in society. At the same time, protections should avoid vague or overbroad restrictions that stifle legitimate debate, satire, or academic inquiry; instead, legal and policy limits should be narrowly defined, evidence-based, and paired with non\u2011coercive responses\u2014education, counter\u2011speech, and support for affected communities\u2014to address underlying harms and preserve a robust marketplace of ideas.",
+      "Free speech is a foundational right that should be broadly protected, but it is reasonable to limit expressions that intentionally incite violence, target individuals with credible threats, or constitute direct harassment that prevents others from participating in public life. At the same time, limits should be narrowly defined, transparent, and subject to legal oversight to avoid suppressing legitimate debate, satire, or criticism; education and community norms should complement laws to reduce harm without unduly restricting open discourse."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

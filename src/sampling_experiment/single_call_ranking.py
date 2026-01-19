@@ -49,15 +49,17 @@ def _make_single_ranking_api_call(
 
 Given the topic: "{topic}"
 
-Below are {n} statements. Rank them from MOST preferred to LEAST preferred based on your persona.
+Below are {n} statements. Rank them from MOST preferred (rank 1) to LEAST preferred (rank {n}) based on your persona.
 
 {statements_text}
 
-Return ONLY a JSON object with the statement indices (0-{n-1}) in order from most to least preferred:
-{{"ranking": [most_preferred_idx, ..., least_preferred_idx]}}
+Return a JSON object mapping each rank position to the statement index you assign to that rank:
+{{"1": <most_preferred_idx>, "2": <second_preferred_idx>, ..., "{n}": <least_preferred_idx>}}
 
-IMPORTANT: The ranking array must contain EXACTLY {n} unique integers from 0 to {n-1}. 
-Each number must appear exactly once. No duplicates, no missing numbers.
+IMPORTANT: 
+- Keys must be "1" through "{n}" (rank positions, where 1 = most preferred)
+- Values must be unique integers from 0 to {n-1} (statement indices)
+- Each statement index must appear exactly once
 Return only the JSON, no additional text."""
 
     start_time = time.time()
@@ -68,11 +70,13 @@ Return only the JSON, no additional text."""
             {"role": "user", "content": user_prompt}
         ],
         temperature=temperature,
+        reasoning={"effort": "low"},
     )
     api_timer.record(time.time() - start_time)
     
     result = json.loads(response.output_text)
-    ranking = result.get("ranking", [])
+    # Convert {"1": idx, "2": idx, ...} to [idx_at_rank1, idx_at_rank2, ...]
+    ranking = [result[str(i)] for i in range(1, n + 1)]
     
     return ranking
 
@@ -307,6 +311,7 @@ Return JSON: {{"insert_position": <number>}}"""
             {"role": "user", "content": user_prompt}
         ],
         temperature=temperature,
+        reasoning={"effort": "low"},
     )
     api_timer.record(time.time() - start_time)
     

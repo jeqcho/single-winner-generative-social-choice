@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.06000000000000005
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.06000000000000005
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.06000000000000005
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.06000000000000005
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.06000000000000005
+  },
+  "chatgpt": {
+    "winner": "5",
+    "winner_full": "47",
+    "epsilon": 0.42999999999999994
+  },
+  "chatgpt_rankings": {
+    "winner": "5",
+    "winner_full": "47",
+    "epsilon": 0.42999999999999994
+  },
+  "chatgpt_personas": {
+    "winner": "5",
+    "winner_full": "47",
+    "epsilon": 0.42999999999999994
+  },
+  "chatgpt_star": {
+    "winner": "46",
+    "epsilon": 0.4099999999999999
+  },
+  "chatgpt_star_rankings": {
+    "winner": "49",
+    "epsilon": 0.41999999999999993
+  },
+  "chatgpt_star_personas": {
+    "winner": "49",
+    "epsilon": 0.41999999999999993
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Policing should prioritize both public safety and civil rights by combining rigorous, rights-respecting training (de\u2011escalation, implicit\u2011bias, mental\u2011health response) with transparent accountability (consistent body\u2011camera policies, independent review of serious incidents, and data\u2011driven oversight). At the same time, communities and officers should be supported through investments in mental\u2011health and social services, better staffing and supervision, and meaningful community engagement so force is truly a last resort and trust is rebuilt on all sides.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Policing should prioritize public safety while protecting civil rights by requiring strong de-escalation and anti-bias training, consistent body\u2011camera use, and clear, independently reviewed accountability for misuse of force. At the same time, officers must be supported with adequate staffing, resources, and community partnership so they can respond safely, and many mental\u2011health, homelessness, and nonviolent calls should be diverted to specialized civilian responders backed by investments in social services that reduce reliance on police.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Policing should prioritize public safety while protecting civil rights by combining strong accountability\u2014independent review of serious incidents, consistent body\u2011camera policies, and clear consequences for bias or excessive force\u2014with robust support for officers through regular de\u2011escalation, cultural\u2011competency, and mental\u2011health response training. At the same time, invest in community resources (mental health, housing, youth programs) and co\u2011response teams so police are not the default for every social crisis, fostering trust through transparency, data\u2011driven oversight, and sustained community partnership.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Policing should center public safety while rigorously protecting civil rights by combining transparent accountability, community partnership, and evidence-based practices; this means investing in training, de-escalation, and alternatives to arrest for nonviolent issues alongside robust civilian oversight and clear use-of-force standards. We can bridge concerns about security and liberty by committing to data-driven performance measures, independent review of misconduct, and sustained dialogue with affected communities so that enforcement is effective, equitable, and trusted by the people it serves.",
+      "Policing should prioritize public safety while upholding civil rights by combining evidence-based crime prevention, transparent accountability, and community partnership; this means using proportional, non-discriminatory tactics, clear use-of-force limits, and independent oversight to build trust. By investing in training on de-escalation, bias reduction, and cultural competency alongside social services and mental-health resources, law enforcement can more effectively protect communities and respect individual liberties, reflecting shared values of security and justice.",
+      "Policing should be guided by a balanced approach that prioritizes public safety while rigorously protecting civil rights, combining evidence-based crime prevention, de-escalation, and community engagement with transparent accountability and independent oversight. By investing in training, mental health and social services, and data-driven practices, law enforcement can build trust across diverse communities while ensuring officers operate within clear legal and ethical standards that respect individual liberties.",
+      "Policing should prioritize public safety while rigorously protecting civil rights by using transparent, accountable practices, bias-aware training, and measurable community-informed policies that de-escalate conflict and reduce harm. By combining strong oversight, independent review, and investments in mental health and social services, law enforcement can work with communities to build trust and effectively address crime without sacrificing individual liberties.",
+      "Policing should be guided by a commitment to protect public safety while equally upholding civil rights, using clear, accountable policies that emphasize de-escalation, transparency, and community partnerships. By investing in training, independent oversight, data-driven practices, and alternatives to force for nonviolent issues, agencies can build trust across communities and ensure both security and justice are maintained."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "3",
+    "winner_full": "20",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "3",
+    "winner_full": "20",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "3",
+    "winner_full": "20",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "18",
+    "winner_full": "97",
+    "epsilon": 0.07000000000000006
+  },
+  "veto_by_consumption": {
+    "winner": "3",
+    "winner_full": "20",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "11",
+    "winner_full": "73",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "3",
+    "winner_full": "20",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "3",
+    "winner_full": "20",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "36",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "18",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_star_personas": {
+    "winner": "65",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "The most effective anti-littering policy combines convenience, fairness, and shared responsibility: provide plentiful, well-placed trash and recycling bins (kept from overflowing) and clear signage so disposing of waste is the easy choice. Pair that with modest, consistently enforced penalties\u2014especially for repeat offenders\u2014with options like community service that directly repairs the harm. Support it through ongoing school and community education and neighborhood partnerships (e.g., adopt-a-block and clean-up days), so clean public spaces become a local norm rather than just a rule.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "The most effective way to prevent littering is a balanced approach that makes proper disposal easy and expected: install plenty of well-placed, clearly labeled trash and recycling bins (kept from overflowing with regular service) and use clear signage in high-traffic areas. Pair this with consistent, reasonable enforcement\u2014focusing on repeat offenders and offering community service options\u2014so accountability feels fair rather than heavy-handed. Reinforce the norm through school and community education, plus neighborhood clean-up or adopt-a-street programs that build local pride and shared ownership.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "The most effective anti-littering policy combines convenience, education, and fair accountability: put plenty of clearly marked trash and recycling bins where people actually gather, keep them emptied, and maintain regular cleanups so spaces stay cared for. Pair that with school and community education (using kid-friendly signage, art, and local pride) so everyone understands the impact on health, wildlife, and neighborhood well-being. Enforce reasonable, consistent consequences for repeat littering\u2014fines or community service\u2014with revenue reinvested into bins, cleanup crews, and youth/community \u201cadopt-a-spot\u201d programs so people see both responsibility and tangible improvements.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "A balanced approach to preventing littering should combine personal responsibility with practical support, recognizing that education alone may not work without convenient options. Communities can pair clear, fairly enforced penalties for repeat offenders with investments in more bins, better collection schedules, and well-designed public spaces that make proper disposal easy. By also funding public awareness campaigns, school programs, and occasional community cleanups, policymakers can reduce litter while addressing concerns about both costs and over-policing.",
+      "A balanced approach to preventing littering should combine practical infrastructure (more bins, recycling options, and regular maintenance) with fair, consistent enforcement for repeat or egregious violations. It should also invest in education and community partnerships\u2014such as schools, businesses, and neighborhood cleanups\u2014to build shared norms without over-policing public spaces. By pairing convenience and accountability with measurable results, communities can reduce litter while respecting both public order and individual freedoms.",
+      "The most effective anti-littering approach combines shared personal responsibility with practical public support, recognizing that education alone and enforcement alone are both insufficient. Communities can pair clear, fair penalties for repeat or intentional littering with convenient bins, regular maintenance, and public awareness campaigns that make proper disposal easy and socially expected. Investing in targeted measures\u2014like deposit-return programs, event requirements, and support for cleanup partnerships\u2014can reduce waste without overburdening taxpayers or disproportionately penalizing minor mistakes.",
+      "Effective anti-littering policy should balance personal responsibility with practical infrastructure, recognizing that some people respond best to education and convenience while others require clear enforcement. A middle-ground approach pairs adequate bins, regular collection, and thoughtful public messaging with fair, proportionate fines focused on repeat or egregious offenders. By combining prevention, accessibility, and accountability\u2014and measuring results to adjust over time\u2014communities can reduce litter without over-policing or placing the burden on any single group.",
+      "The most effective approach to preventing littering combines personal responsibility with practical, well-funded public infrastructure: plentiful bins (including recycling), regular collection, and clean, well-designed spaces that make proper disposal easy. At the same time, fair and consistently enforced penalties can deter chronic offenders, while education and community cleanup efforts build shared norms without over-policing. A balanced policy package should prioritize convenience and prevention first, reserve fines for repeat or intentional violations, and measure results transparently to adjust what works."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

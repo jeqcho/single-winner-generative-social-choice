@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.050000000000000044
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.050000000000000044
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.050000000000000044
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "9",
+    "winner_full": "34",
+    "epsilon": 0.28
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_personas": {
+    "winner": "7",
+    "winner_full": "28",
+    "epsilon": 0.22999999999999998
+  },
+  "chatgpt_star": {
+    "winner": "99",
+    "epsilon": 0.8799999999999999
+  },
+  "chatgpt_star_rankings": {
+    "winner": "0",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_star_personas": {
+    "winner": "50",
+    "epsilon": 0.43999999999999995
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Universities should protect robust, peaceful expression on contentious issues like Israel and Gaza while enforcing clear, content\u2011neutral rules that prevent harassment, threats, and disruptions to learning. Administrators ought to apply those rules transparently and evenly, provide safe, moderated forums and resources for dialogue and support, and intervene proportionately when actions cross into intimidation, safety risks, or significant academic disruption.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "University administrators should protect students\u2019 rights to peaceful protest and robust, even uncomfortable, speech about Israel and Gaza while enforcing clear, content\u2011neutral rules on time, place, and manner to keep campuses safe and open for learning. They must draw and apply a bright, consistently enforced line against harassment, threats, doxxing, or discrimination\u2014particularly antisemitism and Islamophobia\u2014offer structured forums for dialogue and teach\u2011ins, and provide support and transparent processes so all students feel secure and heard.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "University administrators should protect students\u2019 rights to peaceful protest and open expression about Israel and Gaza while upholding clear, content\u2011neutral rules that keep campuses safe and preserve access to classes and daily life. They should enforce anti\u2011harassment and anti\u2011discrimination policies consistently, provide support and security for students who feel threatened, and create structured, moderated spaces\u2014teach\u2011ins, panels, and mediations\u2014so differing viewpoints can be aired respectfully and examined with evidence rather than silenced or escalated.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "University campuses should protect robust free expression while also fostering a respectful, inclusive learning environment; this means defending the right to speak and hear a wide range of views, while enforcing clear, content-neutral policies that prevent harassment, safety threats, and disruptions to core educational activities. By combining strong free-speech protections with proactive support for civil discourse\u2014such as mediation, education on civic norms, and designated forums for controversial dialogue\u2014campuses can uphold academic freedom and community wellbeing together.",
+      "University campuses should protect robust free expression while also ensuring a respectful, safe learning environment; this means upholding the right to speak and organize without censorship, while enforcing clear, content-neutral policies against harassment, threats, or disruption that impede others\u2019 ability to learn. By committing to transparent rules, impartial enforcement, education on civic discourse, and designated forums for high-risk events, campuses can balance open debate with community well-being and foster a culture of mutual respect.",
+      "Universities should protect robust free expression while also ensuring campus safety and an inclusive learning environment; this means upholding the right to speak and debate even when views are unpopular, but pairing that protection with clear conduct policies, support for affected students, and educational programs that teach civil discourse. By committing to transparent rules, consistent enforcement, and resources for dialogue and critical thinking, campuses can balance open inquiry with respect and security so diverse perspectives can be heard and engaged constructively.",
+      "Universities should protect robust free expression while also fostering a respectful, inclusive learning environment; this means upholding the right to speak and hear diverse viewpoints but setting clear, neutral policies against harassment, threats, and disruptions that prevent others from participating. By committing to open dialogue, fair enforcement of rules, and educational programs on civil discourse and critical thinking, campuses can balance safety and inclusion with the core academic value of free inquiry.",
+      "University campuses should protect free expression while also maintaining a respectful, safe environment for learning; this means upholding broad rights to speak and assemble, paired with clear, consistently enforced policies against harassment, threats, or actions that directly impede others\u2019 ability to participate. By committing to open dialogue, good-faith engagement, and transparent procedures for resolving conflicts, campuses can balance robust debate with community standards and ensure students and faculty of differing views feel both heard and secure."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

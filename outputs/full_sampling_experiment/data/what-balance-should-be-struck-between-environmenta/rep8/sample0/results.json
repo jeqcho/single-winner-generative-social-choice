@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.10000000000000009
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "4",
+    "epsilon": 0.020000000000000018
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.10000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.10000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.10000000000000009
+  },
+  "chatgpt": {
+    "winner": "7",
+    "winner_full": "39",
+    "epsilon": 0.30000000000000004
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.10000000000000009
+  },
+  "chatgpt_personas": {
+    "winner": "7",
+    "winner_full": "39",
+    "epsilon": 0.30000000000000004
+  },
+  "chatgpt_star": {
+    "winner": "62",
+    "epsilon": 0.51
+  },
+  "chatgpt_star_rankings": {
+    "winner": "62",
+    "epsilon": 0.51
+  },
+  "chatgpt_star_personas": {
+    "winner": "62",
+    "epsilon": 0.51
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "We should treat a healthy environment and a strong economy as mutually reinforcing goals: set clear, science-based limits to protect air, water, and communities while using phased, practical policies\u2014like incentives for clean innovation, targeted support for workers and small businesses, and investments in resilient infrastructure\u2014to avoid needless economic harm. By combining fairness, job training, and market-friendly tools with firm environmental standards, we can grow prosperity without sacrificing the planet or leaving vulnerable communities behind.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "We should protect air, water, and communities while allowing families and businesses to thrive by prioritizing practical, market\u2011friendly climate actions\u2014like investments in cleaner technologies, energy efficiency, and worker retraining\u2014that cut emissions without imposing sudden, job\u2011destroying costs. Clear, phased rules and targeted support for vulnerable workers and small businesses can drive innovation and fairness, ensuring economic growth and environmental protection advance together.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "We need climate policies that protect clean air, water, and future generations while also preserving good jobs and keeping costs manageable for working families. That means setting science-based environmental goals, investing in affordable clean energy, efficiency, public transit, and worker retraining, and using market-friendly incentives and targeted supports so businesses and communities\u2014especially vulnerable and low-income ones\u2014can adapt fairly without being unduly burdened.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Sustainable economic growth and environmental protection are complementary goals that can be advanced together by prioritizing policies and investments that deliver long-term prosperity while preserving natural systems. By adopting pragmatic measures\u2014such as incentivizing clean technologies, enforcing reasonable environmental safeguards, and supporting workers and communities through transitions\u2014we can balance short-term economic needs with the imperative to reduce pollution, conserve resources, and build resilience for future generations.",
+      "Sustainable progress requires balancing robust environmental protections with responsible economic development so that communities can thrive today without compromising future generations. By prioritizing policies that incentivize clean innovation, resource efficiency, and fair transition support for affected workers and regions, we can reconcile conservation goals with job creation and shared prosperity.",
+      "We should pursue a balanced approach that recognizes the importance of both long-term environmental protection and sustainable economic growth by promoting policies that encourage green innovation, efficient resource use, and equitable transition support for affected communities. By setting clear environmental standards, investing in clean technologies, and creating incentives for businesses to adopt sustainable practices, we can foster prosperity while safeguarding ecosystems and public health, ensuring economic opportunities are widely shared during the transition.",
+      "Sustainable prosperity requires policies that protect critical ecosystems and public health while enabling responsible economic opportunities; by investing in clean technology, resilient infrastructure, and fair transition programs we can create jobs and growth without sacrificing the natural systems we depend on. Recognizing legitimate concerns about costs and livelihoods, we should pursue pragmatic, evidence-based measures\u2014such as phased regulations, incentives for green innovation, and targeted support for affected workers and communities\u2014that balance near-term economic needs with long-term environmental integrity.",
+      "We should pursue a balanced approach that protects critical ecosystems and public health while enabling sustainable economic development, recognizing that long-term prosperity depends on healthy natural systems. This means using science-based regulations, targeted investments in clean technologies and green jobs, and flexible policies that support vulnerable communities and businesses during the transition, so environmental stewardship and economic opportunity advance together."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

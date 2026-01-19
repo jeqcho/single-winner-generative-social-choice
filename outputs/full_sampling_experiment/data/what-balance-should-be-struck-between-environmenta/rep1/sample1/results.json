@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.050000000000000044
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.050000000000000044
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.050000000000000044
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "4",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "16",
+    "winner_full": "76",
+    "epsilon": 0.6599999999999999
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_personas": {
+    "winner": "16",
+    "winner_full": "76",
+    "epsilon": 0.6599999999999999
+  },
+  "chatgpt_star": {
+    "winner": "98",
+    "epsilon": 0.8899999999999999
+  },
+  "chatgpt_star_rankings": {
+    "winner": "98",
+    "epsilon": 0.8899999999999999
+  },
+  "chatgpt_star_personas": {
+    "winner": "98",
+    "epsilon": 0.8899999999999999
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "We should treat environmental protection and economic growth as mutually reinforcing goals: set clear, science-based limits to safeguard air, water, and climate while phasing in practical, well-funded measures\u2014like incentives, training, and infrastructure investment\u2014that help workers and businesses transition to cleaner technologies. Policies should be fair and pragmatic, using gradual timelines, targeted support for vulnerable communities and industries, and market tools to spur innovation without causing sudden job losses or unaffordable costs.",
+    "is_new": true,
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "We should protect the land, air, and water our communities depend on while phasing in practical, workable steps that keep jobs and energy affordable. Strong environmental limits and investments in clean technologies, training, and incentives can drive new industries and good paychecks without sudden disruptions\u2014so policy should combine clear protections, realistic timelines, and support for workers and small businesses to transition fairly.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "We should protect air, water, land, and future generations while supporting good jobs and affordable energy today. That means setting clear environmental limits and investing in practical, phased approaches \u2014 like energy efficiency, clean-tech incentives, worker retraining, and help for small businesses \u2014 so communities that depend on traditional industries aren\u2019t left behind as we build a cleaner, resilient economy.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Sustainable progress requires balancing environmental protection with responsible economic growth by pursuing policies that maintain natural systems while enabling livelihoods and innovation. By investing in clean technologies, resilient infrastructure, and fair transition support for affected workers and communities, societies can reduce ecological harm without sacrificing prosperity, recognizing that long-term economic resilience depends on healthy ecosystems.",
+      "We should pursue a balanced approach that protects critical ecosystems and public health while enabling sustainable economic opportunities, recognizing that long-term prosperity depends on a healthy environment. By investing in clean technologies, enforcing smart regulations, and supporting transitional policies for affected communities, we can reconcile conservation goals with job creation and growth, honoring both environmental stewardship and economic well-being.",
+      "We should pursue a pragmatic balance that protects vital ecosystems and public health while encouraging sustainable economic growth, recognizing that long-term prosperity depends on healthy natural systems. By investing in green technologies, smart regulations, and targeted support for communities and industries in transition, policymakers can align environmental stewardship with job creation and innovation, accommodating both conservation priorities and realistic development needs.",
+      "Sustainable prosperity requires balancing environmental protection with responsible economic growth by prioritizing policies that foster innovation, create jobs, and improve living standards while restoring and conserving natural resources. Recognizing legitimate concerns about costs and competitiveness, we should invest in clean technologies, smart regulation, and targeted support for affected workers and communities so that environmental stewardship and economic opportunity reinforce\u2014rather than trade off against\u2014each other.",
+      "Sustainable prosperity requires integrating strong environmental protections with pragmatic economic policies so that growth today does not undermine the natural capital that supports future prosperity. By investing in clean technologies, resource-efficient practices, and fair transition measures for affected workers and communities, we can foster innovation and jobs while maintaining healthy ecosystems; reasonable, evidence-based regulations and incentives should guide this balance and be adapted as science and social needs evolve."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

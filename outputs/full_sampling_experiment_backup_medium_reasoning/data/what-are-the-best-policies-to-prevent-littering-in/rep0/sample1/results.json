@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "4",
+    "winner_full": "31",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "4",
+    "winner_full": "31",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "2",
+    "winner_full": "14",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "2",
+    "winner_full": "14",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "4",
+    "winner_full": "31",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "10",
+    "winner_full": "75",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "3",
+    "winner_full": "28",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "3",
+    "winner_full": "28",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "75",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "4",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "20",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Effective anti-littering policy blends proportionate, consistently enforced penalties with plentiful, well-placed and well-maintained trash and recycling bins so proper disposal is easy. It couples that infrastructure with education, regular community cleanups, and incentives for businesses to reduce packaging, engaging schools, faith groups, and neighbors to build pride and social norms. Offer restorative options (like supervised cleanup) for offenders so enforcement repairs harm and reinforces responsibility.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Effective anti-littering policy combines prevention, enforcement, and community engagement: provide abundant, well-placed and well\u2011maintained trash and recycling bins with clear signage and attractive designs, enforce meaningful and consistently applied fines with restorative consequences (like mandated cleanups), and ensure regular public-space maintenance. Pair these measures with school-based education, public campaigns, volunteer clean-up days, and partnerships with local businesses and community groups so keeping places clean becomes easy, expected, and a shared source of pride.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Preventing litter works best as a community effort: provide plentiful, well\u2011placed and well\u2011maintained trash and recycling bins with clear multilingual and pictogram signage, fund regular city maintenance, and organize school, church, business, and volunteer clean\u2011up programs to build pride and model good behavior. Pair that with consistent, fair enforcement of existing laws\u2014favoring meaningful fines or restorative community service\u2014and incentives for businesses to reduce disposable packaging so people both can and want to do the right thing.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "A balanced approach combining accessible waste infrastructure (adequate bins and regular collection), clear signage and design that discourages litter, targeted and proportionate enforcement, and sustained public education and community involvement best addresses littering. Policies should be data-driven and equitable\u2014using fines sparingly and fairly\u2014while partnering with businesses and local groups to reduce waste at the source and encourage reuse and stewardship.",
+      "Communities can most effectively reduce litter by combining practical infrastructure\u2014ample, well-maintained waste and recycling receptacles and clear signage\u2014with fair, proportionate enforcement and ongoing public education. This approach respects concerns about personal responsibility and environmental protection while acknowledging that penalties should be balanced and paired with equitable investment in services, especially in underserved areas. Regular evaluation and community engagement will keep policies data-driven, culturally sensitive, and adaptable to local needs.",
+      "A practical way to reduce litter is a balanced mix of accessible infrastructure (well\u2011placed bins and recycling), ongoing public education and community stewardship, and targeted, proportionate enforcement focused on repeat offenders and large-scale violators. This approach acknowledges both the value of prevention and the need for accountability, and calls for data\u2011driven pilots and local input so solutions are adapted to community needs.",
+      "Preventing littering in public spaces is best approached through a balanced mix of accessible waste and recycling infrastructure, clear public education, and proportionate enforcement focused on deliberate or repeat offenders. This combination acknowledges calls for tough penalties while addressing equity concerns by prioritizing prevention, community stewardship, and alternatives to punitive fines. Ongoing evaluation and local partnerships can tailor solutions to community needs and ensure resources are used effectively.",
+      "Effective anti-littering policy balances clear, enforceable rules with practical supports such as convenient, well-maintained bins, timely cleaning, and targeted education that explains environmental and public-health impacts. It should pair fair, proportionate enforcement and penalties with positive incentives and community stewardship programs so compliance is encouraged rather than solely punished. Policies ought to be data-driven and locally tailored, developed with input from residents and businesses to ensure they are cost-effective, equitable, and build sustained public buy-in."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

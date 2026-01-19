@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt": {
+    "winner": "3",
+    "winner_full": "31",
+    "epsilon": 0.15999999999999992
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "3",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_personas": {
+    "winner": "1",
+    "winner_full": "10",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_star": {
+    "winner": "93",
+    "epsilon": 0.8400000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "41",
+    "epsilon": 0.29000000000000004
+  },
+  "chatgpt_star_personas": {
+    "winner": "10",
+    "epsilon": 0.020000000000000018
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "I believe the Second Amendment protects a legitimate right for law-abiding people to own firearms for self-defense and tradition, but that right should exist within sensible, evidence-based limits that reduce harm. Practical steps\u2014such as universal background checks, targeted prohibitions for those proven to be dangerous, mandatory safety training and secure storage, and focused enforcement of existing laws\u2014can preserve responsible ownership while making communities safer.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "The Second Amendment is an important constitutional right and law\u2011abiding people should be able to own firearms for self\u2011defense and tradition, but that right comes with responsibility. We should protect responsible ownership through clear, enforceable measures\u2014universal background checks, mandatory safety training and secure storage, stronger enforcement of existing laws, and targeted interventions (like red\u2011flag provisions) to keep guns away from violent or unstable individuals\u2014while avoiding broad bans that punish lawful owners.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "I respect the Second Amendment and the right of responsible people to own firearms for self-defense, hunting, and tradition, but rights come with responsibilities and reasonable safeguards are needed to protect our communities and children. We should focus on practical, evidence-based measures\u2014universal background checks, enforced safe storage, mandatory safety training, and targeted interventions (like red-flag laws) to keep guns out of the hands of criminals and the dangerously unstable\u2014while protecting law-abiding citizens from unnecessary confiscation or overly burdensome rules.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Protecting both public safety and constitutional rights requires narrowly tailored laws that prevent access to firearms by those who pose a clear risk while preserving responsible citizens\u2019 ability to own and use guns for lawful purposes. By focusing on evidence-based safety measures\u2014such as universal background checks, red flag provisions with due process, safe storage requirements, and robust enforcement\u2014we can reduce violence and accidents without undermining the core protections of the Second Amendment, recognizing that legitimate concerns about liberty and safety deserve equal consideration.",
+      "Responsible firearm policy should protect public safety while respecting the constitutional right to bear arms by focusing on evidence-based measures that reduce violence without unduly infringing on lawful ownership. By combining universal background checks, safe storage requirements, and targeted prohibitions for those demonstrably dangerous with clear due-process protections and avenues for lawful ownership, society can uphold individual freedoms and reduce preventable harm.",
+      "Recognizing the importance of both public safety and constitutional rights, we should pursue balanced policies that protect communities from gun violence while preserving lawful ownership and responsibly regulated access to firearms. Common-sense measures\u2014such as universal background checks, meaningful enforcement of existing laws, safe storage requirements, and targeted prohibitions for individuals proven to be dangerous\u2014can reduce harm without undermining the core Second Amendment freedoms of law-abiding citizens.",
+      "A balanced approach recognizes the constitutional right to bear arms while also prioritizing public safety through sensible, evidence-based regulations such as thorough background checks, safe-storage requirements, and prohibitions for those proven dangerous. By focusing on measures that reduce violence and accidents without unduly restricting lawful ownership or self-defense, policymakers can respect Second Amendment rights while protecting communities, and should commit to regular review of laws informed by data and diverse stakeholder input.",
+      "We can uphold the Second Amendment while advancing public safety by protecting lawful ownership and responsible use of firearms through reasonable, evidence-based regulations\u2014such as background checks, safe-storage requirements, and prohibitions for those proven dangerous\u2014that are narrowly tailored and subject to due process. Recognizing legitimate concerns about personal protection, hunting, and sporting traditions, these measures should be transparently implemented and regularly reviewed to balance individual rights with the collective interest in reducing gun violence and preventing tragedies."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

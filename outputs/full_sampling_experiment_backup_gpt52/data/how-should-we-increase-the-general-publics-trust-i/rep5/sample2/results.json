@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "10",
+    "winner_full": "37",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "10",
+    "winner_full": "37",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "3",
+    "winner_full": "15",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "13",
+    "winner_full": "51",
+    "epsilon": 0.10000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "10",
+    "winner_full": "37",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "11",
+    "winner_full": "40",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "18",
+    "winner_full": "83",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "18",
+    "winner_full": "83",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "83",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "10",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "8",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in elections rises when people can see\u2014without needing partisan faith\u2014that the rules are consistent, the system is secure, and the results are independently verifiable. We should pair voter-verifiable records (paper or equivalent), strong chain-of-custody and cybersecurity, and routine independent audits with clear public explanations of findings and how any problems are corrected. At the same time, states should expand convenient, accessible voting options and plain-language voter information (including language and disability access), so integrity and participation are strengthened together.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions\u2014especially elections\u2014we should make processes transparent, secure, and easy for ordinary people to verify: voter-verifiable paper ballots (or auditable records), strong chain-of-custody and cybersecurity, and routine independent, bipartisan risk-limiting audits with results reported clearly. At the same time, we must protect broad, convenient access for every eligible voter through well-staffed polling places, early and mail voting options, and disability and language accommodations. Trust also requires plain-language civic education and regular, nonpartisan communication from officials, plus swift accountability for misconduct and active efforts to counter misinformation.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions\u2014especially elections\u2014grows when the rules are clear, applied consistently, and results are demonstrably accurate without favoring any party. We should pair voter-verifiable records and routine independent, bipartisan audits with strong privacy, cybersecurity, and transparent chain-of-custody, then publish plain-language explanations and timely data that anyone can check. At the same time, expand practical access (early and mail voting, disability and language supports, convenient polling options) and invest in civic education and community outreach to counter misinformation so every eligible person can participate with confidence.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "To increase public trust in institutions, we should pair stronger transparency and accountability with a clear recognition that many institutions also deliver essential services that must remain stable and effective. That means publishing understandable performance data, creating independent oversight and meaningful consequences for misconduct, and involving communities in decision-making\u2014while also protecting due process and avoiding reforms that undermine core capacity. By focusing on measurable integrity, responsiveness, and results, we can address skepticism without dismissing the value institutions provide.",
+      "To increase public trust in institutions, we should pair stronger transparency and accountability with a commitment to competent, stable public service. People who worry about corruption and bias deserve clearer oversight, open data, and meaningful consequences for misconduct, while those concerned about undermining essential institutions deserve reforms that preserve expertise and continuity. Practical steps like independent audits, plain-language communication, and regular community input can show results while respecting both skepticism and the need for functioning institutions.",
+      "To increase public trust in institutions, we should pair stronger transparency and accountability with reliable service delivery that people can see and measure in their daily lives. Those who worry about overreach deserve clear limits, independent oversight, and consequences for misconduct, while those who value effective governance deserve adequate resources, professional standards, and long-term stability. A practical middle ground is to make decisions and data more open, involve communities in setting priorities, and regularly audit outcomes\u2014so trust is earned through both openness and performance.",
+      "Building public trust in institutions requires pairing stronger accountability with better performance: clear standards, transparent decision-making, and consequences for misconduct, alongside reliable delivery of essential services. People who worry about overreach should see robust checks, open data, and independent oversight, while those who value capacity should see adequate resources and professional competence. Institutions should also engage communities regularly\u2014listening, explaining tradeoffs, and showing measurable results\u2014so trust is earned through both integrity and effectiveness.",
+      "To increase public trust in institutions, we should pair greater transparency and accountability with a clear commitment to fair, consistent delivery of core services. People who worry about overreach deserve strong checks\u2014independent oversight, open data where appropriate, and meaningful consequences for misconduct\u2014while those who rely on institutions need adequate resources and professional standards to make them effective. Building trust will require regular two-way engagement with communities and measurable performance goals so institutions can demonstrate results and correct course when they fall short."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

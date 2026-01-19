@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "11",
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt": {
+    "winner": "8",
+    "winner_full": "37",
+    "epsilon": 0.27
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_personas": {
+    "winner": "10",
+    "winner_full": "45",
+    "epsilon": 0.3799999999999999
+  },
+  "chatgpt_star": {
+    "winner": "32",
+    "epsilon": 0.27
+  },
+  "chatgpt_star_rankings": {
+    "winner": "43",
+    "epsilon": 0.3500000000000001
+  },
+  "chatgpt_star_personas": {
+    "winner": "41",
+    "epsilon": 0.33000000000000007
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Free speech is vital for a democratic society, but it is not absolute: narrowly defined limits are appropriate when speech is intended to threaten, harass, or directly incite violence or discrimination against identifiable people or groups. At the same time, protections should guard robust debate and uncomfortable ideas to avoid overbroad censorship, with remedies focused on clear, proportionate legal standards and community-based responses that promote safety, accountability, and civic dialogue.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Free speech is vital for democracy and for calling out injustice, but it should not shield targeted harassment, credible threats, or speech that directly incites violence or denies people equal participation in public life. Laws and school or workplace policies should narrowly prohibit true threats, incitement, and severe, pervasive harassment while allowing robust debate, even when it is uncomfortable or offensive; communities, families, and institutions should also respond through education and accountability to discourage demeaning speech.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Free speech is a vital democratic right, but it should not be a shield for targeted threats, harassment, or speech that realistically incites violence or denies people equal participation in schools, workplaces, and public life. Laws should be narrowly drawn to stop direct threats and coordinated or credible calls for harm, while communities, families, and institutions handle offensive but nonviolent expression through education, accountability, and open debate so that vulnerable people can live and participate without fear.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Free speech is a fundamental right that should be broadly protected, but it is reasonable to place narrowly tailored limits on speech that intentionally incites imminent violence or constitutes targeted harassment that deprives others of their ability to participate safely in public life. At the same time, protections should guard robust debate, satire, and unpopular opinions, with any restrictions defined clearly, applied transparently, and subject to regular review to prevent abuse and protect vulnerable groups.",
+      "Free speech is a core democratic value that should be protected, but it is reasonable to limit expressions that intentionally incite violence or directly threaten the safety and rights of targeted individuals or groups. At the same time, laws and policies should avoid overly broad or vague restrictions that chill legitimate debate and should include clear, narrowly tailored definitions and due-process safeguards so that both protection from harm and robust public discourse are preserved.",
+      "Free speech is a fundamental right that should be broadly protected, but it does not confer immunity for speech that directly incites imminent violence, harassment, or targeted discrimination against individuals or protected groups. Reasonable limits should focus narrowly on preventing clear harms\u2014such as targeted threats, calls for violence, or coordinated campaigns that silence others\u2014while preserving robust debate, criticism, and uncomfortable ideas; laws and policies should be narrowly defined, transparent, and subject to oversight to avoid chilling legitimate expression.",
+      "Free expression is a foundational right that should be broadly protected, but it does not extend to speech that intentionally and imminently incites violence, constitutes targeted harassment, or materially facilitates harm against vulnerable groups. Reasonable limits should therefore focus narrowly on preventing direct threats, coordinated campaigns of abuse, or speech that creates clear and immediate danger, while preserving robust protections for debate, criticism, and unpopular ideas and ensuring any restrictions are content-neutral, proportionate, and subject to transparent legal safeguards and due process.",
+      "Free speech should be broadly protected as essential to democracy and personal autonomy, but limited where speech intentionally incites imminent violence or constitutes targeted harassment that directly harms others\u2019 safety and basic rights. Reasonable, narrowly framed restrictions\u2014focused on clear, demonstrable threats or coordinated dehumanization that leads to real-world harm\u2014can coexist with strong protections for robust debate and the expression of unpopular ideas, while promoting education and counter-speech as primary responses to hateful attitudes."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

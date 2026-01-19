@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "21",
+    "epsilon": 0.15999999999999992
+  },
+  "chatgpt": {
+    "winner": "18",
+    "winner_full": "98",
+    "epsilon": 0.94
+  },
+  "chatgpt_rankings": {
+    "winner": "8",
+    "winner_full": "57",
+    "epsilon": 0.51
+  },
+  "chatgpt_personas": {
+    "winner": "7",
+    "winner_full": "56",
+    "epsilon": 0.51
+  },
+  "chatgpt_star": {
+    "winner": "79",
+    "epsilon": 0.75
+  },
+  "chatgpt_star_rankings": {
+    "winner": "20",
+    "epsilon": 0.1399999999999999
+  },
+  "chatgpt_star_personas": {
+    "winner": "15",
+    "epsilon": 0.10000000000000009
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Laws on abortion should balance respect for individual conscience and autonomy with a commitment to protect health and support families\u2014grounded in medical evidence, compassion, and practical resources rather than partisan or purely religious mandates. Policy should ensure safe, timely medical care, privacy, and access to contraception and education, while allowing reasonable, narrowly tailored protections in extreme cases and robust social supports so people are not forced into impossible choices.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Laws on abortion should respect individuals\u2019 autonomy and make medical decisions primarily between a patient and qualified clinicians, guided by evidence-based medicine, privacy, and public health. At the same time, policy should promote support for families\u2014through access to contraception, sex education, prenatal care, and social services\u2014and allow narrowly defined exceptions in truly life-threatening or severe medical cases, so the law balances personal freedom, safety, and compassion.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Laws on abortion should respect individual conscience and medical judgment while protecting health, safety, and support for families. Policy should be guided by medical evidence and practical realities\u2014ensuring safe, timely care, access to contraception and sex education, and meaningful social supports\u2014while allowing room for conscience-based limits in narrowly defined, serious cases so communities with differing values can be accommodated.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0040000000000000036,
+    "epsilons": [
+      0.0,
+      0.020000000000000018,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Laws concerning abortion should protect individual autonomy and health while recognizing legitimate societal interests in supporting prenatal life and family wellbeing. Policies should ensure safe, accessible reproductive healthcare, including contraception and pregnancy support, and allow reasonable limits that reflect medical evidence and respect for differing moral views, with decisions guided by compassion, equity, and reliable science.",
+      "Laws concerning abortion should aim to protect public health, individual autonomy, and the dignity of all involved by ensuring safe, accessible reproductive care while recognizing legitimate moral concerns about fetal life. Policy should be guided by evidence-based medicine, respect for personal conscience, and support for pregnant people\u2014through comprehensive sex education, contraception access, and social services\u2014so that decisions are made in context rather than criminalized, with reasonable limits informed by medical viability and compelling state interests.",
+      "Laws concerning abortion should protect public health and individual safety while respecting deeply held moral convictions by ensuring access to safe, timely medical care and supporting informed, voluntary decisions. Policy should balance the rights and well\u2011being of pregnant people with reasonable limits informed by medical evidence, gestational considerations, and support for families, and be accompanied by measures that reduce unwanted pregnancies and expand access to contraception, comprehensive sex education, and social services.",
+      "Laws concerning abortion should protect individual autonomy and reproductive health while also recognizing ethical concerns about fetal life by ensuring safe, legal access with reasonable limits informed by medical evidence and gestational milestones. Policy should prioritize comprehensive sex education, affordable contraception, and maternal support services to reduce unintended pregnancies, and include exceptions and thoughtful regulations that reflect medical realities and respect sincerely held moral beliefs.",
+      "Laws concerning abortion should protect the health, autonomy, and dignity of pregnant people while recognizing society\u2019s interest in fetal life, balancing access to safe reproductive care with reasonable, evidence-based safeguards. Policy should be informed by medical expertise, prioritize measures that reduce unwanted pregnancies (such as comprehensive sex education and contraception access), and allow time-limited limits only when supported by clear harms, ensuring exceptions for the life and health of the pregnant person and equitable access across communities."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

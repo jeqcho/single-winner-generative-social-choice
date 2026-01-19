@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt": {
+    "winner": "6",
+    "winner_full": "30",
+    "epsilon": 0.17999999999999994
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_personas": {
+    "winner": "11",
+    "winner_full": "56",
+    "epsilon": 0.4099999999999999
+  },
+  "chatgpt_star": {
+    "winner": "41",
+    "epsilon": 0.32000000000000006
+  },
+  "chatgpt_star_rankings": {
+    "winner": "41",
+    "epsilon": 0.32000000000000006
+  },
+  "chatgpt_star_personas": {
+    "winner": "41",
+    "epsilon": 0.32000000000000006
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "I believe the goal should be a president who reflects the broad will of the people while preserving the federal balance that gives smaller states a voice. A practical path is to pursue reforms\u2014such as promoting the National Popular Vote Compact, allowing states to adopt proportional or district-based allocation, and exploring ranked-choice voting nationally\u2014that increase fairness and voter equality without immediately requiring a constitutional overhaul. These steps could reduce swing-state distortions, improve representation for minority voices within states, and build public trust through clearer, more consistent rules.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "I believe our presidential system should ensure every voter\u2019s ballot matters while preserving confidence in election fairness and in smaller states\u2019 voices. I\u2019d support moving toward a national popular vote or an interstate compact that ensures the nationwide winner prevails, paired with safeguards such as standardized rules for allocating electors (including options like proportional or district allocation), stronger transparency and security measures, and consideration of ranked-choice voting to better reflect voter preferences. This balanced approach would make votes more equal without abandoning protections for less-populated regions or trust in the process.",
+    "is_new": true,
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Our presidential system should ensure every citizen\u2019s vote matters while preserving trust in federalism and smaller communities. We should pursue practical reforms\u2014such as adopting the National Popular Vote compact or statewide proportional/district allocation of electors, paired with stronger transparency, uniform voting safeguards, and consideration of ranked-choice ballots\u2014to make outcomes more representative without abruptly discarding the role of states in the process.",
+    "is_new": true,
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "While recognizing concerns that the Electoral College can distort the popular will and that direct national voting would change long-standing federalism protections, we should pursue moderate reforms that enhance democratic legitimacy without upending state interests\u2014such as adopting a national popular vote compact, allocating electors proportionally or by congressional district with safeguards against gerrymandering, and ensuring clearer procedures for contested outcomes. These measures balance respect for states\u2019 roles in presidential selection with stronger alignment between vote totals and results, and they should be pursued through bipartisan, transparent processes that protect minority rights and election integrity.",
+      "While recognizing concerns that the Electoral College can produce outcomes at odds with the popular vote and that it protects smaller states\u2019 influence, we should pursue reforms that increase democratic legitimacy without discarding federalist principles. A balanced approach\u2014such as retaining the Electoral College\u2019s state-based framework while adopting measures like the National Popular Vote Interstate Compact, proportional allocation of electors, or safeguards to ensure transparency and broader voter engagement\u2014can preserve state roles while making presidential elections more reflective of voters\u2019 preferences.",
+      "While acknowledging concerns that the Electoral College can distort the popular will and the counterargument that it protects federalism and smaller states, a balanced reform package would retain the College\u2019s role in preserving state involvement while increasing alignment with the national popular vote\u2014for example by adopting a proportional or district-based allocation of electors combined with safeguards for minority and regional representation. Such changes would aim to make each vote more meaningful, reduce the outsized focus on a few swing states, and preserve constitutional principles by implementing reforms through states and, where appropriate, a clear constitutional amendment process.",
+      "While acknowledging that the Electoral College reflects federalism and protects smaller states' interests, and that critics argue it can distort the popular will, we should pursue reforms that preserve state representation while increasing democratic legitimacy\u2014such as adopting the National Popular Vote compact, allocating electoral votes by congressional district with two statewide electors, or instituting a proportional allocation\u2014after careful analysis and bipartisan agreement to ensure any change enhances both fairness and political stability.",
+      "The Electoral College should be reformed to better reflect both the principle of equal representation and the practical need for stable, decisive presidential elections; achievable changes could include adopting a proportional or hybrid allocation of electors within states combined with safeguards\u2014such as a national popular vote compact with a congressionally-set threshold\u2014to preserve small-state interests and encourage coalition-building. Such a middle path recognizes concerns that a pure popular vote could marginalize less-populous regions while addressing worries about disproportionate influence from a few battleground states, and it prioritizes reforms that can be implemented through state action and bipartisan agreement rather than a divisive constitutional overhaul."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

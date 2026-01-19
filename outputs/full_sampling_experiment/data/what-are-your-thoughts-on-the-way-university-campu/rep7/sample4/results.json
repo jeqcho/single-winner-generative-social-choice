@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "5",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "9",
+    "winner_full": "40",
+    "epsilon": 0.33000000000000007
+  },
+  "chatgpt_rankings": {
+    "winner": "1",
+    "winner_full": "10",
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_personas": {
+    "winner": "9",
+    "winner_full": "40",
+    "epsilon": 0.33000000000000007
+  },
+  "chatgpt_star": {
+    "winner": "60",
+    "epsilon": 0.54
+  },
+  "chatgpt_star_rankings": {
+    "winner": "40",
+    "epsilon": 0.33000000000000007
+  },
+  "chatgpt_star_personas": {
+    "winner": "60",
+    "epsilon": 0.54
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Universities should robustly protect peaceful speech and protest while upholding clear, content-neutral rules that prevent harassment, threats, disruption of classes, or damage to property; those rules must be enforced fairly and transparently for all groups. Administrators should pair firm safety and conduct standards with proactive investment in structured dialogue, support services, and educational programming so contested issues are aired, understood, and do not undermine students\u2019 ability to learn or feel secure.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Universities should protect students\u2019 rights to peaceful protest and open debate while enforcing clear, content\u2011neutral rules that prevent harassment, threats, intimidation, and disruption of classes or campus operations. Administrators must apply those rules consistently to all groups, prioritize physical safety and the ability to learn, and create structured forums and support resources so diverse voices can be heard without dehumanizing others.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Universities should robustly protect students\u2019 rights to peaceful protest and free expression while enforcing clear, content\u2011neutral rules that prevent harassment, threats, intimidation, or disruption of classes and campus operations. Administrators should apply policies consistently to all groups, offer structured forums and resources for respectful dialogue and mental health support, and engage with students from diverse backgrounds so campuses remain safe, inclusive, and places for learning rather than battlegrounds for outside politics.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Universities should protect robust free speech while also ensuring that campus remains a safe, inclusive environment for learning; this means upholding open debate and academic freedom but addressing threats, harassment, and misinformation through clear, transparent policies and proportionate, educational responses. By committing to principled speech rights, consistent enforcement, and resources for conflict resolution and critical thinking, campuses can foster both expressive diversity and respect for all community members.",
+      "Universities should protect robust free expression while also fostering a campus climate where all students can learn and participate without fear of harassment; this means upholding free speech rights alongside clear, narrowly tailored policies that address threats, targeted abuse, and disruptions to educational activities. By promoting open dialogue, providing resources for conflict mediation and critical thinking, and enforcing conduct rules that respect both safety and expression, campuses can balance diverse viewpoints and maintain a productive, inclusive academic environment.",
+      "University campuses should protect robust free expression while also fostering a respectful, inclusive environment where learning can occur; this means upholding the right to speak and hear diverse viewpoints, paired with clear policies and education that discourage harassment and violence. By committing to open dialogue, due process for disciplinary matters, and support for marginalized students, institutions can balance safety and inclusion with the intellectual freedom essential to academic life.",
+      "Universities should protect robust free expression while also fostering an inclusive, respectful campus environment; this means upholding the right to speak and protest even when views are unpopular, paired with clear policies and educational programs that discourage harassment and promote constructive dialogue. By balancing free speech protections with standards against targeted threats and by investing in mediation and critical thinking resources, campuses can support both open inquiry and the well\u2011being of their diverse communities.",
+      "University campuses should protect robust free expression while also maintaining a safe, inclusive learning environment: uphold the right to voice controversial ideas and ensure open debate, but enforce clear, content-neutral policies against harassment, threats, and disruption. By committing to transparent rules, impartial enforcement, and educational programs on civil discourse, institutions can respect diverse viewpoints and foster constructive engagement rather than silencing or enabling harm."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

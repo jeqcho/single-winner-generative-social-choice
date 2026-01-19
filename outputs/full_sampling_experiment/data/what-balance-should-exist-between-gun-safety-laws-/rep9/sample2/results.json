@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt": {
+    "winner": "6",
+    "winner_full": "31",
+    "epsilon": 0.24
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_personas": {
+    "winner": "6",
+    "winner_full": "31",
+    "epsilon": 0.24
+  },
+  "chatgpt_star": {
+    "winner": "51",
+    "epsilon": 0.42999999999999994
+  },
+  "chatgpt_star_rankings": {
+    "winner": "51",
+    "epsilon": 0.42999999999999994
+  },
+  "chatgpt_star_personas": {
+    "winner": "51",
+    "epsilon": 0.42999999999999994
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "I believe we can both honor the Second Amendment and protect public safety by keeping lawful gun ownership for self\u2011defense, hunting, and sport while adopting targeted, evidence\u2011based safeguards\u2014such as universal background checks, meaningful enforcement against illegal trafficking, mandatory safe\u2011storage practices, and narrowly tailored limits on weapons designed primarily for mass casualties. Rights carry responsibilities, so sensible, transparent rules that focus on preventing violence and keeping guns out of dangerous hands\u2014without broadly punishing law\u2011abiding owners\u2014reflect a fair compromise that prioritizes community safety and individual freedom.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "I respect the Second Amendment and the right of law\u2011abiding people to own firearms, while also believing rights come with responsibilities\u2014so we should pair preserved ownership with practical, evidence\u2011based safety measures like universal background checks, enforced safe storage, red\u2011flag protections for those clearly dangerous, and stronger penalties for illegal sales. These targeted steps focus on keeping guns out of the wrong hands without unduly burdening responsible owners, helping protect children and public spaces while honoring lawful self\u2011defense and sporting use.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "I believe we can both respect the Second Amendment and keep our communities safe by focusing on practical, evidence-based measures: enforce existing laws, require universal background checks, promote safe storage and training, and target weapons access for those who are violent or clearly unfit. These steps protect responsible owners\u2019 rights while reducing preventable harm to children, families, and public spaces without imposing unnecessary burdens on law\u2011abiding citizens.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "A balanced approach recognizes the constitutional right to bear arms while also prioritizing public safety by implementing evidence-based regulations that prevent access to firearms by those likely to cause harm, such as through background checks, red flag laws, and safe storage requirements. By focusing on targeted, enforceable measures that respect lawful ownership and enhance community protections, policymakers can reduce violence without undermining responsible citizens\u2019 Second Amendment rights.",
+      "Protecting both public safety and the constitutional right to keep and bear arms requires sensible, narrowly tailored laws that prevent harm\u2014such as universal background checks, red flag measures with due process, and safe-storage requirements\u2014while preserving lawful ownership for self-defense, hunting, and sport. By focusing on evidence-based policies that target risky behavior and illegal access rather than broadly restricting rights, communities can reduce violence while respecting legitimate Second Amendment interests.",
+      "Protecting public safety and respecting the Second Amendment are both legitimate goals; a balanced approach upholds the right to responsible firearm ownership while implementing evidence-based measures that reduce gun violence. Common-sense standards\u2014such as effective background checks, safe-storage requirements, red-flag mechanisms with due process, and targeted prohibitions for those proven dangerous\u2014can help prevent harm without broadly stripping law-abiding citizens of their constitutional rights.",
+      "We uphold the constitutional right to keep and bear arms while recognizing the shared responsibility to reduce gun violence through sensible, evidence-based safety measures. Common-sense policies\u2014such as universal background checks, safe-storage requirements, and targeted restrictions for those demonstrably dangerous\u2014can protect communities without unduly infringing on lawful ownership, and should be paired with investments in mental-health services, education, and enforcement to address root causes.",
+      "Protecting public safety and respecting the Second Amendment are both essential goals, so sensible gun policy should combine lawful access for responsible, law-abiding owners with targeted measures that reduce violence\u2014such as background checks, safe storage requirements, and enforcement against illegal trafficking. By focusing on evidence-based regulations that prevent misuse while preserving recreational and self-defense rights, policymakers can build consensus across perspectives and continually assess outcomes to balance liberty with community safety."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

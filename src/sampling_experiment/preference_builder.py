@@ -24,7 +24,9 @@ def build_full_preferences(
     alt_statements: List[Dict],
     topic_slug: str,
     openai_client: OpenAI,
-    max_workers: int = MAX_WORKERS
+    max_workers: int = MAX_WORKERS,
+    model: str = None,
+    temperature: float = None
 ) -> List[List[str]]:
     """
     Build full preference matrix (100 voters x 100 alternatives).
@@ -38,18 +40,26 @@ def build_full_preferences(
         topic_slug: Topic slug
         openai_client: OpenAI client
         max_workers: Max parallel workers
+        model: Model to use (defaults to config.MODEL)
+        temperature: Temperature for sampling (defaults to config.TEMPERATURE)
     
     Returns:
         Preference matrix where preferences[rank][voter] is the alternative
         index (as string) at that rank for that voter
     """
+    # Use defaults from config if not specified
+    if model is None:
+        model = MODEL
+    if temperature is None:
+        temperature = TEMPERATURE
+    
     topic = TOPIC_QUESTIONS.get(topic_slug, topic_slug)
     n_voters = len(voter_personas)
     n_alts = len(alt_statements)
     
     logger.info(f"Building full preferences: {n_voters} voters x {n_alts} alternatives")
     logger.info(f"Topic: {topic}")
-    logger.info(f"Using single-call ranking with model={MODEL}")
+    logger.info(f"Using single-call ranking with model={model}")
     
     # Build preference matrix using single-call ranking
     preferences = get_preference_matrix_single_call(
@@ -58,8 +68,8 @@ def build_full_preferences(
         topic=topic,
         openai_client=openai_client,
         max_workers=max_workers,
-        model=MODEL,
-        temperature=TEMPERATURE
+        model=model,
+        temperature=temperature
     )
     
     logger.info(f"Built preference matrix: {len(preferences)} x {len(preferences[0])}")

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "4",
+    "winner_full": "23",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "4",
+    "winner_full": "23",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "14",
+    "winner_full": "83",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "14",
+    "winner_full": "83",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "4",
+    "winner_full": "23",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "12",
+    "winner_full": "58",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "16",
+    "winner_full": "86",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "4",
+    "winner_full": "23",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "72",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "14",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "72",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Public trust in institutions grows when people can see how decisions are made, verify outcomes, and hold leaders accountable without needing insider knowledge. We should strengthen independent oversight, publish clear performance metrics and audit results, enforce consistent ethics and transparency rules, and explain decisions in plain language through regular public briefings and accessible records. Institutions should also partner with trusted local organizations to listen, correct errors quickly, and protect equal access and privacy so communities experience fair treatment\u2014not just promises.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions, we should make key decisions and results transparent, independently verifiable, and communicated in plain language that people can easily check for themselves. That means clear, consistent standards; strong security and privacy protections; routine independent audits or reviews; and prompt, factual public reporting when problems occur. Trust also grows when access is equitable\u2014through multilingual, accessible information and meaningful community oversight\u2014so people see that rules are fair, accountability is real, and everyone is treated with respect.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To rebuild public trust in institutions, we should make key decisions and results easy for everyday people to verify: use independent audits and oversight, publish clear plain-language explanations of what was done and why, and report problems quickly with evidence and follow-up fixes. Trust also grows when services are accessible and fair\u2014through consistent standards, strong privacy and cybersecurity protections, and reliable ways for the public to participate and be heard. Partnering with local community groups, schools, and multilingual communicators can help people get accurate information, see the process up close, and reduce misinformation without turning it into a partisan fight.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "To increase public trust in institutions, we should pair stronger transparency and accountability with fair recognition of the essential services institutions provide. This means clearer standards, independent oversight, and open communication\u2014including admitting mistakes and explaining decisions\u2014while also investing in competent, nonpartisan delivery of results people can see in daily life. By inviting meaningful public input and protecting institutions from undue political or private influence, we can rebuild confidence without undermining their ability to function.",
+      "To increase public trust in institutions, we should pair stronger transparency and accountability with reliable, effective delivery of services that people can see in their daily lives. Those worried about overreach deserve clear limits, independent oversight, and accessible channels for feedback and redress, while those focused on stability need institutions protected from misinformation and undue political interference. A balanced approach\u2014open data and plain-language communication, consistent ethical standards, and measurable performance improvements\u2014can rebuild confidence without sacrificing fairness or competence.",
+      "To increase public trust in institutions, we should pair stronger transparency and accountability with reliable, consistent delivery of essential services. People who are skeptical deserve clearer evidence of how decisions are made and how misconduct is addressed, while those who value stability need institutions that can act effectively without constant disruption. A practical middle ground is to expand independent oversight, open data and communication, and meaningful community input, while protecting professional standards and focusing on measurable outcomes that improve daily life.",
+      "To increase public trust in institutions, we should pair stronger transparency and accountability with real improvements in service quality and fairness. People who worry about corruption or bias deserve clear, accessible reporting, independent oversight, and meaningful consequences for misconduct, while those who value institutional stability deserve reforms that preserve expertise and rule-based decision-making. Building trust also means ongoing two-way engagement\u2014listening to communities, explaining tradeoffs, and measuring outcomes\u2014so confidence is earned through consistent, demonstrable performance.",
+      "Public trust in institutions grows when people can see that decisions are fair, effective, and accountable, while institutions retain enough independence to do their jobs without constant political interference. A balanced approach is to increase transparency (clear data, plain-language explanations, open audits) and strengthen oversight (ethics rules, independent inspectors, meaningful consequences for wrongdoing) alongside genuine public engagement that includes both critics and supporters. At the same time, we should invest in competent service delivery and consistent standards so trust is earned through results, not just messaging."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

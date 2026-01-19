@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "1",
+    "winner_full": "11",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "9",
+    "winner_full": "56",
+    "epsilon": 0.44999999999999996
+  },
+  "chatgpt_star": {
+    "winner": "89",
+    "epsilon": 0.77
+  },
+  "chatgpt_star_rankings": {
+    "winner": "56",
+    "epsilon": 0.44999999999999996
+  },
+  "chatgpt_star_personas": {
+    "winner": "56",
+    "epsilon": 0.44999999999999996
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "The government should ensure that everyone can get essential healthcare\u2014primary care, emergency services, preventive care, and protection from catastrophic costs\u2014by guaranteeing a publicly funded baseline of coverage while preserving private options and provider choice for those who want them. It should focus on setting clear national standards, controlling prices, funding safety nets for vulnerable groups, and promoting innovation and quality through regulation and partnerships with private and non\u2011profit providers.",
+    "is_new": true,
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "The government should guarantee that everyone can get basic, affordable healthcare\u2014covering preventive, primary, and emergency care\u2014so no one faces medical bankruptcy or goes without needed treatment. This should be publicly funded to ensure universal access, while preserving private providers and optional private plans and using clear rules, oversight, and competition to control costs and protect choice.",
+    "is_new": true,
+    "epsilon": 0.030000000000000027
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Government should ensure everyone can get basic, affordable healthcare\u2014preventing medical bankruptcy and protecting children, seniors, veterans, and working families\u2014by guaranteeing a strong publicly funded core of preventive, primary, and emergency services while allowing regulated private options for additional coverage. It should also set clear rules for price transparency, protect people with preexisting conditions, fund safety\u2011net programs, and oversee quality and competition so care is accessible, reliable, and sustainably financed for all.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "The government should ensure that every person has access to affordable, essential healthcare while preserving choice and innovation in how care is delivered. By guaranteeing a baseline of coverage and investing in public health, preventive care, and cost transparency, government action can protect vulnerable populations and reduce overall costs, while allowing private providers and insurers to compete and offer additional options for those who want them.",
+      "The government should ensure that every person has access to affordable, high-quality basic healthcare by setting standards, subsidizing care for those who cannot afford it, and regulating markets to protect patients and foster competition. While preserving space for private innovation and choice, the public sector should focus on universal coverage, cost transparency, and preventive services so that no one is denied essential care regardless of income or employment.",
+      "The government should ensure that every person has access to affordable, high-quality basic healthcare while preserving choice and innovation in how care is delivered. This can be achieved through a combination of public funding or subsidies for essential services, protections for preexisting conditions, and regulatory measures to control costs and ensure transparency, alongside support for private-sector options and local flexibility to meet community needs.",
+      "While recognizing differing views on scope and funding, the government should ensure that every person has access to affordable, high-quality basic healthcare through a mix of public programs, regulated private options, and targeted subsidies for those in need. This approach balances personal choice and market innovation with strong public safeguards\u2014such as standardized benefits, cost controls, and protections for vulnerable populations\u2014to guarantee coverage, control costs, and promote equity.",
+      "While people differ on the extent of government involvement, a broadly acceptable approach is for government to ensure basic, affordable access to essential healthcare services while preserving space for private innovation and choice. This means guaranteeing a safety net that prevents catastrophic medical costs and supports preventive care, paired with transparent regulation and incentives that promote quality, competition, and efficiency across public and private providers."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "10",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "2",
+    "winner_full": "18",
+    "epsilon": 0.06000000000000005
+  },
+  "chatgpt": {
+    "winner": "17",
+    "winner_full": "92",
+    "epsilon": 0.77
+  },
+  "chatgpt_rankings": {
+    "winner": "5",
+    "winner_full": "47",
+    "epsilon": 0.33000000000000007
+  },
+  "chatgpt_personas": {
+    "winner": "11",
+    "winner_full": "70",
+    "epsilon": 0.55
+  },
+  "chatgpt_star": {
+    "winner": "61",
+    "epsilon": 0.48
+  },
+  "chatgpt_star_rankings": {
+    "winner": "56",
+    "epsilon": 0.43999999999999995
+  },
+  "chatgpt_star_personas": {
+    "winner": "56",
+    "epsilon": 0.43999999999999995
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "I value the Second Amendment and the role responsible gun ownership plays in personal safety and tradition, but rights come with responsibilities that protect our communities. We should strengthen and consistently enforce targeted, evidence-based measures\u2014universal background checks, meaningful safe-storage and training requirements, and due-process red flag procedures\u2014while focusing on crimes and diversionary trafficking rather than broadly disarming law\u2011abiding citizens.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "I respect the Second Amendment and believe law\u2011abiding citizens should be able to own firearms for self\u2011defense, sport, and tradition, but rights come with responsibilities: we should enforce existing laws and adopt practical, common\u2011sense measures\u2014universal background checks, safe\u2011storage and training requirements, stronger penalties for trafficking and straw purchases, and narrowly targeted tools like red\u2011flag laws\u2014to keep guns out of the hands of criminals and the dangerously unstable without broadly disarming responsible owners. Balancing enforcement with narrowly tailored safeguards protects communities, children, and public spaces while preserving responsible gun ownership.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "The Second Amendment is an important constitutional right, and law-abiding citizens should be able to own firearms for self-defense, sport, and tradition; at the same time, we should adopt clear, common-sense safeguards\u2014like universal background checks, meaningful enforcement of existing laws, safe-storage requirements, and targeted measures (red flag laws and limits on weapons designed for mass killings)\u2014that keep guns out of the hands of criminals and seriously dangerous people without broadly punishing responsible owners. By focusing on enforcement, training, and narrowly tailored policies that protect public safety and individual liberty, we can reduce preventable tragedies while respecting responsible gun ownership.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "We uphold the Second Amendment while recognizing the public\u2019s right to safety, and therefore support reasonable, evidence-based regulations\u2014such as universal background checks, safe storage requirements, and targeted prohibitions for those deemed a clear risk\u2014that reduce violence without broadly disarming lawful owners. By focusing on measures that demonstrably prevent harm, protect due process, and preserve responsible gun ownership, policymakers can bridge concerns about rights and safety in a way that respects constitutional protections and promotes community security.",
+      "Protecting public safety and respecting the Second Amendment are both vital goals that can be reconciled through carefully tailored laws: reasonable, evidence-based regulations such as universal background checks, safe storage requirements, and prohibitions for those proven to be a danger to themselves or others, while preserving law-abiding citizens\u2019 ability to own firearms for self-defense, sport, and hunting. By focusing on outcomes that reduce violence and accidental harm rather than broad bans, policymakers can honor constitutional rights and address legitimate concerns about community safety.",
+      "Americans can uphold the Second Amendment while also supporting responsible, evidence-based measures to reduce gun violence: common-sense safety requirements such as universal background checks, safe-storage laws, and prohibitions for those proven dangerous can coexist with lawful ownership for self-defense, hunting, and sport. By prioritizing public safety, due process, and respect for individual rights, policymakers can craft narrowly targeted regulations that prevent misuse without unduly burdening law-abiding gun owners.",
+      "We uphold the Second Amendment as an important constitutional right while recognizing the shared responsibility to protect public safety; reasonable, evidence-based regulations\u2014such as universal background checks, safe-storage requirements, and prohibitions for those with demonstrated violent or severe mental-health risks\u2014can reduce harm without unduly restricting lawful ownership. By focusing on narrowly tailored policies, improved enforcement, and investment in mental-health services and community violence prevention, policymakers can respect individual rights while working to prevent tragedies and build broader public confidence.",
+      "Protecting public safety and respecting the Second Amendment are compatible goals: sensible, evidence-based regulations\u2014such as universal background checks, prohibitions for those with violent criminal histories or severe mental-health risks, and safe-storage requirements\u2014can reduce gun violence while preserving lawful ownership for hunting, sport, and self-defense. Policymaking should be narrowly tailored, transparent, and subject to regular review, with investments in mental-health services and community violence prevention to address root causes and build mutual trust across differing viewpoints."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

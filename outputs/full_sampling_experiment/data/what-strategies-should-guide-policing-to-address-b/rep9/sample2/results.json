@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "6",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "6",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "6",
+    "winner_full": "31",
+    "epsilon": 0.27
+  },
+  "chatgpt_rankings": {
+    "winner": "1",
+    "winner_full": "6",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "1",
+    "winner_full": "6",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "31",
+    "epsilon": 0.27
+  },
+  "chatgpt_star_rankings": {
+    "winner": "46",
+    "epsilon": 0.3999999999999999
+  },
+  "chatgpt_star_personas": {
+    "winner": "43",
+    "epsilon": 0.3400000000000001
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Policing should balance firm public safety with unwavering respect for civil rights by adopting clear, enforceable use-of-force rules, independent oversight, and transparent data reporting, while also investing in continuous, scenario-based de-escalation and bias training. Departments should partner with mental-health and community-based responders so officers handle primarily serious threats, supported by body cameras, better hiring and supervision, and community engagement that builds trust rather than fear.",
+    "is_new": true,
+    "epsilon": 0.040000000000000036
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Policing should prioritize public safety while protecting civil rights by enforcing clear, enforceable use-of-force standards, mandatory body cameras, and independent oversight of serious incidents. Invest in continuous, evidence-based de\u2011escalation and bias training, better hiring and supervision, and transparent data reporting on stops and force, while expanding non\u2011police responders and community-based programs for mental health and prevention so officers can focus on serious threats with community trust and accountability.",
+    "is_new": true,
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Policing should protect public safety while respecting everyone\u2019s rights by combining clear, enforceable use-of-force standards, mandatory body cameras, and independent oversight with continuous, scenario-based de-escalation and bias training. Invest in mental-health and community-based responders for appropriate calls, transparently publish data on stops and force by race and location, and support officers with staffing, supervision, and community partnerships so safety is achieved through trust, prevention, and accountability.",
+    "is_new": true,
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0020000000000000018,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.010000000000000009,
+      0.0
+    ],
+    "statements": [
+      "Policing should prioritize public safety while upholding civil rights by using evidence-based, transparent practices that minimize harm and build community trust. This means training officers in de-escalation and bias-awareness, using accountability measures and independent oversight to address misconduct, and engaging communities in setting priorities so that enforcement is fair, effective, and respectful of individual liberties.",
+      "Policing should prioritize public safety while equally protecting civil rights by using evidence-based practices, transparent accountability, and community partnership; officers must be trained and resourced to de-escalate conflict, minimize bias, and employ force only when necessary. Recognizing legitimate concerns about crime and civil liberties, agencies should adopt clear policies, independent oversight, and data-driven reforms that build trust, reduce harm, and ensure equitable treatment for all communities.",
+      "Policing should prioritize public safety while rigorously protecting civil rights by combining community-led prevention, transparent accountability, and evidence-based tactics that minimize harm. By investing in training on de-escalation and bias reduction, independent oversight, and alternatives for mental-health and social-service responses, agencies can build trust and effectiveness\u2014balancing enforcement where necessary with respect for constitutional protections and equal treatment for all.",
+      "Policing should prioritize public safety while steadfastly protecting civil rights by using transparent, accountable practices that emphasize de-escalation, proportionality, and community partnership. Agencies and communities can find common ground by investing in training, oversight, and alternatives to arrest for mental health and social crises, ensuring that enforcement is fair, data-driven, and subject to independent review to build trust and reduce harm.",
+      "Policing should prioritize public safety while steadfastly protecting civil rights by combining transparent, accountable practices with community partnership and clear, rights-respecting use-of-force standards. Recognizing that communities and officers both seek secure neighborhoods, policies should invest in training, de-escalation, bias mitigation, and independent oversight alongside robust support for mental-health and social services to reduce confrontations. This balanced approach honors the need for effective law enforcement while ensuring that enforcement is fair, impartial, and subject to meaningful review."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

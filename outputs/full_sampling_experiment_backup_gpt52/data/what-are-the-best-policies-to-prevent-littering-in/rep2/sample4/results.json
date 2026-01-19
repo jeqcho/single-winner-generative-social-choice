@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "5",
+    "winner_full": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "5",
+    "winner_full": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "5",
+    "winner_full": "24",
+    "epsilon": 0.0
+  },
+  "chatgpt_star": {
+    "winner": "61",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_rankings": {
+    "winner": "0",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "57",
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "The most effective anti-littering policy is a balanced package: make proper disposal the default with plenty of well-placed, clearly labeled trash and recycling bins that are regularly serviced, and pair that with fair, consistent penalties for those who ignore the rules. Communities should reinforce this with practical education\u2014especially for kids and at high-traffic events\u2014and with easy ways to participate, like adopt-a-block programs and periodic cleanups. To reduce the upstream problem, cities can also ask businesses and producers that generate lots of single-use waste to help fund bins, pickup, and waste-reduction efforts.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "The best way to prevent littering is a balanced approach that makes responsible disposal easy and expected: install plenty of well\u2011placed, clearly marked trash and recycling bins, keep them regularly emptied, and use clear signage in high\u2011traffic areas. Back this up with fair, consistently enforced fines\u2014especially for repeat offenders and businesses that generate lots of single\u2011use waste\u2014so there are real consequences for dumping. Pair enforcement with education in schools and community spaces and with neighborhood cleanups that build pride and shared responsibility for keeping public places clean.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "To prevent littering, we should make the clean choice the easy choice by adding plenty of well-placed, clearly labeled trash and recycling bins (especially at parks, transit stops, schools, and shopping areas) and keeping them regularly serviced. Pair that with clear, fair rules\u2014visible signage and meaningful fines focused on repeat or deliberate offenders\u2014so accountability is real without being punitive. At the same time, invest in ongoing education through schools, community groups, and multilingual public messaging, plus regular neighborhood cleanups that build pride and protect public health and wildlife. Where possible, require businesses and packaging producers who generate lots of single-use waste to help fund bins, maintenance, and litter-reduction efforts.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Effective anti-littering policy should balance personal responsibility with practical support, combining clear enforcement and fair penalties with convenient, well-maintained disposal and recycling options. People who prioritize deterrence can support consistent rules and targeted fines in high-litter areas, while those focused on education can back public awareness campaigns and community cleanups that build shared norms. A consensus approach uses data to focus resources, ensures businesses and municipalities maintain clean public spaces, and measures outcomes so strategies can be adjusted over time.",
+      "Effective anti-litter policies should combine fair enforcement with practical support, recognizing that some people prioritize personal responsibility while others emphasize better public infrastructure. A balanced approach pairs visible, proportionate fines and consistent rules with convenient, well-maintained bins, regular street cleaning, and clear signage to make proper disposal easy. Education and community partnerships can reinforce norms over time, while targeted measures in high-traffic areas help ensure limited resources are used where they have the greatest impact.",
+      "The most effective anti-littering approach balances personal responsibility with practical support: clear rules and fair, consistent enforcement alongside convenient, well-maintained bins and regular cleanup. Education and positive incentives can build norms without relying solely on punishment, while targeted fines for repeat or high-impact violations address those who ignore shared standards. Pairing these measures with data-driven evaluation and community partnerships can reduce litter in a way that\u2019s both effective and broadly acceptable.",
+      "Preventing litter in public spaces works best with a balanced approach that combines personal responsibility with practical support. Communities can pair clear rules and fair, consistent enforcement with convenient disposal options, regular maintenance, and education that makes doing the right thing easy. This middle ground respects concerns about over-policing and costs while recognizing that shared public spaces require both accountability and accessible infrastructure.",
+      "Effective anti-littering policy should balance personal responsibility with practical support, combining clear penalties and consistent enforcement with convenient disposal options like well-placed bins and regular maintenance. While some emphasize tougher fines and others prioritize education and community norms, a blended approach\u2014public awareness campaigns, school and neighborhood cleanups, and data-driven enforcement in hotspot areas\u2014can address both causes and consequences. Pairing these measures with transparent reporting on results and reinvesting fine revenue into local cleanliness efforts can build trust and sustain improvements over time."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "1",
+    "winner_full": "6",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "6",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "12",
+    "winner_full": "71",
+    "epsilon": 0.6100000000000001
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt_personas": {
+    "winner": "13",
+    "winner_full": "76",
+    "epsilon": 0.6100000000000001
+  },
+  "chatgpt_star": {
+    "winner": "96",
+    "epsilon": 0.8300000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "46",
+    "epsilon": 0.3600000000000001
+  },
+  "chatgpt_star_personas": {
+    "winner": "35",
+    "epsilon": 0.25
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Laws concerning abortion should balance respect for pregnant people\u2019s autonomy and health with a recognition of the moral concern many feel for unborn life, guided primarily by medical evidence, compassion, and practical support rather than sectarian doctrine. Policy should protect safe, legal access to abortion while also investing in comprehensive sex education, affordable contraception, maternal healthcare, and social services so families have real alternatives and fewer people face desperate choices.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Laws concerning abortion should balance respect for unborn life with protection of women\u2019s health, autonomy, and dignity by grounding policy in medical evidence, personal conscience, and compassion rather than religious or partisan agendas. Government should ensure safe, legal access to reproductive healthcare while also investing in comprehensive sex education, accessible contraception, and meaningful social supports so fewer people face crisis pregnancies; reasonable, medically based limits may apply in later stages with clear exceptions to protect the life and health of the pregnant person.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Laws on abortion should balance respect for individual conscience and medical expertise with compassionate support for pregnant people and families; they should protect access to safe, evidence-based reproductive healthcare while allowing reasonable, medically justified limits later in pregnancy. Policy should prioritize practical steps that reduce unwanted pregnancies\u2014comprehensive sex education, affordable contraception, and strong social and economic supports\u2014while ensuring decisions are made by patients and clinicians, not imposed by partisan or purely religious mandates.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Laws concerning abortion should protect individual autonomy and healthcare access while recognizing societal interests in protecting potential life, balancing these by ensuring safe, timely, and evidence-based reproductive care with reasonable limits that respect deeply held moral convictions. Policy should focus on minimizing harm\u2014through comprehensive sex education, contraception access, maternal support services, and clear medical guidelines\u2014so that fewer people face the choice, and when they do, it is informed, respectful, and governed by medical best practices rather than punitive measures.",
+      "Laws on abortion should balance respect for individuals\u2019 autonomy and health with thoughtful consideration for the developing potential of pregnancy by ensuring safe, accessible reproductive care while also permitting reasonable limits informed by medical evidence and ethical reflection. Policy should protect bodily autonomy and equitable access to services, include safeguards for minors and conscientious medical practice, and prioritize comprehensive sex education and supportive services that reduce unwanted pregnancies and support those who choose to parent. ",
+      "Laws on abortion should balance respect for individual autonomy and the moral concerns about fetal life by protecting access to safe, legal care while allowing reasonable, evidence-based limits that reflect public health, maternal wellbeing, and gestational development. Policymaking should prioritize reducing unwanted pregnancies through comprehensive sex education and contraception, ensure equitable healthcare access, and include safeguards for informed consent and exceptions where pregnancy endangers the health or life of the pregnant person, recognizing the sincere ethical differences across society.",
+      "Laws concerning abortion should protect the health, autonomy, and dignity of pregnant people while also recognizing profound moral concerns about fetal life by ensuring safe, timely access to reproductive healthcare alongside reasonable limits informed by medical evidence and respect for conscience. Policy should prioritize reducing unintended pregnancies through comprehensive sex education and accessible contraception, support parents and children with robust social services, and ensure that any restrictions are narrowly tailored, medically sound, and protect the clinician\u2013patient relationship.",
+      "Laws concerning abortion should balance respect for individual autonomy and bodily integrity with society\u2019s interest in protecting potential human life by ensuring safe, legal access to reproductive health care while permitting reasonable limits that reflect genuine medical, ethical, or developmental considerations. Policies should prioritize evidence-based medical guidance, equitable access to contraception and support for parents and families, and protections for those with conscientious objections, so that legal frameworks reduce harm, safeguard health, and accommodate deeply held moral views without criminalizing or unduly restricting care."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

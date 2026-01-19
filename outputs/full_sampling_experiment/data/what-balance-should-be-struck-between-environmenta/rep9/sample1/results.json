@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.010000000000000009
+  },
+  "chatgpt": {
+    "winner": "2",
+    "winner_full": "13",
+    "epsilon": 0.08000000000000007
+  },
+  "chatgpt_rankings": {
+    "winner": "2",
+    "winner_full": "13",
+    "epsilon": 0.08000000000000007
+  },
+  "chatgpt_personas": {
+    "winner": "2",
+    "winner_full": "13",
+    "epsilon": 0.08000000000000007
+  },
+  "chatgpt_star": {
+    "winner": "49",
+    "epsilon": 0.41999999999999993
+  },
+  "chatgpt_star_rankings": {
+    "winner": "48",
+    "epsilon": 0.4099999999999999
+  },
+  "chatgpt_star_personas": {
+    "winner": "49",
+    "epsilon": 0.41999999999999993
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "We should treat environmental protection and economic growth as complementary goals by setting firm, science-based environmental standards while actively supporting workers, small businesses, and communities through transition funding, training, and predictable incentives. Practical policies\u2014investing in clean energy, efficiency, resilient infrastructure, and innovation\u2014can reduce pollution and create broadly shared jobs without sudden disruptions, ensuring we leave a healthier planet and stable livelihoods for current and future generations.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "We must protect the environment as the foundation for long-term prosperity while ensuring the transition is fair and practical for working families and small businesses. Climate policy should set strong, clear standards to safeguard public health and ecosystems, and simultaneously invest in clean infrastructure, job training, and targeted support so workers and communities can adapt without losing livelihoods. In short, treat environmental limits as non\u2011negotiable guardrails and drive realistic, well-supported economic innovation within those boundaries.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "We should protect the environment as a foundation for long-term prosperity while making sure the transition to cleaner energy and practices is fair and practical for working families, small businesses, and communities. That means setting clear environmental standards, investing in green jobs, training and support for affected workers, and offering phased, cost\u2011effective measures that preserve livelihoods and public health as we move toward a sustainable economy.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Sustainable prosperity requires that environmental protection and economic growth be pursued together rather than as opposing goals: policies should prioritize long-term ecological health while fostering innovation, job creation, and competitiveness through investments in clean technology, resource efficiency, and fair transition support for affected communities. By setting science-based environmental limits, using market tools and targeted public funding to incentivize greener practices, and ensuring social safeguards for workers and vulnerable populations, we can balance conservation with opportunity and share the benefits of a resilient economy.",
+      "Sustainable progress requires balancing environmental protection with economic growth by pursuing policies that foster innovation, clean technologies, and efficient resource use so that prosperity does not come at the cost of a healthy planet. Recognizing diverse priorities\u2014from urgent conservation to job creation\u2014we should prioritize pragmatic, evidence-based approaches that create green jobs, protect critical ecosystems, and allow businesses and communities to adapt, ensuring long-term wellbeing for both people and nature.",
+      "We should pursue a pragmatic balance that protects essential ecosystems and public health while enabling sustainable economic opportunities, recognizing that long-term prosperity depends on a healthy environment. By investing in clean technologies, smart regulation, and equitable transition support for affected communities and industries, we can align growth with conservation and share the benefits broadly.",
+      "Sustainable prosperity requires harmonizing environmental protection with responsible economic growth by prioritizing policies and investments that conserve natural capital while fostering innovation, job creation, and shared prosperity. By recognizing both the urgent need to safeguard ecosystems and the legitimate needs for livelihoods and development, governments, businesses, and communities can collaborate on pragmatic solutions \u2014 such as clean technologies, circular economy practices, and targeted supports for transition-affected workers \u2014 that deliver long-term economic resilience and healthier environments for current and future generations.",
+      "Sustainable prosperity requires policies that protect vital ecosystems while enabling economic opportunities, recognizing that a healthy environment underpins long-term growth and community well\u2011being. By prioritizing cost\u2011effective regulations, investing in clean technologies and green jobs, and using transparent, evidence\u2011based planning with input from affected stakeholders, we can balance conservation goals with responsible development that shares benefits broadly."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}
