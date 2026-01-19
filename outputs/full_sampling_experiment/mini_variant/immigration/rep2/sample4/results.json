@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.040000000000000036
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.040000000000000036
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.040000000000000036
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "0",
+    "epsilon": 0.040000000000000036
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "7",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "11",
+    "winner_full": "46",
+    "epsilon": 0.3600000000000001
+  },
+  "chatgpt_rankings": {
+    "winner": "7",
+    "winner_full": "35",
+    "epsilon": 0.21999999999999997
+  },
+  "chatgpt_personas": {
+    "winner": "7",
+    "winner_full": "35",
+    "epsilon": 0.21999999999999997
+  },
+  "chatgpt_star": {
+    "winner": "62",
+    "epsilon": 0.47
+  },
+  "chatgpt_star_rankings": {
+    "winner": "62",
+    "epsilon": 0.47
+  },
+  "chatgpt_star_personas": {
+    "winner": "62",
+    "epsilon": 0.47
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance secure, orderly systems with compassion by establishing transparent, enforceable rules for border management and vetting alongside a fair, affordable pathway to citizenship for long\u2011term residents, essential workers, and families. That path should require accountability\u2014background checks, taxation or fees, and meaningful steps toward integration such as language and civics\u2014while protecting public safety and labor markets and providing special protections for vulnerable groups and family unity.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Immigration policy should combine humane respect for human dignity and family unity with clear, enforceable rules that protect public safety and our economy. Create a transparent, affordable, earned path to citizenship for law\u2011abiding people who work, pay taxes, and commit to integration (including background checks, English and civics education), while investing in well\u2011resourced, smart border management and fair vetting so communities and newcomers can thrive together.",
+    "is_new": true,
+    "epsilon": 0.050000000000000044
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Immigration policy should respect human dignity and keep communities safe by combining secure, well-resourced border and vetting systems with a clear, affordable, and earned path to citizenship for people who work, pay taxes, and keep families together. Policies should prioritize family unity, protect jobs and public safety through fair enforcement and background checks, and invest in practical integration supports\u2014like language, job training, and civics\u2014so newcomers can fully contribute without undermining local communities.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Immigration policy should balance the rule of law and secure borders with compassion and clear pathways for integration, ensuring that eligibility and enforcement are predictable, efficient, and humane. By combining reasonable border controls, fair adjudication of claims, and accessible routes to work and citizenship\u2014alongside investments in integration services and respect for family unity\u2014we can uphold national interests while honoring humanitarian commitments and benefiting communities and the economy.",
+      "Immigration policy should balance national security and economic needs with respect for human dignity by creating fair, orderly processes that secure borders, enforce laws, and provide realistic, transparent pathways to legal status for long-term residents and skilled workers. Recognizing concerns about rule of law and economic impacts as well as humanitarian obligations, policies should include effective vetting, expedited legal channels for labor and asylum where warranted, and clear, attainable criteria for citizenship that promote integration, contribution, and civic responsibility.",
+      "Immigration policy should balance national security and economic interests with a humane, orderly path to legal status, prioritizing border integrity, fair enforcement, and efficient processing. It should recognize the value migrants bring while addressing concerns about labor markets and public services by combining merit- and family-based admissions, clear rules for work eligibility, and a realistic, accountable pathway to citizenship for longtime residents that includes language and civics requirements and conditional eligibility criteria.",
+      "Immigration policy should balance the rule of law and secure borders with a fair, humane pathway to citizenship that recognizes immigrants' economic contributions and family ties; practical reforms \u2014 such as clear legal processes, background checks, and targeted enforcement \u2014 can address security and labor needs while reducing illegal entry. A bipartisan approach that streamlines legal immigration channels, provides conditional legalization with requirements like work, taxes, and civics knowledge, and protects vulnerable people can uphold national interests while honoring values of opportunity and community cohesion.",
+      "Immigration policy should balance the rule of law and national interests with a humane, orderly process that recognizes immigrants' contributions and dignity; this means securing borders and enforcing lawful entry while expanding transparent, merit- and family-based pathways to work, refuge, and eventual citizenship. Policies should include fair, efficient adjudication, opportunities for integration through language and employment programs, and realistic pathways to citizenship for long-term residents and those meeting clear requirements, acknowledging both economic needs and humanitarian obligations."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

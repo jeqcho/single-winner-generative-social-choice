@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "17",
+    "epsilon": 0.040000000000000036
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "17",
+    "epsilon": 0.040000000000000036
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "17",
+    "epsilon": 0.040000000000000036
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "17",
+    "epsilon": 0.040000000000000036
+  },
+  "veto_by_consumption": {
+    "winner": "1",
+    "winner_full": "32",
+    "epsilon": 0.17999999999999994
+  },
+  "chatgpt": {
+    "winner": "18",
+    "winner_full": "97",
+    "epsilon": 0.8200000000000001
+  },
+  "chatgpt_rankings": {
+    "winner": "18",
+    "winner_full": "97",
+    "epsilon": 0.8200000000000001
+  },
+  "chatgpt_personas": {
+    "winner": "18",
+    "winner_full": "97",
+    "epsilon": 0.8200000000000001
+  },
+  "chatgpt_star": {
+    "winner": "97",
+    "epsilon": 0.8200000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "93",
+    "epsilon": 0.6499999999999999
+  },
+  "chatgpt_star_personas": {
+    "winner": "97",
+    "epsilon": 0.8200000000000001
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance secure, orderly borders with compassion for families and people fleeing danger, creating a transparent, timely system that rewards work and contribution while protecting public safety. A fair path to citizenship should be earned and accessible\u2014requiring lawful background checks, steady employment or community contribution, and basic civic and language learning\u2014while prioritizing family unity, protections for children and refugees, and clear, humane enforcement procedures.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance secure, orderly borders and respect for the rule of law with basic human dignity\u2014keeping families together, protecting children and refugees, and treating people fairly. Create a clear, efficient, and transparent path to citizenship that rewards steady work, taxpaying, background checks, and civic and language learning while ensuring humane treatment and realistic timelines so newcomers can contribute to and belong in our communities.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance humane treatment with orderly, enforceable rules: secure borders and clear procedures, paired with fair, attainable pathways to citizenship for people who work, pay taxes, pass background checks, and commit to civic and language learning. It should prioritize keeping families together, protecting children and refugees, and ensuring transparent, efficient processes that respect the rule of law while treating all people with dignity.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0040000000000000036,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.010000000000000009,
+      0.0,
+      0.010000000000000009
+    ],
+    "statements": [
+      "Immigration policy should balance secure, orderly borders and enforcement with humane, practical pathways to legal status that reflect economic needs, family unity, and respect for human dignity. By combining fair enforcement, clear rules and timelines, and accessible pathways to citizenship for long-term contributors\u2014while protecting national security and prioritizing migrants with ties or skills that meet societal needs\u2014we can honor both the rule of law and our values as a welcoming, productive society.",
+      "Immigration policy should balance the nation\u2019s economic and security needs with a commitment to fairness and human dignity, creating a transparent, enforceable system that welcomes those who contribute while controlling borders responsibly. By combining realistic pathways to citizenship for long-term residents and DREAMers, streamlined legal channels for labor and family reunification, and robust enforcement against exploitation and fraud, we can respect rule of law, uphold humanitarian values, and strengthen social and economic cohesion.",
+      "Immigration policy and the path to citizenship should balance national security and economic needs with humane treatment and respect for human rights, creating clear, fair, and efficient processes that uphold the rule of law. Recognizing concerns about borders and labor markets as well as the humanitarian and family-reunification imperatives, policy should combine orderly admission and enforcement with realistic pathways to legal status for longtime residents and high-demand workers, accompanied by integration supports and accountability measures.",
+      "Immigration policy should balance the rule of law and secure borders with compassion and practical pathways for people who contribute to our communities and economy. While some emphasize enforcement and orderly processes and others prioritize humanitarian relief and inclusion, we can agree on clear, fair rules that prioritize public safety, streamline legal channels, and create accountable, merit- and need-based paths to permanent residency and citizenship. Such a framework should include humane treatment, support for integration (language, work authorization, and social services), and regular review to adapt to economic and security needs. This approach respects differing priorities while promoting stability, opportunity, and shared responsibility.",
+      "A sustainable immigration policy should balance the rule of law and secure borders with a humane, pragmatic pathway to citizenship for long-term residents who contribute to society, emphasizing skills, family unity, and respect for due process. It should acknowledge legitimate concerns about national security and economic impacts while investing in fair, efficient legal channels, robust integration programs, and transparent enforcement so that communities, employers, and newcomers can plan and prosper together."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

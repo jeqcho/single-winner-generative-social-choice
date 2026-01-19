@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "9",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "9",
+    "winner_full": "51",
+    "epsilon": 0.3999999999999999
+  },
+  "chatgpt_rankings": {
+    "winner": "5",
+    "winner_full": "40",
+    "epsilon": 0.31000000000000005
+  },
+  "chatgpt_personas": {
+    "winner": "9",
+    "winner_full": "51",
+    "epsilon": 0.3999999999999999
+  },
+  "chatgpt_star": {
+    "winner": "16",
+    "epsilon": 0.040000000000000036
+  },
+  "chatgpt_star_rankings": {
+    "winner": "8",
+    "epsilon": 0.0
+  },
+  "chatgpt_star_personas": {
+    "winner": "91",
+    "epsilon": 0.78
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Immigration policy should combine secure, transparent borders and accountable enforcement with a humane, practical path to full membership\u2014one that rewards work, taxpaying, and community contribution while protecting families and vulnerable people. Clear, timely standards (criminal background checks, reasonable language and civics expectations, and fair processing) paired with support for integration and refugee protections can uphold the rule of law without sacrificing basic dignity or the social and economic benefits newcomers bring.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "I believe immigration policy should balance respect for the rule of law with basic human dignity: secure, orderly borders and sensible enforcement alongside a clear, efficient, earned path to citizenship for long\u2011term, law\u2011abiding residents. That pathway should keep families together, include reasonable requirements (background checks, tax contribution, English and civics learning), protect refugees and children, and be administered transparently so newcomers can integrate and fully contribute to our shared civic life.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance secure, orderly borders and respect for the rule of law with basic human dignity\u2014keeping families together, protecting vulnerable people, and recognizing the contributions of those who work and pay taxes. A fair, efficient path to citizenship should include reasonable vetting, support for language and civic integration, and timely processes that encourage accountability and enable long\u2011term residents to fully belong while safeguarding community safety.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0020000000000000018,
+    "epsilons": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.010000000000000009
+    ],
+    "statements": [
+      "Immigration policy and the path to citizenship should balance national security and rule of law with humane treatment and practical pathways for migrants who contribute to our communities; this means enforcing borders and vetting applicants while streamlining legal channels, reducing backlogs, and creating realistic routes to legal status for long-term residents and essential workers. By combining targeted enforcement, fair due process, and investments in integration\u2014such as language, job training, and civic education\u2014we can honor diverse concerns about sovereignty and public safety while promoting economic vitality, family unity, and shared values.",
+      "Immigration policy should balance national security and rule of law with humanitarian responsibility and economic need, creating a fair, transparent pathway to citizenship for long-term residents who meet clear requirements such as background checks, tax and law-abiding records, and demonstrated contribution. While recognizing legitimate concerns about borders and the rule of law, the system should be humane and efficient\u2014reducing backlogs, providing temporary protection where warranted, and investing in integration services\u2014so that communities, employers, and newcomers can plan and thrive together.",
+      "Immigration policy should balance a commitment to national security and the rule of law with compassion for families and recognition of immigrants\u2019 economic and cultural contributions, creating a fair, transparent path to citizenship for those who meet clear requirements and demonstrate integration. While acknowledging concerns about border control and resources, we should pursue practical reforms\u2014such as streamlined legal channels, robust vetting, meaningful pathways for long-term residents and dreamers, and support for assimilation and labor needs\u2014that uphold sovereignty, protect communities, and honor humanitarian obligations.",
+      "Immigration policy should balance a nation\u2019s need for secure, orderly borders and effective enforcement with a fair, humane system that recognizes economic contributions, family unity, and human rights; pathways to citizenship should be earned through clear, transparent requirements that include background checks, language and civics elements, and reasonable opportunities for legal regularization. While acknowledging concerns about security and rule of law as well as the humanitarian and economic arguments for inclusion, policymakers should prioritize pragmatic reforms that streamline legal immigration, reduce backlogs, protect vulnerable individuals, and create predictable routes to integration that strengthen communities and the common good.",
+      "Immigration policy should balance national security, economic needs, and humanitarian obligations by enforcing fair, transparent rules that prioritize orderly legal pathways, border integrity, and timely adjudication. While recognizing concerns about sovereignty and community impact as well as the moral imperative to protect vulnerable people and attract talent, a common-sense path to citizenship should combine clear eligibility criteria, opportunities for legalization tied to background checks and contributions (work, taxes, community service), and accessible routes for family reunification and asylum seekers guided by predictable timelines. This approach respects the rule of law, strengthens the economy, and upholds human dignity while building public trust through accountability and regular evaluation of outcomes."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}

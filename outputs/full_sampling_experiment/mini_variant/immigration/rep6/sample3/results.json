@@ -1,0 +1,92 @@
+{
+  "schulze": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "borda": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "irv": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "plurality": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "veto_by_consumption": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "chatgpt": {
+    "winner": "10",
+    "winner_full": "35",
+    "epsilon": 0.07000000000000006
+  },
+  "chatgpt_rankings": {
+    "winner": "0",
+    "winner_full": "2",
+    "epsilon": 0.0
+  },
+  "chatgpt_personas": {
+    "winner": "10",
+    "winner_full": "35",
+    "epsilon": 0.07000000000000006
+  },
+  "chatgpt_star": {
+    "winner": "97",
+    "epsilon": 0.8200000000000001
+  },
+  "chatgpt_star_rankings": {
+    "winner": "35",
+    "epsilon": 0.07000000000000006
+  },
+  "chatgpt_star_personas": {
+    "winner": "93",
+    "epsilon": 0.6499999999999999
+  },
+  "chatgpt_double_star": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance a commitment to the rule of law and secure, orderly borders with a humane, practical pathway for people who contribute to our communities; that means combining efficient legal channels, fair vetting, and support for family unity with requirements like work, tax contribution, and civic integration (including language and civic education). By making the system transparent, timely, and accountable\u2014so it rewards responsibility, protects public safety, and respects human dignity\u2014we can address concerns about security and fairness while giving long\u2011standing residents and eligible newcomers a realistic route to full membership.",
+    "is_new": true,
+    "epsilon": 0.040000000000000036
+  },
+  "chatgpt_double_star_rankings": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance compassion and human dignity with clear, enforceable rules that protect communities and the rule of law. We should secure and manage borders responsibly, streamline legal pathways, and offer a transparent, earned path to citizenship that rewards steady work, civic commitment (including learning English and background checks), and keeps families and children together whenever possible.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_double_star_personas": {
+    "winner": "100",
+    "new_statement": "Immigration policy should balance secure, well\u2011managed borders and clear enforcement with humane, transparent pathways to citizenship that keep families together. Prioritize an efficient legal system that rewards steady work, taxpaying, and civic commitment (including learning English and basic civic knowledge), includes necessary background checks to protect public safety, and treats vulnerable people with dignity so newcomers can integrate and contribute to our communities.",
+    "is_new": true,
+    "epsilon": 0.0
+  },
+  "chatgpt_triple_star": {
+    "winner": "generated",
+    "epsilon": 0.0020000000000000018,
+    "epsilons": [
+      0.010000000000000009,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "statements": [
+      "Immigration policy should balance respect for the rule of law and border security with recognition of immigrants\u2019 contributions and humanitarian obligations, creating a fair, efficient pathway to citizenship that rewards work, education, and civic integration. By combining enforceable standards and vetted entry with pragmatic options for long-term residents\u2014such as earned legalization, family reunification, and targeted refugee protections\u2014policies can uphold public safety and economic needs while honoring human dignity and shared values.",
+      "Immigration policy should balance the rule of law and secure borders with compassion for families and recognition of immigrants\u2019 economic and social contributions, creating a fair, transparent path to citizenship for those who meet clear requirements. By combining humane enforcement, streamlined legal avenues for work and asylum, and practical integration supports\u2014such as language and job training\u2014policies can respect national sovereignty while upholding human dignity and strengthening communities.",
+      "Immigration policy and the path to citizenship should balance national security and economic needs with compassion and respect for human dignity by creating orderly, fair processes that prioritize legal pathways, robust enforcement against exploitation, and timely access to integration supports. Recognizing legitimate concerns about borders and labor market impacts while honoring family unity and the contributions of newcomers, a pragmatic approach would streamline legal immigration, provide clear criteria and pathways to citizenship for those who meet obligations, and invest in language, employment, and civic integration to ensure successful long-term inclusion.",
+      "Immigration policy should balance national security and the rule of law with humane treatment and economic opportunity, creating clear, enforceable pathways that prioritize family unity, skilled labor needs, and effective integration. While some emphasize strict enforcement and others stress openness and refuge, common ground can be found in policies that secure borders, streamline legal channels, offer earned pathways to citizenship for long-term contributors, and invest in language, education, and workforce programs to help newcomers integrate and contribute.",
+      "Immigration policy should balance the rule of law and orderly borders with compassion for people seeking better lives, guided by transparent, humane procedures that prioritize public safety and economic needs. By creating a fair, merit- and family-sensitive path to citizenship that includes enforcement, realistic timelines, and clear opportunities for integration, we can respect national sovereignty while honoring our values and harnessing immigrants\u2019 contributions."
+    ],
+    "is_new": true,
+    "n_generations": 5
+  }
+}
