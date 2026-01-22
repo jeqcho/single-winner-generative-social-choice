@@ -32,8 +32,8 @@ from ..config import (
 logger = logging.getLogger(__name__)
 
 
-# System prompt for Alt1 - emphasizes natural first-person writing without identity references
-SYSTEM_PROMPT = """You are writing a bridging statement that reflects your perspective on a policy topic. Write in first person but do NOT explicitly reference your demographic characteristics or political identity (e.g., do not say "As a progressive" or "As a conservative" or "As someone who works in healthcare"). Just express your views naturally."""
+# System prompt for Alt1 - simple perspective statement
+SYSTEM_PROMPT = """You are writing a statement that reflects your perspective on a topic."""
 
 
 def _build_user_prompt(persona: str, topic: str) -> str:
@@ -47,6 +47,7 @@ Write a bridging statement expressing your views on this topic. Your statement s
 - Reflect your background, values, and life experiences
 - Aim to find common ground or bridge different viewpoints
 - Be 2-4 sentences long
+- NOT write in first-person
 - NOT explicitly reference your identity or demographics (avoid "As a [X]...")
 
 Write only the statement:"""
