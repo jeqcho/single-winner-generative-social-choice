@@ -1,0 +1,22 @@
+{
+  "approach": "A",
+  "reasoning_effort": "low",
+  "n_voters": 100,
+  "n_statements": 100,
+  "valid_count": 97,
+  "invalid_count": 3,
+  "total_retries": 67,
+  "voters_with_retries": 40,
+  "retry_distribution": {
+    "0": 60,
+    "1": 25,
+    "3": 8,
+    "2": 5,
+    "4": 2
+  },
+  "api_stats": {
+    "count": 567,
+    "avg": 11.09492098885659,
+    "total": 6290.820200681686
+  }
+}
