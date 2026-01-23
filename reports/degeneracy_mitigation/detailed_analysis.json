@@ -1,0 +1,82 @@
+{
+  "experiment_date": "2026-01-22",
+  "model": "gpt-5-mini",
+  "scope": {
+    "n_voters": 100,
+    "n_statements": 100,
+    "topic": "abortion",
+    "rep": 0
+  },
+  "approach_a": {
+    "minimal": {
+      "valid_count": 20,
+      "total_retries": 807,
+      "presentation_order_correlation": {
+        "mean": 0.030126388093655015,
+        "std": 0.12406237922914774,
+        "n": 79
+      },
+      "is_degenerate": false
+    },
+    "low": {
+      "valid_count": 97,
+      "total_retries": 67,
+      "presentation_order_correlation": {
+        "mean": 0.04275525511734846,
+        "std": 0.13110051030212763,
+        "n": 98
+      },
+      "is_degenerate": false
+    },
+    "medium": {
+      "valid_count": 100,
+      "total_retries": 5,
+      "presentation_order_correlation": {
+        "mean": 0.03266714671467146,
+        "std": 0.12693778150530396,
+        "n": 100
+      },
+      "is_degenerate": false
+    }
+  },
+  "approach_b": {
+    "minimal": {
+      "valid_count": 72,
+      "unresolved_duplicates": 28,
+      "exactly_descending_scores": 0,
+      "presentation_order_correlation": {
+        "mean": -0.12617688036058713,
+        "std": 0.3533836461348569,
+        "n": 100
+      },
+      "is_degenerate": false
+    },
+    "low": {
+      "valid_count": 100,
+      "unresolved_duplicates": 0,
+      "exactly_descending_scores": 86,
+      "presentation_order_correlation": {
+        "mean": -0.9866049804980497,
+        "std": 0.13327876124238616,
+        "n": 100
+      },
+      "is_degenerate": true
+    },
+    "medium": {
+      "valid_count": 100,
+      "unresolved_duplicates": 0,
+      "exactly_descending_scores": 50,
+      "presentation_order_correlation": {
+        "mean": -0.9521332549324361,
+        "std": 0.2263766938564308,
+        "n": 100
+      },
+      "is_degenerate": true
+    }
+  },
+  "presentation_order_analysis": {},
+  "conclusion": {
+    "recommended_approach": "A-low",
+    "reason": "Near-zero correlation with presentation order (0.043), 98% valid rankings"
+  }
+}
