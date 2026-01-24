@@ -124,7 +124,6 @@ def build_full_preferences_iterative(
         preferences.append(rank_row)
     
     # Second pass: identify invalid voters (duplicates, -1s, wrong length)
-    import random
     for voter in range(n_voters):
         voter_ranking = [preferences[rank][voter] for rank in range(n_alts)]
         has_invalid = "-1" in voter_ranking
@@ -132,18 +131,9 @@ def build_full_preferences_iterative(
         if has_invalid or has_duplicates:
             invalid_voter_indices.append(voter)
     
-    # Generate random fallback for invalid voters
+    # Log invalid voters but do NOT replace with random data
     if invalid_voter_indices:
-        rng = random.Random(hash_seed + 9999)
-        all_alts = list(range(n_alts))
-        
-        for voter in invalid_voter_indices:
-            fallback = all_alts.copy()
-            rng.shuffle(fallback)
-            for rank in range(n_alts):
-                preferences[rank][voter] = str(fallback[rank])
-        
-        logger.warning(f"Generated fallback rankings for {len(invalid_voter_indices)} voters with invalid/duplicate rankings")
+        logger.warning(f"Found {len(invalid_voter_indices)} voters with invalid/duplicate rankings: {invalid_voter_indices}")
         valid_count = max(0, n_voters - len(invalid_voter_indices))
     
     # Compile stats
@@ -188,68 +178,69 @@ def save_preferences(
     logger.info(f"Saved preferences to {output_dir}")
 
 
-def validate_and_repair_preferences(
-    preferences: List[List[str]],
-    seed: int = 42
-) -> Tuple[List[List[str]], int]:
+def validate_preferences(
+    preferences: List[List[str]]
+) -> Tuple[List[int], Dict[str, any]]:
     """
-    Validate preference matrix and repair any invalid voters.
+    Validate preference matrix and identify invalid voters.
     
     Checks for:
     - Duplicate alternatives in voter rankings
     - Invalid values ("-1")
     - Wrong number of alternatives
     
-    Invalid voters get random fallback rankings.
+    Does NOT modify the preferences - just reports issues.
     
     Args:
         preferences: Preference matrix [rank][voter]
-        seed: Random seed for fallback generation
         
     Returns:
-        Tuple of (repaired_preferences, num_repaired)
+        Tuple of (invalid_voter_indices, validation_info)
     """
-    import random
-    
     n_alts = len(preferences)
     n_voters = len(preferences[0]) if preferences else 0
     
     invalid_voters = []
+    voters_with_duplicates = []
+    voters_with_invalid_values = []
     
     for voter in range(n_voters):
         voter_ranking = [preferences[rank][voter] for rank in range(n_alts)]
         has_invalid = "-1" in voter_ranking
         has_duplicates = len(voter_ranking) != len(set(voter_ranking))
+        
+        if has_invalid:
+            voters_with_invalid_values.append(voter)
+        if has_duplicates:
+            voters_with_duplicates.append(voter)
         if has_invalid or has_duplicates:
             invalid_voters.append(voter)
     
-    if invalid_voters:
-        rng = random.Random(seed + 9999)
-        all_alts = list(range(n_alts))
-        
-        for voter in invalid_voters:
-            fallback = all_alts.copy()
-            rng.shuffle(fallback)
-            for rank in range(n_alts):
-                preferences[rank][voter] = str(fallback[rank])
-        
-        logger.info(f"Repaired {len(invalid_voters)} voters with invalid rankings")
+    validation_info = {
+        "n_voters": n_voters,
+        "n_alternatives": n_alts,
+        "n_invalid": len(invalid_voters),
+        "n_valid": n_voters - len(invalid_voters),
+        "voters_with_duplicates": voters_with_duplicates,
+        "voters_with_invalid_values": voters_with_invalid_values,
+    }
     
-    return preferences, len(invalid_voters)
+    if invalid_voters:
+        logger.warning(f"Found {len(invalid_voters)} invalid voters: {invalid_voters}")
+    
+    return invalid_voters, validation_info
 
 
 def load_preferences(
     output_dir: Path,
-    repair: bool = True,
-    repair_seed: int = 42
+    validate: bool = True
 ) -> Tuple[List[List[str]], Dict]:
     """
     Load preferences and stats from JSON files.
     
     Args:
         output_dir: Directory to load from
-        repair: If True, validate and repair invalid rankings
-        repair_seed: Random seed for repair fallbacks
+        validate: If True, validate and report invalid rankings
         
     Returns:
         Tuple of (preferences, stats)
@@ -264,13 +255,11 @@ def load_preferences(
     else:
         stats = {}
     
-    # Validate and repair if requested
-    if repair:
-        preferences, num_repaired = validate_and_repair_preferences(
-            preferences, seed=repair_seed
-        )
-        if num_repaired > 0:
-            stats["repaired_voters"] = num_repaired
+    # Validate if requested
+    if validate:
+        invalid_voters, validation_info = validate_preferences(preferences)
+        stats["invalid_voters"] = invalid_voters
+        stats["validation_info"] = validation_info
     
     return preferences, stats
 
