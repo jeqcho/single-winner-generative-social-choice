@@ -3,6 +3,9 @@ Configuration constants for the sample-alt-voters experiment.
 
 This experiment explores 4 alternative distributions × 2 voter distributions
 across 2 contentious topics (abortion and electoral college).
+
+Phase 2 uses A*-low iterative ranking for preference building to avoid
+the 81% degeneracy problem from single-call ranking.
 """
 
 import logging
@@ -14,8 +17,12 @@ logger = logging.getLogger(__name__)
 # =============================================================================
 # API Configuration
 # =============================================================================
-MODEL = "gpt-5.2"  # Use GPT-5.2 for all API calls
+# Use gpt-5-mini for Phase 2 (cost-effective, validated with A*-low)
+MODEL = "gpt-5-mini"
 TEMPERATURE = 1.0
+
+# Reasoning effort for A*-low iterative ranking
+REASONING_EFFORT = "low"
 
 # =============================================================================
 # Experiment Parameters
@@ -30,8 +37,14 @@ K_SAMPLE = 20              # Voters per mini-rep
 P_SAMPLE = 20              # Alternatives per mini-rep
 N_SAMPLES_PER_REP = 5      # Mini-reps per rep (samples for voting evaluation)
 
-N_REPS = 10                # Number of replications
-N_CLUSTERS = 10            # Number of persona clusters (K=10)
+# Phase 2 replication structure
+N_REPS_UNIFORM = 10        # Replications for uniform voter distribution
+N_REPS_CLUSTERED = 2       # Replications for clustered (1 per ideology)
+N_REPS = 10                # Default replications (for backward compatibility)
+
+# Ideology clusters
+IDEOLOGY_CLUSTERS = ["progressive_liberal", "conservative_traditional"]
+N_CLUSTERS = 2             # Number of ideology clusters
 
 BASE_SEED = 42             # Base random seed
 
@@ -46,14 +59,20 @@ PERSONAS_PATH = DATA_DIR / "personas" / "prod" / "adult.json"  # 815 adult perso
 STATEMENTS_ADULT_DIR = DATA_DIR / "large_scale" / "prod" / "statements_adult"  # Adult-only statements
 CLUSTER_ASSIGNMENTS_PATH = DATA_DIR / "persona_embeddings_adult" / "persona_clusters.json"
 
-# Output paths for generated/sampled data
+# Output paths for generated/sampled data (Phase 1)
 OUTPUT_BASE_DIR = DATA_DIR / "sample-alt-voters"
 SAMPLED_STATEMENTS_DIR = OUTPUT_BASE_DIR / "sampled-statements"
 SAMPLED_CONTEXT_DIR = OUTPUT_BASE_DIR / "sampled-context"
 SAMPLED_PERSONAS_DIR = OUTPUT_BASE_DIR / "sampled-personas"
+IDEOLOGY_CLUSTERS_PATH = OUTPUT_BASE_DIR / "ideology_clusters.json"
 
-# Results output
+# Results output (Phase 2)
 RESULTS_DIR = PROJECT_ROOT / "outputs" / "sample_alt_voters"
+PHASE2_DATA_DIR = RESULTS_DIR / "data"
+PHASE2_FIGURES_DIR = RESULTS_DIR / "figures"
+
+# Logs directory
+LOGS_DIR = PROJECT_ROOT / "logs"
 
 # =============================================================================
 # Topic Configuration
