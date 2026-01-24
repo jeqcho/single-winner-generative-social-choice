@@ -1,0 +1,81 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c16, \n2.) c6, \n3.) c1, \n4.) c18, \n5.) c15, \n6.) c19, \n7.) c4, \n8.) c17, \n9.) c14, \n10.) c0, \n11.) c13, \n12.) c12, \n13.) c9, \n14.) c10, \n15.) c3, \n16.) c5, \n17.) c11, \n18.) c8, \n19.) c2, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "borda": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c16, \n2.) c6, \n3.) c1, \n4.) c18, \n5.) c15, \n6.) c19, \n7.) c4, \n8.) c17, \n9.) c14, \n10.) c0, \n11.) c13, \n12.) c12, \n13.) c9, \n14.) c10, \n15.) c3, \n16.) c5, \n17.) c11, \n18.) c8, \n19.) c2, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "irv": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c16, \n2.) c6, \n3.) c1, \n4.) c18, \n5.) c15, \n6.) c19, \n7.) c4, \n8.) c17, \n9.) c14, \n10.) c0, \n11.) c13, \n12.) c12, \n13.) c9, \n14.) c10, \n15.) c3, \n16.) c5, \n17.) c11, \n18.) c8, \n19.) c2, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "plurality": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c16, \n2.) c6, \n3.) c1, \n4.) c18, \n5.) c15, \n6.) c19, \n7.) c4, \n8.) c17, \n9.) c14, \n10.) c0, \n11.) c13, \n12.) c12, \n13.) c9, \n14.) c10, \n15.) c3, \n16.) c5, \n17.) c11, \n18.) c8, \n19.) c2, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "veto_by_consumption": {
+      "winner": null,
+      "error": "Alternative '-1' not found in alternatives list"
+    },
+    "chatgpt": {
+      "winner": null,
+      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    },
+    "chatgpt_rankings": {
+      "winner": null,
+      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    },
+    "chatgpt_personas": {
+      "winner": null,
+      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    }
+  }
+}
