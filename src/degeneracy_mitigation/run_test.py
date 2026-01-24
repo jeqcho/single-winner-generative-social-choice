@@ -36,6 +36,7 @@ from .config import (
     api_timer,
 )
 from .iterative_ranking import rank_voter
+from .iterative_ranking_star import rank_voter as rank_voter_star
 from .scoring_ranking import score_voter
 
 # Configure logging
@@ -248,6 +249,131 @@ def run_approach_a(
     return stats
 
 
+def run_approach_a_star(
+    client: OpenAI,
+    voters: list[str],
+    statements: list[dict],
+    topic_question: str,
+    reasoning_effort: str,
+    output_dir: Path,
+    max_workers: int = MAX_WORKERS
+) -> dict:
+    """
+    Run Approach A* (iterative ranking with "least preferred first" for bottom-K).
+    
+    Variant of Approach A where bottom-K is requested with "least preferred first"
+    instead of "least preferred last". The hypothesis is that outputting the worst
+    statement first is cognitively easier than "reserving space" for it at the end.
+    
+    Args:
+        client: OpenAI client
+        voters: List of persona strings
+        statements: List of statement dicts
+        topic_question: The topic question
+        reasoning_effort: Reasoning effort level
+        output_dir: Directory to save results
+        max_workers: Maximum parallel workers
+    
+    Returns:
+        Statistics dictionary.
+    """
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    logger.info(f"Running Approach A* (iterative ranking, bottom-K reversed) with {reasoning_effort} reasoning")
+    logger.info(f"  {len(voters)} voters × {len(statements)} statements")
+    
+    results = []
+    voter_retries = {}
+    
+    def process_voter(voter_idx: int) -> dict:
+        return rank_voter_star(
+            client=client,
+            voter_idx=voter_idx,
+            persona=voters[voter_idx],
+            statements=statements,
+            topic=topic_question,
+            reasoning_effort=reasoning_effort,
+            hash_seed=HASH_SEED,
+        )
+    
+    # Run in parallel
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {
+            executor.submit(process_voter, i): i 
+            for i in range(len(voters))
+        }
+        
+        for future in tqdm(as_completed(futures), total=len(futures), 
+                          desc=f"Ranking A* ({reasoning_effort})"):
+            voter_idx = futures[future]
+            try:
+                result = future.result()
+                results.append(result)
+                voter_retries[voter_idx] = result['total_retries']
+            except Exception as e:
+                logger.error(f"Voter {voter_idx} failed: {e}")
+                results.append({
+                    'voter_idx': voter_idx,
+                    'ranking': [],
+                    'total_retries': 0,
+                    'all_valid': False,
+                    'error': str(e),
+                })
+                voter_retries[voter_idx] = -1  # Error marker
+    
+    # Sort results by voter index
+    results.sort(key=lambda r: r['voter_idx'])
+    
+    # Extract rankings
+    rankings = [r['ranking'] for r in results]
+    
+    # Compute statistics
+    valid_count = sum(1 for r in results if r.get('all_valid', False))
+    total_retries = sum(r.get('total_retries', 0) for r in results)
+    voters_with_retries = sum(1 for r in results if r.get('total_retries', 0) > 0)
+    
+    # Retry distribution
+    retry_dist = {}
+    for retries in voter_retries.values():
+        retry_dist[retries] = retry_dist.get(retries, 0) + 1
+    
+    stats = {
+        'approach': 'A*',
+        'reasoning_effort': reasoning_effort,
+        'n_voters': len(voters),
+        'n_statements': len(statements),
+        'valid_count': valid_count,
+        'invalid_count': len(voters) - valid_count,
+        'total_retries': total_retries,
+        'voters_with_retries': voters_with_retries,
+        'retry_distribution': retry_dist,
+        'api_stats': api_timer.get_stats(),
+    }
+    
+    # Save results
+    with open(output_dir / 'rankings.json', 'w') as f:
+        json.dump(rankings, f, indent=2)
+    
+    with open(output_dir / 'stats.json', 'w') as f:
+        json.dump(stats, f, indent=2)
+    
+    # Save detailed round logs
+    round_logs_dir = output_dir / 'round_logs'
+    round_logs_dir.mkdir(exist_ok=True)
+    
+    with open(round_logs_dir / 'voter_retries.json', 'w') as f:
+        json.dump(voter_retries, f, indent=2)
+    
+    with open(round_logs_dir / 'full_results.json', 'w') as f:
+        json.dump(results, f, indent=2)
+    
+    logger.info(f"Results saved to {output_dir}")
+    logger.info(f"  Valid: {valid_count}/{len(voters)}")
+    logger.info(f"  Total retries: {total_retries}")
+    
+    return stats
+
+
 def run_approach_b(
     client: OpenAI,
     voters: list[str],
@@ -365,9 +491,9 @@ def main():
     )
     parser.add_argument(
         '--approach', '-a',
-        choices=['ranking', 'scoring', 'both'],
+        choices=['ranking', 'ranking_star', 'scoring', 'both', 'all'],
         default='both',
-        help='Which approach to test (default: both)'
+        help='Which approach to test: ranking (A), ranking_star (A*), scoring (B), both (A+B), all (A+A*+B)'
     )
     parser.add_argument(
         '--reasoning-effort', '-r',
@@ -433,8 +559,9 @@ def main():
         efforts = [args.reasoning_effort]
     
     # Determine which approaches to run
-    run_ranking = args.approach in ['ranking', 'both']
-    run_scoring = args.approach in ['scoring', 'both']
+    run_ranking = args.approach in ['ranking', 'both', 'all']
+    run_ranking_star = args.approach in ['ranking_star', 'all']
+    run_scoring = args.approach in ['scoring', 'both', 'all']
     
     # Run tests
     all_stats = []
@@ -445,6 +572,20 @@ def main():
         if run_ranking:
             output_dir = args.output_dir / 'approach_a' / effort
             stats = run_approach_a(
+                client=client,
+                voters=voters,
+                statements=statements,
+                topic_question=topic_question,
+                reasoning_effort=effort,
+                output_dir=output_dir,
+                max_workers=args.max_workers,
+            )
+            all_stats.append(stats)
+        
+        if run_ranking_star:
+            api_timer.reset()
+            output_dir = args.output_dir / 'approach_a_star' / effort
+            stats = run_approach_a_star(
                 client=client,
                 voters=voters,
                 statements=statements,
