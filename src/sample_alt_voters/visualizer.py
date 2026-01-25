@@ -388,6 +388,191 @@ def plot_heatmap_method_voter(
     logger.info(f"Saved heatmap to {output_path}")
 
 
+def plot_cdf_epsilon(
+    df: pd.DataFrame,
+    output_path: Path,
+    title: str = "CDF of Critical Epsilon"
+) -> None:
+    """
+    Create CDF plot of epsilon for each voting method.
+    
+    Includes a "Random" baseline which represents mean epsilon across all alternatives.
+    """
+    if df.empty:
+        logger.warning("No data to plot")
+        return
+    
+    valid_df = df[df["epsilon"].notna()]
+    if valid_df.empty:
+        logger.warning("No valid epsilon values")
+        return
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=FIGURE_SIZE_WIDE)
+    
+    # Method colors for CDF
+    method_colors = {
+        'schulze': '#3498db',      # Blue
+        'borda': '#e67e22',        # Orange
+        'irv': '#2ecc71',          # Green
+        'plurality': '#e74c3c',    # Red
+        'veto_by_consumption': '#9b59b6',  # Purple
+    }
+    
+    method_labels = {
+        'schulze': 'Schulze',
+        'borda': 'Borda',
+        'irv': 'IRV',
+        'plurality': 'Plurality',
+        'veto_by_consumption': 'VBC',
+    }
+    
+    # Plot CDF for each method
+    methods = [m for m in TRADITIONAL_METHODS if m in valid_df["method"].unique()]
+    
+    for method in methods:
+        method_data = valid_df[valid_df["method"] == method]["epsilon"].values
+        if len(method_data) == 0:
+            continue
+        
+        sorted_data = np.sort(method_data)
+        cdf = np.arange(1, len(sorted_data) + 1) / len(sorted_data)
+        
+        color = method_colors.get(method, '#95a5a6')
+        label = method_labels.get(method, method)
+        ax.plot(sorted_data, cdf, label=label, color=color, linewidth=2)
+    
+    # Add "Random" baseline - mean epsilon of all alternatives
+    # This simulates randomly picking an alternative
+    # We approximate this by taking all epsilon values and computing CDF
+    all_epsilons = valid_df["epsilon"].values
+    if len(all_epsilons) > 0:
+        # For random, we use the distribution of all epsilons
+        sorted_random = np.sort(all_epsilons)
+        cdf_random = np.arange(1, len(sorted_random) + 1) / len(sorted_random)
+        ax.plot(sorted_random, cdf_random, label='Random', color='black', 
+                linewidth=2, linestyle='--')
+    
+    # Customize
+    ax.set_xlabel('Critical Epsilon (ε*)', fontsize=12)
+    ax.set_ylabel('Cumulative Probability', fontsize=12)
+    ax.set_title(title, fontsize=14, fontweight='bold')
+    ax.set_xlim(0, max(0.1, valid_df["epsilon"].max() * 1.1))
+    ax.set_ylim(0, 1.05)
+    ax.legend(loc='lower right', fontsize=10)
+    ax.grid(True, alpha=0.3)
+    
+    plt.tight_layout()
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    
+    logger.info(f"Saved CDF plot to {output_path}")
+
+
+def plot_heatmap_method_topic(
+    df: pd.DataFrame,
+    output_path: Path,
+    title: str = "Mean Epsilon: Method × Topic"
+) -> None:
+    """
+    Create heatmap of mean epsilon: voting method × topic.
+    """
+    if df.empty:
+        logger.warning("No data to plot")
+        return
+    
+    valid_df = df[df["epsilon"].notna()]
+    if valid_df.empty:
+        return
+    
+    # Pivot to get method × topic
+    pivot = valid_df.pivot_table(
+        values="epsilon",
+        index="method",
+        columns="topic",
+        aggfunc="mean"
+    )
+    
+    if pivot.empty:
+        return
+    
+    # Sort by overall mean
+    pivot["_mean"] = pivot.mean(axis=1)
+    pivot = pivot.sort_values("_mean")
+    pivot = pivot.drop("_mean", axis=1)
+    
+    # Capitalize topic names
+    pivot = pivot.rename(columns=lambda x: x.title())
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=FIGURE_SIZE_SQUARE)
+    
+    sns.heatmap(pivot, annot=True, fmt='.4f', cmap='RdYlGn_r',
+                ax=ax, cbar_kws={'label': 'Mean Epsilon'})
+    
+    ax.set_title(title, fontsize=14, fontweight='bold')
+    ax.set_xlabel('Topic', fontsize=12)
+    ax.set_ylabel('Voting Method', fontsize=12)
+    
+    plt.tight_layout()
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    
+    logger.info(f"Saved heatmap to {output_path}")
+
+
+def plot_heatmap_method_rep(
+    df: pd.DataFrame,
+    output_path: Path,
+    title: str = "Mean Epsilon: Method × Rep"
+) -> None:
+    """
+    Create heatmap of mean epsilon: voting method × rep_id.
+    """
+    if df.empty:
+        logger.warning("No data to plot")
+        return
+    
+    valid_df = df[df["epsilon"].notna()]
+    if valid_df.empty:
+        return
+    
+    # Pivot to get method × rep_id
+    pivot = valid_df.pivot_table(
+        values="epsilon",
+        index="method",
+        columns="rep_id",
+        aggfunc="mean"
+    )
+    
+    if pivot.empty:
+        return
+    
+    # Sort by overall mean
+    pivot["_mean"] = pivot.mean(axis=1)
+    pivot = pivot.sort_values("_mean")
+    pivot = pivot.drop("_mean", axis=1)
+    
+    # Create figure
+    fig, ax = plt.subplots(figsize=FIGURE_SIZE_WIDE)
+    
+    sns.heatmap(pivot, annot=True, fmt='.4f', cmap='RdYlGn_r',
+                ax=ax, cbar_kws={'label': 'Mean Epsilon'})
+    
+    ax.set_title(title, fontsize=14, fontweight='bold')
+    ax.set_xlabel('Rep ID', fontsize=12)
+    ax.set_ylabel('Voting Method', fontsize=12)
+    
+    plt.tight_layout()
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    plt.close()
+    
+    logger.info(f"Saved heatmap to {output_path}")
+
+
 def generate_all_plots(
     df: pd.DataFrame = None,
     output_dir: Path = None
@@ -445,6 +630,13 @@ def generate_all_plots(
         title="Mean Epsilon: Method × Voter Distribution"
     )
     
+    # 6. CDF plot overall
+    plot_cdf_epsilon(
+        df,
+        output_dir / "cdf_epsilon.png",
+        title="CDF of Critical Epsilon - All Conditions"
+    )
+    
     # Per-topic plots
     for topic in df["topic"].unique():
         topic_df = df[df["topic"] == topic]
@@ -462,6 +654,60 @@ def generate_all_plots(
             topic_dir / "heatmap_method_alt.png",
             title=f"{topic.title()}: Method × Alternative Distribution"
         )
+        
+        plot_cdf_epsilon(
+            topic_df,
+            topic_dir / "cdf_epsilon.png",
+            title=f"{topic.title()}: CDF of Critical Epsilon"
+        )
+    
+    # Per topic × (alt_dist, voter_dist) combination plots
+    # Get unique combinations
+    alt_dists = df["alt_dist"].unique()
+    voter_dists = df["voter_dist"].unique()
+    topics = df["topic"].unique()
+    
+    for topic in topics:
+        topic_dir = output_dir / topic
+        
+        for alt_dist in alt_dists:
+            for voter_dist in voter_dists:
+                # Filter data for this combination
+                combo_df = df[
+                    (df["topic"] == topic) & 
+                    (df["alt_dist"] == alt_dist) & 
+                    (df["voter_dist"] == voter_dist)
+                ]
+                
+                if len(combo_df) == 0:
+                    continue
+                
+                # Create subfolder within topic
+                combo_dir = topic_dir / f"{alt_dist}_{voter_dist}"
+                combo_dir.mkdir(parents=True, exist_ok=True)
+                
+                alt_label = ALT_DIST_LABELS.get(alt_dist, alt_dist)
+                voter_label = VOTER_DIST_LABELS.get(voter_dist, voter_dist)
+                
+                plot_epsilon_by_method(
+                    combo_df,
+                    combo_dir / "bar_by_method.png",
+                    title=f"{topic.title()}: {alt_label} × {voter_label}"
+                )
+                
+                # Heatmap by rep for this combo (since we're already filtered by topic)
+                plot_heatmap_method_rep(
+                    combo_df,
+                    combo_dir / "heatmap_method_rep.png",
+                    title=f"{topic.title()}: {alt_label} × {voter_label}"
+                )
+                
+                # CDF plot for this combo
+                plot_cdf_epsilon(
+                    combo_df,
+                    combo_dir / "cdf_epsilon.png",
+                    title=f"{topic.title()}: {alt_label} × {voter_label}"
+                )
     
     logger.info(f"All plots saved to {output_dir}")
 

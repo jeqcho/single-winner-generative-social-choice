@@ -46,24 +46,29 @@
   ],
   "results": {
     "schulze": {
-      "winner": null,
-      "error": "Candidate c-1 found in ballot RankBallot\n1.) c9, \n2.) c7, \n3.) c19, \n4.) c5, \n5.) c16, \n6.) c11, \n7.) c14, \n8.) c2, \n9.) c18, \n10.) c13, \n11.) c0, \n12.) c17, \n13.) c10, \n14.) c6, \n15.) c1, \n16.) c15, \n17.) c4, \n18.) c3, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
     },
     "borda": {
-      "winner": null,
-      "error": "Candidate c-1 found in ballot RankBallot\n1.) c9, \n2.) c7, \n3.) c19, \n4.) c5, \n5.) c16, \n6.) c11, \n7.) c14, \n8.) c2, \n9.) c18, \n10.) c13, \n11.) c0, \n12.) c17, \n13.) c10, \n14.) c6, \n15.) c1, \n16.) c15, \n17.) c4, \n18.) c3, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
     },
     "irv": {
-      "winner": null,
-      "error": "Candidate c-1 found in ballot RankBallot\n1.) c9, \n2.) c7, \n3.) c19, \n4.) c5, \n5.) c16, \n6.) c11, \n7.) c14, \n8.) c2, \n9.) c18, \n10.) c13, \n11.) c0, \n12.) c17, \n13.) c10, \n14.) c6, \n15.) c1, \n16.) c15, \n17.) c4, \n18.) c3, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
     },
     "plurality": {
-      "winner": null,
-      "error": "Candidate c-1 found in ballot RankBallot\n1.) c9, \n2.) c7, \n3.) c19, \n4.) c5, \n5.) c16, \n6.) c11, \n7.) c14, \n8.) c2, \n9.) c18, \n10.) c13, \n11.) c0, \n12.) c17, \n13.) c10, \n14.) c6, \n15.) c1, \n16.) c15, \n17.) c4, \n18.) c3, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
     },
     "veto_by_consumption": {
-      "winner": null,
-      "error": "Alternative '-1' not found in alternatives list"
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
     },
     "chatgpt": {
       "winner": null,
