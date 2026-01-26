@@ -46,14 +46,14 @@
   ],
   "results": {
     "schulze": {
-      "winner": "5",
+      "winner": "0",
       "epsilon": 0.0,
-      "full_winner_idx": "0"
+      "full_winner_idx": "41"
     },
     "borda": {
-      "winner": "5",
-      "epsilon": 0.0,
-      "full_winner_idx": "0"
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "29"
     },
     "irv": {
       "winner": "5",
@@ -67,20 +67,53 @@
     },
     "veto_by_consumption": {
       "winner": "0",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.0,
       "full_winner_idx": "41"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "78"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "53",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to make the president the clear choice of the most voters while keeping states as meaningful partners in administering elections and representing regional diversity. A workable compromise is to reduce winner-take-all by encouraging proportional elector allocation (or multi-member/statewide methods) and add a national backstop that awards the presidency to the popular-vote leader when the Electoral College result would diverge. Pair any change with uniform baseline rules for ballot access, counting, audits, and recount triggers so outcomes are predictable, transparent, and harder to manipulate. The goal is fewer \u201cswing state\u201d distortions and more legitimacy without a sudden rewrite that leaves smaller states feeling erased.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep a meaningful role for states and local communities while making the outcome track the national popular vote so fewer voters feel \u201cwasted\u201d and campaigns aren\u2019t dominated by a handful of swing states. A practical bridge is to implement the national popular vote through an interstate compact (or, if that\u2019s not yet viable, require proportional allocation of electors in every state rather than winner-take-all), paired with clear, uniform standards for ballot access, counting, audits, and recounts. Any changes should be simple, transparent, and phased in with broad bipartisan support to build trust and stability while ensuring every lawful vote is counted consistently.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable reform should make the presidential outcome match the national popular will while keeping states meaningfully involved, so no one feels their vote is \u201cwasted\u201d or that smaller communities are ignored. A practical bridge is either the National Popular Vote interstate compact or requiring every state to allocate electors proportionally (instead of winner-take-all), paired with a simple nationwide baseline for ballot access, paper-trail audits, and transparent recount/certification rules. To encourage majority-backed winners and reduce spoiler fears, states could adopt ranked-choice voting for president while keeping the transition gradual and bipartisan to protect legitimacy and stability.",
+      "is_new": true
     }
   }
 }

@@ -46,9 +46,9 @@
   ],
   "results": {
     "schulze": {
-      "winner": "7",
+      "winner": "9",
       "epsilon": 0.0,
-      "full_winner_idx": "57"
+      "full_winner_idx": "35"
     },
     "borda": {
       "winner": "7",
@@ -56,31 +56,67 @@
       "full_winner_idx": "57"
     },
     "irv": {
-      "winner": "7",
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "57",
       "epsilon": 0.0,
       "full_winner_idx": "57"
     },
-    "plurality": {
-      "winner": "0",
+    "chatgpt_star_rankings": {
+      "winner": "12",
       "epsilon": 0.0,
-      "full_winner_idx": "25"
+      "full_winner_idx": "20"
     },
-    "veto_by_consumption": {
-      "winner": "4",
+    "chatgpt_star_personas": {
+      "winner": "64",
       "epsilon": 0.0,
-      "full_winner_idx": "69"
+      "full_winner_idx": "64"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a dual responsibility: to take developing life seriously while ensuring pregnant people have the freedom and medical care needed to protect their health and future. A durable compromise puts medical expertise and patient safety at the center, guarantees timely access and clear exceptions for health crises and extreme circumstances, and avoids criminalizing people or doctors acting in good faith. It also invests in prevention and support\u2014contraception, comprehensive education, prenatal care, childcare, and income stability\u2014so fewer pregnancies become emergencies and fewer families feel trapped by lack of options.",
+      "is_new": true,
+      "epsilon": 0.0
     },
-    "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, humility about deep moral disagreement, and a practical duty to protect health and human dignity. A workable bridge respects both concern for developing life and the autonomy and medical realities of pregnant people by ensuring early, safe access to care, clear health-based exceptions, and decisions informed by medical expertise rather than punishment. Common ground also includes preventing unwanted pregnancies through accurate education and contraception, and strengthening prenatal, childcare, and economic supports so fewer people face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
     },
-    "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to human dignity, medical safety, and fairness\u2014recognizing sincere moral disagreement about fetal life while centering the real health, autonomy, and circumstances of pregnant people. A workable compromise protects timely access to care early in pregnancy, guarantees clear exceptions for threats to health, pregnancy from violence, and other severe hardship, and keeps medical decisions grounded in clinical evidence rather than punishment. At the same time, society should invest in what reduces abortions and hardship across communities: contraception, accurate education, prenatal and mental-health care, and practical supports like childcare and economic stability.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

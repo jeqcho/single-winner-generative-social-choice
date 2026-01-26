@@ -51,9 +51,9 @@
       "full_winner_idx": "27"
     },
     "borda": {
-      "winner": "7",
+      "winner": "16",
       "epsilon": 0.0,
-      "full_winner_idx": "57"
+      "full_winner_idx": "27"
     },
     "irv": {
       "winner": "16",
@@ -66,21 +66,54 @@
       "full_winner_idx": "27"
     },
     "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_rankings": {
       "winner": "16",
       "epsilon": 0.0,
       "full_winner_idx": "27"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
-    "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most Americans, whether they favor or oppose the Electoral College, want a system that makes every vote feel meaningful, avoids regional \u201cwinner-take-all\u201d distortions, and produces results that are easy to verify and accept. A pragmatic compromise is to pair better election administration (uniform counting, recount, and certification rules) with state-by-state changes that reduce extreme outcomes, such as proportional elector allocation or ranked-choice within states. If those reforms don\u2019t improve legitimacy and campaign incentives over several cycles, the country can revisit larger shifts like a national popular vote through a clear, broadly supported process.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about keeping or replacing the Electoral College, most of us want presidential elections that feel legitimate, transparent, and stable\u2014and that encourage candidates to build broad, cross-regional coalitions. A practical bridge is to prioritize reforms that reduce winner-take-all distortions and better align outcomes with voter preferences, such as more proportional elector allocation, clearer nationwide standards for counting/recounts and certification, and a carefully safeguarded National Popular Vote compact. If we agree to evaluate any change against shared criteria\u2014fairness, federalism, and incentives to campaign everywhere\u2014we can test improvements without treating the debate as all-or-nothing.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Even when we disagree on keeping or replacing the Electoral College, most of us want a presidential election that feels fair, easy to understand, and legitimate\u2014so campaigns can\u2019t ignore most states and voters don\u2019t feel their ballots are \u201cwasted.\u201d A practical middle path is to set clear national standards for voting access, counting, and recounts, while reducing winner-take-all distortions through proportional elector allocation or ranked-choice within states. In parallel, options like the National Popular Vote Interstate Compact can be considered with transparent safeguards and broad buy-in, and any change should be judged by shared criteria: voter equality, state voice, stability, and trust in close elections.",
+      "is_new": true
     }
   }
 }

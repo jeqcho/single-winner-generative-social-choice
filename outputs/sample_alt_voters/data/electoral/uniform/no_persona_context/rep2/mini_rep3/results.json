@@ -46,9 +46,9 @@
   ],
   "results": {
     "schulze": {
-      "winner": "13",
+      "winner": "7",
       "epsilon": 0.0,
-      "full_winner_idx": "56"
+      "full_winner_idx": "97"
     },
     "borda": {
       "winner": "13",
@@ -56,9 +56,9 @@
       "full_winner_idx": "56"
     },
     "irv": {
-      "winner": "13",
+      "winner": "7",
       "epsilon": 0.0,
-      "full_winner_idx": "56"
+      "full_winner_idx": "97"
     },
     "plurality": {
       "winner": "7",
@@ -66,21 +66,54 @@
       "full_winner_idx": "97"
     },
     "veto_by_consumption": {
-      "winner": "4",
+      "winner": "3",
       "epsilon": 0.0,
-      "full_winner_idx": "23"
+      "full_winner_idx": "90"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College but reduce winner-take-all by requiring states to allocate electors proportionally using a uniform, auditable method, with electors bound to the certified result. Pair that with national minimum standards for ballot access, chain-of-custody, post-election audits, and clear recount triggers so close outcomes are handled consistently across states. If the country still wants a stronger \u201cmajority winner\u201d guarantee, states could adopt ranked-choice ballots for president while keeping the same state-based elector structure.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should focus on rules people can trust: keep the state-based Electoral College but end winner-take-all by requiring proportional (or district-based with anti-gerrymandering safeguards) allocation of electors nationwide and binding electors to the certified result. Pair that with clear national minimum standards for ballot access, paper-backed audits, and uniform recount triggers/timelines so close elections are transparent and consistent across states. If the country wants to go further later, add a majority check\u2014ranked-choice ballots or an automatic runoff\u2014to ensure the winner has broad national support while encouraging candidates to compete beyond a handful of battlegrounds.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable middle ground is to keep the Electoral College but end winner-take-all nationwide by allocating electors proportionally (with a clear, simple threshold) and requiring electors to be bound to the certified results. Pair that with bipartisan national minimum standards\u2014paper-backed ballots, routine audits, clear recount triggers, and uniform certification timelines\u2014so close elections are handled consistently no matter the state. If the country later wants a stronger majority mandate, add a ranked-choice ballot or automatic runoff option that preserves broad, cross-regional campaigning while reducing spoiler fears.",
+      "is_new": true
     }
   }
 }

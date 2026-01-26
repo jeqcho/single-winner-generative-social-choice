@@ -46,41 +46,65 @@
   ],
   "results": {
     "schulze": {
-      "winner": "12",
-      "epsilon": 0.0,
-      "full_winner_idx": "18"
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c13, \n2.) c1, \n3.) c12, \n4.) c14, \n5.) c8, \n6.) c10, \n7.) c16, \n8.) c5, \n9.) c17, \n10.) c11, \n11.) c19, \n12.) c3, \n13.) c6, \n14.) c9, \n15.) c7, \n16.) c0, \n17.) c2, \n18.) c18, \n19.) c15, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
     },
     "borda": {
-      "winner": "12",
-      "epsilon": 0.0,
-      "full_winner_idx": "18"
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c13, \n2.) c1, \n3.) c12, \n4.) c14, \n5.) c8, \n6.) c10, \n7.) c16, \n8.) c5, \n9.) c17, \n10.) c11, \n11.) c19, \n12.) c3, \n13.) c6, \n14.) c9, \n15.) c7, \n16.) c0, \n17.) c2, \n18.) c18, \n19.) c15, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
     },
     "irv": {
-      "winner": "12",
-      "epsilon": 0.0,
-      "full_winner_idx": "18"
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c13, \n2.) c1, \n3.) c12, \n4.) c14, \n5.) c8, \n6.) c10, \n7.) c16, \n8.) c5, \n9.) c17, \n10.) c11, \n11.) c19, \n12.) c3, \n13.) c6, \n14.) c9, \n15.) c7, \n16.) c0, \n17.) c2, \n18.) c18, \n19.) c15, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
     },
     "plurality": {
-      "winner": "15",
-      "epsilon": 0.0,
-      "full_winner_idx": "11"
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c13, \n2.) c1, \n3.) c12, \n4.) c14, \n5.) c8, \n6.) c10, \n7.) c16, \n8.) c5, \n9.) c17, \n10.) c11, \n11.) c19, \n12.) c3, \n13.) c6, \n14.) c9, \n15.) c7, \n16.) c0, \n17.) c2, \n18.) c18, \n19.) c15, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
     },
     "veto_by_consumption": {
-      "winner": "12",
-      "epsilon": 0.0,
-      "full_winner_idx": "18"
+      "winner": null,
+      "error": "Alternative '-1' not found in alternatives list"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "18",
+      "epsilon": null,
+      "full_winner_idx": "94"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "0"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "18",
+      "epsilon": null,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star": {
+      "winner": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "85"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A practical compromise is to keep the Electoral College but change the incentives so every vote matters in every state: replace winner-take-all with a uniform method that awards electors proportionally while protecting against gerrymandered district schemes. Pair that with binding electors and clear national floor standards\u2014paper-backed ballots, transparent audits, and automatic recount rules\u2014so close outcomes are verifiable and accepted. If, after these safeguards, the country still prefers a national popular-vote guarantee, it should be pursued through a broadly supported compact or amendment with clear nationwide recount procedures.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A broad, workable reform is to keep the state-based Electoral College but end winner-take-all by requiring proportional (or district-based with anti-gerrymandering guardrails) allocation of electors nationwide, and legally bind electors to the certified result. Pair that with uniform national baselines for ballot access, secure paper-backed audits, and clear automatic recount thresholds so close elections are transparent and trusted across states. If confidence and bipartisan buy-in grow, a National Popular Vote compact or constitutional amendment could be considered as a long-term backstop, but only with the same clear recount and verification safeguards.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A unifying reform is to keep the Constitution\u2019s state-run framework but reduce the \u201cwinner-take-all\u201d distortions that make many voters in safe states feel ignored and campaigns fixate on a few battlegrounds. Require every state to allocate electors proportionally (or by district with anti-gerrymandering guardrails) and bind electors to the certified result, while setting national minimum standards for ballot access, secure paper-backed tabulation, routine risk-limiting audits, and clear automatic recount triggers. If, after these safeguards build trust, the country still wants the national popular vote to be decisive, it should be adopted only with uniform recount rules and broad, cross-regional buy-in so the outcome is legitimate in close elections.",
+      "is_new": true
     }
   }
 }

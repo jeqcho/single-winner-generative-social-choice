@@ -62,7 +62,7 @@
     },
     "plurality": {
       "winner": "17",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.0,
       "full_winner_idx": "99"
     },
     "veto_by_consumption": {
@@ -71,16 +71,45 @@
       "full_winner_idx": "95"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star": {
+      "winner": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "37"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should start from two widely shared aims: protecting human dignity and safeguarding a patient\u2019s health, privacy, and ability to receive competent medical care. A durable framework would keep early-pregnancy decisions primarily between the patient and clinician, while allowing carefully defined, medically grounded limits later in pregnancy that always preserve timely exceptions for life- and health-threatening conditions and for pregnancies from rape or incest. To reduce conflict and the number of abortions, policy should pair any legal rules with proven prevention and support\u2014affordable contraception, comprehensive sex education, prenatal/postpartum care, and economic and childcare assistance\u2014so fewer people face this decision under crisis.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for personal autonomy, while acknowledging the sincere moral weight many attach to developing life. A workable framework protects early access to safe, timely care and guarantees clear exceptions for rape, incest, and serious threats to a patient\u2019s life or health, with decisions centered on patients and clinicians rather than punishment or political theater. Common ground is strengthened by pairing any legal standards with strong support to reduce unwanted pregnancies and crisis decision-making\u2014comprehensive sex education, affordable contraception, and robust prenatal/postpartum, childcare, and economic assistance.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for personal liberty, while also acknowledging the sincere moral conviction many hold about protecting developing life. Policy should keep decisions centered on patients and licensed clinicians, guaranteeing timely care and clear exceptions for medical emergencies, serious health risks, and situations like rape or incest, with transparent standards and due process rather than punishment. Common ground is strengthened by reducing unwanted pregnancies and crisis decisions through comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical supports\u2014childcare, economic help, and adoption resources\u2014so more families have real choices.",
+      "is_new": true
     }
   }
 }

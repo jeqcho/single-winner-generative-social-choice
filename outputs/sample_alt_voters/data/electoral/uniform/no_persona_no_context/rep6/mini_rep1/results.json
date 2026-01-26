@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "17",
-      "epsilon": 0.0,
-      "full_winner_idx": "48"
-    },
-    "borda": {
-      "winner": "17",
-      "epsilon": 0.0,
-      "full_winner_idx": "48"
-    },
-    "irv": {
-      "winner": "17",
-      "epsilon": 0.0,
-      "full_winner_idx": "48"
-    },
-    "plurality": {
       "winner": "6",
       "epsilon": 0.0,
       "full_winner_idx": "8"
     },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "98"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "98"
+    },
     "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_personas": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
       "winner": "17",
       "epsilon": 0.0,
       "full_winner_idx": "48"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
     },
-    "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people, whatever their view of the Electoral College, want a president seen as legitimately chosen and a system that doesn\u2019t concentrate attention on a few competitive states. A workable compromise is to keep the state-based structure but reduce winner-take-all effects\u2014through proportional allocation or a bonus tied to statewide vote share\u2014while also standardizing recount triggers and elector certification to make close elections clearer and less chaotic. Any changes should be phased in with transparent metrics (alignment with the national vote, campaign coverage, dispute frequency) so reforms can be judged on fairness and stability rather than partisan outcomes.",
+      "is_new": true
     },
-    "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people in this debate want the same end state: a presidential election that feels fair, transparent, and legitimate, while still respecting the states\u2019 role and encouraging candidates to campaign nationwide rather than only in a few battlegrounds. A practical compromise is to reduce winner-take-all distortions by moving states toward proportional (or district-based) elector allocation with strong anti-gerrymandering and recount standards, while also evaluating the National Popular Vote Interstate Compact with clear safeguards for close margins. Pairing any change with improved election administration\u2014audits, clear rules, and a phased transition\u2014can build trust and let reforms be judged by measurable outcomes rather than partisan advantage.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people\u2014whether they prioritize equal weight for each vote or the states\u2019 role in the union\u2014want a presidential election that feels fair, easy to understand, and trusted when results are close. A practical compromise is to reduce winner-take-all distortions by encouraging proportional or district-based allocation of electors (paired with anti-gerrymandering protections) and to adopt uniform, transparent recount and audit standards across states. If broader change is desired, the National Popular Vote Interstate Compact can be evaluated with clear triggers, recount rules, and a phased transition so voters in every state feel their ballot matters without creating chaos or partisan advantage.",
+      "is_new": true
     }
   }
 }

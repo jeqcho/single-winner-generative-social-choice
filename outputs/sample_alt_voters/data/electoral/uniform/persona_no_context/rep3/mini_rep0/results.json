@@ -47,40 +47,73 @@
   "results": {
     "schulze": {
       "winner": "7",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "57"
     },
     "borda": {
       "winner": "7",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "57"
     },
     "irv": {
-      "winner": "7",
-      "epsilon": 0.0,
-      "full_winner_idx": "57"
-    },
-    "plurality": {
       "winner": "5",
       "epsilon": 0.0,
       "full_winner_idx": "53"
     },
-    "veto_by_consumption": {
+    "plurality": {
       "winner": "10",
       "epsilon": 0.0,
       "full_winner_idx": "0"
     },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to make presidential elections track the national will more closely while keeping states as meaningful partners in administering and certifying results. A workable compromise is to replace winner-take-all with proportional allocation of each state\u2019s electors, paired with a national baseline for ballot access, counting, audits, and recount triggers so disputes are predictable and limited. If no candidate wins a clear majority of the national vote, a uniform runoff or ranked-choice tabulation could provide a decisive outcome without hinging on a few battleground states.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections track the will of voters more closely while preserving a meaningful role for states and avoiding sudden, destabilizing change. A practical bridge is to curb winner-take-all by moving toward proportional allocation of electors within states (or a national popular-vote compact as an alternative path), alongside uniform, transparent national standards for ballot access, counting, recounts, and post\u2011election audits. The goal is simple, trusted rules that reduce swing-state distortion, encourage broad coalition-building, and ensure every lawful vote feels meaningful whether cast in a small town or a major city.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any reform should make the presidential winner match the will of voters more closely while keeping a meaningful role for states so small towns, big cities, and everyone in between feel represented. A workable bridge is to curb winner-take-all by moving to proportional allocation of electors (or a national popular vote via an interstate compact) and pairing it with a clear national standard for ballot access, counting, audits, and recounts. Adding a ranked-choice or runoff option can ensure the winner has broad support and reduce razor-thin disputes, while keeping the rules simple, transparent, and consistent nationwide.",
+      "is_new": true
     }
   }
 }

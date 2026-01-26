@@ -47,40 +47,73 @@
   "results": {
     "schulze": {
       "winner": "18",
-      "epsilon": 0.0,
+      "epsilon": 0.040000000000000036,
       "full_winner_idx": "94"
     },
     "borda": {
-      "winner": "18",
+      "winner": "12",
       "epsilon": 0.0,
-      "full_winner_idx": "94"
+      "full_winner_idx": "18"
     },
     "irv": {
-      "winner": "18",
+      "winner": "2",
       "epsilon": 0.0,
-      "full_winner_idx": "94"
+      "full_winner_idx": "42"
     },
     "plurality": {
       "winner": "16",
-      "epsilon": 0.0,
+      "epsilon": 0.10000000000000009,
       "full_winner_idx": "10"
     },
     "veto_by_consumption": {
-      "winner": "18",
+      "winner": "5",
       "epsilon": 0.0,
-      "full_winner_idx": "94"
+      "full_winner_idx": "0"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "10"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to make the presidential outcome track the voters\u2019 choice more closely while keeping states central to running elections and preserving broad geographic buy-in. A workable compromise is to end statewide winner-take-all by requiring proportional allocation of electors (with anti-gerrymandering safeguards if districts are used), alongside uniform baseline rules for ballot access, audits, and automatic recount thresholds. Over time, if these changes prove stable and widely trusted, the country could consider a national popular vote mechanism with a majority requirement such as ranked-choice, through a transparent constitutional process.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reforming the Electoral College should keep a meaningful role for states and local communities while making outcomes track the voters\u2019 overall will more closely and reducing winner-take-all distortions. A practical compromise is to keep state-run elections but require proportional or district-based allocation of electors with strong anti-gerrymandering safeguards, plus clear national standards for ballot access, security, audits, and automatic recount thresholds. Reforms like ranked-choice voting and/or the National Popular Vote Interstate Compact can be tested as a phased bridge to ensure majority support and build trust before any larger shift.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fair and understandable\u2014so every vote matters more\u2014while keeping states and local communities meaningfully involved. A strong compromise is to keep the Electoral College but end winner-take-all by requiring proportional (or district-based) allocation with safeguards against gerrymandering, and to add clear nationwide baselines for voting access, secure ballot handling, audits, and automatic recount thresholds. In parallel, states could adopt ranked-choice voting for president to ensure broad support and reduce \u201cspoiler\u201d fears, while building trust through transparent, consistent rules that work for both big cities and rural areas.",
+      "is_new": true
     }
   }
 }

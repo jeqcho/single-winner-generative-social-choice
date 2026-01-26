@@ -51,36 +51,72 @@
       "full_winner_idx": "0"
     },
     "borda": {
-      "winner": "6",
+      "winner": "15",
       "epsilon": 0.0,
-      "full_winner_idx": "8"
+      "full_winner_idx": "0"
     },
     "irv": {
-      "winner": "6",
+      "winner": "8",
       "epsilon": 0.0,
-      "full_winner_idx": "8"
+      "full_winner_idx": "99"
     },
     "plurality": {
-      "winner": "4",
+      "winner": "7",
       "epsilon": 0.0,
-      "full_winner_idx": "42"
+      "full_winner_idx": "61"
     },
     "veto_by_consumption": {
-      "winner": "16",
-      "epsilon": 0.010000000000000009,
-      "full_winner_idx": "56"
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "19",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "97",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "68",
+      "epsilon": 0.0,
+      "full_winner_idx": "68"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to protect both patient safety and the public\u2019s interest in potential life by using clear, medically workable standards rather than punitive measures. A consensus approach preserves confidential access early in pregnancy, sets any later limits around viability or comparable medical benchmarks, and guarantees explicit exceptions for life- and health-threatening conditions, rape or incest, and severe fetal anomalies, with clinicians empowered to act without delay. To reduce the need for abortion and support families, policy should also expand contraception and evidence-based education, strengthen prenatal and postpartum care, and provide practical economic and childcare supports.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should treat the issue as healthcare in medically complex and time-sensitive situations, keeping early decisions private, safe, and grounded in medical evidence and informed consent. Any regulation later in pregnancy should be clear and clinically workable, with unambiguous exceptions that let patients and doctors act quickly for threats to life or serious health harm, and in severe circumstances such as rape, incest, or devastating fetal conditions. In a plural society, policy should avoid punitive approaches and respect sincere moral disagreement while protecting dignity and safety. The surest shared path to fewer abortions and stronger families is major investment in prevention and support\u2014affordable contraception, accurate education, prenatal and postpartum care, childcare, and adoption and parenting resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by public health and human dignity, recognizing both the pregnant person\u2019s right to timely, private medical care and society\u2019s legitimate concern for developing life. A durable framework protects early, safe access; sets any later limits in clear, medically workable terms; and guarantees unambiguous exceptions for threats to life or serious health harm, severe fetal complications, and pregnancies from rape or incest so clinicians can act without delay. Whatever boundaries are chosen, the most reliable common ground is prevention and support\u2014affordable contraception, accurate education, prenatal and postpartum care, childcare, and adoption and economic resources\u2014so fewer people face crisis pregnancies and fewer abortions are needed.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

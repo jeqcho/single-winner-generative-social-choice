@@ -46,9 +46,9 @@
   ],
   "results": {
     "schulze": {
-      "winner": "17",
-      "epsilon": 0.0,
-      "full_winner_idx": "48"
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "99"
     },
     "borda": {
       "winner": "4",
@@ -56,31 +56,67 @@
       "full_winner_idx": "42"
     },
     "irv": {
-      "winner": "17",
+      "winner": "4",
       "epsilon": 0.0,
-      "full_winner_idx": "48"
+      "full_winner_idx": "42"
     },
     "plurality": {
-      "winner": "17",
+      "winner": "4",
       "epsilon": 0.0,
-      "full_winner_idx": "48"
+      "full_winner_idx": "42"
     },
     "veto_by_consumption": {
-      "winner": "16",
+      "winner": "9",
       "epsilon": 0.0,
-      "full_winner_idx": "56"
+      "full_winner_idx": "82"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a dual responsibility: to treat every pregnant person as a full rights-bearing patient and to take seriously the moral value many assign to developing life. A durable middle ground pairs early, timely access to legal, medically supervised care with evidence-based measures that prevent unintended pregnancy and make parenting feasible\u2014contraception, accurate education, prenatal care, and economic supports. Any limits should be clear, workable in real clinics, and include broad protections for emergencies, serious health risks, rape or incest, and severe fetal anomalies, so families and doctors are not forced into dangerous delays.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by shared duties: safeguarding the health, dignity, and autonomy of those who are pregnant while taking seriously the moral value many attach to developing life. A workable framework prioritizes prevention and real support\u2014comprehensive sex education, accessible contraception, prenatal and maternal healthcare, and economic and childcare resources\u2014so fewer people face crisis pregnancies. Whatever limits exist should be transparent and grounded in medical reality, with clear exceptions for threats to life or serious health, severe fetal conditions, and pregnancies resulting from violence. The goal is fewer tragedies and less coercion, with decisions kept safe, humane, and accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared commitment to protect life and uphold the health, dignity, and freedom of pregnant people, while acknowledging sincere disagreement about when fetal moral status warrants legal protection. A common-ground framework prioritizes prevention and real choice\u2014accurate sex education, affordable contraception, prenatal and mental healthcare, and practical supports like paid leave, childcare, and adoption resources\u2014so fewer people face crisis pregnancies. Where limits exist, they should be transparent, medically grounded, and include clear exceptions for rape or incest, life-threatening conditions, serious health risks, and severe fetal diagnoses, so emergency care is never delayed by fear of prosecution. The measure of policy should be fewer unintended pregnancies, fewer unsafe outcomes, and fewer families left without support.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

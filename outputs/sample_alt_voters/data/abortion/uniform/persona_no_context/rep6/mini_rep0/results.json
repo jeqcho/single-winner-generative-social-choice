@@ -46,14 +46,14 @@
   ],
   "results": {
     "schulze": {
-      "winner": "5",
+      "winner": "19",
       "epsilon": 0.0,
-      "full_winner_idx": "53"
+      "full_winner_idx": "48"
     },
     "borda": {
-      "winner": "5",
+      "winner": "19",
       "epsilon": 0.0,
-      "full_winner_idx": "53"
+      "full_winner_idx": "48"
     },
     "irv": {
       "winner": "5",
@@ -61,26 +61,62 @@
       "full_winner_idx": "53"
     },
     "plurality": {
-      "winner": "5",
-      "epsilon": 0.0,
-      "full_winner_idx": "53"
+      "winner": "3",
+      "epsilon": 0.3600000000000001,
+      "full_winner_idx": "89"
     },
     "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
       "winner": "5",
       "epsilon": 0.0,
       "full_winner_idx": "53"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
-    "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "10",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect human dignity in a way that acknowledges the moral value many place on unborn life while also respecting that pregnancy can involve urgent, complex medical realities. A broadly workable framework sets clear, predictable standards that preserve access to timely care in emergencies and serious health cases, with carefully defined limits and safeguards against coercion or unsafe practices. Common ground is strengthened when policy reduces the number of crisis pregnancies through practical support\u2014affordable contraception, accurate education, prenatal and mental-health care, and real help for parenting or adoption\u2014while avoiding criminalizing patients or second-guessing doctors acting in good faith.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, evidence-based medicine, and respect for personal conscience, recognizing both the moral weight many attach to unborn life and the reality that pregnancies can involve complex, time-sensitive circumstances. A workable framework should keep urgent decisions centered on patients and qualified clinicians, with clear protections for privacy and timely care, including well-defined exceptions when a pregnancy threatens a patient\u2019s life or serious health, or involves nonviable outcomes. Common ground grows when policy focuses less on punishment and more on prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and maternal care, and adoption and parenting resources\u2014so fewer people face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, evidence-based medicine, and respect for deeply held moral convictions, aiming first to protect health and reduce harm. A workable framework keeps urgent decisions with patients and qualified clinicians, provides clear exceptions for life-threatening emergencies and serious health threats, and sets understandable, publicly accountable standards for later-term cases so no one is left in fear or uncertainty. Common ground grows when policy also invests in what prevents crises\u2014comprehensive education, affordable contraception, prenatal and postpartum care, and real supports like childcare and adoption resources\u2014so fewer families feel forced into impossible choices.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

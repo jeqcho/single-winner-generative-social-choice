@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "14",
-      "epsilon": 0.0,
-      "full_winner_idx": "29"
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
     },
     "borda": {
-      "winner": "14",
+      "winner": "11",
       "epsilon": 0.0,
-      "full_winner_idx": "29"
+      "full_winner_idx": "97"
     },
     "irv": {
       "winner": "5",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "0"
     },
     "plurality": {
-      "winner": "5",
-      "epsilon": 0.0,
-      "full_winner_idx": "0"
-    },
-    "veto_by_consumption": {
       "winner": "14",
-      "epsilon": 0.0,
+      "epsilon": 0.040000000000000036,
       "full_winner_idx": "29"
     },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "29"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "50",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Rather than abolish the Electoral College overnight, reform it so every voter matters more and campaigns can\u2019t ignore most states. A broad middle-ground package would (1) replace statewide winner-take-all with a uniform proportional allocation of electors in every state, (2) require electors to vote for the state\u2019s certified winner with clear penalties for faithless votes, and (3) set national floor rules for ballot access, paper-backed tabulation, audits, and automatic recount thresholds. If the public later agrees on a full popular-vote model, these steps create a stable on-ramp while preserving state administration and regional coalition-building.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Keep the state-based Electoral College framework, but reduce winner\u2011take\u2011all distortions so outcomes track the national vote more closely and campaigns aren\u2019t dominated by a handful of swing states. A workable compromise is proportional (or district-based) allocation of electors, binding electors to certified state results, and clear nationwide baselines for ballot access, paper-backed audits, and automatic recount triggers in close races. If broad, bipartisan buy\u2011in develops over time, a carefully designed National Popular Vote approach\u2014ideally paired with ranked\u2011choice voting\u2014can further ensure every ballot matters while still encouraging cross\u2011regional coalition-building.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform is to keep the state-based Electoral College framework but reduce winner-take-all distortions so more voters in every state feel their ballots matter. States could be required to allocate electors proportionally (or by district with strong anti-gerrymandering safeguards) and to bind electors to the certified result, while Congress sets clear national baselines for ballot access, paper-backed audits, and automatic recount triggers to prevent close races from turning into chaos. If the country later reaches wider agreement, a carefully designed national popular-vote approach\u2014via amendment or a well-structured compact\u2014could be considered without disrupting secure, local election administration.",
+      "is_new": true
     }
   }
 }

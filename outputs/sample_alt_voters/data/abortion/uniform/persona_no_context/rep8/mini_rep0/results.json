@@ -46,9 +46,9 @@
   ],
   "results": {
     "schulze": {
-      "winner": "19",
+      "winner": "5",
       "epsilon": 0.0,
-      "full_winner_idx": "48"
+      "full_winner_idx": "53"
     },
     "borda": {
       "winner": "5",
@@ -56,31 +56,67 @@
       "full_winner_idx": "53"
     },
     "irv": {
-      "winner": "5",
-      "epsilon": 0.0,
-      "full_winner_idx": "53"
-    },
-    "plurality": {
-      "winner": "3",
-      "epsilon": 0.0,
-      "full_winner_idx": "89"
-    },
-    "veto_by_consumption": {
       "winner": "8",
       "epsilon": 0.0,
       "full_winner_idx": "75"
     },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.3600000000000001,
+      "full_winner_idx": "89"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "0",
+      "epsilon": 0.30000000000000004,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by protecting health and human dignity, recognizing both the moral concern many feel for developing life and the reality that pregnancy can involve urgent, complex medical and personal circumstances. A balanced framework can ensure timely, safe access early in pregnancy and guarantee clear, physician-led exceptions for threats to life or serious health, as well as cases of rape or incest, while allowing carefully defined limits later that do not criminalize patients or clinicians acting in good faith. Any legal approach should also invest in proven supports\u2014contraception, accurate education, prenatal care, paid leave, and childcare\u2014so fewer pregnancies become crises and fewer families feel forced into an unwanted choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by medical evidence, patient safety, and compassion for the real-life pressures families face, while also acknowledging the sincere moral weight many attach to developing life. A workable framework protects timely access early in pregnancy and ensures clear, medically defined exceptions for rape or incest and for serious risks to the pregnant patient\u2019s life, health, or fertility, with any later limits written with clinicians\u2019 input to avoid dangerous delays. Common ground also means reducing unintended pregnancies through accurate sex education and affordable contraception, and expanding practical supports\u2014prenatal care, paid leave, childcare, and adoption resources\u2014so fewer people are pushed into crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by medical evidence, patient safety, and respect for human dignity, recognizing both a pregnant person\u2019s autonomy and the sincere moral concern many people have for developing life. A workable middle ground protects timely access early in pregnancy and ensures clear, clinician-written exceptions for rape, incest, serious fetal conditions, and threats to the patient\u2019s life, health, or future fertility, with decisions made in consultation with medical professionals rather than politicians. Any legal framework should also invest in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and maternal healthcare, paid leave, childcare, and adoption resources\u2014so fewer families face crisis choices and more children and parents can thrive.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

@@ -56,31 +56,64 @@
       "full_winner_idx": "90"
     },
     "irv": {
-      "winner": "3",
+      "winner": "14",
       "epsilon": 0.0,
-      "full_winner_idx": "71"
+      "full_winner_idx": "73"
     },
     "plurality": {
-      "winner": "3",
+      "winner": "14",
       "epsilon": 0.0,
-      "full_winner_idx": "71"
+      "full_winner_idx": "73"
     },
     "veto_by_consumption": {
-      "winner": "0",
+      "winner": "13",
       "epsilon": 0.0,
-      "full_winner_idx": "56"
+      "full_winner_idx": "90"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star": {
+      "winner": "18",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College\u2019s state-based structure while making it track voter intent more closely and reducing the focus on a few swing states. That could mean requiring states to allocate electors proportionally (with a small threshold to avoid extreme fragmentation) and pairing it with baseline national rules for vote counting, certification, and recount triggers so outcomes are predictable and trusted. Larger proposals like the National Popular Vote Interstate Compact or a constitutional amendment can then be judged against the same yardsticks\u2014legitimacy, feasibility in close elections, and incentives for candidates to build broad, cross-regional support.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people want a presidential election system that is legitimate and easy to understand, encourages candidates to build broad, cross-regional support, and is accepted even by the losing side. A practical way forward is to compare reform packages\u2014such as proportional or district-based elector allocation and the National Popular Vote Interstate Compact\u2014against shared criteria like representativeness, incentives for nationwide campaigning, and clear recount/certification rules. Regardless of the larger choice, adopting transparent national standards for counting, recounts, and certification can reduce close-election disputes while preserving a meaningful role for states.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people\u2014whether they prioritize equal weight for each vote or the states\u2019 role in our federal system\u2014want a presidential election that is easy to understand, hard to game, and accepted as legitimate even by the losing side. A practical compromise is to keep state administration but reduce winner-take-all distortions through proportional (or district-based) elector allocation, paired with clearer national standards for ballot counting, certification, and recount triggers. Larger changes like the National Popular Vote Interstate Compact can be evaluated against the same shared tests: does it improve representativeness, preserve confidence in close elections, and encourage candidates to campaign beyond a handful of battleground states?",
+      "is_new": true
     }
   }
 }

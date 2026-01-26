@@ -47,40 +47,73 @@
   "results": {
     "schulze": {
       "winner": "7",
-      "epsilon": 0.020000000000000018,
+      "epsilon": 0.0,
       "full_winner_idx": "57"
     },
     "borda": {
       "winner": "7",
-      "epsilon": 0.020000000000000018,
+      "epsilon": 0.0,
       "full_winner_idx": "57"
     },
     "irv": {
       "winner": "12",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "20"
     },
     "plurality": {
-      "winner": "12",
+      "winner": "11",
       "epsilon": 0.0,
-      "full_winner_idx": "20"
+      "full_winner_idx": "97"
     },
     "veto_by_consumption": {
-      "winner": "7",
-      "epsilon": 0.020000000000000018,
-      "full_winner_idx": "57"
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "51",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to reduce preventable harm while treating moral disagreement with respect rather than forcing one side\u2019s beliefs into everyone\u2019s most intimate decisions. A broadly workable framework combines strong, medically defined protections for the pregnant person\u2019s life and serious health threats, with serious investments in contraception, maternal care, and economic supports that make pregnancy and parenting more sustainable. Any limits should be clear, consistently applied, and focused on real-world outcomes\u2014safety, reduced unwanted pregnancy, and fewer desperate situations\u2014rather than stigma or punishment.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by both moral pluralism and public health: recognizing sincere disagreement about fetal moral status while ensuring no one is endangered, coerced, or abandoned by the system. A workable approach pairs clear, medically grounded rules\u2014including prompt exceptions for serious health risk and other hard cases\u2014with strong prevention and support: contraception and education, prenatal and maternal care, and practical help for parenting and adoption. The goal is fewer crisis pregnancies and fewer tragedies, achieved through safety, fairness, and compassion rather than punishment.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to minimize harm in a pluralistic society by protecting patients\u2019 health and freedom from coercion while acknowledging that many people also feel a serious moral responsibility toward developing life. Whatever limits a community adopts should be medically informed, clear, and include strong protections for emergencies and other hard cases, so no one is forced into dangerous care. Common ground also means reducing unintended pregnancies and making real choices possible through affordable contraception, accurate education, prenatal and maternal care, and practical supports for parenting and adoption.",
+      "is_new": true
     }
   }
 }

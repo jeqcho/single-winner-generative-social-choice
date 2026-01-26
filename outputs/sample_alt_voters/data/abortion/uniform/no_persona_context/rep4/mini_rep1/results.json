@@ -46,9 +46,9 @@
   ],
   "results": {
     "schulze": {
-      "winner": "15",
+      "winner": "17",
       "epsilon": 0.0,
-      "full_winner_idx": "0"
+      "full_winner_idx": "48"
     },
     "borda": {
       "winner": "15",
@@ -56,31 +56,67 @@
       "full_winner_idx": "0"
     },
     "irv": {
-      "winner": "15",
+      "winner": "8",
       "epsilon": 0.0,
-      "full_winner_idx": "0"
+      "full_winner_idx": "99"
     },
     "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
       "winner": "15",
       "epsilon": 0.0,
       "full_winner_idx": "0"
     },
-    "veto_by_consumption": {
-      "winner": "19",
-      "epsilon": 0.0,
-      "full_winner_idx": "97"
-    },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "50",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be built around a shared duty of care: protect the pregnant person\u2019s life, health, and privacy while taking seriously the moral concern many have for developing life. Whatever limits a community sets, they should be medically precise, publicly accountable, and written so clinicians can provide timely emergency care and patients are not treated as criminals for seeking help. Common ground grows when policy also expands the conditions that make abortion less likely\u2014reliable contraception and education, affordable prenatal care, and practical support for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by compassion, medical expertise, and humility about deep moral disagreement, with the shared aim of reducing real-world harm. Rules should be clear and medically grounded so clinicians can provide timely emergency and serious health care without fear, while protecting patient privacy and avoiding criminalizing people in crisis. Any democratically set limits should be predictable and workable, paired with major investments that prevent unintended pregnancies and support families\u2014accurate education, contraception access, prenatal and maternal care, childcare, and viable adoption pathways\u2014so fewer people face this decision at all.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by shared, measurable goals: protect a pregnant person\u2019s health and privacy, prevent avoidable suffering, and reduce the number of crisis pregnancies through prevention and support. Rules must be medically grounded and written clearly enough that clinicians can provide timely care in emergencies and patients are not treated as criminals for seeking help. Where communities set limits, they should be transparent, democratically accountable, and paired with real resources\u2014accurate education, affordable contraception, prenatal and mental-health care, childcare, and adoption services\u2014so choosing birth is genuinely feasible and fewer people reach this decision at all.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

@@ -51,14 +51,14 @@
       "full_winner_idx": "55"
     },
     "borda": {
-      "winner": "12",
+      "winner": "3",
       "epsilon": 0.0,
-      "full_winner_idx": "18"
+      "full_winner_idx": "28"
     },
     "irv": {
-      "winner": "1",
+      "winner": "3",
       "epsilon": 0.0,
-      "full_winner_idx": "55"
+      "full_winner_idx": "28"
     },
     "plurality": {
       "winner": "3",
@@ -66,21 +66,54 @@
       "full_winner_idx": "28"
     },
     "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt": {
       "winner": "12",
       "epsilon": 0.0,
       "full_winner_idx": "18"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep a state-based presidential election while making the outcome more closely reflect what voters actually choose nationwide. That could mean phasing out winner-take-all allocations, adding a uniform national baseline for ballot access, counting, and recount triggers, and ensuring electors are bound to the certified results. Any change should be judged by whether it reduces swing-state overfocus, increases incentives to compete everywhere, and produces results the public accepts even in close races.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people want presidential elections that feel fair, understandable, and stable, without turning the outcome on a few swing states or hard-to-explain quirks. A constructive compromise is to keep states central to administering elections while reducing winner-take-all distortions\u2014through proportional or district-based elector allocation, and (where states choose) ranked-choice voting to build broader coalitions and reduce spoiler effects. In parallel, adopting clearer, uniform standards for counting, recounts, certification, and elector obligations can strengthen trust regardless of whether the long-term endpoint is the current model, the National Popular Vote compact, or a direct popular vote.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most of us want presidential elections that feel fair, easy to understand, and credible\u2014where candidates can\u2019t win by exploiting technical quirks, and where voters in both big cities and small towns feel they matter. A practical compromise is to keep states involved but reduce winner-take-all distortions by encouraging proportional or district-based elector allocation and adding ranked-choice voting options so winners reflect broader support. Alongside any structural change (including the National Popular Vote compact), we can agree on uniform baseline standards for access, counting, recount triggers, and transparent certification so close elections are resolved consistently and peacefully.",
+      "is_new": true
     }
   }
 }

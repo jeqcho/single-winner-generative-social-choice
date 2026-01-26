@@ -46,41 +46,77 @@
   ],
   "results": {
     "schulze": {
-      "winner": "3",
-      "epsilon": 0.010000000000000009,
-      "full_winner_idx": "89"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
     },
     "borda": {
       "winner": "16",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.0,
       "full_winner_idx": "27"
     },
     "irv": {
       "winner": "16",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.0,
       "full_winner_idx": "27"
     },
     "plurality": {
-      "winner": "7",
-      "epsilon": 0.0,
-      "full_winner_idx": "57"
-    },
-    "veto_by_consumption": {
       "winner": "14",
       "epsilon": 0.0,
       "full_winner_idx": "43"
     },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a practical ethic of shared responsibility: treat pregnancy as a serious moral matter while ensuring no one is forced to risk their health or life because of legal ambiguity. Common ground includes guaranteed emergency and medically indicated care, early and affordable access to reproductive healthcare and contraception, and strong supports that make parenting or adoption realistic options. Any legal limits should be clearly defined, based on medical standards and due process, and enforced through public health and social policy rather than criminal punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by empathy and humility in a pluralistic society, aiming to minimize harm while respecting both a pregnant person\u2019s health and autonomy and the moral concern many feel for developing life. Common ground includes guaranteeing timely emergency and medically necessary care, relying on clear, medically informed standards, and avoiding punitive criminalization that deters safe treatment. To reduce the number of crisis pregnancies and tragic outcomes, policy should pair any legal limits with strong prevention and support\u2014accurate education, accessible contraception, and robust healthcare and economic resources for parents and children.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by shared goals that many people across the divide can endorse: protecting women\u2019s health and emergency care, respecting the moral seriousness many attach to developing life, and keeping families stable. That means clear, medically informed rules that leave room for clinical judgment in emergencies, avoid turning patients and clinicians into criminals, and provide fair process when disputes arise. It also means investing in what reduces crisis pregnancies\u2014accurate education, affordable contraception, prenatal and maternal care, and real economic support for parents and children\u2014so fewer people face this decision and more can carry a pregnancy if they choose.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

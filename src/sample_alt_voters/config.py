@@ -4,7 +4,7 @@ Configuration constants for the sample-alt-voters experiment.
 This experiment explores 4 alternative distributions × 2 voter distributions
 across 2 contentious topics (abortion and electoral college).
 
-Phase 2 uses A*-low iterative ranking for preference building to avoid
+Phase 2 uses A-low iterative ranking for preference building to avoid
 the 81% degeneracy problem from single-call ranking.
 """
 
@@ -17,11 +17,11 @@ logger = logging.getLogger(__name__)
 # =============================================================================
 # API Configuration
 # =============================================================================
-# Use gpt-5-mini for Phase 2 (cost-effective, validated with A*-low)
+# Use gpt-5-mini for Phase 2 (cost-effective, validated with A-low)
 MODEL = "gpt-5-mini"
 TEMPERATURE = 1.0
 
-# Reasoning effort for A*-low iterative ranking
+# Reasoning effort for A-low iterative ranking
 REASONING_EFFORT = "low"
 
 # =============================================================================

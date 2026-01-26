@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "16",
+      "winner": "14",
       "epsilon": 0.0,
-      "full_winner_idx": "56"
+      "full_winner_idx": "91"
     },
     "borda": {
-      "winner": "16",
+      "winner": "14",
       "epsilon": 0.0,
-      "full_winner_idx": "56"
+      "full_winner_idx": "91"
     },
     "irv": {
-      "winner": "19",
-      "epsilon": 0.0,
-      "full_winner_idx": "97"
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
     },
     "plurality": {
-      "winner": "19",
-      "epsilon": 0.0,
-      "full_winner_idx": "97"
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
     },
     "veto_by_consumption": {
-      "winner": "19",
+      "winner": "9",
       "epsilon": 0.0,
-      "full_winner_idx": "97"
+      "full_winner_idx": "82"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "19",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "97"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "97",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A reform package should prioritize outcomes that voters can verify and campaigns that compete nationwide, while keeping a meaningful state role. Congress and the states could curb winner\u2011take\u2011all by promoting proportional elector allocation with anti-gerrymandering safeguards, bind electors to certified results, and adopt baseline national standards for ballots, audits, and automatic recounts. At the same time, expanding the House would reduce representation distortions, and any move toward a national popular vote should be considered only after these transparency and integrity rules are in place.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep the state-based framework people recognize while making outcomes track voters more closely and reducing the swing\u2011state, winner\u2011take\u2011all distortion. A strong middle ground is to require electors to follow the verified statewide vote, allocate electoral votes proportionally (or by district with anti\u2011gerrymandering safeguards), and adopt clear national baselines for ballot access, audits, certification, and automatic recount triggers in close races. To address representation distortions without a full rewrite, Congress could also expand the House, and if confidence grows, a carefully designed national popular\u2011vote pathway can be considered later.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should prioritize outcomes people across regions can recognize as fair: every lawful ballot counted under clear, consistent rules, and a presidential winner who reflects broad national support\u2014not just a few swing states. A practical middle ground is to keep the constitutional framework and state-run administration while replacing winner-take-all with proportional elector allocation (with safeguards against gerrymandering and binding electors to certified results), paired with national baselines for access, audits, and automatic recount triggers. If confidence improves under these guardrails, states can then choose a more direct national-popular-vote path\u2014such as the National Popular Vote Interstate Compact or a constitutional amendment\u2014ideally with a runoff/RCV mechanism so the winner has majority support.",
+      "is_new": true
     }
   }
 }

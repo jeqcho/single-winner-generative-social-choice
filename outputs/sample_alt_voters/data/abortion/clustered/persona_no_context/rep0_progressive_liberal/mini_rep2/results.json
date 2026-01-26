@@ -71,16 +71,45 @@
       "full_winner_idx": "28"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star": {
+      "winner": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to reduce tragedy and protect dignity by keeping medical emergencies and serious health risks firmly in the hands of patients and qualified clinicians, not politicians. A durable framework can combine early-pregnancy access to safe, legal care with clearly defined, medically grounded standards later in pregnancy that include robust exceptions for threats to health, severe fetal conditions, and cases like rape or incest. Whatever limits are set, they should be paired with practical supports\u2014contraception, comprehensive education, prenatal and postpartum care, and help for parents and adoption\u2014so fewer people face crisis decisions in the first place.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for the complex realities families face, keeping health and safety decisions anchored in the patient\u2013clinician relationship and protected by privacy. A durable framework should ensure safe, timely access\u2014especially early in pregnancy and in cases of medical emergency\u2014while allowing clear, medically grounded standards as pregnancy progresses that include robust exceptions for serious health risks and circumstances like rape or incest. Common ground is strengthened by reducing unwanted pregnancies and crisis decisions through comprehensive sex education, affordable contraception, and strong prenatal, postpartum, and parenting supports (healthcare, childcare, paid leave, and adoption resources), without criminalizing people in crisis.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for both a pregnant person\u2019s health and autonomy and the sincere moral concern many have for developing life. A workable framework should keep urgent decisions in the patient\u2013clinician relationship, protect privacy, and set clear, medically grounded standards with well-defined exceptions for threats to life or serious health, and for circumstances such as rape or incest, while avoiding criminal penalties for people in crisis. Common ground grows when policy also reduces unwanted pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical supports like childcare, paid leave, and adoption and disability services.",
+      "is_new": true
     }
   }
 }

@@ -46,41 +46,70 @@
   ],
   "results": {
     "schulze": {
-      "winner": "17",
-      "epsilon": 0.0,
-      "full_winner_idx": "48"
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "0"
     },
     "borda": {
-      "winner": "6",
-      "epsilon": 0.0,
-      "full_winner_idx": "8"
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "0"
     },
     "irv": {
       "winner": "17",
-      "epsilon": 0.0,
+      "epsilon": null,
       "full_winner_idx": "48"
     },
     "plurality": {
       "winner": "3",
-      "epsilon": 0.0,
+      "epsilon": null,
       "full_winner_idx": "66"
     },
     "veto_by_consumption": {
-      "winner": "8",
-      "epsilon": 0.0,
-      "full_winner_idx": "99"
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "0"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "48"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "0"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform should keep states central to election administration while reducing the outsized impact of narrow swing\u2011state margins and winner\u2011take\u2011all rules. States could allocate electors by a consistent proportional formula (with a small minimum threshold to avoid extreme fragmentation) and require electors to reflect certified results, while Congress sets clear nationwide baselines for voter access, tabulation transparency, audits, and automatic recount triggers. If these changes still fail to align outcomes with the national vote over time, the same national standards could support a later move to a direct popular vote without destabilizing close elections.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep states meaningfully involved while making outcomes track the national vote more closely and reducing the outsized role of a few battleground states. A practical bridge is to end winner-take-all by moving to proportional elector allocation (or, if sufficient states agree, a National Popular Vote compact), alongside expanding the House to reduce representational distortion and binding electors to certified results. Pair these steps with clear national baselines for ballot access, audits, and automatic recount triggers so close elections are transparent, secure, and easier for all sides to accept.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A practical compromise is to keep states\u2019 role in running elections while reducing winner-take-all distortions that make \u201csafe\u201d states and a handful of swing states feel over- or under-valued. States should award electors proportionally (with clear, simple rules and protections against manipulation), while Congress sets baseline national standards for ballot access, voter verification, audits, and automatic recount triggers so close outcomes are transparent and trusted. If these steps still leave repeated mismatches between the popular vote and the winner, the same guardrails could support a broader shift\u2014such as the National Popular Vote compact\u2014once it has clear, durable public support.",
+      "is_new": true
     }
   }
 }

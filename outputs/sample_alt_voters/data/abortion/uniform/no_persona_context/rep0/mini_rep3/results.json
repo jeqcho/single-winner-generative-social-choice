@@ -46,41 +46,77 @@
   ],
   "results": {
     "schulze": {
-      "winner": "14",
-      "epsilon": 0.0,
-      "full_winner_idx": "32"
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
     },
     "borda": {
-      "winner": "3",
-      "epsilon": 0.0,
-      "full_winner_idx": "90"
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
     },
     "irv": {
-      "winner": "14",
-      "epsilon": 0.0,
-      "full_winner_idx": "32"
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
     },
     "plurality": {
       "winner": "14",
-      "epsilon": 0.0,
+      "epsilon": 0.050000000000000044,
       "full_winner_idx": "32"
     },
     "veto_by_consumption": {
-      "winner": "9",
+      "winner": "4",
       "epsilon": 0.0,
-      "full_winner_idx": "38"
+      "full_winner_idx": "23"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "86",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "84",
+      "epsilon": 0.0,
+      "full_winner_idx": "84"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be written to minimize preventable harm in a society with enduring moral disagreement: protect a pregnant person\u2019s health, dignity, and privacy, and keep time-sensitive decisions in the hands of qualified clinicians. If the state sets gestational rules, they should be simple, medically grounded, and paired with explicit, usable exceptions for life endangerment, serious health impairment, rape or incest, and severe fetal anomaly\u2014without criminal penalties that chill emergency care. The broadest common ground is reducing unwanted pregnancies and coercive pressures through affordable contraception, evidence-based education, and strong supports for pregnancy, childbirth, and childrearing, including adoption and economic assistance.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by public health and human dignity: protecting timely, safe care, privacy, and the patient\u2013clinician relationship, while acknowledging that many citizens attach moral weight to developing life. Any limits should be medically grounded, clearly written, and paired with unambiguous exceptions for life, serious health risks, severe fetal complications, and circumstances like rape or incest, without criminalizing patients or deterring clinicians from urgent care. The best common ground is reducing crisis pregnancies and hardship by expanding accurate sex education, affordable contraception, prenatal and postpartum care, and practical support for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should focus on protecting life, health, and personal freedom in a pluralistic society by keeping time\u2011sensitive decisions in the patient\u2013clinician relationship, with strong privacy protections and no criminal penalties for patients. Any limits the public chooses should be clearly written, medically grounded, and paired with unambiguous exceptions for emergencies, serious health risks, rape or incest, and severe fetal complications so care is not delayed. Lasting common ground also means preventing crisis pregnancies and supporting families\u2014affordable contraception, accurate sex education, prenatal and postpartum care, paid leave and childcare help, and adoption services\u2014so fewer people face desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

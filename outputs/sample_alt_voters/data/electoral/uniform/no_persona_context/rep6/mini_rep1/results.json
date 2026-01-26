@@ -61,26 +61,59 @@
       "full_winner_idx": "48"
     },
     "plurality": {
-      "winner": "9",
+      "winner": "17",
       "epsilon": 0.0,
-      "full_winner_idx": "82"
+      "full_winner_idx": "48"
     },
     "veto_by_consumption": {
-      "winner": "18",
+      "winner": "17",
       "epsilon": 0.0,
-      "full_winner_idx": "30"
+      "full_winner_idx": "48"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "68",
+      "epsilon": 0.0,
+      "full_winner_idx": "68"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A sensible compromise is to keep the Electoral College framework but make it behave more like a national majority choice by reducing winner\u2011take\u2011all and requiring states to award electors in a way that reflects their actual vote shares. To protect small-state and rural concerns, pair that with a majority-support requirement (such as ranked-choice or a runoff trigger) so the winner has broad backing rather than a narrow plurality. Whatever allocation method is used, national baseline rules for voter access, verification, certification timelines, and automatic recount thresholds should be standardized so close outcomes are consistent and widely trusted.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A bridging reform is to keep the Electoral College and state-run elections, but curb winner-take-all by allocating electors proportionally (or by district with strong anti-gerrymandering safeguards) and legally binding electors to the state\u2019s results. Pair that with clear national baselines for ballot access, auditing, certification deadlines, and automatic recount triggers so close elections are transparent and consistent everywhere. This would reduce swing-state overfocus, make outcomes track voter intent more closely, and strengthen legitimacy across urban, suburban, and rural communities.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A consensus reform is to keep the state-based framework but make the outcome track voters more closely and reduce battleground distortions. States could end winner-take-all by awarding electors proportionally (with strong anti-gerrymandering safeguards if districts are used) and binding electors to the certified vote, while Congress sets clear national baselines for ballot access, ID/options, audits, and automatic recount triggers so close results are handled consistently. If the country later wants to go further, a national popular-vote approach\u2014ideally with ranked-choice to ensure majority support\u2014could be phased in once the uniform integrity rules are in place.",
+      "is_new": true
     }
   }
 }

@@ -54,6 +54,24 @@ METHOD_COLORS = {
     "chatgpt_double_star": "#e74c3c",  # Red
 }
 
+# Fixed method order for bar charts
+METHOD_ORDER = [
+    "veto_by_consumption",
+    "borda",
+    "schulze",
+    "irv",
+    "plurality",
+    "chatgpt",
+    "chatgpt_rankings",
+    "chatgpt_personas",
+    "chatgpt_star",
+    "chatgpt_star_rankings",
+    "chatgpt_star_personas",
+    "chatgpt_double_star",
+    "chatgpt_double_star_rankings",
+    "chatgpt_double_star_personas",
+]
+
 # Alternative distribution labels
 ALT_DIST_LABELS = {
     "persona_no_context": "Alt1: Persona Only",
@@ -84,6 +102,14 @@ def get_method_color(method: str) -> str:
         return "#95a5a6"  # Gray for unknown
 
 
+def reorder_methods(methods: List[str]) -> List[str]:
+    """Reorder methods according to METHOD_ORDER."""
+    ordered = [m for m in METHOD_ORDER if m in methods]
+    # Add any unknown methods at the end
+    unknown = [m for m in methods if m not in METHOD_ORDER]
+    return ordered + unknown
+
+
 def plot_epsilon_by_method(
     df: pd.DataFrame,
     output_path: Path,
@@ -105,7 +131,9 @@ def plot_epsilon_by_method(
         return
     
     summary = valid_df.groupby("method")["epsilon"].agg(["mean", "std", "count"])
-    summary = summary.sort_values("mean")
+    # Use fixed method order instead of sorting by mean
+    ordered_methods = reorder_methods(summary.index.tolist())
+    summary = summary.reindex(ordered_methods)
     
     # Create figure
     fig, ax = plt.subplots(figsize=FIGURE_SIZE_WIDE)
@@ -391,12 +419,22 @@ def plot_heatmap_method_voter(
 def plot_cdf_epsilon(
     df: pd.DataFrame,
     output_path: Path,
-    title: str = "CDF of Critical Epsilon"
+    title: str = "CDF of Critical Epsilon",
+    x_max: float = 1.0,
+    y_min: float = 0.0
 ) -> None:
     """
-    Create CDF plot of epsilon for each voting method.
+    Create 2x2 grouped CDF plot of epsilon by method category.
     
-    Includes a "Random" baseline which represents mean epsilon across all alternatives.
+    Subplots: Traditional, ChatGPT, ChatGPT*, ChatGPT**
+    Includes a "Random" baseline in each subplot.
+    
+    Args:
+        df: DataFrame with epsilon values
+        output_path: Path to save the plot
+        title: Plot title
+        x_max: Maximum value for x-axis (default 1.0)
+        y_min: Minimum value for y-axis (default 0.0)
     """
     if df.empty:
         logger.warning("No data to plot")
@@ -407,61 +445,76 @@ def plot_cdf_epsilon(
         logger.warning("No valid epsilon values")
         return
     
-    # Create figure
-    fig, ax = plt.subplots(figsize=FIGURE_SIZE_WIDE)
+    # Create 2x2 subplot figure
+    fig, axes = plt.subplots(2, 2, figsize=(14, 10))
     
-    # Method colors for CDF
-    method_colors = {
-        'schulze': '#3498db',      # Blue
-        'borda': '#e67e22',        # Orange
-        'irv': '#2ecc71',          # Green
-        'plurality': '#e74c3c',    # Red
-        'veto_by_consumption': '#9b59b6',  # Purple
-    }
+    # Standard contrasting colors for within-subplot differentiation
+    CONTRAST_COLORS = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd']
     
+    # Method display names
     method_labels = {
         'schulze': 'Schulze',
         'borda': 'Borda',
         'irv': 'IRV',
         'plurality': 'Plurality',
         'veto_by_consumption': 'VBC',
+        'chatgpt': 'GPT',
+        'chatgpt_rankings': 'GPT+Rank',
+        'chatgpt_personas': 'GPT+Pers',
+        'chatgpt_star': 'GPT*',
+        'chatgpt_star_rankings': 'GPT*+Rank',
+        'chatgpt_star_personas': 'GPT*+Pers',
+        'chatgpt_double_star': 'GPT**',
+        'chatgpt_double_star_rankings': 'GPT**+Rank',
+        'chatgpt_double_star_personas': 'GPT**+Pers',
     }
     
-    # Plot CDF for each method
-    methods = [m for m in TRADITIONAL_METHODS if m in valid_df["method"].unique()]
+    # Method groups for each subplot
+    groups = [
+        ('Traditional Methods', TRADITIONAL_METHODS, axes[0, 0]),
+        ('ChatGPT Methods', CHATGPT_METHODS, axes[0, 1]),
+        ('ChatGPT* Methods', CHATGPT_STAR_METHODS, axes[1, 0]),
+        ('ChatGPT** Methods', CHATGPT_DOUBLE_STAR_METHODS, axes[1, 1]),
+    ]
     
-    for method in methods:
-        method_data = valid_df[valid_df["method"] == method]["epsilon"].values
-        if len(method_data) == 0:
-            continue
-        
-        sorted_data = np.sort(method_data)
-        cdf = np.arange(1, len(sorted_data) + 1) / len(sorted_data)
-        
-        color = method_colors.get(method, '#95a5a6')
-        label = method_labels.get(method, method)
-        ax.plot(sorted_data, cdf, label=label, color=color, linewidth=2)
-    
-    # Add "Random" baseline - mean epsilon of all alternatives
-    # This simulates randomly picking an alternative
-    # We approximate this by taking all epsilon values and computing CDF
+    # Get random baseline (all epsilons combined)
     all_epsilons = valid_df["epsilon"].values
-    if len(all_epsilons) > 0:
-        # For random, we use the distribution of all epsilons
-        sorted_random = np.sort(all_epsilons)
-        cdf_random = np.arange(1, len(sorted_random) + 1) / len(sorted_random)
-        ax.plot(sorted_random, cdf_random, label='Random', color='black', 
-                linewidth=2, linestyle='--')
     
-    # Customize
-    ax.set_xlabel('Critical Epsilon (ε*)', fontsize=12)
-    ax.set_ylabel('Cumulative Probability', fontsize=12)
-    ax.set_title(title, fontsize=14, fontweight='bold')
-    ax.set_xlim(0, max(0.1, valid_df["epsilon"].max() * 1.1))
-    ax.set_ylim(0, 1.05)
-    ax.legend(loc='lower right', fontsize=10)
-    ax.grid(True, alpha=0.3)
+    for group_name, methods, ax in groups:
+        color_idx = 0
+        has_data = False
+        
+        for method in methods:
+            method_data = valid_df[valid_df["method"] == method]["epsilon"].values
+            if len(method_data) == 0:
+                continue
+            
+            has_data = True
+            sorted_data = np.sort(method_data)
+            cdf = np.arange(1, len(sorted_data) + 1) / len(sorted_data)
+            
+            color = CONTRAST_COLORS[color_idx % len(CONTRAST_COLORS)]
+            label = method_labels.get(method, method)
+            ax.step(sorted_data, cdf, where='post', label=label, color=color, linewidth=2.5)
+            color_idx += 1
+        
+        # Add Random baseline (black line)
+        if len(all_epsilons) > 0:
+            sorted_random = np.sort(all_epsilons)
+            cdf_random = np.arange(1, len(sorted_random) + 1) / len(sorted_random)
+            ax.step(sorted_random, cdf_random, where='post', 
+                    label='Random', color='black', linewidth=2.5)
+        
+        ax.set_xlabel('Epsilon', fontsize=10)
+        ax.set_ylabel('Cumulative Probability', fontsize=10)
+        ax.set_title(group_name, fontsize=12)
+        ax.set_xlim(0, x_max)
+        ax.set_ylim(y_min, 1.05)
+        ax.grid(True, alpha=0.3)
+        if has_data or len(all_epsilons) > 0:
+            ax.legend(loc='lower right', fontsize=9)
     
+    fig.suptitle(title, fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
     output_path.parent.mkdir(parents=True, exist_ok=True)
     plt.savefig(output_path, dpi=150, bbox_inches='tight')
@@ -630,11 +683,20 @@ def generate_all_plots(
         title="Mean Epsilon: Method × Voter Distribution"
     )
     
-    # 6. CDF plot overall
+    # 6. CDF plots overall (standard and zoomed)
     plot_cdf_epsilon(
         df,
         output_dir / "cdf_epsilon.png",
-        title="CDF of Critical Epsilon - All Conditions"
+        title="CDF of Critical Epsilon - All Conditions",
+        x_max=1.0,
+        y_min=0.0
+    )
+    plot_cdf_epsilon(
+        df,
+        output_dir / "cdf_epsilon_zoomed.png",
+        title="CDF of Critical Epsilon - All Conditions (Zoomed)",
+        x_max=0.5,
+        y_min=0.5
     )
     
     # Per-topic plots
@@ -655,10 +717,20 @@ def generate_all_plots(
             title=f"{topic.title()}: Method × Alternative Distribution"
         )
         
+        # CDF plots (standard and zoomed)
         plot_cdf_epsilon(
             topic_df,
             topic_dir / "cdf_epsilon.png",
-            title=f"{topic.title()}: CDF of Critical Epsilon"
+            title=f"{topic.title()}: CDF of Critical Epsilon",
+            x_max=1.0,
+            y_min=0.0
+        )
+        plot_cdf_epsilon(
+            topic_df,
+            topic_dir / "cdf_epsilon_zoomed.png",
+            title=f"{topic.title()}: CDF of Critical Epsilon (Zoomed)",
+            x_max=0.5,
+            y_min=0.5
         )
     
     # Per topic × (alt_dist, voter_dist) combination plots
@@ -702,11 +774,20 @@ def generate_all_plots(
                     title=f"{topic.title()}: {alt_label} × {voter_label}"
                 )
                 
-                # CDF plot for this combo
+                # CDF plots for this combo (standard and zoomed)
                 plot_cdf_epsilon(
                     combo_df,
                     combo_dir / "cdf_epsilon.png",
-                    title=f"{topic.title()}: {alt_label} × {voter_label}"
+                    title=f"{topic.title()}: {alt_label} × {voter_label}",
+                    x_max=1.0,
+                    y_min=0.0
+                )
+                plot_cdf_epsilon(
+                    combo_df,
+                    combo_dir / "cdf_epsilon_zoomed.png",
+                    title=f"{topic.title()}: {alt_label} × {voter_label} (Zoomed)",
+                    x_max=0.5,
+                    y_min=0.5
                 )
     
     logger.info(f"All plots saved to {output_dir}")

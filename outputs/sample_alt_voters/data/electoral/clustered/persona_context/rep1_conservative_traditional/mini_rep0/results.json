@@ -71,16 +71,45 @@
       "full_winner_idx": "83"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to make the presidential result track voters more closely without stripping states of their role in running elections. A broadly acceptable step is to replace statewide winner-take-all with an automatic, near-proportional allocation (with a small statewide bonus only when a candidate clears a clear threshold), while requiring electors to be bound to the certified outcome. Pair this with national minimum standards for voter access, paper-backed tabulation, routine risk-limiting audits, and uniform recount and certification deadlines so close elections are resolved consistently. If trust and bipartisan support grow, the country can then consider a constitutional amendment or a carefully safeguarded popular-vote compact as a final, transparent step.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable reform should keep the state-based framework but reduce winner-take-all distortions so outcomes track voters more closely and campaigns aren\u2019t decided by a few battlegrounds. A practical bridge is to require proportional (or carefully designed district-based) allocation of electors in every state, bind electors to the certified vote, and set clear national baselines for ballot access, paper-auditability, and automatic recount triggers in close races. If broad, durable support develops, a transparent pathway such as the National Popular Vote compact or a constitutional amendment can further align results with the national popular will while preserving stability and public trust.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should protect the states\u2019 role in running elections while making the presidential outcome track voters more closely and reducing the feeling that only a few \u201cswing states\u201d matter. A practical middle path is to keep the Electoral College but end winner-take-all by requiring proportional allocation of electors nationwide, bind electors to the certified vote, and set clear national baselines for accessible voting, paper-auditability, and automatic recount triggers in close races. If broad, durable support develops over time, the National Popular Vote Interstate Compact or a constitutional amendment\u2014paired with safeguards like ranked-choice voting\u2014could further align the result with the national popular will without inviting chaos in tight elections.",
+      "is_new": true
     }
   }
 }

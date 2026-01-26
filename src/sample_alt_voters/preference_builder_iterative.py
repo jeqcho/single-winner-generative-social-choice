@@ -1,14 +1,14 @@
 """
-Preference builder using iterative A*-low ranking.
+Preference builder using iterative A-low ranking.
 
-Wraps the degeneracy-mitigated iterative ranking (A*-low) to build
+Wraps the degeneracy-mitigated iterative ranking (A-low) to build
 full preference matrices (100 voters × 100 alternatives).
 
 Key features:
 - Uses 5 rounds of top-K/bottom-K selection per voter
 - Hash identifiers to prevent index/rank conflation
 - Per-round shuffling to break presentation order bias
-- Bottom-K requested as "least preferred first" (A* variant)
+- Bottom-K requested as "least preferred last" (A variant)
 - Parallel execution with configurable workers
 """
 
@@ -21,7 +21,7 @@ from typing import List, Dict, Tuple, Optional
 from openai import OpenAI
 from tqdm import tqdm
 
-from src.degeneracy_mitigation.iterative_ranking_star import rank_voter
+from src.degeneracy_mitigation.iterative_ranking import rank_voter
 from src.degeneracy_mitigation.config import HASH_SEED
 
 logger = logging.getLogger(__name__)
@@ -38,7 +38,7 @@ def build_full_preferences_iterative(
     show_progress: bool = True
 ) -> Tuple[List[List[str]], Dict]:
     """
-    Build full preference matrix using iterative A*-low ranking.
+    Build full preference matrix using iterative A-low ranking.
     
     Each voter ranks all statements through 5 rounds of top-K/bottom-K selection.
     This approach achieves 97% valid rankings with near-zero presentation order bias.
@@ -48,7 +48,7 @@ def build_full_preferences_iterative(
         statements: List of statement dicts with 'statement' key
         topic: Topic question string
         openai_client: OpenAI client instance
-        reasoning_effort: Reasoning effort level ("low" recommended for A*-low)
+        reasoning_effort: Reasoning effort level ("low" recommended for A-low)
         max_workers: Maximum parallel workers for API calls
         hash_seed: Seed for hash identifier generation
         show_progress: Whether to show progress bar
@@ -63,7 +63,7 @@ def build_full_preferences_iterative(
     n_alts = len(statements)
     
     logger.info(f"Building preference matrix: {n_voters} voters × {n_alts} alternatives")
-    logger.info(f"Using A*-low iterative ranking with reasoning_effort={reasoning_effort}")
+    logger.info(f"Using A-low iterative ranking with reasoning_effort={reasoning_effort}")
     logger.info(f"5 API rounds per voter = {n_voters * 5} total API calls")
     
     def process_voter(args):

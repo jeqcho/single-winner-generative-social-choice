@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "4",
+      "winner": "12",
       "epsilon": 0.0,
-      "full_winner_idx": "4"
+      "full_winner_idx": "18"
     },
     "borda": {
-      "winner": "10",
+      "winner": "12",
       "epsilon": 0.0,
-      "full_winner_idx": "8"
+      "full_winner_idx": "18"
     },
     "irv": {
-      "winner": "2",
-      "epsilon": 0.0,
-      "full_winner_idx": "42"
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
     },
     "plurality": {
-      "winner": "17",
-      "epsilon": 0.0,
-      "full_winner_idx": "78"
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
     },
     "veto_by_consumption": {
-      "winner": "10",
+      "winner": "3",
       "epsilon": 0.0,
-      "full_winner_idx": "8"
+      "full_winner_idx": "28"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "18",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "88",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "We can start from shared priorities: a president chosen by rules most voters see as fair, campaigns that compete in many regions, and clear procedures for close outcomes. A pragmatic reform package could include ending automatic winner-take-all allocations (allowing proportional or district-based methods with anti-gerrymandering protections), updating apportionment to better reflect population, and setting uniform recount and audit triggers across states. If those steps still leave persistent popular-vote/EC mismatches, a broader, geographically supported national popular-vote mechanism\u2014through a compact or amendment\u2014can be debated with agreed-upon thresholds and safeguards.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people want presidential elections that feel legitimate, competitive, and trusted\u2014without turning on razor-thin outcomes in just a few states. A strong middle path is to keep states administering elections while reducing winner-take-all distortions by moving toward proportional elector allocation (with anti-gerrymandering safeguards if districts are used), alongside clearer nationwide standards for recounts, audits, and election administration. In parallel, we can continue evaluating the National Popular Vote compact or an amendment against shared goals: every vote mattering more, candidates building geographically broad support, and stable rules everyone sees as fair regardless of who wins.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree the goal is a presidential election that feels legitimate, is easy to understand, and doesn\u2019t make voters in non-swing states feel ignored. A practical compromise is to keep states administering elections but reduce winner-take-all distortions by encouraging proportional elector allocation (with anti-gerrymandering safeguards if districts are used), paired with clear national standards for recounts, audits, and ballot access. At the same time, we can evaluate a National Popular Vote compact or amendment against shared benchmarks\u2014nationwide campaigning, comparable vote weight, and predictable rules\u2014so reforms strengthen trust rather than advantage a party.",
+      "is_new": true
     }
   }
 }

@@ -47,40 +47,73 @@
   "results": {
     "schulze": {
       "winner": "8",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.0,
       "full_winner_idx": "99"
     },
     "borda": {
       "winner": "8",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.0,
       "full_winner_idx": "99"
     },
     "irv": {
-      "winner": "3",
+      "winner": "19",
       "epsilon": 0.0,
-      "full_winner_idx": "66"
+      "full_winner_idx": "97"
     },
     "plurality": {
-      "winner": "3",
+      "winner": "19",
       "epsilon": 0.0,
-      "full_winner_idx": "66"
+      "full_winner_idx": "97"
     },
     "veto_by_consumption": {
       "winner": "8",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.0,
       "full_winner_idx": "99"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "97",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Any Electoral College reform should reduce \u201cbattleground lock-in\u201d while keeping the state-based structure and improving confidence that every lawful vote is counted the same way. A strong middle-ground step is to require electors to be awarded by a consistent formula in every state (such as proportional by statewide vote with a small threshold) and to bind electors to certified results, so outcomes track real vote margins without forcing an immediate constitutional overhaul. Pair that with national guardrails\u2014paper ballots or voter-verifiable records, routine risk-limiting audits, and uniform recount and certification timelines\u2014so close elections are resolved transparently and peacefully. If broad agreement grows, states can still choose to converge on a national popular-vote outcome through an interstate compact, but only after those integrity standards are in place.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College and state-run elections, but end winner-take-all by allocating electors proportionally (with an option for states to join the National Popular Vote Interstate Compact once it guarantees the popular-vote winner). Pair that with clear national baseline standards\u2014paper-backed audits, uniform recount triggers, and strong, consistent rules for ballot access and chain-of-custody\u2014so results are easy to verify and hard to contest in bad faith. Binding electors to the certified state result and encouraging reforms like ranked-choice voting where feasible would further reward broad, cross-regional coalitions and reduce the swing-state stranglehold.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A durable reform should make presidential results track voters more closely while keeping states in charge of administering elections under simple, uniform, auditable rules people can trust. A practical compromise is to end winner-take-all by moving to proportional allocation of electors (with electors bound to the certified result), paired with nationwide baselines for ballot access, paper-backed audits, and clear automatic recount triggers. For those who prefer a clearer \u201cone person, one vote\u201d outcome, the National Popular Vote Interstate Compact can serve as a step-by-step path once it reaches 270, while encouraging candidates to compete beyond a few battleground states.",
+      "is_new": true
     }
   }
 }

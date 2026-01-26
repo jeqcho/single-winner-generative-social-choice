@@ -46,41 +46,70 @@
   ],
   "results": {
     "schulze": {
-      "winner": "2",
-      "epsilon": 0.0,
-      "full_winner_idx": "42"
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "10"
     },
     "borda": {
-      "winner": "2",
-      "epsilon": 0.0,
-      "full_winner_idx": "42"
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "0"
     },
     "irv": {
       "winner": "2",
-      "epsilon": 0.0,
+      "epsilon": null,
       "full_winner_idx": "42"
     },
     "plurality": {
       "winner": "2",
-      "epsilon": 0.0,
+      "epsilon": null,
       "full_winner_idx": "42"
     },
     "veto_by_consumption": {
-      "winner": "2",
-      "epsilon": 0.0,
-      "full_winner_idx": "42"
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "0"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "97"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "10"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "41"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be built around safeguarding life and health with medically defined, easy-to-apply rules that let clinicians act immediately in emergencies, while preserving as much privacy and patient autonomy as possible in early pregnancy. If later-pregnancy limits are set, they should be clearly written, consistently enforced, and include real exceptions for serious threats to life or health, rape or incest, and severe fetal conditions\u2014without criminalizing patients or forcing doctors to wait until someone is near death. To reduce the number of abortions and the hardship around them, policy should also invest in prevention and real alternatives: accurate sex education, affordable contraception, strong prenatal and postpartum care, and practical support for parenting, disability needs, and adoption.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by medical evidence and compassion, with clear, workable rules that protect privacy and keep time-sensitive decisions primarily in the patient\u2013clinician relationship\u2014especially in emergencies or serious health risks\u2014so care isn\u2019t delayed by fear of prosecution. In a pluralistic society, policy can acknowledge the moral seriousness many attach to developing life by allowing early decisions to remain private while permitting carefully defined limits later in pregnancy that always include firm exceptions for life and serious health threats, rape or incest, and severe fetal complications. Common ground is strongest when the legal framework avoids criminalizing patients or clinicians and is paired with prevention and support: accurate sex education, affordable contraception, and real help with prenatal care, parenting, and adoption.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in medical evidence and written clearly enough that patients and licensed clinicians can act quickly in emergencies, with firm protections for the mother\u2019s life and serious health risks, and for pregnancies involving rape, incest, or severe fetal complications. In a pluralistic community, policy can acknowledge the moral importance many attach to developing life by allowing early decisions to remain private while setting carefully defined, workable standards later in pregnancy that avoid vague criminal penalties. Whatever limits exist should be paired with practical prevention and support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, and real help for parenting, disability needs, and adoption\u2014so fewer families are pushed into crisis.",
+      "is_new": true
     }
   }
 }

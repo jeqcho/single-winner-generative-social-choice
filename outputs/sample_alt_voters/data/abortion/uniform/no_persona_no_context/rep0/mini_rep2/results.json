@@ -46,41 +46,77 @@
   ],
   "results": {
     "schulze": {
-      "winner": "7",
-      "epsilon": 0.0,
-      "full_winner_idx": "50"
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
     },
     "borda": {
-      "winner": "18",
-      "epsilon": 0.0,
-      "full_winner_idx": "94"
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
     },
     "irv": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
       "winner": "3",
       "epsilon": 0.0,
       "full_winner_idx": "28"
     },
-    "plurality": {
-      "winner": "7",
-      "epsilon": 0.0,
-      "full_winner_idx": "50"
-    },
-    "veto_by_consumption": {
-      "winner": "18",
-      "epsilon": 0.0,
-      "full_winner_idx": "94"
-    },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
-    "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect human life and dignity while recognizing that pregnancy can involve urgent medical, social, and moral complexity. A durable compromise pairs early, confidential access and patient-centered counseling with medically grounded, democratically set limits later in pregnancy, always preserving timely exceptions for life- and health-threatening conditions and severe hardship. Alongside any legal framework, governments should expand contraception, maternal healthcare, and economic supports so fewer people face unwanted pregnancies or feel forced into decisions by poverty or lack of care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to human dignity, compassion, and medical reality\u2014taking seriously both the moral value many place on developing life and the autonomy, health, and equality of the pregnant person. A workable framework protects timely care in emergencies and complex cases, ensures early access and accurate information, and allows proportionate, medically informed limits later that are clear and democratically accountable. Common ground grows by preventing unintended pregnancies and reducing coercion through contraception and sex education, alongside strong prenatal, maternal, and economic supports that make choosing birth and raising a child more feasible.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by respect for human dignity, personal liberty, and the widely shared desire to reduce preventable suffering, recognizing that citizens disagree in good faith about when moral status begins. A durable approach protects timely care in emergencies and serious health situations, relies on medical evidence rather than political rhetoric, and sets clear, democratically accountable rules that people can understand and plan around. Common ground also means investing in what reduces abortions and hardship in the first place\u2014comprehensive sex education, affordable contraception, prenatal and maternal healthcare, and practical economic supports for parents\u2014so fewer people face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

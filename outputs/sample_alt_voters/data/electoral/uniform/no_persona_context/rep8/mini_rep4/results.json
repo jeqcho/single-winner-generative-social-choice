@@ -46,9 +46,9 @@
   ],
   "results": {
     "schulze": {
-      "winner": "7",
+      "winner": "13",
       "epsilon": 0.0,
-      "full_winner_idx": "51"
+      "full_winner_idx": "90"
     },
     "borda": {
       "winner": "13",
@@ -56,31 +56,64 @@
       "full_winner_idx": "90"
     },
     "irv": {
-      "winner": "2",
+      "winner": "13",
       "epsilon": 0.0,
-      "full_winner_idx": "48"
+      "full_winner_idx": "90"
     },
     "plurality": {
-      "winner": "2",
-      "epsilon": 0.0,
-      "full_winner_idx": "48"
+      "winner": "7",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "51"
     },
     "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
       "winner": "4",
       "epsilon": 0.0,
       "full_winner_idx": "25"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
     },
-    "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A pragmatic reform is to keep the Electoral College but make it behave more like a true aggregation of voters by cutting winner-take-all incentives: allocate electors proportionally using a consistent, simple formula (with an optional small statewide bonus to preserve state identity). Pair that with a national baseline for election integrity\u2014paper records, risk-limiting audits, clear certification timelines, and automatic recount rules\u2014so close results are handled predictably. If future consensus grows, states could adopt a coordinated popular-vote trigger only after uniform recount procedures are in place, reducing fears of a chaotic nationwide dispute.",
+      "is_new": true
     },
-    "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A practical compromise is to keep the Electoral College and state-run election administration, but curb winner-take-all distortions by moving states toward proportional elector allocation (or district-based allocation with strong anti-gerrymandering safeguards). Pair that with uniform nationwide minimum standards for ballot access, paper-trail verification, risk-limiting audits, and clear automatic recount triggers so close results are trusted and predictable. Require electors to follow certified results, and allow a National Popular Vote Interstate Compact as a backstop if broader agreement emerges to better align outcomes with the national popular will.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A practical middle-ground is to keep the Electoral College\u2019s state-based framework, but reduce winner-take-all distortions so electoral votes track voters more proportionally, while requiring electors to follow certified results. To make outcomes trusted and easier to accept across communities, set clear nationwide minimum standards for ballot access, paper-based verification, risk-limiting audits, and automatic recount triggers. If broader agreement develops, a National Popular Vote Interstate Compact (or a narrow popular-vote backstop in very close elections) can further reduce mismatches without forcing an abrupt constitutional overhaul.",
+      "is_new": true
     }
   }
 }

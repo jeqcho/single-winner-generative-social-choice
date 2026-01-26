@@ -47,22 +47,22 @@
   "results": {
     "schulze": {
       "winner": "2",
-      "epsilon": 0.0,
+      "epsilon": 0.030000000000000027,
       "full_winner_idx": "42"
     },
     "borda": {
-      "winner": "12",
-      "epsilon": 0.0,
-      "full_winner_idx": "18"
+      "winner": "2",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "42"
     },
     "irv": {
       "winner": "2",
-      "epsilon": 0.0,
+      "epsilon": 0.030000000000000027,
       "full_winner_idx": "42"
     },
     "plurality": {
       "winner": "2",
-      "epsilon": 0.0,
+      "epsilon": 0.030000000000000027,
       "full_winner_idx": "42"
     },
     "veto_by_consumption": {
@@ -71,16 +71,52 @@
       "full_winner_idx": "18"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "2",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "42"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a public ethic of care: protect life where possible, protect patients always, and reduce the conditions that make pregnancy a crisis. Because citizens disagree in good faith about fetal moral status, policy should rely on medically defined standards, due process, and narrowly tailored limits that never block urgent health care or punish people in desperate situations. Pairing any legal boundaries with strong, practical support\u2014contraception, prenatal care, paid leave, childcare, and adoption resources\u2014can lower abortion rates without coercion.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by shared aims in a pluralistic society: protecting health and safety, reducing suffering, and treating sincere moral disagreement about fetal life with humility. A workable framework sets clear, medically grounded rules and exceptions so no one is forced into dangerous, coercive, or impossible situations, while respecting both potential life and the lived realities of pregnancy. Common ground is strengthened by investing in prevention\u2014education and contraception\u2014and in robust prenatal, maternal, childcare, and economic supports so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared commitment to protect life and health, reduce suffering, and respect that citizens differ in good faith about when fetal life deserves legal protection. Policy should keep medical decisions grounded in evidence and clinician judgment, with clear, humane exceptions for threats to the pregnant person\u2019s life or serious health, and with safeguards against coercion or unsafe care. Across viewpoints, we can invest in prevention\u2014sex education and affordable contraception\u2014and in practical supports like prenatal care, paid leave, childcare, and adoption resources so fewer pregnancies become crises and more people can choose birth without being pushed into hardship.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

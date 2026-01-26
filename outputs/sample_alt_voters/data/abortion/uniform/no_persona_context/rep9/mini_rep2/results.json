@@ -56,9 +56,9 @@
       "full_winner_idx": "10"
     },
     "irv": {
-      "winner": "2",
+      "winner": "16",
       "epsilon": 0.0,
-      "full_winner_idx": "42"
+      "full_winner_idx": "10"
     },
     "plurality": {
       "winner": "16",
@@ -71,16 +71,52 @@
       "full_winner_idx": "10"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star": {
+      "winner": "97",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "84",
+      "epsilon": 0.0,
+      "full_winner_idx": "84"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a practical ethic that protects health, preserves the integrity of the doctor\u2013patient relationship, and acknowledges that many people attribute increasing moral significance to fetal development over time. Rules should be medically specific and predictable, guaranteeing prompt care for life- or health-threatening complications, rape or incest, and severe fetal conditions, while avoiding criminal penalties that deter clinicians from acting. Any limits should be paired with serious investments that prevent crisis pregnancies and support families\u2014affordable contraception, evidence-based education, maternal healthcare, and economic help\u2014so fewer people face the decision under duress.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical reality and a shared aim to reduce harm in a morally contested area: protect patient safety, privacy, and the doctor\u2013patient relationship while taking seriously the moral significance many attach to developing life as pregnancy progresses. The law should guarantee clear, clinically workable exceptions for threats to life or serious health, severe fetal complications, and pregnancy from violence, written so clinicians can act without delay or fear of prosecution. Any limits should be transparent, predictable, and workable in practice, and paired with robust prevention and support\u2014contraception and accurate education, prenatal and postpartum care, and economic help that makes parenting or adoption a real option.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by respect for human dignity, medical reality, and a shared goal of reducing harm\u2014protecting the ability to get safe, timely care while acknowledging that many people see developing life as gaining moral significance as pregnancy progresses. Any rules should be clear enough for communities to understand and workable enough for clinicians to follow, with prompt, medically defined exceptions for threats to life or serious health, rape or incest, and severe fetal complications so care is never delayed by fear of prosecution. Because fewer crisis pregnancies is common ground, policy should pair any limits with real prevention and support: affordable contraception and accurate education, prenatal and postpartum healthcare, and practical help with childcare, paid leave, and adoption services so continuing a pregnancy is a feasible option, not just a mandate.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

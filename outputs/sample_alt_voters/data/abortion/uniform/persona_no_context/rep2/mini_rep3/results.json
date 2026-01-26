@@ -46,41 +46,77 @@
   ],
   "results": {
     "schulze": {
-      "winner": "16",
-      "epsilon": 0.010000000000000009,
-      "full_winner_idx": "14"
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
     },
     "borda": {
-      "winner": "16",
-      "epsilon": 0.010000000000000009,
-      "full_winner_idx": "14"
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
     },
     "irv": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.28,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
       "winner": "3",
       "epsilon": 0.0,
       "full_winner_idx": "90"
     },
-    "plurality": {
-      "winner": "9",
-      "epsilon": 0.0,
-      "full_winner_idx": "38"
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
     },
-    "veto_by_consumption": {
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star": {
+      "winner": "39",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_rankings": {
       "winner": "16",
       "epsilon": 0.010000000000000009,
       "full_winner_idx": "14"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_star_personas": {
+      "winner": "43",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
     },
-    "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should start from shared goals: protecting human dignity, safeguarding health, and reducing the number of unwanted pregnancies without turning private medical decisions into criminal cases. A balanced framework can allow access early in pregnancy, provide clear and workable exceptions for threats to life or serious health, rape or incest, and severe fetal conditions, and rely on medical standards written with clinicians\u2019 input rather than political guesswork. At the same time, it should expand prevention and support\u2014accurate education, affordable contraception, prenatal and postpartum care, childcare, and adoption services\u2014so people have real choices and fewer face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
     },
-    "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity, and sound medical evidence, keeping time\u2011sensitive decisions as close as possible to patients and qualified clinicians while acknowledging sincere moral and religious concerns about potential life. A workable framework protects privacy and access to safe, timely care\u2014especially early in pregnancy and in cases of rape, incest, or serious health risks\u2014while allowing room for medical judgment and conscience. Common ground also includes reducing unintended pregnancies and crisis decisions through comprehensive sex education, affordable contraception, and stronger prenatal, postpartum, and family supports, including adoption and practical help for parents.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, respect for human dignity, and sound medical evidence, recognizing that families\u2019 situations and health risks can be complex and time-sensitive. A workable framework should keep urgent decisions primarily between patients and qualified clinicians, protect privacy, and include clear, narrowly written exceptions for threats to life or serious health harm, rape or incest, and severe fetal conditions, while allowing room for conscience without blocking care. Common ground also means reducing unintended pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical supports like childcare, paid leave, and adoption resources\u2014so fewer people face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

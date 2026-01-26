@@ -46,14 +46,14 @@
   ],
   "results": {
     "schulze": {
-      "winner": "9",
+      "winner": "0",
       "epsilon": 0.0,
-      "full_winner_idx": "60"
+      "full_winner_idx": "41"
     },
     "borda": {
-      "winner": "9",
+      "winner": "5",
       "epsilon": 0.0,
-      "full_winner_idx": "60"
+      "full_winner_idx": "0"
     },
     "irv": {
       "winner": "0",
@@ -66,21 +66,54 @@
       "full_winner_idx": "41"
     },
     "veto_by_consumption": {
-      "winner": "16",
+      "winner": "5",
       "epsilon": 0.0,
-      "full_winner_idx": "10"
+      "full_winner_idx": "0"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "29"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "28"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_personas": {
+      "winner": "43",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Rather than a single all-or-nothing change, reform should narrow the gap between the national vote and the Electoral College result while keeping states responsible for running elections. A broadly acceptable package would phase out winner-take-all (via proportional allocation or a uniform district method with anti-gerrymandering rules), and pair it with minimum nationwide standards for ballot access, post-election audits, recount triggers, and certification deadlines. If the country later wants the popular-vote winner guaranteed, the National Popular Vote Interstate Compact can serve as a voluntary backstop once those verification standards are in place. The aim is a system where campaigns compete in more places, outcomes are easier to validate, and losing sides can more readily accept the result.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College\u2019s state-based framework, but reduce winner\u2011take\u2011all distortions so outcomes track the national vote more closely and campaigns have incentives to compete beyond a few swing states. A practical compromise is proportional (or district-based with strong anti\u2011gerrymandering guardrails) allocation of electors nationwide, paired with clear, uniform national baselines for ballot access, secure counting, audits, and automatic recount triggers. If broader alignment is needed without an immediate constitutional overhaul, the National Popular Vote Interstate Compact can serve as a stepwise path once those verification standards are in place.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College\u2019s state-based role, but reduce winner-take-all so outcomes more consistently track the nationwide vote and voters in every state feel their ballots matter. A broadly workable reform is proportional (or district-based with strong anti-gerrymandering guardrails) allocation of electors, paired with clear national baseline rules for ballot access, chain-of-custody, audits, recount triggers, and certification deadlines. States would still run elections, but the rules would be simpler to explain, harder to game, and more likely to produce results that people across regions can verify and accept.",
+      "is_new": true
     }
   }
 }

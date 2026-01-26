@@ -75,6 +75,12 @@ from src.sampling_experiment.voting_methods import (
     run_chatgpt,
     run_chatgpt_with_rankings,
     run_chatgpt_with_personas,
+    run_chatgpt_star,
+    run_chatgpt_star_with_rankings,
+    run_chatgpt_star_with_personas,
+    run_chatgpt_double_star,
+    run_chatgpt_double_star_with_rankings,
+    run_chatgpt_double_star_with_personas,
 )
 
 # Load environment variables
@@ -188,17 +194,21 @@ def run_traditional_voting_methods(
 
 
 def run_chatgpt_voting_methods(
-    statements: List[Dict],
-    preferences: List[List[str]],
-    voter_personas: List[str],
-    openai_client: OpenAI
+    sample_statements: List[Dict],
+    sample_preferences: List[List[str]],
+    sample_personas: List[str],
+    openai_client: OpenAI,
+    all_statements: List[Dict] = None,
+    full_preferences: List[List[str]] = None,
+    voter_indices: List[int] = None,
+    topic: str = None,
 ) -> Dict[str, Dict]:
     """Run ChatGPT-based voting methods."""
     results = {}
     
     # Base ChatGPT
     try:
-        results["chatgpt"] = run_chatgpt(statements, openai_client)
+        results["chatgpt"] = run_chatgpt(sample_statements, openai_client)
     except Exception as e:
         logger.error(f"Error running chatgpt: {e}")
         results["chatgpt"] = {"winner": None, "error": str(e)}
@@ -206,7 +216,7 @@ def run_chatgpt_voting_methods(
     # ChatGPT with rankings
     try:
         results["chatgpt_rankings"] = run_chatgpt_with_rankings(
-            statements, preferences, openai_client
+            sample_statements, sample_preferences, openai_client
         )
     except Exception as e:
         logger.error(f"Error running chatgpt_rankings: {e}")
@@ -215,11 +225,66 @@ def run_chatgpt_voting_methods(
     # ChatGPT with personas
     try:
         results["chatgpt_personas"] = run_chatgpt_with_personas(
-            statements, voter_personas, openai_client
+            sample_statements, sample_personas, openai_client
         )
     except Exception as e:
         logger.error(f"Error running chatgpt_personas: {e}")
         results["chatgpt_personas"] = {"winner": None, "error": str(e)}
+    
+    # ChatGPT* variants (generate from all statements, select from sample)
+    if all_statements is not None:
+        try:
+            results["chatgpt_star"] = run_chatgpt_star(
+                all_statements, sample_statements, openai_client
+            )
+        except Exception as e:
+            logger.error(f"Error running chatgpt_star: {e}")
+            results["chatgpt_star"] = {"winner": None, "error": str(e)}
+        
+        try:
+            results["chatgpt_star_rankings"] = run_chatgpt_star_with_rankings(
+                all_statements, sample_statements, sample_preferences, openai_client
+            )
+        except Exception as e:
+            logger.error(f"Error running chatgpt_star_rankings: {e}")
+            results["chatgpt_star_rankings"] = {"winner": None, "error": str(e)}
+        
+        try:
+            results["chatgpt_star_personas"] = run_chatgpt_star_with_personas(
+                all_statements, sample_personas, openai_client
+            )
+        except Exception as e:
+            logger.error(f"Error running chatgpt_star_personas: {e}")
+            results["chatgpt_star_personas"] = {"winner": None, "error": str(e)}
+    
+    # ChatGPT** variants (generate new statement)
+    if all_statements is not None and full_preferences is not None and voter_indices is not None and topic is not None:
+        try:
+            results["chatgpt_double_star"] = run_chatgpt_double_star(
+                sample_statements, all_statements, sample_personas,
+                full_preferences, voter_indices, topic, openai_client
+            )
+        except Exception as e:
+            logger.error(f"Error running chatgpt_double_star: {e}")
+            results["chatgpt_double_star"] = {"winner": None, "error": str(e)}
+        
+        try:
+            results["chatgpt_double_star_rankings"] = run_chatgpt_double_star_with_rankings(
+                sample_statements, sample_preferences, all_statements,
+                sample_personas, full_preferences, voter_indices, topic, openai_client
+            )
+        except Exception as e:
+            logger.error(f"Error running chatgpt_double_star_rankings: {e}")
+            results["chatgpt_double_star_rankings"] = {"winner": None, "error": str(e)}
+        
+        try:
+            results["chatgpt_double_star_personas"] = run_chatgpt_double_star_with_personas(
+                sample_statements, sample_personas, all_statements,
+                full_preferences, voter_indices, topic, openai_client
+            )
+        except Exception as e:
+            logger.error(f"Error running chatgpt_double_star_personas: {e}")
+            results["chatgpt_double_star_personas"] = {"winner": None, "error": str(e)}
     
     return results
 
@@ -235,7 +300,8 @@ def run_mini_rep(
     voter_personas: List[str],
     mini_rep_id: int,
     openai_client: OpenAI,
-    run_chatgpt_methods: bool = True
+    run_chatgpt_methods: bool = True,
+    topic: str = None
 ) -> Dict:
     """
     Run voting evaluation on a mini-rep (20×20 subsample).
@@ -248,6 +314,7 @@ def run_mini_rep(
         mini_rep_id: Index of this mini-rep (0-4)
         openai_client: OpenAI client
         run_chatgpt_methods: Whether to run ChatGPT-based methods
+        topic: Topic question string (for ChatGPT** methods)
         
     Returns:
         Dict with results for all voting methods
@@ -271,7 +338,14 @@ def run_mini_rep(
     # Run ChatGPT methods if requested
     if run_chatgpt_methods:
         chatgpt_results = run_chatgpt_voting_methods(
-            sample_statements, sample_prefs, sample_personas, openai_client
+            sample_statements=sample_statements,
+            sample_preferences=sample_prefs,
+            sample_personas=sample_personas,
+            openai_client=openai_client,
+            all_statements=statements,
+            full_preferences=full_preferences,
+            voter_indices=voter_indices,
+            topic=topic,
         )
         results.update(chatgpt_results)
     
@@ -362,7 +436,7 @@ def run_single_condition(
         }, f, indent=2)
     
     # Build preference matrix
-    logger.info("Building preference matrix (A*-low)...")
+    logger.info("Building preference matrix (A-low)...")
     start_time = time.time()
     topic_question = TOPIC_QUESTIONS.get(topic_slug, topic_slug)
     
@@ -400,7 +474,8 @@ def run_single_condition(
             voter_personas=voter_personas,
             mini_rep_id=mini_rep_id,
             openai_client=openai_client,
-            run_chatgpt_methods=run_chatgpt_methods
+            run_chatgpt_methods=run_chatgpt_methods,
+            topic=topic_question
         )
         mini_rep_results.append(result)
         

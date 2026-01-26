@@ -51,9 +51,9 @@
       "full_winner_idx": "95"
     },
     "borda": {
-      "winner": "1",
+      "winner": "3",
       "epsilon": 0.0,
-      "full_winner_idx": "95"
+      "full_winner_idx": "71"
     },
     "irv": {
       "winner": "1",
@@ -66,21 +66,50 @@
       "full_winner_idx": "95"
     },
     "veto_by_consumption": {
-      "winner": "18",
+      "winner": "3",
       "epsilon": 0.0,
-      "full_winner_idx": "52"
+      "full_winner_idx": "71"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Any reform should reduce the chance that the presidency contradicts the voters\u2019 overall will, while keeping elections administered by states and preserving a meaningful role for diverse regions. A broadly acceptable step is to replace winner-take-all with a uniform allocation rule\u2014such as district-based electors with a small statewide pool for the top finisher\u2014paired with binding electors, transparent audits, and automatic recounts in close contests. If experience and trust grow, states could then choose to coordinate through a popular-vote compact or a constitutional update with clear, simple rules and a majority-ensuring runoff or ranked-choice option.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep state-run elections and the federal balance, while making outcomes track the national popular will more closely and reducing winner-take-all distortions that sideline voters in \u201csafe\u201d states. A practical bridge is for states to allocate electors proportionally and require electors to follow the certified vote, backed by clear nationwide baselines for ballot access, audits, and automatic recount triggers so results are transparent and trusted. If broader buy-in develops, the National Popular Vote Interstate Compact can be phased in under the same integrity rules, with ranked-choice voting or a runoff to reduce spoiler fears and reward coalition-building across regions.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make the presidential result feel fair and easy to trust\u2014so every voter matters beyond a few swing states\u2014while keeping elections administered by states under clear, auditable, nationwide baseline standards for access, ballot security, counting, and automatic recounts in close races. A practical step is to curb winner-take-all by moving states toward proportional elector allocation (or, where states choose, the National Popular Vote Interstate Compact once there is broad buy-in), paired with firm rules binding electors to the certified vote. If additional legitimacy is needed, a simple runoff or ranked-choice option can reduce spoiler fears and encourage candidates to build support across urban, rural, and small-state communities.",
+      "is_new": true
     }
   }
 }

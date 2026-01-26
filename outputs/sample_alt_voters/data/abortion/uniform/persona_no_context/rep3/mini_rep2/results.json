@@ -46,41 +46,77 @@
   ],
   "results": {
     "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.22999999999999998,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.22999999999999998,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.21999999999999997,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "19",
+      "epsilon": 0.24,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star_rankings": {
       "winner": "12",
       "epsilon": 0.0,
       "full_winner_idx": "18"
     },
-    "borda": {
-      "winner": "9",
-      "epsilon": 0.0,
-      "full_winner_idx": "60"
+    "chatgpt_star_personas": {
+      "winner": "19",
+      "epsilon": 0.24,
+      "full_winner_idx": "16"
     },
-    "irv": {
-      "winner": "9",
-      "epsilon": 0.0,
-      "full_winner_idx": "60"
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by a commitment to protect life and health, recognizing both the moral significance many attach to pregnancy and the reality that some situations are urgent, complex, and deeply personal. A durable middle-ground policy should guarantee timely, evidence-based care and clearly defined exceptions for threats to a patient\u2019s life, serious health harms, and other extreme circumstances, while avoiding vague rules that deter doctors from providing necessary treatment. At the same time, it should work to make abortion less common by expanding contraception access, accurate education, prenatal and mental-health care, and practical support for parenting and adoption, so fewer people face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
     },
-    "plurality": {
-      "winner": "5",
-      "epsilon": 0.0,
-      "full_winner_idx": "0"
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity, and evidence-based medicine that protects patients\u2019 health and safety while acknowledging the moral weight many people place on developing life. Policy should keep time-sensitive decisions as close as possible to the patient and clinician, with clear, consistent standards and well-defined exceptions for life-threatening and serious health complications, and without criminalizing patients or doctors. Common ground is strengthened by investing in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postnatal care, adoption resources, and practical help for parents\u2014so fewer people feel cornered into this decision.",
+      "is_new": true,
+      "epsilon": 0.0
     },
-    "veto_by_consumption": {
-      "winner": "17",
-      "epsilon": 0.0,
-      "full_winner_idx": "78"
-    },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
-    "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
-    "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by respect for human dignity\u2014of the pregnant person and of developing life\u2014while keeping medical decisions grounded in evidence-based care, clear standards for clinicians, and compassion for families facing hard realities. A workable approach protects timely access to care and privacy, includes straightforward exceptions for threats to life and serious health complications, and avoids criminalizing patients or doctors acting in good faith. Common ground is strengthened by reducing unintended pregnancies through accurate education and affordable contraception, and by expanding practical supports\u2014prenatal and mental-health care, adoption services, childcare, and help for families\u2014so fewer people feel forced into this decision.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

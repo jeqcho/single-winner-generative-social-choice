@@ -66,21 +66,52 @@
       "full_winner_idx": "0"
     },
     "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
       "winner": "10",
       "epsilon": 0.0,
       "full_winner_idx": "0"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
-    "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "32"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should make the presidency track the choices of voters more closely while keeping states meaningfully involved in administering elections. A middle-ground path is to end winner-take-all by requiring proportional allocation of electors in every state and pairing that with uniform national baseline standards for ballot access, counting, audits, and recounts. If consensus grows beyond that, the National Popular Vote Interstate Compact could serve as a clear next step, but only with safeguards so close results are transparent and broadly accepted.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential elections should be updated so outcomes track the national popular will more closely and every voter\u2019s ballot carries comparable weight, while still keeping states meaningfully involved. A strong bridge is to adopt the National Popular Vote Interstate Compact or, if the Electoral College remains, require proportional allocation of electors (instead of winner-take-all) and ensure electors reflect their state\u2019s result. Pair any change with clear national standards for ballot access, counting, recounts, and transparency, and consider ranked-choice voting to reward broad coalitions and reduce polarization.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A strong middle-ground reform is to keep a state-based Electoral College but end winner-take-all by allocating each state\u2019s electors proportionally, so fewer voters feel written off in \u201csafe\u201d states while smaller states still retain a distinct role. In parallel, adopt clear national baseline standards for ballot access, secure counting, and automatic recount triggers in very close races, so outcomes are transparent and consistently administered across languages and communities. If broader change is desired, the National Popular Vote Interstate Compact can be used as a phased, testable path toward aligning the presidency with the national popular will without abrupt constitutional disruption.",
+      "is_new": true
     }
   }
 }

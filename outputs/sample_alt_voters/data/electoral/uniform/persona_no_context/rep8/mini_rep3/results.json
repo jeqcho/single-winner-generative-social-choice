@@ -71,16 +71,49 @@
       "full_winner_idx": "39"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "86",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "36",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to make presidential elections feel both fair and nationally legitimate while still preserving a meaningful role for states and smaller communities. A workable compromise is to keep the Electoral College but replace winner-take-all with a proportional method that includes a modest statewide bonus for the top finisher, paired with uniform national standards for ballot access, counting, audits, and recount triggers. Over time, states could opt into the National Popular Vote Interstate Compact once the rules are proven stable, so the system better matches the national vote without a sudden constitutional rupture.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fair in every state while keeping states and smaller communities meaningfully represented. A practical bridge is to keep the Electoral College but reduce winner-take-all distortions through proportional (or district-based) allocation of electors, and adopt clear nationwide standards for ballot access, counting, post\u2011election audits, and recounts. For those who want outcomes to track the national will more closely, the National Popular Vote Interstate Compact can serve as an incremental path once enough states join, paired with safeguards like ranked-choice voting or majority-runoff rules so the winner has broad support. These steps would shift campaigns beyond a few swing areas and strengthen trust in close results.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should be both fair and easy to trust, so that voters in big cities, small towns, and rural areas feel their ballot matters without any one region being ignored. A practical compromise is to keep the state-based system but end winner-take-all by requiring proportional (or district-based) allocation of electors, while also setting clear nationwide baseline standards for ballot access, secure counting, audits, and recounts. States that want to go further could adopt the National Popular Vote Interstate Compact once it guarantees uniform rules and a clear national recount trigger. These steps would reduce swing-state distortion, encourage candidates to compete everywhere, and improve legitimacy no matter who wins.",
+      "is_new": true
     }
   }
 }

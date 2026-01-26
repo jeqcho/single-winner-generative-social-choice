@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "18",
+      "winner": "17",
       "epsilon": 0.0,
-      "full_winner_idx": "39"
+      "full_winner_idx": "47"
     },
     "borda": {
-      "winner": "18",
+      "winner": "0",
       "epsilon": 0.0,
-      "full_winner_idx": "39"
+      "full_winner_idx": "16"
     },
     "irv": {
-      "winner": "5",
+      "winner": "3",
       "epsilon": 0.0,
-      "full_winner_idx": "77"
+      "full_winner_idx": "90"
     },
     "plurality": {
       "winner": "5",
-      "epsilon": 0.0,
+      "epsilon": 0.30000000000000004,
       "full_winner_idx": "77"
     },
     "veto_by_consumption": {
-      "winner": "18",
+      "winner": "0",
       "epsilon": 0.0,
-      "full_winner_idx": "39"
+      "full_winner_idx": "16"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform is to keep the states\u2019 role in running elections while aligning the outcome more consistently with the national vote and reducing all-or-nothing incentives. States could adopt a uniform proportional (or top-two) allocation rule for electors, require electors to follow the certified result, and expand the House to narrow the population gap between states\u2019 electoral weights. Pair those changes with shared national baselines for ballot access, paper-backed tabulation, risk-limiting audits, and automatic recount triggers so close elections are decided by transparent rules rather than improvised litigation.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep state-run elections and the Electoral College framework, but curb winner-take-all so outcomes track the popular will more closely\u2014ideally through proportional elector allocation (and, if support grows, a National Popular Vote compact as an optional next step). Electors should be bound to the certified state result, and Congress should set clear national minimum standards for ballot access, secure chain-of-custody, paper-backed risk-limiting audits, and automatic recount triggers. These changes reduce swing-state distortion and \u201cwrong-winner\u201d risk while preserving federalism and making close elections easier to verify and accept.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform is to keep state-run elections but reduce winner-take-all so presidential outcomes better match how people actually vote, while still encouraging geographically broad support. States could allocate electors proportionally (with electors legally bound to certified results) or adopt a national popular-vote compact as a voluntary path, and either approach should come with clear national minimum standards for registration, ballot handling, paper-backed risk-limiting audits, and automatic recount triggers. That combination makes close elections less likely to spiral into court fights, makes campaigns compete beyond a few swing areas, and improves trust without requiring Washington to run elections day-to-day.",
+      "is_new": true
     }
   }
 }

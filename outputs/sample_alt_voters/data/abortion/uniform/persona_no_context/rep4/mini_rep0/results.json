@@ -46,41 +46,73 @@
   ],
   "results": {
     "schulze": {
-      "winner": "7",
-      "epsilon": 0.0,
-      "full_winner_idx": "57"
+      "winner": "2",
+      "epsilon": null,
+      "full_winner_idx": "83"
     },
     "borda": {
-      "winner": "7",
-      "epsilon": 0.0,
-      "full_winner_idx": "57"
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "97"
     },
     "irv": {
-      "winner": "8",
-      "epsilon": 0.0,
-      "full_winner_idx": "75"
+      "winner": "13",
+      "epsilon": null,
+      "full_winner_idx": "54"
     },
     "plurality": {
-      "winner": "3",
-      "epsilon": 0.0,
-      "full_winner_idx": "89"
+      "winner": "18",
+      "epsilon": null,
+      "full_winner_idx": "11"
     },
     "veto_by_consumption": {
       "winner": "4",
-      "epsilon": 0.0,
+      "epsilon": null,
       "full_winner_idx": "69"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "97"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "13",
+      "epsilon": null,
+      "full_winner_idx": "54"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "54"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to reduce harm and protect dignity by grounding rules in medical evidence while acknowledging the deep moral disagreement about when life deserves legal protection. A durable middle ground preserves timely access early in pregnancy and guarantees unambiguous exceptions for rape, incest, severe fetal anomaly, and serious risks to the pregnant person\u2019s life or health, with clear guidance that lets clinicians act without fear in emergencies. At the same time, policy should invest in prevention and support\u2014contraception, accurate education, prenatal and postpartum care, childcare and economic assistance, and adoption services\u2014so fewer people face unwanted or crisis pregnancies and fewer feel coerced by poverty or lack of options.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, respect for human life, and evidence-based medical standards, recognizing that pregnancies can involve urgent, complex circumstances. A workable middle ground protects the ability to make timely decisions with qualified clinicians\u2014especially in cases of rape, incest, severe fetal conditions, or serious threats to the pregnant person\u2019s health\u2014while setting clear, transparent rules that protect patients and doctors from politicized punishment. At the same time, communities should reduce unwanted pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and postpartum care, and real support for parenting and adoption, so fewer families feel cornered into crisis choices.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should protect human dignity by taking seriously both the moral value many attach to unborn life and the right of pregnant people to make time-sensitive medical decisions with qualified clinicians. A workable common ground is clear, medically defined protections for the pregnant person\u2019s life and health and for pregnancies involving rape or incest, paired with early-pregnancy access and transparent standards that give doctors legal clarity without criminalizing patients. At the same time, policy should focus on prevention and support\u2014affordable contraception, accurate education, prenatal and mental-health care, and practical help for parenting or adoption\u2014so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

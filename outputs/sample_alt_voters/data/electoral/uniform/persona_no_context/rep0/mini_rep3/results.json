@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "6",
+      "winner": "10",
       "epsilon": 0.0,
-      "full_winner_idx": "2"
+      "full_winner_idx": "86"
     },
     "borda": {
-      "winner": "6",
+      "winner": "14",
       "epsilon": 0.0,
-      "full_winner_idx": "2"
+      "full_winner_idx": "32"
     },
     "irv": {
-      "winner": "3",
-      "epsilon": 0.0,
-      "full_winner_idx": "90"
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "2"
     },
     "plurality": {
       "winner": "6",
-      "epsilon": 0.0,
+      "epsilon": 0.020000000000000018,
       "full_winner_idx": "2"
     },
     "veto_by_consumption": {
-      "winner": "6",
+      "winner": "0",
       "epsilon": 0.0,
-      "full_winner_idx": "2"
+      "full_winner_idx": "16"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "32",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_personas": {
+      "winner": "22",
+      "epsilon": 0.0,
+      "full_winner_idx": "22"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise would keep the Constitution\u2019s state role while ensuring the winner aligns with the voters overall and the rules are predictable in every state. States could move away from winner-take-all by adopting proportional elector allocation (with a small threshold to avoid extreme fragmentation) and pairing it with uniform national standards for ballot access, audits, recount triggers, and deadlines. Whether implemented through state law, an interstate compact, or ultimately an amendment, the goal is to reduce swing-state distortions, protect smaller-state confidence, and make outcomes easier for the public to understand and accept.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A practical reform should make the presidential outcome track the national popular will more closely while preserving a meaningful state role and confidence in close elections. A strong middle path is to adopt the National Popular Vote Interstate Compact or, if the Electoral College remains, require proportional or district-based allocation of electors to reduce winner-take-all distortions and swing-state dominance. Either way, reforms should include clear, uniform national standards for ballot access, counting, audits, and recounts\u2014along with safeguards against faithless electors\u2014so results are transparent, timely, and broadly accepted.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A practical reform should make the presidential outcome track the national popular will more closely so every voter\u2014whether in a big city, small town, or rural county\u2014feels their ballot counts the same, while still keeping states responsible for running elections. A workable bridge is the National Popular Vote Interstate Compact or proportional allocation of electors within each state, paired with clear national standards for ballot access, paper-based audits, and consistent recount rules. These changes would reduce winner-take-all \u201cswing state\u201d politics, encourage broader coalition-building campaigns, and strengthen trust by making results transparent and predictable.",
+      "is_new": true
     }
   }
 }

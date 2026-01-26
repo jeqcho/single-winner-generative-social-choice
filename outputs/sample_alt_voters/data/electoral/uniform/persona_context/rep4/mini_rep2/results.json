@@ -51,9 +51,9 @@
       "full_winner_idx": "94"
     },
     "borda": {
-      "winner": "8",
+      "winner": "18",
       "epsilon": 0.0,
-      "full_winner_idx": "59"
+      "full_winner_idx": "94"
     },
     "irv": {
       "winner": "18",
@@ -61,26 +61,59 @@
       "full_winner_idx": "94"
     },
     "plurality": {
-      "winner": "10",
+      "winner": "18",
       "epsilon": 0.0,
-      "full_winner_idx": "8"
+      "full_winner_idx": "94"
     },
     "veto_by_consumption": {
-      "winner": "19",
+      "winner": "9",
       "epsilon": 0.0,
-      "full_winner_idx": "16"
+      "full_winner_idx": "60"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "97",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_personas": {
+      "winner": "76",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "76"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform would keep the Electoral College\u2019s state-based structure but reduce the winner-take-all distortion that makes most states irrelevant and can diverge from the national vote. States could allocate electors proportionally with a small minimum threshold and require electors to be bound to the certified result, while Congress sets limited national baseline standards for transparent ballots, paper-backed audits, and automatic recount triggers. This keeps campaigns incentivized to build geographically broad support, makes results easier to verify and accept, and gives voters in every state a clearer stake in the outcome.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College and state-run elections, but reduce winner-take-all distortions so outcomes more reliably track how Americans actually vote and fewer people feel ignored in \u201csafe\u201d states. A practical compromise is proportional (or district-based) allocation of electors, binding electors to the certified result, and clear national baseline standards for ballot access, paper-backed audits, and automatic recount triggers applied consistently in every state. Where feasible, adding ranked-choice voting can encourage broader coalitions and reduce incentives for swing-state brinkmanship, making close results easier to accept.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College\u2019s state-based role, but reduce \u201cswing-state\u201d distortions by replacing winner-take-all with a transparent proportional allocation of electors (with states free to use the same method nationwide). To make the outcome credible and easier to accept, require electors to follow the certified results and set clear national baseline standards for ballot access, voter ID/verification options, paper-backed audits, and automatic recount triggers in close races. These reforms preserve federalism and smaller-state visibility while making the final result track the voters more closely and giving people in every state a reason to believe their vote matters.",
+      "is_new": true
     }
   }
 }

@@ -71,16 +71,45 @@
       "full_winner_idx": "0"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "19"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "44"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A bipartisan middle-ground reform is to keep the Electoral College but make it track voter intent more closely by limiting winner-take-all through proportional or district-based allocation, while requiring electors to reflect the certified results. At the same time, Congress and the states should agree on baseline national standards for ballot access, paper-backed audits, and automatic recounts in very close contests so outcomes are transparent and harder to dispute. This approach preserves a meaningful state role and geographic legitimacy while reducing the sense that a handful of swing-state margins decide everything.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "The Electoral College should be retained to preserve the role of states and smaller communities, but reformed so outcomes track voter intent more closely and are easier to trust. A practical compromise is to end winner-take-all by allocating electors proportionally or by congressional district (with statewide electors), require electors to follow the state\u2019s certified vote, and adopt uniform national standards for ballot access, recount triggers, audits, and transparent certification. These updates would reduce \u201cswing state\u201d distortion, strengthen election integrity and legitimacy, and make every lawful vote matter without a wholesale constitutional rewrite.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A common-sense reform is to keep the Electoral College\u2019s state role but make outcomes track voter intent more closely and consistently across the country. States could be encouraged (or required) to award electors proportionally or by district with clear guardrails, while adopting uniform national standards for ballot access, voter verification, paper-backed audits, and automatic recounts in very close races. These changes would reduce winner-take-all distortions and \u201cswing state\u201d overfocus, strengthen security and transparency, and still preserve a meaningful voice for smaller and rural communities.",
+      "is_new": true
     }
   }
 }

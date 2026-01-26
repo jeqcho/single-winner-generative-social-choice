@@ -51,9 +51,9 @@
       "full_winner_idx": "42"
     },
     "borda": {
-      "winner": "2",
+      "winner": "13",
       "epsilon": 0.0,
-      "full_winner_idx": "42"
+      "full_winner_idx": "69"
     },
     "irv": {
       "winner": "2",
@@ -71,16 +71,49 @@
       "full_winner_idx": "18"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "28",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "52",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people can agree the presidential election system should make outcomes feel legitimate, reduce \u201cswing state\u201d overemphasis, and avoid rules that invite post-election chaos. A practical middle path is to keep states administering elections but change incentives: require states to allocate electors proportionally (or by ranked-choice totals) and adopt uniform national standards for recounts, certification timelines, and ballot access. These steps would preserve a state-based framework while making more votes matter in every state and producing clearer, more widely accepted results.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people want presidential elections that are trusted, transparent, and make more voters feel their ballots matter, while still preserving a meaningful role for states. A practical compromise is to keep the Electoral College framework but reduce winner-take-all distortions through proportional (or ranked-choice-informed) allocation of electors, paired with clearer national standards for recounts/certification and stronger voting access. In parallel, we can openly evaluate options like expanding the House or the National Popular Vote Interstate Compact against shared criteria\u2014legitimacy, stability in close elections, and constitutional durability\u2014rather than partisan advantage.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people want presidential elections that feel fair, are easy to understand, and are accepted as legitimate even in close years\u2014while still respecting the states\u2019 role in running elections. A practical bridge is to reduce winner-take-all distortions through proportional (or ranked-choice) allocation of electors within states, paired with clear nationwide standards for ballot access, recounts, and certification to build trust. We can compare options like these, the National Popular Vote Interstate Compact, and House expansion against shared criteria: making more votes matter, protecting geographic balance, and minimizing contested outcomes.",
+      "is_new": true
     }
   }
 }

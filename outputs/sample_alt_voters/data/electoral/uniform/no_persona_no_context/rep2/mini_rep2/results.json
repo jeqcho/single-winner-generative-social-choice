@@ -47,40 +47,73 @@
   "results": {
     "schulze": {
       "winner": "2",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "42"
     },
     "borda": {
       "winner": "2",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "42"
     },
     "irv": {
-      "winner": "2",
+      "winner": "9",
       "epsilon": 0.0,
-      "full_winner_idx": "42"
+      "full_winner_idx": "60"
     },
     "plurality": {
       "winner": "2",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "42"
     },
     "veto_by_consumption": {
-      "winner": "2",
+      "winner": "13",
       "epsilon": 0.0,
-      "full_winner_idx": "42"
+      "full_winner_idx": "69"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "4"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most Americans can agree the presidential vote should be easy to understand, hard to game, and produce a winner who can credibly claim broad support across the country. A practical compromise is to keep elections administered by states but reduce winner-take-all distortions by encouraging proportional or district-based elector allocation and adopting uniform standards for recounts and certification. If those steps still leave a persistent gap between the national vote and the outcome, a clearly triggered national popular-vote mechanism (such as an interstate compact) could serve as a backstop rather than an immediate overhaul.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even if we disagree about keeping or replacing the Electoral College, most of us want presidential elections that feel legitimate, reduce swing-state distortions, and maintain confidence in close outcomes. A practical compromise is to evaluate reforms on shared criteria\u2014fairness, stability, and incentives to campaign nationwide\u2014while considering options like ending winner-take-all through proportional or district-based elector allocation and/or the National Popular Vote Interstate Compact. Whatever path we choose should include clear recount standards and transparent transition rules so results are trusted across states and parties.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "No matter where we stand on the Electoral College, most of us want every eligible voter\u2019s ballot to matter, outcomes to match clearly expressed voter intent, and the losing side to trust the process enough to accept the result. A practical middle path is to reduce \u201cwinner-take-all\u201d incentives by encouraging proportional or district-based elector allocation, while also strengthening nationwide baseline rules for voting access, auditing, and recounts so close elections are handled consistently. If more states agree, the National Popular Vote Interstate Compact can be treated as a transparent trigger-based option\u2014activated only once it reaches the electoral threshold and paired with clear recount standards\u2014so reforms can increase legitimacy without abrupt constitutional disruption.",
+      "is_new": true
     }
   }
 }

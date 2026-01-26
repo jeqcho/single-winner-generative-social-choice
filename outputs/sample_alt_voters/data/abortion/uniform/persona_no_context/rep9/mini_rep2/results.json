@@ -46,41 +46,72 @@
   ],
   "results": {
     "schulze": {
-      "winner": "1",
-      "epsilon": 0.0,
-      "full_winner_idx": "55"
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c3, \n2.) c10, \n3.) c18, \n4.) c6, \n5.) c9, \n6.) c19, \n7.) c1, \n8.) c7, \n9.) c15, \n10.) c17, \n11.) c5, \n12.) c4, \n13.) c16, \n14.) c11, \n15.) c13, \n16.) c0, \n17.) c8, \n18.) c2, \n19.) c12, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
     },
     "borda": {
-      "winner": "2",
-      "epsilon": 0.0,
-      "full_winner_idx": "42"
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c3, \n2.) c10, \n3.) c18, \n4.) c6, \n5.) c9, \n6.) c19, \n7.) c1, \n8.) c7, \n9.) c15, \n10.) c17, \n11.) c5, \n12.) c4, \n13.) c16, \n14.) c11, \n15.) c13, \n16.) c0, \n17.) c8, \n18.) c2, \n19.) c12, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
     },
     "irv": {
-      "winner": "3",
-      "epsilon": 0.0,
-      "full_winner_idx": "28"
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c3, \n2.) c10, \n3.) c18, \n4.) c6, \n5.) c9, \n6.) c19, \n7.) c1, \n8.) c7, \n9.) c15, \n10.) c17, \n11.) c5, \n12.) c4, \n13.) c16, \n14.) c11, \n15.) c13, \n16.) c0, \n17.) c8, \n18.) c2, \n19.) c12, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
     },
     "plurality": {
-      "winner": "3",
-      "epsilon": 0.0,
-      "full_winner_idx": "28"
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c3, \n2.) c10, \n3.) c18, \n4.) c6, \n5.) c9, \n6.) c19, \n7.) c1, \n8.) c7, \n9.) c15, \n10.) c17, \n11.) c5, \n12.) c4, \n13.) c16, \n14.) c11, \n15.) c13, \n16.) c0, \n17.) c8, \n18.) c2, \n19.) c12, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
     },
     "veto_by_consumption": {
-      "winner": "2",
-      "epsilon": 0.0,
-      "full_winner_idx": "42"
+      "winner": null,
+      "error": "Alternative '-1' not found in alternatives list"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "11"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "28"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_personas": {
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect human dignity in a pluralistic society by respecting the moral seriousness many attach to fetal life while keeping patients safe and preserving space for private medical decision-making. A workable framework can guarantee timely, evidence-based care\u2014especially when a pregnancy threatens a patient\u2019s life or health or involves profound medical hardship\u2014while allowing democratically set limits that are clear, medically workable, and not enforced through criminalizing patients or routine clinical judgment. Common ground grows when policy also prevents unintended pregnancy and supports families with contraception and sex education, prenatal and postpartum care, and practical economic help, so fewer people face desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, sound medical evidence, and respect for human dignity, recognizing both the moral seriousness many attach to potential life and the need for patients to make timely decisions with qualified clinicians. A workable approach protects access to safe care early in pregnancy, sets clear and humane limits later, and includes well-defined exceptions for serious threats to the mother\u2019s life or health, rape or incest, and severe fetal anomalies. Policy should also reduce crisis pregnancies by expanding comprehensive sex education, affordable contraception, prenatal and maternal healthcare, and practical support for parenting and adoption, without criminalizing families or politicizing doctors.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by respect for both human life and a patient\u2019s right to timely, evidence-based medical care, recognizing that families face complex moral, health, and economic realities. A durable approach sets clear, workable standards with medical judgment protected, including unambiguous exceptions for threats to the mother\u2019s life or serious health, and for circumstances like rape or incest, while avoiding rules that punish patients or criminalize clinicians acting in good faith. At the same time, policy should focus on preventing crisis pregnancies and supporting families through comprehensive sex education, affordable contraception, prenatal and maternal care, mental-health support, and stronger adoption and childcare resources so fewer people feel cornered into desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

@@ -46,14 +46,14 @@
   ],
   "results": {
     "schulze": {
-      "winner": "7",
-      "epsilon": 0.0,
-      "full_winner_idx": "57"
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
     },
     "borda": {
-      "winner": "7",
+      "winner": "6",
       "epsilon": 0.0,
-      "full_winner_idx": "57"
+      "full_winner_idx": "28"
     },
     "irv": {
       "winner": "1",
@@ -66,21 +66,54 @@
       "full_winner_idx": "91"
     },
     "veto_by_consumption": {
-      "winner": "9",
+      "winner": "0",
       "epsilon": 0.0,
-      "full_winner_idx": "35"
+      "full_winner_idx": "25"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for outcomes that usually match the national popular will while preserving a meaningful state role and reducing the current \u201cswing-state\u201d imbalance. A workable compromise is to keep the Electoral College but end winner-take-all by requiring proportional (or ranked-choice\u2013based) elector allocation within states, paired with uniform, transparent national rules for ballots, recount triggers, and post-election audits. This approach makes more votes matter in more places, protects smaller-state concerns about being ignored, and strengthens legitimacy by making the process clearer and harder to game.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should reduce \u201cwinner-take-all\u201d swing\u2011state distortions and better align outcomes with the national popular will, while keeping a meaningful role for states and smaller communities. A practical bridge is to adopt the National Popular Vote Interstate Compact with clear legal guardrails, or\u2014if the Electoral College remains\u2014to require proportional or district-based allocation with strong anti\u2011gerrymandering protections. Pair either path with uniform national standards for ballot access, audits, and recount procedures so every lawful vote is counted transparently and the result is broadly trusted.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable reform should keep states central in presidential elections while making outcomes track the national popular will more reliably and ensuring voters in every state feel their ballots matter. A strong bridge is either joining the National Popular Vote Interstate Compact or, if the Electoral College remains, requiring proportional (not winner-take-all) allocation of electors with ranked-choice ballots to encourage broader, less polarizing campaigns. Any path should be paired with clear nationwide baseline standards for ballot access, multilingual support where needed, secure chain-of-custody, transparent post-election audits, and uniform recount triggers so both parties\u2014and everyday voters\u2014can trust the result.",
+      "is_new": true
     }
   }
 }

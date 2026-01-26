@@ -47,40 +47,76 @@
   "results": {
     "schulze": {
       "winner": "4",
-      "epsilon": 0.0,
+      "epsilon": 0.030000000000000027,
       "full_winner_idx": "42"
     },
     "borda": {
-      "winner": "4",
+      "winner": "1",
       "epsilon": 0.0,
-      "full_winner_idx": "42"
+      "full_winner_idx": "88"
     },
     "irv": {
       "winner": "4",
-      "epsilon": 0.0,
+      "epsilon": 0.030000000000000027,
       "full_winner_idx": "42"
     },
     "plurality": {
       "winner": "18",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.020000000000000018,
       "full_winner_idx": "30"
     },
     "veto_by_consumption": {
-      "winner": "7",
+      "winner": "1",
       "epsilon": 0.0,
-      "full_winner_idx": "61"
+      "full_winner_idx": "88"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "98",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to practical compassion: protecting developing life where possible while ensuring that no one is compelled by law into serious medical risk, coercion, or desperation. A durable compromise pairs clear, medically defined health exceptions and clinician discretion in urgent cases with strong prevention efforts\u2014sex education, affordable contraception, and accessible prenatal and maternal care. It should also expand economic and childcare supports so continuing a pregnancy is a realistic option, while keeping the law focused on safety and accountability rather than stigma or punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical evidence, and a commitment to reduce harm in a morally contested area. Common ground includes preventing unintended pregnancies through education and contraception, protecting timely access to safe care with clear medical exceptions and clinician discretion in emergencies, and avoiding rules that push people into dangerous situations. At the same time, policy should invest in prenatal care, childcare, and economic supports so that choosing to carry a pregnancy to term, parent, or pursue adoption is genuinely feasible.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by respect for human dignity in a morally contested area\u2014protecting pregnant patients\u2019 health and agency while taking seriously the value many place on developing life. A practical common-ground framework prioritizes medically evidence-based rules, clear and broad health exceptions, and legal clarity that lets clinicians provide timely care without fear. At the same time, it should invest in prevention and support\u2014accurate education, affordable contraception, maternal healthcare, childcare, and economic help\u2014so fewer pregnancies become crises and fewer families feel cornered into any choice.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

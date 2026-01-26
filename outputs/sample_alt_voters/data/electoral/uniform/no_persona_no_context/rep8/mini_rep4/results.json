@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "17",
-      "epsilon": 0.0,
-      "full_winner_idx": "99"
-    },
-    "borda": {
-      "winner": "17",
-      "epsilon": 0.0,
-      "full_winner_idx": "99"
-    },
-    "irv": {
-      "winner": "17",
-      "epsilon": 0.0,
-      "full_winner_idx": "99"
-    },
-    "plurality": {
       "winner": "13",
       "epsilon": 0.0,
       "full_winner_idx": "90"
     },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
     "veto_by_consumption": {
-      "winner": "0",
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "56",
       "epsilon": 0.0,
       "full_winner_idx": "56"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
     },
-    "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_star_personas": {
+      "winner": "84",
+      "epsilon": 0.0,
+      "full_winner_idx": "84"
     },
-    "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Instead of treating the Electoral College as untouchable or illegitimate, we can agree on reforms that make outcomes more representative while keeping states central to the process. A pragmatic package could phase out winner-take-all by encouraging proportional elector allocation, expand the House to reduce small-state distortion, and set baseline national rules for ballot access, counting, and recounts. If those changes still leave persistent legitimacy concerns, a time-limited pilot like a safeguarded National Popular Vote compact could be evaluated against clear criteria: fewer ignored voters, stable transitions, and results the public accepts.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Whatever our views of the Electoral College, most people want outcomes that feel fair, transparent, and legitimate while still preserving a meaningful role for states. A practical middle path is to keep the constitutional framework but reduce winner-take-all distortions\u2014through proportional or district-based elector allocation and measures like expanding the House\u2014so fewer votes are effectively \u201cwasted\u201d and campaigns aren\u2019t dominated by a handful of swing states. Pairing any structural change with clear, uniform standards for election administration, counting, and recounts can strengthen confidence in close results and make reforms less partisan and more durable.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People disagree on whether the Electoral College is an essential part of federalism or an unfair obstacle to majority rule, but most want a presidential election that feels transparent, every vote matters, and outcomes are widely accepted. A practical compromise is to keep the state-based structure while reducing winner-take-all distortions through proportional (or ranked-choice-based) elector allocation, paired with clearer national standards for voting access, counting, audits, and recounts. At the same time, we can evaluate bigger structural options\u2014like expanding the House or a popular-vote compact\u2014against shared criteria such as fairness, competitiveness in more states, and the ability to resolve close elections without chaos.",
+      "is_new": true
     }
   }
 }

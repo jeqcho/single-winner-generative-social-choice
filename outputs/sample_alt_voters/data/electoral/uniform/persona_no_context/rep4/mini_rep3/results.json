@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "11",
+      "winner": "1",
       "epsilon": 0.0,
-      "full_winner_idx": "83"
+      "full_winner_idx": "87"
     },
     "borda": {
-      "winner": "11",
+      "winner": "3",
       "epsilon": 0.0,
-      "full_winner_idx": "83"
+      "full_winner_idx": "90"
     },
     "irv": {
-      "winner": "11",
-      "epsilon": 0.0,
-      "full_winner_idx": "83"
-    },
-    "plurality": {
-      "winner": "11",
-      "epsilon": 0.0,
-      "full_winner_idx": "83"
-    },
-    "veto_by_consumption": {
       "winner": "18",
-      "epsilon": 0.0,
+      "epsilon": 0.030000000000000027,
       "full_winner_idx": "39"
     },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star": {
+      "winner": "30",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "32",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to keep the states\u2019 role in presidential elections while making it much harder for the national winner to lose the popular vote. A workable compromise is to end winner-take-all by encouraging proportional elector allocation in every state (with a minimum threshold to avoid excessive fragmentation) and to adopt shared national baselines for voter access, counting, audits, and recount triggers. If broader change is desired, the National Popular Vote compact can be a transition tool, but only alongside transparent, uniform administration so results are accepted across regions and parties.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep a meaningful state role while making outcomes track voters\u2019 choices more closely and feel legitimate in close elections. A practical middle ground is to end statewide winner-take-all by requiring proportional (or congressional-district) allocation of electors, paired with clear, uniform rules for ballot access, counting, audits, and recount triggers to strengthen transparency and trust. States that want an additional step could join the National Popular Vote Interstate Compact once common standards and safeguards are in place, so every vote matters without abruptly discarding federal balance.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep states\u2019 role in presidential elections while making outcomes track the voters\u2019 choice more closely and reducing the \u201cwinner-take-all\u201d effect that leaves many communities feeling ignored. A practical compromise is to end statewide winner-take-all by moving to proportional (or district-based) allocation of electors, and to expand the National Popular Vote Interstate Compact as states choose, so the national winner is less likely to diverge from the popular vote. Whatever the model, consistent baseline rules for ballot access, recount triggers, audits, and elector obligations would improve transparency, security, and legitimacy for voters in both large metros and small towns.",
+      "is_new": true
     }
   }
 }

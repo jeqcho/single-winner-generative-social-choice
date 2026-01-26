@@ -27,7 +27,7 @@ from .config import (
 )
 from .preference_builder_iterative import validate_preferences
 from .run_experiment import load_statements_for_rep
-from src.degeneracy_mitigation.iterative_ranking_star import rank_voter
+from src.degeneracy_mitigation.iterative_ranking import rank_voter
 from src.degeneracy_mitigation.config import HASH_SEED
 from src.sampling_experiment.epsilon_calculator import precompute_all_epsilons, save_precomputed_epsilons
 

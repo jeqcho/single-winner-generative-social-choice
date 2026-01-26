@@ -71,16 +71,52 @@
       "full_winner_idx": "90"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be built to be workable in real life: protect patients and clinicians with clear, medically defined rules, and avoid turning complex pregnancies into criminal cases. A balanced framework can guarantee timely care in emergencies and for serious health threats, while setting predictable, evidence-based boundaries later in pregnancy that reflect growing fetal development without overriding clinical judgment. Whatever lines are drawn, broad investment in contraception, accurate education, maternal healthcare, and practical supports for parenting or adoption should be part of the policy so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should prioritize safe, timely healthcare and clear, medically workable rules, recognizing that people disagree in good faith about when developing life deserves legal protection. A durable framework protects early access and keeps decisions centered on the patient\u2013clinician relationship, while allowing carefully defined later limits tied to medical realities such as viability, with unambiguous exceptions for threats to life or serious health harm, rape or incest, and nonviable or severe fetal conditions so emergency care is never delayed or criminalized. Whatever legal lines are set, broad investment in prevention and support\u2014contraception, accurate education, prenatal and postpartum care, childcare, and adoption resources\u2014can reduce unintended pregnancies and make real choices possible.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should protect patient health and dignity by keeping time-sensitive decisions primarily between the patient and qualified clinicians, with clear, workable rules that never delay emergency care or penalize good-faith medical treatment. Recognizing that citizens hold sincere, differing views about fetal moral status, the law can protect early access to safe care while setting medically grounded, viability-aware standards later in pregnancy with explicit exceptions for serious health risks, rape or incest, and nonviable or severe fetal conditions. Whatever the legal limits, the strongest common ground is reducing crisis pregnancies and hardship through accurate education, affordable contraception, prenatal and postpartum care, and practical supports like childcare, paid leave, and adoption resources.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

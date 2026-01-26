@@ -47,40 +47,76 @@
   "results": {
     "schulze": {
       "winner": "0",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "56"
     },
     "borda": {
       "winner": "0",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "56"
     },
     "irv": {
       "winner": "0",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "56"
     },
     "plurality": {
-      "winner": "16",
-      "epsilon": 0.0,
-      "full_winner_idx": "77"
-    },
-    "veto_by_consumption": {
       "winner": "0",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "56"
     },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star": {
+      "winner": "36",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "36",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to human dignity, medical reality, and democratic pluralism\u2014protecting pregnant patients from avoidable harm while taking seriously the moral weight many assign to developing life. A durable framework should guarantee timely care in emergencies, set clear and workable standards that clinicians can follow, and focus public policy on reducing unwanted pregnancies through education, contraception, and economic support. The measure of success is fewer preventable deaths and traumas, fewer crisis pregnancies, and more genuine options for families.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect health, human dignity, and life in a context where people disagree in good faith about when moral and legal responsibility begins. A workable common-ground approach prioritizes evidence-based prevention\u2014sex education, contraception, and economic support\u2014so fewer pregnancies become crises, while ensuring timely, safe medical care with clear protections and exceptions for emergencies and serious health risks. Policy should aim to reduce suffering and coercion, support parenting and adoption, and set clear, medically grounded standards that protect both patients and clinicians.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by protecting health, dignity, and public safety while recognizing sincere moral disagreement about fetal life and personal autonomy. A durable compromise prioritizes prevention\u2014accurate sex education, affordable contraception, and economic supports\u2014so fewer people face crisis pregnancies, and it guarantees timely, medically indicated care with clear protections for patients and clinicians in emergencies. Within that foundation, any legal boundaries should be written in plain medical terms, applied consistently, and paired with real support for parenting and adoption so choices are safer, rarer, and less coerced by hardship.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

@@ -46,9 +46,9 @@
   ],
   "results": {
     "schulze": {
-      "winner": "8",
+      "winner": "9",
       "epsilon": 0.0,
-      "full_winner_idx": "75"
+      "full_winner_idx": "35"
     },
     "borda": {
       "winner": "9",
@@ -56,31 +56,67 @@
       "full_winner_idx": "35"
     },
     "irv": {
-      "winner": "8",
+      "winner": "5",
       "epsilon": 0.0,
-      "full_winner_idx": "75"
+      "full_winner_idx": "53"
     },
     "plurality": {
-      "winner": "16",
+      "winner": "5",
       "epsilon": 0.0,
-      "full_winner_idx": "27"
+      "full_winner_idx": "53"
     },
     "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
       "winner": "9",
       "epsilon": 0.0,
       "full_winner_idx": "35"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "35",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be built around a public-health ethic: protect a pregnant person\u2019s safety and equal citizenship, recognize the moral weight many attach to fetal development, and keep time-critical care in the hands of patients and qualified clinicians. That argues for straightforward, medically defined rules\u2014early access without intrusive barriers, clearer and more protective standards as pregnancy advances, and explicit, workable exceptions for life, serious health threats, rape or incest, and nonviable pregnancies\u2014without criminal penalties for good-faith care. Any legal framework should be paired with aggressive prevention and support: affordable contraception, accurate education, prenatal and postpartum healthcare, and practical resources that make parenting or adoption a real choice rather than a financial crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in compassion, medical reality, and respect for deep moral pluralism: protect a pregnant person\u2019s health, privacy, and timely access to care while acknowledging that many attach growing moral significance to developing life. A workable framework keeps urgent decisions in the patient\u2013clinician relationship, sets clear, evidence-based standards (including for later pregnancy), and guarantees unambiguous exceptions for threats to life or serious health complications, including emergencies and nonviable pregnancies, without criminalizing good-faith patients or clinicians. Lasting common ground also requires reducing unintended pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical support for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should start from shared goals: protect a pregnant person\u2019s health and dignity, respect sincere moral and religious differences about fetal life, and keep time\u2011sensitive medical decisions guided by qualified clinicians rather than fear of prosecution. A workable compromise provides clear, evidence-based rules with unambiguous exceptions for threats to life, serious health complications, nonviable pregnancies, and pregnancies from rape or incest, while ensuring access does not depend on income or location. Lasting common ground also means reducing unintended pregnancies and pressures that drive crisis decisions through comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare and economic supports, and well-resourced adoption services.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

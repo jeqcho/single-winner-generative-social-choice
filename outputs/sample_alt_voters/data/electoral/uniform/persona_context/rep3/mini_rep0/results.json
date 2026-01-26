@@ -46,23 +46,23 @@
   ],
   "results": {
     "schulze": {
-      "winner": "9",
+      "winner": "16",
       "epsilon": 0.0,
-      "full_winner_idx": "35"
+      "full_winner_idx": "27"
     },
     "borda": {
-      "winner": "9",
+      "winner": "16",
       "epsilon": 0.0,
-      "full_winner_idx": "35"
+      "full_winner_idx": "27"
     },
     "irv": {
-      "winner": "14",
+      "winner": "16",
       "epsilon": 0.0,
-      "full_winner_idx": "43"
+      "full_winner_idx": "27"
     },
     "plurality": {
       "winner": "14",
-      "epsilon": 0.0,
+      "epsilon": 0.06000000000000005,
       "full_winner_idx": "43"
     },
     "veto_by_consumption": {
@@ -71,16 +71,49 @@
       "full_winner_idx": "27"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "35"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "35",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should make the presidential outcome track voters\u2019 choices more closely while keeping states in charge of running elections and preserving incentives for candidates to build support across regions. A widely acceptable step is to require electors to be bound to certified results and replace winner\u2011take\u2011all with a uniform, proportional allocation of electoral votes, backed by consistent national baselines for ballot access, paper records, and automatic post\u2011election audits/recounts in close contests. If the country later wants the simplest \u201cmost votes wins\u201d rule, that change can be phased in through an interstate compact once enough states join, rather than an abrupt rewrite.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential elections should feel legitimate and easy to accept: every vote should matter more, rules should be clear, and results should be secure and auditable while states continue to run elections. A strong middle\u2011ground reform is to end winner\u2011take\u2011all by allocating electors proportionally in every state and binding electors to the certified vote, paired with uniform national baselines for ballot access, paper records, audits, and automatic recount triggers in close races. For those who want the popular vote to decide, the National Popular Vote Interstate Compact can be a phased next step once enough states join, reducing swing\u2011state distortion while preserving state administration and broad cross\u2011regional coalitions.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should be simple to explain, hard to manipulate, and easy to trust: every eligible voter should have equal access to the ballot, every lawful vote should be counted with a paper record, and close results should trigger automatic audits and recounts under clear, consistent rules. A practical compromise is to keep state-run elections but reduce winner-take-all by allocating electors proportionally and requiring electors to follow the certified vote, so more voters in every state matter and outcomes track the public\u2019s choices more closely. For those who want an even clearer popular-vote link, states can choose to join the National Popular Vote Interstate Compact once it reaches a broad, stable threshold, with the goal of legitimacy across both urban and rural communities.",
+      "is_new": true
     }
   }
 }

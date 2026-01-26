@@ -51,9 +51,9 @@
       "full_winner_idx": "48"
     },
     "borda": {
-      "winner": "17",
+      "winner": "19",
       "epsilon": 0.0,
-      "full_winner_idx": "48"
+      "full_winner_idx": "97"
     },
     "irv": {
       "winner": "17",
@@ -61,26 +61,62 @@
       "full_winner_idx": "48"
     },
     "plurality": {
-      "winner": "3",
+      "winner": "17",
       "epsilon": 0.0,
-      "full_winner_idx": "66"
+      "full_winner_idx": "48"
     },
     "veto_by_consumption": {
-      "winner": "6",
+      "winner": "1",
       "epsilon": 0.0,
-      "full_winner_idx": "8"
+      "full_winner_idx": "88"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by a twin commitment to protect pregnant patients from preventable harm and to treat developing life with moral seriousness, using clear, medically grounded standards rather than vague slogans. Policy should keep routine decisions private and accessible early in pregnancy, while setting enforceable later-pregnancy rules that include explicit exceptions for life- and health-threatening complications, rape or incest, and diagnoses where the pregnancy cannot result in a viable birth. Any legal framework should also prioritize prevention and shared responsibility\u2014evidence-based sex education, affordable contraception, prenatal and postpartum care, and practical supports for parenting and adoption\u2014so fewer people face a crisis decision.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by human dignity, compassion, and evidence-based medicine, keeping urgent, time-sensitive decisions centered on patients and qualified clinicians with strong privacy protections and clear, medically defined rules. A durable framework can protect access early in pregnancy while setting transparent, workable standards later that reflect both moral concern for developing life and real medical timelines, with explicit exceptions for threats to life or serious health, rape or incest, and nonviable pregnancies so care is not delayed by fear or paperwork. Common ground grows when any legal approach is paired with practical prevention and support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, and resources for parenting or adoption\u2014so fewer families ever reach a crisis point.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by human dignity, medical reality, and respect for differing moral convictions\u2014protecting privacy and keeping time-sensitive decisions primarily within the patient\u2013clinician relationship rather than political enforcement. A workable framework should guarantee prompt care with clear, medically defined exceptions for threats to the pregnant person\u2019s life or serious health, rape or incest, and nonviable pregnancies, while allowing transparent, evidence-based standards later in pregnancy that avoid criminalizing families or providers. Common ground grows when any legal line is paired with prevention and support\u2014accurate education, affordable contraception, and strong prenatal, postpartum, mental-health, disability, and parenting/adoption resources\u2014so fewer people face crisis decisions and more families can welcome children when they are ready.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

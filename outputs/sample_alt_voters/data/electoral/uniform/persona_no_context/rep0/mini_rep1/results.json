@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "16",
+      "winner": "17",
       "epsilon": 0.020000000000000018,
-      "full_winner_idx": "56"
+      "full_winner_idx": "48"
     },
     "borda": {
-      "winner": "15",
+      "winner": "16",
       "epsilon": 0.0,
-      "full_winner_idx": "0"
+      "full_winner_idx": "56"
     },
     "irv": {
-      "winner": "9",
-      "epsilon": 0.0,
-      "full_winner_idx": "82"
-    },
-    "plurality": {
       "winner": "1",
-      "epsilon": 0.0,
+      "epsilon": 0.050000000000000044,
       "full_winner_idx": "88"
     },
-    "veto_by_consumption": {
+    "plurality": {
       "winner": "15",
-      "epsilon": 0.0,
+      "epsilon": 0.1100000000000001,
       "full_winner_idx": "0"
     },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "48"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for a presidential result that tracks the national popular will while preserving a meaningful state role and reducing incentives to focus only on a few battlegrounds. A middle path is to keep the Electoral College but require proportional allocation of electors in every state (with penalties for faithless electors), paired with baseline national standards for ballot access, audits, and recount triggers so close outcomes are handled consistently. If states can\u2019t agree on proportional allocation, the National Popular Vote Interstate Compact could serve as a voluntary backstop once enough states join. Any change should be phased in and reviewed after several cycles to ensure small-state, rural, and urban voters all see campaigns and outcomes as legitimate.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Any reform of the Electoral College should preserve a meaningful role for states and smaller communities while making outcomes feel transparently connected to how voters actually voted. A broad compromise is to curb winner-take-all by requiring proportional (or district-based) elector allocation, strengthen uniform national standards for ballot access, counting, audits, and recounts, and ensure electors faithfully reflect certified results. If deeper change is pursued, it should be incremental and bipartisan\u2014such as a National Popular Vote Interstate Compact triggered only with clear, consistent national rules\u2014so every lawful vote carries comparable weight and close elections are easier to trust.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make the presidential outcome track the voters\u2019 choice more closely while keeping states and smaller communities meaningfully represented, so people in cities, suburbs, and rural areas all feel their vote matters. A pragmatic path is to reduce winner-take-all distortions by moving toward proportional allocation of electors (or joining the National Popular Vote Interstate Compact once clear thresholds are met), paired with uniform national standards for ballot access, audits, recounts, and timely certification. Adding ranked-choice voting where feasible can encourage coalition-building and reduce polarization, and any change should be phased in with bipartisan oversight to protect stability and trust.",
+      "is_new": true
     }
   }
 }

@@ -46,41 +46,77 @@
   ],
   "results": {
     "schulze": {
-      "winner": "14",
-      "epsilon": 0.010000000000000009,
-      "full_winner_idx": "32"
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
     },
     "borda": {
-      "winner": "14",
-      "epsilon": 0.010000000000000009,
-      "full_winner_idx": "32"
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
     },
     "irv": {
-      "winner": "14",
-      "epsilon": 0.010000000000000009,
-      "full_winner_idx": "32"
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
     },
     "plurality": {
       "winner": "15",
-      "epsilon": 0.0,
+      "epsilon": 0.18999999999999995,
       "full_winner_idx": "75"
     },
     "veto_by_consumption": {
-      "winner": "14",
-      "epsilon": 0.010000000000000009,
-      "full_winner_idx": "32"
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "39",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.18999999999999995,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "68",
+      "epsilon": 0.0,
+      "full_winner_idx": "68"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should start from two shared duties: protect a pregnant person\u2019s health and autonomy in time-sensitive medical situations, and treat developing life with moral seriousness that merits thoughtful, medically grounded policy. A workable compromise keeps early care accessible and private, sets any later limits in clear clinical terms, and includes explicit exceptions for threats to life or serious health, rape or incest, and nonviable or fatal fetal conditions so clinicians can act without delay or fear. To reduce conflict and the number of unwanted pregnancies, the law should also invest in prevention and family support\u2014accurate education, affordable contraception, prenatal and postpartum (including mental health) care, and practical help with parenting, disability needs, or adoption\u2014while avoiding punitive approaches that drive care underground.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, human dignity, and evidence-based medical standards, keeping time-sensitive decisions primarily within the patient\u2013clinician relationship and out of political enforcement. A durable framework should protect access early in pregnancy while allowing carefully defined, medically grounded limits later, with clear, workable exceptions for threats to life or serious harm to health, rape or incest, and nonviable pregnancies so care is never delayed by fear of prosecution. Common ground is strongest when any legal guardrails are paired with prevention and family support\u2014reliable contraception and honest education, prenatal and postpartum (including mental health) care, paid leave and childcare, and parenting or adoption resources\u2014so fewer people face crisis pregnancies and less harm occurs overall.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by medical evidence, patient safety, and privacy, keeping urgent, time-sensitive decisions primarily between a patient and qualified clinicians rather than political enforcement. A workable framework should protect access early in pregnancy, allow carefully defined limits later that reflect society\u2019s moral concern for developing life, and include plain, medically usable exceptions for threats to life or serious health, rape or incest, and nonviable pregnancies so care is never delayed by fear of prosecution. Common ground is strongest when any legal boundaries are paired with proven prevention and support\u2014accurate education, affordable contraception, prenatal and postpartum (including mental health) care, and practical help like paid leave, childcare, and adoption resources\u2014so fewer families face crisis decisions at all.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

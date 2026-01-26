@@ -56,31 +56,64 @@
       "full_winner_idx": "88"
     },
     "irv": {
-      "winner": "8",
+      "winner": "1",
       "epsilon": 0.0,
-      "full_winner_idx": "99"
+      "full_winner_idx": "88"
     },
     "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_rankings": {
       "winner": "8",
       "epsilon": 0.0,
       "full_winner_idx": "99"
     },
-    "veto_by_consumption": {
-      "winner": "19",
+    "chatgpt_star_personas": {
+      "winner": "84",
       "epsilon": 0.0,
-      "full_winner_idx": "97"
+      "full_winner_idx": "84"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A consensus reform could keep the Constitution\u2019s state-based framework while making the outcome better reflect the voters by curbing winner-take-all and requiring electors to be bound to certified results. States could adopt a uniform, nonpartisan menu of allocation options\u2014such as proportional allocation with a minimum threshold, or a district method paired with independent redistricting standards\u2014to reduce swing-state distortions and gerrymandering incentives. Alongside that, Congress and the states should agree on baseline rules for paper ballots, risk-limiting audits, clear certification deadlines, and automatic recount triggers so close elections are credible no matter who wins.",
+      "is_new": true
     },
-    "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should focus on legitimacy and broad support: keep elections administered by states, but end winner-take-all so fewer voters are \u201cinvisible\u201d and campaigns aren\u2019t dominated by a few swing counties. A practical compromise is to bind electors to results and allocate electoral votes proportionally (or by district with strong anti-gerrymandering safeguards), paired with clear national baseline standards for ballot access, paper trails, audits, certification timelines, and automatic recount triggers. Once those integrity rules are in place and tested, states could consider a carefully designed national popular-vote compact\u2014potentially with ranked-choice ballots\u2014to better align the outcome with overall voter preference.",
+      "is_new": true
     },
-    "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A durable compromise is to keep state-run elections and the Electoral College framework, but reduce the winner-take-all effect that makes many voters feel ignored by requiring proportional allocation of electors (or a district method with strong anti-gerrymandering rules) and binding electors to the certified vote. Pair this with clear national baseline standards\u2014paper ballots or auditable paper trails, routine risk-limiting audits, transparent certification timelines, and automatic recount triggers\u2014so results are consistent and trusted across states. If these reforms prove stable, states could choose to adopt a carefully designed national popular-vote compact, potentially with ranked-choice ballots, to ensure the winner reflects broad national support while protecting legitimacy and local administration.",
+      "is_new": true
     }
   }
 }

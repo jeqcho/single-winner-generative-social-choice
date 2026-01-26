@@ -46,9 +46,9 @@
   ],
   "results": {
     "schulze": {
-      "winner": "2",
+      "winner": "12",
       "epsilon": 0.0,
-      "full_winner_idx": "83"
+      "full_winner_idx": "20"
     },
     "borda": {
       "winner": "2",
@@ -56,31 +56,64 @@
       "full_winner_idx": "83"
     },
     "irv": {
-      "winner": "10",
-      "epsilon": 0.0,
-      "full_winner_idx": "0"
+      "winner": "14",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "43"
     },
     "plurality": {
       "winner": "10",
-      "epsilon": 0.0,
+      "epsilon": 0.16999999999999993,
       "full_winner_idx": "0"
     },
     "veto_by_consumption": {
-      "winner": "7",
+      "winner": "17",
       "epsilon": 0.0,
-      "full_winner_idx": "57"
+      "full_winner_idx": "13"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "19"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "27"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A constructive compromise is to keep the Electoral College but make it track voter intent more closely and reduce the sense that a few battleground states decide everything. States could be encouraged or required to move away from winner-take-all\u2014using proportional allocation or a district-based approach\u2014paired with clear national baselines for ballot access, paper-backed audits, and automatic recounts in razor-thin races. Tightening rules on elector binding and certification timelines would also improve predictability and trust, while still preserving a meaningful role for states in administering elections.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College\u2019s federal role but make outcomes track voter intent more closely by ending winner-take-all\u2014shifting to proportional (or district-based) allocation of electors\u2014and requiring electors to follow the vote. Pair that with clear, uniform national standards for ballot access, counting, audits, and automatic recount triggers in close races to improve transparency and trust. Reforms should be practical and bipartisan, preserving attention to smaller and rural communities while reducing the sense that a few swing states or procedural quirks decide the presidency.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A consensus reform is to keep the Electoral College framework but reduce winner-take-all distortions so outcomes better track what voters actually choose. States could allocate electors proportionally (or by district with a statewide balance) and require electors to follow the certified vote, paired with uniform national standards for ballot access, voter-ID options, recount triggers, and post-election audits. Over time, expanding ranked-choice voting can reduce spoiler fears and reward broad support, while preserving a meaningful role for states and rural communities and improving trust in close elections.",
+      "is_new": true
     }
   }
 }

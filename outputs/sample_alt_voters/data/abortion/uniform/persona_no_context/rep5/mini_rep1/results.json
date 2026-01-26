@@ -66,21 +66,57 @@
       "full_winner_idx": "61"
     },
     "veto_by_consumption": {
-      "winner": "7",
+      "winner": "19",
       "epsilon": 0.0,
-      "full_winner_idx": "61"
+      "full_winner_idx": "97"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect both human dignity and public health by keeping care medically guided, timely, and safe, while acknowledging that people disagree in good faith about when moral and legal protections for potential life should increase. A workable middle ground sets clear, evidence-based rules with strong protections for emergencies and serious health threats, and ensures no one is criminalized for seeking or providing necessary care. Where limits are set, policy should pair them with real support\u2014contraception, accurate sex education, prenatal and postpartum care, paid leave, and adoption and disability resources\u2014so fewer pregnancies become crises and more families can choose parenthood with stability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for personal dignity, keeping decisions as much as possible between a patient and qualified clinicians rather than political punishment. Policy should protect safe, timely care\u2014especially in emergencies\u2014and include clear, workable limits with firm exceptions for rape, incest, and threats to the pregnant person\u2019s life or serious health. Common ground is strengthened by reducing crisis pregnancies through comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical supports like childcare, paid leave, and adoption resources so fewer families feel cornered into impossible choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by medical evidence, patient safety, and respect for personal conscience, recognizing that people hold sincere and differing beliefs about potential life. Policy should keep time-sensitive decisions primarily between a pregnant person and qualified clinicians, with clear, workable standards and firm exceptions for life-threatening or serious health risks, rape, and incest so care is not delayed by politics or fear. At the same time, communities can reduce crisis pregnancies and the demand for abortion by expanding accurate sex education, affordable contraception, prenatal and postpartum care, adoption supports, and practical help for parents like childcare and paid leave.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

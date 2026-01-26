@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "7",
+      "winner": "14",
       "epsilon": 0.0,
-      "full_winner_idx": "57"
+      "full_winner_idx": "43"
     },
     "borda": {
-      "winner": "7",
+      "winner": "8",
       "epsilon": 0.0,
-      "full_winner_idx": "57"
+      "full_winner_idx": "75"
     },
     "irv": {
-      "winner": "18",
-      "epsilon": 0.0,
-      "full_winner_idx": "11"
-    },
-    "plurality": {
-      "winner": "18",
-      "epsilon": 0.0,
-      "full_winner_idx": "11"
-    },
-    "veto_by_consumption": {
       "winner": "11",
       "epsilon": 0.0,
       "full_winner_idx": "97"
     },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.22999999999999998,
+      "full_winner_idx": "11"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A constructive compromise is to keep the Constitution\u2019s state role but make the outcome track voters more reliably and predictably. Standardize election administration with national baseline rules for ballot access, tabulation, recount thresholds, and risk-limiting audits, while requiring electors to follow the certified results. Then reduce winner-take-all distortions by allocating electors using a uniform proportional formula (with an optional national majority safeguard such as ranked-choice or an automatic runoff). If these steps still produce repeated popular-vote/outcome mismatches, the country would have a clearer, better-tested case for a national popular-vote mechanism.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep a meaningful state role while making the outcome track voters more closely and reducing the \u201cfew battlegrounds\u201d problem. A practical bridge is to end winner-take-all by allocating electors proportionally, bind electors to the certified results, and adopt clear national baseline standards for ballot access, counting, audits, and recount triggers. To strengthen legitimacy in close multi-candidate races, add a majority-winner safeguard such as ranked-choice voting or an automatic runoff. If these steps still fail to reflect the public will, a carefully designed interstate compact toward a national popular vote can remain an option.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should protect both principles many people care about: every vote should count in a way that\u2019s easy to understand, and no region or community should feel written off. A practical bridge is to keep state-run elections and the Electoral College, but replace winner-take-all with proportional allocation in every state, require electors to follow the certified results, and expand the House to reduce vote-weight distortions. Pair that with clear national baseline standards for ballot access (including language assistance where needed), recount triggers, and routine post-election audits so the rules are consistent and outcomes are trusted. If the country later chooses a national popular vote, adopting ranked-choice voting (or an automatic runoff) can ensure the winner has true majority support.",
+      "is_new": true
     }
   }
 }

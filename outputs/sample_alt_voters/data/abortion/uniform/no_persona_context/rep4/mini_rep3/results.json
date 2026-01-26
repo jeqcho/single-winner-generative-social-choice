@@ -66,21 +66,57 @@
       "full_winner_idx": "90"
     },
     "veto_by_consumption": {
-      "winner": "15",
+      "winner": "10",
       "epsilon": 0.0,
-      "full_winner_idx": "75"
+      "full_winner_idx": "86"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "75"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to reduce harm and protect dignity amid deep moral disagreement\u2014prioritizing patient safety, truthful medical practice, and respect for the value many assign to developing life. The law should guarantee prompt care for emergencies and serious health threats, use clear medical definitions that clinicians can apply without fear, and avoid criminal penalties for patients and good-faith providers. Any limits should be transparent, workable, and paired with strong prevention and support\u2014contraception access, accurate education, prenatal and mental-health care, and financial help for parenting or adoption\u2014so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should balance two widely shared duties: protect the pregnant person\u2019s health and safety through timely, clinician-guided care, while taking seriously the moral value many attach to developing life. Laws should be clear, medically grounded, and written so doctors can act without delay in emergencies, with explicit exceptions for life and serious health risks and other extreme circumstances, and without criminalizing patients or routine care. Any legal framework should be paired with strong prevention and support\u2014accurate education, accessible contraception, prenatal care, childcare, and adoption and parenting resources\u2014so fewer pregnancies become crises and more families have real options.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should start from shared goals most people can support: protecting the pregnant person\u2019s life and health, treating families with dignity, and reducing the number of crisis pregnancies. Rules should be written in clear, medically grounded language that lets clinicians act quickly in emergencies and protects privacy in early pregnancy, while allowing narrowly defined, workable limits later that never block lifesaving care or punish patients. Common ground is strongest when any legal framework is paired with real prevention and support\u2014affordable contraception, accurate education, prenatal and mental-health care, and practical help with parenting or adoption\u2014so fewer people face the decision under pressure or poverty.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

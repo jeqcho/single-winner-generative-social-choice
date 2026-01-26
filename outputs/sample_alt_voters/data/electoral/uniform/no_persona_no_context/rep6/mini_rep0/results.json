@@ -46,24 +46,24 @@
   ],
   "results": {
     "schulze": {
-      "winner": "9",
-      "epsilon": 0.0,
-      "full_winner_idx": "35"
-    },
-    "borda": {
-      "winner": "9",
-      "epsilon": 0.0,
-      "full_winner_idx": "35"
-    },
-    "irv": {
-      "winner": "9",
-      "epsilon": 0.0,
-      "full_winner_idx": "35"
-    },
-    "plurality": {
       "winner": "8",
       "epsilon": 0.0,
       "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
     },
     "veto_by_consumption": {
       "winner": "7",
@@ -71,16 +71,49 @@
       "full_winner_idx": "57"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Many people can agree that the goal is a president chosen by rules that feel fair to individual voters while still giving states a meaningful role and producing results that are widely accepted. A workable compromise is to reduce winner-take-all distortions\u2014through proportional or ranked-choice-based elector allocation\u2014while pairing any change with uniform national standards for ballot access, audits, recounts, and certification. We can also review House apportionment so electoral votes track population more closely without forcing an abrupt shift to a single nationwide tally.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even with sharp disagreements about the Electoral College, many of us share the goal of a result that feels legitimate to voters and credible across states, without letting a handful of swing states decide everything. A practical bridge is to evaluate reforms side-by-side that preserve meaningful state roles while reducing popular-vote mismatches\u2014such as the National Popular Vote Interstate Compact, proportional (or district-based) elector allocation with anti-gerrymandering safeguards, and a larger House to reduce elector imbalance. Whatever path we choose should also include clear, uniform standards for voting access, counting, audits, and recounts so close elections don\u2019t become confidence crises.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people, whether they prioritize state-based federalism or one-person, one-vote fairness, want a presidential election that feels legitimate, transparent, and makes voters matter in every state\u2014not just a few battlegrounds. A practical bridge is to reduce winner-take-all distortions while keeping states central by encouraging proportional allocation of electors (or a district method paired with strong anti-gerrymandering standards), and by updating the House apportionment rules to lessen elector imbalance. Alongside any allocation change, we can agree on national baseline standards for access, counting, audits, and recounts so close elections are handled consistently and trust is higher regardless of who wins.",
+      "is_new": true
     }
   }
 }

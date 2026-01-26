@@ -47,40 +47,73 @@
   "results": {
     "schulze": {
       "winner": "7",
-      "epsilon": 0.0,
+      "epsilon": 0.030000000000000027,
       "full_winner_idx": "57"
     },
     "borda": {
-      "winner": "7",
+      "winner": "19",
       "epsilon": 0.0,
-      "full_winner_idx": "57"
+      "full_winner_idx": "48"
     },
     "irv": {
       "winner": "7",
-      "epsilon": 0.0,
+      "epsilon": 0.030000000000000027,
       "full_winner_idx": "57"
     },
     "plurality": {
       "winner": "7",
-      "epsilon": 0.0,
+      "epsilon": 0.030000000000000027,
       "full_winner_idx": "57"
     },
     "veto_by_consumption": {
-      "winner": "7",
+      "winner": "19",
       "epsilon": 0.0,
-      "full_winner_idx": "57"
+      "full_winner_idx": "48"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "7",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "57"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "97",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to make the presidential outcome track the will of voters more closely while keeping states central to administering elections and ensuring candidates can\u2019t win by appealing to only one region. A workable middle path is to keep the Electoral College but replace winner-take-all with a proportional method (optionally with a small statewide bonus) and pair it with nationally agreed baseline rules for ballot access, recount triggers, and post-election audits. This would reduce \u201cwrong-winner\u201d risk and swing-state overfocus while preserving federalism and improving confidence that the same clear rules apply everywhere.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College but modernize it so outcomes track voters more closely and don\u2019t hinge on a few swing states: have states allocate electors proportionally or by district with a small statewide bonus, and require electors to follow the state\u2019s certified popular vote. Pair this with clear, uniform national standards for ballot access, secure counting, and recount deadlines so every state plays by transparent rules. This approach preserves federalism and a meaningful role for smaller and rural communities while making each vote matter more equally and boosting confidence in close elections.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "To strengthen legitimacy while respecting federalism, presidential election rules should be updated so outcomes track the national popular will more closely without erasing state participation. A practical compromise is for states to move away from winner-take-all by allocating electors proportionally (or by district with a small statewide bonus), and to adopt the National Popular Vote Interstate Compact if enough states join, paired with ranked-choice voting to ensure majority support. Any reform should include clear, uniform baseline standards for ballot access, secure audits, and recount timelines, plus binding electors to their state\u2019s certified results\u2014so both fraud concerns and disenfranchisement concerns are addressed. The aim is simple: fewer \u201cwrong-winner\u201d outcomes, less swing-state distortion, and rules that feel fair to urban, suburban, and rural voters alike.",
+      "is_new": true
     }
   }
 }

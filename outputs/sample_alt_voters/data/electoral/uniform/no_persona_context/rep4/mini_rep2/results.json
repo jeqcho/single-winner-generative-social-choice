@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "3",
+      "winner": "18",
       "epsilon": 0.0,
-      "full_winner_idx": "28"
+      "full_winner_idx": "94"
     },
     "borda": {
-      "winner": "5",
+      "winner": "18",
       "epsilon": 0.0,
-      "full_winner_idx": "0"
+      "full_winner_idx": "94"
     },
     "irv": {
-      "winner": "5",
+      "winner": "18",
       "epsilon": 0.0,
-      "full_winner_idx": "0"
+      "full_winner_idx": "94"
     },
     "plurality": {
-      "winner": "3",
-      "epsilon": 0.0,
-      "full_winner_idx": "28"
+      "winner": "0",
+      "epsilon": 0.1200000000000001,
+      "full_winner_idx": "41"
     },
     "veto_by_consumption": {
-      "winner": "5",
+      "winner": "18",
       "epsilon": 0.0,
-      "full_winner_idx": "0"
+      "full_winner_idx": "94"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should narrow the gap between the national vote and the final outcome while keeping states central to running elections and preserving incentives to compete across regions. A practical package is to replace statewide winner-take-all with a fairer allocation formula (such as proportional with a minimum threshold) and expand the House to reduce extreme vote-weight disparities, while requiring paper-backed ballots, routine risk-limiting audits, and uniform recount and certification deadlines. If these changes still leave repeated \u201cwrong-winner\u201d results, Congress and the states could add a clearly defined national popular-vote fail-safe that activates only when the national margin is decisive and verifiable.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should prioritize legitimacy and trust: every vote should matter more evenly, campaigns shouldn\u2019t fixate on a few swing states, and close results must be easy to verify. A workable compromise is to keep state-run elections and the Electoral College structure but end winner-take-all by requiring proportional elector allocation, binding electors to certified results, and setting clear nationwide baselines for paper records, audits, and recount triggers. To reduce remaining \u201cwrong-winner\u201d risk, the country could add a narrowly defined national popular-vote backstop or adopt the National Popular Vote compact once uniform verification rules are in place.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform should focus on legitimacy and fairness: make outcomes match how Americans voted while keeping states central to running elections. A practical middle path is to end winner-take-all by moving to proportional (or ranked-choice) allocation of electors, bind electors to certified results, and adopt clear national minimum standards for ballot access, paper-backed audits, and automatic recount triggers. If large \u201cwrong-winner\u201d outcomes persist, the National Popular Vote Interstate Compact can serve as a phased backstop\u2014paired with uniform verification rules\u2014so every voter matters without inviting chaos or partisan gamesmanship.",
+      "is_new": true
     }
   }
 }

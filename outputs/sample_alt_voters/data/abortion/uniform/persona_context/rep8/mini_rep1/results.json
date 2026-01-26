@@ -46,41 +46,77 @@
   ],
   "results": {
     "schulze": {
-      "winner": "18",
-      "epsilon": 0.010000000000000009,
-      "full_winner_idx": "30"
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
     },
     "borda": {
-      "winner": "18",
-      "epsilon": 0.010000000000000009,
-      "full_winner_idx": "30"
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
     },
     "irv": {
-      "winner": "18",
-      "epsilon": 0.010000000000000009,
-      "full_winner_idx": "30"
-    },
-    "plurality": {
-      "winner": "18",
-      "epsilon": 0.010000000000000009,
-      "full_winner_idx": "30"
-    },
-    "veto_by_consumption": {
       "winner": "1",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "88"
     },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "15",
+      "epsilon": 0.19999999999999996,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "66",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to protect human dignity on all sides by keeping care safe and medically grounded while recognizing the moral concern many people have for developing life. A workable approach secures timely access early in pregnancy, sets later limits that track viability and clinician judgment, and includes explicit, readily usable exceptions for rape, incest, and serious threats to the pregnant person\u2019s life or health\u2014without criminalizing patients or doctors acting in good faith. Any framework should also invest heavily in prevention and support\u2014effective contraception, accurate education, prenatal/postpartum care, and economic help for parents and adoption pathways\u2014so fewer people face the decision under crisis or coercion.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in evidence-based medicine, compassion, and human dignity, recognizing both the moral seriousness many attach to developing life and the need to keep urgent, time-sensitive decisions with patients and qualified clinicians rather than politicians. A workable middle path protects timely access early in pregnancy and sets clearer, medically written guardrails later (often tied to viability), with explicit exceptions at any stage for rape, incest, serious threats to the pregnant person\u2019s life or health, and nonviable or severe fetal conditions, while avoiding criminalizing good-faith medical care. Common ground is strengthened by investing in prevention and real support\u2014accurate education, affordable contraception, prenatal and postpartum care, adoption services, and practical help for parents\u2014so fewer families face the decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by human dignity, medical evidence, and a limited, clear role for government\u2014so time\u2011sensitive decisions are made by patients and qualified clinicians, not political pressure, while recognizing that many people attach moral weight to developing life. A workable framework protects early access and privacy, sets predictable standards later in pregnancy tied to viability and medical judgment, and includes explicit, medically defined exceptions for rape, incest, and serious threats to the patient\u2019s life or health, without criminalizing good\u2011faith care. Whatever limits exist should be paired with prevention and support\u2014affordable contraception, accurate education, prenatal and postpartum care, mental\u2011health and disability resources, and practical help with childcare, work, and adoption\u2014so fewer families face the decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

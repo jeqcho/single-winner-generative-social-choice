@@ -46,41 +46,73 @@
   ],
   "results": {
     "schulze": {
-      "winner": "13",
-      "epsilon": 0.0,
-      "full_winner_idx": "90"
+      "winner": "1",
+      "epsilon": null,
+      "full_winner_idx": "95"
     },
     "borda": {
-      "winner": "13",
-      "epsilon": 0.0,
-      "full_winner_idx": "90"
+      "winner": "1",
+      "epsilon": null,
+      "full_winner_idx": "95"
     },
     "irv": {
-      "winner": "1",
-      "epsilon": 0.0,
-      "full_winner_idx": "95"
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "99"
     },
     "plurality": {
       "winner": "17",
-      "epsilon": 0.0,
+      "epsilon": null,
       "full_winner_idx": "99"
     },
     "veto_by_consumption": {
-      "winner": "6",
-      "epsilon": 0.0,
-      "full_winner_idx": "55"
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "18"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "8"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "1",
+      "epsilon": null,
+      "full_winner_idx": "95"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "52"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be built around medically defined standards that protect patient safety and privacy, so urgent decisions are made by patients and qualified clinicians\u2014not by fear of prosecution. A balanced approach can recognize differing moral convictions by permitting early access while setting clinically grounded, predictable limits later in pregnancy, with explicit exceptions for threats to life or health, nonviable or severely compromising fetal conditions, and pregnancies resulting from sexual violence. Whatever the legal lines, policy should also commit to proven ways to reduce unwanted pregnancies and hardship\u2014broad contraception access, accurate education, prenatal/postpartum care, and economic supports for parenting or adoption\u2014so fewer people face this decision under duress.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be grounded in evidence-based medicine, clear and workable standards, and compassion, so urgent decisions remain primarily within the patient\u2013clinician relationship and medical privacy is protected. The law should guarantee unambiguous exceptions for threats to a pregnant person\u2019s life or serious health, and for severe fetal complications, so clinicians can act immediately in emergencies without fear of punishment. At the same time, policy should acknowledge the moral weight many attach to developing life by allowing carefully defined guardrails later in pregnancy and by investing in what reduces crisis pregnancies\u2014reliable contraception, accurate education, prenatal and postpartum care, and practical support for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be grounded in medical evidence, patient privacy, and clear, plain-language rules that let doctors act immediately in emergencies without fear of prosecution. A workable middle ground protects early, time-sensitive care while recognizing that many people place moral value on developing life by allowing carefully defined, medically based guardrails later in pregnancy with explicit exceptions for serious threats to life or health, rape or incest, and severe or fatal fetal conditions. Common ground grows when policy also focuses on prevention and real support\u2014affordable contraception and accurate education, prenatal and postpartum care, and practical help for parenting, adoption, and childcare\u2014so fewer families face a crisis decision.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "2",
+      "winner": "4",
       "epsilon": 0.0,
-      "full_winner_idx": "12"
+      "full_winner_idx": "23"
     },
     "borda": {
-      "winner": "0",
+      "winner": "16",
       "epsilon": 0.0,
-      "full_winner_idx": "16"
+      "full_winner_idx": "14"
     },
     "irv": {
       "winner": "2",
-      "epsilon": 0.0,
+      "epsilon": 0.040000000000000036,
       "full_winner_idx": "12"
     },
     "plurality": {
       "winner": "14",
-      "epsilon": 0.0,
+      "epsilon": 0.1399999999999999,
       "full_winner_idx": "32"
     },
     "veto_by_consumption": {
       "winner": "17",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.0,
       "full_winner_idx": "47"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.1399999999999999,
+      "full_winner_idx": "32"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.1399999999999999,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "53",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable reform is to keep the Electoral College\u2019s state-based framework but make it operate more like a national tally: require every state to allocate electors by the same proportional formula and eliminate the \u201cbonus\u201d from winner\u2011take\u2011all. Add a majority-winner backstop\u2014ranked-choice voting or a uniform runoff rule\u2014so the president wins with broad support rather than a narrow plurality. To strengthen legitimacy, pair these changes with enforceable elector-binding rules and clear national minimum standards for ballot access, paper-backed tabulation, risk-limiting audits, and automatic recount triggers in close races.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep states administering presidential elections and preserve a meaningful regional balance, but reduce winner-take-all distortions so outcomes better reflect how people vote in every state and campaigns aren\u2019t dominated by a few battlegrounds. A practical bridge is to require proportional (or carefully designed district-based, anti-gerrymandered) allocation of electors, with electors legally bound to the result, and to consider a majority-winner safeguard like ranked-choice voting. Whatever model is chosen, uniform national baselines for ballot access, paper-backed audits, and clear automatic recount triggers would make close elections more transparent, calm, and trusted.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fair in every state\u2014so more votes matter, campaigns aren\u2019t dominated by a few battlegrounds, and results are easy to verify and accept. A practical compromise is to keep state-run elections but end winner-take-all by requiring proportional allocation of electors, while binding electors to the certified vote and using an independent, nonpartisan method to draw any district lines if states choose a district-based option. Pair this with clear national baselines for ballot access, multilingual voter information, paper-backed audits, and automatic recount triggers in close races, and consider ranked-choice voting or a runoff to ensure the winner has majority support.",
+      "is_new": true
     }
   }
 }

@@ -46,41 +46,73 @@
   ],
   "results": {
     "schulze": {
-      "winner": "3",
-      "epsilon": 0.0,
-      "full_winner_idx": "89"
+      "winner": "0",
+      "epsilon": null,
+      "full_winner_idx": "25"
     },
     "borda": {
-      "winner": "3",
-      "epsilon": 0.0,
-      "full_winner_idx": "89"
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "53"
     },
     "irv": {
-      "winner": "11",
-      "epsilon": 0.0,
-      "full_winner_idx": "97"
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "13"
     },
     "plurality": {
-      "winner": "11",
-      "epsilon": 0.0,
-      "full_winner_idx": "97"
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "13"
     },
     "veto_by_consumption": {
-      "winner": "3",
-      "epsilon": 0.0,
-      "full_winner_idx": "89"
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "97"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "6",
+      "epsilon": null,
+      "full_winner_idx": "28"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "89"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star": {
+      "winner": "94"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_personas": {
+      "winner": "52"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should prioritize protecting a pregnant patient\u2019s life and health while recognizing that many people place moral value on developing human life, so the rules must be medically grounded, clearly written, and workable in real clinics. A balanced framework keeps early, time-sensitive care accessible, allows carefully defined regulations later in pregnancy, and includes explicit, no-delay exceptions for life or serious health risks, severe fetal diagnoses, and pregnancies resulting from sexual violence. To reduce abortions without coercion, policy should invest in prevention and family support\u2014accurate education, affordable contraception, prenatal/postpartum and mental healthcare, and practical resources for parenting or adoption\u2014while avoiding criminal penalties that deter necessary care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by clear, medically workable standards that protect patient safety and let clinicians act promptly in life-threatening emergencies and serious health complications, without criminalizing women in crisis or forcing dangerous delays. A durable framework should take seriously both privacy and bodily autonomy and the moral weight many attach to unborn life, with plainly written rules and exceptions\u2014including severe fetal conditions and cases of rape or incest\u2014so the hardest situations are handled humanely and predictably. Common ground is strongest when any guardrails are paired with proven prevention and support: accurate education, affordable contraception, prenatal and postpartum care, and practical help for parenting or adoption so fewer families ever reach a crisis point.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by respect for human life, bodily autonomy and privacy, and medically grounded, plain-language standards that let clinicians act quickly in emergencies without fear of punishment. A workable framework should guarantee clear exceptions for threats to a patient\u2019s life or serious health, severe fetal conditions, and cases of rape or incest, with enforcement focused on safety and accountability rather than criminalizing people in crisis. Common ground is strongest when any legal guardrails are paired with real prevention and family support\u2014accurate education, affordable contraception, prenatal and postpartum care, mental-health care, paid leave, adoption resources, and childcare\u2014so fewer pregnancies become desperate situations.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

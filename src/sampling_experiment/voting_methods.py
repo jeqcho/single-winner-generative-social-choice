@@ -178,7 +178,7 @@ Where the value is the index (0-{n-1}) of the statement you select."""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "minimal"},
+            reasoning={"effort": "none"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -247,7 +247,7 @@ Where the value is the index (0-{n-1}) of the statement you select."""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "minimal"},
+            reasoning={"effort": "none"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -314,7 +314,7 @@ Where the value is the index (0-{n-1}) of the statement you select."""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "minimal"},
+            reasoning={"effort": "none"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -386,7 +386,7 @@ Return your choice as JSON: {{"selected_statement_index": <index>}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "minimal"},
+            reasoning={"effort": "none"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -459,7 +459,7 @@ Return your choice as JSON: {{"selected_statement_index": <index>}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "minimal"},
+            reasoning={"effort": "none"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -529,7 +529,7 @@ Return your choice as JSON: {{"selected_statement_index": <index>}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "minimal"},
+            reasoning={"effort": "none"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -593,7 +593,7 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "minimal"},
+            reasoning={"effort": "none"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -661,7 +661,7 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "minimal"},
+            reasoning={"effort": "none"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -729,7 +729,7 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "minimal"},
+            reasoning={"effort": "none"},
         )
         api_timer.record(time.time() - start_time)
         
@@ -956,7 +956,7 @@ Return your statement as JSON: {{"bridging_statement": "<your statement>"}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "minimal"},
+            reasoning={"effort": "none"},
         )
         api_timer.record(time.time() - start_time)
         

@@ -46,41 +46,70 @@
   ],
   "results": {
     "schulze": {
-      "winner": "18",
-      "epsilon": 0.020000000000000018,
-      "full_winner_idx": "94"
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
     },
     "borda": {
-      "winner": "10",
+      "winner": "8",
       "epsilon": 0.0,
-      "full_winner_idx": "8"
+      "full_winner_idx": "59"
     },
     "irv": {
-      "winner": "18",
-      "epsilon": 0.020000000000000018,
-      "full_winner_idx": "94"
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
     },
     "plurality": {
-      "winner": "18",
-      "epsilon": 0.020000000000000018,
-      "full_winner_idx": "94"
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
     },
     "veto_by_consumption": {
-      "winner": "10",
+      "winner": "8",
       "epsilon": 0.0,
-      "full_winner_idx": "8"
+      "full_winner_idx": "59"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "50"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "58"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Rather than abolishing the Electoral College outright, reform it so the winner is far more likely to match the national vote while keeping states central to running elections. States could replace winner-take-all with a uniform proportional formula (with a small minimum threshold to discourage fringe spoilers) and bind electors to certified results. In return, Congress should set clear national baselines for voter access, paper-backed audits, and automatic recount rules so close outcomes are handled consistently and credibly in every state.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "The Electoral College can be retained as a federalist guardrail, but modernized so outcomes track the voters more closely and fewer elections hinge on a handful of swing states. A practical compromise is to end winner-take-all by requiring proportional (or district-based) allocation of electors, bind electors to their state\u2019s certified results, and adopt clear national baselines for ballot access, paper-backed post\u2011election audits, and automatic recount triggers in close races. This keeps state administration and regional voice while making the rules simpler to trust and the result easier to accept, even in tight contests.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Whatever replaces or updates the Electoral College should make outcomes match voters more closely while keeping states responsible for running elections in ways people can verify and trust. A broad middle-ground reform is to end winner-take-all by allocating electors proportionally (or by district), require electors to follow their state\u2019s certified results, and set clear national baselines for voter access, paper-backed audits, and automatic recount triggers in close races. If consensus grows over time, a national popular-vote outcome\u2014through a constitutional amendment or a carefully designed interstate compact\u2014could be a next step, ideally paired with a voting method that reduces spoiler fears and rewards candidates who build cross-regional coalitions.",
+      "is_new": true
     }
   }
 }

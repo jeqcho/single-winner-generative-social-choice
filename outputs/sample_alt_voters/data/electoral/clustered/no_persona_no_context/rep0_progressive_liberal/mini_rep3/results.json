@@ -71,16 +71,45 @@
       "full_winner_idx": "87"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star": {
+      "winner": "31"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Many people can agree the goal is a presidential election where outcomes feel legitimate, campaigns have incentives to compete beyond a few battlegrounds, and states retain a meaningful role. A practical middle path is to keep the Electoral College but require elector allocation methods that better reflect each state\u2019s vote (e.g., proportional with a clear threshold) and pair that with nationwide minimum standards for ballots, audits, and recount triggers. If those reforms don\u2019t reduce mismatches between votes and outcomes or improve trust, the country can revisit stronger options like an interstate popular\u2011vote agreement or a constitutional amendment with clearer close\u2011election rules.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people want a presidential election system that produces broadly accepted winners, makes more voters feel their ballots matter, and reduces today\u2019s winner-take-all, swing\u2011state distortions while keeping a meaningful role for states. A practical compromise is to pair electoral-vote allocation reforms\u2014such as proportional or district-based methods, and/or a National Popular Vote compact with clear activation and recount rules\u2014with stronger, uniform standards for ballot access, counting, audits, and recounts. These steps preserve federalism and stability while better aligning outcomes with voter intent and encouraging campaigns to compete in more places.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people want a presidential election that feels fair, encourages candidates to compete beyond a few swing states, and produces results the country can accept\u2014even while disagreeing about how much weight states versus individual votes should carry. A practical compromise is to keep state administration but reduce winner-take-all distortions through proportional or district-based elector allocation with anti-gerrymandering safeguards, paired with uniform national standards for ballot access, counting, audits, and recounts. If further alignment with the national popular vote is desired, a carefully designed interstate compact or similar mechanism could be phased in only once enough states join to ensure stability and clear close\u2011election rules.",
+      "is_new": true
     }
   }
 }

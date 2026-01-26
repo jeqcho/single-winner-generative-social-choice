@@ -47,40 +47,73 @@
   "results": {
     "schulze": {
       "winner": "4",
-      "epsilon": 0.0,
+      "epsilon": 0.050000000000000044,
       "full_winner_idx": "23"
     },
     "borda": {
-      "winner": "7",
+      "winner": "9",
       "epsilon": 0.0,
-      "full_winner_idx": "97"
+      "full_winner_idx": "38"
     },
     "irv": {
       "winner": "4",
-      "epsilon": 0.0,
+      "epsilon": 0.050000000000000044,
       "full_winner_idx": "23"
     },
     "plurality": {
       "winner": "4",
-      "epsilon": 0.0,
+      "epsilon": 0.050000000000000044,
       "full_winner_idx": "23"
     },
     "veto_by_consumption": {
-      "winner": "4",
+      "winner": "9",
       "epsilon": 0.0,
-      "full_winner_idx": "23"
+      "full_winner_idx": "38"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "4",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "23"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise would keep state-run elections but align the outcome more closely with the voters by ending winner-take-all: states could allocate electors proportionally (or by district with strong anti-gerrymandering rules) and adopt uniform, transparent standards for ballots, audits, and recounts. If the country wants a clearer \u201cmost votes wins\u201d result, the National Popular Vote Interstate Compact could be a phased next step once enough states join, paired with a national recount trigger and clear rules for resolving close contests. The aim is a system that reduces swing-state distortion, rewards broad coalitions, and produces results people can understand and trust even when their candidate loses.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reforming the Electoral College should make outcomes track the will of voters more closely while preserving a meaningful state role and avoiding rules that only a few \u201cswing\u201d places can dominate. A practical middle ground is for states to allocate electors proportionally (or through a fair district method with anti-gerrymandering safeguards) and to support the National Popular Vote Interstate Compact once enough states join, so every vote matters more without a sudden constitutional rupture. Any change should come with clear, uniform standards for ballots, audits, and automatic recounts in close elections, so the process is transparent, verifiable, and broadly trusted.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A balanced reform should keep states administering elections while ensuring the president is chosen in a way that matches the will of voters and is easy to understand and audit. A practical middle path is to reduce winner-take-all by requiring proportional allocation of electors (or adopting the National Popular Vote Interstate Compact once enough states join), paired with clear national standards for ballots, recount triggers, and secure paper-backed audits. Adding a ranked-choice or runoff-style safeguard can ensure the winner has broad support, while reducing incentives to campaign only in a handful of swing states. Any changes should be phased in and bipartisan, so rural, urban, and smaller-state communities alike can trust the result even when their candidate loses.",
+      "is_new": true
     }
   }
 }

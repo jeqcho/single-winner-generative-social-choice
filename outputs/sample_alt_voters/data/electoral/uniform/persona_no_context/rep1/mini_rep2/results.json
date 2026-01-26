@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "4",
+      "winner": "13",
       "epsilon": 0.0,
-      "full_winner_idx": "4"
+      "full_winner_idx": "69"
     },
     "borda": {
-      "winner": "4",
+      "winner": "13",
       "epsilon": 0.0,
-      "full_winner_idx": "4"
+      "full_winner_idx": "69"
     },
     "irv": {
-      "winner": "4",
+      "winner": "13",
       "epsilon": 0.0,
-      "full_winner_idx": "4"
+      "full_winner_idx": "69"
     },
     "plurality": {
-      "winner": "5",
-      "epsilon": 0.0,
-      "full_winner_idx": "0"
-    },
-    "veto_by_consumption": {
       "winner": "4",
       "epsilon": 0.0,
       "full_winner_idx": "4"
     },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "1",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "55"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "4"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "1",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "4"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College\u2019s state-based structure but make it reflect voters more accurately and reduce high-stakes \u201cwinner-take-all\u201d pressure points. States could allocate electors proportionally (or through a proportional, ranked-choice tally) while adopting uniform national standards for registration, ballot access, audits, and recount triggers so outcomes are transparent and comparable everywhere. This would preserve regional influence and stability, yet make campaigns compete for support in more places and make it harder for tiny margins in a few counties to decide the presidency.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should modernize the Electoral College in a way that keeps states and smaller communities meaningfully represented while making outcomes track the will of voters more closely and transparently. A strong middle path is uniform, auditable national standards for ballot access, counting, recounts, and election security, paired with changing winner\u2011take\u2011all to a more representative method such as proportional or district-based allocation of electors. If broader change is pursued, it should include clear safeguards (e.g., ranked-choice voting to ensure majority support) and be implemented through rules that are simple, bipartisan, and designed to build trust across rural, urban, and suburban communities.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should aim for a result most voters recognize as fair\u2014so every lawful vote is counted the same way, securely and transparently\u2014while keeping a meaningful role for states and communities of different sizes. A practical bridge is to end winner-take-all by requiring proportional (or district-based) allocation of electors, paired with uniform national standards for ballot access, audits, and recounts, and clear rules that electors follow voters\u2019 choices. If the country wants to go further, it should do so through a widely supported national popular-vote approach\u2014ideally with ranked-choice voting to reward broad support\u2014adopted through a durable, bipartisan process that people can trust.",
+      "is_new": true
     }
   }
 }

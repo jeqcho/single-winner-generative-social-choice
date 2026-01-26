@@ -52,7 +52,7 @@
     },
     "borda": {
       "winner": "5",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.0,
       "full_winner_idx": "0"
     },
     "irv": {
@@ -66,21 +66,54 @@
       "full_winner_idx": "29"
     },
     "veto_by_consumption": {
-      "winner": "0",
-      "epsilon": 0.0,
-      "full_winner_idx": "41"
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "70"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "84",
+      "epsilon": 0.0,
+      "full_winner_idx": "84"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A consensus reform could keep states administering elections while changing incentives so candidates compete nationwide and outcomes better match voters\u2019 preferences. Require each state to award electors by a uniform proportional formula (with an opt-in national standard to prevent gerrymandered district plans), bind electors to the certified result, and set shared federal baselines for paper ballots, audits, recount triggers, and certification timelines. After those rules are tested and trusted, the country could consider a national popular-vote mechanism as a next step rather than an abrupt replacement.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform can keep state-run elections and the Electoral College framework while fixing the biggest legitimacy problems: the winner-take-all map, uneven rules, and uncertainty in close races. End winner-take-all by requiring proportional (or carefully safeguarded district-based) allocation of electors, with strong anti-gerrymandering protections and clear limits on faithless electors. Pair that with uniform national baselines for ballot access, paper trails, audits, certification timelines, and automatic recount triggers so every vote is counted and verified consistently. If the system proves stable, a phased National Popular Vote compact\u2014ideally with ranked-choice voting to ensure majority-backed winners\u2014can be considered as a next step.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A consensus reform should protect both core principles people care about: that the winner reflects the most support nationwide and that states still have a meaningful role in administering elections. A practical middle step is to end winner-take-all by requiring proportional allocation of electors (or district allocation only with strong anti-gerrymandering rules), while setting clear national baselines for ballot access, paper records, audits, certification timelines, and automatic recount triggers so close results are handled consistently. If the country wants to go further, the National Popular Vote Interstate Compact can be a phased path once those safeguards are in place, and pairing it with ranked-choice voting can help ensure the winner has broad, majority-backed legitimacy.",
+      "is_new": true
     }
   }
 }

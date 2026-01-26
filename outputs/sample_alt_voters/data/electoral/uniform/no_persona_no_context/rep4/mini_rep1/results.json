@@ -46,41 +46,74 @@
   ],
   "results": {
     "schulze": {
-      "winner": "15",
+      "winner": "16",
       "epsilon": 0.0,
-      "full_winner_idx": "0"
+      "full_winner_idx": "56"
     },
     "borda": {
       "winner": "15",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "0"
     },
     "irv": {
-      "winner": "7",
+      "winner": "12",
       "epsilon": 0.0,
-      "full_winner_idx": "61"
+      "full_winner_idx": "34"
     },
     "plurality": {
-      "winner": "4",
-      "epsilon": 0.0,
-      "full_winner_idx": "42"
-    },
-    "veto_by_consumption": {
       "winner": "7",
       "epsilon": 0.0,
       "full_winner_idx": "61"
     },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "53",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Americans who disagree about the Electoral College often share the same priorities: outcomes that are widely accepted, campaigns that reach more than a handful of battlegrounds, and rules that are clear when elections are close. A practical compromise is to keep state-run elections but reduce winner-take-all effects through proportional or ranked-choice allocation within states, paired with uniform baseline standards for recounts, audits, and ballot access. In parallel, we can evaluate broader options like the National Popular Vote compact or a constitutional amendment using agreed-upon criteria\u2014fairness, stability, and incentives to build nationwide coalitions\u2014rather than party advantage.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "People who defend the Electoral College and those who want change often share the same goal: a president chosen through an outcome that is fair, stable, and broadly accepted across regions. A practical compromise is to reduce \u201cwinner-take-all\u201d distortions and swing\u2011state incentives\u2014through proportional or district-based allocation\u2014while also strengthening uniform standards for counting, recounts, and transparent audits in every state. In parallel, we can evaluate larger reforms like the National Popular Vote Interstate Compact or a constitutional amendment against shared criteria: legitimacy in close elections, meaningful state participation, and making more voters feel their ballot matters.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people\u2014whether they defend the Electoral College\u2019s state-based design or prefer a popular-vote outcome\u2014want elections that are fair, secure, and produce a winner broadly accepted across regions. A practical compromise is to keep state administration but reduce winner-take-all distortions by encouraging proportional (or ranked-choice) allocation within states, paired with clear national minimum standards for ballot access, audits, and recount triggers. In parallel, we can evaluate the National Popular Vote Interstate Compact or an amendment on transparent criteria\u2014legitimacy in close elections, incentives to campaign beyond swing states, and confidence that every vote and every state still matters.",
+      "is_new": true
     }
   }
 }

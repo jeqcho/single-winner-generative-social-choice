@@ -47,40 +47,73 @@
   "results": {
     "schulze": {
       "winner": "18",
-      "epsilon": 0.0,
+      "epsilon": 0.050000000000000044,
       "full_winner_idx": "94"
     },
     "borda": {
       "winner": "18",
-      "epsilon": 0.0,
+      "epsilon": 0.050000000000000044,
       "full_winner_idx": "94"
     },
     "irv": {
       "winner": "18",
-      "epsilon": 0.0,
+      "epsilon": 0.050000000000000044,
       "full_winner_idx": "94"
     },
     "plurality": {
       "winner": "18",
-      "epsilon": 0.0,
+      "epsilon": 0.050000000000000044,
       "full_winner_idx": "94"
     },
     "veto_by_consumption": {
-      "winner": "18",
+      "winner": "3",
       "epsilon": 0.0,
-      "full_winner_idx": "94"
+      "full_winner_idx": "28"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "10",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "8"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star": {
+      "winner": "98",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_personas": {
+      "winner": "68",
+      "epsilon": 0.0,
+      "full_winner_idx": "68"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise would keep the Electoral College\u2019s state-based structure but reduce its sharpest distortions so the winner more consistently matches the country\u2019s overall vote. States could be encouraged (or federally incentivized) to allocate electors proportionally using the same ballot design, counting rules, and automatic recount triggers nationwide, while requiring electors to follow those results to avoid faithless-vote controversy. Over time, if broad support emerges, the National Popular Vote Interstate Compact could serve as a transparent off-ramp toward a true popular-vote system without an abrupt constitutional break.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections reflect the national will more closely while preserving a meaningful role for states and smaller communities. A workable bridge is a national popular-vote outcome\u2014potentially via the National Popular Vote Interstate Compact\u2014paired with clear, uniform standards for ballot access, recounts, paper-ballot auditing, and transparent certification. If full adoption isn\u2019t feasible yet, states could move away from winner-take-all by allocating electors proportionally (or by district with anti-gerrymandering safeguards), so candidates have incentives to compete beyond a few swing states and every vote matters more.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A durable reform should make every vote matter more while keeping states meaningfully involved and maintaining clear, trusted rules. A realistic bridge is to curb winner-take-all by moving states toward proportional elector allocation (with strong safeguards against gerrymandering) while also advancing a national popular-vote path like the National Popular Vote Interstate Compact, paired with ranked-choice or an automatic runoff so the winner has broad support. Whatever model is chosen, nationwide minimum standards for ballot access, language assistance, paper-backed audits, and transparent recount and certification timelines would help rural, urban, and immigrant communities alike trust that outcomes are fair and final.",
+      "is_new": true
     }
   }
 }

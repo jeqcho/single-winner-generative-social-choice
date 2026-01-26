@@ -46,14 +46,14 @@
   ],
   "results": {
     "schulze": {
-      "winner": "11",
+      "winner": "10",
       "epsilon": 0.0,
-      "full_winner_idx": "97"
+      "full_winner_idx": "8"
     },
     "borda": {
-      "winner": "11",
+      "winner": "12",
       "epsilon": 0.0,
-      "full_winner_idx": "97"
+      "full_winner_idx": "18"
     },
     "irv": {
       "winner": "10",
@@ -66,21 +66,54 @@
       "full_winner_idx": "8"
     },
     "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt": {
       "winner": "11",
       "epsilon": 0.0,
       "full_winner_idx": "97"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "97",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "96",
+      "epsilon": 0.0,
+      "full_winner_idx": "96"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "We can recognize that the Electoral College expresses a federal system of states while also admitting that winner-take-all outcomes and uneven election rules can make some votes feel discounted. A practical compromise is to keep the Electoral College but reduce distortions by requiring proportional elector allocation (with a minimum threshold) and pairing it with baseline national standards for ballots, recounts, and access. If those steps still leave persistent legitimacy gaps, a clearly defined \u201cpopular-vote backstop\u201d agreed to by participating states could be triggered only when the national margin is decisive, preserving stability while better reflecting the electorate.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people can agree the goal is an election outcome that feels legitimate nationwide: it should reflect voters more closely while still giving states a meaningful role and avoiding recount chaos. A practical compromise is to reduce winner-take-all distortions through proportional (or well-guarded district-based) allocation of electors, paired with clearer national standards for ballots, counting, and audits. Options like the National Popular Vote Interstate Compact can be evaluated alongside these reforms using shared criteria\u2014representation, stability, and incentives to campaign broadly\u2014rather than partisan advantage.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most of us want a presidential election that feels fair to individual voters, legitimate across states, and predictable in close contests. A practical compromise is to keep the Electoral College framework but reduce winner-take-all distortions through proportional (or ranked-choice) allocation of electors within states, paired with uniform national standards for ballot access, counting, and recounts. We can also evaluate complementary steps\u2014like expanding the House to better match population and considering a popular-vote compact only if broad, bipartisan participation and clear recount rules are in place\u2014so reforms increase trust without making any region feel ignored.",
+      "is_new": true
     }
   }
 }

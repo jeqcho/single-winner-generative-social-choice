@@ -57,13 +57,13 @@
     },
     "irv": {
       "winner": "2",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "42"
     },
     "plurality": {
-      "winner": "9",
-      "epsilon": 0.0,
-      "full_winner_idx": "60"
+      "winner": "5",
+      "epsilon": 0.30000000000000004,
+      "full_winner_idx": "0"
     },
     "veto_by_consumption": {
       "winner": "11",
@@ -71,16 +71,52 @@
       "full_winner_idx": "97"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "8",
+      "epsilon": 0.21999999999999997,
+      "full_winner_idx": "59"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by protecting health and life while acknowledging that pregnancy can involve urgent, complex medical and personal realities that don\u2019t fit one-size-fits-all rules. A durable framework should guarantee timely care and clear, medically defined exceptions (especially for threats to life or serious health harm), use transparent gestational standards that reflect broad public values, and rely on professional medical judgment rather than criminal penalties for patients and clinicians. Common ground grows when policy also invests in prevention and support\u2014contraception, accurate education, prenatal care, and practical help for parents and adoption\u2014so fewer families reach a crisis point in the first place.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion and medically grounded standards that protect a pregnant person\u2019s health and dignity while acknowledging the moral weight many attach to unborn life. A workable framework keeps time\u2011sensitive decisions primarily between patients and clinicians, sets clear, consistent limits as pregnancy progresses, and includes explicit exceptions for rape, incest, and serious threats to the mother\u2019s life or health so doctors can act without fear of punishment. Common ground also means reducing the number of abortions by expanding contraception access, comprehensive sex education, prenatal care, adoption options, and practical supports for parents and families.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion and medical reality, protecting a pregnant person\u2019s health and basic privacy while acknowledging the sincere moral concern many have for developing life. A workable framework sets clear, medically grounded standards\u2014ensuring timely care and well-defined exceptions for threats to life or serious health, and for rape or incest\u2014while avoiding vague rules that punish patients or clinicians. Common ground also means reducing unintended pregnancies and hardship through better sex education, affordable contraception, prenatal and maternal care, and practical support for parents and adoption, so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

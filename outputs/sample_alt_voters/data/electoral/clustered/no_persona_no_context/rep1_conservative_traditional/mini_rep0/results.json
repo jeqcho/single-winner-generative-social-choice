@@ -71,16 +71,45 @@
       "full_winner_idx": "35"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "20"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people want a presidential election that both respects the states\u2019 role in a federal system and makes the outcome track voters\u2019 choices closely enough to be widely accepted. A practical compromise is to keep the Electoral College but reduce its distortions by awarding at least some electors based on statewide vote share (rather than all-or-nothing), paired with clear, uniform rules for certification, audits, and recount triggers. That approach aims to make more votes matter in every state while preserving incentives for candidates to build geographically broad support.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people want presidential elections that feel legitimate, give every voter a meaningful voice, and still reflect the country\u2019s federal structure. A practical middle path is to keep the Electoral College but reduce winner-take-all distortions\u2014through proportional (or well-designed district-based) allocation of electors paired with strong anti-gerrymandering safeguards. Alongside that, set clear national standards for ballot access, counting, and recounts so close elections don\u2019t hinge on arbitrary state rules. These reforms can preserve state-based coalition-building while making outcomes track more closely with the overall vote and improving public trust.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people\u2014whether they favor keeping the Electoral College or replacing it\u2014want a result that clearly reflects voters\u2019 choices, doesn\u2019t make \u201csafe-state\u201d voters feel irrelevant, and can be trusted and verified in close contests. A practical compromise is to keep the state-based framework but reduce winner-take-all distortions (through proportional or ranked-choice allocation within states) while adopting uniform national standards for ballot access, counting, and recounts. We can compare options using shared, nonpartisan criteria\u2014legitimacy, attention to all regions, and manageable administration\u2014so reforms strengthen confidence without turning the system into a partisan weapon.",
+      "is_new": true
     }
   }
 }

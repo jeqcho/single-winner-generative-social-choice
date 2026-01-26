@@ -47,17 +47,17 @@
   "results": {
     "schulze": {
       "winner": "9",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "60"
     },
     "borda": {
       "winner": "9",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "60"
     },
     "irv": {
       "winner": "9",
-      "epsilon": 0.0,
+      "epsilon": 0.010000000000000009,
       "full_winner_idx": "60"
     },
     "plurality": {
@@ -66,21 +66,54 @@
       "full_winner_idx": "69"
     },
     "veto_by_consumption": {
-      "winner": "7",
+      "winner": "5",
       "epsilon": 0.0,
-      "full_winner_idx": "50"
+      "full_winner_idx": "0"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_personas": {
+      "winner": "46",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "46"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A pragmatic path is to keep the Electoral College but modernize how it converts votes into electors so fewer ballots are \u201cwasted\u201d and the winner almost always aligns with the national popular vote. States could adopt a uniform proportional allocation formula with a modest statewide bonus for the top finisher, paired with binding electors, routine risk-limiting audits, and clear nationwide recount triggers. If repeated elections still produce popular-vote inversions, an interstate compact could serve as a fallback so outcomes remain broadly legitimate without forcing an immediate constitutional fight.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable compromise is to keep state-run elections and the Electoral College, but reduce winner-take-all distortions by allocating electors proportionally (or by districts only with strong anti-gerrymandering safeguards) and requiring electors to follow certified results. Pair this with clear national baseline rules for ballot access, certification, routine post-election audits, and automatic recount triggers so close races are transparent and harder to dispute. If broader agreement develops, states can also adopt a national popular-vote compact as a backstop to ensure the presidency aligns with the voters nationwide.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A practical compromise is to keep state-run elections and the Electoral College, but reduce winner-take-all so votes in every state matter more\u2014using proportional elector allocation with clear, enforceable rules that electors follow the certified results. To build trust across communities, set uniform national baselines for ballot access, election security, routine post-election audits, and automatic recount triggers in close races. If states want an additional safeguard against popular-vote/EC mismatches, they could adopt a national popular-vote compact backstop that activates only when enough states join and margins are tight.",
+      "is_new": true
     }
   }
 }

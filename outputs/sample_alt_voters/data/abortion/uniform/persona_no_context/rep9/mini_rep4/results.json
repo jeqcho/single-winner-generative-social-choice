@@ -46,41 +46,75 @@
   ],
   "results": {
     "schulze": {
-      "winner": "8",
-      "epsilon": 0.0,
-      "full_winner_idx": "18"
+      "winner": "0",
+      "epsilon": null,
+      "full_winner_idx": "56"
     },
     "borda": {
-      "winner": "4",
-      "epsilon": 0.0,
-      "full_winner_idx": "25"
+      "winner": "2",
+      "epsilon": null,
+      "full_winner_idx": "48"
     },
     "irv": {
       "winner": "8",
-      "epsilon": 0.0,
+      "epsilon": null,
       "full_winner_idx": "18"
     },
     "plurality": {
       "winner": "8",
-      "epsilon": 0.0,
+      "epsilon": null,
       "full_winner_idx": "18"
     },
     "veto_by_consumption": {
-      "winner": "0",
-      "epsilon": 0.0,
-      "full_winner_idx": "56"
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "73"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "49"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "6",
+      "epsilon": null,
+      "full_winner_idx": "55"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "76"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to reduce harm and protect human dignity by combining medically grounded protections with a realistic understanding of why people face these decisions. Policy should guarantee timely care for medical emergencies and serious complications, avoid criminalizing patients or clinicians, and set clear, publicly accountable standards developed with input from healthcare experts and community voices. The strongest common ground pairs any legal guardrails with prevention and support\u2014comprehensive sex education, affordable contraception, prenatal/postpartum care, and practical help for parenting and adoption\u2014so fewer pregnancies become crises and fewer families feel trapped.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, sound medical evidence, and a serious respect for both the pregnant patient\u2019s health and dignity and the moral concern many people hold about developing life. Policy should set clear, workable rules that protect timely, safe care and privacy, including well-defined exceptions for threats to the mother\u2019s life or serious health complications, and for pregnancies involving rape or incest. Common ground is strongest when laws also invest in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and maternal care, adoption options, and family resources\u2014so fewer people face crisis pregnancies and fewer abortions are driven by desperation rather than choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medically grounded standards, and respect for the dignity of both the pregnant patient and developing life, recognizing that people hold sincere moral and religious differences. Policy should keep urgent medical decisions in the hands of patients and qualified clinicians, with clear, workable rules and exceptions for threats to the patient\u2019s life or serious health, rape or incest, and severe fetal complications\u2014without criminalizing patients or doctors acting in good faith. At the same time, communities should focus on prevention and support: affordable contraception, comprehensive sex education, prenatal and postpartum care, paid leave, and adoption and parenting resources, so fewer families face crisis decisions and more children and parents can thrive.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

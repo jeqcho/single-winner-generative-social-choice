@@ -56,9 +56,9 @@
       "full_winner_idx": "69"
     },
     "irv": {
-      "winner": "6",
-      "epsilon": 0.0,
-      "full_winner_idx": "70"
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "78"
     },
     "plurality": {
       "winner": "6",
@@ -66,21 +66,54 @@
       "full_winner_idx": "70"
     },
     "veto_by_consumption": {
-      "winner": "14",
+      "winner": "12",
       "epsilon": 0.0,
-      "full_winner_idx": "29"
+      "full_winner_idx": "18"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "50"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "50",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.25,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable middle path is to keep the Electoral College but make its outcomes track the national vote more closely and predictably. States could be required to allocate electors proportionally (or via a uniform district method) and Congress could expand the House to reduce small\u2011state overweighting, while adopting clear nationwide standards for ballot access, counting, and automatic recount triggers. This preserves the states\u2019 role and regional legitimacy, but reduces winner\u2011take\u2011all distortions so candidates have incentives to compete beyond a few battlegrounds.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "The best bridge is to keep the Electoral College but modernize it so outcomes track voter intent more closely and every lawful vote is counted under clear, consistent rules. That means a national baseline for election administration (access, ballot security, transparent certification, and automatic recount thresholds) and reducing winner\u2011take\u2011all distortions by allowing proportional or district-based elector allocation, with reforms like ranked-choice voting to ensure broad support. If broader change is desired, the National Popular Vote Compact and/or expanding the House can be phased in with bipartisan guardrails so both small-state and large-state voters trust the result.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable reform is to keep states running elections but make the outcome track voters more closely by ending winner-take-all: allocate electors proportionally (or with a clear district-plus-statewide method) and expand the House to reduce large-state and small-state distortions. Pair that with a simple national baseline for voting access and election integrity\u2014transparent certification, uniform recount triggers, and consistent ballot standards\u2014so results are trusted everywhere. If the country wants to go further without an immediate amendment, the National Popular Vote Compact can serve as a transition once enough states join, while preserving clear rules and broad legitimacy.",
+      "is_new": true
     }
   }
 }

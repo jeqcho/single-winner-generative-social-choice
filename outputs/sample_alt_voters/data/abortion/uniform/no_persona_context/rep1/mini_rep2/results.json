@@ -47,40 +47,76 @@
   "results": {
     "schulze": {
       "winner": "16",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.0,
       "full_winner_idx": "10"
     },
     "borda": {
       "winner": "16",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.0,
       "full_winner_idx": "10"
     },
     "irv": {
       "winner": "16",
-      "epsilon": 0.010000000000000009,
+      "epsilon": 0.0,
       "full_winner_idx": "10"
     },
     "plurality": {
-      "winner": "6",
+      "winner": "1",
       "epsilon": 0.0,
-      "full_winner_idx": "70"
+      "full_winner_idx": "55"
     },
     "veto_by_consumption": {
-      "winner": "6",
+      "winner": "13",
       "epsilon": 0.0,
-      "full_winner_idx": "70"
+      "full_winner_idx": "69"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to protect lives and reduce suffering by centering patient safety, ethical medical practice, and respect for deep moral disagreement about developing life. The rules should be simple and medically workable: safeguard confidential early access, prohibit prosecution of patients, and guarantee prompt care for miscarriages and for any serious threat to health or life, with defined provisions for pregnancies resulting from sexual violence. Any limits later in pregnancy should track viability and objective clinical criteria, relying on physician judgment and review mechanisms rather than blanket bans. Lasting common ground also requires lowering the need for abortion through contraception, accurate education, and strong financial, childcare, prenatal, and postpartum supports.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to reduce harm in a pluralistic society by protecting timely, evidence-based medical care and the doctor\u2013patient relationship while acknowledging the moral seriousness many attach to developing life. A workable framework protects privacy and access early in pregnancy, sets any later limits in clear, medically grounded and enforceable terms, and includes explicit exceptions for threats to life or serious health and for pregnancies from rape or incest. Policy should avoid criminalizing patients or forcing clinicians to delay urgent care, and it should pair any legal rules with strong prevention and family supports\u2014contraception access, accurate education, prenatal and postpartum care, and practical help for parenting or adoption\u2014so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by protecting health, dignity, and personal liberty in a morally diverse society, while acknowledging that many people view developing life as morally significant. The law should keep time-sensitive medical decisions in the hands of patients and licensed clinicians, with clear, medically defined protections for emergencies and serious health risks and for pregnancies resulting from rape or incest, and any later-pregnancy rules should be precise, evidence-based, and not enforced through criminalizing patients. The strongest common ground is reducing crisis pregnancies and coercion by expanding access to contraception and accurate education, alongside real supports for prenatal and postpartum care, paid leave, childcare, and adoption services so more families can choose parenting without hardship.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

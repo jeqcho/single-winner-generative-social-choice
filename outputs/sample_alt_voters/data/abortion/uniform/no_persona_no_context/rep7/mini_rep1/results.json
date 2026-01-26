@@ -51,9 +51,9 @@
       "full_winner_idx": "56"
     },
     "borda": {
-      "winner": "16",
+      "winner": "19",
       "epsilon": 0.0,
-      "full_winner_idx": "56"
+      "full_winner_idx": "97"
     },
     "irv": {
       "winner": "16",
@@ -66,21 +66,57 @@
       "full_winner_idx": "56"
     },
     "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
       "winner": "16",
       "epsilon": 0.0,
       "full_winner_idx": "56"
     },
-    "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
-    "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
-    },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "76",
+      "epsilon": 0.0,
+      "full_winner_idx": "76"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by practical respect for both the pregnant person\u2019s rights and the widespread desire to protect developing life, without pretending society agrees on when personhood begins. A durable middle ground is to guarantee timely, safe care with clear protections for medical emergencies and clinician judgment, while allowing democratically set limits that are transparent, consistently applied, and not punitive. To reduce abortions and hardship, policy should also invest in contraception access, prenatal and postpartum care, and economic supports for parents and adoption so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, evidence, and humility in a pluralistic society\u2014seeking to reduce suffering while respecting both the pregnant person\u2019s health and agency and the moral concern many feel for developing life. Common ground includes preventing unintended pregnancies through accurate information and contraception access, and providing strong supports for pregnancy, parenting, and adoption so choices aren\u2019t driven by desperation. Any legal limits should be medically workable, transparent, and paired with clear exceptions and timely access to care in emergencies, serious health threats, or cases of violence. The goal is fewer crises and safer, more supported families rather than punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to human dignity, public health, and democratic legitimacy in a society with sincere moral disagreement. Policy should protect patients and clinicians with clear, evidence-based medical standards\u2014including timely care for life- and health-threatening emergencies and cases of rape or incest\u2014while also reflecting concern for developing life where communities set limits. Lasting common ground comes from reducing the number of abortions through contraception access, accurate education, prenatal care, and practical supports for parenting and adoption, so fewer families face crisis-driven choices. The focus should be on prevention, safety, and support rather than punishment or stigma.",
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

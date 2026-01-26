@@ -46,19 +46,19 @@
   ],
   "results": {
     "schulze": {
-      "winner": "15",
+      "winner": "14",
       "epsilon": 0.0,
-      "full_winner_idx": "0"
+      "full_winner_idx": "91"
     },
     "borda": {
-      "winner": "15",
+      "winner": "14",
       "epsilon": 0.0,
-      "full_winner_idx": "0"
+      "full_winner_idx": "91"
     },
     "irv": {
-      "winner": "5",
+      "winner": "8",
       "epsilon": 0.0,
-      "full_winner_idx": "11"
+      "full_winner_idx": "99"
     },
     "plurality": {
       "winner": "5",
@@ -71,16 +71,49 @@
       "full_winner_idx": "8"
     },
     "chatgpt": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
     },
     "chatgpt_rankings": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
     },
     "chatgpt_personas": {
-      "winner": null,
-      "error": "Error code: 400 - {'error': {'message': \"Unsupported value: 'minimal' is not supported with the 'gpt-5.2' model. Supported values are: 'none', 'low', 'medium', 'high', and 'xhigh'.\", 'type': 'invalid_request_error', 'param': 'reasoning.effort', 'code': 'unsupported_value'}}"
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_personas": {
+      "winner": "87",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to make the presidency reflect the voters\u2019 choice more consistently while preserving states\u2019 legitimate role in running elections and ensuring candidates must earn broad geographic support. A workable compromise is to end winner-take-all by using proportional elector allocation (with a minimum threshold to avoid extreme fragmentation) and to adopt shared national baselines for ballot access, tabulation, audits, and recounts so close elections are resolved transparently. If momentum builds for going further, states could choose to join an interstate agreement that awards electors to the national vote winner, but only once clear rules and verification standards are in place.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable reform should make every vote matter more equally while keeping the states\u2019 role and addressing concerns that small or rural communities could be ignored. A practical bridge is to keep the Electoral College but end winner-take-all by allocating electors proportionally (or by district) and add clear, uniform national standards for ballot access, counting, audits, and recounts to improve legitimacy. If broader alignment with the national popular will is desired, the National Popular Vote Interstate Compact can provide a phased path once enough states join, with safeguards like ranked-choice voting to ensure majority-backed outcomes and reduce spoiler fears.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should make every vote matter similarly\u2014whether you live in a rural county or a major city\u2014while keeping states\u2019 role in running elections with clear, consistent rules people can understand and trust. A practical compromise is to end winner-take-all by encouraging proportional (or district-based) allocation of electors, or to use the National Popular Vote Interstate Compact once enough states join, so outcomes track the national vote without an abrupt constitutional break. Pair any change with uniform standards for access, paper-backed auditing, and clear recount triggers, and consider ranked-choice voting to ensure the winner earns broad support and reduces \"spoiler\" fears.",
+      "is_new": true
     }
   }
 }
