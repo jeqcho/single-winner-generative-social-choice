@@ -202,8 +202,13 @@ def run_chatgpt_voting_methods(
     full_preferences: List[List[str]] = None,
     voter_indices: List[int] = None,
     topic: str = None,
+    voter_personas: List[str] = None,
 ) -> Dict[str, Dict]:
-    """Run ChatGPT-based voting methods."""
+    """Run ChatGPT-based voting methods.
+    
+    Args:
+        voter_personas: All 100 voter personas (for GPT** epsilon computation)
+    """
     results = {}
     
     # Base ChatGPT
@@ -262,7 +267,8 @@ def run_chatgpt_voting_methods(
         try:
             results["chatgpt_double_star"] = run_chatgpt_double_star(
                 sample_statements, all_statements, sample_personas,
-                full_preferences, voter_indices, topic, openai_client
+                full_preferences, voter_indices, topic, openai_client,
+                voter_personas=voter_personas
             )
         except Exception as e:
             logger.error(f"Error running chatgpt_double_star: {e}")
@@ -271,7 +277,8 @@ def run_chatgpt_voting_methods(
         try:
             results["chatgpt_double_star_rankings"] = run_chatgpt_double_star_with_rankings(
                 sample_statements, sample_preferences, all_statements,
-                sample_personas, full_preferences, voter_indices, topic, openai_client
+                sample_personas, full_preferences, voter_indices, topic, openai_client,
+                voter_personas=voter_personas
             )
         except Exception as e:
             logger.error(f"Error running chatgpt_double_star_rankings: {e}")
@@ -280,7 +287,8 @@ def run_chatgpt_voting_methods(
         try:
             results["chatgpt_double_star_personas"] = run_chatgpt_double_star_with_personas(
                 sample_statements, sample_personas, all_statements,
-                full_preferences, voter_indices, topic, openai_client
+                full_preferences, voter_indices, topic, openai_client,
+                voter_personas=voter_personas
             )
         except Exception as e:
             logger.error(f"Error running chatgpt_double_star_personas: {e}")
@@ -346,6 +354,7 @@ def run_mini_rep(
             full_preferences=full_preferences,
             voter_indices=voter_indices,
             topic=topic,
+            voter_personas=voter_personas,  # All 100 personas for GPT** epsilon
         )
         results.update(chatgpt_results)
     

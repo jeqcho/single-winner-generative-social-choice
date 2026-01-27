@@ -748,24 +748,72 @@ def run_chatgpt_double_star(
     voter_indices: List[int],
     topic: str,
     openai_client: OpenAI,
+    voter_personas: List[str] = None,
     model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
     """
     Run ChatGPT** which generates a new statement.
     
-    Returns the new statement text and the updated preference profile.
+    If voter_personas is provided, computes epsilon inline by inserting
+    the new statement into all voters' rankings.
+    
+    Returns the new statement text and epsilon (if computed).
     """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    from tqdm import tqdm
+    from src.experiment_utils.epsilon_calculator import compute_epsilon_for_new_statement
+    
     new_statement = generate_new_statement(sample_statements, topic, openai_client, model, temperature)
     
     if new_statement is None:
         return {"winner": None, "new_statement": None, "error": "Failed to generate statement"}
     
-    return {
-        "winner": str(len(all_statements)),  # New statement index
+    n_alts = len(all_statements)
+    result = {
+        "winner": str(n_alts),  # New statement index
         "new_statement": new_statement,
         "is_new": True
     }
+    
+    # Compute epsilon inline if voter_personas provided
+    if voter_personas is not None:
+        n_voters = len(voter_personas)
+        logger.info(f"ChatGPT**: Inserting new statement into {n_voters} voters' rankings...")
+        
+        def process_voter(args):
+            voter_idx, persona = args
+            current_ranking = [int(full_preferences[rank][voter_idx]) for rank in range(n_alts)]
+            new_ranking = insert_statement_into_ranking(
+                persona, current_ranking, all_statements, new_statement,
+                topic, openai_client, model, temperature
+            )
+            return voter_idx, new_ranking
+        
+        updated_rankings = [None] * n_voters
+        with ThreadPoolExecutor(max_workers=100) as executor:
+            futures = {
+                executor.submit(process_voter, (i, voter_personas[i])): i
+                for i in range(n_voters)
+            }
+            for future in tqdm(as_completed(futures), total=len(futures),
+                              desc="Inserting statement", unit="voter"):
+                voter_idx, new_ranking = future.result()
+                updated_rankings[voter_idx] = new_ranking
+        
+        # Convert to preference matrix format [rank][voter]
+        n_total_alts = n_alts + 1
+        updated_preferences = []
+        for rank in range(n_total_alts):
+            rank_row = [str(updated_rankings[voter][rank]) for voter in range(n_voters)]
+            updated_preferences.append(rank_row)
+        
+        # Compute epsilon with m=100
+        epsilon = compute_epsilon_for_new_statement(updated_preferences, n_alts)
+        result["epsilon"] = epsilon
+        logger.info(f"ChatGPT**: epsilon = {epsilon}")
+    
+    return result
 
 
 def run_chatgpt_double_star_with_rankings(
@@ -777,10 +825,19 @@ def run_chatgpt_double_star_with_rankings(
     voter_indices: List[int],
     topic: str,
     openai_client: OpenAI,
+    voter_personas: List[str] = None,
     model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
-    """Run ChatGPT** with rankings to generate a new statement."""
+    """
+    Run ChatGPT** with rankings to generate a new statement.
+    
+    If voter_personas is provided, computes epsilon inline.
+    """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    from tqdm import tqdm
+    from src.experiment_utils.epsilon_calculator import compute_epsilon_for_new_statement
+    
     new_statement = generate_new_statement_with_rankings(
         sample_statements, sample_preferences, topic, openai_client, model, temperature
     )
@@ -788,11 +845,51 @@ def run_chatgpt_double_star_with_rankings(
     if new_statement is None:
         return {"winner": None, "new_statement": None, "error": "Failed to generate statement"}
     
-    return {
-        "winner": str(len(all_statements)),
+    n_alts = len(all_statements)
+    result = {
+        "winner": str(n_alts),
         "new_statement": new_statement,
         "is_new": True
     }
+    
+    # Compute epsilon inline if voter_personas provided
+    if voter_personas is not None:
+        n_voters = len(voter_personas)
+        logger.info(f"ChatGPT**+Rank: Inserting new statement into {n_voters} voters' rankings...")
+        
+        def process_voter(args):
+            voter_idx, persona = args
+            current_ranking = [int(full_preferences[rank][voter_idx]) for rank in range(n_alts)]
+            new_ranking = insert_statement_into_ranking(
+                persona, current_ranking, all_statements, new_statement,
+                topic, openai_client, model, temperature
+            )
+            return voter_idx, new_ranking
+        
+        updated_rankings = [None] * n_voters
+        with ThreadPoolExecutor(max_workers=100) as executor:
+            futures = {
+                executor.submit(process_voter, (i, voter_personas[i])): i
+                for i in range(n_voters)
+            }
+            for future in tqdm(as_completed(futures), total=len(futures),
+                              desc="Inserting statement", unit="voter"):
+                voter_idx, new_ranking = future.result()
+                updated_rankings[voter_idx] = new_ranking
+        
+        # Convert to preference matrix format [rank][voter]
+        n_total_alts = n_alts + 1
+        updated_preferences = []
+        for rank in range(n_total_alts):
+            rank_row = [str(updated_rankings[voter][rank]) for voter in range(n_voters)]
+            updated_preferences.append(rank_row)
+        
+        # Compute epsilon with m=100
+        epsilon = compute_epsilon_for_new_statement(updated_preferences, n_alts)
+        result["epsilon"] = epsilon
+        logger.info(f"ChatGPT**+Rank: epsilon = {epsilon}")
+    
+    return result
 
 
 def run_chatgpt_double_star_with_personas(
@@ -803,10 +900,19 @@ def run_chatgpt_double_star_with_personas(
     voter_indices: List[int],
     topic: str,
     openai_client: OpenAI,
+    voter_personas: List[str] = None,
     model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
-    """Run ChatGPT** with personas to generate a new statement."""
+    """
+    Run ChatGPT** with personas to generate a new statement.
+    
+    If voter_personas is provided, computes epsilon inline.
+    """
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    from tqdm import tqdm
+    from src.experiment_utils.epsilon_calculator import compute_epsilon_for_new_statement
+    
     new_statement = generate_new_statement_with_personas(
         sample_statements, sample_personas, topic, openai_client, model, temperature
     )
@@ -814,11 +920,51 @@ def run_chatgpt_double_star_with_personas(
     if new_statement is None:
         return {"winner": None, "new_statement": None, "error": "Failed to generate statement"}
     
-    return {
-        "winner": str(len(all_statements)),
+    n_alts = len(all_statements)
+    result = {
+        "winner": str(n_alts),
         "new_statement": new_statement,
         "is_new": True
     }
+    
+    # Compute epsilon inline if voter_personas provided
+    if voter_personas is not None:
+        n_voters = len(voter_personas)
+        logger.info(f"ChatGPT**+Pers: Inserting new statement into {n_voters} voters' rankings...")
+        
+        def process_voter(args):
+            voter_idx, persona = args
+            current_ranking = [int(full_preferences[rank][voter_idx]) for rank in range(n_alts)]
+            new_ranking = insert_statement_into_ranking(
+                persona, current_ranking, all_statements, new_statement,
+                topic, openai_client, model, temperature
+            )
+            return voter_idx, new_ranking
+        
+        updated_rankings = [None] * n_voters
+        with ThreadPoolExecutor(max_workers=100) as executor:
+            futures = {
+                executor.submit(process_voter, (i, voter_personas[i])): i
+                for i in range(n_voters)
+            }
+            for future in tqdm(as_completed(futures), total=len(futures),
+                              desc="Inserting statement", unit="voter"):
+                voter_idx, new_ranking = future.result()
+                updated_rankings[voter_idx] = new_ranking
+        
+        # Convert to preference matrix format [rank][voter]
+        n_total_alts = n_alts + 1
+        updated_preferences = []
+        for rank in range(n_total_alts):
+            rank_row = [str(updated_rankings[voter][rank]) for voter in range(n_voters)]
+            updated_preferences.append(rank_row)
+        
+        # Compute epsilon with m=100
+        epsilon = compute_epsilon_for_new_statement(updated_preferences, n_alts)
+        result["epsilon"] = epsilon
+        logger.info(f"ChatGPT**+Pers: epsilon = {epsilon}")
+    
+    return result
 
 
 def insert_new_statement_into_rankings(
