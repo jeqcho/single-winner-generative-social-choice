@@ -356,10 +356,15 @@ def run_mini_rep(
     for method_name, result in results.items():
         winner = result.get("winner")
         if winner is not None and winner in alt_mapping:
+            # Traditional + base ChatGPT: winner in sample space (0-19)
             full_winner = alt_mapping[winner]
-            epsilon = lookup_epsilon(full_epsilons, full_winner)
-            result["epsilon"] = epsilon
+            result["epsilon"] = lookup_epsilon(full_epsilons, full_winner)
             result["full_winner_idx"] = full_winner
+        elif method_name.startswith("chatgpt_star") and winner is not None:
+            # GPT* methods: winner already in full space (0-99)
+            result["epsilon"] = lookup_epsilon(full_epsilons, winner)
+            result["full_winner_idx"] = winner
+        # GPT** methods: epsilon computed inline in voting_methods.py
     
     return {
         "mini_rep_id": mini_rep_id,
