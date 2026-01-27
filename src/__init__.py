@@ -1,2 +1,0 @@
-"""Social Choice Experiment Pipeline"""
-
