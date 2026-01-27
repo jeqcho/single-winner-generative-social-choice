@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "32",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_personas": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by a commitment to protect human dignity in all its forms\u2014respecting a pregnant person\u2019s agency and health while taking seriously the moral concern many feel for developing life. A durable framework sets clear, medically workable rules: early decisions remain primarily private and clinician-led, while later regulation, if any, is tied to fetal viability and always includes timely exceptions for life, serious health threats, and pregnancies involving rape, incest, or lethal fetal conditions. Alongside any limits, government should reduce crisis pregnancies and coercion through contraception access, accurate education, prenatal and postnatal care, and practical supports like paid leave, childcare, and adoption services, so fewer families face desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for both personal autonomy and the moral weight many people place on unborn life. A workable framework keeps politicians out of the exam room by protecting privacy and timely, safe care with clear health-and-life exceptions, while allowing reasonable, consistently defined limits as pregnancy progresses. Common ground grows when policy also reduces crisis pregnancies and pressure-driven decisions through comprehensive sex education, affordable contraception, prenatal and mental-health care, and practical support for parents and adoption so fewer families face desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect life and dignity while recognizing that pregnancy can involve urgent medical risks, trauma, and serious hardship, so decisions must be grounded in clear medical evidence and patient safety rather than politics. A durable framework keeps early, time-sensitive care private between the patient and clinician, allows reasonable limits later in pregnancy with narrowly tailored exceptions for the woman\u2019s life and serious health threats (and other extreme circumstances), and protects clinicians who provide medically indicated care. Common ground grows when policy also reduces the number of abortions by expanding contraception and accurate education, and by providing strong supports for parents and children\u2014prenatal care, mental-health services, paid leave, childcare, and adoption resources\u2014so fewer people feel forced by fear or lack of options.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

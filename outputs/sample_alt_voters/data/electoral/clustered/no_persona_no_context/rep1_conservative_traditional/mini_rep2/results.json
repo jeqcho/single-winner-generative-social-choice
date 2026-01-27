@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "28",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people want a presidential election that reflects broad public support, avoids recurring recount crises, and still respects the states\u2019 role in running elections. A pragmatic middle path is to reduce winner-take-all incentives by moving states toward proportional or ranked-choice-based elector allocation, while also tightening shared rules for counting, recounts, and certification. If those steps don\u2019t address legitimacy concerns, the country could then revisit larger options\u2014like a national popular vote compact or amendment\u2014with clearer evidence about what actually improved trust and representation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people want presidential elections that feel fair, trusted, and not dominated by a few swing states, while still respecting the Constitution\u2019s state-based role. A practical bridge is to pursue incremental, constitutionally durable reforms\u2014such as proportional allocation of electors, expanding the House to rebalance representation, and clearer national standards for counting and certification\u2014before deciding on full replacement. We can compare options like the National Popular Vote Interstate Compact and ranked-choice voting against shared criteria of legitimacy, transparency, stability in close elections, and making more voters matter regardless of where they live.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that presidential elections should be fair, secure, and easy to understand, and that no voter should feel their ballot is ignored because they live outside a swing state. A practical compromise is to keep a state-based system but reduce winner-take-all distortions by moving toward proportional allocation of electors (or ranked-choice within states), while also adopting clear national standards for voter access, recounts, and certification. If states want to go further, the National Popular Vote Interstate Compact can be evaluated alongside these steps using shared criteria\u2014legitimacy, stability in close elections, and constitutional durability\u2014rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

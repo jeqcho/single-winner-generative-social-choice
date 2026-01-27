@@ -1,0 +1,118 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "49"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "49"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "73"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "73"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "49"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star": {
+      "winner": "49"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "98"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should start from the shared aims of protecting life and health, reducing suffering, and respecting freedom of conscience in a plural society. It should guarantee timely, confidential care when a pregnancy endangers a patient\u2019s life or serious health, involves rape or incest, or reflects a nonviable or catastrophic fetal diagnosis, while allowing narrowly tailored, medically defined limits later in pregnancy that rely on clinician judgment rather than vague criminal bans. Any framework should include non-punitive enforcement and strong investments that prevent crises\u2014contraception access, medically accurate education, prenatal/postpartum care, and practical supports like childcare, paid leave, and adoption services\u2014so fewer families face this decision under duress.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in evidence-based medicine, patient safety, and privacy, keeping time-sensitive decisions primarily in the patient\u2013clinician relationship rather than politics or criminal courts. A durable framework can protect early access and set medically grounded later-pregnancy standards tied to clinical realities (including viability), with clear, workable exceptions for threats to life or serious health, rape or incest, and severe fetal or nonviable pregnancies, while avoiding punishment of patients or good-faith providers. Common ground is strongest when any legal approach is paired with real prevention and family support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical help like childcare and paid leave\u2014so fewer pregnancies become crises and fewer families feel cornered.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by evidence-based medicine, compassion, and respect for family privacy, so time-sensitive decisions are made by patients and qualified clinicians\u2014not politicians or prosecutors. A durable compromise can protect access early in pregnancy, set clear and medically grounded standards later (including around viability), and guarantee workable exceptions for threats to life or serious health, rape or incest, and severe or nonviable fetal conditions, without criminalizing patients or good-faith providers. Common ground grows when government also invests in prevention and real support\u2014medically accurate education, affordable contraception, prenatal and postpartum care, paid leave, childcare, and adoption/parenting resources\u2014so fewer families face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

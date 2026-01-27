@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be built around shared aims: protecting the pregnant person\u2019s health and equal citizenship while recognizing that many people see developing fetal life as deserving of growing moral regard. A consensus approach secures confidential, timely care and keeps clinical decisions with patients and qualified clinicians, with explicit, workable protections for emergencies and serious health threats and no criminal penalties for patients. If limits are set later in pregnancy, they should be narrowly defined, medically informed, and paired with strong due-process and clear guidance so care isn\u2019t delayed. The most durable agreement comes from reducing unwanted pregnancy and hardship through contraception and evidence-based education, along with prenatal/postpartum care, childcare and leave, and practical support for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical reality and human dignity in a pluralistic society: protect patient safety, privacy, and clinician judgment, while acknowledging that many people attach moral weight to developing life. A workable framework keeps most decisions early in pregnancy between patient and clinician, guarantees prompt care for emergencies and serious health risks with clear, usable exceptions, and avoids vague rules or criminalization that deter necessary treatment. Any later-pregnancy guardrails should be narrowly defined, evidence-based, and paired with major investments in prevention and support\u2014contraception and accurate education, prenatal and postpartum care, and practical help for parenting or adoption\u2014so fewer people face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by shared goals most people can recognize: protect health and life, respect personal dignity and family conscience, and keep medical decisions anchored in evidence and the patient\u2013clinician relationship. Any rules should be clear enough that doctors can act immediately in emergencies and serious complications, with strong life-and-health exceptions, and without turning patients or good-faith clinicians into criminals. Where communities choose limits later in pregnancy, they should be narrowly defined, medically workable, and paired with real, practical support\u2014accurate education, affordable contraception, prenatal and postpartum care, childcare and paid leave, and adoption resources\u2014so fewer people face the decision under pressure.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "14"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should keep states\u2019 role in running elections while making the presidency track the voters\u2019 overall choice more reliably and reducing the outsized focus on a few battleground states. One workable path is to keep the Electoral College but require proportional elector allocation nationwide, paired with a national runoff or ranked-choice mechanism if no candidate reaches a clear majority. Backing that with baseline federal standards for ballot access, recount triggers, and post\u2011election audits can improve legitimacy without demanding a complete constitutional redesign.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep a state-based role while making the outcome match the national will more consistently and reducing the winner-take-all swing\u2011state distortion. A practical compromise is to require states to allocate electors proportionally or by district, paired with clear, uniform national standards for ballot access, recounts, and auditing to strengthen trust. For those who want to move further toward one person, one vote without a sudden constitutional rewrite, the National Popular Vote Interstate Compact\u2014and a ranked-choice or runoff safeguard\u2014can be a workable bridge that rewards broad, consensus support across regions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable reform should make the president the choice of the most voters while keeping states\u2019 role in running elections and ensuring rural, tribal, and smaller-state communities aren\u2019t ignored. The most practical path is to end winner-take-all by requiring proportional allocation of electors in every state (or awarding by district with a proportional statewide component) and pairing that with a ranked-choice/runoff option so the winner has broad support. Alongside that, set clear national minimum standards for ballot access, secure voting, recounts, and routine audits, so results are transparent and trusted no matter where you live. This approach reduces swing-state distortions, makes more ballots matter, and avoids a sudden, winner-takes-all national system change that many people worry could be destabilizing.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

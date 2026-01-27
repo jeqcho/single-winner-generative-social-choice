@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "32",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be built to protect health and dignity while acknowledging that many people attribute increasing moral significance to developing life. A stable approach secures confidential, timely care early in pregnancy, and ties any later regulations to clear medical standards with explicit protections for life- and health-threatening conditions, fatal fetal anomalies, and pregnancies from rape or incest\u2014written so clinicians can act without fear of prosecution. Whatever the legal line, the strongest shared ground is reducing crisis pregnancies through proven supports: affordable contraception and accurate education, strong maternal care, and practical help for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion and evidence-based medicine, protecting the dignity, safety, and privacy of pregnant people while acknowledging that many citizens attach moral seriousness to developing life. A workable framework keeps urgent decisions in the patient\u2013clinician relationship with clear, unambiguous exceptions for threats to life or serious health, nonviable pregnancies, and sexual violence, and avoids vague rules or criminal penalties that delay necessary care. Any legal boundaries should be transparent and medically grounded, and paired with strong prevention and family supports\u2014accurate education, affordable contraception, prenatal and postpartum care, paid leave, childcare, and adoption resources\u2014so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by human dignity, medical reality, and respect for sincere moral disagreement\u2014protecting patients\u2019 safety and privacy while acknowledging society\u2019s interest in developing life. The law should be clear enough that clinicians can act immediately in emergencies and should never criminalize patients or providers acting in good faith, with explicit protections for life- or serious health-threatening conditions, nonviable pregnancies, and cases of rape or incest. Any limits should be tied to evidence-based medical milestones and written with clinician input so they are workable in real care settings. Common ground is strengthened by reducing crisis pregnancies through access to contraception and accurate education, and by supporting families with prenatal/postpartum care, paid leave, childcare, and adoption and parenting resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

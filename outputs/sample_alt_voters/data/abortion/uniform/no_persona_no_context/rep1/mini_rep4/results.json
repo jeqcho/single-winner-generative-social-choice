@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by practical ethics: reduce preventable harm while taking seriously both the profound stakes of pregnancy and the widely held conviction that developing life matters. A workable framework protects timely, medically indicated care and preserves clinician judgment, while lowering demand through comprehensive sex education, affordable contraception, and strong supports for pregnancy, parenting, and adoption. Whatever limits exist should be clear, consistently applied, and paired with resources\u2014so policy is measured by fewer crises and better health outcomes, not by punishment or rhetoric.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to reduce harm and uphold human dignity, taking seriously both the moral concern many feel about developing life and the health, autonomy, and real-world circumstances of pregnant people. A workable framework should be medically evidence-based, protect timely emergency and medically necessary care, and safeguard informed consent and freedom from coercion. Common ground also includes investing in prevention\u2014accurate education and contraception\u2014and in strong supports like prenatal care, paid leave, childcare, and adoption services so fewer pregnancies become crises. The goal is humane, clear policy that lowers suffering and makes difficult decisions rarer, not ideological victories.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a practical commitment to protect health and human dignity in a society where people disagree in good faith about fetal moral status. Common ground includes keeping medically necessary and emergency care clearly protected, trusting evidence-based clinical standards, and ensuring decisions are informed and free from coercion. Alongside any legal boundaries, policy should invest in prevention and real-life supports\u2014contraception, prenatal care, paid leave, childcare, and adoption and parenting resources\u2014so fewer people face crisis pregnancies and fewer families are left without help.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

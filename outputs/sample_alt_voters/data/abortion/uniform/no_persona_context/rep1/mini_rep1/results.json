@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "30",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "98",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be built around health, dignity, and fair process in a society with deep moral disagreement: protect a pregnant person\u2019s ability to obtain timely, safe care while acknowledging a growing public interest in fetal life later in pregnancy. The law should rely on clear medical standards\u2014shielding the patient\u2013clinician relationship and guaranteeing prompt exceptions for emergencies, serious health threats, nonviable pregnancies, and pregnancies from rape or incest\u2014without criminal penalties that deter care. Any framework should also commit to preventing unwanted pregnancies and reducing hardship through affordable contraception, evidence-based education, prenatal and postpartum care, and practical support for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by human dignity, medical evidence, and a realistic respect for moral disagreement\u2014so no one is forced into danger, desperation, or secrecy. A workable framework protects timely early access and privacy, keeps time\u2011sensitive decisions grounded in the patient\u2013clinician relationship, and guarantees clear, medically defined exceptions for emergencies, serious threats to life or long\u2011term health, and pregnancies from rape or incest, without criminalizing patients or clinicians. Any later\u2011pregnancy guardrails should be narrowly tailored, tied to medical standards (including viability and severe fetal conditions), and written to avoid delaying necessary care. Lasting common ground also requires strong prevention and support: affordable contraception, accurate sex education, prenatal and postpartum care, and practical resources for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a practical commitment to protect health, dignity, and freedom of conscience in a pluralistic society\u2014keeping time\u2011sensitive decisions grounded in evidence and the patient\u2013clinician relationship while acknowledging that many people assign moral value to developing life. A workable framework preserves safe, timely access early in pregnancy, guarantees clear medical exceptions at any stage for emergencies and serious health risks, and includes compassionate provisions for pregnancies resulting from rape or incest, without criminalizing patients or deterring clinicians from needed care. Any legal approach should be paired with prevention and support\u2014affordable contraception, accurate sex education, prenatal and postpartum healthcare, and real economic and childcare resources\u2014so fewer pregnancies become crises in the first place.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

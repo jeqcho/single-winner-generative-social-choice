@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "95"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "51",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be built to protect real patients and real pregnancies while acknowledging that many citizens assign moral significance to developing life. A common-ground framework keeps early care accessible and private within the patient\u2013clinician relationship, sets any later limits in clear, medically workable terms, and guarantees prompt exceptions for threats to life or serious health, severe fetal diagnoses, and pregnancies from sexual violence. To reduce both abortions and hardship without coercion, the law should pair rules with broad supports\u2014contraception, accurate education, prenatal and postpartum care, paid leave, childcare, and adoption services\u2014and avoid criminal penalties that deter emergency treatment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by human dignity, public-health evidence, and the reality that people disagree in good faith about when legal protection should begin. A workable framework keeps early decisions primarily within the patient\u2013clinician relationship, while any later limits are clearly defined, medically realistic, and include explicit exceptions for threats to life or serious health and for pregnancies involving rape or incest, so emergency care is never delayed. Whatever boundaries a community adopts, it should pair them with strong prevention and support\u2014contraception access, accurate education, prenatal/postpartum care, childcare, and adoption resources\u2014so fewer pregnancies are unintended and carrying to term is a real option.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by protecting people\u2019s health and dignity while acknowledging that many citizens place moral value on developing life and disagree in good faith about when legal protection should begin. A practical, evidence-based framework keeps early pregnancy decisions primarily within the patient\u2013clinician relationship, guarantees timely care with clear emergency and serious-health exceptions, and uses clinician-written, medically workable standards for any later limits so care isn\u2019t delayed by fear or confusion. Whatever limits are chosen should be paired with strong prevention and support\u2014affordable contraception, accurate education, prenatal and postpartum care, paid leave, childcare, and adoption resources\u2014so fewer pregnancies are unintended and carrying to term is a real, supported option.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

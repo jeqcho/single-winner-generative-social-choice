@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a public ethic of shared responsibility: respecting bodily integrity and conscience while acknowledging society\u2019s interest in protecting developing life. A credible middle path prioritizes prevention (education and contraception), strengthens prenatal and parenting supports, and keeps medical decisions\u2014especially emergencies and severe fetal or maternal complications\u2014timely and clinician-led. Legal rules should be clear, workable, and non-punitive toward patients, so disagreement about moral status doesn\u2019t translate into unsafe care or families left without help.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, evidence, and a commitment to reduce preventable harm while taking seriously both the pregnant person\u2019s health and autonomy and the moral concern many citizens feel about developing life. Common ground lies in preventing unintended pregnancies through accurate information and access to contraception, and in providing strong supports\u2014healthcare, childcare, paid leave, and economic assistance\u2014so fewer people face coerced or desperate choices. Any limits should be clear, medically grounded, and include timely exceptions for serious health threats and other hard cases, with a focus on safe care rather than punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared commitment to protect human life and human dignity, while recognizing that people of good faith disagree about when moral status begins and how much the state should compel pregnancy. A durable approach pairs clear, medically grounded rules\u2014especially strong protections for emergency care and serious health threats\u2014with wide access to contraception, accurate information, and practical supports like prenatal care, paid leave, childcare, and adoption assistance so fewer people face crisis decisions. Enforcement should prioritize safety and clarity rather than punishment, and policy should be regularly reviewed in light of medical evidence and real-world outcomes for patients, children, and families.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

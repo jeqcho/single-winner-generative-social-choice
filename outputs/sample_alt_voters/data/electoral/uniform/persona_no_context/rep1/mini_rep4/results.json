@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "55"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "55"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "44",
+      "epsilon": 0.0,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A sensible compromise is to keep the Electoral College but make it track voters more closely by ending winner-take-all and adopting a consistent method\u2014either proportional allocation or a ranked-choice \u201ctop-two\u201d allocation rule\u2014so broad support is rewarded in every state. Pair that with clear national minimum standards for registration, ballot access, audits, and automatic recounts, while letting states run elections above that floor. Over time, if the public wants a full popular-vote outcome, pursue it through a transparent amendment or compact with broad bipartisan buy-in so the rules are settled before Election Day.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A practical reform is to keep the Electoral College\u2019s state-based role but reduce winner-take-all distortions by encouraging proportional or district-based allocation of electors, so outcomes track voters\u2019 choices more closely and more communities matter. Pair this with clear, uniform national standards for ballot access, counting, audits, and automatic recount triggers in close races to strengthen transparency and trust. If a broader shift toward a national popular vote is pursued, it should be implemented through a widely supported interstate compact or amendment with safeguards that protect smaller states\u2019 concerns and ensure a clear, accepted winner.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A fair reform should keep the states\u2019 role in administering elections while making the presidential outcome track voters\u2019 choices more closely and predictably. A strong middle-ground is to end winner-take-all by allocating each state\u2019s electors proportionally (or by district with anti-gerrymandering safeguards), paired with clear national baseline standards for ballot access, secure counting, automatic recount triggers, and post\u2011election audits. If the country wants to move to a national popular vote, it should be done through a transparent compact or amendment with broad bipartisan buy\u2011in, so urban and rural communities alike can trust the result.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

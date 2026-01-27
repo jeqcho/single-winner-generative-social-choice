@@ -1,0 +1,117 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "51"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make decisions in the open: explain goals and tradeoffs in plain language, publish budgets and performance data, and show who is responsible for outcomes. Credibility improves when there are real checks\u2014independent audits, clear ethics rules, and fair enforcement\u2014along with simple ways for people to report problems and see them fixed. Building trust also means meeting people where they are through reliable everyday services and ongoing local partnerships so communities can help set priorities and verify progress.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when leaders and agencies communicate in plain, accessible language, share the evidence and tradeoffs behind decisions, and openly admit and fix mistakes. It is sustained by visible competence\u2014reliable, fair services with measurable results\u2014backed by independent oversight and clear standards so accountability is real. Trust also improves when institutions listen without defensiveness, include local communities as partners in shaping solutions, and follow through consistently across political and cultural lines.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when people can see, understand, and verify how decisions are made and whether they actually improve daily life\u2014through plain-language, multilingual communication, published performance measures, and open records. Leaders should admit mistakes early, fix them quickly, and be held to the same ethical standards through independent oversight and fair, consistent enforcement. Trust builds fastest when institutions show up locally\u2014at schools, clinics, libraries, and neighborhood forums\u2014to listen without defensiveness and invite residents into practical problem-solving. Steady, reliable services delivered with respect and fiscal responsibility do more to bridge political and cultural divides than slogans or one-time reforms.",
+      "is_new": true
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "77",
+      "epsilon": 0.1299999999999999,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.20999999999999996,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect human dignity in all its forms\u2014taking developing life seriously while ensuring no one is denied timely, medically appropriate care. A balanced framework can preserve access in the earlier stages of pregnancy, set narrowly tailored limits later that track medical realities like viability, and include explicit exceptions for rape, incest, and serious threats to life or major bodily health, written so clinicians can act without legal fear. Enforcement should focus on safety, informed consent, and preventing coercion rather than criminalizing patients or good-faith medical practice. Common ground is stronger when these rules are paired with measures that reduce unplanned pregnancies and support families\u2014contraception and education, prenatal and postpartum care, adoption support, and practical help for parents.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should reflect both the moral seriousness many attach to unborn life and a commitment to protect the dignity, safety, and timely medical care of pregnant women. A workable framework sets clear, medically grounded limits that include explicit exceptions for rape, incest, and serious threats to a woman\u2019s life or health, written with clinician input so urgent care is never delayed and patients or good\u2011faith doctors are not treated as criminals. Common ground is strongest when any limits are paired with real support\u2014prenatal and postpartum care, counseling, adoption options, and practical help for families\u2014so fewer people are driven to abortion by fear, trauma, or hardship.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, respect for human dignity, and medically grounded standards that keep patients safe and allow clinicians to act quickly in emergencies without fear of prosecution. A durable compromise protects privacy and access early in pregnancy, sets clearer later limits tied to viability and serious health circumstances, and includes explicit, workable exceptions for rape, incest, and threats to a pregnant person\u2019s life or serious health. Common ground is strongest when any legal framework is paired with real prevention and support\u2014accurate education, accessible contraception, prenatal and postpartum care, and practical help for parenting or adoption\u2014so fewer families face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.15999999999999992
+    }
+  }
+}

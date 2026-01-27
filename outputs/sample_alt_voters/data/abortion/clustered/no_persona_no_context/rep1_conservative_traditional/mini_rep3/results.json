@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star": {
+      "winner": "86",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared duty to protect life and health while recognizing that pregnancy can involve serious medical, ethical, and economic realities that people judge differently in good faith. A durable framework would set clear, medically grounded rules that guarantee timely care in emergencies and severe fetal or maternal conditions, protect privacy, and prevent coercion, while keeping oversight focused on providers rather than punishment. At the same time, public policy should invest in what reduces abortions without force\u2014affordable contraception, accurate education, prenatal care, and meaningful support for parenting, adoption, and childcare\u2014so fewer people face the decision under crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a balanced commitment to protecting health and human dignity, respecting a pregnant person\u2019s autonomy, and acknowledging the moral concern many feel for developing life amid genuine disagreement about when personhood begins. A durable framework protects access to timely, evidence-based medical care\u2014especially in emergencies and serious health situations\u2014while preventing coercion and ensuring accurate information and accountable standards. Common ground also includes reducing unintended pregnancies through contraception and education, and pairing any legal limits with real supports for families (affordable healthcare, childcare, paid leave, and economic stability) so fewer people face desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect human life and dignity while recognizing that good-faith people disagree about when personhood begins and that pregnancy can involve serious medical, personal, and economic stakes. Most people can support medically grounded rules that ensure emergency and medically necessary care, prevent coercion and unsafe practices, and give patients clear, honest information. A durable approach also reduces the number of abortions by expanding contraception and sex education and by making parenting and adoption realistically supported through affordable healthcare, childcare, and paid leave.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

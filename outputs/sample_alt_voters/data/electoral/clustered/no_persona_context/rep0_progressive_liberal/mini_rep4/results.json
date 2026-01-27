@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "25",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A bridging reform is to keep the state-based structure but make the outcome less dependent on a few battlegrounds and easier to verify. States could be required to bind electors and award electoral votes in a way that reflects the statewide vote share, while Congress sets clear baseline rules for certification timelines, audit standards, and recount triggers. To reduce built-in distortions without eliminating federalism, the House could be modestly expanded so electoral votes track population more closely, with any later move toward a national popular vote pursued only through a clearly defined, broadly supported process.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform can keep a meaningful state role while making results track voter preferences more closely and reducing \u201cswing\u2011state only\u201d distortion. A consensus package is to bind electors to each state\u2019s certified vote, replace winner\u2011take\u2011all with proportional (or district-based with strong anti\u2011gerrymandering safeguards) allocation of electoral votes, and adopt clear national baselines for ballot access, auditing, recount triggers, and certification transparency. To address apportionment concerns, Congress could also expand the House to reduce representation distortions. If trust and bipartisan buy\u2011in grow, a phased national popular\u2011vote path (e.g., an interstate compact) with a ranked\u2011choice or runoff safeguard can be considered later.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make every vote matter more evenly while keeping states in charge of running elections and protecting confidence in close results. A practical middle-ground is to bind electors to the certified state vote, replace winner-take-all with proportional allocation (or a district method only with strong anti-gerrymandering rules), and adopt clear national baselines for ballot access, audits, recount triggers, and transparent certification. To reduce built-in distortions without scrapping federalism, Congress should also consider expanding the House to better match population shifts. If these steps build trust over time, a phased national popular-vote approach (e.g., an interstate compact) could be evaluated with a runoff or ranked-choice option to ensure a clear majority winner.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

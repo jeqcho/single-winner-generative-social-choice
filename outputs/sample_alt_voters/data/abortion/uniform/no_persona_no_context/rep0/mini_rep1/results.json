@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect life and health while recognizing that citizens disagree in good faith about when legal protection should begin. A durable middle ground is to keep decisions timely and medically led\u2014especially in emergencies and cases of rape or incest\u2014while using clear, non-punitive rules that avoid criminalizing patients and preserve clinician judgment. At the same time, government should invest heavily in the upstream supports that reduce abortions: comprehensive contraception access, maternal healthcare, paid leave, childcare, and resources for adoption and parenting.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by humility about deep moral disagreement and a practical commitment to reduce harm and protect human dignity for both pregnant people and developing life. Common ground is to prioritize prevention of unintended pregnancy, robust supports for parents and children, and clear, medically informed protections so no one is denied timely care in emergencies, rape or incest, or serious threats to health. Any legal boundaries should be transparent, narrowly tailored, and avoid criminalizing patients or clinicians, with outcomes reviewed to ensure policies reduce suffering rather than compound it.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by respect for human dignity, medical reality, and humility about deep moral disagreement, aiming to reduce harm rather than score ideological victories. A durable framework protects timely, medically necessary care (including clear exceptions for rape, incest, and serious threats to health), avoids criminalizing patients, and gives clinicians clear standards to follow. It should also pair any legal limits with broad, practical support\u2014education and contraception access, prenatal and postpartum care, paid leave, childcare, and poverty relief\u2014so fewer people face unwanted pregnancies or feel forced into desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

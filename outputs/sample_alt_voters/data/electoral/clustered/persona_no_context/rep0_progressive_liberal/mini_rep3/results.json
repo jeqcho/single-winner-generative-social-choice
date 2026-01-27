@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "32",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_personas": {
+      "winner": "64",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise is to keep the Electoral College\u2019s state role but make it mirror voters more closely and reduce winner-take-all distortions. States could adopt a uniform proportional allocation method (with a small, common threshold) and Congress could pair it with clear national standards for ballot access, audits, recount triggers, and certification timelines to prevent chaos in close races. To strengthen majority legitimacy, states could also use ranked-choice voting for president so the eventual winner reflects broad support rather than a narrow plurality concentrated in a few battlegrounds.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "The best common-ground reform keeps a meaningful state role while making the presidential outcome track the national popular will more closely, so voters in every state feel their ballot counts the same. A practical path is the National Popular Vote Interstate Compact or proportional (or district-based) allocation of electors to reduce winner-take-all distortions and swing-state overfocus. Whatever model is chosen should be paired with clear, uniform national standards for ballot access, counting, recounts, and transparent audits\u2014including protections against faithless electors\u2014so close elections are trusted and accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A practical reform should make presidential elections feel fair and easy to trust\u2014so that every lawful vote counts equally, while states still play a meaningful role in administering elections and representing regional voices. A strong bridge is to move toward a national popular-vote outcome (via the National Popular Vote Interstate Compact or a constitutional amendment) or, if the Electoral College remains, require proportional allocation of electors to reduce winner-take-all distortions and swing-state dominance. Either path should be paired with clear, uniform national standards for ballot access, vote counting, audits, recounts, and limits on faithless electors so results are transparent, timely, and broadly accepted. The goal is stability and legitimacy: campaigns that build broad coalitions across urban, suburban, and rural communities, not strategies that ignore most voters.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

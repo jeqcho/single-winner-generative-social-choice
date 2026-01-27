@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "97",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for outcomes that align more closely with the national popular will while keeping states central to running elections and ensuring broad geographic buy-in. A consensus path is to curb winner-take-all by moving states toward proportional elector allocation (or a uniform, non-gerrymandered district method) and to reduce extreme disparities by expanding the House, paired with enforceable national standards for ballot access, recount triggers, and post-election audits. Any change should be phased in with clear rules and bipartisan oversight so it increases legitimacy without creating new opportunities for partisan manipulation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential outcomes track the national popular will more reliably while preserving a meaningful state role in administering elections and ensuring smaller and rural communities feel heard. A practical bridge is joining the National Popular Vote Interstate Compact or, short of that, requiring proportional or district-based allocation of electors instead of winner-take-all, paired with clear, uniform national standards for ballot access, recounts, certification, and post-election audits. Whatever path is chosen, the rules should be transparent, predictable, and designed to build trust and broad legitimacy rather than advantage any party.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should produce a result that clearly reflects voters nationwide while preserving a practical role for states in running elections. A broadly acceptable path is to reduce winner-take-all distortions\u2014through proportional or district-based allocation of electors, or adoption of the National Popular Vote Interstate Compact\u2014paired with clear, uniform standards for voter access, ballot handling, recounts, and post-election audits. Adding options like ranked-choice voting where states choose can help ensure winners have broad support, and any changes should be phased in transparently with strong safeguards against partisan interference so people in urban, rural, and smaller-state communities can trust the outcome.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

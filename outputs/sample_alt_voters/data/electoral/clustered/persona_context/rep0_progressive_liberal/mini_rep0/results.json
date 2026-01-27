@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.17999999999999994,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.17999999999999994,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Any reform should keep elections primarily state-run while making the presidential result less dependent on a few battleground margins and more reflective of voters across the country. A workable compromise is a uniform, non-winner-take-all method in every state\u2014such as proportional allocation with a modest threshold\u2014combined with binding electors and clear, nationwide rules for ballot design, audits, and automatic recount triggers. If the nation later moves closer to a national popular-vote outcome (by compact or amendment), it should include a simple majority requirement with a runoff/backstop so the winner has broad legitimacy and the transition is stable and trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College\u2019s state-based role, but reduce the winner-take-all distortion so fewer voters in \u201csafe\u201d states feel written off and outcomes track the public\u2019s choice more closely. A practical compromise is proportional allocation of electors in each state, with electors legally bound to certified results, plus clear national standards for ballots, transparent audits, and uniform recount triggers to make close outcomes verifiable and broadly accepted. As trust and buy-in grow, a carefully safeguarded National Popular Vote Interstate Compact\u2014and, where feasible, ranked-choice voting or a runoff backstop\u2014can further strengthen legitimacy and coalition-building without abrupt disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College\u2019s state role, but reduce the \u201cwinner\u2011take\u2011all\u201d effect so voters in safe states\u2014rural, urban, and everywhere in between\u2014feel their ballots matter and campaigns aren\u2019t just about a few swing counties. A workable compromise is proportional allocation of electors in every state (or an opt\u2011in path like the National Popular Vote Interstate Compact), with electors legally bound to certified results. Pair any change with clear, uniform national standards for ballot access, counting, transparent audits, and automatic recount triggers so outcomes are easy to verify and broadly accepted. If further reforms are pursued, add a simple runoff or ranked-choice option to ensure the winner has broad support without making elections harder to understand.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Many people can agree that the biggest problem isn\u2019t the Constitution\u2019s role for states, but the way today\u2019s rules concentrate power in a few battlegrounds and turn small errors into national crises. A workable compromise is to keep state-run elections and the Electoral College framework while reducing winner-take-all effects through more proportional elector allocation and adopting shared national baselines for ballots, counting, audits, and recount triggers. With those guardrails in place, the country could then evaluate larger steps\u2014like a popular-vote compact or a constitutional amendment\u2014based on whether they measurably improve legitimacy, participation, and stability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about keeping, reforming, or replacing the Electoral College, most people want outcomes that are legitimate, transparent, and not dominated by a few swing states. A practical bridge is a stepwise reform agenda: standardize core election administration and recount rules nationwide, increase auditability, and reduce winner-take-all distortions through proportional or district-based elector allocation. In parallel, we can evaluate bigger changes\u2014such as the National Popular Vote Interstate Compact or expanding the House (and thus electors)\u2014using shared criteria like fairness, clarity, federalism, and public confidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about the Electoral College, most of us want a system that\u2019s easy to understand, hard to game, and makes campaigns compete for voters in more places than just a few swing states. A practical compromise is to keep the state-based structure for now but reduce winner-take-all distortions through options like proportional or district-based elector allocation, while also adopting clear national standards for ballots, recounts, and post\u2011election audits. In parallel, we can evaluate bigger changes\u2014such as the National Popular Vote Interstate Compact or House expansion\u2014against shared metrics of fairness, stability, and public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

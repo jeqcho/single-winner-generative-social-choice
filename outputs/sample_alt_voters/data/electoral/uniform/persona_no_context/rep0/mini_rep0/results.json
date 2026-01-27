@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "22",
+      "epsilon": 0.0,
+      "full_winner_idx": "22"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise is to keep a state-based Electoral College but eliminate winner-take-all so electoral votes track the actual vote share in each state, making fewer ballots feel \u201cwasted\u201d while preserving federalism. To address concerns about close contests and uneven rules, any reform should include baseline national standards for voter access, transparent counting, and automatic, uniform recount procedures. Over time, states could optionally align with the National Popular Vote Interstate Compact once these safeguards are in place, so the system moves toward reflecting the popular will without an abrupt constitutional rupture.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential elections should better match the national popular will so every vote feels equally meaningful, while still respecting the role states and smaller communities play in our federal system. A practical bridge is to curb winner-take-all by moving to proportional allocation of electors (or a closely related approach like the National Popular Vote Interstate Compact), paired with clear national standards for ballot access, counting, recounts, and transparency. Adding ranked-choice voting where feasible can reward broader coalitions and reduce polarization, helping more Americans accept close outcomes as legitimate.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential election rules should be updated so votes carry more equal weight nationwide while preserving the role of states and ensuring smaller and rural communities are not ignored. A practical path is to end winner-take-all by allocating electors proportionally (or through a national popular vote compact) and pair that with clear, uniform standards for ballot access, counting, audits, and recounts to reduce disputes and increase trust. Ranked-choice voting could be added where feasible to encourage majority support and broader campaigning, with changes phased in so voters and election officials can adapt.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

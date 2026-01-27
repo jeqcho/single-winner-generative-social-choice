@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by a commitment to protect health, preserve dignity, and reduce avoidable suffering, while acknowledging that citizens reasonably disagree about when developing life gains legal rights. A practical middle ground is to guarantee timely, medically supervised care\u2014including clear exceptions for medical emergencies and severe fetal conditions\u2014while allowing democratically set limits that track viability and clinical reality. Any legal framework should be paired with strong prevention and support: contraception and sex education, prenatal and postpartum care, and economic and childcare assistance, so fewer people face unwanted or crisis pregnancies.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by compassion, medical evidence, and respect for human dignity\u2014recognizing sincere disagreement about fetal moral status while prioritizing the health, agency, and safety of pregnant patients. A durable middle path protects access to timely, medically necessary care (especially in emergencies and other complex circumstances), sets clear and workable rules grounded in clinical realities, and avoids punitive approaches that drive unsafe outcomes. Common ground is to reduce crisis pregnancies through contraception and sex education, and to expand prenatal care, childcare, and economic supports so that parenthood is a supported choice rather than a forced burden.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to human dignity and the practical goal of reducing harm: protecting pregnant patients\u2019 health and freedom while taking seriously the moral value many attach to developing life. A durable approach pairs clear, medically grounded rules\u2014especially for emergencies, rape/incest, and severe fetal complications\u2014with strong prevention and support: sex education, affordable contraception, prenatal and maternal care, childcare, and economic assistance. Whatever limits are set should be democratically accountable, written clearly so doctors can provide safe care without fear, and designed to reduce both unwanted pregnancies and family hardship rather than rely on punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star": {
+      "winner": "25",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Even if we disagree about keeping or replacing the Electoral College, we can agree the rules should make every voter matter and produce outcomes most Americans see as legitimate. A practical compromise is to keep states administering elections but reduce \u201cwinner-take-all\u201d distortions by requiring a more proportional allocation of electors and adopting clear, uniform standards for recounts and certification. These steps would broaden campaign incentives beyond a few battleground states while preserving a meaningful state role in the process.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about keeping or replacing the Electoral College, most of us want a result that feels legitimate, reflects voters fairly, and doesn\u2019t make campaigns focus on only a handful of swing states. A practical bridge is to set shared criteria\u2014closeness to the popular vote, regional balance, and clear recount/contingency rules\u2014and then compare reforms on that basis. Options worth evaluating include reducing winner-take-all through proportional elector allocation, strengthening uniform election administration standards, and considering an interstate popular-vote compact as a voluntary pathway if those benchmarks are met.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about keeping or replacing the Electoral College, most of us want a system that feels fair, is easy to trust, and makes candidates compete for support beyond a few swing states. A practical compromise is to reduce winner-take-all distortions (through proportional or district-based elector allocation with strong anti-gerrymandering rules), while also adopting clear national standards for voting access, ballot counting, and recounts so close elections are less chaotic. We can judge any option\u2014including the National Popular Vote compact or expanding the House\u2014by shared tests: does it better reflect the voters\u2019 will, protect regional balance, and increase confidence in the result?",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

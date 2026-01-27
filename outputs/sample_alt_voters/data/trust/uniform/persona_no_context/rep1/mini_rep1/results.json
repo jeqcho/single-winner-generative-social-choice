@@ -1,0 +1,115 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star": {
+      "winner": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make their decisions and performance easy to see: publish goals, budgets, and outcomes, explain the reasons and trade-offs plainly, and protect privacy with strong safeguards. Credibility grows when mistakes are acknowledged quickly and corrected through independent audits and clear consequences, not excuses. Creating regular local channels\u2014citizen panels, open hearings, and community partnerships\u2014lets people help set priorities and verify results. When services are reliable and rules are applied consistently and fairly, skepticism softens across political and cultural lines.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions are transparent about decisions, use plain, accessible language, and accept independent oversight with clear metrics so people can judge results. Trust deepens when leaders keep promises, admit and correct mistakes, protect privacy and data, and deliver reliable services that improve everyday life for families and communities. Bringing decision-making closer to neighborhoods through meaningful local input and culturally respectful outreach helps bridge divides by showing institutions listen, treat people fairly, and steward shared resources responsibly.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions are transparent about how decisions are made, protect privacy and data, and are held to clear standards with independent oversight and real consequences for mistakes. They should focus on reliable, cost-conscious results people can see in everyday life\u2014safe neighborhoods, responsive schools and services, and fair, predictable rules\u2014while explaining trade-offs in plain language and in the languages communities use. Trust also grows when institutions listen locally, invite community members into review and feedback, and follow through consistently so competence, fairness, and respect are experienced across different backgrounds and beliefs.",
+      "is_new": true
+    }
+  }
+}

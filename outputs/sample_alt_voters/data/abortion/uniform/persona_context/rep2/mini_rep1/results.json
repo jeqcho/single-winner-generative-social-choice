@@ -1,0 +1,113 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c4, \n2.) c17, \n3.) c13, \n4.) c3, \n5.) c14, \n6.) c2, \n7.) c15, \n8.) c0, \n9.) c12, \n10.) c11, \n11.) c10, \n12.) c1, \n13.) c16, \n14.) c6, \n15.) c9, \n16.) c8, \n17.) c5, \n18.) c19, \n19.) c18, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "borda": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c4, \n2.) c17, \n3.) c13, \n4.) c3, \n5.) c14, \n6.) c2, \n7.) c15, \n8.) c0, \n9.) c12, \n10.) c11, \n11.) c10, \n12.) c1, \n13.) c16, \n14.) c6, \n15.) c9, \n16.) c8, \n17.) c5, \n18.) c19, \n19.) c18, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "irv": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c4, \n2.) c17, \n3.) c13, \n4.) c3, \n5.) c14, \n6.) c2, \n7.) c15, \n8.) c0, \n9.) c12, \n10.) c11, \n11.) c10, \n12.) c1, \n13.) c16, \n14.) c6, \n15.) c9, \n16.) c8, \n17.) c5, \n18.) c19, \n19.) c18, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "plurality": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c4, \n2.) c17, \n3.) c13, \n4.) c3, \n5.) c14, \n6.) c2, \n7.) c15, \n8.) c0, \n9.) c12, \n10.) c11, \n11.) c10, \n12.) c1, \n13.) c16, \n14.) c6, \n15.) c9, \n16.) c8, \n17.) c5, \n18.) c19, \n19.) c18, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "veto_by_consumption": {
+      "winner": null,
+      "error": "Alternative '-1' not found in alternatives list"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should start from two duties: protect people\u2019s ability to get safe, timely healthcare and recognize the moral seriousness many attach to developing life. A durable middle ground secures early access and privacy, sets later-pregnancy guardrails tied to viability and clinical standards, and guarantees clear, usable exceptions for life or serious health threats, pregnancy from sexual violence, and severe fetal conditions\u2014written so clinicians can act without delay or criminal fear. Whatever limits exist should be matched with serious investment in prevention and family support\u2014contraception, evidence-based education, prenatal/postpartum and mental-health care, and economic help for parenting or adoption\u2014so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by respect for human dignity and developing life while ensuring patient safety, privacy, and medically grounded decision-making led by patients and clinicians\u2014not political punishment. A durable middle ground protects early access, sets clear, workable limits later in pregnancy tied to medical reality, and guarantees unambiguous exceptions for threats to life or serious health and for pregnancies from rape or incest, without criminalizing patients or good-faith providers. Common ground strengthens when policy pairs any rules with real prevention and support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, and practical help for parenting or adoption\u2014so fewer families face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, clear medical evidence, and respect for the moral seriousness many people attach to both pregnant women and developing life, keeping urgent decisions as close as possible to patients and qualified clinicians. A workable middle ground protects early access, sets medically defined limits later in pregnancy, and guarantees plain, non-negotiable exceptions for threats to life or serious health, pregnancies from rape or incest, and severe fetal conditions\u2014written so families and providers can follow them without fear of prosecution. Whatever limits exist, policy should put at least equal emphasis on prevention and practical support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, mental-health care, and real help with childcare, adoption, and family stability\u2014so fewer people face a crisis in the first place.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

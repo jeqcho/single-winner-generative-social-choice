@@ -1,0 +1,118 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": null,
+      "full_winner_idx": "23"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": null,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "32"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": null,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": null,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A unifying approach is to keep states administering elections but make the outcome less dependent on a few swing states and more reflective of voters nationwide. Congress could set clear national baselines for voter access, paper-backed tabulation, risk\u2011limiting audits, recount triggers, and certification deadlines, while states move away from winner\u2011take\u2011all by allocating electors proportionally with a small bonus for the statewide winner to preserve a state-level incentive. If the country later prefers a pure popular vote, those same integrity rules would make that transition easier to trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable compromise would keep elections administered by states but change the incentives that make a few battlegrounds decisive, by ending winner\u2011take\u2011all and allocating electors proportionally nationwide (with strong guardrails against gerrymandering if any district method is used). To ensure the winner has broad legitimacy and reduce spoiler fears, states could adopt ranked\u2011choice voting for president alongside these allocation reforms. Whatever path is chosen\u2014including an eventual National Popular Vote Interstate Compact\u2014should be paired with clear national baseline rules for ballot access, transparent audits, automatic recount thresholds, and timely certification so close results are trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform would keep elections administered by states but ensure the presidency reflects the national will and that voters in both \u201csafe\u201d and \u201cswing\u201d states feel their votes matter. A practical path is to end winner\u2011take\u2011all by allocating electors proportionally (with strong guardrails against gerrymandering) and allow states to join the National Popular Vote Interstate Compact once common standards are in place. Pair either approach with ranked-choice voting to produce a majority-supported winner and with clear national baseline rules for ballot access, audits, recount thresholds, and certification timelines so close results are trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

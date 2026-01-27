@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "97",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star_personas": {
+      "winner": "17",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should narrow the gap between the popular will and the Electoral College result without stripping states of their role in administering elections. A practical middle ground is to end winner-take-all by allocating electors proportionally (or with a proportional-plus bonus for the statewide winner), paired with uniform national standards for ballot access, recount triggers, and post-election audits. This would make more votes matter in every state, reduce the outsized focus on a few battlegrounds, and improve legitimacy no matter which party wins.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential elections should be modernized so outcomes track the popular will and every lawful vote feels comparably meaningful, while still respecting the state-based structure and the importance of smaller and rural communities being heard. A pragmatic bridge is either the National Popular Vote Interstate Compact or requiring states to move away from winner-take-all by allocating electors proportionally or by district with a statewide component, paired with clear, uniform standards for ballot access, recounts, and transparent audits. Any change should be simple, secure, and bipartisan, reducing swing-state distortions and strengthening trust no matter which party wins.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforming the Electoral College should focus on two shared goals: every lawful vote should matter about the same, and states and smaller communities shouldn\u2019t feel written off. A workable bridge is to keep the state-based system but end winner-take-all by moving to proportional (or district-plus-statewide) elector allocation and adding a national popular-vote backstop (such as the National Popular Vote Interstate Compact) so the winner matches the broader public will. Any change should come with clear, uniform rules for ballot access, security, audits, and recounts, adopted transparently and with bipartisan input to build confidence no matter who wins.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

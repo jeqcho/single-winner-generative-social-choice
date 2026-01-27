@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.27,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "39",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should start from a commitment to protect both human dignity and human life by keeping medical decisions grounded in clinical evidence, clear standards, and timely care\u2014especially in emergencies\u2014without turning patients or clinicians into criminals for acting in good faith. A workable compromise can protect early access while allowing carefully defined, medically informed limits later in pregnancy, with explicit exceptions for threats to life or serious health, pregnancies from rape or incest, and severe fetal anomalies. Lasting common ground also requires reducing unwanted pregnancies and pressure-driven decisions through comprehensive education, affordable contraception, and strong supports for pregnancy, parenting, disability needs, and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in evidence-based medicine and compassion, with clear, workable rules that protect privacy and let patients and licensed clinicians act quickly\u2014especially in emergencies and serious health situations\u2014without fear of criminal penalties. A durable framework can acknowledge the moral seriousness many attach to developing life by allowing early access to safe care while permitting carefully defined limits later in pregnancy with unambiguous exceptions for threats to life or serious health, and for cases like rape, incest, or severe fetal conditions. Common ground grows when any legal framework is paired with real prevention and support: honest education, affordable contraception, and strong prenatal/postpartum care, adoption resources, paid leave, and childcare so fewer families face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by clear, medically grounded standards that protect patient privacy and allow clinicians to act immediately in emergencies, so no one delays life- or health-saving care out of fear. A workable compromise can recognize the moral seriousness many attach to developing life by allowing early, safe access while permitting carefully defined, evidence-based limits later in pregnancy with plain exceptions for serious threats to life or health, rape, incest, and severe fetal conditions. Common ground grows when policy focuses less on punishment and more on prevention and support\u2014accurate education, affordable contraception, prenatal and postpartum care, and practical help for parenting, adoption, and disability needs\u2014so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    }
+  }
+}

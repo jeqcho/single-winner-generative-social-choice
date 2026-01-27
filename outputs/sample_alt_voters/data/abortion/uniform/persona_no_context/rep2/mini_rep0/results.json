@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to reduce harm by protecting a pregnant person\u2019s health and decision-making with their clinician, while taking seriously the moral concern many have for developing life. A durable framework keeps early care safe and accessible, sets carefully defined limits later in pregnancy tied to medical evidence and viability, and guarantees clear exceptions for life- or health-threatening complications, severe fetal conditions, and pregnancies from rape or incest. Whatever the limits, policy should pair them with real prevention and support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, and economic help for parents\u2014so fewer people face the decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for human dignity\u2014recognizing both the moral weight many attach to potential life and the real circumstances families and clinicians face. A workable common ground is protecting safe, timely access early in pregnancy, with clear, medically grounded limits later on, and unambiguous exceptions for threats to the pregnant person\u2019s life or serious health, rape, and incest. Whatever the legal framework, it should keep politicians out of exam rooms, protect privacy and informed consent, and be paired with strong prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and maternal care, and adoption and parenting resources\u2014so fewer people are pushed into crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity, and medical evidence, recognizing both the moral value many place on unborn life and the reality that pregnancy can involve serious health, family, and economic hardships. A workable middle ground protects timely, safe care early in pregnancy and guarantees clear, enforceable exceptions for threats to the pregnant person\u2019s life or health, pregnancies from rape or incest, and severe fetal conditions\u2014while keeping decisions grounded in patient privacy and clinician judgment, not politics. At the same time, the best way to reduce abortions is to expand prevention and support: comprehensive sex education, affordable contraception, prenatal and maternal healthcare, and real help for parents and adoption, so fewer people face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "46",
+      "epsilon": 0.0,
+      "full_winner_idx": "46"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by human dignity, medical evidence, and humility about the limits of one-size-fits-all rules. A consensus framework can protect early, private access to safe care and clinician judgment, while allowing carefully defined, science-based restrictions later in pregnancy that include clear exceptions for life and serious health threats, rape or incest, and severe fetal conditions, without criminalizing patients. Whatever the legal boundaries, policy should invest in prevention and support\u2014contraception, comprehensive sex education, prenatal and mental-health care, adoption services, and economic help\u2014so fewer people face the decision under coercion or crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, clear medical evidence, and respect for personal privacy and bodily autonomy, while acknowledging the sincere moral weight many attach to developing life. A workable framework keeps early decisions primarily between the patient and qualified clinicians, with transparent, evidence-based standards for safety, informed consent, and timely care in emergencies, rape or incest, and serious health threats. Any limits later in pregnancy should be narrowly tailored, medically grounded, and avoid criminalizing patients or doctors. Common ground grows when policy also reduces unwanted pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and mental-health care, and practical support for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, human dignity, and clear medical evidence, protecting a patient\u2019s health, privacy, and timely access to safe care while respecting that many people attach moral weight to developing life. A workable framework keeps decisions grounded in licensed clinicians\u2019 judgment and informed consent, with plainly written, narrowly tailored limits and exceptions for rape, incest, serious health risks, and medical emergencies so families and doctors are not left guessing in a crisis. Whatever rules are adopted should be paired with proven supports\u2014comprehensive sex education, affordable contraception, prenatal and mental-health care, adoption resources, and economic help for parents\u2014so fewer people face this decision under pressure.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

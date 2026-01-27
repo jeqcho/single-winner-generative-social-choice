@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.25,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "15",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should prioritize protecting patients\u2019 health and dignity by keeping time-sensitive medical decisions in the hands of pregnant people and qualified clinicians, with clear, workable rules that avoid political interference and medical uncertainty. A balanced framework can maintain broad access early in pregnancy, allow carefully defined limits later, and include unambiguous exceptions for life- and health-threatening conditions, nonviable pregnancies, and pregnancies resulting from sexual violence. To reduce conflict and reduce abortions, policy should also expand prevention and support\u2014reliable contraception, evidence-based education, prenatal and postpartum care, and economic supports that make it realistically possible to carry a pregnancy and raise a child.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in medical evidence, patient safety, and compassion, keeping time-sensitive decisions primarily between patients and qualified clinicians while respecting that many people attach moral weight to potential life. A durable approach protects access early in pregnancy and sets clear, workable standards later, with explicit exceptions for threats to health or life, severe fetal conditions, and cases of rape or incest. Common ground also means reducing unintended pregnancies through comprehensive sex education, affordable contraception, and strong supports for prenatal care, parenting, and adoption\u2014aiming to reduce harm and avoid punishment or stigma.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should balance respect for potential life with respect for personal liberty, privacy, and the medical reality that pregnancy can involve urgent, complex risks best handled by patients and qualified clinicians. A durable approach protects timely access to safe care early in pregnancy, allows carefully defined limits later, and includes clear, workable exceptions for threats to the patient\u2019s life or health, nonviable or severe fetal conditions, and pregnancies resulting from rape or incest. Common ground also means investing in what reduces abortions and strengthens families\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, and adoption support\u2014so fewer people face crisis decisions and policy focuses on health and compassion, not punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

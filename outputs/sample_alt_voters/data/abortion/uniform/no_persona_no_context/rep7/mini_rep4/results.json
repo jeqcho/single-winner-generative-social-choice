@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "25"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "76",
+      "epsilon": 0.0,
+      "full_winner_idx": "76"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by two obligations: treat pregnancy as a serious moral matter and ensure that no one is denied safe, timely medical care. A consensus approach would keep decisions early in pregnancy primarily between patient and clinician, while allowing democratically set, medically grounded limits later on, with clear exceptions for threats to health, rape or incest, and lethal fetal conditions. Alongside any limits, governments should invest in the proven ways to reduce abortions without coercion\u2014contraception, accurate sex education, prenatal and postpartum care, and financial support for parents\u2014so fewer people face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by shared commitments to human dignity, medical safety, and humility in a pluralistic society where people disagree about when moral personhood begins. A workable approach pairs clear, evidence-based rules and transparent procedures with strong protections for privacy, clinician judgment, and compassionate exceptions for serious health risks and nonviable pregnancies. Alongside any legal boundaries, governments should invest in prevention and support\u2014sex education, contraception access, healthcare, and economic and parenting resources\u2014so fewer people face crisis pregnancies and decisions driven by desperation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by dignity, compassion, and medical evidence, recognizing sincere moral disagreement about fetal life while protecting the health, safety, and privacy of pregnant people. A workable compromise sets clear, predictable rules shaped by medical consensus, with strong exceptions for serious health risks, nonviable pregnancies, and situations of coercion, and protects clinicians who provide standard care. Alongside any limits, government should invest in what reduces abortions and hardship across communities: affordable contraception and prenatal care, accurate education, and real supports for parents\u2014paid leave, childcare, and economic stability\u2014so decisions aren\u2019t driven by desperation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

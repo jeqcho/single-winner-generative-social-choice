@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "We can agree that a presidential system should both reflect the people\u2019s choice and remain legitimate across states, especially in close elections. A workable middle path is to keep the state-based structure but reduce outcome distortions by ending winner-take-all through proportional elector allocation (with safeguards against gerrymandering) and by adopting uniform rules for counting, audits, and recounts. Once those changes improve fairness and confidence, we can evaluate broader options\u2014like a popular-vote compact or constitutional amendment\u2014based on whether they increase nationwide participation without undermining stability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even if we disagree on keeping or replacing the Electoral College, we can agree the goal is a presidential election that feels fair to individual voters while remaining legitimate across states. A pragmatic compromise is to keep the state-based framework but reduce winner-take-all distortions\u2014through proportional or district-based allocation of electors\u2014paired with clear, uniform standards for counting, recounts, and elector duties. We can then evaluate bigger steps, like a national popular-vote compact, against shared criteria such as equal voter influence, incentives to campaign beyond swing states, and stability in close elections.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most of us want a presidential election where every vote feels meaningful, candidates have incentives to campaign nationwide (not just in a few swing states), and the rules are clear enough that close results are trusted. A practical compromise is to keep the state-based framework but reduce winner-take-all distortions by encouraging proportional allocation (or another method that reflects the statewide vote more closely) while also setting uniform national standards for counting, recounts, audits, and elector binding to prevent disputes. We can compare these options using shared, measurable goals\u2014fairness of vote weight, competitiveness, stability, and public confidence\u2014rather than which party benefits in the next cycle.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

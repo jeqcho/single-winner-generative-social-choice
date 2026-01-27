@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.33000000000000007,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "68",
+      "epsilon": 0.0,
+      "full_winner_idx": "68"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to reduce harm in the real world by prioritizing medically accurate, clearly written rules that protect patient privacy and let clinicians provide time-sensitive care without fear. A workable compromise can preserve early access, require informed consent and basic safety standards, and include explicit exceptions for threats to life or serious health, rape or incest, and pregnancies that are not viable. Any limits should be tied to objective medical markers and paired with strong prevention and support\u2014contraception, evidence-based education, prenatal and postpartum care, and economic help for parenting or adoption\u2014so fewer people face the decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by evidence-based medicine, compassion, and respect for privacy, keeping urgent, time-sensitive decisions primarily within the patient\u2013clinician relationship rather than political enforcement. A workable framework protects early access and guarantees clearly defined exceptions for threats to life or serious health, rape or incest, and nonviable pregnancies, while allowing carefully written later standards shaped by medical realities and avoiding criminalizing patients or clinicians. Common ground grows when any legal boundaries are paired with prevention and support\u2014affordable contraception, accurate education, prenatal and postpartum care, paid leave, childcare, and adoption resources\u2014so fewer pregnancies become crises and more families are genuinely supported.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by evidence-based medicine, compassion, and respect for personal privacy, while recognizing that many people attach real moral weight to developing life. A workable approach keeps urgent, time-sensitive decisions with patients and qualified clinicians, protects early access, and includes clearly written exceptions for threats to life or serious health, rape or incest, and nonviable pregnancies\u2014so care is not delayed by fear of prosecution. Any legal framework should avoid criminalizing patients and rely on clear, medically grounded standards rather than political messaging. Common ground grows when policy also reduces unintended pregnancies and supports families who carry to term through affordable contraception, accurate education, prenatal and postpartum care, adoption support, and practical help like paid leave and childcare.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

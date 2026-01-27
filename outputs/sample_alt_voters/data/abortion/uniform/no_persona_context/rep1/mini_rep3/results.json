@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should focus on protecting life and health in a society with deep moral disagreement, by keeping decisions grounded in medical expertise, timely access to care, and respect for patient privacy. A balanced framework can allow legal access early in pregnancy, apply clearer standards later that track viability and serious medical risk, and include explicit, workable exceptions for threats to life or major health, rape or incest, and fetal conditions incompatible with life. Enforcement should prioritize clarity and professional accountability rather than criminalizing patients or second\u2011guessing good\u2011faith clinicians, while governments invest in contraception, accurate education, maternal healthcare, and economic support so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by reducing harm and respecting human dignity in a pluralistic society: protecting a pregnant person\u2019s health, autonomy, and medical privacy while acknowledging the moral concern many feel for developing life. A workable framework protects timely access\u2014especially early in pregnancy\u2014and keeps urgent decisions with patients and qualified clinicians, with clear, medically defined exceptions for threats to life or serious health, severe fetal conditions/nonviability, and pregnancies from rape or incest. As pregnancy advances, any limits should be transparent, tied to viability and clinical evidence, and enforced without punishing patients or doctors acting in good faith. Common ground is strengthened by investing in prevention and support\u2014contraception, accurate education, prenatal/postpartum care, and practical help for families and adoption\u2014so fewer people face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a practical commitment to human dignity and harm reduction in a pluralistic society: protect a pregnant person\u2019s health, privacy, and ability to make time\u2011sensitive medical decisions with qualified clinicians, while acknowledging that many citizens see developing life as morally significant. Rules should be clear enough for doctors to act without fear, guarantee exceptions for life-threatening and serious health risks, rape/incest, and severe fetal conditions or nonviability, and avoid punitive enforcement that drives care underground. Any legal framework should be paired with shared prevention and support\u2014affordable contraception, accurate education, prenatal/postpartum care, and real economic help for families\u2014so fewer pregnancies become crises and choosing to carry a pregnancy is genuinely feasible.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

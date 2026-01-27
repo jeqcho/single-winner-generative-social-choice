@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "95"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Any reform should preserve states\u2019 responsibility for administering elections while ensuring the presidency goes to the candidate with the strongest, broad-based support\u2014not the one who best targets a few swing states. A workable compromise is to keep the Electoral College but require every state to award electors in proportion to its vote (with electors bound to certified results) and to adopt shared national guardrails for ballot access, paper records, audits, and clear recount triggers. If experience shows those changes still leave major legitimacy gaps, states could then opt into an interstate compact that aligns the outcome with the national popular vote once uniform safeguards are in place.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential elections should reward broad national support while making more votes matter in every state, not just a handful of battlegrounds, and keeping rules clear enough to trust after close races. A practical compromise is to keep state-run elections but end winner-take-all by allocating electors proportionally (or by district with strong anti-gerrymandering safeguards), and to bind electors to the certified result. Pair that with uniform national baselines for ballot access, paper-backed audits, and automatic recount thresholds so outcomes track the voters more closely and are transparent and repeatable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should feel fair and easy to trust for working people in every state\u2014so candidates compete beyond a handful of swing states and every lawful ballot matters in a clear, auditable way. A practical compromise is to keep state-run elections and the Electoral College, but end winner-take-all by allocating electors proportionally (or by district with strong anti-gerrymandering safeguards) and requiring electors to follow the certified vote. Any reform should come with simple national baselines for ballot access, paper-backed audits, and automatic recount rules, with options like the National Popular Vote compact or ranked-choice voting considered only after those safeguards are in place and widely understood.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

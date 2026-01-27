@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by a commitment to protect life and health while acknowledging persistent moral disagreement in a diverse society. A workable framework pairs predictable, medically defined rules\u2014including timely exceptions for threats to life or health, rape or incest, and severe fetal conditions\u2014with strong safeguards against criminalizing patients and good-faith clinicians. It also invests heavily in prevention and real alternatives\u2014comprehensive sex education, affordable contraception, prenatal care, paid leave, childcare, and adoption support\u2014so fewer people reach a crisis point.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, human dignity, and medical reality, recognizing sincere moral disagreement while prioritizing safety and harm reduction. Common ground includes preventing unintended pregnancy, expanding prenatal/parenting supports, and protecting timely, clinician-led care with clear exceptions for rape, incest, and serious threats to health. Any legal limits should be precise, evidence-based, and avoid criminalizing patients or clinicians, with outcomes reviewed to reduce preventable suffering.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by respect for human dignity, moral pluralism, and medical reality\u2014protecting pregnant patients\u2019 health and agency while recognizing that many people also seek meaningful protection for developing life. Common ground includes keeping emergency and severe health care legal and timely, ensuring decisions are informed and voluntary, and avoiding criminal penalties for patients or clinicians acting in good faith. The strongest path to fewer abortions and fewer tragedies is prevention and support: accessible contraception and sex education, prenatal care, paid leave, childcare, and practical help for parents and adoption\u2014so people have real options rather than coercion or desperation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

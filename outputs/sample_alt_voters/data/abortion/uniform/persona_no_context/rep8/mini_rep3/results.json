@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by protecting human dignity in both the pregnant person and developing life, while keeping urgent medical care timely, safe, and governed by sound clinical judgment rather than politics. A balanced framework can guarantee early-pregnancy access and privacy, set carefully defined standards for later pregnancies that allow exceptions for serious health risks, rape or incest, and lethal fetal conditions, and ensure doctors can act without fear in emergencies. Common ground also requires prevention and support\u2014affordable contraception, accurate education, prenatal and postpartum care, adoption and parenting resources\u2014so fewer people reach this decision and no one is left to face it alone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, sound medical evidence, and respect for personal autonomy and privacy, while acknowledging the sincere moral concerns many people hold about protecting potential life. A workable middle ground protects safe, legal access early in pregnancy and ensures clear, usable exceptions for rape, incest, and serious threats to the pregnant person\u2019s health or life, written with doctors\u2019 input so emergency care isn\u2019t delayed or criminalized. Common ground also means investing in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical help for parents and adoption\u2014so fewer people face this decision under pressure.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for both personal liberty and the moral seriousness many people attach to developing life. A workable compromise protects timely, safe care early in pregnancy and guarantees clear exceptions for rape, incest, and serious threats to the pregnant person\u2019s life or health, with rules written so doctors can act without fear in emergencies. To reduce abortions and hardship, policy should also invest in prevention and support\u2014affordable contraception and accurate sex education, plus prenatal care, paid leave, childcare, and adoption resources\u2014so fewer families feel cornered.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

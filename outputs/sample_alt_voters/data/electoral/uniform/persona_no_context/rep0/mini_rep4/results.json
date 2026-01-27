@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star": {
+      "winner": "51",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to align the presidency more closely with the voters\u2019 overall choice while keeping a meaningful state role and avoiding sudden, partisan rule changes. A workable middle path is to reduce winner-take-all by encouraging proportional elector allocation (with strong anti-gerrymandering safeguards if districts are used) and to adopt consistent national rules for ballots, recount triggers, and post-election audits. Coupled with binding electors to their state\u2019s certified result and clear timelines for resolving disputes, these steps can make outcomes feel fairer, more predictable, and easier for both urban and rural communities to trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Electoral College\u2019s federal role and reassurance for smaller communities, while making outcomes track the will of voters more closely so every lawful vote feels meaningful. A strong middle-ground is to end winner-take-all by allocating electors proportionally (or by district with anti-gerrymandering safeguards), paired with ranked-choice voting where feasible to reward broader coalitions. Whatever model is chosen, it should include clear, uniform national standards for ballot access, counting, audits, and recounts, plus binding rules against faithless electors, so results are transparent, consistent, and trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforming the Electoral College should keep the federal role of states and smaller communities while making the outcome track voters\u2019 choices more closely and consistently nationwide. A workable bridge is to reduce winner-take-all by moving states toward proportional (or district-based) elector allocation\u2014ideally with ranked-choice ballots\u2014paired with clear, uniform national standards for ballot access, counting, audits, and recounts so close results are trusted. Whichever path is chosen (including a widely adopted National Popular Vote compact), the goal should be simple, transparent rules that reward broad, cross-regional coalitions and make every lawful vote feel meaningful.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

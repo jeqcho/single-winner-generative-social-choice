@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "76",
+      "epsilon": 0.0,
+      "full_winner_idx": "76"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people can agree the goal is a president who wins broad, nationwide support in a process that remains constitutional, predictable, and administrable by the states. A practical compromise is to keep the Electoral College framework but reduce winner-take-all distortions\u2014through proportional or multi-member allocation rules adopted by states, paired with clear national standards for counting, recounts, and certification. We can compare these options (and the National Popular Vote compact as a further step) by whether they expand meaningful competition beyond a few battlegrounds and improve confidence that the outcome reflects voters\u2019 intent.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most Americans want a presidential election that feels legitimate and fair to individual voters while preserving a meaningful role for states. A practical compromise is to keep state-based administration but reduce winner-take-all distortions by allocating electors proportionally or by district with strong anti-gerrymandering safeguards, and pair that with clear, uniform national standards for counting, certification, and recounts in close elections. We can compare options\u2014including the National Popular Vote Interstate Compact\u2014against shared, measurable goals like broader campaigning beyond swing states, fewer \"wasted\" votes, and higher public confidence in the result.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most of us want a presidential election that treats each voter\u2019s voice as meaningful while keeping a clear, stable role for states in administering elections. A workable compromise is to keep the Electoral College but reduce winner-take-all distortions by encouraging proportional or ranked-choice statewide allocation, while also adopting uniform national standards for counting, certification, and automatic recounts in close contests. We can compare options by practical, nonpartisan metrics\u2014whether campaigns compete in more states, whether outcomes track the popular vote more closely, and whether disputes are less likely and easier to resolve.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star_personas": {
+      "winner": "88",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A practical way to bridge the Electoral College divide is to keep the state-based framework but make it better reflect voters and less dependent on a handful of swing states. That could include adopting a uniform rule to allocate electors proportionally (with a small statewide bonus only if needed to preserve coalition-building), paired with clear national standards for counting, audits, and recount triggers. This approach respects federalism while making outcomes track the popular vote more closely and strengthening public confidence in close elections.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Whatever our views on the Electoral College, most of us want presidential elections that are legitimate, broadly representative, and not decided by a handful of swing-state rules. A practical bridge is to keep the state-based framework while reducing winner-take-all distortions\u2014through proportional or district-based elector allocation with strong anti-gerrymandering safeguards\u2014paired with clearer, more uniform national standards for ballot access, counting, and recounts. We can compare these options using shared metrics like voter confidence, competitiveness across states, and how closely outcomes track the overall vote.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people want a presidential election that\u2019s legitimate, easy to administer in close races, and makes voters feel their ballots matter whether they live in big cities, suburbs, or rural areas. A practical bridge is to keep the Electoral College framework but reduce winner-take-all distortions by encouraging proportional or ranked-choice allocation of electors within states, paired with clear national baseline standards for ballot access, counting, and recount triggers. At the same time, adjusting elector counts by expanding the House can reduce disparities without rewriting the Constitution, and any change should be judged by shared metrics\u2014public trust, competitiveness beyond a handful of swing states, and predictable rules everyone accepts before Election Day.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

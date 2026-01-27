@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_personas": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College\u2019s state role but reduce the winner-take-all distortions that make outcomes feel arbitrary. States could allocate electors proportionally using a uniform, nonpartisan method (paired with strong anti-gerrymandering rules if districts are used), while Congress sets consistent national standards for audits, recount triggers, and certification timelines. This would make campaigns compete for votes everywhere, better align results with voter preferences, and preserve the federal character many people want.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people share two goals that can coexist: make every voter feel their ballot matters while keeping states meaningfully involved so no region is routinely ignored. A practical bridging reform is to reduce winner-take-all incentives by encouraging proportional or district-based elector allocation (paired with strong anti-gerrymandering safeguards) and to improve legitimacy through clearer national standards for recounts, audits, and election administration. We can pilot these incremental steps\u2014and consider options like the National Popular Vote Interstate Compact alongside them\u2014by judging proposals on stability, transparency, and closer alignment between the national vote and the outcome, not on which party benefits.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree the goal is a presidential election that feels fair, makes every vote matter, and still respects that we\u2019re a union of states, not just one national district. A practical bridge is to keep the Electoral College but reduce winner-take-all distortions by encouraging proportional elector allocation (or district allocation with strong anti-gerrymandering rules), paired with uniform national standards for ballot access, recount triggers, audits, and clear multilingual voter information. We can also consider expanding the House to better match population and reduce skew, then judge any package by whether it broadens legitimacy and reduces swing-state domination rather than which party it helps.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

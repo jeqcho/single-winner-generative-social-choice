@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_personas": {
+      "winner": "13",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College\u2019s state role but redesign it so campaigns and outcomes aren\u2019t dominated by a few battleground states and the national vote is rarely contradicted. States should replace winner-take-all with a standardized proportional method using a small national \u201ctop-off\u201d of electors (or an NPVIC trigger) to ensure the overall winner reflects the national popular vote. Any reform should also include uniform baseline rules for ballot design, paper records, risk-limiting audits, automatic recount thresholds, and binding electors to certified results so close elections are verifiable and broadly accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep state-run elections and the federal role of states, but reduce winner-take-all distortions so outcomes track the voters more closely and fewer people feel ignored outside a few battlegrounds. A practical bridge is to require proportional (or district-based with anti-gerrymandering safeguards) allocation of electors nationwide, bind electors to certified results, and pair the change with clear national baselines for paper-auditable ballots, risk-limiting audits, consistent certification timelines, and automatic recount triggers. If these steps still fail to align results with the national vote, the National Popular Vote Interstate Compact can serve as a backstop once uniform recount and security standards are in place.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep states administering presidential elections while making outcomes track the voters more closely, so people in safe states, small towns, and big cities alike feel their ballots matter. A durable middle path is to end winner-take-all by requiring proportional (or district-based with anti-gerrymandering safeguards) allocation of electors and binding electors to certified results, with the National Popular Vote Interstate Compact as a backstop once consistent recount rules are in place. Any change should include clear national baselines\u2014paper-auditable ballots, risk-limiting audits, uniform certification timelines, and automatic recount triggers\u2014to keep close elections transparent, stable, and trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

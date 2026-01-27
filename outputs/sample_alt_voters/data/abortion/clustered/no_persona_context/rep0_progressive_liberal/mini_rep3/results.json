@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to protect real-world safety and liberty while acknowledging that many people view fetal development as morally significant. A workable middle ground is to keep early pregnancy decisions primarily within the patient\u2013clinician relationship, and to allow later regulations only if they are medically grounded, clearly written, and paired with straightforward exceptions for life, serious health threats, rape/incest, and severe fetal anomalies\u2014without criminalizing patients or second-guessing clinicians in emergencies. Whatever limits exist, the most durable agreement comes from reducing unwanted pregnancies and hardship through affordable contraception, evidence-based education, strong prenatal/postpartum care, and concrete support for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by public health, human dignity, and humility in a pluralistic society: protect timely, safe care, patient privacy, and clinician judgment, especially in emergencies, serious health risks, severe fetal complications, or trauma. If democratic limits are set, they should be clear, medically grounded, consistently applied, and include unambiguous life-and-health exceptions without criminalizing patients or turning clinicians into defendants. The broadest common ground is pairing any legal framework with proven prevention and support\u2014affordable contraception, honest sex education, prenatal and postpartum care, and practical help for parenting and adoption\u2014so fewer people face crisis pregnancies.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should start from shared priorities of safety, dignity, and public health: timely access to evidence-based care and privacy, with medical decisions led by the patient and qualified clinicians, not fear of prosecution. In a pluralistic society, any gestational limits should be democratically set, medically workable, and paired with explicit, usable exceptions for life-threatening emergencies, serious health risks, severe fetal complications, and pregnancies resulting from trauma. To reduce the number of crisis pregnancies and hard choices, policy should also expand affordable contraception, honest sex education, prenatal and postpartum care, and practical supports for parenting and adoption so families can choose without coercion.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to reduce preventable harm while treating pregnancy as both morally serious and medically complex. A durable middle ground avoids criminalizing patients and clinicians, sets clear health-based standards with prompt exceptions for threats to life and serious health, and builds in transparency and review to correct unintended consequences. At the same time, it invests in what most people support\u2014contraception, accurate information, prenatal and postpartum care, and financial support for parents\u2014so real options expand and crisis pregnancies become rarer.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by medical evidence, compassion, and humility in a pluralistic society\u2014recognizing both serious moral concern for developing life and the health, autonomy, and lived realities of pregnant people. Common ground includes clear, medically defined exceptions and protections so patients and clinicians can act promptly in emergencies without fear of punishment or coercion. Alongside any limits, policy should invest in prevention and real alternatives\u2014contraception and sex education, maternal and prenatal care, and economic supports like childcare and housing\u2014so fewer pregnancies become crises. The measure of success should be fewer preventable tragedies and more genuine, supported choices rather than ideological victory.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a practical commitment to protect life and health while respecting that people in a pluralistic society disagree deeply about when moral status begins. A durable approach keeps urgent and medically necessary care clearly legal, avoids criminalizing patients and clinicians acting in good faith, and writes rules that are clear, medically informed, and consistently applied. At the same time, it invests in what reduces crisis pregnancies and painful decisions\u2014contraception and accurate education, strong prenatal and maternal care, and real support for families facing economic hardship\u2014so fewer people feel trapped and fewer tragedies occur.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

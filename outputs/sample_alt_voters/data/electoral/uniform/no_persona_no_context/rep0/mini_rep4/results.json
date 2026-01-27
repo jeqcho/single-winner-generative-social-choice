@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star": {
+      "winner": "18",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "People on both sides generally want a president chosen by rules that feel fair, minimize \u201cwasted\u201d votes, and don\u2019t hinge on a few counties in a few states. A workable middle path is to keep the state-based framework but require more representative elector allocation (e.g., proportional or ranked-choice-based within states) alongside uniform baseline standards for ballot access, counting, and recount triggers. That would preserve federalism and regional coalition-building while making outcomes track voter preferences more closely and reducing the chance of disputed, razor-thin endings.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about keeping or replacing the Electoral College, we share goals of legitimacy, broad-based support, and elections that don\u2019t hinge on a few swing states. A practical bridge is to reduce winner-take-all distortions\u2014through proportional or district-based elector allocation, and/or the National Popular Vote Interstate Compact\u2014while keeping clear national standards for voting access, recounts, and audits. We can evaluate these reforms by common criteria: whether they make more votes matter, preserve a meaningful state role, and produce transparent, stable outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Even if we disagree about keeping or replacing the Electoral College, we can share a goal of an outcome that feels legitimate, is easy to understand, and doesn\u2019t leave most voters in \u201cnoncompetitive\u201d states feeling ignored. A practical bridge is to reduce winner-take-all distortions\u2014through proportional or district-based elector allocation paired with strong anti-gerrymandering rules\u2014and to adopt clearer, nationwide standards for ballot access, counting, audits, and recounts so close elections are trusted. For those who prefer a bigger shift, the National Popular Vote Interstate Compact can be evaluated alongside these reforms using the same criteria: fairness to voters, respect for states, and stability in tight races.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

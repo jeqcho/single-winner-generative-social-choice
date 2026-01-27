@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "25",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Many people agree the biggest problems are winner-take-all incentives that sideline most states and the risk that close outcomes feel arbitrary or illegitimate. A middle-ground reform package could keep the constitutional role of states but require a more representative allocation of electors (proportional or a fair district method with independent maps) and add nationwide baseline rules for audits, recounts, and elector binding. That approach respects federalism while making campaigns compete for more voters in more places and making outcomes easier to verify and accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "People on both sides want a system that produces a clear, widely accepted winner while balancing equal voting power with a meaningful role for states. A practical compromise is to keep the constitutional framework but reduce winner-take-all distortions by encouraging proportional or district-based elector allocation with strong anti-gerrymandering and recount/verification standards, so fewer voters feel ignored and outcomes track the electorate more closely. In parallel, we can evaluate a National Popular Vote Interstate Compact or similar popular-vote trigger with transparent, bipartisan safeguards, using shared criteria like legitimacy, stability, and simplicity rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree the goal is a presidential election that\u2019s trusted, treats voters fairly, and still respects the role states play in our federal system. A workable compromise is to keep the Electoral College but reduce winner-take-all distortions\u2014encouraging proportional (or district-based) allocation paired with anti-gerrymandering protections\u2014so outcomes align more closely with the national vote and more voters matter in every state. Alongside that, adopt clear nationwide standards for ballot access, audits, and recounts, plus enforceable rules for elector accountability, so close elections are decided transparently and consistently rather than by confusion or partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

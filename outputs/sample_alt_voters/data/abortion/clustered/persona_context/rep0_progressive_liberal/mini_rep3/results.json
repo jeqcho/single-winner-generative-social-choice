@@ -1,0 +1,118 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": null,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star": {
+      "winner": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_personas": {
+      "winner": "42"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in medical science and written so clinicians can act quickly and safely, with unambiguous protections for privacy and for care when a pregnancy threatens a patient\u2019s life, health, or involves serious fetal anomaly. A balanced framework can recognize the value many place on unborn life by allowing broad access early in pregnancy while permitting carefully defined, evidence-based limits later\u2014without criminalizing patients or doctors acting in good faith. Lasting common ground also requires reducing the number of unwanted pregnancies and pressured decisions through comprehensive sex education, affordable contraception, and robust supports for prenatal care, disability services, parenting, and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by evidence-based medicine, patient safety, and privacy, recognizing that pregnancy can become unpredictable and time-sensitive and that clinicians need clear authority to act without fear in emergencies or serious health situations. A durable middle ground keeps early decisions primarily within the patient\u2013clinician relationship, avoids criminalizing patients or doctors, and allows carefully defined limits later in pregnancy with plain exceptions for threats to life or serious health, rape or incest, and severe fetal conditions. Common ground strengthens when policy also reduces crisis pregnancies through accurate education and affordable contraception, and backs families with real support\u2014prenatal and postpartum care, childcare, paid leave, and adoption resources\u2014so fewer people feel cornered into any choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by sound medical evidence, patient safety and privacy, and clear, workable rules that let clinicians act quickly in emergencies without fear of prosecution. A durable framework can acknowledge the moral seriousness many attach to developing life by protecting early, timely access while allowing carefully defined limits later in pregnancy with plain exceptions for threats to life or serious health, severe fetal conditions, and cases like rape or incest. Common ground is strongest when any legal approach is paired with practical prevention and support\u2014accurate education, affordable contraception, prenatal and postpartum care, and real resources for parenting, adoption, and childcare\u2014so fewer families face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

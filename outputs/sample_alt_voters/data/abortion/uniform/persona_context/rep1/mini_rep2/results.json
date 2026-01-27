@@ -1,0 +1,120 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": null,
+      "full_winner_idx": "70"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": null,
+      "full_winner_idx": "70"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": null,
+      "full_winner_idx": "70"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": null,
+      "full_winner_idx": "41"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": null,
+      "full_winner_idx": "70"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": null,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_rankings": {
+      "winner": "0",
+      "epsilon": null,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to protect both human dignity and women\u2019s safety by grounding rules in medical science, due process, and the reality that pregnancy decisions are often time-sensitive. A balanced approach can keep early abortion legal and accessible, require informed consent and high safety standards, and permit later restrictions tied to viability while guaranteeing prompt, clearly defined exceptions for rape, incest, lethal fetal diagnoses, and serious threats to life or major bodily function\u2014without criminal penalties for patients and good-faith clinicians. Lasting common ground also means reducing unwanted pregnancy and hardship through widely available contraception, evidence-based education, and practical support for pregnancy, parenting, and adoption so fewer families face the decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by medical evidence, patient safety, and respect for human dignity\u2014recognizing both bodily autonomy and the moral seriousness many attach to developing life\u2014while keeping time-sensitive decisions primarily between a patient and qualified clinicians. A workable framework protects early, legal access and privacy, sets clearly defined, medically grounded guardrails later in pregnancy tied to viability, and guarantees explicit exceptions for rape, incest, fatal fetal conditions, and threats to life or serious health. Rules should be precise, enforceable, and avoid criminalizing patients or clinicians acting in good faith, while pairing any limits with real prevention and family support such as comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption resources, childcare, and paid leave.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by human dignity, medical evidence, and respect for conscience\u2014protecting both women\u2019s health and the serious moral concerns many people hold about developing life. A workable framework keeps early pregnancy care legal, private, and safe; sets clear, medically defined limits later in pregnancy tied to viability; and guarantees straightforward exceptions for rape, incest, fatal fetal conditions, and threats to a pregnant person\u2019s life or serious health, without criminalizing patients or clinicians acting in good faith. Common ground is strongest when policy also reduces crisis pregnancies and supports families through accurate education, affordable contraception, prenatal and postpartum care, adoption resources, and practical help like childcare and paid leave.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

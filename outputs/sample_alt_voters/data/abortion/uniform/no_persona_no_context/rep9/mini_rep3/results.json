@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by a public-health and human-rights approach: protect the safety and agency of pregnant people, take seriously the developing life many want to safeguard, and avoid policies that push care into secrecy or delay. A durable compromise pairs early, timely access and confidential medical counseling with clearly defined later-stage rules that hinge on medical viability and include firm exceptions for life, major health impairment, rape or incest, and severe fetal anomalies. Alongside any limits, the law should invest in prevention and support\u2014contraception, accurate sex education, prenatal and postpartum care, and economic help\u2014so fewer pregnancies become crises and fewer families are left without real options.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared commitment to human dignity and harm reduction in a pluralistic society: protecting the health, autonomy, and equal citizenship of pregnant people while taking seriously the moral value many attach to developing life. Common ground starts with prevention and support\u2014broad access to contraception and comprehensive sex education, strong maternal healthcare, and practical help for parenting and adoption\u2014so fewer people face crisis pregnancies. Where legal limits are set, they should follow medical reality, rely on clinical judgment, and include clear, workable exceptions for life and serious health risks, rape or incest, and severe fetal conditions, while avoiding punitive approaches that endanger patients or providers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to protect human dignity and health while acknowledging sincere moral disagreement about developing life in a pluralistic society. A durable framework pairs strong prevention\u2014accurate sex education, affordable contraception, and economic and healthcare support for pregnancy, parenting, and adoption\u2014with timely access to safe medical care and patient privacy. Where legal limits are set, they should track medical realities and include clear, workable exceptions for rape or incest and for serious threats to a patient\u2019s life or health and severe fetal conditions, so clinicians can act without fear and families are not pushed into crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

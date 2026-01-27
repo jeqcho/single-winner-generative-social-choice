@@ -1,0 +1,118 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": null,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "13"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform is to keep the Electoral College but make it more representative and less prone to razor-thin, state-by-state tipping points. That could mean awarding most electors proportionally while reserving a small, uniform \u201cbonus\u201d for the statewide winner, alongside binding electors and adopting clear national baselines for voter access, tabulation transparency, audits, and automatic recount rules. If that framework proves stable and trusted, the country could then debate a national popular-vote mechanism with the same guardrails rather than as a sudden, high-stakes overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A practical consensus reform is to keep state-run elections but reduce winner-take-all distortions by allocating electoral votes proportionally (or by district with anti-gerrymandering guardrails) and legally binding electors to the certified result. Pair this with clear national baseline standards for ballot access, tabulation, post-election audits, and automatic recount triggers so close outcomes are transparent and not litigated ad hoc. Once those rules are stable and trusted, the country could consider a National Popular Vote compact or amendment as a backstop, potentially alongside ranked-choice voting to reduce spoiler fears.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A unifying reform is to keep states administering elections but make presidential outcomes track voters more closely and reduce the feeling that only a few swing areas matter. Replace winner-take-all with a uniform proportional allocation of electors (with a small minimum threshold to avoid extreme fragmentation), require electors to follow certified results, and pair it with clear nationwide baselines for ballot access, tabulation transparency, audits, and automatic recount triggers. If confidence increases but mismatches persist, a later step\u2014an interstate compact or amendment for a national popular vote\u2014should include the same guardrails and could be paired with ranked-choice voting to ensure the winner has broad support.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

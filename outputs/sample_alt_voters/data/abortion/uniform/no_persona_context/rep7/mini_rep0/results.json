@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "25"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "68",
+      "epsilon": 0.0,
+      "full_winner_idx": "68"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a public-health ethic and moral pluralism: protect people from preventable harm while acknowledging that citizens disagree about the moral status of developing life. A stable framework keeps early care safe, timely, and confidential; sets clear, medically workable rules as pregnancy advances; and guarantees explicit exceptions for threats to life or serious health, as well as for rape/incest and profound fetal diagnoses, written with clinicians and shielded from criminalization of patients and doctors. Whatever legal boundaries are chosen, they should be paired with measurable investments in contraception, accurate education, prenatal/postpartum care, and economic supports so fewer pregnancies become crises and more families have real options.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by reducing real-world harm while honoring moral pluralism: protect health, dignity, and privacy, and acknowledge that many people assign moral value to developing life. A workable framework keeps early care safe and accessible, sets later limits only where they are clinically clear and predictable, and guarantees explicit exceptions for life and serious health risks, rape/incest, and severe fetal complications\u2014written with clinicians so emergencies aren\u2019t delayed or criminalized. Whatever the legal boundaries, pair them with proven prevention and support\u2014accurate sex education, affordable contraception, prenatal/postpartum care, and economic help for parents and adoption resources\u2014so fewer people face crisis pregnancies in the first place.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for moral and religious disagreement, with the goal of reducing harm and avoiding government-driven delays in time\u2011sensitive care. A workable framework protects privacy and early, safe access, sets clear and clinician-written rules for later pregnancies tied to medical realities, and guarantees unambiguous exceptions for threats to life or serious health, rape or incest, and severe fetal complications. Whatever limits exist, they should be matched with practical supports that prevent crises and expand real options\u2014affordable contraception, accurate education, prenatal and postpartum care, mental-health support, and economic help for parents and adoption resources\u2014so fewer people are pushed into this decision.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

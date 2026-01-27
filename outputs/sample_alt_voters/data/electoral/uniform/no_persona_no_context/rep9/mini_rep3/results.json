@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_star": {
+      "winner": "87",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "87",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable middle ground is to keep the states\u2019 formal role in choosing a president while making the outcome more proportional to how people actually vote and easier to administer. That could mean ending winner-take-all through proportional elector allocation (with clear rules for close margins), paired with modernization of the vote-counting process and stronger protections against gerrymandering if districts are used. We can judge any package by whether it reduces swing-state neglect, limits incentives for manipulation, and produces results that both winners and losers can accept as legitimate.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Whether we favor keeping or replacing the Electoral College, most of us want outcomes that are widely seen as fair, stable, and reflective of voters while reducing today\u2019s over-focus on a few swing states. A practical bridge is to compare reforms that keep a meaningful state role but reduce winner-take-all distortions\u2014such as proportional or district-based elector allocation with strong anti-gerrymandering safeguards\u2014or, alternatively, the National Popular Vote Interstate Compact with clear recount and transparency rules. If we agree on shared criteria like legitimacy, simplicity, and broad geographic incentive to campaign, we can debate options without assuming bad faith and prioritize changes that narrow the gap between the popular and electoral outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "No matter where we land on keeping or replacing the Electoral College, most of us want a presidential election that is trusted, easy to understand, and makes voters feel heard in every state\u2014not just a few battlegrounds. A practical consensus path is to reduce winner-take-all distortions and swing-state dominance while preserving stable, state-run administration by (a) encouraging proportional allocation of electors with strong anti-gerrymandering safeguards, and (b) adopting clearer national standards for ballot access, counting, and recount triggers. We can then compare larger options like the National Popular Vote Interstate Compact or a constitutional amendment against shared criteria: one person\u2013one vote fairness, regional legitimacy, and a decisive outcome that losers can accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a balance of liberty, care, and responsibility: protect pregnant people from forced risk or trauma, and recognize the serious moral concern many have for developing life. Policy should guarantee timely, confidential access early in pregnancy and ensure clinicians can act immediately in emergencies, while allowing limited, medically defined regulation later in pregnancy tied to viability and written with practicing doctors. Any legal framework should focus on prevention and support\u2014affordable contraception, accurate education, maternal healthcare, and economic help for families\u2014so fewer pregnancies are unintended and fewer decisions are made under desperation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by shared goals of protecting health and human dignity in time-sensitive medical situations, while taking seriously the moral value many people attach to developing life in a pluralistic society. A workable framework should protect timely, safe early access and keep urgent decisions with patients and qualified clinicians, with clear, medically defined exceptions for emergencies, severe health risks, and sexual violence so care is not delayed or criminalized. Any later-pregnancy limits should be transparent, clinically workable, and written with medical input, and they should be paired with strong prevention and family supports\u2014accurate education, affordable contraception, prenatal/postpartum care, paid leave, childcare, and adoption resources\u2014so fewer people face crisis pregnancies.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to reduce harm and respect moral diversity by protecting both a pregnant person\u2019s health and dignity and the serious value many attach to developing life. A workable framework keeps time-sensitive medical decisions in the patient\u2013clinician relationship, guarantees clear exceptions for medical emergencies, severe health risks, and cases like rape or incest, and uses medically defined, enforceable standards that don\u2019t criminalize patients or chill emergency care. Whatever limits exist should be paired with real prevention and support\u2014affordable contraception, accurate education, prenatal/postpartum healthcare, paid leave, childcare, and adoption services\u2014so fewer pregnancies become crises and more families can choose birth without coercion.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

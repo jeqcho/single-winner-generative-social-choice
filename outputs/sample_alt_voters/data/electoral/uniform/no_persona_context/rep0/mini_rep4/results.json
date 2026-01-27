@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star": {
+      "winner": "25",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "52",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A middle-ground reform can keep the Electoral College\u2019s state-based structure while making results more representative and less vulnerable to strategic manipulation. Congress and the states should adopt uniform, auditable standards for ballot access, counting, post\u2011election audits, and recount triggers, and require electors to be bound to certified results. States should also move away from winner\u2011take\u2011all\u2014preferably toward a proportional allocation with a small statewide threshold\u2014so campaigns compete in more places without turning close elections into winner-take-all legal warfare. If the public later wants a national popular vote, it should be paired with a clear majority-winner mechanism (ranked-choice or runoff) and implemented only with broad bipartisan agreement.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform can preserve a state-based election while making outcomes track voter preferences more closely and reducing swing-state distortion. A strong compromise is to bind electors to each state\u2019s certified results, replace winner-take-all with proportional allocation (or a district method paired with anti-gerrymandering safeguards), and adopt clear national baseline rules for ballot access, audits, recount triggers, and certification. If these steps build trust and stability, a phased national popular-vote approach\u2014such as the National Popular Vote Interstate Compact\u2014could be considered later, ideally with a runoff or ranked-choice mechanism to ensure broad support.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should aim for a presidential election that most Americans\u2014across big cities, small towns, and small states\u2014see as fair, predictable, and easy to verify. A workable middle ground is to keep state-run elections but reduce winner-take-all distortions by encouraging proportional allocation of electoral votes, binding electors to certified results, and setting clear nationwide baselines for ballot access, audits, recount triggers, and timely certification. To address representation concerns without scrapping the system, Congress could also consider expanding the House to lessen apportionment distortions. If trust and consensus grow, a phased path to a national popular-vote outcome (such as an interstate compact) could be paired with ranked-choice or a runoff to ensure a majority-backed winner.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

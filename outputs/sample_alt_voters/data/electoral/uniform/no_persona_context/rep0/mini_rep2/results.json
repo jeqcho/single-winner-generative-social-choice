@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star": {
+      "winner": "94",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise is to keep the Electoral College but change its incentives and tighten the rules: require every state to award electors by a common method that minimizes \u201cwasted\u201d votes (proportional with a modest minimum threshold, or districts with independent redistricting), and make electors legally bound to certified results. Pair that with national baseline standards for voter access, chain-of-custody, audits, recount triggers, and certification deadlines so close elections are handled consistently and transparently. After these reforms are in place, the country could revisit whether an interstate compact or constitutional amendment for a popular-vote outcome is still needed, ideally with a majority-guaranteeing mechanism like ranked-choice or a runoff.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should pursue a shared goal: a result most voters see as fair while keeping elections state-run so every region still matters. A practical bridge is to keep the Electoral College but curb winner\u2011take\u2011all by allocating electors proportionally (or by district with anti\u2011gerrymandering safeguards), bind electors to the certified vote, and adopt uniform national baselines for ballot access, audits, recount triggers, and certification timelines. If these steps build trust and reduce swing\u2011state distortion, the National Popular Vote Interstate Compact\u2014paired with a majority\u2011ensuring method like ranked\u2011choice or an automatic runoff\u2014can remain an orderly next option rather than a sudden overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should aim to make every lawful vote matter more equally while keeping states in charge of running elections and ensuring rural and smaller communities still have a meaningful voice. A broad compromise is to keep the Electoral College but replace winner-take-all with proportional (or district-based with anti-gerrymandering safeguards) allocation, require electors to follow the certified statewide result, and adopt clear national baseline standards for ballot access, audits, recount triggers, and certification timelines. If these steps build trust and the system still regularly diverges from the national vote, a carefully designed National Popular Vote Interstate Compact\u2014paired with a majority-producing method like ranked-choice or an automatic runoff\u2014can be considered as a next, transparent step.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

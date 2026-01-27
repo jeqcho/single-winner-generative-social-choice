@@ -1,0 +1,118 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "27"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": null,
+      "full_winner_idx": "91"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": null,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star": {
+      "winner": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to protect human dignity in all its forms by valuing developing life while safeguarding the health, freedom, and equal citizenship of those who are pregnant. A durable framework keeps emergency and medically complex care promptly available under clear clinical standards, avoids criminalizing patients and clinicians acting in good faith, and allows reasonable, transparent limits that reflect both moral concern and medical reality. Common ground grows when government also invests in prevention and support\u2014contraception, evidence-based education, prenatal and mental health care, economic help for families, and adoption services\u2014so fewer people face unwanted pregnancies and fewer feel forced into desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, evidence-based medical care, and respect for personal autonomy, while acknowledging the sincere moral weight many people place on potential life. Policy should ensure timely, confidential clinician\u2011patient decision-making with clear, workable exceptions for serious risks to life or health and for cases such as rape or incest, so medically necessary care is never delayed. Common ground is strengthened by focusing on prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and mental-health care, and practical resources for parenting and adoption\u2014so fewer people face crisis pregnancies and fewer abortions are needed.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity, and evidence-based medical care, recognizing both the moral value many place on unborn life and the reality that pregnancy can involve serious health, trauma, and economic hardship. Policy should ensure timely, confidential care with clear exceptions for threats to a patient\u2019s life or serious health, and practical safeguards for cases like rape or incest, while avoiding rules that force dangerous delays or criminalize people in crisis. Common ground is strongest when government focuses on prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and mental-health care, paid leave, and adoption and parenting resources\u2014so fewer families face unwanted pregnancies and fewer feel cornered into painful decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

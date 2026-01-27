@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "50"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "50"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should start from the shared duty to protect health, reduce preventable suffering, and treat everyone involved with dignity in a situation where moral views genuinely diverge. A stable approach keeps clinicians\u2014not politicians\u2014as the primary decision-makers in medical emergencies, sets clear and workable rules so patients can access timely care, and avoids punitive measures that deter treatment. At the same time, it should pair whatever legal framework exists with serious investments in contraception, prenatal care, mental health, adoption and foster systems, and economic supports so fewer pregnancies become crises and fewer families feel forced into impossible choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a balanced commitment to bodily autonomy and the protection of developing life, grounded in medical evidence rather than slogans. A workable framework keeps healthcare decisions safe and accessible\u2014especially early in pregnancy\u2014while allowing proportionate, clearly defined limits later, and always preserving timely exceptions for life, health, and emergency care under professional medical judgment. Across moral differences, common ground includes investing in contraception and accurate education, strong prenatal/maternal care, and concrete supports like childcare, paid leave, and economic stability so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect life and health while respecting that people disagree in good faith about when rights begin. A durable approach keeps medical decisions grounded in evidence and clinician judgment, guarantees timely emergency and health exceptions, and avoids punitive rules that push care into unsafe or hidden channels. At the same time, policy should reduce the number of crises through broad contraception access, accurate education, and practical supports\u2014prenatal care, paid leave, childcare, and adoption resources\u2014so more families have real options.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

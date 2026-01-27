@@ -1,0 +1,118 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A middle-ground reform is to keep the Electoral College but make it reflect voters more accurately and reduce swing-state dominance. Set a national baseline for election administration (ballot access, paper-backed audits, and clear recount/certification triggers), and require states to allocate electors in a more representative way\u2014such as proportional allocation with a small statewide bonus for the plurality winner\u2014to preserve some state identity while ending winner-take-all blowouts. Once those rules are stable and trusted, the country can revisit a national popular-vote pathway (by amendment or compact) with safeguards to avoid nationwide recount chaos.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform is to keep the state-run Electoral College framework but make outcomes track voter intent more closely and reduce the swing\u2011state/winner\u2011take\u2011all distortion. Require states to allocate electors proportionally (or by district with anti\u2011gerrymandering guardrails) and bind electors to the certified statewide results to eliminate faithless-elector uncertainty. Pair this with clear national baseline standards for ballot access, paper-backed audits, and automatic recount/certification triggers so close elections are transparent and consistently resolved. If these steps build trust, an interstate compact or amendment to guarantee the national popular will can be considered with simple, litigation-resistant rules.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make every voter feel heard without turning presidential elections into a single, nationwide recount or erasing the states\u2019 role in running elections. A practical compromise is to keep the Electoral College but end winner-take-all by requiring proportional (or district-based with anti-gerrymandering guardrails) allocation of electors, along with binding electors to the certified results. Pair that with clear national minimum standards for ballot access, paper-backed auditing, and automatic recount triggers so close races are handled consistently and transparently. If these steps build broad trust, the country can then evaluate a popular-vote backstop (by compact or amendment) with simple, litigation-resistant rules.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

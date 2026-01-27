@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "36",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "8",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College\u2019s state-based structure, but stop letting a small set of battleground states decide the outcome by replacing winner-take-all with a uniform proportional allocation of electors in every state, and require electors to reflect the certified results. Pair that with baseline national rules for voter access, counting transparency, risk-limiting audits, and clear recount thresholds so close races are settled consistently and credibly. If the country wants an added legitimacy check, adopt a limited \u201cpopular-vote tie-breaker\u201d backstop that only applies when the electoral result diverges from the national vote by a narrow margin, reducing mismatches without an abrupt overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Keep the state-based Electoral College framework, but end winner-take-all so voters in every state matter by allocating electors proportionally (or by district only with strong anti-gerrymandering safeguards) and requiring electors to follow the certified vote. Pair that with clear national standards for voter access, secure ballot handling, risk-limiting audits, and automatic recount triggers so close elections don\u2019t devolve into chaos and lawsuits. If a broader consensus develops, add a national popular-vote backstop through the National Popular Vote Interstate Compact\u2014ideally alongside ranked-choice voting\u2014to ensure the overall vote winner prevails while encouraging broad, cross-regional support.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should make every voter feel their ballot matters while still encouraging candidates to earn support across regions\u2014not just in a few big media markets or swing-state corridors. A durable compromise is to keep state-run elections but replace winner-take-all with proportional allocation of electors (with strong anti-gerrymandering safeguards if districts are used) and require electors to follow the certified vote. Pair that with clear national baselines for voter access, secure counting, risk-limiting audits, and automatic recount triggers so close races are trusted. If experience shows the gap between the national vote and the outcome remains too large, the National Popular Vote Interstate Compact can serve as a backstop, ideally alongside ranked-choice voting to reduce spoiler fears and reward broad coalition-building.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

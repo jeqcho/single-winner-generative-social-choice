@@ -1,0 +1,115 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "99"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make decisions in the open\u2014showing the data, tradeoffs, and who is responsible\u2014and when the same rules and consequences apply to everyone. They should make it easy for people to access services, file complaints, and see timelines and results, while engaging communities through regular, two-way conversations that are plain-language and culturally accessible. Independent review, strong ethics protections, and clear performance goals that are reported publicly help people judge institutions by demonstrated fairness and reliability rather than slogans.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions make decisions transparently, apply rules consistently and fairly, and show measurable follow-through\u2014so people can judge performance by results rather than rhetoric. Leaders should communicate in plain language, admit and correct mistakes, and provide accessible, multilingual ways for the public to get information, file complaints, and participate locally. Independent audits, oversight, and protected channels for feedback and whistleblowing create accountability, while reliable day-to-day service demonstrates that institutions put the public interest first across political lines.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make decisions transparently, apply rules fairly, and show measurable results that people can see in their daily lives. Leaders should communicate in plain language (and in the main languages used locally), admit and fix mistakes, and protect whistleblowers so accountability is real. Independent audits and easy-to-use complaint and feedback channels\u2014paired with local, face-to-face listening sessions and partnerships with community organizations\u2014help ensure services are reliable, respectful, and focused on the public interest rather than politics.",
+      "is_new": true
+    }
+  }
+}

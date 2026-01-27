@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "97",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by a shared aim: protect people from preventable injury and death while recognizing that many citizens view developing fetal life as morally significant. That suggests laws written in plain clinical terms\u2014guaranteeing prompt emergency and medically indicated care and preserving patient privacy\u2014while setting a transparent, stage-based framework that becomes more protective as pregnancy advances without criminalizing patients or second-guessing clinicians. The most enduring approach also treats prevention and support as central: wide access to contraception and accurate education, plus healthcare and economic supports that make continuing a pregnancy a realistic option.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should balance two widely held duties: protect pregnant patients\u2019 life, health, dignity, and privacy, and take developing life seriously, especially as pregnancy progresses. A workable compromise keeps early care safe and accessible, allows later limits tied to viability and clear clinical realities, and guarantees prompt, plainly written exceptions for emergencies and serious health threats so clinicians can act without fear or delay. It should avoid criminalizing families in crisis while investing in what reduces abortions most: accurate education, contraception access, prenatal and postpartum care, and practical supports for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by two widely shared responsibilities: protect a pregnant person\u2019s life, health, and basic privacy through timely, clinician-led care, while also taking seriously the moral concern many feel about developing human life as pregnancy progresses. A workable compromise keeps early abortion access safe and legal, sets any later limits in clear medical terms tied to viability and severe circumstances, and guarantees prompt, non-punitive exceptions for emergencies, serious health threats, and cases like rape or incest so doctors can act without fear. Whatever the legal framework, the most common-ground strategy is to reduce crisis pregnancies through affordable contraception, accurate education, prenatal and postpartum care, and practical support for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

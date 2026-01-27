@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "23",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A consensus reform would aim for two things at once: the winner should match the electorate\u2019s overall preference as closely as possible, and the process should remain decentralized, auditable, and predictable. A practical bridge is to keep the Electoral College but require every state to allocate electors in a way that reflects its vote (with electors bound to certified results), while pairing that with nationwide minimum standards for voter access, paper records, risk\u2011limiting audits, and clear recount/certification deadlines. If the country later moves to a national popular vote, it should include a majority requirement (e.g., ranked-choice) so the president has broad support rather than a narrow plurality.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should strengthen legitimacy by keeping elections state-run but making outcomes track voter intent more closely under consistent, verifiable rules. A workable compromise is to curb or end winner\u2011take\u2011all\u2014through proportional elector allocation or the National Popular Vote Interstate Compact\u2014while binding electors to the certified result. Pair this with clear national baselines for ballot access plus mandatory paper records, risk\u2011limiting audits, and uniform recount triggers so close elections are transparent, harder to litigate, and accepted across regions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should aim for a result most Americans recognize as fair: every vote should matter more evenly, campaigns shouldn\u2019t be driven by a few swing states, and outcomes must be auditable and verifiable. A practical bridge is to keep state-run elections but end winner-take-all by allocating electors proportionally (or through the National Popular Vote compact), while binding electors to certified results and requiring paper records, risk-limiting audits, and clear national recount and certification deadlines. To address small\u2011state and rural concerns without distorting outcomes, Congress could also expand the House to reduce population disparities while keeping transparent, uniform rules that apply to everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

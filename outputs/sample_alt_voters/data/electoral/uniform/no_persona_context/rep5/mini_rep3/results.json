@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "47"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "53",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should reduce \u201cswing-state\u201d distortion while keeping states central so campaigns still have incentives to build broad, cross-regional coalitions. A balanced approach is to require each state to allocate electors by a uniform proportional formula based on the statewide vote (not districts), while expanding the House to lessen small-state overweights and tightening rules to bind electors to certified results. Pair these changes with national minimum standards for voter access, transparent audits, and automatic recount triggers so close elections are handled consistently and are easier to accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should pursue two shared goals: the president should reflect the voters\u2019 overall will, and campaigns shouldn\u2019t be able to write off smaller or rural communities. A broadly workable middle path is to keep state-run elections but end winner-take-all by allocating electors proportionally (with anti-gerrymandering guardrails), while setting clear national minimum standards for ballot access, audits, certification, and automatic recounts in close races. To strengthen legitimacy and reduce spoiler fears, states could adopt ranked-choice voting, and\u2014once uniform administration standards are in place\u2014add a National Popular Vote compact/backstop so the electoral outcome rarely diverges from the national tally.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should balance two widely shared goals: the president should reflect the voters\u2019 overall choice, and candidates should still have incentives to compete beyond a handful of battleground states so smaller and rural communities aren\u2019t ignored. A practical, explainable path is to keep state-run elections but end winner-take-all by allocating electors proportionally (with anti-gerrymandering guardrails) and binding electors to certified results, paired with clear national minimum standards for access, counting, audits, and automatic recounts in close races. Once those trust-and-consistency safeguards are in place, a national popular-vote backstop (such as the interstate compact) can ensure the winner aligns with the national vote when the electoral outcome diverges.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

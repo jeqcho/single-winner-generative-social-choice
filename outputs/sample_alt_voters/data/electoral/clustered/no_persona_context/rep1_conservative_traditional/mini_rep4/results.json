@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "85",
+      "epsilon": 0.0,
+      "full_winner_idx": "85"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise is to keep the Electoral College but make it reflect voter preferences more faithfully and reduce swing\u2011state dominance. States would allocate electors proportionally using a common, auditable method, with electors legally bound to the certified outcome and anti-gerrymandering guardrails if any district component is used. In parallel, Congress would set narrow national baselines\u2014paper-backed ballots, transparent audits, and clear recount/certification timelines\u2014so close elections are settled consistently without federalizing day-to-day administration.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A broad compromise is to keep the Electoral College\u2019s state-based framework, but make outcomes track voter intent more closely by ending winner-take-all and allocating electors proportionally (or by districts with anti-gerrymandering guardrails). Electors should be legally bound to the certified state result, with a single national floor for ballot access, paper-backed audits, and clear automatic recount and certification rules to reduce post\u2011election litigation. If these steps build trust and stability, an interstate compact or amendment that guarantees a clear popular mandate can be considered as a later backstop rather than a rushed first move.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A reform package should protect two shared values at once: every voter should feel their vote matters, and no region\u2014large state or small, urban or rural\u2014should feel ignored. A practical compromise is to keep state-run elections and the Electoral College, but require electors to be bound to the certified result, replace winner-take-all with proportional allocation (with clear anti-gerrymandering guardrails if districts are used), and set national baseline standards for ballot access, paper-backed audits, and automatic recount triggers. After those rules are in place and trusted, the country could consider a carefully designed National Popular Vote approach (or amendment) as a backstop, with safeguards to prevent chaotic, coast-to-coast recounts.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

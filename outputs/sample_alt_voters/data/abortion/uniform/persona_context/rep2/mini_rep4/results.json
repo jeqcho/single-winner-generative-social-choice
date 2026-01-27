@@ -1,0 +1,118 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": null,
+      "full_winner_idx": "25"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": null,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": null,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": null,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by protecting human dignity and health, recognizing both a pregnant person\u2019s right to make private, time-sensitive medical decisions and society\u2019s interest in potential life as pregnancy progresses. Any rules must be medically workable\u2014written clearly enough that clinicians can provide prompt care\u2014and must include explicit exceptions for life-threatening or serious health risks, pregnancies from rape or incest, and severe fetal anomalies, while avoiding patient criminalization and punishment-driven enforcement. Durable policy should also aim to prevent crises by expanding contraception access, accurate education, prenatal and postpartum care, and practical supports like paid leave, childcare, and adoption services so fewer people face impossible choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in compassion, medical evidence, and respect for human life, with clear, plain rules that let patients and clinicians act quickly\u2014especially in emergencies\u2014without fear of criminal punishment. A workable middle path protects privacy and access early in pregnancy, allows carefully defined limits later, and guarantees unambiguous exceptions for threats to life or serious health, and for cases of rape or incest. Common ground grows when any legal framework is paired with prevention and support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, and practical help for parenting or adoption\u2014so fewer families are pushed into crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human life, and medical evidence, with clear, plain rules that let patients and doctors act quickly and safely\u2014especially in emergencies\u2014without fear of prosecution. A workable middle ground protects personal privacy and early access, allows carefully defined limits later in pregnancy, and includes nonnegotiable, clearly written exceptions for threats to life or serious health, pregnancies from rape or incest, and severe fetal conditions. Common ground is strengthened by pairing any legal framework with practical prevention and support\u2014accurate education, affordable contraception, prenatal and postpartum care, and real help for parenting or adoption\u2014so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_personas": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be written to protect health and life in real-world clinical settings while acknowledging that people disagree in good faith about the moral status of developing life. A durable middle ground prioritizes timely, private care guided by qualified clinicians, with unambiguous protections for emergencies and serious health risks and without treating patients or doctors as criminals for acting in good faith. Any gestational limits or requirements should be narrowly tailored, medically workable, and paired with major investments that reduce demand and hardship\u2014affordable contraception, comprehensive education, prenatal/postpartum care, and practical support for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical reality, and respect for human dignity in a pluralistic society\u2014protecting pregnant people\u2019s health and freedom while taking seriously widespread moral concern for developing life. Rules should be clear and clinically grounded, keep urgent decisions with patients and qualified clinicians, and include explicit, workable exceptions for life-threatening and serious health risks (and other extreme circumstances) without criminalizing patients or clinicians acting in good faith. Whatever limits are set, the strongest common ground is pairing them with robust prevention and support\u2014accurate education, affordable contraception, prenatal/postpartum care, childcare, adoption services, and economic help\u2014so fewer people face a crisis decision.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect women\u2019s health and dignity while acknowledging that many people view developing life as morally significant. Rules should be written with medical expertise, protect privacy, and include clear, workable exceptions for life-threatening emergencies and serious health risks so clinicians can act without fear of prosecution. If limits are set, they should be transparent, consistently applied, and paired with strong prevention and support\u2014affordable contraception, accurate education, prenatal/postpartum care, and practical help for parenting or adoption\u2014so fewer families face a crisis decision.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "We can agree that the presidency should be decided by rules that treat voters fairly, keep states meaningfully involved, and produce outcomes that are widely accepted as legitimate. Rather than an all-or-nothing fight, we could pilot a package of reforms: allocate electors in a way that reduces winner-take-all distortions, adopt uniform national standards for election administration and recount triggers, and consider a majority-winner safeguard such as ranked-choice voting or a runoff. The common test is whether the system makes campaigns compete broadly and makes close results easier to trust, regardless of which party benefits.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about abolishing the Electoral College, we can agree the goal is a president with broad, widely accepted legitimacy\u2014so outcomes shouldn\u2019t hinge on winner-take-all distortions, inconsistent state rules, or razor-thin margins in a few battlegrounds. A practical compromise is to keep state administration while aligning results more closely with voters by encouraging proportional (or ranked-choice-based) allocation of electors and setting clear national baseline standards for ballot access, counting, audits, and recount triggers. We can evaluate options\u2014including the National Popular Vote Interstate Compact or House expansion\u2014against shared benchmarks of fairness, stability, and public trust rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Even if we disagree about keeping or replacing the Electoral College, we can agree that every eligible voter should feel their vote matters and that results should be clear, secure, and trusted across communities and states. A practical compromise is to keep state-run elections but reduce winner-take-all distortions by encouraging proportional elector allocation (with strong anti-gerrymandering protections if districts are used), while also adopting uniform national standards for ballot access, counting, audits, and recount thresholds. We can then compare larger structural options\u2014like expanding the House to reduce vote-weight gaps or joining the National Popular Vote Interstate Compact\u2014against shared benchmarks of fairness, transparency, and broad legitimacy.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

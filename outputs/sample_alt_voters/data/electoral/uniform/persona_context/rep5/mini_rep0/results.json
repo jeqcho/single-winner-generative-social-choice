@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Electoral College\u2019s federal structure but make it far less likely that a candidate wins while losing the national vote. A balanced approach is to require each state to award electors by a uniform proportional formula (no district maps), bind electors to the certified result, and adopt national minimum standards for voter access, postelection audits, and automatic recounts in very close contests. If the electoral and popular totals still diverge, a national popular-vote \u201coverride\u201d triggered only by a clear national-margin threshold could serve as a narrow backstop without fully nationalizing campaigns.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College and state-run administration, but reduce winner-take-all distortions so outcomes track voter intent more closely and fewer voters feel ignored. A practical reform is proportional (or district-based with strict anti-gerrymandering guardrails) allocation of electors, combined with clear national baseline standards for ballot access, transparent audits, and automatic recount triggers in very close races. Add firm limits on faithless electors, and consider an incremental popular-vote backstop like the National Popular Vote compact once those trust-building standards are in place.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable reform should keep states administering elections and preserve incentives for candidates to earn geographically broad support, while making outcomes track voters more closely and reducing the \u201cswing-state jackpot.\u201d A strong middle path is to end winner-take-all by requiring proportional allocation of electors (not gerrymandered districts), require electors to reflect the certified vote, and adopt clear national baseline standards for ballot access, accessible voting, transparent audits, and automatic recount triggers in close races. If the electoral and popular outcomes still diverge in a way that undermines legitimacy, a phased-in National Popular Vote mechanism\u2014ideally paired with ranked-choice voting\u2014can serve as a backstop without abrupt disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

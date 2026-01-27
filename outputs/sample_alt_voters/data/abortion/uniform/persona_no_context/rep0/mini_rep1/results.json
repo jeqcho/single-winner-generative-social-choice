@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star": {
+      "winner": "88",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to reduce preventable suffering by keeping urgent medical care legal and timely, protecting patient privacy, and ensuring decisions are guided by clinical standards rather than criminal penalties. At the same time, they can reflect the community\u2019s concern for developing life by setting transparent, medically grounded boundaries and requiring clear, non-coercive informed consent. Whatever framework is adopted should be paired with proven supports\u2014contraception access, comprehensive sex education, prenatal and postpartum care, and economic help\u2014so fewer people reach a crisis point and more families can choose life without being forced into it.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should keep patient health, privacy, and timely medical care at the center, trusting patients and qualified clinicians to make difficult decisions without criminalizing people in crisis. At the same time, the law can acknowledge the sincere moral weight many attach to developing life through clear, narrowly tailored, medically grounded standards and exceptions for emergencies, serious health risks, and other hard cases. Common ground is strongest when any legal framework is paired with practical prevention and support\u2014accurate sex education, affordable contraception, prenatal and postnatal care, and adoption and parenting resources\u2014so fewer families face these decisions at all.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should keep the focus on health, safety, and human dignity\u2014respecting that people hold deeply different moral beliefs about developing life while recognizing that pregnancy can involve urgent medical, personal, and economic realities. A workable framework should ensure timely, evidence-based care with clear, medically defined protections for emergencies and serious health risks, without criminalizing patients or clinicians acting in good faith. At the same time, it should reduce crisis pregnancies by expanding accurate sex education, affordable contraception, and strong supports for parents, prenatal care, adoption, and childcare so fewer families feel forced into impossible choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

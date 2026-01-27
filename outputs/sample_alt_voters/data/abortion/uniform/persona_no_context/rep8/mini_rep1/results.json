@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "98",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect human dignity on all sides by keeping urgent medical care legal, timely, and guided by clinicians, not criminal penalties. A balanced framework can allow access in early pregnancy and set clearly defined standards later that turn on viability and serious health or fetal conditions, with explicit provisions for rape and incest and protection for patient privacy. Whatever limits exist should be paired with real prevention and support\u2014contraception, comprehensive education, prenatal and postpartum care, childcare, and adoption resources\u2014so fewer people face unwanted pregnancies or feel forced into a decision.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, human dignity, and evidence-based medical care, keeping patients\u2019 safety and clinicians\u2019 judgment at the center while recognizing the sincere moral weight many attach to potential life. A workable approach protects timely, private access early in pregnancy and allows later, clearly defined limits only with firm exceptions for serious threats to health, severe fetal conditions, and pregnancies from rape or incest, without criminalizing patients or creating unsafe delays. Common ground also means reducing crises by expanding affordable contraception, accurate education, prenatal and postpartum care, and practical support for parents and adoption so fewer people feel cornered into painful choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should protect human dignity by keeping patients safe and decisions grounded in medical evidence and informed consent, with clear statewide rules that let clinicians act quickly in emergencies and safeguard privacy. A workable compromise is to keep early pregnancy care accessible while allowing carefully defined limits later, always with firm exceptions for threats to the pregnant person\u2019s life or serious health risks, severe fetal conditions, and pregnancies from rape or incest, without criminalizing patients. Whatever limits exist should be paired with practical support that prevents crisis pregnancies\u2014affordable contraception, accurate education, prenatal and postpartum care, and help for families\u2014so fewer people are forced into painful choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

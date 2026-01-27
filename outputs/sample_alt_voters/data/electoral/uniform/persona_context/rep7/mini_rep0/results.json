@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "11"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star": {
+      "winner": "53",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "96",
+      "epsilon": 0.0,
+      "full_winner_idx": "96"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Constitution\u2019s state-based role in choosing the president while making the outcome much less dependent on a few battleground states and far more reflective of voters nationwide. A balanced path is to replace statewide winner\u2011take\u2011all with a fair, anti-gerrymander method of awarding electors\u2014such as proportional allocation with a small threshold\u2014and allow states to converge on the national result through the National Popular Vote Interstate Compact if they choose. Whichever route is used, Congress and the states should adopt shared baseline rules for voter access, paper-backed ballots, risk-limiting audits, and clear recount and certification timelines so close elections are transparent and trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential elections should be transparent, auditable, and consistent nationwide so every lawful vote is treated equally and close results are easier to accept. A practical compromise is to keep the state-based Electoral College framework but end winner-take-all\u2014preferably through proportional allocation of electors (or the National Popular Vote Interstate Compact once it reaches 270)\u2014so outcomes more reliably track the national popular will while preserving regional voices. Pair this with clear national baseline standards for ballot access and accessibility, post-election audits, and automatic recount triggers to reduce swing-state distortion and strengthen legitimacy regardless of who wins.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should be understandable, secure, and fair so that every lawful vote is respected and the outcome is credible even in a close race. A workable compromise is to keep the Constitution\u2019s state-run framework but replace winner-take-all with a more proportional method (or join the National Popular Vote Interstate Compact once it reaches 270) so campaigns have reason to compete everywhere and results more closely match the national vote. Pair either approach with clear national baseline standards for ballot access (including multilingual support where needed), chain-of-custody, risk-limiting audits, and automatic recount triggers to strengthen both access and integrity without sidelining smaller states and communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

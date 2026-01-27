@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "36"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A sustainable reform should keep elections administered by states but change the incentives so candidates compete for votes everywhere, not just in a few battlegrounds. A middle-ground path is to replace winner-take-all with a uniform, proportional method for awarding electors (with a modest statewide bonus to preserve a clear state voice), and pair it with national minimum standards for registration access, ballot design, chain-of-custody, risk-limiting audits, and consistent recount triggers. This would make outcomes track the nationwide vote more closely, reduce razor-thin swing\u2011state gaming, and strengthen legitimacy without requiring an abrupt constitutional overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential elections should make outcomes feel legitimate and easy to verify by ensuring every lawful vote is handled consistently and no handful of \u201cswing states\u201d dominates the result. A practical, lower\u2011risk reform is to keep state-run elections and the constitutional framework but end winner\u2011take\u2011all by moving to proportional allocation of electors nationwide, or achieving a similar result through the National Popular Vote Interstate Compact once it reaches 270. Either approach should be paired with clear national baseline standards for ballot access and clarity, transparent post\u2011election audits, and uniform recount triggers so results are straightforward to trust and accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A fair reform should make the presidential winner match the voters\u2019 nationwide choice as closely as possible, while keeping elections run by states and avoiding abrupt constitutional upheaval. A practical middle path is to end winner-take-all by moving to proportional allocation of electors in every state, or to achieve the same result through the National Popular Vote Interstate Compact once it reaches 270, so voters in \u201csafe\u201d states matter too. Whichever route is used should come with simple national baseline rules for ballot access and multilingual information, transparent audits, and clear recount and certification triggers so the outcome is easy to verify and broadly accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "32",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_personas": {
+      "winner": "37",
+      "epsilon": 0.0,
+      "full_winner_idx": "37"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect both human dignity and public health by keeping time\u2011sensitive decisions primarily between a pregnant person and qualified clinicians, while acknowledging that many citizens place moral significance on developing life. A durable compromise sets clear, medically workable rules that guarantee emergency care and serious-health exceptions, protect privacy, and avoid criminalizing patients, alongside transparent standards for later pregnancy that rely on medical judgment. Whatever limits are chosen should be paired with robust prevention and support\u2014affordable contraception, evidence-based education, prenatal and mental-health care, and practical help for parenting and adoption\u2014so fewer people face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for personal autonomy and conscience, while acknowledging the moral weight many attach to developing life. A workable framework protects timely, safe, and private care in consultation with qualified clinicians\u2014especially when a patient\u2019s health is at risk or severe fetal complications are involved\u2014while setting clear, medically grounded standards that avoid criminalizing people in crisis. Common ground grows by reducing unintended pregnancies through comprehensive sex education and affordable contraception, and by strengthening supports like prenatal care, paid leave, childcare, and adoption resources so fewer families feel trapped into impossible choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, respect for human dignity, and sound medical evidence\u2014recognizing both the moral weight many attach to developing life and the need for patients to make time-sensitive healthcare decisions with qualified clinicians, not politicians. A workable framework can protect access early in pregnancy, set clear and medically grounded limits later, and guarantee well-defined exceptions for rape, incest, and serious threats to a patient\u2019s life or health, with privacy protections and no criminalization of people in crisis. Common ground grows when policy also reduces unintended pregnancies through accurate education and affordable contraception, and expands real supports\u2014prenatal and postpartum care, mental-health services, paid leave, childcare, and adoption resources\u2014so fewer families feel cornered into heartbreaking choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

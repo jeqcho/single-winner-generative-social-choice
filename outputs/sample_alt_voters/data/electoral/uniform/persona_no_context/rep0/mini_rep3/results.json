@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "32",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_personas": {
+      "winner": "22",
+      "epsilon": 0.0,
+      "full_winner_idx": "22"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise would keep the Constitution\u2019s state role while ensuring the winner aligns with the voters overall and the rules are predictable in every state. States could move away from winner-take-all by adopting proportional elector allocation (with a small threshold to avoid extreme fragmentation) and pairing it with uniform national standards for ballot access, audits, recount triggers, and deadlines. Whether implemented through state law, an interstate compact, or ultimately an amendment, the goal is to reduce swing-state distortions, protect smaller-state confidence, and make outcomes easier for the public to understand and accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A practical reform should make the presidential outcome track the national popular will more closely while preserving a meaningful state role and confidence in close elections. A strong middle path is to adopt the National Popular Vote Interstate Compact or, if the Electoral College remains, require proportional or district-based allocation of electors to reduce winner-take-all distortions and swing-state dominance. Either way, reforms should include clear, uniform national standards for ballot access, counting, audits, and recounts\u2014along with safeguards against faithless electors\u2014so results are transparent, timely, and broadly accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A practical reform should make the presidential outcome track the national popular will more closely so every voter\u2014whether in a big city, small town, or rural county\u2014feels their ballot counts the same, while still keeping states responsible for running elections. A workable bridge is the National Popular Vote Interstate Compact or proportional allocation of electors within each state, paired with clear national standards for ballot access, paper-based audits, and consistent recount rules. These changes would reduce winner-take-all \u201cswing state\u201d politics, encourage broader coalition-building campaigns, and strengthen trust by making results transparent and predictable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

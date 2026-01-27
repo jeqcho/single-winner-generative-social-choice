@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "91"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "1",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_personas": {
+      "winner": "43",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A consensus reform can keep the Electoral College\u2019s federal structure while fixing the parts that make elections feel arbitrary: reduce winner-take-all outcomes and make vote-counting rules consistent nationwide. States could be required to allocate electors in a way that reflects their statewide vote more closely (e.g., proportional with a modest threshold to avoid excessive fragmentation) and electors should be bound to the certified result. Pair that with clear national baselines for registration access, paper-backed audits, and automatic recount triggers so close elections are resolved predictably and transparently, regardless of the state.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep states administering elections while making outcomes track voters\u2019 choices more closely and reducing swing-state distortions. A broadly acceptable first step is to end winner-take-all by requiring proportional (or district-based with strong anti-gerrymandering guardrails) allocation of electors, paired with uniform national baseline rules for ballot access, counting, audits, and automatic recount triggers so close results are trusted everywhere. If confidence grows, a transparent National Popular Vote Interstate Compact backstop\u2014optionally paired with ranked-choice ballots to ensure majority support\u2014can further ensure the candidate with the broadest national support prevails without a sudden constitutional break.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep states administering elections while making every vote matter more equally and reducing the sense that a few swing states decide everything. A broadly workable step is to end winner-take-all by allocating electors proportionally using the same statewide totals everywhere, paired with clear national baseline standards for registration access, ballot counting, audits, and automatic recounts in close races. Add enforceable limits on faithless electors and a transparent, phased-in popular-vote backstop (such as the National Popular Vote Interstate Compact) so the national vote winner prevails without sudden disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_star": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should keep elections run by states but make the outcome reflect the country\u2019s overall choice and reduce the \u201ceverything hinges on a few battlegrounds\u201d problem. States could be required to award electors by a consistent proportional formula (with a small minimum threshold) or, if enough states agree, use the National Popular Vote Interstate Compact\u2014either way backed by national baseline rules for ballot access, transparent audits, uniform certification deadlines, and automatic recount triggers. That preserves federalism and local administration while making campaigns compete in more places and making close results easier for both sides to accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential elections should feel fair and legitimate by making outcomes track the national popular vote more reliably, while keeping states meaningfully involved in running elections. A practical bridge is to keep the Electoral College but end winner-take-all\u2014either through proportional allocation of electors in every state or by adopting the National Popular Vote Interstate Compact once it reaches the threshold. Pair that with clear national baseline rules for ballot access, counting deadlines, transparent post\u2011election audits, and automatic recount triggers, so close results are trusted and campaigns have incentives to compete beyond a handful of swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should be fair, easy to explain, and trusted\u2014so the winner reflects broad national support while states still play a real role in running elections. A practical reform is to keep the Electoral College but end winner-take-all by moving to proportional elector allocation (or the National Popular Vote Interstate Compact), so voters in every state matter and outcomes rarely diverge from the national vote. Pair that with simple national baselines for ballot access, multilingual and disability accessibility, post\u2011election audits, and automatic recount triggers so close results are transparent, consistent, and hard to game.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

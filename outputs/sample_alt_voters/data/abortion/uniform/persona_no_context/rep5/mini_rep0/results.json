@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.28,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to reduce preventable suffering by protecting the health and dignity of pregnant people while recognizing that many citizens ascribe moral value to developing life. Policy should keep medically complex decisions with patients and licensed clinicians, set clear and workable rules that include prompt exceptions for medical emergencies and serious threats to health, and avoid criminalizing patients or routine clinical care. Common ground is strengthened by pairing any legal framework with proven supports\u2014affordable contraception, evidence-based education, prenatal and maternal care, adoption and parenting resources, and workplace supports\u2014so fewer pregnancies become crises and more families can choose stability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for human dignity, recognizing both the moral weight many people attach to unborn life and the real-world health, safety, and economic circumstances families face. Policy should keep decisions centered in the patient\u2013clinician relationship, protect privacy, and ensure safe, timely care\u2014especially in medical emergencies, severe fetal conditions, and cases of rape or incest\u2014while allowing reasonable, clearly defined standards that are consistent and not punitive. Common ground grows by pairing any legal framework with strong prevention and support: accurate education, affordable contraception, prenatal and maternal healthcare, and practical resources for parenting and adoption so fewer people are driven into crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for human dignity\u2014taking seriously both the moral value many place on unborn life and the real health, safety, and economic circumstances families face. Policy should keep medical decisions centered in the patient\u2013clinician relationship, protect privacy, and set clear, workable standards that ensure timely care in emergencies and other grave situations, without criminalizing patients or doctors. Common ground grows when legal rules are paired with practical support that prevents crisis pregnancies and makes parenting or adoption more feasible: accurate education, affordable contraception, prenatal and maternal care, and resources for families.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College but change how states award electors so the result better matches voter preferences\u2014through proportional allocation (with a modest statewide bonus for the plurality winner, if desired) instead of winner-take-all. Pair that with baseline national rules for ballot access, counting, audits, and automatic recount triggers so close elections are resolved consistently and transparently. This preserves a meaningful role for states and regional balance while reducing \u201cswing state\u201d distortions and making more voters feel their ballots matter.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable reform should keep states meaningfully involved while making the outcome track the will of voters more closely and reducing winner-take-all \u201cswing state\u201d distortions. A practical middle path is wider adoption of district-based or proportional allocation of electors, with clear national baselines for ballot access, secure and auditable counting, and transparent recount triggers. As confidence and buy-in grow, states could also consider the National Popular Vote Interstate Compact or ranked-choice voting to ensure the winner reflects broad support while keeping the rules simple, consistent, and hard to game.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fair to voters in every state by reducing winner-take-all distortions while keeping states\u2019 meaningful role in administering elections. A workable compromise is to keep the Electoral College but require proportional (or district-based) allocation of electors nationwide, paired with clear national baselines for ballot access, counting, audits, and timely recounts that protect both security and convenience. Over time, states could choose to further align outcomes with the national popular vote through an interstate compact once broad bipartisan buy-in exists. The guiding goals are equal weight for each lawful vote, transparent rules, and results that are easy to trust even in close elections.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

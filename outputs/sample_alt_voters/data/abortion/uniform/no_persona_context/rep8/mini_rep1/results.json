@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "30",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be written to minimize preventable harm while respecting that citizens hold sincere, differing views about fetal moral status. Policy can protect confidential, timely care early in pregnancy and guarantee clear, non-negotiable exceptions for life-threatening emergencies, serious health threats, rape, incest, and nonviable or catastrophic fetal diagnoses, while setting any later limits in objective terms that clinicians can apply without fear of prosecution. Whatever the boundaries, lawmakers should pair them with proven measures\u2014affordable contraception, accurate sex education, prenatal and postpartum care, and practical supports for parenting and adoption\u2014so fewer pregnancies end in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, patient safety, and evidence-based medicine, while acknowledging sincere moral disagreement about the developing fetus and respecting conscience in a pluralistic society. A workable framework protects privacy and timely access early in pregnancy and guarantees that clinicians can act without delay in emergencies, severe fetal complications, and cases of rape or incest. Any later-pregnancy limits should be clear, medically grounded, and written with clinician input\u2014tied to viability and health standards rather than punishment. Common ground also requires strong prevention and family supports, including contraception, accurate education, prenatal/postpartum care, paid leave, childcare, and adoption resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should prioritize keeping patients safe and care timely, using clear, evidence-based medical standards written with input from clinicians so no one faces dangerous delays or felony risk for good\u2011faith medical judgment. In a pluralistic society that disagrees about when life deserves legal protection, a workable approach protects privacy and access early in pregnancy and guarantees explicit exceptions for threats to life or serious health harm, rape, incest, and nonviable or severe fetal conditions, while allowing narrowly defined later limits tied to viability and medical reality. Whatever the legal line, common ground includes expanding contraception, accurate education, prenatal and postpartum care, and practical supports like childcare and paid leave so fewer families face crisis pregnancies.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

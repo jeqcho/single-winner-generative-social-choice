@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should reduce the chances that a candidate can win while losing the national vote, without eliminating the states\u2019 role in administering elections and building geographically broad support. A balanced approach is to award electors by congressional district with a small statewide allocation, pair it with a national baseline for ballot access, post\u2011election audits, and automatic recounts, and require electors to follow the certified results. If the public later prefers a stronger popular\u2011vote link, a carefully defined interstate agreement or runoff/RCV layer could be added to ensure the winner has broad, widely accepted legitimacy.",
+      "is_new": true,
+      "epsilon": 0.1399999999999999
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep the state-based administration of presidential elections, but reduce winner-take-all distortions so voters in every state feel their ballots matter and campaigns compete beyond a few swing states. A practical, widely compatible step is for states to allocate electors proportionally (or by district plus statewide) and to legally bind electors to the certified results. Pair this with clear national baseline standards for ballot access, transparent audits, and automatic recount triggers in close races so outcomes are timely, verifiable, and widely trusted. If broader agreement develops, the National Popular Vote Interstate Compact can be phased in under the same uniform integrity rules to better align outcomes with the national popular will.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Constitution\u2019s state-run election structure while making the presidential outcome feel fairer, easier to explain, and less dominated by a handful of swing states. A strong middle-ground package is to replace winner-take-all with proportional allocation of electors in every state, require electors to follow the certified vote, and adopt clear national baselines for ballot access, auditable counting, and automatic recount triggers in close races. If the country later seeks closer alignment with the national popular vote, it should be phased in through broad agreement (such as the National Popular Vote Interstate Compact) with simple, consistent rules and a runoff or ranked-choice option to ensure the winner has broad support.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

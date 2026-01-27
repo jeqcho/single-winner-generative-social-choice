@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by a commitment to human dignity, honest recognition of moral disagreement, and the goal of reducing preventable suffering. A balanced framework protects access to timely, medically appropriate care\u2014especially in cases of serious health risk, fatal fetal conditions, and pregnancy from violence\u2014while allowing democratically set, medically informed boundaries that avoid criminalizing patients or clinicians. The strongest common ground is investing in what lowers abortion rates without coercion: comprehensive sex education, affordable contraception, prenatal and mental healthcare, and economic supports that make parenting or adoption realistic options.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by shared commitments to human dignity and harm reduction: valuing developing life while safeguarding the health, autonomy, and real-life circumstances of the pregnant person. A workable framework pairs clear, medically grounded standards and safety rules with compassionate exceptions for serious health risks and nonviable pregnancies, so no one is forced into dangerous or impossible situations. Alongside any legal boundaries, policy should prioritize prevention and support\u2014accurate information, contraception access, prenatal and maternal care, and practical resources for parenting or adoption\u2014so fewer people face crisis decisions and fewer abortions occur.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by respect for human dignity, medical reality, and the good\u2011faith moral disagreement people have about when life deserves legal protection. A workable middle ground is to keep care safe and clinically evidence\u2011based, ensure timely exceptions for threats to the pregnant person\u2019s health, rape or incest, and nonviable pregnancies, and avoid criminalizing patients while setting clear, democratically accountable boundaries. At the same time, investing in prevention and support\u2014contraception, accurate education, prenatal and maternal healthcare, childcare, and economic stability\u2014can reduce unintended pregnancies and make choosing parenthood more feasible.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

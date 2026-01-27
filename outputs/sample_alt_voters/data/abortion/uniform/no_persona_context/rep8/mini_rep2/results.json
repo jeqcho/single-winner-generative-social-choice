@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_personas": {
+      "winner": "86",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should prioritize practical compassion and clear, medically grounded rules: protect safe, timely care and respect patient privacy while recognizing that many people assign moral value to developing life. A workable framework sets an early period where decisions remain primarily with the patient and clinician, and any later restrictions are tied to viability and allow broad, unambiguous exceptions for life, health, rape, incest, and fatal fetal conditions\u2014without criminal penalties for good-faith care. Lasting common ground also requires treating prevention and support as core policy: affordable contraception, accurate education, prenatal/postpartum healthcare, and real economic help so fewer pregnancies become crises and carrying a pregnancy is a feasible choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by shared goals of safety, dignity, and fewer tragic outcomes: keep timely, confidential care available early in pregnancy and ensure urgent decisions remain with patients and clinicians. Any later limits should be clear, workable, and tied to medical reality (e.g., viability and serious complications), with explicit exceptions for threats to life or health, rape or incest, and nonviable pregnancies, and without criminalizing patients or clinicians acting in good faith. Whatever boundaries are set, common ground grows when they are paired with strong prevention and support\u2014accurate education, affordable contraception, prenatal/postpartum care, and practical help for families\u2014so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by shared goals of protecting health and human dignity, while acknowledging that many people also see developing life as morally significant. Policy should keep medical decisions timely and grounded in clinician judgment, with clear, enforceable exceptions for threats to life or serious health harm, and for situations like rape, incest, or nonviable pregnancies, and it should avoid criminalizing patients or good-faith care. If any limits are set later in pregnancy, they should be transparent, tied to medical reality, and written with medical experts. Common ground grows when the law is paired with practical prevention and support\u2014accurate education, affordable contraception, prenatal and postpartum care, and economic help for families\u2014so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

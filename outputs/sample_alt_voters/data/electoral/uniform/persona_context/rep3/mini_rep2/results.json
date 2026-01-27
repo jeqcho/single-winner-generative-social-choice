@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Constitution\u2019s state-based framework but reduce the current incentives that make most states spectators and let narrow margins flip all of a state\u2019s electors. A workable compromise is to require each state to award electors in proportion to its statewide vote (with a small bonus for the statewide winner if needed for decisiveness), while setting national minimum standards for voter access, paper records, risk-limiting audits, and uniform recount and certification deadlines. This would make outcomes track the public\u2019s choice more closely, broaden campaigning beyond a few battlegrounds, and improve confidence that close elections are resolved by transparent rules rather than partisan improvisation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential elections should more reliably reflect the national popular will while keeping states responsible for running elections under transparent, auditable rules that people in rural and urban communities can trust. A practical bridge is to keep the Electoral College but end winner-take-all\u2014through proportional allocation of electors in every state and/or the National Popular Vote Interstate Compact\u2014so votes in \u201csafe\u201d states matter and campaigns compete beyond a few swing states. Pair this with clear national baseline standards for ballot access, paper-backed audits, and automatic recount triggers in close races, and consider ranked-choice voting or a runoff to ensure the winner earns broad support and reduce spoiler fears.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should be updated so the winner more reliably reflects the voters\u2019 choice nationwide, while keeping states in charge of administering elections in ways that are transparent, accessible, and secure. A workable middle path is to keep the Electoral College but end winner-take-all by moving to proportional allocation of electors (or adopting the National Popular Vote Interstate Compact), so campaigns have reason to compete in every state, not just a few battlegrounds. Pair that with clear national baseline standards for ballot access (including language and disability accommodations), paper-backed audits, and automatic recount triggers in close races to make results easier to verify and accept. Where states choose, ranked-choice voting or a runoff option can ensure the winner has broad support and reduce spoiler-driven distrust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

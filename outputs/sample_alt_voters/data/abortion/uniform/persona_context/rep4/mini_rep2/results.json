@@ -1,0 +1,120 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": null,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": null,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "18",
+      "epsilon": null,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "33"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should prioritize patient safety and timely medical care through clear, medically defined rules that let clinicians respond quickly to emergencies and serious complications without fear of prosecution, while protecting privacy and informed consent. A durable middle ground can respect the value many place on unborn life by setting transparent standards for when and how later-pregnancy abortions may occur, paired with explicit exceptions for threats to life or health, severe fetal anomaly, and pregnancy from sexual violence. To reduce the number of abortions and the hardship around them, policy should also expand proven supports\u2014contraception, accurate education, prenatal and postpartum care, and practical assistance for parenting and adoption\u2014so people have real options before and after a pregnancy decision.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by clear, workable medical standards that protect patient safety and privacy and let clinicians act immediately in emergencies without fear of punishment. A durable middle ground can acknowledge the moral seriousness many attach to potential life by protecting timely access early in pregnancy, allowing carefully defined guardrails later, and guaranteeing unambiguous exceptions for threats to life or serious health and other grave circumstances. Common ground grows when policy also invests in prevention and real support\u2014reliable contraception and honest education, plus strong prenatal/postpartum care, adoption pathways, and practical help for families\u2014so fewer people face crisis decisions at all.",
+      "is_new": true,
+      "epsilon": 0.040000000000000036
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by medically sound, clearly written standards that protect patient safety and privacy while ensuring doctors can act immediately in life-threatening emergencies or serious health complications without fear of punishment. A workable middle ground recognizes that many people attach real moral weight to unborn life by pairing early, time-sensitive access and well-defined exceptions (including severe fetal conditions and pregnancies from sexual violence) with any later-pregnancy limits that are narrow, enforceable, and based on medical reality\u2014not politics. Common ground grows when policy also reduces crisis pregnancies and hardship through affordable contraception and education, strong prenatal and postpartum care, and practical support for parenting and adoption so families have real options.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

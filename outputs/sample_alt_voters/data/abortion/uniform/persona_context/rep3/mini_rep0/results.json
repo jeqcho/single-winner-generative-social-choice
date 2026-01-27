@@ -1,0 +1,120 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "27"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": null,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": null,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "84"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim first to reduce harm: protect women\u2019s health and safety, respect the moral gravity many associate with developing life, and keep medically complex decisions driven by professional judgment rather than partisan enforcement. A balanced framework can ensure timely access early in pregnancy and guarantee fast, unambiguous exceptions for life-threatening or serious health circumstances, rape or incest, and lethal or profoundly debilitating fetal diagnoses, with any later restrictions written around clinical viability and safety\u2014not fixed slogans. Whatever limits are chosen, they should be paired with proven supports that prevent crisis pregnancies and make continuing a pregnancy realistic: affordable contraception, comprehensive education, accessible prenatal/postpartum care, and economic and adoption/parenting resources, while avoiding criminal penalties that deter emergency care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, evidence-based medicine, and clear, workable standards that keep time-sensitive decisions primarily in the patient\u2013clinician relationship rather than in politics or criminal courts. A durable middle ground can protect timely access early in pregnancy while recognizing the moral seriousness many attach to developing life by allowing medically grounded later limits that never block emergency care. Any framework should include plain, enforceable exceptions for threats to life or serious health and for rape and incest, written so clinicians can act without delay or fear. Common ground is strongest when policy also reduces crisis pregnancies and supports real choices through comprehensive sex education, affordable contraception, and robust prenatal/postpartum, adoption, childcare, and family supports.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity and developing life, and evidence-based medical standards that keep urgent decisions primarily in the patient\u2013clinician relationship rather than in politics or criminal court. A durable compromise can protect timely access early in pregnancy, set any later limits in clinically workable terms, and guarantee clear, plain-language exceptions for threats to life or serious health, rape or incest, and severe fetal conditions so doctors can act without delay. Whatever framework is chosen should be paired with prevention and real support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, and practical resources for parenting or adoption\u2014so fewer families face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

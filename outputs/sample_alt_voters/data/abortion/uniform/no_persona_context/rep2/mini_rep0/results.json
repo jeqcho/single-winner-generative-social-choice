@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be designed to reduce preventable suffering and reflect moral pluralism by putting medically sound, clearly written rules ahead of ideology. They should guarantee timely care and protect clinician judgment and patient privacy, with explicit, non-punitive exceptions for life endangerment, serious health risk, rape or incest, and grave fetal diagnoses, while allowing communities to set transparent gestational standards that doctors can apply without fear. Whatever the legal boundary, lawmakers should pair it with broad access to contraception, evidence-based education, maternal healthcare, and practical supports for parenting and adoption so fewer people face pregnancy under crisis conditions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by compassion, medical evidence, and a shared commitment to human dignity\u2014protecting pregnant patients\u2019 health and agency while taking seriously many people\u2019s moral concern for developing life. Rules should be clear and workable in real clinics, preserving clinician judgment and privacy, with unambiguous protections for emergencies and serious health risks, and explicit exceptions for rape/incest and severe fetal conditions. Any later-pregnancy boundaries should be transparently defined with medical input so no one is endangered by vague language or punished for good-faith care. Whatever the legal line, common ground grows by reducing crisis pregnancies through affordable contraception, accurate education, and strong prenatal, postpartum, parenting, and adoption supports.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by protecting human dignity and patient safety while acknowledging that many people assign real moral weight to developing life. Policy should be written with medical expertise so it\u2019s clear and workable in real clinics\u2014guaranteeing timely emergency care and strong privacy protections, and setting any later-pregnancy limits and exceptions (life and serious health risks, rape or incest, and severe fetal conditions) in plain, enforceable terms that don\u2019t criminalize good-faith patients or clinicians. Whatever the legal boundaries, common ground grows when we also invest in prevention and support\u2014affordable contraception, accurate education, prenatal and postpartum care, and practical help for parenting and adoption\u2014so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

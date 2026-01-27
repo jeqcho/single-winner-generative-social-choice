@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "49",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by a commitment to reduce preventable harm, respect differing moral convictions about developing life, and ensure that medical decisions in urgent or complex cases are made quickly by patients and qualified clinicians. A durable middle ground protects access early in pregnancy, sets transparent and medically informed standards later, and includes explicit, workable exceptions for rape, incest, lethal or nonviable fetal conditions, and serious threats to the pregnant person\u2019s life or health\u2014without criminal penalties for good-faith care. Any legal framework should also invest in the upstream supports that lower abortion rates and hardship: contraception access, accurate health education, affordable maternity care, and practical resources for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for human dignity, keeping urgent, time-sensitive decisions with patients and qualified clinicians rather than politics or prosecutors. A workable framework protects timely access early in pregnancy and sets clear, medically grounded standards later, with explicit, unambiguous exceptions for rape, incest, nonviable or severe fetal conditions, and serious threats to the pregnant person\u2019s life or long-term health\u2014so good-faith care is never delayed or criminalized. Common ground grows when any legal limits are paired with proven prevention and support: accurate education, affordable contraception, and strong prenatal/postpartum care and resources for parenting or adoption, so fewer families face the decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by human dignity, medical evidence, and a shared goal of minimizing harm, with decisions made as close as possible to the patient\u2013clinician relationship rather than politics. A workable framework protects timely access early in pregnancy, sets clear and medically informed standards for later care, and guarantees unambiguous exceptions for rape, incest, nonviable or severe fetal conditions, and serious threats to the pregnant person\u2019s life or long-term health\u2014without criminalizing good-faith medical practice. Whatever limits exist should be paired with proven prevention and support\u2014accurate education, affordable contraception, prenatal and postpartum care, and practical help for parenting or adoption\u2014so fewer families face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

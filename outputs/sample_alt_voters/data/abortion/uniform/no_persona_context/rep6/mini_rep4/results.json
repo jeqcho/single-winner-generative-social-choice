@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be built around shared, practical aims: protect patients from avoidable injury or death, preserve honest medical decision-making, and acknowledge the public\u2019s interest in potential life without imposing a single religious or moral doctrine. That suggests clear, evidence-based rules that ensure early access and privacy, require no delays in emergencies, and draw any later limits in clinically workable terms with explicit exceptions for serious health threats, nonviable pregnancies, and pregnancies from violence. Enforcement should focus on licensing and standards of care\u2014not criminal penalties for patients or good-faith clinicians\u2014and be paired with major investments in contraception, sex education, prenatal/postpartum care, and economic supports so fewer people reach this decision under hardship.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in evidence-based medicine and a shared commitment to human dignity: protect patient privacy and ensure timely access to care, with urgent decisions\u2014especially in emergencies\u2014kept in the patient\u2013clinician relationship. At the same time, in a pluralistic society that treats developing life as morally significant for many, any legal boundaries should be clear, medically workable, and paired with explicit, reliable exceptions for serious health threats, nonviable or catastrophic fetal conditions, and pregnancies resulting from violence, without criminalizing patients or clinicians acting in good faith. Common ground is strongest when policy also reduces crisis pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal/postpartum care, and practical economic supports for parents and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by shared goals: protecting a pregnant person\u2019s health, privacy, and timely access to evidence-based care while also recognizing that many people attach real moral significance to developing fetal life. A workable approach keeps urgent decisions in the patient\u2013clinician relationship, sets clear and medically grounded guardrails as pregnancy progresses, and includes explicit, enforceable exceptions for life- or serious health-threatening complications, nonviable pregnancies, and pregnancies resulting from rape or incest\u2014without criminalizing patients or clinicians acting in good faith. Whatever boundaries are chosen, common ground grows when government also invests in prevention and support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, paid leave, childcare, and adoption resources\u2014so fewer families face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

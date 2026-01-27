@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star": {
+      "winner": "87",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_personas": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should reduce \u201cwinner-take-all\u201d distortions while keeping states\u2019 roles and avoiding a sudden, partisan-feeling rewrite. A workable compromise is to require proportional (or district-based) allocation of electors nationwide, bind electors to the certified results, and pair it with baseline national standards for access, counting, audits, and recount triggers. If broader agreement emerges over time, states could opt into a carefully drafted popular-vote compact with uniform rules and a clear phase-in so legitimacy and stability are protected.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reforms to the Electoral College should make outcomes track the national popular will more closely while still respecting the role of states and ensuring rural and smaller communities aren\u2019t ignored. A practical bridge is either the National Popular Vote Interstate Compact or proportional allocation of electors within states (reducing winner-take-all), paired with clear, uniform standards for voting access, ballot security, audits, and recounts. Adding ranked-choice voting where feasible can help the winner earn broader support and reduce the sense of \u201cwasted\u201d votes. Any change should be phased in transparently and designed to increase legitimacy no matter which party wins.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforms to the Electoral College should keep the state-based role many people see as protecting smaller communities, while making outcomes track the voters\u2019 will more closely and consistently across states. A broad compromise is to reduce winner-take-all by encouraging proportional or district-based allocation of electors, require electors to follow the certified results, and adopt clear national baselines for voting access, ballot security, audits, and recount triggers. If deeper change is desired, the National Popular Vote Interstate Compact could be a phased, opt-in path\u2014activated only with broad bipartisan state participation and uniform rules\u2014so every lawful vote matters and the result is widely trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

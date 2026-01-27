@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect human dignity and reduce preventable harm by relying on clear medical standards, safeguarding patient privacy, and keeping urgent decisions in the hands of patients and qualified clinicians. A balanced framework can preserve meaningful access early in pregnancy, set transparent, clinically grounded limits later, and include explicit, non-negotiable exceptions for life- or health-threatening conditions, rape or incest, and serious fetal anomalies. Any approach should also invest in proven supports\u2014contraception, medically accurate education, prenatal and postpartum care, and economic help for parenting or adoption\u2014so fewer people face crisis pregnancies and fewer families are left without options.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be grounded in evidence-based medicine, compassion, and respect for privacy and conscience, so time-sensitive decisions remain primarily between patients and qualified clinicians\u2014not political mandates. A durable framework should protect early access while allowing carefully defined, clinically grounded limits later in pregnancy, with clear and workable exceptions for threats to life or serious health, rape or incest, and severe fetal complications, so doctors can act without fear in emergencies. Common ground grows when any legal approach is paired with prevention and real support\u2014affordable contraception, accurate sex education, prenatal and postpartum care, paid leave, childcare, and adoption/parenting resources\u2014so fewer pregnancies become crises and fewer families feel cornered.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to reduce harm and protect human dignity by keeping urgent medical decisions with patients and licensed clinicians, guided by evidence-based standards and clear, non-punitive rules. A durable compromise protects access early in pregnancy and guarantees explicit exceptions for threats to life or serious health, rape or incest, and severe fetal complications, with any later limits written with medical input so emergency care is never delayed. Common ground grows when policy also strengthens prevention and support\u2014affordable contraception, medically accurate education, prenatal and postpartum care, disability and mental-health services, paid leave, childcare, and adoption support\u2014so fewer families face crisis decisions and more can choose parenting without coercion or stigma.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

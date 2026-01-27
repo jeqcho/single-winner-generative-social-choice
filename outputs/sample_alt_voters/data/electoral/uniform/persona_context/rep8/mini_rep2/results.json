@@ -1,0 +1,120 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "28"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": null,
+      "full_winner_idx": "55"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": null,
+      "full_winner_idx": "55"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star_personas": {
+      "winner": "58"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A balanced reform would preserve state administration and the federal character of presidential elections, but reduce the winner-take-all effects that make most voters in most states feel irrelevant. States could choose from a small menu of reforms\u2014such as allocating electors proportionally or by congressional district under anti-gerrymandering rules, or joining the National Popular Vote Interstate Compact\u2014while requiring electors to honor certified results. Alongside any path, Congress should set baseline nationwide safeguards like voter-access minimums, paper records, risk-limiting audits, and clear recount and dispute timelines so close elections are verifiable and don\u2019t spiral into chaos.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep elections administered by states while making presidential outcomes align more reliably with the national popular will, so voters in both \u201csafe\u201d and \u201cswing\u201d states feel their ballots matter. A workable compromise is to end winner-take-all through proportional (or fairly district-based) allocation of electors\u2014or use the National Popular Vote Interstate Compact as a lawful bridge\u2014paired with binding electors to certified results. To strengthen trust, adopt clear national baseline rules for paper trails, accessible voting, post\u2011election audits, and automatic recount triggers so close races are verifiable and broadly accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform would keep elections run by the states but make presidential outcomes match the national popular will more consistently, so voters in both \u201csafe\u201d and \u201cswing\u201d states feel their ballot matters. A practical path is to end winner-take-all by using proportional elector allocation (or joining the National Popular Vote Interstate Compact once enough states participate), while requiring electors to follow certified results. To build confidence across generations and communities, add clear nationwide baseline standards for ballot access (including language assistance), paper records, post-election audits, and automatic recount triggers so close elections are transparent and credible.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}
