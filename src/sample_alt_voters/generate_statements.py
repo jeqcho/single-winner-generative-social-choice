@@ -61,12 +61,26 @@ def get_output_path(alt_type: str, topic_slug: str) -> Path:
     return SAMPLED_STATEMENTS_DIR / alt_type / f"{short_name}.json"
 
 
-def generate_alt1(topic_slug: str, client: OpenAI) -> None:
-    """Generate Alt1 statements for all personas on a topic."""
+def generate_alt1(topic_slug: str, client: OpenAI = None, force: bool = False) -> bool:
+    """
+    Generate Alt1 statements for all personas on a topic.
+    
+    Returns True if generation was performed, False if skipped.
+    """
     logger.info(f"=== Generating Alt1 for topic: {topic_slug} ===")
     
-    personas = load_personas()
     output_path = get_output_path("persona_no_context", topic_slug)
+    
+    # Skip if output exists and not forcing
+    if output_path.exists() and not force:
+        logger.info(f"Skipping {output_path} (already exists, use --force to regenerate)")
+        return False
+    
+    # Only initialize client when actually needed
+    if client is None:
+        client = OpenAI()
+    
+    personas = load_personas()
     
     logger.info(f"Output path: {output_path}")
     logger.info(f"Generating for {len(personas)} personas")
@@ -80,13 +94,27 @@ def generate_alt1(topic_slug: str, client: OpenAI) -> None:
     
     logger.info(f"Generated {len(results)} Alt1 statements")
     logger.info(f"Saved to {output_path}")
+    return True
 
 
-def generate_alt4(topic_slug: str, n: int, client: OpenAI) -> None:
-    """Generate Alt4 statements for a topic."""
+def generate_alt4(topic_slug: str, n: int, client: OpenAI = None, force: bool = False) -> bool:
+    """
+    Generate Alt4 statements for a topic.
+    
+    Returns True if generation was performed, False if skipped.
+    """
     logger.info(f"=== Generating Alt4 for topic: {topic_slug} ===")
     
     output_path = get_output_path("no_persona_no_context", topic_slug)
+    
+    # Skip if output exists and not forcing
+    if output_path.exists() and not force:
+        logger.info(f"Skipping {output_path} (already exists, use --force to regenerate)")
+        return False
+    
+    # Only initialize client when actually needed
+    if client is None:
+        client = OpenAI()
     
     logger.info(f"Output path: {output_path}")
     logger.info(f"Generating {n} statements ({(n + 4) // 5} API calls)")
@@ -100,6 +128,7 @@ def generate_alt4(topic_slug: str, n: int, client: OpenAI) -> None:
     
     logger.info(f"Generated {len(results)} Alt4 statements")
     logger.info(f"Saved to {output_path}")
+    return True
 
 
 def main():
@@ -134,6 +163,11 @@ def main():
         default=N_GLOBAL_ALT4,
         help=f"Number of Alt4 statements to generate (default: {N_GLOBAL_ALT4})"
     )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Force regeneration even if output files exist"
+    )
     
     args = parser.parse_args()
     
@@ -147,24 +181,21 @@ def main():
     # Map short names to full slugs
     topic_map = {v: k for k, v in TOPIC_SHORT_NAMES.items()}
     
-    # Initialize OpenAI client
-    client = OpenAI()
-    
     if args.all:
         # Generate everything
         logger.info("Generating all Alt1 and Alt4 statements for all topics")
         for topic_slug in TOPICS:
-            generate_alt1(topic_slug, client)
-            generate_alt4(topic_slug, args.n, client)
+            generate_alt1(topic_slug, force=args.force)
+            generate_alt4(topic_slug, args.n, force=args.force)
     else:
         # Get full topic slug
         topic_slug = topic_map.get(args.topic, args.topic)
         
         if args.alt1:
-            generate_alt1(topic_slug, client)
+            generate_alt1(topic_slug, force=args.force)
         
         if args.alt4:
-            generate_alt4(topic_slug, args.n, client)
+            generate_alt4(topic_slug, args.n, force=args.force)
     
     logger.info("=== Generation complete ===")
 

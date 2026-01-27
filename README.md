@@ -127,24 +127,32 @@ All model settings are centralized in `src/experiment_utils/config.py`:
 
 ## Quick Start
 
-There is no single command for the full pipeline. Run these steps in order:
+Run the full pipeline with a single command:
 
 ```bash
-# 1. Generate statements (Phase 1)
-uv run python -m src.sample_alt_voters.generate_statements --all
+# Run full pipeline (skips completed work automatically)
+uv run python -m src.sample_alt_voters
 
-# 2. Run main experiment (Phase 2) - builds preferences and runs voting methods
-uv run python -m src.sample_alt_voters.run_experiment --voter-dist uniform --all-topics --all-alts
-uv run python -m src.sample_alt_voters.run_experiment --voter-dist clustered --all-topics --all-alts
+# Force re-run everything (ignores existing outputs)
+uv run python -m src.sample_alt_voters --force
+```
 
-# 3. Fix GPT** epsilon values
-uv run python -m src.sample_alt_voters.fix_star_epsilons --double-star-only
+The pipeline runs these stages in order:
+1. **generate-statements** - Pre-generate Alt1 and Alt4 statements
+2. **run-experiment** - Build preferences and run voting methods (uniform + clustered)
+3. **fix-epsilons** - Fix epsilon values for GPT\* and GPT\*\* methods
+4. **run-triple-star** - Run GPT\*\*\* method
+5. **visualize** - Generate visualization plots
 
-# 4. Run GPT*** method
-uv run python -m src.sample_alt_voters.run_triple_star
+### Running Individual Stages
 
-# 5. Generate visualization plots
-uv run python -m src.sample_alt_voters.visualizer --all
+```bash
+# Run a specific stage only
+uv run python -m src.sample_alt_voters --stage generate-statements
+uv run python -m src.sample_alt_voters --stage run-experiment
+uv run python -m src.sample_alt_voters --stage fix-epsilons
+uv run python -m src.sample_alt_voters --stage run-triple-star
+uv run python -m src.sample_alt_voters --stage visualize
 ```
 
 ### Running Individual Conditions
