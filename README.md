@@ -52,7 +52,7 @@ flowchart TD
 
     subgraph phase1 [Phase 1: Data Generation]
         VS[Voter Sampling]
-        SG["Statement Generation<br/>API: gpt-5-mini, reasoning=none<br/>815 calls/topic (Alt1/Alt4)"]
+        SG["Statement Generation<br/>API: gpt-5-mini, reasoning=minimal<br/>815 calls/topic (Alt1/Alt4)"]
     end
 
     subgraph phase2 [Phase 2: Preference Building]
@@ -71,7 +71,7 @@ flowchart TD
 
     subgraph metrics [Evaluation]
         EL["Epsilon Lookup<br/>(from precomputed)"]
-        EI["Epsilon via Insertion<br/>API: gpt-5.2, reasoning=low"]
+        EI["Epsilon via Insertion<br/>API: gpt-5-mini, reasoning=low"]
         VIZ[Visualization]
     end
 
@@ -117,6 +117,13 @@ Create a `.env` file in the root directory with your OpenAI API key:
 ```
 OPENAI_API_KEY=your_api_key_here
 ```
+
+### Model Configuration
+
+All model settings are centralized in `src/experiment_utils/config.py`:
+
+- **GENERATOR_MODEL** (`gpt-5.2`, reasoning=none): Used for all content generation tasks (statement generation, GPT selection/generation)
+- **RANKING_MODEL** (`gpt-5-mini`, reasoning=low): Used for all preference/ranking tasks (iterative ranking, epsilon insertion)
 
 ## Quick Start
 
@@ -325,13 +332,13 @@ Per topic: 48 reps (4 alt_dists × 12 reps), 240 mini-reps (48 reps × 5 mini-re
 
 | Component | Model | Reasoning | API Calls | Total/Topic | Purpose |
 |-----------|-------|-----------|-----------|-------------|---------|
-| Statement Generation | gpt-5-mini | none | 815/topic | 815 | Generate candidate statements (Alt1/Alt4) |
+| Statement Generation | gpt-5-mini | minimal | 815/topic | 815 | Generate candidate statements (Alt1/Alt4) |
 | Preference Building | gpt-5-mini | low | 500/rep | 24,000 | 5 rounds × 100 voters iterative ranking |
 | GPT/GPT\* Selection | gpt-5.2 | none | 1/method | 1,440 | Select consensus from statements |
 | GPT\*\* Generation | gpt-5.2 | none | 1/method | 720 | Generate new consensus statement |
-| GPT\*\* Insertion | gpt-5.2 | low | 20/method | 14,400 | Insert new stmt into mini-rep rankings |
+| GPT\*\* Insertion | gpt-5-mini | low | 20/method | 14,400 | Insert new stmt into mini-rep rankings |
 | GPT\*\*\* Generation | gpt-5.2 | none | 5/rep | 240 | Generate 5 blind bridging statements |
-| GPT\*\*\* Insertion | gpt-5.2 | low | 500/rep | 24,000 | Insert each stmt into all 100 rankings |
+| GPT\*\*\* Insertion | gpt-5-mini | low | 500/rep | 24,000 | Insert each stmt into all 100 rankings |
 
 **Total per topic: ~65,000 API calls**
 

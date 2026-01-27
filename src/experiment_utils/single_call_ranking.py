@@ -1,5 +1,5 @@
 """
-Single-call ranking using GPT-5.2.
+Single-call ranking using RANKING_MODEL.
 
 Instead of pairwise comparisons or insertion sort, we ask the model to
 rank all statements in a single API call and return sorted IDs.
@@ -12,7 +12,7 @@ from typing import List, Dict
 from openai import OpenAI
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
-from .config import MODEL, TEMPERATURE, api_timer
+from .config import RANKING_MODEL, RANKING_REASONING, TEMPERATURE, api_timer
 
 logger = logging.getLogger(__name__)
 
@@ -70,7 +70,7 @@ Return only the JSON, no additional text."""
             {"role": "user", "content": user_prompt}
         ],
         temperature=temperature,
-        reasoning={"effort": "low"},
+        reasoning={"effort": RANKING_REASONING},
     )
     api_timer.record(time.time() - start_time)
     
@@ -97,7 +97,7 @@ def rank_all_statements_single_call(
     statements: List[Dict],
     topic: str,
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = RANKING_MODEL,
     temperature: float = TEMPERATURE
 ) -> List[int]:
     """
@@ -158,7 +158,7 @@ def get_preference_matrix_single_call(
     topic: str,
     openai_client: OpenAI,
     max_workers: int = 50,
-    model: str = MODEL,
+    model: str = RANKING_MODEL,
     temperature: float = TEMPERATURE
 ) -> List[List[str]]:
     """
@@ -252,7 +252,7 @@ def insert_statement_into_ranking(
     new_statement: str,
     topic: str,
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = RANKING_MODEL,
     temperature: float = TEMPERATURE
 ) -> List[int]:
     """
@@ -311,7 +311,7 @@ Return JSON: {{"insert_position": <number>}}"""
             {"role": "user", "content": user_prompt}
         ],
         temperature=temperature,
-        reasoning={"effort": "low"},
+        reasoning={"effort": RANKING_REASONING},
     )
     api_timer.record(time.time() - start_time)
     

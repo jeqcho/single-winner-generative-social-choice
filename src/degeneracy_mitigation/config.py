@@ -8,12 +8,14 @@ import logging
 import threading
 from pathlib import Path
 
+# Import model constants from central config (single source of truth)
+from src.experiment_utils.config import RANKING_MODEL, RANKING_REASONING
+
 logger = logging.getLogger(__name__)
 
 # =============================================================================
 # API Configuration
 # =============================================================================
-MODEL = "gpt-5-mini"  # Use GPT-5-mini (cost constraint)
 TEMPERATURE = 1.0
 
 # Reasoning effort levels to test

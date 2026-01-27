@@ -9,9 +9,32 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 # =============================================================================
+# Model Constants (Single Source of Truth)
+# =============================================================================
+# Note on reasoning effort support:
+#   gpt-5-mini: minimal, low, medium, high (NOT none or xhigh)
+#   gpt-5.2:    none, low, medium, high, xhigh (NOT minimal)
+
+# STATEMENT_MODEL: Used for statement/alternative generation (Phase 1)
+#   - Alt1, Alt2, Alt3, Alt4 statement generation
+STATEMENT_MODEL = "gpt-5-mini"
+STATEMENT_REASONING = "minimal"
+
+# GENERATIVE_VOTING_MODEL: Used for GPT-based voting methods (Phase 3)
+#   - GPT/GPT* selection
+#   - GPT**/GPT*** new statement generation
+GENERATIVE_VOTING_MODEL = "gpt-5.2"
+GENERATIVE_VOTING_REASONING = "none"
+
+# RANKING_MODEL: Used for all preference/ranking tasks
+#   - Iterative ranking (Phase 2 preference building)
+#   - Epsilon via insertion (inserting new statements into rankings)
+RANKING_MODEL = "gpt-5-mini"
+RANKING_REASONING = "low"
+
+# =============================================================================
 # API Configuration
 # =============================================================================
-MODEL = "gpt-5.2"  # Use GPT-5.2 for all API calls (sorting and voting)
 TEMPERATURE = 1.0
 
 # =============================================================================

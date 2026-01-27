@@ -43,10 +43,12 @@ DEFAULT_PERSONAS_FILE = DATA_DIR / "personas" / "prod" / "full.json"
 EMBEDDINGS_BASE_DIR = DATA_DIR / "persona_embeddings"
 REPORTS_BASE_DIR = PROJECT_ROOT / "reports" / "persona_clustering"
 
+# Import model constant from central config
+from src.experiment_utils.config import GENERATIVE_VOTING_MODEL
+
 # Constants
 EMBEDDING_MODEL = "text-embedding-3-small"
 EMBEDDING_DIM = 1536
-GPT_MODEL = "gpt-5.2"
 DEFAULT_K_VALUES = [5, 10, 20]
 BATCH_SIZE = 100  # Batch size for embedding API calls
 MAX_CONTEXT_TOKENS = 120000  # Conservative limit for GPT-5.2 context
@@ -223,7 +225,7 @@ Describe in 1-2 sentences what characterizes this group of people. Focus on the 
 Description:"""
 
     response = client.chat.completions.create(
-        model=GPT_MODEL,
+        model=GENERATIVE_VOTING_MODEL,
         messages=[{"role": "user", "content": prompt}],
         temperature=0.7,
         max_completion_tokens=200,

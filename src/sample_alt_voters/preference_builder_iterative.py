@@ -23,6 +23,7 @@ from tqdm import tqdm
 
 from src.degeneracy_mitigation.iterative_ranking import rank_voter
 from src.degeneracy_mitigation.config import HASH_SEED
+from src.experiment_utils.config import RANKING_REASONING
 
 logger = logging.getLogger(__name__)
 
@@ -32,7 +33,7 @@ def build_full_preferences_iterative(
     statements: List[Dict],
     topic: str,
     openai_client: OpenAI,
-    reasoning_effort: str = "low",
+    reasoning_effort: str = RANKING_REASONING,
     max_workers: int = 50,
     hash_seed: int = HASH_SEED,
     show_progress: bool = True

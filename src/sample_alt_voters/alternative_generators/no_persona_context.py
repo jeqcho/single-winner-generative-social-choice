@@ -22,8 +22,8 @@ from openai import OpenAI
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from tqdm import tqdm
 
+from src.experiment_utils.config import STATEMENT_MODEL, STATEMENT_REASONING
 from ..config import (
-    MODEL,
     TEMPERATURE,
     MAX_WORKERS,
     TOPIC_QUESTIONS,
@@ -84,12 +84,13 @@ def generate_batch(
     
     start_time = time.time()
     response = client.responses.create(
-        model=MODEL,
+        model=STATEMENT_MODEL,
         input=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
         ],
         temperature=TEMPERATURE,
+        reasoning={"effort": STATEMENT_REASONING},
     )
     api_timer.record(time.time() - start_time)
     

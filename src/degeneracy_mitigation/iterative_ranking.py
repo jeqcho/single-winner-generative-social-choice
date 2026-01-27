@@ -21,7 +21,7 @@ from typing import Any
 from openai import OpenAI
 
 from .config import (
-    MODEL,
+    RANKING_MODEL,
     TEMPERATURE,
     K_TOP_BOTTOM,
     N_ROUNDS,
@@ -148,7 +148,7 @@ def call_api_for_top_bottom(
     start_time = time.time()
     
     response = client.responses.create(
-        model=MODEL,
+        model=RANKING_MODEL,
         input=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
@@ -192,7 +192,7 @@ def call_api_for_final_ranking(
     start_time = time.time()
     
     response = client.responses.create(
-        model=MODEL,
+        model=RANKING_MODEL,
         input=[
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}

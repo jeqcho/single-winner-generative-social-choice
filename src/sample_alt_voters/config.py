@@ -12,17 +12,22 @@ import logging
 import threading
 from pathlib import Path
 
+# Import model constants from central config (single source of truth)
+from src.experiment_utils.config import (
+    STATEMENT_MODEL,
+    STATEMENT_REASONING,
+    GENERATIVE_VOTING_MODEL,
+    GENERATIVE_VOTING_REASONING,
+    RANKING_MODEL,
+    RANKING_REASONING,
+)
+
 logger = logging.getLogger(__name__)
 
 # =============================================================================
 # API Configuration
 # =============================================================================
-# Use gpt-5-mini for Phase 2 (cost-effective, validated with A-low)
-MODEL = "gpt-5-mini"
 TEMPERATURE = 1.0
-
-# Reasoning effort for A-low iterative ranking
-REASONING_EFFORT = "low"
 
 # =============================================================================
 # Experiment Parameters

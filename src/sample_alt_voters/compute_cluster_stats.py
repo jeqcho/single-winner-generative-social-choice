@@ -24,8 +24,8 @@ PROJECT_ROOT = Path(__file__).parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 REPORTS_DIR = PROJECT_ROOT / "reports"
 
-# GPT model for summaries
-GPT_MODEL = "gpt-5.2"
+# Import model constant from central config
+from src.experiment_utils.config import GENERATIVE_VOTING_MODEL
 
 # Setup logging
 logging.basicConfig(level=logging.INFO, format='%(message)s')
@@ -359,7 +359,7 @@ One-phrase summary:"""
 
     try:
         response = client.chat.completions.create(
-            model=GPT_MODEL,
+            model=GENERATIVE_VOTING_MODEL,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.3,
             max_completion_tokens=50,

@@ -18,7 +18,7 @@ from votekit import RankProfile, RankBallot
 from votekit.elections import Plurality, Borda, IRV, RankedPairs
 
 from src.compute_pvc import compute_pvc
-from .config import MODEL, TEMPERATURE, api_timer
+from .config import GENERATOR_MODEL, GENERATOR_REASONING, TEMPERATURE, api_timer
 from .single_call_ranking import insert_statement_into_ranking
 
 logger = logging.getLogger(__name__)
@@ -146,7 +146,7 @@ def run_veto_by_consumption(preferences: List[List[str]]) -> Dict:
 def run_chatgpt(
     statements: List[Dict],
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
     """Run ChatGPT baseline selection from P alternatives."""
@@ -178,7 +178,7 @@ Where the value is the index (0-{n-1}) of the statement you select."""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "none"},
+            reasoning={"effort": GENERATIVE_VOTING_REASONING},
         )
         api_timer.record(time.time() - start_time)
         
@@ -200,7 +200,7 @@ def run_chatgpt_with_rankings(
     statements: List[Dict],
     preferences: List[List[str]],
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
     """Run ChatGPT with preference rankings."""
@@ -247,7 +247,7 @@ Where the value is the index (0-{n-1}) of the statement you select."""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "none"},
+            reasoning={"effort": GENERATIVE_VOTING_REASONING},
         )
         api_timer.record(time.time() - start_time)
         
@@ -269,7 +269,7 @@ def run_chatgpt_with_personas(
     statements: List[Dict],
     personas: List[str],
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
     """Run ChatGPT with persona descriptions."""
@@ -314,7 +314,7 @@ Where the value is the index (0-{n-1}) of the statement you select."""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "none"},
+            reasoning={"effort": GENERATIVE_VOTING_REASONING},
         )
         api_timer.record(time.time() - start_time)
         
@@ -340,7 +340,7 @@ def run_chatgpt_star(
     all_statements: List[Dict],
     sample_statements: List[Dict],
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
     """
@@ -386,7 +386,7 @@ Return your choice as JSON: {{"selected_statement_index": <index>}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "none"},
+            reasoning={"effort": GENERATIVE_VOTING_REASONING},
         )
         api_timer.record(time.time() - start_time)
         
@@ -415,7 +415,7 @@ def run_chatgpt_star_with_rankings(
     sample_statements: List[Dict],
     sample_preferences: List[List[str]],
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
     """Run ChatGPT* with preference rankings from sample."""
@@ -459,7 +459,7 @@ Return your choice as JSON: {{"selected_statement_index": <index>}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "none"},
+            reasoning={"effort": GENERATIVE_VOTING_REASONING},
         )
         api_timer.record(time.time() - start_time)
         
@@ -485,7 +485,7 @@ def run_chatgpt_star_with_personas(
     all_statements: List[Dict],
     sample_personas: List[str],
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
     """Run ChatGPT* with persona descriptions from sample."""
@@ -529,7 +529,7 @@ Return your choice as JSON: {{"selected_statement_index": <index>}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "none"},
+            reasoning={"effort": GENERATIVE_VOTING_REASONING},
         )
         api_timer.record(time.time() - start_time)
         
@@ -559,7 +559,7 @@ def generate_new_statement(
     sample_statements: List[Dict],
     topic: str,
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Optional[str]:
     """Generate a new consensus statement."""
@@ -593,7 +593,7 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "none"},
+            reasoning={"effort": GENERATIVE_VOTING_REASONING},
         )
         api_timer.record(time.time() - start_time)
         
@@ -615,7 +615,7 @@ def generate_new_statement_with_rankings(
     sample_preferences: List[List[str]],
     topic: str,
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Optional[str]:
     """Generate a new consensus statement using preference rankings."""
@@ -661,7 +661,7 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "none"},
+            reasoning={"effort": GENERATIVE_VOTING_REASONING},
         )
         api_timer.record(time.time() - start_time)
         
@@ -683,7 +683,7 @@ def generate_new_statement_with_personas(
     sample_personas: List[str],
     topic: str,
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Optional[str]:
     """Generate a new consensus statement using persona descriptions."""
@@ -729,7 +729,7 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "none"},
+            reasoning={"effort": GENERATIVE_VOTING_REASONING},
         )
         api_timer.record(time.time() - start_time)
         
@@ -748,7 +748,7 @@ def run_chatgpt_double_star(
     voter_indices: List[int],
     topic: str,
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
     """
@@ -777,7 +777,7 @@ def run_chatgpt_double_star_with_rankings(
     voter_indices: List[int],
     topic: str,
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
     """Run ChatGPT** with rankings to generate a new statement."""
@@ -803,7 +803,7 @@ def run_chatgpt_double_star_with_personas(
     voter_indices: List[int],
     topic: str,
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
     """Run ChatGPT** with personas to generate a new statement."""
@@ -830,7 +830,7 @@ def insert_new_statement_into_rankings(
     topic: str,
     openai_client: OpenAI,
     max_workers: int = 100,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> List[List[str]]:
     """
@@ -918,7 +918,7 @@ def insert_new_statement_into_rankings(
 def generate_bridging_statement_no_context(
     topic: str,
     openai_client: OpenAI,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Optional[str]:
     """
@@ -956,7 +956,7 @@ Return your statement as JSON: {{"bridging_statement": "<your statement>"}}"""
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
-            reasoning={"effort": "none"},
+            reasoning={"effort": GENERATIVE_VOTING_REASONING},
         )
         api_timer.record(time.time() - start_time)
         
@@ -975,7 +975,7 @@ def run_chatgpt_triple_star(
     openai_client: OpenAI,
     n_generations: int = 5,
     max_workers: int = 100,
-    model: str = MODEL,
+    model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
 ) -> Dict:
     """
