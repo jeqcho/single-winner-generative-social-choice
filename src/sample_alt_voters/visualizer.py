@@ -45,6 +45,7 @@ TRADITIONAL_METHODS = ["schulze", "borda", "irv", "plurality", "veto_by_consumpt
 CHATGPT_METHODS = ["chatgpt", "chatgpt_rankings", "chatgpt_personas"]
 CHATGPT_STAR_METHODS = ["chatgpt_star", "chatgpt_star_rankings", "chatgpt_star_personas"]
 CHATGPT_DOUBLE_STAR_METHODS = ["chatgpt_double_star", "chatgpt_double_star_rankings", "chatgpt_double_star_personas"]
+CHATGPT_TRIPLE_STAR_METHODS = ["chatgpt_triple_star"]
 
 # Colors for method categories
 METHOD_COLORS = {
@@ -467,14 +468,16 @@ def plot_cdf_epsilon(
         'chatgpt_double_star': 'GPT**',
         'chatgpt_double_star_rankings': 'GPT**+Rank',
         'chatgpt_double_star_personas': 'GPT**+Pers',
+        'chatgpt_triple_star': 'GPT***',
     }
     
-    # Method groups for each subplot
+    # Method groups for each subplot (triple star included in double star subplot)
+    double_and_triple_star = CHATGPT_DOUBLE_STAR_METHODS + CHATGPT_TRIPLE_STAR_METHODS
     groups = [
         ('Traditional Methods', TRADITIONAL_METHODS, axes[0, 0]),
         ('ChatGPT Methods', CHATGPT_METHODS, axes[0, 1]),
         ('ChatGPT* Methods', CHATGPT_STAR_METHODS, axes[1, 0]),
-        ('ChatGPT** Methods', CHATGPT_DOUBLE_STAR_METHODS, axes[1, 1]),
+        ('ChatGPT** & *** Methods', double_and_triple_star, axes[1, 1]),
     ]
     
     # Get random baseline (all epsilons combined)

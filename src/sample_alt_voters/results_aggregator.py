@@ -49,7 +49,8 @@ def load_rep_results(rep_dir: Path) -> Dict:
     results = {
         "preferences_exist": (rep_dir / "preferences.json").exists(),
         "epsilons_exist": (rep_dir / "precomputed_epsilons.json").exists(),
-        "mini_reps": []
+        "mini_reps": [],
+        "triple_star": None,
     }
     
     # Load summary if exists
@@ -57,6 +58,12 @@ def load_rep_results(rep_dir: Path) -> Dict:
     if summary_path.exists():
         with open(summary_path) as f:
             results["summary"] = json.load(f)
+    
+    # Load triple star results (stored at rep level, not mini-rep level)
+    triple_star_path = rep_dir / "chatgpt_triple_star.json"
+    if triple_star_path.exists():
+        with open(triple_star_path) as f:
+            results["triple_star"] = json.load(f)
     
     # Load mini-rep results
     for i in range(N_SAMPLES_PER_REP):
@@ -120,6 +127,23 @@ def collect_all_results() -> pd.DataFrame:
                                 "full_winner_idx": result.get("full_winner_idx"),
                                 "error": result.get("error"),
                             })
+                    
+                    # Add triple star result (one per rep, replicated for each mini-rep for consistency)
+                    triple_star = rep_results.get("triple_star")
+                    if triple_star and triple_star.get("epsilon") is not None:
+                        for mini_rep_id in range(N_SAMPLES_PER_REP):
+                            rows.append({
+                                "topic": topic_short,
+                                "alt_dist": alt_dist,
+                                "voter_dist": "uniform",
+                                "rep_id": rep_id,
+                                "mini_rep_id": mini_rep_id,
+                                "method": "chatgpt_triple_star",
+                                "winner": "new",
+                                "epsilon": triple_star.get("epsilon"),
+                                "full_winner_idx": None,
+                                "error": triple_star.get("error"),
+                            })
         
         # Clustered voter distribution
         clustered_dir = PHASE2_DATA_DIR / topic_short / "clustered"
@@ -153,6 +177,23 @@ def collect_all_results() -> pd.DataFrame:
                                 "epsilon": result.get("epsilon"),
                                 "full_winner_idx": result.get("full_winner_idx"),
                                 "error": result.get("error"),
+                            })
+                    
+                    # Add triple star result (one per rep, replicated for each mini-rep for consistency)
+                    triple_star = rep_results.get("triple_star")
+                    if triple_star and triple_star.get("epsilon") is not None:
+                        for mini_rep_id in range(N_SAMPLES_PER_REP):
+                            rows.append({
+                                "topic": topic_short,
+                                "alt_dist": alt_dist,
+                                "voter_dist": cluster_name,
+                                "rep_id": rep_id,
+                                "mini_rep_id": mini_rep_id,
+                                "method": "chatgpt_triple_star",
+                                "winner": "new",
+                                "epsilon": triple_star.get("epsilon"),
+                                "full_winner_idx": None,
+                                "error": triple_star.get("error"),
                             })
     
     return pd.DataFrame(rows)
