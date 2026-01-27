@@ -16,15 +16,19 @@ This project explores how different voting methods select consensus statements f
 
 ### Personas
 
-The personas used in this experiment are from the [SynthLabsAI/PERSONA](https://huggingface.co/datasets/SynthLabsAI/PERSONA) dataset on Hugging Face. This is a **gated dataset** - you must request access from the dataset authors before use.
+The pre-filtered adult personas (815 personas, age >= 18) are included in this repository at `data/personas/prod/adult.json`.
 
-After obtaining access, filter the personas to adults only (age >= 18) and save to `data/personas/prod/adult.json`:
+<details>
+<summary>Reproducing from source</summary>
+
+The personas originate from the [SynthLabsAI/PERSONA](https://huggingface.co/datasets/SynthLabsAI/PERSONA) dataset on Hugging Face. This is a **gated dataset** - you must request access from the dataset authors.
+
+After obtaining access, filter to adults (age >= 18):
 
 ```python
 import json
 import re
 
-# Load the full dataset and filter to adults
 with open("path/to/full_personas.json") as f:
     personas = json.load(f)
 
@@ -35,6 +39,7 @@ with open("data/personas/prod/adult.json", "w") as f:
 
 print(f"Filtered to {len(adults)} adult personas")  # Should be 815
 ```
+</details>
 
 ## Experiment Flow
 
