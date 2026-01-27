@@ -122,7 +122,8 @@ OPENAI_API_KEY=your_api_key_here
 
 All model settings are centralized in `src/experiment_utils/config.py`:
 
-- **GENERATOR_MODEL** (`gpt-5.2`, reasoning=none): Used for all content generation tasks (statement generation, GPT selection/generation)
+- **STATEMENT_MODEL** (`gpt-5-mini`, reasoning=minimal): Used for statement/alternative generation (Phase 1)
+- **GENERATIVE_VOTING_MODEL** (`gpt-5.2`, reasoning=none): Used for GPT-based voting methods (Phase 3 selection/generation)
 - **RANKING_MODEL** (`gpt-5-mini`, reasoning=low): Used for all preference/ranking tasks (iterative ranking, epsilon insertion)
 
 ## Quick Start

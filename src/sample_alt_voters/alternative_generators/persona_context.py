@@ -93,7 +93,7 @@ def generate_single_statement(
     
     start_time = time.time()
     response = client.responses.create(
-        model=GENERATOR_MODEL,
+        model=STATEMENT_MODEL,
         input=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_prompt}
