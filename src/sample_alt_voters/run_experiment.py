@@ -593,7 +593,7 @@ def main():
     )
     parser.add_argument(
         "--topic",
-        choices=["abortion", "electoral"],
+        choices=list(TOPIC_SHORT_NAMES.values()),
         help="Specific topic to run (default: all)"
     )
     parser.add_argument(
@@ -650,11 +650,8 @@ def main():
         ]
     )
     
-    # Determine topics
-    topic_slug_map = {
-        "abortion": "what-should-guide-laws-concerning-abortion",
-        "electoral": "what-reforms-if-any-should-replace-or-modify-the-e"
-    }
+    # Determine topics (reverse map: short name -> slug)
+    topic_slug_map = {v: k for k, v in TOPIC_SHORT_NAMES.items()}
     
     if args.all_topics:
         topics = TOPICS

@@ -86,7 +86,9 @@
       "full_winner_idx": "38"
     },
     "chatgpt_star": {
-      "winner": "90"
+      "winner": "90",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
     },
     "chatgpt_star_rankings": {
       "winner": "14",
@@ -94,22 +96,27 @@
       "full_winner_idx": "32"
     },
     "chatgpt_star_personas": {
-      "winner": "57"
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Rather than an all\u2011or\u2011nothing fight over abolishing the Electoral College, reform should focus on making outcomes match votes more closely while keeping a clear role for states. Congress and the states should curb winner\u2011take\u2011all by adopting a uniform method (such as proportional allocation with a small statewide bonus or a district\u2011plus\u2011statewide split), bind electors to the certified result, and set consistent national baselines for ballot access, audits, and automatic recounts in very close races. If a broader shift to a national popular vote gains durable support, it should include a majority requirement (ranked\u2011choice or a runoff) and the same integrity standards so legitimacy is strengthened rather than traded away.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Presidential elections should make every lawful vote matter more and reduce the sense that a few swing states decide everything, while keeping state-run administration and a meaningful role for states and smaller communities. A practical, trust-building reform is to end winner-take-all by allocating electoral votes proportionally within each state, bind electors to the certified result, and set clear national standards for ballot access, audits, and automatic recount triggers. If broader agreement develops, the National Popular Vote Interstate Compact\u2014paired with ranked-choice voting or an automatic runoff\u2014can be a phased path toward a popular-vote outcome with a clear majority mandate.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Presidential elections should make every lawful vote matter while keeping a clear state role that many communities\u2014urban, suburban, and rural\u2014trust. A practical reform is to keep the Electoral College but end winner-take-all by requiring proportional allocation of electors (with a small, reasonable threshold), binding electors to the certified result, and setting uniform national baselines for ballot access, audits, and automatic recount triggers in close races. If broad bipartisan buy-in emerges over time, the National Popular Vote Interstate Compact can serve as a carefully safeguarded next step, ideally paired with ranked-choice voting or an automatic runoff to ensure the winner has majority legitimacy.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

@@ -86,7 +86,9 @@
       "full_winner_idx": "77"
     },
     "chatgpt_star": {
-      "winner": "50"
+      "winner": "50",
+      "epsilon": 0.33000000000000007,
+      "full_winner_idx": "50"
     },
     "chatgpt_star_rankings": {
       "winner": "19",
@@ -94,22 +96,27 @@
       "full_winner_idx": "83"
     },
     "chatgpt_star_personas": {
-      "winner": "73"
+      "winner": "73",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "73"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "A workable compromise is to keep the Electoral College\u2019s state-based structure but make it behave more like a national election by reducing winner-take-all distortions and eliminating faithless-elector uncertainty. States could allocate electors using a consistent proportional formula (with a small threshold to avoid extreme fragmentation) and bind electors to the certified result, while Congress sets minimum national rules for ballot access, paper-backed audits, and uniform recount triggers. This preserves regional voice and administrative federalism while making campaigns less obsessed with a few battlegrounds and making outcomes easier for the public to see as fair.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Keep the Electoral College\u2019s state-based framework for regional balance, but modernize it so outcomes track voters more closely and fewer communities feel ignored. Replace winner-take-all with proportional (or district-based) allocation in every state and require electors to follow the certified vote. Pair these changes with clear nationwide baselines for ballot access, paper-auditable counting, and automatic recount and audit triggers so close elections are transparent, consistent, and widely trusted.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Keep the Electoral College\u2019s state-based framework, but reduce winner\u2011take\u2011all distortions so more voters in every state feel their ballot matters by requiring proportional (or district-based) allocation of electors and binding electors to the certified state result. Pair that with clear national baseline rules\u2014paper-auditable ballots, accessible voting options, consistent ballot access, and automatic recount/audit triggers in close races\u2014so outcomes are transparent, secure, and easier to accept across communities. If broad bipartisan buy\u2011in develops over time, a carefully designed National Popular Vote compact or amendment (potentially with ranked\u2011choice voting to limit spoilers) can further align legitimacy with the popular will without abrupt disruption.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

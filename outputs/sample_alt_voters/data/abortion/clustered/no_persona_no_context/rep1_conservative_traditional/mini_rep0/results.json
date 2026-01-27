@@ -86,7 +86,9 @@
       "full_winner_idx": "20"
     },
     "chatgpt_star": {
-      "winner": "48"
+      "winner": "48",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
     },
     "chatgpt_star_rankings": {
       "winner": "13",
@@ -94,22 +96,27 @@
       "full_winner_idx": "54"
     },
     "chatgpt_star_personas": {
-      "winner": "62"
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Abortion laws should be guided by the aim of reducing preventable harm while treating the decision with moral gravity in a society that disagrees about fetal status. That requires clear, medically grounded protections for life- and health-threatening pregnancies and a legal framework that is predictable, non-punitive, and centered on patient safety. At the same time, policymakers should invest in the supports that make parenting a real option\u2014affordable healthcare, contraception, paid leave, childcare, and adoption and foster care reform\u2014so fewer people face pregnancy decisions under coercion, fear, or poverty.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Laws on abortion should be guided by a dual responsibility: to protect the health, dignity, and liberty of the pregnant person, and to treat developing life with moral seriousness in a pluralistic society. A workable approach sets clear, medically informed standards that guarantee timely emergency and medically necessary care and avoid punitive measures that endanger patients. Common ground grows when policy also invests in prevention and real support\u2014contraception, prenatal care, childcare, and economic help\u2014so fewer people face crisis pregnancies and more can realistically choose to carry to term.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Abortion laws should aim to reduce harm in a community where people hold sincere, conflicting convictions, by protecting women\u2019s health and bodily autonomy while treating developing life with moral seriousness. Whatever the legal limits, policies should guarantee timely, medically guided care in emergencies and serious fetal conditions, with clear rules that doctors and families can rely on. Common ground also includes preventing unintended pregnancies and expanding practical support\u2014affordable healthcare, childcare, paid leave, and adoption and parenting resources\u2014so fewer people face crisis decisions.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

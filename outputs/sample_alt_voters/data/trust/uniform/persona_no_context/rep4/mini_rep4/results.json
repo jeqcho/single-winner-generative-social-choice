@@ -1,0 +1,117 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "36"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_personas": {
+      "winner": "61"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make their goals, tradeoffs, and spending easy to verify, and when they invite regular public review with real consequences for poor performance or misconduct. Trust is strengthened by equal, predictable treatment under the rules, faster fixes when errors occur, and services designed around how people actually experience them. Creating ongoing channels for local input\u2014alongside independent audits and publicly reported results\u2014helps people across viewpoints see that institutions are competent, fair, and responsive.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver reliable, fair results that improve daily life, and explain decisions in plain language backed by clear, verifiable evidence. Leaders should be transparent about goals, tradeoffs, and mistakes, with enforceable accountability through independent audits and oversight. Ongoing local engagement\u2014listening forums, meaningful community input, and timely, respectful service\u2014helps people across viewpoints see that institutions follow through and serve the common good.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver reliable, fair service in ways people can see in daily life\u2014safe communities, responsive help, and well-run local programs\u2014while applying rules the same to everyone. Leaders should explain decisions in plain language, publish clear results and spending, and invite regular local feedback that leads to visible follow-through. Independent audits, strong ethics enforcement, and quick, honest correction of mistakes show humility and accountability. Respectful treatment of the public\u2014protecting rights, privacy, and dignity\u2014creates common ground across political and cultural divides.",
+      "is_new": true
+    }
+  }
+}

@@ -86,7 +86,9 @@
       "full_winner_idx": "83"
     },
     "chatgpt_star": {
-      "winner": "83"
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
     },
     "chatgpt_star_rankings": {
       "winner": "13",
@@ -94,22 +96,27 @@
       "full_winner_idx": "56"
     },
     "chatgpt_star_personas": {
-      "winner": "49"
+      "winner": "49",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Reform should aim for two shared goals: the president should reflect the broadest voter support, and the process should still respect states\u2019 roles and avoid chaos in razor-thin elections. A workable compromise is to keep the Electoral College but replace winner-take-all with proportional or ranked-choice-based allocation of electors in every state, while locking in nationwide baseline rules for ballot access, verification, audits, and automatic recount triggers. That combination would make campaigns compete beyond a handful of swing states, reduce incentives to game the rules, and strengthen legitimacy no matter who wins.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Reform should keep the Electoral College\u2019s federal structure while reducing winner-take-all distortions so outcomes feel fair and campaigns compete beyond a few swing states. A practical consensus path is nationwide district-based allocation (as in Maine and Nebraska) or proportional allocation within each state, paired with clear, uniform standards for ballot access, counting, audits, and automatic recount thresholds to strengthen trust. Electors should be bound to their state\u2019s certified results to avoid uncertainty, and any further shift toward a national popular vote should come only with broad, transparent buy-in.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Reform should make presidential elections feel fair in every state by reducing winner-take-all distortions while keeping states\u2019 role in administering elections. A practical compromise is to encourage proportional or district-based allocation of electors, and to allow a national popular vote route (such as the NPV compact) only with clear, uniform national standards for ballot access, counting, audits, and automatic recount thresholds. Whichever model is chosen should be simple to explain, hard to manipulate (including binding electors to results), and aimed at lowering \u201cswing state\u201d politics so candidates have incentives to compete for votes in more communities.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

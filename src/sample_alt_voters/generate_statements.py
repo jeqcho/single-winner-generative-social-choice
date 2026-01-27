@@ -125,7 +125,7 @@ def main():
     parser.add_argument(
         "--topic",
         type=str,
-        choices=["abortion", "electoral"],
+        choices=list(TOPIC_SHORT_NAMES.values()),
         help="Topic to generate for (use short name)"
     )
     parser.add_argument(

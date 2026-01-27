@@ -86,7 +86,9 @@
       "full_winner_idx": "50"
     },
     "chatgpt_star": {
-      "winner": "97"
+      "winner": "97",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
     },
     "chatgpt_star_rankings": {
       "winner": "5",
@@ -94,22 +96,27 @@
       "full_winner_idx": "0"
     },
     "chatgpt_star_personas": {
-      "winner": "73"
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Abortion laws should be built to function in real clinics and real crises: they must guarantee prompt, confidential care when pregnancy threatens a person\u2019s life or serious health, and avoid vague standards that deter doctors from acting. In a society with deep moral disagreement, a balanced framework can preserve early pregnancy decision-making while permitting carefully written, democratically set protections for fetal life later in pregnancy, with explicit exceptions for health, rape or incest, and profound fetal anomalies. Whatever limits exist, the most broadly unifying strategy is to prevent desperation through affordable contraception, evidence-based education, and sustained support for pregnancy, parenting, and adoption.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Abortion laws should start from shared aims: protect the health, dignity, and freedom of pregnant people while taking seriously the moral concern many feel for developing life. Rules should be medically grounded and clearly written so clinicians can act promptly in emergencies and serious health situations, with unambiguous exceptions for life- and health-threatening conditions and for pregnancies involving rape or incest, and without criminalizing patients or good-faith medical care. Whatever limits exist as pregnancy progresses should be transparent and workable, and paired with proven prevention and support\u2014accurate education, affordable contraception, prenatal and postpartum care, and real help with parenting or adoption\u2014so fewer families face crisis decisions.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Abortion laws should aim to protect health, dignity, and family well-being while recognizing that many people also see developing life as morally significant in different ways. The most legitimate rules are medically grounded and clear enough that patients and clinicians can act promptly\u2014especially in emergencies\u2014without fear of punishment, while allowing democratically set, evidence-based guardrails that include explicit exceptions for serious threats to life or long-term health, rape or incest, and severe fetal conditions. Whatever limits are chosen, common ground grows when lawmakers also invest in prevention and practical support\u2014affordable contraception, accurate education, prenatal and postpartum care, childcare and economic stability, and adoption resources\u2014so fewer people face crisis pregnancies and fewer families are left without help.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

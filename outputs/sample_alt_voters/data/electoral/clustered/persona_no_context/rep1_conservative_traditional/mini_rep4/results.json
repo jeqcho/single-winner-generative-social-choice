@@ -86,7 +86,9 @@
       "full_winner_idx": "99"
     },
     "chatgpt_star": {
-      "winner": "71"
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
     },
     "chatgpt_star_rankings": {
       "winner": "13",
@@ -94,22 +96,27 @@
       "full_winner_idx": "90"
     },
     "chatgpt_star_personas": {
-      "winner": "44"
+      "winner": "44",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "44"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "A durable compromise is to keep the Electoral College\u2019s state role but make it track voters more closely by phasing out winner-take-all and awarding electors proportionally, with a small minimum threshold to avoid fringe outcomes. Pair that with clear national baselines for voter access, transparent counting, automatic recount triggers in very close races, and routine risk-limiting audits so results are trusted regardless of who wins. If the country ultimately prefers a national popular vote, it should be adopted only through a broadly supported amendment or compact with agreed-upon standards, so the change is legitimate, stable, and not a partisan shortcut.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "A practical middle path is to keep the Electoral College\u2019s state-based role, but reduce winner-take-all distortions by having states award electors proportionally or by congressional district, so more voters in every state feel their ballot matters. Pair that with clear, uniform nationwide standards for ballot access, recount triggers, and transparent post\u2011election audits, so results are consistent, auditable, and trusted regardless of which party wins. If the country later moves toward honoring the national popular vote through an interstate compact or amendment, it should include simple, bipartisan guardrails that protect smaller communities while making outcomes track more closely with what voters chose.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "A practical reform is to keep the Electoral College but reduce winner-take-all distortions by having states award electors proportionally (or by district with clear anti-gerrymandering rules), so fewer voters feel ignored and campaigns have reason to compete beyond a handful of swing states. Any change should come with simple, uniform nationwide standards for ballot access, counting, audits, and automatic recount triggers, so results are transparent and trusted. If the country later moves to a national popular-vote outcome through an interstate compact or amendment, it should include clear safeguards and broad bipartisan buy-in to protect rural voices while honoring the popular will.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

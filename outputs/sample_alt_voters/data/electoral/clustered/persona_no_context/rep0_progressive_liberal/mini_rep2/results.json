@@ -86,7 +86,9 @@
       "full_winner_idx": "18"
     },
     "chatgpt_star": {
-      "winner": "97"
+      "winner": "97",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
     },
     "chatgpt_star_rankings": {
       "winner": "17",
@@ -94,22 +96,27 @@
       "full_winner_idx": "78"
     },
     "chatgpt_star_personas": {
-      "winner": "64"
+      "winner": "64",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "64"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Reform should aim to make presidential elections reflect the broad will of voters while keeping states meaningfully involved in administering and certifying results. A pragmatic compromise is to curb winner-take-all by encouraging or requiring proportional elector allocation (or a standardized district method), while setting national baseline rules for access, ballot counting, audits, and automatic recount thresholds. If the country wants to move closer to a popular-vote outcome, it should do so through clearly defined, constitutional pathways\u2014such as a carefully designed interstate compact\u2014so the rules are settled before Election Day and trusted afterward.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Reform should make presidential elections track the national popular will more closely while preserving a meaningful role for states and smaller communities. A practical bridge is to curb winner-take-all by allocating electors proportionally (or by district) and/or joining the National Popular Vote Interstate Compact, so fewer voters feel ignored and fewer races hinge on a handful of swing states. Pair any change with clear, uniform standards for ballot access, counting, audits, and recount triggers to strengthen transparency, security, and trust in close elections.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Reform should make presidential elections feel fairer and easier to trust by reducing winner-take-all distortions while still respecting the role states play and reassuring smaller and rural communities they won\u2019t be ignored. A practical bridge is to keep the Electoral College but require proportional (or district-based) allocation of electors, and allow a National Popular Vote Interstate Compact as a voluntary path toward aligning outcomes more closely with the national vote. Any change should be paired with clear, uniform standards for ballot access, counting, audits, and recounts\u2014plus secure, accessible options like automatic registration and reliable vote-by-mail\u2014so every eligible voter can participate and close results are resolved transparently.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

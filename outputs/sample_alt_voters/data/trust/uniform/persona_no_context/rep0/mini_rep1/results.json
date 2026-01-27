@@ -1,0 +1,115 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "66"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make decisions in the open, follow clear rules that apply to everyone, and publish simple, verifiable evidence of what is working and what is not. Leaders should take responsibility when mistakes happen, fix problems quickly, and invite independent review so accountability is real rather than rhetorical. Trust also grows when people can participate locally\u2014through accessible hearings, service feedback, and community panels\u2014and see that institutions protect rights, privacy, and everyday wellbeing regardless of politics.",
+      "is_new": true
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver reliable, measurable results and explain decisions in plain language\u2014openly sharing data, admitting mistakes, and correcting them quickly. Consistent, fair rules and clear lines of responsibility, backed by independent audits and oversight, show that no one is above accountability and that privacy and rights are protected. Trust deepens when institutions listen respectfully and bring decision-making closer to communities through accessible local forums, partnerships, and civic education so people can see and shape outcomes that improve everyday life.",
+      "is_new": true
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions are reliably competent and fair: rules are applied consistently, decisions and data are explained in plain language, and leaders acknowledge mistakes and fix them with clear timelines. Trust also grows with independent audits and oversight, strong privacy and anti-corruption safeguards, and easy ways for people\u2014across languages and communities\u2014to give feedback and see measurable results. Bringing more problem\u2011solving to local levels through partnerships with schools, clinics, faith and civic groups, and neighborhood boards helps show that institutions serve everyday needs rather than partisan agendas.",
+      "is_new": true
+    }
+  }
+}

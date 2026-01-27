@@ -86,7 +86,9 @@
       "full_winner_idx": "0"
     },
     "chatgpt_star": {
-      "winner": "91"
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
     },
     "chatgpt_star_rankings": {
       "winner": "6",
@@ -94,22 +96,27 @@
       "full_winner_idx": "8"
     },
     "chatgpt_star_personas": {
-      "winner": "75"
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "A durable compromise is to keep the Electoral College but make it behave more like a fair tally of voters by awarding electors in proportion to each candidate\u2019s statewide vote, with a small threshold to avoid fringe splintering. Pair that with binding electors, uniform national baselines for ballot access and vote-count transparency, and clear automatic recount triggers so close outcomes don\u2019t turn into ad hoc court fights. If the country later wants a true popular-vote finish, it should only take effect once those shared safeguards are in place and a broad cross-partisan supermajority of states has opted in.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Reform should aim for an outcome that most voters see as fair and easy to trust, while keeping a meaningful state role in running elections. A broadly acceptable middle path is to keep the Electoral College but end winner-take-all by requiring proportional (or district-based) allocation of electors, bind electors to the certified vote, and set clear national baselines for ballot access, paper-backed audits, and automatic recount triggers. If the country later wants the nationwide popular vote to be decisive, an interstate compact or amendment should take effect only after broad, bipartisan thresholds are met and the same uniform safeguards are in place.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "A durable reform should make the presidential outcome feel fair to both big cities and smaller communities, while keeping elections state-run but governed by clear, consistent national rules. A practical first step is to end winner-take-all by requiring proportional (or district-based) allocation of electors, bind electors to the certified vote, and set nationwide baselines for ballot access, paper-backed auditing, and automatic recount triggers. If the country later wants the nationwide popular vote to be decisive, it should be adopted only with clear safeguards and broad, bipartisan agreement so close elections remain transparent and widely accepted.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

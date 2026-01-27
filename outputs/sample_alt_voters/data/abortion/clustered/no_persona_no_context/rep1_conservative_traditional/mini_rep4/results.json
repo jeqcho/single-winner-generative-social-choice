@@ -86,7 +86,9 @@
       "full_winner_idx": "99"
     },
     "chatgpt_star": {
-      "winner": "95"
+      "winner": "95",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "95"
     },
     "chatgpt_star_rankings": {
       "winner": "17",
@@ -94,22 +96,27 @@
       "full_winner_idx": "99"
     },
     "chatgpt_star_personas": {
-      "winner": "62"
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Abortion laws should be guided by a commitment to practical justice: fewer unwanted pregnancies, fewer medical emergencies, and fewer families pushed into crisis. That means evidence-based sex education and contraception, affordable prenatal and maternal healthcare, and strong supports for parenting and adoption\u2014paired with regulations that are clear, medically workable, and include unambiguous protections for life- and health-threatening situations. In a society with sincere moral disagreement, the law should avoid cruelty and coercion while aiming to reduce harm for everyone affected.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Abortion laws should be guided by a humane, medically grounded balance: protecting pregnant patients\u2019 health and autonomy while taking seriously the moral concern many citizens feel about developing life. Common ground starts with reducing crisis pregnancies through accurate education, accessible contraception, and strong prenatal, childcare, and economic supports so choosing birth is genuinely feasible. Whatever legal limits exist, they should be clear, consistent, and include explicit protections for emergency and medically necessary care, with decisions anchored in clinical evidence rather than slogans.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Abortion laws should be guided by respect for human dignity, medical reality, and the understanding that citizens hold sincere, differing convictions about developing life and personal autonomy. Common ground includes preventing unintended pregnancy through education and affordable contraception, ensuring safe and timely care with clear protections for medical emergencies, and avoiding criminalization that drives people toward dangerous options. Any limits should be clinically informed, consistently applied, and paired with practical supports\u2014prenatal care, paid leave, childcare, and adoption and parenting resources\u2014so fewer families face crisis decisions.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

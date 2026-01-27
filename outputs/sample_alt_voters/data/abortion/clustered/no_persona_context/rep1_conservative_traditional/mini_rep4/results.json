@@ -86,7 +86,9 @@
       "full_winner_idx": "50"
     },
     "chatgpt_star": {
-      "winner": "90"
+      "winner": "90",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
     },
     "chatgpt_star_rankings": {
       "winner": "4",
@@ -94,22 +96,27 @@
       "full_winner_idx": "25"
     },
     "chatgpt_star_personas": {
-      "winner": "89"
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Abortion laws should be designed for a diverse society by prioritizing patient safety and medical integrity while acknowledging that many people believe the state has some interest in protecting developing life as pregnancy advances. That argues for early access to confidential, regulated care; any later restrictions should be tied to viability and clinical risk, with clear, enforceable protections for life- or health-threatening complications, lethal fetal diagnoses, and pregnancies resulting from rape or incest, without criminal penalties for patients or clinicians acting in good faith. The most stable compromise also expands what reduces unintended pregnancy and makes continuing a pregnancy realistically possible\u2014affordable contraception, accurate education, prenatal and postpartum care, and economic supports for parents and adoption.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Abortion laws should aim to reduce harm in a morally plural society by protecting timely, safe medical care, patient privacy, and the doctor\u2013patient relationship, while acknowledging that many citizens attach real moral significance to developing life. A workable framework protects early access and sets any later-pregnancy guardrails in clear, medically grounded terms tied to viability and safety, with explicit exceptions for serious threats to life or health, fatal or nonviable fetal conditions, and pregnancies resulting from rape or incest, and without criminalizing patients or clinicians acting in good faith. Common ground is strengthened by pairing these rules with robust prevention and family supports\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, paid leave, childcare, and adoption resources\u2014so fewer people face crisis decisions.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Abortion laws should prioritize protecting the health, dignity, and privacy of pregnant people while acknowledging that many citizens, in good faith, view developing life as morally significant. A workable compromise keeps early pregnancy care legal and safely accessible, sets any later limits in clear, medically grounded terms tied to viability and risk, and guarantees unambiguous exceptions for life-threatening or serious health conditions, fatal fetal anomalies, and pregnancies from rape or incest\u2014without criminalizing patients or clinicians acting in good faith. Whatever the legal line, common ground is strengthened by investing in what prevents crisis decisions and supports families: affordable contraception, accurate education, prenatal and postpartum care, and practical help for parenting and adoption.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

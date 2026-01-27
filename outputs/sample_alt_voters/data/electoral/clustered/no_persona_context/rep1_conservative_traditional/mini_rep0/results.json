@@ -86,7 +86,9 @@
       "full_winner_idx": "35"
     },
     "chatgpt_star": {
-      "winner": "75"
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
     },
     "chatgpt_star_rankings": {
       "winner": "12",
@@ -94,22 +96,27 @@
       "full_winner_idx": "20"
     },
     "chatgpt_star_personas": {
-      "winner": "75"
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "A reform path that can unite fairness and federalism is to keep states running elections but change how electoral votes translate that result. Standardize a minimum set of national rules for ballot access, counting, audits, and automatic recounts, then require states to award electors in a way that reflects statewide vote shares more closely and eliminates incentives to manipulate district lines, while binding electors to the certified outcome. To address smaller-state concerns without preserving winner-take-all distortions, Congress could expand the House (reducing the Senate-bonus effect) and set a clear timetable for evaluating a national popular-vote option only after the new rules prove stable and broadly trusted.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "A durable middle path is to keep state-run elections and the Electoral College, but end winner-take-all so outcomes track voters more closely and campaigns compete beyond a few battlegrounds. Allocate electors proportionally (or by district with anti-gerrymandering guardrails), require electors to follow the certified state result, and adopt clear national baselines for ballot access, tabulation, audits, and automatic recount triggers. If these reforms build trust and there is broad agreement, a carefully designed national popular-vote compact or amendment\u2014with the same uniform safeguards\u2014can be considered as a later backstop.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "A practical reform is to keep elections run by the states, but reduce \u201cwinner-take-all\u201d distortions so outcomes better match how people actually voted: allocate each state\u2019s electors proportionally (with clear guardrails against gerrymandered districts) and require electors to follow the certified result. Pair that with a short set of nationwide baseline rules\u2014ballot access, transparent counting, routine post\u2011election audits, and automatic recount triggers\u2014so close contests don\u2019t devolve into inconsistent standards or endless lawsuits. If those changes build trust and stability over multiple cycles, the country can then debate a national popular\u2011vote mechanism (compact or amendment) on top of a system that\u2019s already simpler, more uniform, and harder to game.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

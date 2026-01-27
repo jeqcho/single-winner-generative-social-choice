@@ -86,7 +86,9 @@
       "full_winner_idx": "88"
     },
     "chatgpt_star": {
-      "winner": "88"
+      "winner": "88",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
     },
     "chatgpt_star_rankings": {
       "winner": "1",
@@ -94,22 +96,27 @@
       "full_winner_idx": "88"
     },
     "chatgpt_star_personas": {
-      "winner": "79"
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Most people can agree the presidential election rules should reward broad national support, keep states meaningfully involved, and make the winner feel legitimate to as many voters as possible. A pragmatic middle path is to keep the Electoral College but curb its biggest distortions by ending winner-take-all, expanding the House to better match population, and requiring electors to follow the state\u2019s certified results under uniform recount and certification standards. If those steps still leave persistent popular-vote mismatches, an interstate compact or constitutional amendment could be considered with clear thresholds and transition rules to protect stability.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Even when we disagree about keeping or replacing the Electoral College, many of us want a system where more voters matter and the outcome tracks voter intent without sacrificing stability or a meaningful role for states. A practical compromise is to keep the constitutional framework but curb winner-take-all by allocating electors proportionally or by district with strong anti-gerrymandering safeguards, alongside clear national standards for access, counting, audits, and certification. We can also evaluate a carefully designed popular-vote mechanism (such as an interstate compact with uniform recount thresholds and transition rules) against shared goals of legitimacy, regional coalition-building, and public trust.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Even when we disagree about keeping or replacing the Electoral College, many of us want a president chosen by rules that feel fair to individual voters and still encourage candidates to compete beyond a few swing states. A workable middle path is to keep state-run elections but end winner-take-all by allocating electors proportionally (or by district with strong anti-gerrymandering protections), paired with clear national standards for ballot access, counting, audits, and recount triggers. We can also add a backstop\u2014such as a national popular-vote compact or automatic runoff/RCV in close races\u2014so the final outcome tracks voter preference while preserving stability and regional balance.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

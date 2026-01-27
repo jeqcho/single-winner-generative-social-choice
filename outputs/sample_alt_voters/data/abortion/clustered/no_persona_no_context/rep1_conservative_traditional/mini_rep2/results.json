@@ -86,7 +86,9 @@
       "full_winner_idx": "78"
     },
     "chatgpt_star": {
-      "winner": "60"
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
     },
     "chatgpt_star_rankings": {
       "winner": "12",
@@ -94,22 +96,27 @@
       "full_winner_idx": "18"
     },
     "chatgpt_star_personas": {
-      "winner": "32"
+      "winner": "32",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "32"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Abortion law should be guided by an ethic of shared responsibility: respect for the pregnant person\u2019s bodily integrity and future, and respect for the moral weight many attach to developing human life. A durable framework prioritizes preventing unintended pregnancy, guaranteeing timely and medically appropriate care (including clear emergency and serious-health exceptions), and pairing any limits with real support\u2014health coverage, childcare, housing, and paid leave\u2014so continuing a pregnancy is a feasible choice. The goal is fewer coercive or dangerous situations and more consistent, humane outcomes, even amid sincere moral disagreement.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Abortion law should be guided by a shared commitment to protect life and health while respecting human dignity and the reality that people disagree in good faith about when moral status begins. A durable approach prioritizes preventing unintended pregnancy and reducing crises through evidence-based sex education, contraception access, and strong supports for parents and children. Any legal framework should be clear and medically grounded, guarantee timely care and exceptions for serious threats to health, and treat the hardest cases with compassion rather than punishment.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Abortion laws should be guided by a shared commitment to protect life, health, and human dignity in a society where people disagree in good faith about when moral status begins. A durable approach pairs clear, medically grounded rules\u2014guaranteeing timely care in emergencies, rape or incest, and serious fetal or maternal health conditions\u2014with investments that prevent crisis pregnancies and make parenting feasible (contraception access, prenatal care, childcare, and economic support). Policy should be enforceable and consistent without criminalizing patients or obstructing clinicians, aiming for fewer unwanted pregnancies, fewer late-term tragedies, and more supported families.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

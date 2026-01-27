@@ -86,7 +86,9 @@
       "full_winner_idx": "42"
     },
     "chatgpt_star": {
-      "winner": "94"
+      "winner": "94",
+      "epsilon": 0.44999999999999996,
+      "full_winner_idx": "94"
     },
     "chatgpt_star_rankings": {
       "winner": "17",
@@ -94,22 +96,27 @@
       "full_winner_idx": "78"
     },
     "chatgpt_star_personas": {
-      "winner": "90"
+      "winner": "90",
+      "epsilon": 0.27,
+      "full_winner_idx": "90"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Laws on abortion should protect people\u2019s ability to obtain timely, safe medical care and make private decisions with licensed clinicians, while recognizing that many citizens believe the developing fetus deserves increasing moral and legal consideration as pregnancy progresses. A workable compromise sets clear, medically defined protections for emergencies and serious health risks, avoids criminal penalties for patients, and uses transparent standards that don\u2019t force doctors to wait until harm is imminent. Alongside any legal framework, governments should invest in preventing unintended pregnancies and reducing pressure\u2014affordable contraception, accurate education, prenatal care, paid leave, and practical support for parenting and adoption\u2014so fewer families face the decision in crisis.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.18999999999999995
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Laws on abortion should reflect the moral seriousness many attach to unborn life while recognizing that pregnancy can involve painful, complex realities, so policy must be grounded in medical evidence and compassion rather than punishment or politics. A workable framework sets clear, consistent standards that protect the mother\u2019s life and serious health, includes narrowly defined exceptions for rape and incest, and avoids criminalizing patients or clinicians acting in good faith. Any legal approach should be paired with strong prevention and support\u2014reliable contraception and education, prenatal and maternal care, and practical resources for parenting and adoption\u2014so fewer families are driven into crisis decisions.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Laws on abortion should protect the health and safety of pregnant patients and ensure timely, medically guided care, while also acknowledging that many people attach real moral value to developing life. A workable compromise is clear, evidence-based rules: broad access early in pregnancy, and later limits that always include well-defined exceptions for the patient\u2019s life, serious health risks, and cases of rape or incest\u2014written so patients and clinicians are not criminalized for necessary care. Whatever the legal line, communities should invest in prevention and support\u2014reliable contraception, honest education, prenatal and postpartum care, paid leave/childcare, and adoption services\u2014so fewer families are pushed into crisis and more children and parents can thrive.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.18999999999999995
     }
   }
 }

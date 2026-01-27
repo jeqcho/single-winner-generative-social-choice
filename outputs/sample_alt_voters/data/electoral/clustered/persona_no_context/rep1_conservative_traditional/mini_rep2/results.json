@@ -86,7 +86,9 @@
       "full_winner_idx": "55"
     },
     "chatgpt_star": {
-      "winner": "55"
+      "winner": "55",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "55"
     },
     "chatgpt_star_rankings": {
       "winner": "5",
@@ -94,22 +96,27 @@
       "full_winner_idx": "0"
     },
     "chatgpt_star_personas": {
-      "winner": "59"
+      "winner": "59",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "59"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Reform should aim for two goals at once: keep the states\u2019 meaningful role in choosing the president while making outcomes track the voters\u2019 overall preference more reliably. A workable compromise is to curb winner-take-all by requiring states to allocate electors in a clearly proportional way (with a small statewide bonus only if desired) and to add ranked-choice ballots so the winner reflects broad support. Whatever model is chosen, it should be paired with transparent, auditable national minimum standards for ballot access, counting, and recounts so people in every community can trust the result.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Reform should modernize the Electoral College without erasing the role of states, so smaller and rural communities still feel represented while every lawful vote is counted consistently and transparently. A strong middle-ground approach is to keep the current framework but replace winner-take-all with a clearer method\u2014such as awarding electors by congressional district or proportionally\u2014paired with uniform national standards for ballot access, recounts, and election security. Any broader shift toward reflecting the national popular will more directly should be pursued through clear, bipartisan rules that build trust rather than rushed changes that deepen suspicion.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Any reform should keep the Constitution\u2019s state-based role and smaller-community voice, while making sure every lawful vote is counted consistently and that outcomes track the public\u2019s will as closely as possible. A practical compromise is to keep the Electoral College but reduce winner-take-all by requiring proportional (or district-based) allocation of electors, paired with clear nationwide minimum standards for ballot access, counting, audits, and recounts. If the country later moves to a national popular vote, it should include safeguards like ranked-choice voting and transparent, bipartisan implementation so the system stays stable, simple to understand, and trusted by rural and urban voters alike.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

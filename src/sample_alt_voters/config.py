@@ -2,7 +2,7 @@
 Configuration constants for the sample-alt-voters experiment.
 
 This experiment explores 4 alternative distributions × 2 voter distributions
-across 2 contentious topics (abortion and electoral college).
+across 13 topics from the Polis dataset.
 
 Phase 2 uses A-low iterative ranking for preference building to avoid
 the 81% degeneracy problem from single-call ranking.
@@ -77,22 +77,66 @@ LOGS_DIR = PROJECT_ROOT / "logs"
 # =============================================================================
 # Topic Configuration
 # =============================================================================
-# We focus on two contentious topics
+# All 13 topics from the Polis dataset
 TOPICS = [
-    "what-should-guide-laws-concerning-abortion",
+    "how-should-we-increase-the-general-publics-trust-i",
+    "what-are-the-best-policies-to-prevent-littering-in",
+    "what-are-your-thoughts-on-the-way-university-campu",
+    "what-balance-should-be-struck-between-environmenta",
+    "what-balance-should-exist-between-gun-safety-laws-",
+    "what-limits-if-any-should-exist-on-free-speech-reg",
+    "what-principles-should-guide-immigration-policy-an",
     "what-reforms-if-any-should-replace-or-modify-the-e",
+    "what-responsibilities-should-tech-companies-have-w",
+    "what-role-should-artificial-intelligence-play-in-s",
+    "what-role-should-the-government-play-in-ensuring-u",
+    "what-should-guide-laws-concerning-abortion",
+    "what-strategies-should-guide-policing-to-address-b",
 ]
 
 TOPIC_QUESTIONS = {
-    "what-should-guide-laws-concerning-abortion": 
-        "What should guide laws concerning abortion?",
+    "how-should-we-increase-the-general-publics-trust-i": 
+        "How should we increase the general public's trust in institutions?",
+    "what-are-the-best-policies-to-prevent-littering-in":
+        "What are the best policies to prevent littering in public spaces?",
+    "what-are-your-thoughts-on-the-way-university-campu":
+        "What are your thoughts on the way university campuses handle free speech?",
+    "what-balance-should-be-struck-between-environmenta":
+        "What balance should be struck between environmental protection and economic growth?",
+    "what-balance-should-exist-between-gun-safety-laws-":
+        "What balance should exist between gun safety laws and Second Amendment rights?",
+    "what-limits-if-any-should-exist-on-free-speech-reg":
+        "What limits, if any, should exist on free speech regarding hate speech?",
+    "what-principles-should-guide-immigration-policy-an":
+        "What principles should guide immigration policy and the path to citizenship?",
     "what-reforms-if-any-should-replace-or-modify-the-e":
         "What reforms, if any, should replace or modify the electoral college?",
+    "what-responsibilities-should-tech-companies-have-w":
+        "What responsibilities should tech companies have with user data and privacy?",
+    "what-role-should-artificial-intelligence-play-in-s":
+        "What role should artificial intelligence play in society?",
+    "what-role-should-the-government-play-in-ensuring-u":
+        "What role should the government play in ensuring universal healthcare?",
+    "what-should-guide-laws-concerning-abortion": 
+        "What should guide laws concerning abortion?",
+    "what-strategies-should-guide-policing-to-address-b":
+        "What strategies should guide policing to address both safety and civil rights?",
 }
 
 TOPIC_SHORT_NAMES = {
-    "what-should-guide-laws-concerning-abortion": "abortion",
+    "how-should-we-increase-the-general-publics-trust-i": "trust",
+    "what-are-the-best-policies-to-prevent-littering-in": "littering",
+    "what-are-your-thoughts-on-the-way-university-campu": "campus_speech",
+    "what-balance-should-be-struck-between-environmenta": "environment",
+    "what-balance-should-exist-between-gun-safety-laws-": "gun_safety",
+    "what-limits-if-any-should-exist-on-free-speech-reg": "free_speech",
+    "what-principles-should-guide-immigration-policy-an": "immigration",
     "what-reforms-if-any-should-replace-or-modify-the-e": "electoral",
+    "what-responsibilities-should-tech-companies-have-w": "tech_privacy",
+    "what-role-should-artificial-intelligence-play-in-s": "ai",
+    "what-role-should-the-government-play-in-ensuring-u": "healthcare",
+    "what-should-guide-laws-concerning-abortion": "abortion",
+    "what-strategies-should-guide-policing-to-address-b": "policing",
 }
 
 # =============================================================================

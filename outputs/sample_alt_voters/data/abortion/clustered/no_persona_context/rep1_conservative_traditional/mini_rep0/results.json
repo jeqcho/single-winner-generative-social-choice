@@ -86,7 +86,9 @@
       "full_winner_idx": "20"
     },
     "chatgpt_star": {
-      "winner": "20"
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
     },
     "chatgpt_star_rankings": {
       "winner": "13",
@@ -94,22 +96,27 @@
       "full_winner_idx": "54"
     },
     "chatgpt_star_personas": {
-      "winner": "62"
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
     },
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Abortion laws should prioritize predictable, humane medical care while acknowledging sincere disagreement about when developing life merits legal protection. A balanced approach keeps early pregnancy decisions private and accessible, guarantees prompt treatment for miscarriages and emergencies, and sets later-pregnancy limits only when they are medically workable and include explicit exceptions for life and serious health threats, rape or incest, and lethal fetal diagnoses\u2014without criminal penalties for patients or clinicians acting in good faith. Whatever gestational line is chosen, governments should reduce crisis pregnancies by expanding contraception and evidence-based education, and by providing real support for pregnancy, birth, parenting, and adoption.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Abortion laws should be guided by a shared commitment to protect a pregnant person\u2019s health, dignity, and autonomy while taking seriously the moral value many attach to developing life in a pluralistic society. A workable framework protects timely, safe, and private care early in pregnancy, keeps medical emergencies legal and accessible at all times, and sets clearer later-pregnancy guardrails tied to medical evidence and clinician judgment, with explicit exceptions for rape, incest, fatal fetal conditions, and serious threats to life or health\u2014without criminalizing patients or doctors acting in good faith. Common ground is strongest when any legal approach is paired with proven prevention and support: accurate education, affordable contraception, prenatal and postpartum care, and practical resources for parenting and adoption so fewer pregnancies become crises.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Abortion laws should be guided by a shared duty to protect life and human dignity in real-world circumstances\u2014starting with the pregnant person\u2019s health, safety, and freedom from coercion, while acknowledging the moral seriousness many attach to developing life. A workable compromise keeps decisions primarily in the patient\u2013clinician relationship, guarantees prompt care for medical emergencies, and sets clear, medically grounded standards that allow greater public interest as pregnancy advances, with explicit exceptions for threats to life or serious health and for pregnancies arising from rape or incest, without criminalizing patients or doctors acting in good faith. Whatever the legal boundaries, common ground is strengthened by reducing crisis pregnancies through affordable contraception, accurate education, prenatal and postpartum care, and practical support for parenting and adoption.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }
