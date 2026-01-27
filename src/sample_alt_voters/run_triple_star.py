@@ -23,7 +23,7 @@ from .config import (
     TOPIC_QUESTIONS,
 )
 from .run_experiment import load_statements_for_rep
-from src.sampling_experiment.voting_methods import run_chatgpt_triple_star
+from src.experiment_utils.voting_methods import run_chatgpt_triple_star
 
 load_dotenv()
 

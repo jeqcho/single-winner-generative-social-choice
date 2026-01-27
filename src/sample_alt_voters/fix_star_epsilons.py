@@ -26,11 +26,11 @@ from .config import (
     TOPIC_QUESTIONS,
 )
 from .run_experiment import load_statements_for_rep
-from src.sampling_experiment.epsilon_calculator import (
+from src.experiment_utils.epsilon_calculator import (
     load_precomputed_epsilons,
     compute_epsilon_for_new_statement,
 )
-from src.sampling_experiment.voting_methods import insert_new_statement_into_rankings
+from src.experiment_utils.voting_methods import insert_new_statement_into_rankings
 
 load_dotenv()
 

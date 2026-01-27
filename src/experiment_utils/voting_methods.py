@@ -1000,7 +1000,7 @@ def run_chatgpt_triple_star(
     """
     from concurrent.futures import ThreadPoolExecutor, as_completed
     from tqdm import tqdm
-    from src.sampling_experiment.epsilon_calculator import compute_epsilon_for_new_statement
+    from src.experiment_utils.epsilon_calculator import compute_epsilon_for_new_statement
     
     n_voters = len(voter_personas)
     n_alts = len(all_statements)

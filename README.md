@@ -189,7 +189,7 @@ src/
 │       ├── uniform.py                  # Uniform random sampling
 │       └── clustered.py                # Ideology-cluster sampling
 │
-├── sampling_experiment/                # Shared experiment utilities
+├── experiment_utils/                   # Shared experiment utilities
 │   ├── __init__.py
 │   ├── config.py                       # Shared configuration constants
 │   ├── epsilon_calculator.py           # Critical epsilon computation
@@ -387,10 +387,6 @@ outputs/sample_alt_voters/data/{topic}/{voter_dist}/{alt_dist}/rep{N}/
 └── mini_rep{0-4}/
     └── results.json           # Per-method results {winner, epsilon, ...}
 ```
-
-## Refactoring Notes
-
-The `sampling_experiment/` folder contains shared utilities (voting methods, epsilon calculation) rather than a standalone experiment. Consider renaming to `experiment_utils/` for clarity.
 
 ## Citation
 

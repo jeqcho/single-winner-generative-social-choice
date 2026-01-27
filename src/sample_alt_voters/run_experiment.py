@@ -60,13 +60,13 @@ from .preference_builder_iterative import (
     load_preferences,
     subsample_preferences,
 )
-from src.sampling_experiment.epsilon_calculator import (
+from src.experiment_utils.epsilon_calculator import (
     precompute_all_epsilons,
     lookup_epsilon,
     save_precomputed_epsilons,
     load_precomputed_epsilons,
 )
-from src.sampling_experiment.voting_methods import (
+from src.experiment_utils.voting_methods import (
     run_schulze,
     run_borda,
     run_irv,
