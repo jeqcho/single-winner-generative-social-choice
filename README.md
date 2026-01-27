@@ -126,6 +126,10 @@ All model settings are centralized in `src/experiment_utils/config.py`:
 - **GENERATIVE_VOTING_MODEL** (`gpt-5.2`, reasoning=none): Used for GPT-based voting methods (Phase 3 selection/generation)
 - **RANKING_MODEL** (`gpt-5-mini`, reasoning=low): Used for all preference/ranking tasks (iterative ranking, epsilon insertion)
 
+### Prompt Documentation
+
+For detailed documentation of all LLM API requests including exact system prompts, user prompt templates, model parameters, and response formats, see [`reports/prompt_documentation.md`](reports/prompt_documentation.md).
+
 ## Quick Start
 
 Run the full pipeline with a single command:
@@ -210,7 +214,7 @@ src/
 │   ├── config.py                       # Shared configuration constants
 │   ├── epsilon_calculator.py           # Critical epsilon computation
 │   ├── voting_methods.py               # All voting method implementations
-│   └── single_call_ranking.py          # Insert statements into rankings
+│   └── statement_insertion.py          # Insert statements into rankings
 │
 └── degeneracy_mitigation/              # Iterative ranking utilities
     ├── __init__.py
