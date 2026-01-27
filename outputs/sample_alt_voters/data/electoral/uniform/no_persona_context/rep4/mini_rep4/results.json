@@ -103,17 +103,20 @@
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "A broadly acceptable reform is to keep the Constitution\u2019s state-based role but change incentives so campaigns must compete nationally and the winner almost always matches the voters\u2019 choice. States could adopt a uniform \u201cfair translation\u201d rule\u2014either proportional elector allocation using the same method everywhere or a national popular-vote guarantee through the interstate compact\u2014while requiring paper-backed ballots, risk-limiting audits, and clear nationwide recount thresholds. Pair that with stronger, enforceable rules against faithless electors and basic anti-gerrymandering protections if any district-based allocation is used, so the system is easier to explain, harder to game, and more legitimate across regions.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Reform should aim for outcomes that reflect the voters\u2019 will while keeping elections administered by states under clear, uniform national baselines for ballot access, paper-backed audits, and automatic recount triggers. A strong compromise is a national popular vote guarantee\u2014ideally via an interstate compact\u2014paired with ranked-choice voting so winners have broad, majority-like support. If a full popular-vote guarantee can\u2019t win agreement, states should at least end winner-take-all by allocating electors proportionally and binding electors to the certified results to reduce swing-state distortions and legitimacy crises.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.050000000000000044
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "A practical middle path is to keep states running elections but fix the parts that create \u201cwrong-winner\u201d outcomes and swing\u2011state overfocus. End winner\u2011take\u2011all by moving to proportional (or RCV-based) elector allocation with binding, enforceable rules for electors, and reduce vote\u2011weight distortions by expanding the House. Pair these changes with clear nationwide baselines\u2014paper-backed ballots, routine post\u2011election audits, and automatic recount triggers\u2014so results are easier to verify and broadly trusted no matter which state you live in.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }

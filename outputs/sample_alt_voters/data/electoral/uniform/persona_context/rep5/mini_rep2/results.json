@@ -103,17 +103,20 @@
     "chatgpt_double_star": {
       "winner": "100",
       "new_statement": "Keep the Electoral College\u2019s state-based structure, but make it track voters more closely by replacing winner-take-all with a uniform proportional allocation of electors that uses the same method in every state and sets a clear national threshold for victory. Pair that with baseline federal standards for voting access, ballot design, chain-of-custody, post-election audits, and automatic recounts in very close margins, so outcomes are easier to verify and accept. To reduce fears of \u201crules-shopping\u201d and manipulation, bind electors to the certified result and apply anti-gerrymandering safeguards if any district element is used.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
       "new_statement": "Presidential elections should be easy to understand and trusted as reflecting what voters chose, while still keeping states meaningfully involved and encouraging candidates to compete across regions. A practical reform is to keep the Electoral College but end winner-take-all by allocating electors proportionally (or with a carefully designed district option), with electors bound to the vote and guardrails against gerrymandering. Pair this with clear national baseline standards for ballot access, accessible voting, transparent audits, and automatic recounts in very close races, and consider the National Popular Vote Interstate Compact as an incremental backstop if mismatches persist.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
       "new_statement": "Keep the state-based Electoral College framework, but reduce the \u201call-or-nothing\u201d effect that makes most voters in most states feel ignored by requiring proportional allocation of electors (with an option for states to use a district method only if it includes strong anti-gerrymandering safeguards). Pair that with clear national baseline standards for voter access and disability accommodations, transparent audits, and automatic recount triggers in very close races, plus binding electors to the certified vote to avoid faithless-elector disputes. If a consistent mismatch between the electoral and popular winner persists, build bipartisan support for an incremental popular-vote backstop (such as the National Popular Vote compact) once the uniform standards are in place.",
-      "is_new": true
+      "is_new": true,
+      "epsilon": 0.0
     }
   }
 }
