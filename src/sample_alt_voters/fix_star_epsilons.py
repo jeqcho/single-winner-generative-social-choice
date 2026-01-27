@@ -103,6 +103,9 @@ def fix_gpt_double_star_epsilons(
     """
     Fix GPT** epsilon values by inserting new statements and computing epsilon.
     
+    Inserts the new statement into ALL 100 voters' rankings (not just mini-rep's 20)
+    to ensure epsilon is computed on the same scale as other methods.
+    
     Returns number of fixes made.
     """
     fixes = 0
@@ -111,6 +114,11 @@ def fix_gpt_double_star_epsilons(
         'chatgpt_double_star_rankings',
         'chatgpt_double_star_personas'
     ]
+    
+    # Use ALL 100 voters for epsilon computation (like GPT***)
+    # global_voter_indices contains the 100 persona indices for this rep
+    all_rep_personas = [all_personas[idx] for idx in global_voter_indices]
+    all_voter_indices = list(range(len(global_voter_indices)))
     
     for method in double_star_methods:
         if method not in results:
@@ -123,19 +131,15 @@ def fix_gpt_double_star_epsilons(
         if result.get('epsilon') is not None or not new_statement:
             continue
         
-        # Get the personas for the sampled voters
-        # voter_indices are local (0-19), global_voter_indices maps to persona indices
-        selected_personas = [all_personas[global_voter_indices[i]] for i in voter_indices]
-        
         try:
-            logger.info(f"    Inserting new statement for {method}...")
+            logger.info(f"    Inserting new statement for {method} into {len(all_voter_indices)} voters...")
             
-            # Insert new statement into rankings
+            # Insert new statement into ALL 100 voters' rankings
             updated_prefs = insert_new_statement_into_rankings(
                 new_statement=new_statement,
                 all_statements=all_statements,
-                voter_personas=selected_personas,
-                voter_indices=voter_indices,
+                voter_personas=all_rep_personas,
+                voter_indices=all_voter_indices,
                 full_preferences=full_preferences,
                 topic=topic_question,
                 openai_client=openai_client,

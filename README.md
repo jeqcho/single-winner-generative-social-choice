@@ -61,17 +61,17 @@ flowchart TD
         PE["Precompute Epsilons<br/>(for all 100 alternatives)"]
     end
 
-    subgraph phase3 [Phase 3: Voting Evaluation]
+    subgraph phase3 [Phase 3: Winner Selection]
         MR["Mini-Rep Subsampling<br/>(20x20 from 100x100)"]
         TM["Traditional Methods<br/>(no API)"]
         GPT0["GPT/GPT* Methods<br/>API: gpt-5.2, reasoning=none"]
-        GPT2["GPT** Methods<br/>API: gpt-5.2, reasoning=none<br/>1 gen + 20 insertions"]
-        GPT3["GPT*** Methods<br/>API: gpt-5.2, reasoning=none<br/>1 gen + 100 insertions"]
+        GPT2["GPT** Methods<br/>API: gpt-5.2, reasoning=none"]
+        GPT3["GPT*** Methods<br/>API: gpt-5.2, reasoning=none"]
     end
 
     subgraph metrics [Evaluation]
         EL["Epsilon Lookup<br/>(from precomputed)"]
-        EI["Epsilon via Insertion<br/>API: gpt-5-mini, reasoning=low"]
+        EI["Epsilon via Insertion<br/>API: gpt-5-mini, reasoning=low<br/>100 insertions per new stmt"]
         VIZ[Visualization]
     end
 
@@ -287,18 +287,30 @@ flowchart TD
 
 ### GPT-Based Methods
 
-| Method | Input | Output | Description |
-|--------|-------|--------|-------------|
-| **GPT** | 20 sample statements | Select 1 | Baseline selection |
-| **GPT+Rank** | 20 statements + rankings | Select 1 | Selection with preference info |
-| **GPT+Pers** | 20 statements + personas | Select 1 | Selection with voter personas |
-| **GPT\*** | All 100 statements | Select 1 | Selection from full pool |
-| **GPT\*+Rank** | 100 statements + rankings | Select 1 | Full pool with preferences |
-| **GPT\*+Pers** | 100 statements + personas | Select 1 | Full pool with personas |
-| **GPT\*\*** | 20 statements + context | Generate new | Create new consensus statement |
-| **GPT\*\*+Rank** | 20 statements + rankings | Generate new | New statement using preferences |
-| **GPT\*\*+Pers** | 20 statements + personas | Generate new | New statement using personas |
-| **GPT\*\*\*** | Topic only | Generate new | Blind bridging (no context) |
+**GPT**: Select from P subsampled alternatives (given P alternatives as context)
+- Variants: GPT, GPT+Rank, GPT+Pers
+
+**GPT\***: Select from all 100 sampled alternatives (given P alternatives as context)
+- Variants: GPT\*, GPT\*+Rank, GPT\*+Pers
+
+**GPT\*\***: Generate a new statement (given P alternatives as context)
+- Variants: GPT\*\*, GPT\*\*+Rank, GPT\*\*+Pers
+
+**GPT\*\*\***: Generate a new statement (P alternatives are NOT given - blind generation)
+- No variants
+
+| Method | Input | Output |
+|--------|-------|--------|
+| **GPT** | P statements | Select 1 from P |
+| **GPT+Rank** | P statements + rankings | Select 1 from P |
+| **GPT+Pers** | P statements + personas | Select 1 from P |
+| **GPT\*** | P statements (context) + all 100 | Select 1 from 100 |
+| **GPT\*+Rank** | P statements + rankings + all 100 | Select 1 from 100 |
+| **GPT\*+Pers** | P statements + personas + all 100 | Select 1 from 100 |
+| **GPT\*\*** | P statements | Generate new |
+| **GPT\*\*+Rank** | P statements + rankings | Generate new |
+| **GPT\*\*+Pers** | P statements + personas | Generate new |
+| **GPT\*\*\*** | Topic only | Generate new |
 
 ## Key Concepts
 
@@ -336,11 +348,11 @@ Per topic: 48 reps (4 alt_dists × 12 reps), 240 mini-reps (48 reps × 5 mini-re
 | Preference Building | gpt-5-mini | low | 500/rep | 24,000 | 5 rounds × 100 voters iterative ranking |
 | GPT/GPT\* Selection | gpt-5.2 | none | 1/method | 1,440 | Select consensus from statements |
 | GPT\*\* Generation | gpt-5.2 | none | 1/method | 720 | Generate new consensus statement |
-| GPT\*\* Insertion | gpt-5-mini | low | 20/method | 14,400 | Insert new stmt into mini-rep rankings |
+| GPT\*\* Insertion | gpt-5-mini | low | 100/method | 72,000 | Insert new stmt into all 100 rankings |
 | GPT\*\*\* Generation | gpt-5.2 | none | 1/rep | 48 | Generate 1 blind bridging statement |
 | GPT\*\*\* Insertion | gpt-5-mini | low | 100/rep | 4,800 | Insert stmt into all 100 rankings |
 
-**Total per topic: ~46,000 API calls**
+**Total per topic: ~104,000 API calls**
 
 **Epsilon Computation:**
 - **Precomputed**: Traditional methods, GPT, GPT\* → lookup from `precomputed_epsilons.json`
@@ -397,8 +409,8 @@ outputs/sample_alt_voters/data/{topic}/{voter_dist}/{alt_dist}/rep{N}/
 
 ## Citation
 
-If you use this code, please cite the relevant papers on Proportional Veto Core and generative social choice.
+TODO (Jay will put this in near draft submission)
 
 ## License
 
-[Add license information here]
+MIT License
