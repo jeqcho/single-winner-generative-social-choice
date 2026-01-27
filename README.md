@@ -66,7 +66,7 @@ flowchart TD
         TM["Traditional Methods<br/>(no API)"]
         GPT0["GPT/GPT* Methods<br/>API: gpt-5.2, reasoning=none"]
         GPT2["GPT** Methods<br/>API: gpt-5.2, reasoning=none<br/>1 gen + 20 insertions"]
-        GPT3["GPT*** Methods<br/>API: gpt-5.2, reasoning=none<br/>5 gen + 500 insertions"]
+        GPT3["GPT*** Methods<br/>API: gpt-5.2, reasoning=none<br/>1 gen + 100 insertions"]
     end
 
     subgraph metrics [Evaluation]
@@ -337,10 +337,10 @@ Per topic: 48 reps (4 alt_dists × 12 reps), 240 mini-reps (48 reps × 5 mini-re
 | GPT/GPT\* Selection | gpt-5.2 | none | 1/method | 1,440 | Select consensus from statements |
 | GPT\*\* Generation | gpt-5.2 | none | 1/method | 720 | Generate new consensus statement |
 | GPT\*\* Insertion | gpt-5-mini | low | 20/method | 14,400 | Insert new stmt into mini-rep rankings |
-| GPT\*\*\* Generation | gpt-5.2 | none | 5/rep | 240 | Generate 5 blind bridging statements |
-| GPT\*\*\* Insertion | gpt-5-mini | low | 500/rep | 24,000 | Insert each stmt into all 100 rankings |
+| GPT\*\*\* Generation | gpt-5.2 | none | 1/rep | 48 | Generate 1 blind bridging statement |
+| GPT\*\*\* Insertion | gpt-5-mini | low | 100/rep | 4,800 | Insert stmt into all 100 rankings |
 
-**Total per topic: ~65,000 API calls**
+**Total per topic: ~46,000 API calls**
 
 **Epsilon Computation:**
 - **Precomputed**: Traditional methods, GPT, GPT\* → lookup from `precomputed_epsilons.json`

@@ -59,7 +59,7 @@ def run_triple_star_for_rep(
     all_personas: List[str],
     topic_question: str,
     openai_client: OpenAI,
-    n_generations: int = 5,
+    n_generations: int = 1,
     force: bool = False,
 ) -> Dict:
     """Run GPT*** for a single rep using the full 100x100 matrix."""
@@ -113,8 +113,8 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(description="Run GPT*** on sample_alt_voters results")
-    parser.add_argument('--n-generations', type=int, default=5,
-                       help="Number of blind statements to generate (default: 5)")
+    parser.add_argument('--n-generations', type=int, default=1,
+                       help="Number of blind statements to generate (default: 1)")
     parser.add_argument('--force', action='store_true',
                        help="Re-run even if results exist")
     args = parser.parse_args()

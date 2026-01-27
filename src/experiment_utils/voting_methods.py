@@ -973,7 +973,7 @@ def run_chatgpt_triple_star(
     voter_personas: List[str],
     full_preferences: List[List[str]],
     openai_client: OpenAI,
-    n_generations: int = 5,
+    n_generations: int = 1,
     max_workers: int = 100,
     model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
@@ -990,7 +990,7 @@ def run_chatgpt_triple_star(
         voter_personas: All 100 voter persona strings
         full_preferences: Full 100x100 preference matrix
         openai_client: OpenAI client instance
-        n_generations: Number of statements to generate (default: 5)
+        n_generations: Number of statements to generate (default: 1)
         max_workers: Max parallel workers for insertion
         model: Model to use
         temperature: Temperature for sampling
