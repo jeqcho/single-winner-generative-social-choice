@@ -24,6 +24,7 @@ from .config import (
     PHASE2_DATA_DIR,
     PERSONAS_PATH,
     TOPIC_QUESTIONS,
+    TOPIC_SHORT_NAMES,
 )
 from .run_experiment import load_statements_for_rep
 from src.experiment_utils.epsilon_calculator import (
@@ -254,11 +255,8 @@ def main():
     all_personas = load_personas()
     logger.info(f"Loaded {len(all_personas)} personas")
     
-    # Topic mapping
-    topic_slug_map = {
-        "abortion": "what-should-guide-laws-concerning-abortion",
-        "electoral": "what-reforms-if-any-should-replace-or-modify-the-e",
-    }
+    # Topic mapping: short name (folder) -> full slug
+    topic_slug_map = {v: k for k, v in TOPIC_SHORT_NAMES.items()}
     
     # Find all rep directories
     pref_files = list(PHASE2_DATA_DIR.glob("**/preferences.json"))

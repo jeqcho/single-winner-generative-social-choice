@@ -18,7 +18,7 @@ from votekit import RankProfile, RankBallot
 from votekit.elections import Plurality, Borda, IRV, RankedPairs
 
 from src.compute_pvc import compute_pvc
-from .config import GENERATOR_MODEL, GENERATOR_REASONING, TEMPERATURE, api_timer
+from .config import GENERATIVE_VOTING_MODEL, GENERATIVE_VOTING_REASONING, TEMPERATURE, api_timer
 from .single_call_ranking import insert_statement_into_ranking
 
 logger = logging.getLogger(__name__)

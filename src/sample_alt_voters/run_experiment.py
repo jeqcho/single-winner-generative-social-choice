@@ -50,9 +50,9 @@ from .config import (
     N_REPS_UNIFORM,
     N_REPS_CLUSTERED,
     IDEOLOGY_CLUSTERS,
-    REASONING_EFFORT,
     BASE_SEED,
 )
+from src.experiment_utils.config import RANKING_REASONING
 from .voter_samplers import sample_uniform, sample_from_cluster
 from .preference_builder_iterative import (
     build_full_preferences_iterative,
@@ -445,7 +445,7 @@ def run_single_condition(
         statements=statements,
         topic=topic_question,
         openai_client=openai_client,
-        reasoning_effort=REASONING_EFFORT,
+        reasoning_effort=RANKING_REASONING,
         max_workers=50,
         show_progress=True
     )
