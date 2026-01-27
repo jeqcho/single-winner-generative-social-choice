@@ -412,6 +412,14 @@ def iterative_rank(
             total_retries += retries
             if not is_valid:
                 all_valid = False
+                # ABORT: Return empty ranking to prevent corrupted data
+                logger.error(f"Round {round_num} failed validation after all retries - aborting voter ranking")
+                return {
+                    'ranking': [],
+                    'round_details': round_details,
+                    'total_retries': total_retries,
+                    'all_valid': False,
+                }
             
             # Convert hashes back to IDs
             top_k_ids = [hash_lookup[h] for h in top_k_hashes if h in hash_lookup]
@@ -444,6 +452,14 @@ def iterative_rank(
             total_retries += retries
             if not is_valid:
                 all_valid = False
+                # ABORT: Return empty ranking to prevent corrupted data
+                logger.error(f"Final round failed validation after all retries - aborting voter ranking")
+                return {
+                    'ranking': [],
+                    'round_details': round_details,
+                    'total_retries': total_retries,
+                    'all_valid': False,
+                }
             
             # Convert hashes back to IDs
             middle_ranking_ids = [hash_lookup[h] for h in final_hashes if h in hash_lookup]

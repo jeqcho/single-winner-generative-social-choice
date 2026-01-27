@@ -36,7 +36,7 @@ K_TOP_BOTTOM = 10  # Top 10 and bottom 10 per round
 N_ROUNDS = 5       # 5 rounds total (100 -> 80 -> 60 -> 40 -> 20)
 
 # Retry parameters
-MAX_RETRIES = 10   # Max retries on degenerate/invalid output
+MAX_RETRIES = 20   # Max retries on degenerate/invalid output
 
 # Scoring dedup parameters
 MAX_DEDUP_ROUNDS = 3  # Max rounds to resolve duplicate scores
