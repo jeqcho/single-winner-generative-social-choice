@@ -112,8 +112,9 @@ def calculate_costs(token_estimates):
     OVERHEAD_MEDIUM = 300  # Medium prompts  
     OVERHEAD_LARGE = 500  # Large prompts with context
     
-    # Number of voters/statements in typical samples
-    N_VOTERS = 100  # All voters shown (no truncation)
+    # Sample sizes for mini-rep evaluation
+    K_VOTERS = 20  # Sampled voters per mini-rep
+    P_ALTS = 20  # Sampled alternatives per mini-rep
     N_STATEMENTS = 100  # All statements for GPT* methods
     
     costs = []
@@ -205,10 +206,10 @@ def calculate_costs(token_estimates):
     })
     
     # GPT+Rank Selection (240 calls/topic)
-    # Full rankings for all voters over P=20 sampled statements
+    # Full rankings for K=20 sampled voters over P=20 sampled statements
     # "Voter N: 5 > 3 > 1 > ... > 19" ≈ 100 chars ≈ 25 tokens per voter
-    ranking_per_voter = 25  # Rankings are over P=20 sampled statements, not all 100
-    gpt_rank_input = OVERHEAD_LARGE + (20 * stmt_tokens) + (N_VOTERS * ranking_per_voter)
+    ranking_per_voter = 25  # Rankings are over P=20 sampled statements
+    gpt_rank_input = OVERHEAD_LARGE + (P_ALTS * stmt_tokens) + (K_VOTERS * ranking_per_voter)
     gpt_rank_output = 30
     gpt_rank_calls = 240
     costs.append({
@@ -220,8 +221,8 @@ def calculate_costs(token_estimates):
     })
     
     # GPT+Pers Selection (240 calls/topic)
-    # All voters with filtered personas (7 key fields each)
-    gpt_pers_input = OVERHEAD_LARGE + (20 * stmt_tokens) + (N_VOTERS * filtered_persona_tokens)
+    # K=20 sampled voters with filtered personas (7 key fields each)
+    gpt_pers_input = OVERHEAD_LARGE + (P_ALTS * stmt_tokens) + (K_VOTERS * filtered_persona_tokens)
     gpt_pers_output = 30
     gpt_pers_calls = 240
     costs.append({
@@ -244,8 +245,8 @@ def calculate_costs(token_estimates):
         "output_tokens": gpt_star_output,
     })
     
-    # GPT*+Rank Selection (240 calls/topic) - all statements + all rankings
-    gpt_star_rank_input = OVERHEAD_LARGE + (N_STATEMENTS * stmt_tokens) + (N_VOTERS * ranking_per_voter)
+    # GPT*+Rank Selection (240 calls/topic) - all statements + K=20 sampled voters' rankings
+    gpt_star_rank_input = OVERHEAD_LARGE + (N_STATEMENTS * stmt_tokens) + (K_VOTERS * ranking_per_voter)
     gpt_star_rank_calls = 240
     costs.append({
         "name": "GPT*+Rank Selection",
@@ -255,8 +256,8 @@ def calculate_costs(token_estimates):
         "output_tokens": gpt_star_output,
     })
     
-    # GPT*+Pers Selection (240 calls/topic) - all statements + all filtered personas
-    gpt_star_pers_input = OVERHEAD_LARGE + (N_STATEMENTS * stmt_tokens) + (N_VOTERS * filtered_persona_tokens)
+    # GPT*+Pers Selection (240 calls/topic) - all statements + K=20 sampled voters' filtered personas
+    gpt_star_pers_input = OVERHEAD_LARGE + (N_STATEMENTS * stmt_tokens) + (K_VOTERS * filtered_persona_tokens)
     gpt_star_pers_calls = 240
     costs.append({
         "name": "GPT*+Pers Selection",
@@ -267,7 +268,7 @@ def calculate_costs(token_estimates):
     })
     
     # GPT** Generation (240 calls/topic) - base variant
-    gpt_double_input = OVERHEAD_MEDIUM + (20 * stmt_tokens)
+    gpt_double_input = OVERHEAD_MEDIUM + (P_ALTS * stmt_tokens)
     gpt_double_output = stmt_tokens
     gpt_double_calls = 240
     costs.append({
@@ -278,8 +279,8 @@ def calculate_costs(token_estimates):
         "output_tokens": gpt_double_output,
     })
     
-    # GPT**+Rank Generation (240 calls/topic) - with full rankings
-    gpt_double_rank_input = OVERHEAD_MEDIUM + (20 * stmt_tokens) + (N_VOTERS * ranking_per_voter)
+    # GPT**+Rank Generation (240 calls/topic) - with K=20 sampled voters' rankings
+    gpt_double_rank_input = OVERHEAD_MEDIUM + (P_ALTS * stmt_tokens) + (K_VOTERS * ranking_per_voter)
     gpt_double_rank_calls = 240
     costs.append({
         "name": "GPT**+Rank Generation",
@@ -289,8 +290,8 @@ def calculate_costs(token_estimates):
         "output_tokens": gpt_double_output,
     })
     
-    # GPT**+Pers Generation (240 calls/topic) - with filtered personas
-    gpt_double_pers_input = OVERHEAD_MEDIUM + (20 * stmt_tokens) + (N_VOTERS * filtered_persona_tokens)
+    # GPT**+Pers Generation (240 calls/topic) - with K=20 sampled voters' filtered personas
+    gpt_double_pers_input = OVERHEAD_MEDIUM + (P_ALTS * stmt_tokens) + (K_VOTERS * filtered_persona_tokens)
     gpt_double_pers_calls = 240
     costs.append({
         "name": "GPT**+Pers Generation",

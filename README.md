@@ -312,7 +312,7 @@ flowchart TD
 **GPT**: Select from P subsampled alternatives (given P alternatives as context)
 - Variants: GPT, GPT+Rank, GPT+Pers
 
-**GPT\***: Select from all 100 sampled alternatives (given P alternatives as context)
+**GPT\***: Select from all 100 sampled alternatives (with topic context)
 - Variants: GPT\*, GPT\*+Rank, GPT\*+Pers
 
 **GPT\*\***: Generate a new statement (given P alternatives as context)
@@ -326,9 +326,9 @@ flowchart TD
 | **GPT** | P statements | Select 1 from P |
 | **GPT+Rank** | P statements + rankings | Select 1 from P |
 | **GPT+Pers** | P statements + personas | Select 1 from P |
-| **GPT\*** | P statements (context) + all 100 | Select 1 from 100 |
-| **GPT\*+Rank** | P statements + rankings + all 100 | Select 1 from 100 |
-| **GPT\*+Pers** | P statements + personas + all 100 | Select 1 from 100 |
+| **GPT\*** | Topic + all 100 statements | Select 1 from 100 |
+| **GPT\*+Rank** | Topic + all 100 + rankings | Select 1 from 100 |
+| **GPT\*+Pers** | Topic + all 100 + personas | Select 1 from 100 |
 | **GPT\*\*** | P statements | Generate new |
 | **GPT\*\*+Rank** | P statements + rankings | Generate new |
 | **GPT\*\*+Pers** | P statements + personas | Generate new |

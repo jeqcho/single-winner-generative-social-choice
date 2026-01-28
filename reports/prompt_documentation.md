@@ -360,10 +360,9 @@ Return JSON: {"ranking": ["most_preferred", "second", ..., "least_preferred"]}
 
 ## Phase 3: Winner Selection
 
-> **Note on Data Presentation**: Phase 3 methods present data as follows:
-> - **Rankings (+Rank variants)**: All voters shown with full preference rankings
-> - **Personas (+Pers variants)**: All voters shown with filtered personas (7 key fields: age, sex, race, education, occupation, political views, religion)
-> - **GPT\* all-statements list**: All 100 statements shown with full text
+> **Note on Data Presentation**: Phase 3 methods use K=20 sampled voters and P=20 sampled alternatives per mini-rep:
+> - **Rankings (+Rank variants)**: K=20 voters shown with full preference rankings over P=20 alternatives
+> - **Personas (+Pers variants)**: K=20 voters shown with filtered personas (7 key fields: age, sex, race, education, occupation, political views, religion)
 
 ### GPT: Select from P Alternatives
 
@@ -441,12 +440,12 @@ Return your choice as JSON: {"selected_statement_index": <index>}
 Where the value is the index (0-{n-1}) of the statement you select.
 ```
 
-Where `{rankings_text}` is formatted as (all voters, full rankings):
+Where `{rankings_text}` is formatted as (K=20 sampled voters, full rankings over P=20 alternatives):
 ```
-Voter 1: 5 > 3 > 1 > 8 > 2 > ... > 99 > 45
-Voter 2: 3 > 5 > 8 > 1 > 2 > ... > 12 > 78
+Voter 1: 5 > 3 > 1 > 8 > 2 > 0 > 7 > 6 > 4 > 9 > 10 > 11 > 12 > 13 > 14 > 15 > 16 > 17 > 18 > 19
+Voter 2: 3 > 5 > 8 > 1 > 2 > 0 > 7 > 6 > 4 > 9 > 10 > 11 > 12 > 13 > 14 > 15 > 16 > 17 > 18 > 19
 ...
-Voter 100: 8 > 3 > 5 > 1 > 2 > ... > 67 > 23
+Voter 20: 8 > 3 > 5 > 1 > 2 > 0 > 7 > 6 > 4 > 9 > 10 > 11 > 12 > 13 > 14 > 15 > 16 > 17 > 18 > 19
 ```
 
 ---
@@ -486,7 +485,7 @@ Return your choice as JSON: {"selected_statement_index": <index>}
 Where the value is the index (0-{n-1}) of the statement you select.
 ```
 
-Where `{personas_text}` is formatted as (all voters, filtered to 7 key fields):
+Where `{personas_text}` is formatted as (K=20 sampled voters, filtered to 7 key fields):
 ```
 Voter 1: age: 53
 sex: Male
@@ -506,16 +505,16 @@ religion: Catholic
 
 ...
 
-Voter 100: ...
+Voter 20: ...
 ```
 
-> **Note**: Personas are filtered to 7 key demographic fields: age, sex, race, education, occupation, political views, religion.
+> **Note**: K=20 voters are sampled per mini-rep. Personas are filtered to 7 key demographic fields: age, sex, race, education, occupation, political views, religion.
 
 ---
 
 ### GPT\*: Select from All 100
 
-**Purpose**: Select from all 100 alternatives (given P alternatives as context).
+**Purpose**: Select from all 100 alternatives with topic context.
 
 **File**: `src/experiment_utils/voting_methods.py`
 
@@ -523,12 +522,12 @@ Voter 100: ...
 
 | Variant | Calls | Input Tokens | Output Tokens | Cost |
 |---------|------:|-------------:|--------------:|-----:|
-| GPT\* (base) | 240 | ~15,600 | ~30 | ~$6.55 |
-| GPT\*+Rank | 240 | ~18,100 | ~30 | ~$7.60 |
-| GPT\*+Pers | 240 | ~21,600 | ~30 | ~$9.08 |
-| **Total** | **720** | | | **~$23.23** |
+| GPT\* (base) | 240 | ~12,600 | ~30 | ~$5.29 |
+| GPT\*+Rank | 240 | ~13,100 | ~30 | ~$5.50 |
+| GPT\*+Pers | 240 | ~13,800 | ~30 | ~$5.80 |
+| **Total** | **720** | | | **~$16.59** |
 
-*Note: Rankings are over P=20 sampled statements (~2,500 tokens for 100 voters). Filtered personas ~6,000 tokens.*
+*Note: Uses K=20 sampled voters. Rankings ~500 tokens. Filtered personas ~1,200 tokens.*
 
 #### Common Parameters
 
@@ -545,25 +544,26 @@ You are a helpful assistant that selects consensus statements. Return ONLY valid
 
 **User Prompt (GPT\* base)**:
 ```
-Here are some sample statements from a discussion:
+Topic: {topic}
 
-{sample_text}
-
-Below are ALL {n_all} available statements you can choose from:
+A group of participants submitted the following {n_all} statements on this topic:
 
 {all_text}
 
-Which statement (from 0-{n_all-1}) would be the best choice as a consensus/bridging statement?
-You may choose any statement, not just the samples shown above.
+Select the statement that would best serve as a consensus or bridging position - one that:
+- Engages substantively with the topic
+- Could be acceptable to participants with diverse viewpoints
+- Avoids extreme or polarizing framing
 
 Return your choice as JSON: {"selected_statement_index": <index>}
+Where the value is the index (0-{n_all-1}) of the statement you select.
 ```
 
-> **Note**: In `{all_text}`, all 100 statements are shown with full text. The `{sample_text}` shows sample statements in full.
+> **Note**: All 100 statements are shown with full text in `{all_text}`. Topic provides context for evaluating relevance.
 
-**GPT\*+Rank** adds preference rankings: `{rankings_text}` (all voters, full rankings)
+**GPT\*+Rank** adds preference rankings: `{rankings_text}` (K=20 sampled voters, full rankings)
 
-**GPT\*+Pers** adds voter personas: `{personas_text}` (all voters, filtered to 7 key demographic fields)
+**GPT\*+Pers** adds voter personas: `{personas_text}` (K=20 sampled voters, filtered to 7 key demographic fields)
 
 ---
 
@@ -578,11 +578,11 @@ Return your choice as JSON: {"selected_statement_index": <index>}
 | Variant | Calls | Input Tokens | Output Tokens | Cost |
 |---------|------:|-------------:|--------------:|-----:|
 | GPT\*\* (base) | 240 | ~3,329 | ~151 | ~$1.91 |
-| GPT\*\*+Rank | 240 | ~5,800 | ~151 | ~$2.94 |
-| GPT\*\*+Pers | 240 | ~9,300 | ~151 | ~$4.30 |
-| **Total** | **720** | | | **~$9.15** |
+| GPT\*\*+Rank | 240 | ~3,800 | ~151 | ~$2.10 |
+| GPT\*\*+Pers | 240 | ~4,500 | ~151 | ~$2.20 |
+| **Total** | **720** | | | **~$6.21** |
 
-*Note: Rankings are over P=20 sampled statements (~2,500 tokens). Filtered personas ~6,000 tokens.*
+*Note: Uses K=20 sampled voters. Rankings ~500 tokens. Filtered personas ~1,200 tokens.*
 
 #### Common Parameters
 
@@ -731,12 +731,12 @@ Rank 2 (ID 12): Another statement...
 
 ## API Call Volume and Cost Summary
 
-> **Note**: Cost estimates below reflect the removal of truncations in Phase 3 methods. Methods marked with \* have increased input tokens due to:
-> - **+Rank variants**: Full rankings for all voters over P=20 sampled statements (~2,500 tokens vs ~150 before)
-> - **+Pers variants**: Filtered personas for all voters (~6,000 tokens vs ~1,250 before)
-> - **GPT\* methods**: Full statement text for all 100 statements (~15,100 tokens vs ~5,000 before)
+> **Note**: Cost estimates below reflect Phase 3 methods with improved prompts:
+> - **+Rank variants**: Full rankings for K=20 sampled voters over P=20 statements (~500 tokens)
+> - **+Pers variants**: Filtered personas for K=20 sampled voters (~1,200 tokens)
+> - **GPT\* methods**: All 100 statements with topic context (~12,600 tokens - sample statements removed)
 >
-> Total cost increase is approximately $16/topic. Run `python scripts/estimate_costs.py` for exact calculations.
+> Run `python scripts/estimate_costs.py` for exact calculations.
 
 ### Calls per Topic
 
@@ -753,19 +753,19 @@ Rank 2 (ID 12): Another statement...
 | *Subtotal* | | | *24,000* | | | *$95.20* |
 | **GPT Selection** | | | | | | |
 | GPT | gpt-5.2 | none | 240 | ~3,329 | ~30 | $1.50 |
-| GPT+Rank | gpt-5.2 | none | 240 | ~6,000\* | ~30 | ~$2.52\* |
-| GPT+Pers | gpt-5.2 | none | 240 | ~9,500\* | ~30 | ~$4.00\* |
-| *Subtotal* | | | *720* | | | *~$8.02\** |
+| GPT+Rank | gpt-5.2 | none | 240 | ~4,000 | ~30 | ~$1.68 |
+| GPT+Pers | gpt-5.2 | none | 240 | ~4,700 | ~30 | ~$1.97 |
+| *Subtotal* | | | *720* | | | *~$5.15* |
 | **GPT\* Selection** | | | | | | |
-| GPT\* | gpt-5.2 | none | 240 | ~15,600\* | ~30 | ~$6.55\* |
-| GPT\*+Rank | gpt-5.2 | none | 240 | ~18,100\* | ~30 | ~$7.60\* |
-| GPT\*+Pers | gpt-5.2 | none | 240 | ~21,600\* | ~30 | ~$9.08\* |
-| *Subtotal* | | | *720* | | | *~$23.23\** |
+| GPT\* | gpt-5.2 | none | 240 | ~12,600 | ~30 | ~$5.29 |
+| GPT\*+Rank | gpt-5.2 | none | 240 | ~13,100 | ~30 | ~$5.50 |
+| GPT\*+Pers | gpt-5.2 | none | 240 | ~13,800 | ~30 | ~$5.80 |
+| *Subtotal* | | | *720* | | | *~$16.59* |
 | **GPT\*\* Generation** | | | | | | |
 | GPT\*\* | gpt-5.2 | none | 240 | ~3,329 | ~151 | $1.91 |
-| GPT\*\*+Rank | gpt-5.2 | none | 240 | ~5,800\* | ~151 | ~$2.94\* |
-| GPT\*\*+Pers | gpt-5.2 | none | 240 | ~9,300\* | ~151 | ~$4.30\* |
-| *Subtotal* | | | *720* | | | *~$9.15\** |
+| GPT\*\*+Rank | gpt-5.2 | none | 240 | ~3,800 | ~151 | ~$2.10 |
+| GPT\*\*+Pers | gpt-5.2 | none | 240 | ~4,500 | ~151 | ~$2.20 |
+| *Subtotal* | | | *720* | | | *~$6.21* |
 | **GPT\*\*\* Generation** | | | | | | |
 | GPT\*\*\* | gpt-5.2 | none | 48 | ~160 | ~151 | $0.12 |
 | *Subtotal* | | | *48* | | | *$0.12* |
@@ -776,30 +776,28 @@ Rank 2 (ID 12): Another statement...
 | GPT\*\*\* Insertion | gpt-5-mini | low | 4,800 | ~5,513 | ~20 | $6.81 |
 | *Subtotal* | | | *4,800* | | | *$6.81* |
 | | | | | | | |
-| **GRAND TOTAL** | | | **~105,500** | | | **~$253\*** |
-
-\* Estimates updated for full rankings/personas/statements (no truncation). Run cost script for exact values.
+| **GRAND TOTAL** | | | **~105,500** | | | **~$239** |
 
 ### Cost Summary
 
 | Metric | Value |
 |--------|------:|
 | Total API calls per topic | ~105,500 |
-| Total input tokens per topic | ~695M\* |
+| Total input tokens per topic | ~688M |
 | Total output tokens per topic | ~21M |
-| **Cost per topic** | **~$253\*** |
-| **Cost for all 13 topics** | **~$3,290\*** |
+| **Cost per topic** | **~$239** |
+| **Cost for all 13 topics** | **~$3,107** |
 
-\* Estimates reflect removal of truncations (~$16 increase from previous ~$237).
+*Note: GPT\* prompt improved to include topic and remove redundant sample statements.*
 
 ### Cost by Model
 
 | Model | Input Tokens | Output Tokens | Input Cost | Output Cost | Total Cost |
 |-------|-------------:|--------------:|-----------:|------------:|-----------:|
 | gpt-5-mini | ~680M | ~21M | ~$170 | ~$42 | ~$212 |
-| gpt-5.2 | ~23M\* | ~181K | ~$40\* | ~$2.53 | ~$43\* |
+| gpt-5.2 | ~18M | ~181K | ~$31 | ~$2.53 | ~$34 |
 
-\* Slightly increased due to full rankings, filtered personas, and full statement text in Phase 3.
+*Note: gpt-5.2 cost increased ~$8/topic due to GPT\* showing full statement text.*
 
 ### Pricing Reference (per 1M tokens)
 

@@ -419,14 +419,8 @@ def run_chatgpt_star(
     """
     Run ChatGPT* selection from all 100 alternatives.
     
-    Shows sample statements for context but allows selection from all 100.
+    Shows all statements with topic context for selection.
     """
-    # Show sample statements as context
-    sample_text = "\n\n".join([
-        f"Sample Statement {i}: {stmt['statement']}"
-        for i, stmt in enumerate(sample_statements)
-    ])
-    
     # Show all statements for selection (full text)
     all_text = "\n".join([
         f"{i}: {stmt['statement']}"
@@ -437,18 +431,19 @@ def run_chatgpt_star(
     
     system_prompt = "You are a helpful assistant that selects consensus statements. Return ONLY valid JSON."
     
-    user_prompt = f"""Here are some sample statements from a discussion:
+    user_prompt = f"""Topic: {topic}
 
-{sample_text}
-
-Below are ALL {n_all} available statements you can choose from:
+A group of participants submitted the following {n_all} statements on this topic:
 
 {all_text}
 
-Which statement (from 0-{n_all-1}) would be the best choice as a consensus/bridging statement?
-You may choose any statement, not just the samples shown above.
+Select the statement that would best serve as a consensus or bridging position - one that:
+- Engages substantively with the topic
+- Could be acceptable to participants with diverse viewpoints
+- Avoids extreme or polarizing framing
 
-Return your choice as JSON: {{"selected_statement_index": <index>}}"""
+Return your choice as JSON: {{"selected_statement_index": <index>}}
+Where the value is the index (0-{n_all-1}) of the statement you select."""
 
     try:
         start_time = time.time()
