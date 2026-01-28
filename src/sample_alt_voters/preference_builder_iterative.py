@@ -34,7 +34,7 @@ def build_full_preferences_iterative(
     topic: str,
     openai_client: OpenAI,
     reasoning_effort: str = RANKING_REASONING,
-    max_workers: int = 50,
+    max_workers: int = 200,
     hash_seed: int = HASH_SEED,
     show_progress: bool = True
 ) -> Tuple[List[List[str]], Dict]:

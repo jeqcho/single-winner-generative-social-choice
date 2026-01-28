@@ -26,6 +26,7 @@ import os
 import random
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
@@ -460,7 +461,7 @@ def run_single_condition(
         topic=topic_question,
         openai_client=openai_client,
         reasoning_effort=RANKING_REASONING,
-        max_workers=50,
+        max_workers=200,
         show_progress=True
     )
     
@@ -475,12 +476,12 @@ def run_single_condition(
     epsilons = precompute_all_epsilons(preferences)
     save_precomputed_epsilons(epsilons, output_dir)
     
-    # Run mini-reps
-    logger.info(f"Running {N_SAMPLES_PER_REP} mini-reps...")
-    mini_rep_results = []
+    # Run mini-reps in parallel
+    logger.info(f"Running {N_SAMPLES_PER_REP} mini-reps in parallel...")
+    mini_rep_results = [None] * N_SAMPLES_PER_REP
     
-    for mini_rep_id in range(N_SAMPLES_PER_REP):
-        logger.info(f"  Mini-rep {mini_rep_id}...")
+    def process_mini_rep(mini_rep_id):
+        """Process a single mini-rep and return (mini_rep_id, result)."""
         result = run_mini_rep(
             full_preferences=preferences,
             full_epsilons=epsilons,
@@ -491,13 +492,25 @@ def run_single_condition(
             run_chatgpt_methods=run_chatgpt_methods,
             topic=topic_question
         )
-        mini_rep_results.append(result)
+        return mini_rep_id, result
+    
+    with ThreadPoolExecutor(max_workers=N_SAMPLES_PER_REP) as executor:
+        futures = {
+            executor.submit(process_mini_rep, i): i
+            for i in range(N_SAMPLES_PER_REP)
+        }
         
-        # Save mini-rep result
-        mini_rep_dir = output_dir / f"mini_rep{mini_rep_id}"
-        mini_rep_dir.mkdir(exist_ok=True)
-        with open(mini_rep_dir / "results.json", 'w') as f:
-            json.dump(result, f, indent=2)
+        for future in as_completed(futures):
+            mini_rep_id, result = future.result()
+            mini_rep_results[mini_rep_id] = result
+            
+            # Save mini-rep result
+            mini_rep_dir = output_dir / f"mini_rep{mini_rep_id}"
+            mini_rep_dir.mkdir(exist_ok=True)
+            with open(mini_rep_dir / "results.json", 'w') as f:
+                json.dump(result, f, indent=2)
+            
+            logger.info(f"  Completed mini-rep {mini_rep_id}")
     
     # Compile summary
     summary = {
