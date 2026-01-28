@@ -11,7 +11,6 @@ Usage:
     # Run individual stages:
     uv run python -m src.sample_alt_voters --stage generate-statements
     uv run python -m src.sample_alt_voters --stage run-experiment
-    uv run python -m src.sample_alt_voters --stage fix-epsilons
     uv run python -m src.sample_alt_voters --stage run-triple-star
     uv run python -m src.sample_alt_voters --stage visualize
 """
@@ -64,12 +63,6 @@ def run_stage(stage_name: str, force: bool = False) -> bool:
                     cmd.append("--force")
                 result = subprocess.run(cmd, check=True)
                 
-        elif stage_name == "fix-epsilons":
-            # Fix epsilon values for GPT* and GPT** methods
-            cmd = PYTHON_CMD + ["src.sample_alt_voters.fix_star_epsilons"]
-            # Note: fix_star_epsilons already has skip logic (checks if epsilon is null)
-            result = subprocess.run(cmd, check=True)
-            
         elif stage_name == "run-triple-star":
             # Run GPT*** method
             cmd = PYTHON_CMD + ["src.sample_alt_voters.run_triple_star"]
@@ -105,7 +98,6 @@ def run_full_pipeline(force: bool = False) -> bool:
     stages = [
         "generate-statements",
         "run-experiment",
-        "fix-epsilons",
         "run-triple-star",
         "visualize",
     ]
@@ -150,7 +142,6 @@ Examples:
         choices=[
             "generate-statements",
             "run-experiment",
-            "fix-epsilons",
             "run-triple-star",
             "visualize"
         ],

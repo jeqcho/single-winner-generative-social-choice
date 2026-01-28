@@ -1,7 +1,15 @@
 # Handoff: Phase 2 Sample-Alt-Voters Experiment
 
-> Last updated: 2026-01-27
+> Last updated: 2026-01-28
 > Session focus: Fixed GPT** epsilons, running GPT*** - CDF plots now show all methods
+
+## Code Cleanup (2026-01-28)
+
+**Removed `fix_star_epsilons.py`**: This file was deleted because epsilon computation is now handled inline during `run_experiment`:
+- GPT\* epsilon: Looked up from `precomputed_epsilons.json` immediately after selection
+- GPT\*\* epsilon: Computed inline in `voting_methods.py` via API calls when `voter_personas` is passed
+
+The historical references below document when `fix_star_epsilons.py` was needed to backfill epsilon values for experiments run before inline computation was implemented.
 
 ## Objective
 

@@ -154,9 +154,8 @@ uv run python -m src.sample_alt_voters --force
 The pipeline runs these stages in order:
 1. **generate-statements** - Pre-generate Alt1 and Alt4 statements
 2. **run-experiment** - Build preferences and run voting methods (uniform + clustered)
-3. **fix-epsilons** - Fix epsilon values for GPT\* and GPT\*\* methods
-4. **run-triple-star** - Run GPT\*\*\* method
-5. **visualize** - Generate visualization plots
+3. **run-triple-star** - Run GPT\*\*\* method
+4. **visualize** - Generate visualization plots
 
 ### Running Individual Stages
 
@@ -164,7 +163,6 @@ The pipeline runs these stages in order:
 # Run a specific stage only
 uv run python -m src.sample_alt_voters --stage generate-statements
 uv run python -m src.sample_alt_voters --stage run-experiment
-uv run python -m src.sample_alt_voters --stage fix-epsilons
 uv run python -m src.sample_alt_voters --stage run-triple-star
 uv run python -m src.sample_alt_voters --stage visualize
 ```
@@ -223,7 +221,6 @@ src/
 │   ├── config.py                       # Experiment config (topics, paths, params)
 │   ├── run_experiment.py               # Main experiment runner (Phase 2)
 │   ├── run_triple_star.py              # GPT*** blind bridging runner
-│   ├── fix_star_epsilons.py            # Fix epsilon values for GPT** methods
 │   ├── preference_builder_iterative.py # Build 100x100 preference matrices
 │   ├── results_aggregator.py           # Collect results into DataFrame
 │   ├── visualizer.py                   # Generate plots (CDF, heatmaps, bars)
@@ -290,7 +287,6 @@ flowchart TD
     subgraph entry [Entry Points]
         RE[run_experiment.py]
         RTS[run_triple_star.py]
-        FSE[fix_star_epsilons.py]
         VIS[visualizer.py]
     end
 
