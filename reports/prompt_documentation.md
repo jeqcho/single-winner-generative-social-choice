@@ -15,22 +15,23 @@ All API calls use the `client.responses.create()` method.
 ## Table of Contents
 
 1. [Model Configuration Summary](#model-configuration-summary)
-2. [Phase 1: Statement Generation](#phase-1-statement-generation)
+2. [API Metadata Schema](#api-metadata-schema)
+3. [Phase 1: Statement Generation](#phase-1-statement-generation)
    - [Alt1: Persona, No Context](#alt1-persona-no-context)
    - [Alt2: Persona + Context](#alt2-persona--context)
    - [Alt3: No Persona, With Context](#alt3-no-persona-with-context)
    - [Alt4: No Persona, No Context](#alt4-no-persona-no-context)
-3. [Phase 2: Preference Building](#phase-2-preference-building)
+4. [Phase 2: Preference Building](#phase-2-preference-building)
    - [Iterative Ranking (Top-K/Bottom-K)](#iterative-ranking-top-kbottom-k)
    - [Single-Call Ranking (Alternative)](#single-call-ranking-alternative)
-4. [Phase 3: Winner Selection](#phase-3-winner-selection)
+5. [Phase 3: Winner Selection](#phase-3-winner-selection)
    - [GPT: Select from P Alternatives](#gpt-select-from-p-alternatives)
    - [GPT+Rank: Select with Rankings](#gptrank-select-with-rankings)
    - [GPT+Pers: Select with Personas](#gptpers-select-with-personas)
    - [GPT\*: Select from All 100](#gpt-select-from-all-100)
    - [GPT\*\*: Generate New Statement](#gpt-generate-new-statement)
    - [GPT\*\*\*: Blind Bridging Generation](#gpt-blind-bridging-generation)
-5. [Epsilon Computation](#epsilon-computation)
+6. [Epsilon Computation](#epsilon-computation)
    - [GPT\*\* Statement Insertion](#gpt-statement-insertion)
    - [GPT\*\*\* Statement Insertion](#gpt-statement-insertion-1)
    - [Insertion Prompt (Shared)](#insertion-prompt-shared)
@@ -63,6 +64,73 @@ GENERATIVE_VOTING_REASONING = "none"
 # Temperature (all tasks)
 TEMPERATURE = 1.0
 ```
+
+---
+
+## API Metadata Schema
+
+All API calls include metadata for tracking, debugging, and cost analysis via the OpenAI dashboard. Metadata supports up to 16 key-value pairs (keys max 64 chars, values max 512 chars).
+
+**Source**: `src/experiment_utils/config.py` - `build_api_metadata()` function
+
+### Core Keys (Always Present)
+
+| Key | Description | Example Values |
+|-----|-------------|----------------|
+| `project` | Fixed project identifier | `"gsc_single_winner"` |
+| `run_id` | Timestamp-based run identifier for grouping calls | `"20260128_143052"` |
+| `phase` | Experiment phase | `"1_statement_gen"`, `"2_preference"`, `"3_selection"`, `"4_insertion"` |
+| `component` | Code-level identifier (function/module) | See component values below |
+
+### Contextual Keys (Present When Applicable)
+
+| Key | Description | Example Values |
+|-----|-------------|----------------|
+| `topic` | Topic slug being processed | `"abortion"`, `"gun_safety"`, `"healthcare"` |
+| `voter_dist` | Voter distribution type | `"uniform"`, `"clustered"` |
+| `alt_dist` | Alternative distribution type | `"persona_no_context"`, `"persona_context"`, `"no_persona_context"`, `"no_persona_no_context"` |
+| `method` | Voting method name (Phase 3/4) | `"chatgpt"`, `"chatgpt_rankings"`, `"chatgpt_star"`, `"chatgpt_double_star"` |
+| `rep` | Replication number | `"0"`, `"1"`, ..., `"9"` |
+| `mini_rep` | Mini-rep index within a rep (Phase 3) | `"0"`, `"1"`, ..., `"4"` |
+| `voter_idx` | Voter index for ranking/insertion | `"0"`, `"1"`, ..., `"99"` |
+| `round` | Round number for iterative ranking | `"1"`, `"2"`, ..., `"5"` |
+
+### Component Values by Phase
+
+**Phase 1 - Statement Generation:**
+- `alt1_persona_no_context` - Alt1 persona-based generation without context
+- `alt2_persona_context` - Alt2 persona-based generation with context
+- `alt3_no_persona_context` - Alt3 verbalized sampling with context
+- `alt4_no_persona_no_context` - Alt4 blind verbalized sampling
+
+**Phase 2 - Preference Building:**
+- `iterative_ranking_topbottom` - Top-K/Bottom-K selection (rounds 1-4)
+- `iterative_ranking_final` - Final ranking of remaining statements (round 5)
+
+**Phase 3 - Winner Selection:**
+- `gpt_select` - GPT baseline selection
+- `gpt_select_rankings` - GPT+Rank selection
+- `gpt_select_personas` - GPT+Pers selection
+- `gpt_star_select` - GPT\* selection from all 100
+- `gpt_star_select_rankings` - GPT\*+Rank selection
+- `gpt_star_select_personas` - GPT\*+Pers selection
+- `gpt_double_star_gen` - GPT\*\* statement generation
+- `gpt_double_star_gen_rankings` - GPT\*\*+Rank generation
+- `gpt_double_star_gen_personas` - GPT\*\*+Pers generation
+- `gpt_triple_star_gen` - GPT\*\*\* blind bridging generation
+
+**Phase 4 - Statement Insertion:**
+- `statement_insertion` - Inserting new statement into voter ranking
+
+### Dashboard Query Examples
+
+With this schema, you can filter in the OpenAI dashboard by:
+- All calls for a specific run: `run_id = "20260128_143052"`
+- All Phase 2 calls: `phase = "2_preference"`
+- All calls for a topic: `topic = "abortion"`
+- All GPT\*\* voting method calls (generation + insertion): `method = "chatgpt_double_star"`
+- Just GPT\*\* generation calls (not insertion): `component = "gpt_double_star_gen"`
+- All insertion calls for voter 42: `component = "statement_insertion" AND voter_idx = "42"`
 
 ---
 
@@ -292,6 +360,13 @@ Return JSON: {"ranking": ["most_preferred", "second", ..., "least_preferred"]}
 
 ## Phase 3: Winner Selection
 
+> **Note on Truncations**: Several Phase 3 methods apply truncations to fit within token limits:
+> - **Rankings (+Rank variants)**: Only first 10 voters shown, each ranking truncated to first 10 preferences
+> - **Personas (+Pers variants)**: Only first 10 voters' personas shown, each truncated to 500 characters
+> - **GPT\* all-statements list**: Each of 100 statements truncated to 200 characters
+>
+> These truncations are marked with ⚠️ where they apply.
+
 ### GPT: Select from P Alternatives
 
 **Purpose**: Select the best consensus statement from P subsampled alternatives.
@@ -375,6 +450,8 @@ Voter 2: 3 > 5 > 8 > 1 > 2...
 ... and {n_voters - 10} more voters
 ```
 
+> **⚠️ TRUNCATION**: Only the first 10 voters are shown in the prompt. Each voter's ranking is truncated to the first 10 preferences (with "..." appended). Remaining voters are summarized as "... and {n} more voters".
+
 ---
 
 ### GPT+Pers: Select with Personas
@@ -420,6 +497,8 @@ Voter 2: age: 52, sex: Male, race: Black...
 
 ... and {n_voters - 10} more voters
 ```
+
+> **⚠️ TRUNCATION**: Only the first 10 voters' personas are shown. Each persona is truncated to 500 characters (with "..." appended). Remaining voters are summarized as "... and {n} more voters".
 
 ---
 
@@ -467,9 +546,15 @@ You may choose any statement, not just the samples shown above.
 Return your choice as JSON: {"selected_statement_index": <index>}
 ```
 
+> **⚠️ TRUNCATION**: In `{all_text}`, each of the 100 statements is truncated to 200 characters (with "..." appended). The `{sample_text}` shows sample statements in full.
+
 **GPT\*+Rank** adds preference rankings: `{rankings_text}` (~700 additional tokens)
 
+> **⚠️ TRUNCATION**: Same as GPT+Rank - only first 10 voters shown, each ranking truncated to first 10 preferences.
+
 **GPT\*+Pers** adds voter personas: `{personas_text}` (~3,080 additional tokens for 10 personas)
+
+> **⚠️ TRUNCATION**: Same as GPT+Pers - only first 10 voters' personas shown, each truncated to 500 characters.
 
 ---
 
@@ -520,7 +605,11 @@ Return your new statement as JSON: {"new_statement": "<your statement>"}
 
 **GPT\*\*+Rank** adds preference rankings: `{rankings_text}` (~700 additional tokens)
 
+> **⚠️ TRUNCATION**: Same as GPT+Rank - only first 10 voters shown, each ranking truncated to first 10 preferences.
+
 **GPT\*\*+Pers** adds voter personas: `{personas_text}` (~3,080 additional tokens for 10 personas)
+
+> **⚠️ TRUNCATION**: Same as GPT+Pers - only first 10 voters' personas shown, each truncated to 500 characters.
 
 ---
 
@@ -629,6 +718,8 @@ Rank 2 (ID 12): Another statement...
 ...
 ```
 
+> **Note**: Unlike the Phase 3 methods, the insertion prompt includes the **full text** of all 100 ranked statements (no truncation). This is necessary for accurate preference insertion.
+
 ---
 
 ## API Call Volume and Cost Summary
@@ -730,4 +821,4 @@ Rank 2 (ID 12): Another statement...
 
 ---
 
-*Generated from codebase analysis on 2026-01-27*
+*Generated from codebase analysis on 2026-01-27. Truncation markers added on 2026-01-28.*
