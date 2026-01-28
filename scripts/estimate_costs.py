@@ -42,6 +42,26 @@ def load_statements(topic: str = "abortion"):
         data = json.load(f)
     return list(data["statements"].values())
 
+def filter_persona(persona: str) -> str:
+    """
+    Extract key demographic fields from a persona string.
+    Filters to: age, sex, race, education, occupation category, political views, religion.
+    """
+    fields_to_keep = {
+        'age', 'sex', 'race', 'education', 
+        'occupation category', 'political views', 'religion'
+    }
+    lines = []
+    for line in persona.split('\n'):
+        if ':' in line:
+            key = line.split(':')[0].strip().lower()
+            if key in fields_to_keep:
+                if key == 'occupation category':
+                    line = 'occupation:' + line.split(':', 1)[1]
+                lines.append(line)
+    return '\n'.join(lines)
+
+
 def estimate_prompt_tokens():
     """Estimate token counts for different prompt types."""
     personas = load_personas()
@@ -51,8 +71,11 @@ def estimate_prompt_tokens():
     sample_personas = personas[:100]
     sample_statements = statements[:100]
     
-    # Average persona length
+    # Average full persona length
     avg_persona_tokens = sum(count_tokens(p) for p in sample_personas) / len(sample_personas)
+    
+    # Average filtered persona length (7 key fields only)
+    avg_filtered_persona_tokens = sum(count_tokens(filter_persona(p)) for p in sample_personas) / len(sample_personas)
     
     # Average statement length
     avg_statement_tokens = sum(count_tokens(s) for s in sample_statements) / len(sample_statements)
@@ -64,13 +87,15 @@ def estimate_prompt_tokens():
     print("=" * 60)
     print("TOKEN ESTIMATES")
     print("=" * 60)
-    print(f"Average persona: {avg_persona_tokens:.0f} tokens")
+    print(f"Average full persona: {avg_persona_tokens:.0f} tokens")
+    print(f"Average filtered persona (7 fields): {avg_filtered_persona_tokens:.0f} tokens")
     print(f"Average statement: {avg_statement_tokens:.0f} tokens")
     print(f"Topic question: {topic_tokens} tokens")
     print()
     
     return {
         "persona": avg_persona_tokens,
+        "filtered_persona": avg_filtered_persona_tokens,
         "statement": avg_statement_tokens,
         "topic": topic_tokens,
     }
@@ -78,6 +103,7 @@ def estimate_prompt_tokens():
 def calculate_costs(token_estimates):
     """Calculate costs for each API call type."""
     persona_tokens = token_estimates["persona"]
+    filtered_persona_tokens = token_estimates["filtered_persona"]
     stmt_tokens = token_estimates["statement"]
     topic_tokens = token_estimates["topic"]
     
@@ -85,6 +111,10 @@ def calculate_costs(token_estimates):
     OVERHEAD_SMALL = 150  # Small prompts
     OVERHEAD_MEDIUM = 300  # Medium prompts  
     OVERHEAD_LARGE = 500  # Large prompts with context
+    
+    # Number of voters/statements in typical samples
+    N_VOTERS = 100  # All voters shown (no truncation)
+    N_STATEMENTS = 100  # All statements for GPT* methods
     
     costs = []
     
@@ -175,7 +205,10 @@ def calculate_costs(token_estimates):
     })
     
     # GPT+Rank Selection (240 calls/topic)
-    gpt_rank_input = OVERHEAD_LARGE + (20 * stmt_tokens) + 500  # + rankings summary
+    # Full rankings for all voters over P=20 sampled statements
+    # "Voter N: 5 > 3 > 1 > ... > 19" ≈ 100 chars ≈ 25 tokens per voter
+    ranking_per_voter = 25  # Rankings are over P=20 sampled statements, not all 100
+    gpt_rank_input = OVERHEAD_LARGE + (20 * stmt_tokens) + (N_VOTERS * ranking_per_voter)
     gpt_rank_output = 30
     gpt_rank_calls = 240
     costs.append({
@@ -187,7 +220,8 @@ def calculate_costs(token_estimates):
     })
     
     # GPT+Pers Selection (240 calls/topic)
-    gpt_pers_input = OVERHEAD_LARGE + (20 * stmt_tokens) + (10 * persona_tokens)  # 10 personas shown
+    # All voters with filtered personas (7 key fields each)
+    gpt_pers_input = OVERHEAD_LARGE + (20 * stmt_tokens) + (N_VOTERS * filtered_persona_tokens)
     gpt_pers_output = 30
     gpt_pers_calls = 240
     costs.append({
@@ -198,8 +232,8 @@ def calculate_costs(token_estimates):
         "output_tokens": gpt_pers_output,
     })
     
-    # GPT* Selection (240 calls/topic) - shows all 100 statements
-    gpt_star_input = OVERHEAD_LARGE + (100 * stmt_tokens * 0.5)  # Truncated statements
+    # GPT* Selection (240 calls/topic) - shows all 100 statements (full text, no truncation)
+    gpt_star_input = OVERHEAD_LARGE + (N_STATEMENTS * stmt_tokens)
     gpt_star_output = 30
     gpt_star_calls = 240
     costs.append({
@@ -210,15 +244,59 @@ def calculate_costs(token_estimates):
         "output_tokens": gpt_star_output,
     })
     
-    # GPT** Generation (720 calls/topic = 3 variants × 240 mini-reps)
+    # GPT*+Rank Selection (240 calls/topic) - all statements + all rankings
+    gpt_star_rank_input = OVERHEAD_LARGE + (N_STATEMENTS * stmt_tokens) + (N_VOTERS * ranking_per_voter)
+    gpt_star_rank_calls = 240
+    costs.append({
+        "name": "GPT*+Rank Selection",
+        "model": "gpt-5.2",
+        "calls": gpt_star_rank_calls,
+        "input_tokens": gpt_star_rank_input,
+        "output_tokens": gpt_star_output,
+    })
+    
+    # GPT*+Pers Selection (240 calls/topic) - all statements + all filtered personas
+    gpt_star_pers_input = OVERHEAD_LARGE + (N_STATEMENTS * stmt_tokens) + (N_VOTERS * filtered_persona_tokens)
+    gpt_star_pers_calls = 240
+    costs.append({
+        "name": "GPT*+Pers Selection",
+        "model": "gpt-5.2",
+        "calls": gpt_star_pers_calls,
+        "input_tokens": gpt_star_pers_input,
+        "output_tokens": gpt_star_output,
+    })
+    
+    # GPT** Generation (240 calls/topic) - base variant
     gpt_double_input = OVERHEAD_MEDIUM + (20 * stmt_tokens)
     gpt_double_output = stmt_tokens
-    gpt_double_calls = 720
+    gpt_double_calls = 240
     costs.append({
         "name": "GPT** Generation",
         "model": "gpt-5.2",
         "calls": gpt_double_calls,
         "input_tokens": gpt_double_input,
+        "output_tokens": gpt_double_output,
+    })
+    
+    # GPT**+Rank Generation (240 calls/topic) - with full rankings
+    gpt_double_rank_input = OVERHEAD_MEDIUM + (20 * stmt_tokens) + (N_VOTERS * ranking_per_voter)
+    gpt_double_rank_calls = 240
+    costs.append({
+        "name": "GPT**+Rank Generation",
+        "model": "gpt-5.2",
+        "calls": gpt_double_rank_calls,
+        "input_tokens": gpt_double_rank_input,
+        "output_tokens": gpt_double_output,
+    })
+    
+    # GPT**+Pers Generation (240 calls/topic) - with filtered personas
+    gpt_double_pers_input = OVERHEAD_MEDIUM + (20 * stmt_tokens) + (N_VOTERS * filtered_persona_tokens)
+    gpt_double_pers_calls = 240
+    costs.append({
+        "name": "GPT**+Pers Generation",
+        "model": "gpt-5.2",
+        "calls": gpt_double_pers_calls,
+        "input_tokens": gpt_double_pers_input,
         "output_tokens": gpt_double_output,
     })
     

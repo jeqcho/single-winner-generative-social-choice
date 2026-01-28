@@ -64,6 +64,35 @@ def _extract_winner(elected, prefix: str = "c") -> Optional[str]:
     return None
 
 
+def filter_persona(persona: str) -> str:
+    """
+    Extract key demographic fields from a persona string.
+    
+    Filters persona to only include: age, sex, race, education,
+    occupation category, political views, religion.
+    
+    Args:
+        persona: Full persona string with newline-separated key: value pairs
+        
+    Returns:
+        Filtered persona string with only the 7 key fields
+    """
+    fields_to_keep = {
+        'age', 'sex', 'race', 'education', 
+        'occupation category', 'political views', 'religion'
+    }
+    lines = []
+    for line in persona.split('\n'):
+        if ':' in line:
+            key = line.split(':')[0].strip().lower()
+            if key in fields_to_keep:
+                # Rename 'occupation category' to 'occupation'
+                if key == 'occupation category':
+                    line = 'occupation:' + line.split(':', 1)[1]
+                lines.append(line)
+    return '\n'.join(lines)
+
+
 # =============================================================================
 # Traditional Voting Methods
 # =============================================================================
@@ -232,14 +261,11 @@ def run_chatgpt_with_rankings(
     n = len(statements)
     n_voters = len(preferences[0]) if preferences else 0
     
-    # Format rankings (show first 10 voters)
+    # Format rankings (show all voters with full rankings)
     rankings_summary = []
-    for voter in range(min(n_voters, 10)):
+    for voter in range(n_voters):
         ranking = [preferences[rank][voter] for rank in range(len(preferences))]
-        rankings_summary.append(f"Voter {voter+1}: {' > '.join(ranking[:10])}...")
-    
-    if n_voters > 10:
-        rankings_summary.append(f"... and {n_voters - 10} more voters")
+        rankings_summary.append(f"Voter {voter+1}: {' > '.join(ranking)}")
     
     rankings_text = "\n".join(rankings_summary)
     
@@ -263,7 +289,7 @@ Where the value is the index (0-{n-1}) of the statement you select."""
         response = openai_client.responses.create(
             model=model,
             input=[
-                    {"role": "system", "content": system_prompt},
+                {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
@@ -316,14 +342,11 @@ def run_chatgpt_with_personas(
     n = len(statements)
     n_voters = len(personas)
     
-    # Format personas (truncate if too many)
+    # Format personas (filter to key demographic fields for all voters)
     personas_text = "\n\n".join([
-        f"Voter {i+1}: {persona[:500]}..."  # Truncate long personas
-        for i, persona in enumerate(personas[:10])
+        f"Voter {i+1}: {filter_persona(persona)}"
+        for i, persona in enumerate(personas)
     ])
-    
-    if n_voters > 10:
-        personas_text += f"\n\n... and {n_voters - 10} more voters"
     
     system_prompt = "You are a helpful assistant that selects consensus statements. Return ONLY valid JSON."
     
@@ -345,7 +368,7 @@ Where the value is the index (0-{n-1}) of the statement you select."""
         response = openai_client.responses.create(
             model=model,
             input=[
-                    {"role": "system", "content": system_prompt},
+                {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
             ],
             temperature=temperature,
@@ -404,9 +427,9 @@ def run_chatgpt_star(
         for i, stmt in enumerate(sample_statements)
     ])
     
-    # Show all statements for selection
+    # Show all statements for selection (full text)
     all_text = "\n".join([
-        f"{i}: {stmt['statement'][:200]}..."  # Truncate for token efficiency
+        f"{i}: {stmt['statement']}"
         for i, stmt in enumerate(all_statements)
     ])
     
@@ -484,18 +507,18 @@ def run_chatgpt_star_with_rankings(
     mini_rep: int = None,
 ) -> Dict:
     """Run ChatGPT* with preference rankings from sample."""
-    # Rankings from sample
+    # Rankings from sample (show all voters with full rankings)
     n_voters = len(sample_preferences[0]) if sample_preferences else 0
     rankings_summary = []
-    for voter in range(min(n_voters, 10)):
+    for voter in range(n_voters):
         ranking = [sample_preferences[rank][voter] for rank in range(len(sample_preferences))]
-        rankings_summary.append(f"Voter {voter+1}: {' > '.join(ranking[:10])}...")
+        rankings_summary.append(f"Voter {voter+1}: {' > '.join(ranking)}")
     
     rankings_text = "\n".join(rankings_summary)
     
-    # All statements
+    # All statements (full text)
     all_text = "\n".join([
-        f"{i}: {stmt['statement'][:200]}..."
+        f"{i}: {stmt['statement']}"
         for i, stmt in enumerate(all_statements)
     ])
     
@@ -569,18 +592,15 @@ def run_chatgpt_star_with_personas(
     mini_rep: int = None,
 ) -> Dict:
     """Run ChatGPT* with persona descriptions from sample."""
-    # Personas from sample
+    # Personas from sample (filter to key demographic fields for all voters)
     personas_text = "\n\n".join([
-        f"Voter {i+1}: {persona[:500]}..."
-        for i, persona in enumerate(sample_personas[:10])
+        f"Voter {i+1}: {filter_persona(persona)}"
+        for i, persona in enumerate(sample_personas)
     ])
     
-    if len(sample_personas) > 10:
-        personas_text += f"\n\n... and {len(sample_personas) - 10} more voters"
-    
-    # All statements
+    # All statements (full text)
     all_text = "\n".join([
-        f"{i}: {stmt['statement'][:200]}..."
+        f"{i}: {stmt['statement']}"
         for i, stmt in enumerate(all_statements)
     ])
     
@@ -734,9 +754,9 @@ def generate_new_statement_with_rankings(
     
     n_voters = len(sample_preferences[0]) if sample_preferences else 0
     rankings_summary = []
-    for voter in range(min(n_voters, 10)):
+    for voter in range(n_voters):
         ranking = [sample_preferences[rank][voter] for rank in range(len(sample_preferences))]
-        rankings_summary.append(f"Voter {voter+1}: {' > '.join(ranking[:10])}...")
+        rankings_summary.append(f"Voter {voter+1}: {' > '.join(ranking)}")
     
     rankings_text = "\n".join(rankings_summary)
     
@@ -814,13 +834,11 @@ def generate_new_statement_with_personas(
         for i, stmt in enumerate(sample_statements)
     ])
     
+    # Format personas (filter to key demographic fields for all voters)
     personas_text = "\n\n".join([
-        f"Voter {i+1}: {persona[:500]}..."
-        for i, persona in enumerate(sample_personas[:10])
+        f"Voter {i+1}: {filter_persona(persona)}"
+        for i, persona in enumerate(sample_personas)
     ])
-    
-    if len(sample_personas) > 10:
-        personas_text += f"\n\n... and {len(sample_personas) - 10} more voters"
     
     system_prompt = "You are a helpful assistant that generates consensus statements. Return ONLY valid JSON."
     
