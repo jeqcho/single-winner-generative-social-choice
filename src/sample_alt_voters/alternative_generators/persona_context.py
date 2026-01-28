@@ -22,7 +22,11 @@ from openai import OpenAI
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from tqdm import tqdm
 
-from src.experiment_utils.config import STATEMENT_MODEL, STATEMENT_REASONING
+from src.experiment_utils.config import (
+    STATEMENT_MODEL,
+    STATEMENT_REASONING,
+    build_api_metadata,
+)
 from ..config import (
     TEMPERATURE,
     MAX_WORKERS,
@@ -72,7 +76,8 @@ def generate_single_statement(
     persona_id: str,
     context_statements: List[str],
     topic_slug: str,
-    client: OpenAI
+    client: OpenAI,
+    rep: int = None,
 ) -> Dict:
     """
     Generate a single Alt2 statement for one persona after reading context.
@@ -83,6 +88,7 @@ def generate_single_statement(
         context_statements: List of 100 statements to show as context
         topic_slug: Topic slug (used to look up full question)
         client: OpenAI client instance
+        rep: Replication number (for metadata tracking)
         
     Returns:
         Dict with persona_id, persona, statement, and topic
@@ -100,6 +106,13 @@ def generate_single_statement(
         ],
         temperature=TEMPERATURE,
         reasoning={"effort": STATEMENT_REASONING},
+        metadata=build_api_metadata(
+            phase="1_statement_gen",
+            component="alt2_persona_context",
+            topic=topic_slug,
+            alt_dist="persona_context",
+            rep=rep,
+        ),
     )
     api_timer.record(time.time() - start_time)
     
@@ -155,7 +168,8 @@ def generate_for_rep(
                 pid,
                 context_statements,
                 topic_slug,
-                client
+                client,
+                rep_id,
             ): pid
             for pid, persona in personas.items()
         }

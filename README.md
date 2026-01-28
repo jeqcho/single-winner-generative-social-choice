@@ -126,6 +126,15 @@ All model settings are centralized in `src/experiment_utils/config.py`:
 - **GENERATIVE_VOTING_MODEL** (`gpt-5.2`, reasoning=none): Used for GPT-based voting methods (Phase 3 selection/generation)
 - **RANKING_MODEL** (`gpt-5-mini`, reasoning=low): Used for all preference/ranking tasks (iterative ranking, epsilon insertion)
 
+### API Metadata Tracking
+
+All OpenAI API calls include metadata for tracking, debugging, and cost analysis via the OpenAI dashboard. The metadata schema includes:
+
+- **Core fields**: `project`, `run_id`, `phase`, `component`
+- **Contextual fields**: `topic`, `voter_dist`, `alt_dist`, `method`, `rep`, `mini_rep`, `voter_idx`, `round`
+
+Use `build_api_metadata()` from `src/experiment_utils/config.py` to generate metadata for new API calls. See [`reports/prompt_documentation.md`](reports/prompt_documentation.md) for the full schema.
+
 ### Prompt Documentation
 
 For detailed documentation of all LLM API requests including exact system prompts, user prompt templates, model parameters, and response formats, see [`reports/prompt_documentation.md`](reports/prompt_documentation.md).

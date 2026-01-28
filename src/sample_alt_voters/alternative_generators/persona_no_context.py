@@ -21,7 +21,11 @@ from openai import OpenAI
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from tqdm import tqdm
 
-from src.experiment_utils.config import STATEMENT_MODEL, STATEMENT_REASONING
+from src.experiment_utils.config import (
+    STATEMENT_MODEL,
+    STATEMENT_REASONING,
+    build_api_metadata,
+)
 from ..config import (
     TEMPERATURE,
     MAX_WORKERS,
@@ -89,6 +93,12 @@ def generate_single_statement(
         ],
         temperature=TEMPERATURE,
         reasoning={"effort": STATEMENT_REASONING},
+        metadata=build_api_metadata(
+            phase="1_statement_gen",
+            component="alt1_persona_no_context",
+            topic=topic_slug,
+            alt_dist="persona_no_context",
+        ),
     )
     api_timer.record(time.time() - start_time)
     

@@ -22,7 +22,11 @@ from openai import OpenAI
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from tqdm import tqdm
 
-from src.experiment_utils.config import STATEMENT_MODEL, STATEMENT_REASONING
+from src.experiment_utils.config import (
+    STATEMENT_MODEL,
+    STATEMENT_REASONING,
+    build_api_metadata,
+)
 from ..config import (
     TEMPERATURE,
     MAX_WORKERS,
@@ -64,6 +68,7 @@ def generate_batch(
     topic_slug: str,
     client: OpenAI,
     batch_id: int = 0,
+    rep: int = None,
 ) -> List[str]:
     """
     Generate a batch of 5 Alt3 statements using verbalized sampling.
@@ -73,6 +78,7 @@ def generate_batch(
         topic_slug: Topic slug (used to look up full question)
         client: OpenAI client instance
         batch_id: Batch identifier for logging
+        rep: Replication number (for metadata tracking)
         
     Returns:
         List of 5 statement strings
@@ -91,6 +97,13 @@ def generate_batch(
         ],
         temperature=TEMPERATURE,
         reasoning={"effort": STATEMENT_REASONING},
+        metadata=build_api_metadata(
+            phase="1_statement_gen",
+            component="alt3_no_persona_context",
+            topic=topic_slug,
+            alt_dist="no_persona_context",
+            rep=rep,
+        ),
     )
     api_timer.record(time.time() - start_time)
     
@@ -147,6 +160,7 @@ def generate_for_rep(
                 topic_slug,
                 client,
                 i,
+                rep_id,
             ): i
             for i in range(n_batches)
         }

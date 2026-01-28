@@ -4,6 +4,7 @@ Configuration constants for the sampling experiment.
 
 import logging
 import threading
+from datetime import datetime
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -217,3 +218,86 @@ class APITimer:
 
 # Global timer instance
 api_timer = APITimer()
+
+
+# =============================================================================
+# API Metadata for OpenAI Dashboard Tracking
+# =============================================================================
+# Global run ID - set once at pipeline start
+_RUN_ID: str = None
+
+
+def get_run_id() -> str:
+    """Get or generate the run ID for this pipeline execution."""
+    global _RUN_ID
+    if _RUN_ID is None:
+        _RUN_ID = datetime.now().strftime("%Y%m%d_%H%M%S")
+    return _RUN_ID
+
+
+def set_run_id(run_id: str) -> None:
+    """Explicitly set the run ID (useful for resuming runs)."""
+    global _RUN_ID
+    _RUN_ID = run_id
+
+
+def build_api_metadata(
+    phase: str,
+    component: str,
+    topic: str = None,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    method: str = None,
+    rep: int = None,
+    mini_rep: int = None,
+    voter_idx: int = None,
+    round_num: int = None,
+) -> dict:
+    """
+    Build metadata dict for OpenAI API calls.
+    
+    Metadata is attached to responses.create() calls and visible in the OpenAI
+    dashboard for filtering and cost tracking.
+    
+    Args:
+        phase: Experiment phase ("1_statement_gen", "2_preference", "3_selection", "4_insertion")
+        component: Specific component name (code-level identifier)
+        topic: Topic slug
+        voter_dist: Voter distribution ("uniform", "clustered")
+        alt_dist: Alternative distribution type
+        method: Voting method name (Phase 3/4)
+        rep: Replication number
+        mini_rep: Mini-rep index within a rep (Phase 3)
+        voter_idx: Voter index (for ranking/insertion)
+        round_num: Round number (for iterative ranking)
+    
+    Returns:
+        Dict with up to 12 key-value pairs for OpenAI metadata parameter.
+        Keys max 64 chars, values max 512 chars.
+    """
+    metadata = {
+        "project": "gsc_single_winner",
+        "run_id": get_run_id(),
+        "phase": phase[:64],
+        "component": component[:64],
+    }
+    
+    # Add contextual fields if provided
+    if topic:
+        metadata["topic"] = topic[:64]
+    if voter_dist:
+        metadata["voter_dist"] = voter_dist[:64]
+    if alt_dist:
+        metadata["alt_dist"] = alt_dist[:64]
+    if method:
+        metadata["method"] = method[:64]
+    if rep is not None:
+        metadata["rep"] = str(rep)
+    if mini_rep is not None:
+        metadata["mini_rep"] = str(mini_rep)
+    if voter_idx is not None:
+        metadata["voter_idx"] = str(voter_idx)
+    if round_num is not None:
+        metadata["round"] = str(round_num)
+    
+    return metadata

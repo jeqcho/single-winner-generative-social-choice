@@ -31,6 +31,7 @@ from .config import (
     RANKING_TASK,
     api_timer,
 )
+from src.experiment_utils.config import build_api_metadata
 from .hash_identifiers import id_to_hash, hash_to_id, build_hash_lookup
 from .degeneracy_detector import (
     is_partial_degenerate,
@@ -127,7 +128,13 @@ def call_api_for_top_bottom(
     system_prompt: str,
     user_prompt: str,
     reasoning_effort: str,
-    k: int = K_TOP_BOTTOM
+    k: int = K_TOP_BOTTOM,
+    topic: str = None,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    voter_idx: int = None,
+    round_num: int = None,
 ) -> tuple[list[str], list[str]]:
     """
     Make API call to get top-K and bottom-K selections.
@@ -138,6 +145,12 @@ def call_api_for_top_bottom(
         user_prompt: User prompt with statements
         reasoning_effort: "minimal", "low", or "medium"
         k: Expected count for each list
+        topic: Topic slug (for metadata)
+        voter_dist: Voter distribution (for metadata)
+        alt_dist: Alternative distribution (for metadata)
+        rep: Replication number (for metadata)
+        voter_idx: Voter index (for metadata)
+        round_num: Round number (for metadata)
     
     Returns:
         Tuple of (top_k, bottom_k) lists of hash strings.
@@ -155,6 +168,16 @@ def call_api_for_top_bottom(
         ],
         temperature=TEMPERATURE,
         reasoning={"effort": reasoning_effort},
+        metadata=build_api_metadata(
+            phase="2_preference",
+            component="iterative_ranking_topbottom",
+            topic=topic,
+            voter_dist=voter_dist,
+            alt_dist=alt_dist,
+            rep=rep,
+            voter_idx=voter_idx,
+            round_num=round_num,
+        ),
     )
     
     api_timer.record(time.time() - start_time)
@@ -172,7 +195,13 @@ def call_api_for_final_ranking(
     client: OpenAI,
     system_prompt: str,
     user_prompt: str,
-    reasoning_effort: str
+    reasoning_effort: str,
+    topic: str = None,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    voter_idx: int = None,
+    round_num: int = None,
 ) -> list[str]:
     """
     Make API call to get final ranking of remaining statements.
@@ -182,6 +211,12 @@ def call_api_for_final_ranking(
         system_prompt: System prompt with persona
         user_prompt: User prompt with statements
         reasoning_effort: "minimal", "low", or "medium"
+        topic: Topic slug (for metadata)
+        voter_dist: Voter distribution (for metadata)
+        alt_dist: Alternative distribution (for metadata)
+        rep: Replication number (for metadata)
+        voter_idx: Voter index (for metadata)
+        round_num: Round number (for metadata)
     
     Returns:
         List of hash strings in preference order (most to least preferred).
@@ -199,6 +234,16 @@ def call_api_for_final_ranking(
         ],
         temperature=TEMPERATURE,
         reasoning={"effort": reasoning_effort},
+        metadata=build_api_metadata(
+            phase="2_preference",
+            component="iterative_ranking_final",
+            topic=topic,
+            voter_dist=voter_dist,
+            alt_dist=alt_dist,
+            rep=rep,
+            voter_idx=voter_idx,
+            round_num=round_num,
+        ),
     )
     
     api_timer.record(time.time() - start_time)
@@ -218,7 +263,12 @@ def get_top_bottom_with_retry(
     presentation_order: list[str],
     reasoning_effort: str,
     k: int = K_TOP_BOTTOM,
-    max_retries: int = MAX_RETRIES
+    max_retries: int = MAX_RETRIES,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    voter_idx: int = None,
+    round_num: int = None,
 ) -> tuple[list[str], list[str], int, bool]:
     """
     Get top-K/bottom-K with validation and retry logic.
@@ -232,6 +282,11 @@ def get_top_bottom_with_retry(
         reasoning_effort: Reasoning effort level
         k: Number to select for top/bottom
         max_retries: Maximum retry attempts
+        voter_dist: Voter distribution (for metadata)
+        alt_dist: Alternative distribution (for metadata)
+        rep: Replication number (for metadata)
+        voter_idx: Voter index (for metadata)
+        round_num: Round number (for metadata)
     
     Returns:
         Tuple of (top_k, bottom_k, retry_count, is_valid).
@@ -245,7 +300,9 @@ def get_top_bottom_with_retry(
     for attempt in range(max_retries + 1):
         try:
             top_k, bottom_k = call_api_for_top_bottom(
-                client, system_prompt, user_prompt, reasoning_effort, k
+                client, system_prompt, user_prompt, reasoning_effort, k,
+                topic=topic, voter_dist=voter_dist, alt_dist=alt_dist,
+                rep=rep, voter_idx=voter_idx, round_num=round_num,
             )
             
             # Validate structural correctness
@@ -277,7 +334,11 @@ def get_final_ranking_with_retry(
     statements: list[tuple[str, str]],
     presentation_order: list[str],
     reasoning_effort: str,
-    max_retries: int = MAX_RETRIES
+    max_retries: int = MAX_RETRIES,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    voter_idx: int = None,
 ) -> tuple[list[str], int, bool]:
     """
     Get final ranking with validation and retry logic.
@@ -290,6 +351,10 @@ def get_final_ranking_with_retry(
         presentation_order: Order of hashes as presented
         reasoning_effort: Reasoning effort level
         max_retries: Maximum retry attempts
+        voter_dist: Voter distribution (for metadata)
+        alt_dist: Alternative distribution (for metadata)
+        rep: Replication number (for metadata)
+        voter_idx: Voter index (for metadata)
     
     Returns:
         Tuple of (ranking, retry_count, is_valid).
@@ -303,7 +368,9 @@ def get_final_ranking_with_retry(
     for attempt in range(max_retries + 1):
         try:
             ranking = call_api_for_final_ranking(
-                client, system_prompt, user_prompt, reasoning_effort
+                client, system_prompt, user_prompt, reasoning_effort,
+                topic=topic, voter_dist=voter_dist, alt_dist=alt_dist,
+                rep=rep, voter_idx=voter_idx, round_num=5,  # Final ranking is always round 5
             )
             
             # Validate structural correctness
@@ -335,7 +402,10 @@ def iterative_rank(
     topic: str,
     reasoning_effort: str,
     voter_seed: int,
-    hash_seed: int = HASH_SEED
+    hash_seed: int = HASH_SEED,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
 ) -> dict:
     """
     Build full ranking through 5 rounds of top-K/bottom-K selection.
@@ -351,6 +421,9 @@ def iterative_rank(
         reasoning_effort: "minimal", "low", or "medium"
         voter_seed: Seed for per-voter randomization
         hash_seed: Seed for hash generation
+        voter_dist: Voter distribution (for metadata)
+        alt_dist: Alternative distribution (for metadata)
+        rep: Replication number (for metadata)
     
     Returns:
         Dictionary with:
@@ -401,6 +474,11 @@ def iterative_rank(
                 statements=round_statements,
                 presentation_order=presentation_order,
                 reasoning_effort=reasoning_effort,
+                voter_dist=voter_dist,
+                alt_dist=alt_dist,
+                rep=rep,
+                voter_idx=voter_seed,
+                round_num=round_num,
             )
             
             round_info['type'] = 'top_bottom'
@@ -442,6 +520,10 @@ def iterative_rank(
                 statements=round_statements,
                 presentation_order=presentation_order,
                 reasoning_effort=reasoning_effort,
+                voter_dist=voter_dist,
+                alt_dist=alt_dist,
+                rep=rep,
+                voter_idx=voter_seed,
             )
             
             round_info['type'] = 'final_ranking'
@@ -484,7 +566,10 @@ def rank_voter(
     statements: list[dict],
     topic: str,
     reasoning_effort: str,
-    hash_seed: int = HASH_SEED
+    hash_seed: int = HASH_SEED,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
 ) -> dict:
     """
     Rank statements for a single voter.
@@ -499,6 +584,9 @@ def rank_voter(
         topic: Topic question
         reasoning_effort: Reasoning effort level
         hash_seed: Seed for hash generation
+        voter_dist: Voter distribution (for metadata)
+        alt_dist: Alternative distribution (for metadata)
+        rep: Replication number (for metadata)
     
     Returns:
         Result dict from iterative_rank with voter_idx added.
@@ -511,6 +599,9 @@ def rank_voter(
         reasoning_effort=reasoning_effort,
         voter_seed=voter_idx,
         hash_seed=hash_seed,
+        voter_dist=voter_dist,
+        alt_dist=alt_dist,
+        rep=rep,
     )
     result['voter_idx'] = voter_idx
     return result

@@ -12,7 +12,7 @@ from typing import List, Dict
 from openai import OpenAI
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
-from .config import RANKING_MODEL, RANKING_REASONING, TEMPERATURE, api_timer
+from .config import RANKING_MODEL, RANKING_REASONING, TEMPERATURE, api_timer, build_api_metadata
 
 logger = logging.getLogger(__name__)
 
@@ -31,7 +31,13 @@ def insert_statement_into_ranking(
     topic: str,
     openai_client: OpenAI,
     model: str = RANKING_MODEL,
-    temperature: float = TEMPERATURE
+    temperature: float = TEMPERATURE,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    method: str = None,
+    rep: int = None,
+    mini_rep: int = None,
+    voter_idx: int = None,
 ) -> List[int]:
     """
     Insert a new statement into an existing ranking.
@@ -48,6 +54,12 @@ def insert_statement_into_ranking(
         openai_client: OpenAI client instance
         model: Model to use
         temperature: Temperature for sampling
+        voter_dist: Voter distribution (for metadata)
+        alt_dist: Alternative distribution (for metadata)
+        method: Voting method name (for metadata)
+        rep: Replication number (for metadata)
+        mini_rep: Mini-rep index (for metadata)
+        voter_idx: Voter index (for metadata)
     
     Returns:
         Updated ranking with new statement index (len(statements)) inserted
@@ -90,6 +102,17 @@ Return JSON: {{"insert_position": <number>}}"""
         ],
         temperature=temperature,
         reasoning={"effort": RANKING_REASONING},
+        metadata=build_api_metadata(
+            phase="4_insertion",
+            component="statement_insertion",
+            topic=topic,
+            voter_dist=voter_dist,
+            alt_dist=alt_dist,
+            method=method,
+            rep=rep,
+            mini_rep=mini_rep,
+            voter_idx=voter_idx,
+        ),
     )
     api_timer.record(time.time() - start_time)
     

@@ -18,7 +18,7 @@ from votekit import RankProfile, RankBallot
 from votekit.elections import Plurality, Borda, IRV, RankedPairs
 
 from src.compute_pvc import compute_pvc
-from .config import GENERATIVE_VOTING_MODEL, GENERATIVE_VOTING_REASONING, TEMPERATURE, api_timer
+from .config import GENERATIVE_VOTING_MODEL, GENERATIVE_VOTING_REASONING, TEMPERATURE, api_timer, build_api_metadata
 from .statement_insertion import insert_statement_into_ranking
 
 logger = logging.getLogger(__name__)
@@ -147,7 +147,12 @@ def run_chatgpt(
     statements: List[Dict],
     openai_client: OpenAI,
     model: str = GENERATIVE_VOTING_MODEL,
-    temperature: float = TEMPERATURE
+    temperature: float = TEMPERATURE,
+    topic: str = None,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    mini_rep: int = None,
 ) -> Dict:
     """Run ChatGPT baseline selection from P alternatives."""
     statements_text = "\n\n".join([
@@ -179,6 +184,16 @@ Where the value is the index (0-{n-1}) of the statement you select."""
             ],
             temperature=temperature,
             reasoning={"effort": GENERATIVE_VOTING_REASONING},
+            metadata=build_api_metadata(
+                phase="3_selection",
+                component="gpt_select",
+                topic=topic,
+                voter_dist=voter_dist,
+                alt_dist=alt_dist,
+                method="chatgpt",
+                rep=rep,
+                mini_rep=mini_rep,
+            ),
         )
         api_timer.record(time.time() - start_time)
         
@@ -201,7 +216,12 @@ def run_chatgpt_with_rankings(
     preferences: List[List[str]],
     openai_client: OpenAI,
     model: str = GENERATIVE_VOTING_MODEL,
-    temperature: float = TEMPERATURE
+    temperature: float = TEMPERATURE,
+    topic: str = None,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    mini_rep: int = None,
 ) -> Dict:
     """Run ChatGPT with preference rankings."""
     statements_text = "\n\n".join([
@@ -248,6 +268,16 @@ Where the value is the index (0-{n-1}) of the statement you select."""
             ],
             temperature=temperature,
             reasoning={"effort": GENERATIVE_VOTING_REASONING},
+            metadata=build_api_metadata(
+                phase="3_selection",
+                component="gpt_select_rankings",
+                topic=topic,
+                voter_dist=voter_dist,
+                alt_dist=alt_dist,
+                method="chatgpt_rankings",
+                rep=rep,
+                mini_rep=mini_rep,
+            ),
         )
         api_timer.record(time.time() - start_time)
         
@@ -270,7 +300,12 @@ def run_chatgpt_with_personas(
     personas: List[str],
     openai_client: OpenAI,
     model: str = GENERATIVE_VOTING_MODEL,
-    temperature: float = TEMPERATURE
+    temperature: float = TEMPERATURE,
+    topic: str = None,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    mini_rep: int = None,
 ) -> Dict:
     """Run ChatGPT with persona descriptions."""
     statements_text = "\n\n".join([
@@ -315,6 +350,16 @@ Where the value is the index (0-{n-1}) of the statement you select."""
             ],
             temperature=temperature,
             reasoning={"effort": GENERATIVE_VOTING_REASONING},
+            metadata=build_api_metadata(
+                phase="3_selection",
+                component="gpt_select_personas",
+                topic=topic,
+                voter_dist=voter_dist,
+                alt_dist=alt_dist,
+                method="chatgpt_personas",
+                rep=rep,
+                mini_rep=mini_rep,
+            ),
         )
         api_timer.record(time.time() - start_time)
         
@@ -341,7 +386,12 @@ def run_chatgpt_star(
     sample_statements: List[Dict],
     openai_client: OpenAI,
     model: str = GENERATIVE_VOTING_MODEL,
-    temperature: float = TEMPERATURE
+    temperature: float = TEMPERATURE,
+    topic: str = None,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    mini_rep: int = None,
 ) -> Dict:
     """
     Run ChatGPT* selection from all 100 alternatives.
@@ -387,6 +437,16 @@ Return your choice as JSON: {{"selected_statement_index": <index>}}"""
             ],
             temperature=temperature,
             reasoning={"effort": GENERATIVE_VOTING_REASONING},
+            metadata=build_api_metadata(
+                phase="3_selection",
+                component="gpt_star_select",
+                topic=topic,
+                voter_dist=voter_dist,
+                alt_dist=alt_dist,
+                method="chatgpt_star",
+                rep=rep,
+                mini_rep=mini_rep,
+            ),
         )
         api_timer.record(time.time() - start_time)
         
@@ -416,7 +476,12 @@ def run_chatgpt_star_with_rankings(
     sample_preferences: List[List[str]],
     openai_client: OpenAI,
     model: str = GENERATIVE_VOTING_MODEL,
-    temperature: float = TEMPERATURE
+    temperature: float = TEMPERATURE,
+    topic: str = None,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    mini_rep: int = None,
 ) -> Dict:
     """Run ChatGPT* with preference rankings from sample."""
     # Rankings from sample
@@ -460,6 +525,16 @@ Return your choice as JSON: {{"selected_statement_index": <index>}}"""
             ],
             temperature=temperature,
             reasoning={"effort": GENERATIVE_VOTING_REASONING},
+            metadata=build_api_metadata(
+                phase="3_selection",
+                component="gpt_star_select_rankings",
+                topic=topic,
+                voter_dist=voter_dist,
+                alt_dist=alt_dist,
+                method="chatgpt_star_rankings",
+                rep=rep,
+                mini_rep=mini_rep,
+            ),
         )
         api_timer.record(time.time() - start_time)
         
@@ -486,7 +561,12 @@ def run_chatgpt_star_with_personas(
     sample_personas: List[str],
     openai_client: OpenAI,
     model: str = GENERATIVE_VOTING_MODEL,
-    temperature: float = TEMPERATURE
+    temperature: float = TEMPERATURE,
+    topic: str = None,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    mini_rep: int = None,
 ) -> Dict:
     """Run ChatGPT* with persona descriptions from sample."""
     # Personas from sample
@@ -530,6 +610,16 @@ Return your choice as JSON: {{"selected_statement_index": <index>}}"""
             ],
             temperature=temperature,
             reasoning={"effort": GENERATIVE_VOTING_REASONING},
+            metadata=build_api_metadata(
+                phase="3_selection",
+                component="gpt_star_select_personas",
+                topic=topic,
+                voter_dist=voter_dist,
+                alt_dist=alt_dist,
+                method="chatgpt_star_personas",
+                rep=rep,
+                mini_rep=mini_rep,
+            ),
         )
         api_timer.record(time.time() - start_time)
         
@@ -560,7 +650,11 @@ def generate_new_statement(
     topic: str,
     openai_client: OpenAI,
     model: str = GENERATIVE_VOTING_MODEL,
-    temperature: float = TEMPERATURE
+    temperature: float = TEMPERATURE,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    mini_rep: int = None,
 ) -> Optional[str]:
     """Generate a new consensus statement."""
     statements_text = "\n\n".join([
@@ -594,6 +688,16 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
             ],
             temperature=temperature,
             reasoning={"effort": GENERATIVE_VOTING_REASONING},
+            metadata=build_api_metadata(
+                phase="3_selection",
+                component="gpt_double_star_gen",
+                topic=topic,
+                voter_dist=voter_dist,
+                alt_dist=alt_dist,
+                method="chatgpt_double_star",
+                rep=rep,
+                mini_rep=mini_rep,
+            ),
         )
         api_timer.record(time.time() - start_time)
         
@@ -616,7 +720,11 @@ def generate_new_statement_with_rankings(
     topic: str,
     openai_client: OpenAI,
     model: str = GENERATIVE_VOTING_MODEL,
-    temperature: float = TEMPERATURE
+    temperature: float = TEMPERATURE,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    mini_rep: int = None,
 ) -> Optional[str]:
     """Generate a new consensus statement using preference rankings."""
     statements_text = "\n\n".join([
@@ -662,6 +770,16 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
             ],
             temperature=temperature,
             reasoning={"effort": GENERATIVE_VOTING_REASONING},
+            metadata=build_api_metadata(
+                phase="3_selection",
+                component="gpt_double_star_gen_rankings",
+                topic=topic,
+                voter_dist=voter_dist,
+                alt_dist=alt_dist,
+                method="chatgpt_double_star_rankings",
+                rep=rep,
+                mini_rep=mini_rep,
+            ),
         )
         api_timer.record(time.time() - start_time)
         
@@ -684,7 +802,11 @@ def generate_new_statement_with_personas(
     topic: str,
     openai_client: OpenAI,
     model: str = GENERATIVE_VOTING_MODEL,
-    temperature: float = TEMPERATURE
+    temperature: float = TEMPERATURE,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
+    mini_rep: int = None,
 ) -> Optional[str]:
     """Generate a new consensus statement using persona descriptions."""
     statements_text = "\n\n".join([
@@ -730,6 +852,16 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
             ],
             temperature=temperature,
             reasoning={"effort": GENERATIVE_VOTING_REASONING},
+            metadata=build_api_metadata(
+                phase="3_selection",
+                component="gpt_double_star_gen_personas",
+                topic=topic,
+                voter_dist=voter_dist,
+                alt_dist=alt_dist,
+                method="chatgpt_double_star_personas",
+                rep=rep,
+                mini_rep=mini_rep,
+            ),
         )
         api_timer.record(time.time() - start_time)
         
@@ -1065,7 +1197,10 @@ def generate_bridging_statement_no_context(
     topic: str,
     openai_client: OpenAI,
     model: str = GENERATIVE_VOTING_MODEL,
-    temperature: float = TEMPERATURE
+    temperature: float = TEMPERATURE,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep: int = None,
 ) -> Optional[str]:
     """
     Generate a bridging statement given ONLY the topic (no existing statements).
@@ -1077,6 +1212,9 @@ def generate_bridging_statement_no_context(
         openai_client: OpenAI client instance
         model: Model to use
         temperature: Temperature for sampling
+        voter_dist: Voter distribution (for metadata)
+        alt_dist: Alternative distribution (for metadata)
+        rep: Replication number (for metadata)
     
     Returns:
         Generated bridging statement (2-4 sentences), or None if failed
@@ -1103,6 +1241,15 @@ Return your statement as JSON: {{"bridging_statement": "<your statement>"}}"""
             ],
             temperature=temperature,
             reasoning={"effort": GENERATIVE_VOTING_REASONING},
+            metadata=build_api_metadata(
+                phase="3_selection",
+                component="gpt_triple_star_gen",
+                topic=topic,
+                voter_dist=voter_dist,
+                alt_dist=alt_dist,
+                method="chatgpt_triple_star",
+                rep=rep,
+            ),
         )
         api_timer.record(time.time() - start_time)
         
