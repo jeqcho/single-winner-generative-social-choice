@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.20999999999999996,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.20999999999999996,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be organized around protecting life and rights by using proportional, evidence-based enforcement and minimizing unnecessary contact, especially for low-level offenses. Clear use-of-force limits, early-warning systems, body-worn camera policies, and independent complaint review should be paired with fair due process for officers and consistent consequences for misconduct. Communities should expand co-responder and diversion programs so behavioral-health crises and nonviolent needs are handled by the right professionals, while public dashboards track harm reduction, clearance rates, and community trust\u2014not just arrests.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing clear, proportional conduct and use-of-force standards backed by independent oversight, transparent reporting, and accessible avenues for redress. Officers should receive consistent training and support in de-escalation, bias awareness, cultural competence, and crisis intervention, with wellness resources that sustain professional performance. Communities should expand partnerships and non-police responses\u2014especially for mental-health and nonviolent crises\u2014so help is matched to need, harm is reduced, and outcomes are measured by safety, trust, and dignity rather than arrests alone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while protecting constitutional rights through clear, enforceable rules\u2014especially for stops, searches, and use of force\u2014backed by consistent de-escalation and crisis-intervention training. Independent oversight, body-worn cameras, and transparent public reporting should focus on reducing harm, solving crimes, and fair treatment rather than counting arrests alone. Communities should expand partnerships that route mental-health and nonviolent crises to trained civilian or co-responder teams when appropriate, while ensuring officers have the staffing, wellness support, and equipment needed to respond effectively to serious threats.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

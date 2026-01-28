@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star": {
+      "winner": "88",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star_personas": {
+      "winner": "88",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make it easy for people to see how decisions are made, how money is spent, and what results are achieved. A practical middle ground is to publish clear standards and data, invite structured community input before major decisions, and empower independent reviewers to investigate and report findings publicly. When mistakes happen, institutions should explain what went wrong, fix it on a timeline, and show what safeguards will prevent repeats.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "People across the political spectrum can agree that institutions earn trust by delivering competent, fair results and by making their decisions easy to understand. To rebuild confidence, institutions should communicate in plain language, publish clear standards and evidence for major choices, and be transparent about mistakes and how they are corrected. Independent oversight\u2014such as regular audits, protected whistleblower channels, and enforceable ethics rules\u2014should verify performance and prevent abuse. Finally, meaningful public input and accessible avenues for redress can ensure people are heard and problems are fixed quickly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People may disagree about politics, but most of us want institutions that deliver reliable services, treat people fairly, and explain decisions in plain language. Trust grows when leaders publish clear rules and evidence for major choices, invite regular public input, and accept independent audits and oversight so power can\u2019t be abused. When mistakes happen, institutions should acknowledge them quickly, fix them on a clear timeline, and provide simple, accessible ways for people to appeal decisions or report wrongdoing without retaliation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

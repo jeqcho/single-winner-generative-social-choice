@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for people to verify how decisions are made, who benefits, and how success or failure is measured\u2014using plain explanations, open records, and clear standards of service. They should invite structured public input early, publish how that input changed (or didn\u2019t change) the outcome, and submit to independent review with real consequences for misconduct. When mistakes happen, institutions must fix the harm quickly, explain what changed to prevent repeats, and protect rights and privacy while delivering consistent day-to-day performance.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Institutions can rebuild public trust by making decisions and results easy to verify: publish clear goals, data, and plain-language explanations of evidence and trade-offs, then report progress against measurable standards. Pair this transparency with real accountability\u2014independent audits and citizen oversight, strong privacy and rights protections, and simple, accessible channels for feedback and fair redress when standards aren\u2019t met. Sustained, respectful local engagement and consistent, service-first follow\u2011through (including promptly admitting and correcting mistakes) show that institutions are competent, fair, and responsive to everyday needs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "To rebuild public trust, institutions should act like reliable service providers: explain decisions and trade-offs in plain language, publish clear standards and results people can verify, and protect privacy and individual rights. They should submit to independent, nonpartisan audits and create simple, local channels for input and redress so mistakes are admitted, fixed quickly, and learned from. Consistent, fair, respectful service\u2014focused on everyday outcomes like safety, health, schools, and jobs\u2014earned over time is what turns skepticism into confidence across political and cultural lines.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

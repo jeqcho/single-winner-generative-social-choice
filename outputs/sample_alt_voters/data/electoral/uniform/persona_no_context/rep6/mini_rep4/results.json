@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should keep a meaningful state role while ensuring the winner reflects the broadest national support and that voters in non-swing states aren\u2019t effectively written off. A bipartisan path would set national baseline rules for ballot access, counting, audits, and recount triggers, while encouraging states to move away from winner-take-all toward a proportional model with strong anti-gerrymandering safeguards. Changes should be phased in with clear public benchmarks so the system stays stable, transparent, and widely accepted across urban, suburban, and rural communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Electoral College reform should keep a meaningful state-based role so smaller and rural communities aren\u2019t ignored, while making outcomes track the popular vote more closely and reducing winner-take-all distortions. A practical compromise is for states to allocate electors proportionally or by district with strong protections against gerrymandering, alongside clear national standards for ballot access, counting, audits, and recounts. As an alternative transition path, the National Popular Vote Interstate Compact could be adopted once enough states join, paired with transparent administration so results are timely, secure, and broadly accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforms to the Electoral College should make presidential outcomes track the voters\u2019 will more closely while keeping a meaningful role for states and ensuring smaller and rural communities aren\u2019t ignored. A broadly acceptable path is to reduce winner-take-all by moving to proportional or district-based elector allocation, and to pair any change with clear national baseline standards for ballot access, voter-list accuracy, audits, and timely recounts so every legitimate vote is counted securely and transparently. If broader agreement emerges, a phased option like the National Popular Vote Interstate Compact\u2014potentially combined with ranked-choice voting\u2014could be considered to strengthen majority support and public confidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

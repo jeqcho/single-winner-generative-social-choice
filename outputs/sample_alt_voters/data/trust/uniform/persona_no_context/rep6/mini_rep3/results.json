@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make their work easy to see and judge: publish clear goals, budgets, and results, and explain tradeoffs in plain language before decisions are finalized. Create real consequences for misconduct and poor performance through independent audits, protected whistleblowers, and transparent complaint-and-appeals processes. Pair this with consistent, respectful two-way engagement\u2014especially with communities most affected\u2014so feedback leads to visible changes and services are reliable, fair, and accessible.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they deliver reliable, measurable results in everyday life while communicating decisions plainly and transparently. Clear accountability\u2014independent oversight, regular public reporting, and real consequences for failures\u2014shows that leaders are responsible stewards of the public interest. Trust deepens when institutions listen respectfully, involve local communities in shaping and reviewing policies, and openly acknowledge and correct mistakes so promises consistently match actions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions show, in plain language and with public data, how decisions are made, how money is spent, and whether promised results are actually delivered. Leaders should be held to consistent standards through independent audits, clear consequences for wrongdoing, and protections for whistleblowers, while also admitting mistakes and fixing them quickly. Trust also grows when services are reliable and respectful\u2014less red tape, faster responses, and local forums where residents can question officials and see follow-through\u2014while privacy and individual rights are protected.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

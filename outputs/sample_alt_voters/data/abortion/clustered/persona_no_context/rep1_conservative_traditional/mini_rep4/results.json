@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.32000000000000006,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.33000000000000007,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by protecting health and dignity, taking seriously the moral value many place on developing life, and keeping decisions anchored in medical evidence rather than political pressure. A balanced framework protects timely access to care early in pregnancy and sets clearer, more restrictive standards later, with explicit exceptions for life- or health-threatening conditions, severe fetal anomalies, and pregnancies from rape or incest, so clinicians can act without delay. Common ground is strengthened by pairing any legal limits with concrete prevention and support\u2014contraception, accurate education, prenatal and mental-health care, adoption services, and help with childcare and income\u2014so fewer people face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.30000000000000004
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by respect for human life, compassion for women and families facing difficult circumstances, and clear reliance on medical evidence so patients and clinicians can act safely. A workable approach sets clear, consistent limits while providing narrowly defined exceptions for serious threats to the mother\u2019s life or health and other extreme situations, written plainly and applied fairly. Common ground is strengthened by reducing unplanned pregnancies and pressures that lead to abortion through accurate education, access to contraception, prenatal and mental-health care, adoption support, and practical help for parents\u2014so fewer people feel cornered into a desperate choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should respect the value many place on unborn life while ensuring compassionate, medically grounded care for women and families facing difficult or urgent circumstances. A workable approach sets clear, consistent limits with plainly written exceptions for the mother\u2019s life and serious health threats, and addresses cases of rape, incest, and severe fetal conditions with humane discretion so doctors can act without fear. Common ground grows when policy also reduces unplanned pregnancies and pressure on families through accurate education, access to contraception, prenatal and mental-health care, adoption support, and practical help for parents\u2014while avoiding harsh criminalization of patients.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

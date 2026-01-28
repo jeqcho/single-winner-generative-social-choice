@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make their work easy to see and judge: set clear goals, publish plain-language reasons and results, and invite independent verification. They should treat people consistently under the same rules, protect privacy, and respond to failures with prompt fixes, restitution where appropriate, and consequences for wrongdoing. Creating ongoing, local ways for residents to help define priorities\u2014especially those who feel ignored\u2014turns oversight into shared problem-solving and keeps institutions focused on serving the public rather than insiders.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver reliable, equitable services and explain decisions and trade\u2011offs in plain language people can understand. Make performance verifiable through accessible data, clear reporting, and independent audits or oversight, and respond quickly and impartially when standards slip. Create genuine, neighborhood-level ways for diverse residents to shape priorities and see their input reflected in outcomes. Protect privacy and fairness while keeping a steady, nonpartisan focus on solving everyday problems.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions are easy to understand and verify: they explain decisions and trade\u2011offs in plain language, publish clear performance data, and invite regular, local input in multiple languages and formats. Independent audits and strong ethics rules should hold leaders accountable, with fast, fair corrections and real consequences when mistakes or bias occur. Above all, institutions must deliver consistent, equitable results people feel\u2014safe communities, reliable schools and healthcare, responsive services\u2014while protecting privacy and respecting different communities\u2019 values.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "88"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "88"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "88"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "88"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect both human dignity and health by treating pregnancy as morally serious while keeping care safe, timely, and guided by medical expertise. A durable middle ground sets clear, medically grounded standards that protect early access, include explicit exceptions for life- and health-threatening complications, rape, and incest, and avoid criminalizing patients or forcing clinicians to delay urgent care. It should also invest in shared prevention and support\u2014sex education, contraception, maternal healthcare, paid leave, childcare, and adoption/foster improvements\u2014so fewer pregnancies become crises and families have real choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for personal autonomy and privacy, while acknowledging the moral seriousness many people attach to potential life. A workable framework protects timely, safe access\u2014especially early in pregnancy\u2014and ensures clear, medically grounded exceptions for rape, incest, and threats to the patient\u2019s life or serious health harm, so politicians do not override doctors in urgent situations. Common ground is strengthened by reducing unwanted pregnancies through comprehensive sex education and affordable contraception, and by expanding practical supports like prenatal and postnatal care, childcare, and adoption resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by respect for human dignity and moral conscience, protecting the health, safety, and privacy of the pregnant patient while acknowledging that many people see potential life as deserving serious moral consideration. A workable framework sets clear, medically grounded rules that ensure timely access to care\u2014especially in emergencies, severe fetal conditions, and cases of rape or incest\u2014while avoiding punitive interference that second-guesses patients and clinicians. Common ground also means reducing unwanted pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and postnatal healthcare, and practical supports like childcare and adoption resources, so fewer families face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

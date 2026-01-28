@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "61"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by minimizing harm and safeguarding health: ensure timely, confidential access to evidence-based care and protect clinicians\u2019 ability to act according to medical judgment. If limits are set, they should be clear, workable, and tied to gestational development, with prompt exceptions for threats to life or serious health, fatal or severe fetal diagnoses, and pregnancies from rape or incest, without criminalizing patients. The legal framework should be paired with practical prevention and support\u2014reliable contraception, accurate education, prenatal care, and economic help for parents\u2014so fewer people face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should prioritize patient health, privacy, and timely access to care by grounding rules in medical evidence and clinician judgment rather than punishment or political intrusion. Recognizing deep moral disagreement, policy can allow early, time-sensitive decision-making while setting clear, transparent guardrails later in pregnancy tied to health risks and fetal development, with narrowly defined exceptions for life-threatening emergencies, rape or incest, and severe fetal anomalies. To reduce crisis pregnancies and support families regardless of outcome, any legal framework should be paired with robust prevention and supports\u2014affordable contraception and comprehensive sex education, plus prenatal and postnatal healthcare, childcare, and economic assistance.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should prioritize protecting the pregnant person\u2019s life, health, and privacy, while acknowledging that many people also see developing fetal life as morally significant. Decisions should be guided by medical evidence and clinician judgment\u2014not criminal penalties\u2014and include clear, workable exceptions for medical emergencies, serious threats to health, rape or incest, and severe fetal anomalies. Any limits should be transparent, tied to fetal development and medical reality, and paired with strong prevention and family supports\u2014contraception, comprehensive education, prenatal care, adoption services, and economic help\u2014so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

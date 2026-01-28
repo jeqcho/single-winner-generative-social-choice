@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star": {
+      "winner": "35",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_personas": {
+      "winner": "48",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued as mutually reinforcing goals by setting firm, science-based limits on harmful pollution while giving employers and workers clear, stable pathways to meet them. Pair performance-based standards and market signals with time-limited financial support, infrastructure upgrades, and training so communities\u2014especially those most dependent on legacy industries\u2014can transition without sudden shocks. Decisions should be transparent and locally informed, with regular reviews that measure results, adjust what isn\u2019t working, and ensure both competitiveness and public health improve over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, water, and healthy ecosystems as the foundation of lasting prosperity and public health. Use clear, science-based standards with predictable, phased timelines, paired with market incentives and investment in affordable clean technology so businesses can innovate and plan. Ensure a fair transition with targeted retraining and support for workers and small businesses, guided by local input, transparent metrics, and accountability for pollution.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should reinforce each other by treating clean air, water, and healthy land as the foundation for long-term prosperity, public health, and reliable local livelihoods. Use science-based standards with clear, predictable timelines, paired with market incentives and targeted investments that help businesses\u2014especially small employers and essential industries\u2014adopt cleaner, affordable technology. Phase changes in responsibly, hold major polluters accountable, and provide practical transition support like retraining and community-led planning so workers and families aren\u2019t left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "98",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be written around measurable goals\u2014protecting health, preventing coercion, and reducing avoidable suffering\u2014rather than enforcing a single moral view. It should guarantee prompt, safe access early in pregnancy, and allow later regulation only when it is clearly defined, medically workable, and paired with broad exceptions for serious health threats, nonviable or grave fetal conditions, and pregnancies from rape or incest. Enforcement should target unsafe practice and bad-faith actors, not criminalize patients or clinicians acting in good faith. Alongside any legal limits, governments should expand contraception, evidence-based sex education, and pregnancy/parenting supports so fewer people reach this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should treat pregnancy decisions as primarily a medical matter, protecting patient health, privacy, and timely access to safe care under evidence-based standards and clinician judgment. It should also acknowledge widespread moral concern for potential life by using clear, narrowly defined limits later in pregnancy with exceptions for serious threats to health or life, rape or incest, and severe fetal conditions, without punitive enforcement that deters care. Alongside any legal guardrails, governments should invest in comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical family supports so fewer people face unwanted pregnancies or feel forced into crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should treat pregnancy as both a moral and medical reality: protect women\u2019s health, privacy, and decision-making with care guided by qualified clinicians and evidence-based standards, not political punishment. The law can acknowledge concern for unborn life by allowing timely access early in pregnancy while setting clear, workable, medically grounded safeguards for later-term cases, with explicit exceptions for serious health threats, rape or incest, and severe fetal conditions. To reduce abortions and support families, government should expand sex education, affordable contraception, prenatal and postpartum care, adoption support, and practical economic help so fewer people face this decision under crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

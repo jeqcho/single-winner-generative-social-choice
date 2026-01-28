@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.27,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by protecting human dignity and health, while acknowledging that citizens hold sincere, conflicting moral views about pregnancy and developing life. A workable compromise protects timely, medically safe access early in pregnancy, allows carefully defined limits later, and guarantees clear exceptions for threats to the patient\u2019s life or serious health, rape or incest, and nonviable or severe fetal conditions\u2014leaving urgent judgments to clinicians rather than politicians. Common ground grows when policy also reduces unintended pregnancy and hardship through comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical supports for parenting and adoption, without criminalizing patients or doctors acting in good faith.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for human dignity\u2014protecting a pregnant person\u2019s health and privacy while acknowledging the moral weight many place on potential life. A workable approach protects timely, medically safe access at least early in pregnancy and in emergencies, with clear, narrowly written exceptions for serious health threats, rape or incest, and severe fetal conditions, and with room for clinician judgment rather than political micromanagement. Common ground grows by reducing unintended pregnancies and crisis decisions through comprehensive sex education, affordable contraception, prenatal/postpartum care, and practical supports for parents and adoption so fewer families feel cornered.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by respect for human dignity and potential life, while protecting a pregnant patient\u2019s health, privacy, and ability to receive timely, evidence-based medical care. A durable compromise can protect access early in pregnancy and allow carefully defined limits later, with clear exceptions for medical emergencies and serious health threats, rape or incest, and severe fetal conditions\u2014written with strong deference to clinician judgment rather than political interference. Common ground grows by reducing unintended pregnancies and pressures that lead to abortion through comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical supports like counseling, adoption resources, and economic help for families.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

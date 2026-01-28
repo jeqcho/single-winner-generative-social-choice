@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to make presidential elections feel both fair and federally grounded: voters should understand the rules, and the winner should reflect broad national support without erasing state and regional interests. A pragmatic middle path is for states to reduce winner-take-all effects by adopting proportional or ranked-choice allocation of electors, while strengthening enforceable \u201cfaithful elector\u201d laws to match certified results. In parallel, agree on a limited national floor for election administration\u2014baseline ballot access, auditability, and uniform recount triggers\u2014so outcomes are consistent, transparent, and harder to dispute.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable compromise is to keep the Electoral College\u2019s state-based structure but reduce winner-take-all distortions so outcomes track the national popular will more closely. States could allocate electors proportionally (or by district) and require electors to follow certified results, while supporting an optional National Popular Vote Interstate Compact once enough states join to ensure a clear nationwide mandate. Pair any change with uniform baseline rules for ballot access, recount triggers, audits, and transparent certification so every lawful vote is treated consistently and trust rises across parties and regions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "The Electoral College can be kept while reducing \u201cwinner\u2011take\u2011all\u201d distortions so outcomes track the voters more closely and every community feels heard. A practical reform would have states allocate electors proportionally (or by district with anti\u2011gerrymandering safeguards) and require electors to follow the state\u2019s certified popular vote, while allowing the National Popular Vote Interstate Compact as an opt\u2011in path if enough states join. Whichever route is chosen, confidence depends on clear, uniform baseline rules for ballot access, secure counting and audits, and automatic recount triggers in very close elections\u2014so the process is simple, transparent, and trusted across party lines.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

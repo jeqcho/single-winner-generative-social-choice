@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental rules as clear, predictable guardrails that protect health and ecosystems, while giving businesses flexibility in how to meet them at lowest cost. Set science-based limits and timelines, then use tools like performance standards, permitting reform for clean projects, and targeted public investment to drive competitiveness and energy security. Pair these policies with transition aid\u2014retraining, local redevelopment, and support for small firms\u2014so regions facing higher costs are not left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection as a foundation for long-term economic prosperity: healthy ecosystems, clean air and water, and climate stability support productivity and public health. Policymakers should set clear, measurable environmental standards and use flexible, market-based tools and incentives to spur innovation, efficiency, and clean investment. Phasing in changes and providing transition support\u2014such as retraining, regional investment, and safety nets\u2014helps workers and communities adapt so growth is broad-based and sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A durable balance protects clean air, water, and critical ecosystems while keeping energy and everyday costs affordable and supporting good jobs. Set clear, measurable standards and use flexible, market-friendly tools and innovation incentives so businesses can meet them efficiently, with phased timelines that avoid sudden disruption. Pair these steps with transparent results tracking and targeted support\u2014retraining, local investment, and help for affected workers and regions\u2014so communities share in the benefits of a cleaner, more resilient economy.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

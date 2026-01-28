@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be organized around proportionality and equal treatment: officers intervene only as necessary, explain their actions, and follow clear limits on stops, searches, surveillance, and use of force. Accountability must be credible and timely\u2014independent investigations, accessible complaint processes, and public reporting of outcomes\u2014while protecting due process for both residents and officers. Communities should co-design priorities and pair enforcement with non\u2011police options (crisis clinicians, outreach, and restorative pathways) so the default response is help when possible and enforcement when required.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing clear, narrow use-of-force rules, prioritizing de-escalation and respectful interactions, and holding misconduct accountable through independent, transparent oversight and regular public reporting. Communities should help shape priorities, while mental-health and social-service crisis teams and other alternatives to arrest handle nonviolent needs when appropriate. Data-driven evaluation and support for officer training and wellbeing can reduce harm, improve effectiveness, and build lasting trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while protecting constitutional rights by using clear, narrowly tailored use-of-force standards, strong de-escalation and crisis-response training, and consequences for misconduct through independent, transparent review. Put the right responder in the right situation by partnering with mental-health, addiction, and social-service teams for nonviolent crises, while ensuring officers are well trained, supported, and equipped for genuinely dangerous calls. Regular public reporting and community input on priorities\u2014along with privacy-respecting technology and data\u2014can build trust, improve effectiveness, and ensure everyone is treated fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

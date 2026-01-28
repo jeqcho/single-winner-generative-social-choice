@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "83"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "To rebuild trust, institutions should make their goals and tradeoffs visible: publish clear budgets and performance dashboards, explain decisions in plain language, and set timelines so the public can track whether promises are kept. Independent audits and conflict-of-interest rules should verify integrity, while simple, well-publicized complaint and appeal processes ensure people can get timely remedies when government falls short. Trust rises most when institutions deliver basic services reliably and treat everyone consistently and with dignity, while engaging communities early enough that feedback can actually change outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Institutions rebuild trust by making decisions transparent and understandable, publishing clear performance data, and welcoming independent oversight so people can verify what was done and why. They should deliver consistent, measurable improvements in everyday life\u2014safe neighborhoods, reliable services, accessible care\u2014while enforcing rules fairly and protecting rights and privacy. Regular two-way local engagement, real avenues for feedback and redress, and a willingness to admit and correct mistakes show respect and turn accountability into tangible results across different communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions are transparent about how decisions are made, publish clear results people can verify, and submit to independent audits and ethics review. They should deliver reliable basics\u2014safe streets, clean water, responsive schools and healthcare\u2014while enforcing rules consistently, protecting rights and privacy, and correcting mistakes quickly. Ongoing local listening sessions, simple channels for complaints and appeals, and practical civic education let communities shape policy and hold leaders accountable across political and cultural divides.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

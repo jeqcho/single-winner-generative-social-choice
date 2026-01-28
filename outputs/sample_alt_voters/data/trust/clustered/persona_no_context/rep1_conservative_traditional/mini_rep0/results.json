@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "47",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make decision rules and goals explicit, publish simple performance dashboards (including what went wrong), and face real consequences for misconduct or chronic failure. People are more likely to believe institutions that deliver dependable, equitable services close to home by partnering with local organizations and frontline staff, and by giving residents a clear way to shape priorities and appeal decisions. Using plain-language communication, protecting privacy, and welcoming independent audits turns skepticism into confidence by proving that power is exercised predictably, fairly, and in the public interest.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when leaders deliver reliable, fair services and communicate decisions in plain language backed by evidence, while treating people\u2019s time, privacy, and everyday concerns with respect. Institutions should be transparent about goals, data, and tradeoffs, admit and correct mistakes, and publish measurable results that show whether promises were kept. Independent oversight and open accountability\u2014paired with genuine local partnership through frontline workers, community leaders, and regular feedback forums\u2014help bridge political divides by making institutions dependable neighbors rather than distant authorities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions deliver reliable, everyday services fairly and efficiently, explain decisions in plain language, and publish clear performance measures so people can see results. Leaders should follow the rule of law, protect privacy, and admit and correct mistakes quickly, with independent audits and real consequences for misconduct. Trust also grows when decisions are shaped with local input\u2014working with schools, clinics, faith and civic groups, and frontline workers\u2014so solutions respect community values while staying grounded in evidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance starts by protecting the environmental \u201cfloor\u201d we can\u2019t afford to cross\u2014clean air and water, climate stability, and critical habitats\u2014while giving businesses predictable, flexible pathways to comply. Pair firm, science-based limits with market tools and streamlined permitting for cleaner projects so investment shifts toward low-impact growth rather than simply moving elsewhere. Use revenue and public finance to cut household costs, retrain workers, and support regions dependent on high-pollution industries, so the transition is credible and broadly shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection as the foundation of long-term prosperity while using market-friendly tools to keep growth and innovation strong. Set clear, science-based standards and price pollution, then pair them with incentives and public investment in clean technology, efficiency, and resilient infrastructure that create good jobs. Phase policies in predictably and provide targeted support\u2014training, transition aid, and community investment\u2014so workers, businesses, and regions can adapt fairly as ecosystems are safeguarded.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance recognizes that clean air, water, and reliable natural resources are the foundation of long-term jobs and prosperity, while families and small businesses also need affordable energy and stable livelihoods today. We should set clear, science-based environmental standards and use flexible, market-friendly tools and targeted public investment to spur innovation, efficiency, and resilient infrastructure. Any transition should be phased in and paired with practical support\u2014job training, wage and benefit protections, and help for affected regions\u2014so the costs don\u2019t fall on workers and communities least able to absorb them.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

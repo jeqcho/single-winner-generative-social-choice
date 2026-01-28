@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for lawful, proportional protection of the public while treating constitutional rights and equal treatment as non\u2011negotiable. That means clear, narrowly tailored authority (especially on stops, searches, and use of force), continuous training and supervision, and independent oversight with public reporting that includes strong privacy safeguards. Cities should also expand non\u2011police options\u2014crisis clinicians, violence\u2011interruption, and problem\u2011solving partnerships\u2014so officers can focus on serious threats and communities see fewer unnecessary confrontations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing laws fairly under clear, constitutionally grounded policies\u2014especially narrow, enforceable use\u2011of\u2011force rules\u2014and prioritizing de\u2011escalation and bias\u2011aware training. Independent, transparent oversight and public reporting (including body\u2011worn evidence with privacy safeguards) should provide real accountability and measurable evaluation. Expand non\u2011police responses for nonviolent mental\u2011health and homelessness crises and invest in community, housing, and youth supports so force is a last resort and officers can focus on genuine threats.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while strictly protecting constitutional rights by enforcing clear, narrow use-of-force rules, prioritizing de-escalation, and applying the law fairly and consistently. Independent oversight, transparent reporting with sensible privacy safeguards, and prompt, evenhanded discipline for misconduct build trust and legitimacy for both residents and officers. When calls involve mental-health crises, substance use, or homelessness, communities should deploy trained co-responders or civilian teams alongside police when needed, backed by prevention services that reduce repeat emergencies and let officers focus on serious threats.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

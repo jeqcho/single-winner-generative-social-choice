@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "39",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make it easy for people to see how decisions are made, how money is used, and what results are achieved\u2014then accept real consequences when they fall short. Pair clear, plain-language explanations with predictable, respectful service and multiple ways for residents to shape priorities, including those who disagree or feel overlooked. Independent audits, strong ethics and privacy protections, and regular public reporting on outcomes can shift debates from slogans to shared facts and lived improvements.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions behave like reliable service providers: make decisions transparently, explain them in plain, accessible language, and publish clear performance measures so people can see results. Trust is strengthened by real accountability\u2014admitting mistakes, correcting them quickly, and using independent oversight and audits to verify fairness, privacy, and ethical stewardship. Consistent, predictable services and respectful local engagement that invites diverse voices into practical problem\u2011solving create common ground across political lines over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions are visibly fair, competent, and consistent: explain decisions in plain language, publish easy-to-check performance results, and apply the same rules to everyone while protecting privacy and data. When mistakes happen, leaders should admit them quickly, fix them, and face independent oversight and regular audits so accountability is real. Trust also increases when people can participate locally\u2014through accessible meetings, multilingual services, and responsive help with everyday issues like safety, schools, healthcare, and public services\u2014so different communities feel heard and see tangible improvements over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "17"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "17"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "17"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star": {
+      "winner": "44",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance is to set non\u2011negotiable protections for public health and critical ecosystems, while giving businesses flexible, predictable pathways to meet those standards at the lowest cost. Using tools like pollution pricing, streamlined permitting for cleaner projects, and time\u2011bound support for workers and regions in transition can reduce disruption and spur investment. Regular review of outcomes\u2014jobs, costs, and environmental indicators\u2014keeps policy grounded in evidence and adjusts course when needed.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection as the basis of long-term prosperity, while pursuing growth through cleaner, more efficient production and new industries. We can set clear, measurable environmental standards and align market incentives so pollution and resource impacts are priced in, while giving businesses predictable timelines to innovate and adapt. Investing in clean technology, resilience, and restoration can create jobs, and fair transition supports\u2014retraining, regional investment, and safety nets\u2014can ensure workers and communities share the benefits and aren\u2019t left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "We can grow the economy while protecting the air, water, and land we all depend on by setting clear, predictable environmental standards and giving businesses flexibility and time to meet them through innovation and efficiency. Pairing these safeguards with targeted tax incentives, infrastructure investment, and streamlined permitting for cleaner projects can create good jobs and keep U.S. industry competitive. To keep the transition fair, we should provide retraining, wage and benefit protections, and support for communities and workers in affected sectors, with transparent, measurable goals so everyone can see progress and hold leaders accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

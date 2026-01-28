@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College\u2019s state-based framework but reduce the winner-take-all effect that makes most voters feel sidelined. States could be encouraged or required to award electors proportionally (with fair, nonpartisan districting if districts are used), while adopting baseline national rules for ballot access, counting timelines, audits, and recount triggers so results are comparable and trusted everywhere. Over time, if broad agreement emerges, the National Popular Vote Interstate Compact could serve as a transparent transition that better aligns outcomes with the popular will without abruptly rewriting the system.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections track the popular will more reliably while still preserving a meaningful state-based role so small and rural communities aren\u2019t ignored. A strong middle-ground is to keep the Electoral College but require states to allocate electors proportionally (or by district with fair, nonpartisan districting), reducing winner-take-all distortions and swing-state dominance. Whatever model is chosen should be paired with clear, uniform national standards for ballot access and counting, transparent audits and recount triggers, and safeguards that build trust without unnecessarily blocking eligible voters.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any reform should aim for the president to reflect the voters\u2019 choice more closely while keeping the system understandable, secure, and respectful of regional and small\u2011state voices. A strong middle-ground is to end winner-take-all by requiring proportional allocation of electors in every state (with independent redistricting if districts are used), while setting clear national baseline rules for ballot access, counting, audits, and automatic recount thresholds. If experience with those changes builds broad confidence, states could then consider the National Popular Vote Interstate Compact as a next step toward aligning outcomes with the national vote without a sudden constitutional overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

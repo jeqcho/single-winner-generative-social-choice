@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should start from a shared aim: protect the life and health of pregnant patients while treating potential life with moral seriousness, using clear, evidence-based medical standards rather than political litmus tests. Any restrictions should include prompt, workable exceptions for life or serious health risks, nonviable pregnancies, and pregnancy from rape or incest, and should avoid punitive measures that deter patients or clinicians from seeking or providing care. Lasting common ground also requires reducing the need for abortion through comprehensive sex education, affordable contraception, and strong supports for pregnancy, birth, and parenting\u2014including prenatal care, paid leave, childcare, and adoption resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be grounded in evidence-based medicine, protect patient privacy, and preserve timely clinical judgment between patients and qualified clinicians. Policy should acknowledge the moral seriousness many attach to potential life while ensuring clear, narrowly tailored exceptions for threats to life or serious health, and for traumatic circumstances such as rape or incest, without criminalizing patients or clinicians. To reduce the number of abortions and crisis pregnancies, governments should prioritize prevention and support\u2014comprehensive sex education, affordable contraception, and robust prenatal, parenting, childcare, and economic assistance.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in medical evidence and protect patient privacy, while recognizing that many people view pregnancy and potential life as morally serious. Policy should keep time\u2011sensitive decisions with patients and licensed clinicians and include clear, workable exceptions for threats to life or serious health, and for pregnancies resulting from rape or incest, without criminalizing patients or providers acting in good faith. To reduce the number of abortions and support families, lawmakers should expand comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption options, paid leave, childcare, and economic assistance so carrying a pregnancy is more feasible for those who choose it.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

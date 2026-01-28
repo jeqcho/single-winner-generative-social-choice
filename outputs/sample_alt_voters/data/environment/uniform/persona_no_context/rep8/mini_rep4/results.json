@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "52"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be aligned by treating clean air, water, and stable ecosystems as essential infrastructure for a productive economy. Policymakers should set clear, achievable environmental targets and timelines, then let businesses and communities meet them through a mix of market signals, performance-based standards, and locally tailored solutions. Pairing accountability for pollution with predictable rules, transition assistance for workers, and support for small businesses can reduce harm without undermining competitiveness or jobs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, because healthy air, water, and land are foundations of long-term prosperity and public health. Clear, science-based and predictable rules\u2014paired with market incentives and measurable outcomes\u2014can hold polluters accountable while giving businesses room to innovate and stay competitive. Policies should be practical and locally informed, phased in where needed, and include targeted support such as job training and transition assistance for workers and small businesses so communities remain stable as standards improve.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, because clean air and water, public health, and reliable natural resources are foundations for strong local economies and family livelihoods. The best balance uses clear, science-based and predictable standards that hold major polluters accountable while giving businesses flexibility through market incentives, measurable goals, and locally informed solutions. Investments in clean infrastructure and technology should be paired with phased timelines, worker retraining, and support for small businesses so communities can adapt without losing jobs. This approach protects today\u2019s quality of life while building durable prosperity for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance is to treat environmental integrity as a foundation for durable prosperity, while sequencing changes so households and businesses can adapt. Set predictable, science-based limits on pollution and habitat loss, then use flexible compliance options and incentives to spur private investment in cleaner production and resource efficiency. Pair these policies with targeted support\u2014such as transition funding, retraining, and place-based development\u2014for workers and regions most affected, and track progress with transparent metrics that can be adjusted as evidence improves.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable balance treats a healthy environment as the foundation for durable prosperity: set clear, science-based environmental standards and phase them in with predictable timelines and transparent metrics. Pair these limits with market incentives and targeted public investment to spur clean innovation, efficiency, and resilient infrastructure that create jobs and new markets. Ensure a fair transition by supporting workers, small businesses, and vulnerable communities with retraining, temporary assistance, and locally informed planning so costs and benefits are shared equitably.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance starts by recognizing that clean air, water, and healthy land are the foundation of long-term prosperity, while families and businesses also need reliable jobs and affordable energy. We should set clear, science-based environmental standards and use flexible, cost-effective tools\u2014like incentives for cleaner technology, efficiency, and fair pricing of pollution\u2014so companies can innovate rather than simply comply. Changes should be phased in with practical support such as worker retraining, help for small businesses, and targeted assistance for communities and industries that would bear the biggest short-term costs. With transparent metrics and local input, we can protect resources and keep the economy competitive and broadly shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_star": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A practical middle ground is to set policing priorities around preventing serious harm while minimizing unnecessary intrusion on everyday life. That means well-defined stop/search and use-of-force rules, supervision and independent audits that verify compliance, and public metrics that track both safety outcomes and rights impacts (complaints, disparities, and injuries). Pairing this with scaled responses\u2014co-responder or civilian crisis teams for behavioral health calls and diversion options for low-level offenses\u2014can improve safety, reduce escalation, and strengthen constitutional protections.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public safety and civil rights should be treated as mutually reinforcing by using evidence-based strategies with clear, enforceable limits on force, strong de-escalation and crisis-response alternatives, and transparent reporting of stops, searches, and outcomes. Independent civilian oversight and fair, consistent accountability help ensure constitutional protections are upheld and misconduct is addressed. Partnering with residents to set local priorities\u2014while investing in mental-health, housing, and violence-prevention supports\u2014reduces unnecessary enforcement and builds the trust that makes communities safer.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Communities can agree that public safety and civil rights strengthen each other when policing is fair, lawful, and focused on preventing harm. That means clear and consistently enforced use-of-force and de-escalation standards, transparent reporting and independent review of serious incidents, and community input on priorities so enforcement is equitable and predictable. It also means using evidence-based alternatives\u2014like crisis response teams, diversion for low-level offenses, and partnerships with mental-health and social services\u2014so officers can focus on violent crime while rights and dignity are protected.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

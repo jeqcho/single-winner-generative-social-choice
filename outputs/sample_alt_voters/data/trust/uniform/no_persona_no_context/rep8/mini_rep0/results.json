@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "27"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "27"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust can rise when institutions make it easy for anyone to see how decisions are made, who benefits, and what happens when things go wrong. That means publishing plain-language rationales, budgets, and outcomes; setting clear service standards; and using independent oversight with real consequences for misconduct or repeated failure. Pair these safeguards with regular, structured public deliberation\u2014especially including communities most affected\u2014so policies are tested against lived experience as well as evidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions pair real-world results with humility: acknowledge mistakes, explain the evidence and trade-offs behind decisions in plain language, and show how corrections will be made on a clear timeline. Set predictable rules and conflict-of-interest safeguards, and use independent audits and transparent metrics so the public can verify performance. Create meaningful, ongoing ways for diverse communities to shape priorities and give feedback, so institutions are both accountable and responsive to the people they serve.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Trust in institutions can grow when they focus on doing the basics well\u2014reliable services, equal treatment, and protection of rights\u2014while being honest about mistakes and quick to fix them. Set clear, public standards for performance and ethics (including conflict-of-interest rules), report results in plain language, and use independent audits so people don\u2019t have to \u201cjust trust\u201d officials. Pair that transparency with regular, accessible ways for everyday residents from all communities to give input and see how it affected decisions, so accountability and responsiveness become routine rather than partisan.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

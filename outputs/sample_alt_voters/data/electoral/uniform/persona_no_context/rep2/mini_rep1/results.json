@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star": {
+      "winner": "52",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star_personas": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College\u2019s state-based framework but remove the biggest distortions by ending winner-take-all and requiring proportional allocation of electors in every state, with a small national threshold to ensure the winner has broad support. Pair that with uniform national rules for ballot access, counting, audits, and recount triggers so close elections are handled transparently and consistently. If proportional allocation still regularly produces outcomes that conflict with the national vote, a clearly defined transition path to a national popular vote\u2014through an amendment or a widely supported compact\u2014should remain on the table.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reforming the Electoral College should preserve the states\u2019 role while making outcomes track the national will more consistently and reducing today\u2019s winner-take-all, swing-state distortions. A practical bridge is to require states to allocate electors proportionally (or by district with strong anti-gerrymandering protections), paired with clear national baseline standards for ballot access, secure administration, audits, and transparent recounts. If confidence and legitimacy still fall short, states could use an interstate compact as a phased path toward a national popular vote, so every ballot matters while maintaining broad geographic buy-in.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fair to every voter while preserving the Constitution\u2019s state-based role so smaller and rural communities aren\u2019t ignored. A practical compromise is to keep the Electoral College but end winner-take-all by requiring proportional (or district-based with strong anti-gerrymandering rules) allocation of electors, paired with clear national baselines for ballot access, voter verification options, audits, and recount transparency. If confidence still lags, states can use a phased approach such as the National Popular Vote Interstate Compact, ideally alongside ranked-choice voting, to ensure the winner reflects broad support and campaigns beyond a handful of swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should start from shared goals: safeguard the pregnant person\u2019s life and health, treat difficult situations with dignity, and acknowledge the moral significance many attach to developing life. Any limits should be medically workable and clearly written, with prompt exceptions for rape, incest, nonviable or severe fetal conditions, and serious threats to health, leaving clinicians room to act without fear in time\u2011critical cases. The law should avoid criminalizing patients and prioritize prevention and real alternatives\u2014reliable contraception, accurate sex education, prenatal and postpartum care, paid leave, childcare support, and streamlined adoption\u2014so fewer pregnancies become crises and families have genuine choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in evidence-based medicine and compassion, respecting the moral seriousness many attach to potential life while protecting the health, dignity, privacy, and decision-making of the pregnant person. Time-sensitive decisions should remain primarily between patients and clinicians, with clear, workable exceptions for rape, incest, and serious threats to life or health, and rules written so doctors can act in emergencies without fear of punishment. Any legal framework should be paired with strong prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, paid leave, childcare, economic assistance, and adoption services\u2014so fewer people face crisis pregnancies and communities reduce harm rather than criminalize care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by both respect for developing life and respect for the pregnant person\u2019s dignity, health, and moral agency, using clear, medically grounded standards that let clinicians act quickly in emergencies and protect patient privacy. They should include well-defined exceptions for rape, incest, and serious threats to the pregnant person\u2019s life or health, while allowing room for sincere religious and moral disagreement without turning patients or healthcare providers into criminals. Whatever limits a community sets should be paired with real prevention and support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, paid leave, childcare, and adoption resources\u2014so fewer people face crisis pregnancies and more families can choose life when they want to.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

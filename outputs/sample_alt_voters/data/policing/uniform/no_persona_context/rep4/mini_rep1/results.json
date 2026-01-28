@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "98"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be built around proportionality and rights: clear, publicly understood limits on stops, searches, and force; documented reasoning for key actions; and swift, independent investigation when harm occurs. Officers should receive ongoing training and coaching in de-escalation, bias mitigation, and communication, backed by early-warning systems and fair discipline that distinguishes mistakes from misconduct. Communities should help set priorities and review outcomes, while non-police crisis and social-service options handle many mental-health, substance-use, and homelessness calls so enforcement focuses on serious threats. Transparent data and privacy-protecting technology should be used to measure results, reduce unnecessary contacts, and improve safety for residents and officers alike.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together through clear, enforceable use-of-force standards; rigorous de-escalation, bias-awareness, and trauma-informed training; and transparent reporting with independent civilian oversight. Agencies should use data to evaluate outcomes and adjust tactics, while partnering with residents to co-design priorities and build trust. Expanding co-responder and non-police crisis options for mental-health and social needs\u2014alongside prevention investments and officer wellness supports\u2014reduces unnecessary arrests and reliance on force while keeping neighborhoods safe.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while protecting constitutional rights through clear, enforceable standards\u2014especially on stops, searches, and use of force\u2014backed by consistent de-escalation, bias-awareness, and scenario-based training. Trust grows when departments pair body-worn cameras and transparent reporting with independent investigation of serious incidents and meaningful civilian input, while also supporting officer wellness and professionalism. Public safety improves when police work with community partners and dispatch mental-health and social-service co-responders for crises that are better handled outside traditional enforcement, using data to measure results and correct problems.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth should not depend on degrading the resources communities rely on, but environmental progress also needs to be affordable and predictable for households and businesses. A workable balance sets clear health- and science-based limits, then lets markets and innovators meet them through tools like performance standards, flexible compliance options, and targeted public investment. Pair these measures with place-based transition plans\u2014retraining, wage and benefit supports, and help for small firms and energy-burdened families\u2014so costs and benefits are shared fairly while outcomes are tracked transparently.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth are mutually reinforcing when policy sets clear, science-based standards for clean air, water, and ecosystems while giving businesses predictable, phased timelines to comply. Pair these safeguards with cost-effective, market-friendly tools\u2014such as pricing pollution, targeted tax incentives, and R&D and infrastructure investments\u2014to spur clean innovation and durable, living-wage jobs. Ensure fairness through strong transition supports like retraining, wage and benefit protection, and small-business and community assistance, guided by local input and transparent, measurable outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance protects clean air, water, and land while keeping energy and everyday costs affordable and supporting reliable jobs. That means clear, science-based standards with phased timelines and flexibility for how to meet them, paired with incentives for efficiency and clean innovation so businesses, farms, and workers can adapt. Communities most affected should help shape plans, with transparent tracking of results and practical supports like retraining, small-business relief, and transition assistance so prosperity and stewardship advance together.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

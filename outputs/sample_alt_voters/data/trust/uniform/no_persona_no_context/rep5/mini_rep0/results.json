@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "25"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for anyone to see how decisions are made, why tradeoffs were chosen, and what results followed. Setting plain, enforceable standards\u2014backed by independent review and real consequences for misconduct\u2014reduces fears of politicization or favoritism. Alongside that, institutions should offer practical ways for communities to shape priorities and report problems, then publicly show what changed and why.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions are visibly fair, competent, and accountable: decisions should be transparent, guided by clear and consistently enforced rules, and regularly audited by independent oversight. Institutions should publish plain-language goals and results, invite meaningful public input early and often, and report back on how feedback changed outcomes. When leaders admit mistakes, correct them quickly, and show measurable improvements in service for everyone, trust can be rebuilt through steady, verifiable progress.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions can show, in plain language, how decisions are made, how money is spent, and how rules are applied consistently to everyone. That means independent audits and oversight with real consequences for misconduct, plus simple ways for people to ask questions, challenge errors, and see timely responses. Just as important, institutions should publish measurable service goals and regular results so the public can judge performance and see problems corrected rather than hidden.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

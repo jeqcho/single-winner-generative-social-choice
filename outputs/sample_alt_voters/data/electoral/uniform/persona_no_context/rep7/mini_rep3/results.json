@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep state-run elections and the Electoral College for now, but change incentives so the winner more consistently reflects the national electorate and every state remains relevant. States could adopt proportional (or multi-district) elector allocation with a uniform baseline of voting access, transparent audits, and clear recount/certification rules, while Congress also considers right-sizing the House to reduce extreme disparities in representation. If these steps build confidence, a national popular-vote approach\u2014through an interstate compact or amendment\u2014could be phased in with a clear majority standard and an automatic runoff or ranked-choice to ensure broad legitimacy.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make the presidential outcome track the national popular will more closely while preserving states\u2019 role and protecting smaller and rural communities from feeling ignored. A practical bridge is to reduce winner-take-all distortions by requiring proportional (or district-based) allocation of electors and/or adopting the National Popular Vote Interstate Compact once it has clear, enforceable rules for recounts and certification. Any change should be paired with baseline national standards for ballot access, secure paper trails, routine audits, and transparent recount procedures so close elections are trusted and candidates have incentives to compete nationwide, not just in a few swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fair and understandable\u2014so every lawful vote matters\u2014while keeping states meaningfully involved and protecting smaller and rural communities from being ignored. A strong compromise is to curb winner-take-all by allocating electors proportionally (or by district with guardrails against gerrymandering), and to pair that with clear national minimum standards for voter access, secure paper-based auditing, and consistent recount and certification rules. If there is broad agreement and enforceable safeguards, the National Popular Vote Interstate Compact could be a next step once it reliably produces a clear, widely trusted winner.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "24",
+      "epsilon": 0.0,
+      "full_winner_idx": "24"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a shared commitment to prevent harm: protect the public while honoring constitutional rights through clear, narrowly tailored use-of-force and stop policies, strong supervision, and continuous scenario-based training in de-escalation, bias mitigation, and crisis response. Accountability should be independent and transparent\u2014open complaint pathways, timely investigations, public reporting, and body-worn camera governance that protects privacy and due process for residents and officers alike. Pairing police with credible community partners and non-police responders for mental-health, addiction, and homelessness calls, while measuring outcomes and supporting officer wellness, can reduce unnecessary confrontations and build lasting trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while protecting constitutional rights through clear, consistently enforced use-of-force and engagement standards, rigorous scenario-based de-escalation and bias/trauma-informed training, and fair support for officers who act with integrity. Transparent, independent oversight with accessible complaint processes, body-worn cameras where appropriate, and routine public reporting helps ensure due process and accountability. Pairing officers with mental-health and social-service crisis responses and sustaining regular community partnerships aligns the right response to the right need, reduces harm, and rebuilds trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while protecting constitutional rights through clear, consistently enforced policies\u2014especially on stops, searches, and use of force\u2014paired with regular scenario-based de\u2011escalation, bias\u2011awareness, and trauma\u2011informed training. Trust grows when accountability is independent and transparent, with accessible complaint processes, body\u2011worn cameras and public reporting that respect due process for both residents and officers. Communities are safer when officers are supported with adequate staffing and wellness resources and when calls involving mental illness, addiction, homelessness, or youth are routed to co\u2011responders and community services in partnership with local leaders and schools.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

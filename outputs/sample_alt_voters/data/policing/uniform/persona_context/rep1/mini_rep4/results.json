@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be organized around a simple goal: prevent harm while protecting constitutional rights, with officers empowered to act decisively but required to act proportionally and fairly. That means clear, enforceable policies on stops and use of force; strong recruitment and ongoing training in de-escalation, crisis response, and impartial decision-making; and transparent, independent review with timely public reporting. Routine mental-health and social-service co-response, plus community-based problem solving and metrics that track safety, complaints, and outcomes across groups, can reduce unnecessary encounters while strengthening trust and accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by pairing clear, consistently enforced use-of-force and conduct standards with rigorous de-escalation, bias-awareness, and mental-health crisis training. Transparent, independent oversight with regular public reporting and fair avenues for redress should ensure accountability while also supporting officer professionalism and wellbeing. Communities are safest when prevention is prioritized through sustained partnerships, data-driven evaluation focused on reducing harm, and well-resourced mental-health and social-service alternatives that divert appropriate calls from armed response.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while firmly protecting constitutional rights, guided by clear, consistently enforced standards for stops, searches, and use of force, with strong de-escalation, crisis-response, and bias-awareness training. Accountability should be real and transparent\u2014through independent oversight, body\u2011camera and complaint reporting, and fair discipline\u2014while also providing officers the staffing, training, and wellness support needed to do the job well. When appropriate, communities should expand non\u2011police responses and partnerships with mental\u2011health, addiction, and social services so the right help arrives for the right call, reducing harm and building lasting trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

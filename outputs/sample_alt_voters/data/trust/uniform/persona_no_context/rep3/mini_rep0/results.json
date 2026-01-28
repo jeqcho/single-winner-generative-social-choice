@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions earn it through predictable, high-quality service: clear standards, fair and consistent enforcement, and results people can verify in their daily lives. Decisions should be explainable in plain language, with open records, privacy protections, and independent audits so mistakes are found quickly and corrected publicly. Creating two-way channels\u2014local forums, responsive complaint systems, and citizen panels with real influence\u2014helps people see that institutions listen, learn, and improve rather than simply defend themselves.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions reliably deliver practical, local results and make their decisions easy to understand with plain-language explanations, accessible data, and clear timelines. They should pair transparency with real accountability\u2014independent oversight, measurable performance standards, and open admission and correction of mistakes\u2014so actions consistently match promises. Ongoing community engagement that listens across viewpoints and incorporates feedback, alongside fair and respectful service, builds durable common ground and confidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions prove they work for everyday people: deliver reliable services, treat everyone fairly, and show results with simple, public scorecards. They should explain decisions in plain language, protect privacy and individual rights, and admit mistakes quickly with clear fixes and consequences. Independent audits and local community advisory boards\u2014reflecting different political and cultural viewpoints\u2014should regularly review performance and spending so accountability is real, not rhetorical.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

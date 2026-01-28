@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.26,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.24,
+      "full_winner_idx": "78"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.26,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "49",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should prioritize protecting people from preventable harm by ensuring timely, medically appropriate care\u2014especially in emergencies\u2014while openly acknowledging that citizens disagree in good faith about the moral status of fetal life. A durable compromise pairs broad access and privacy early in pregnancy with later regulations tied to fetal development and clinical evidence, always including clear, workable exceptions for serious health risks, rape or incest, and severe fetal conditions, and shielding clinicians who act in good-faith medical judgment. At the same time, policy should invest in prevention and real alternatives\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and financial and workplace support\u2014so fewer families face this decision under pressure.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, sound medical evidence, and respect for human dignity\u2014protecting timely, safe care and keeping complex decisions primarily between the pregnant person and qualified clinicians, not politicians. A workable balance protects access early in pregnancy while allowing carefully defined, medically grounded limits later, with clear exceptions for rape or incest and for threats to the patient\u2019s life or serious health, as well as severe fetal complications. Policy should also focus on prevention and support: comprehensive sex education, affordable contraception, prenatal care, adoption options, and practical help for parents, so fewer people face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect human dignity by keeping patients safe and ensuring decisions are guided by sound medical judgment, while recognizing that people hold deeply different moral and religious views about unborn life. A balanced approach protects timely access to care early in pregnancy and sets clear, medically grounded limits later, with explicit exceptions for rape, incest, severe fetal conditions, and serious threats to the pregnant person\u2019s life or health, while shielding clinicians acting in good faith. Common ground also includes reducing unwanted pregnancies and hardship through accurate education, affordable contraception, prenatal and mental-health care, and practical support for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

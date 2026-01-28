@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a \u201cleast intrusive, most effective\u201d standard: act quickly to stop serious harm, but use the minimal force and enforcement needed, grounded in constitutional protections and equal treatment. Departments should set clear policies and consequences for misconduct, publish reliable outcome data, and use independent review so accountability is credible to both officers and residents. Safety improves when police are paired with well-funded prevention and non-police crisis options\u2014especially for mental-health, substance-use, and homelessness\u2014while officers receive strong training, supervision, and wellness support to make sound decisions under stress.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together through clear, consistently applied constitutional standards\u2014especially for stops, searches, and use of force\u2014paired with rigorous de-escalation, bias-aware, and crisis-response training. Transparent, independent oversight (including accessible public reporting and meaningful civilian input) should ensure accountability while protecting privacy and due process. Communities are safer when officers have practical alternatives to enforcement, including co-responder or non-police options for mental-health and social-service crises, supported by data-driven evaluation and ongoing community partnership.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe and protect civil rights by using clear, consistently applied laws and use-of-force rules that emphasize de-escalation and proportional response, backed by transparent reporting, body-camera policies with privacy safeguards, and independent oversight that fairly reviews misconduct and exonerates officers when appropriate. Communities are safer when police work with residents and partner with mental-health and social-service teams for crisis calls, while focusing enforcement on serious violence and repeat harm rather than low-level issues. Ongoing training, wellness support, and data-driven evaluation should guide improvements so the public can see what works and trust that both safety and liberty are being upheld.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

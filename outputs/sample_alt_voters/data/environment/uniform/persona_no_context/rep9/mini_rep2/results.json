@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "29"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "29"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "29"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as a long-term competitiveness strategy: maintain firm health-based standards for air, water, and climate, while giving businesses clear, stable rules and time to comply. Governments can pair these safeguards with market signals (like performance-based targets and incentives), investment in innovation and infrastructure, and transparent measurement so progress is real and costs are managed. A fair transition\u2014retraining, wage and community support, and help for small firms\u2014can ensure that workers and local economies benefit as pollution falls and new industries expand.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, recognizing that clean air and water, healthy ecosystems, and stable jobs are all foundations of long-term prosperity. A workable balance uses clear, predictable, evidence-based standards paired with market incentives and targeted investment in cleaner technologies so businesses can innovate and stay competitive. Changes should be phased in with measurable outcomes and strong support for workers, small businesses, and communities\u2014through retraining, transition assistance, and local input\u2014so progress improves public health without abrupt economic disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as shared goals: clean air and water protect public health and reduce long-term costs, while a strong economy provides stable jobs and opportunity. The best balance uses clear, predictable, evidence-based standards paired with market incentives and investment in cleaner, efficient technologies so businesses can modernize and stay competitive. Changes should be phased in with local input, practical accountability, and targeted support\u2014especially for workers, small businesses, and communities most affected\u2014so the transition strengthens both family incomes and the natural resources future generations rely on.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

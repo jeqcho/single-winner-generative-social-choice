@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "23"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be narrowly focused on preventing harm and protecting rights, with clear limits on stops, searches, surveillance, and use of force that are trained, consistently applied, and reviewed when violated. Communities are best served by a mixed response system\u2014armed officers for truly dangerous situations, and well-funded civilian teams and services for mental-health crises, substance use, homelessness, and youth conflict\u2014so help matches the need. Trust grows when departments publish comparable data, use body-worn cameras with strong privacy rules, and submit to independent investigation and meaningful community input, while also giving officers fair pay, staffing, and wellness support tied to these standards.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing clear, consistently applied rules\u2014especially on use of force\u2014and backing them with rigorous de-escalation, crisis-response, and bias/cultural-competency training. Trust grows when there is transparent data reporting and independent oversight that ensures accountability while also providing fair support and resources for officers. Communities are safer when policing is paired with strong partnerships and well-funded mental-health and social-service alternatives for many nonviolent crises, focusing on prevention and dignity for all.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while protecting constitutional rights by enforcing clear, consistently applied standards\u2014especially for stops, searches, and use of force\u2014backed by rigorous de-escalation, crisis-response, and bias training. Accountability should be transparent and independent, with public reporting of key outcomes, while also ensuring fair pay, equipment, and wellness support so officers can do the job professionally. Communities are safer when police focus on serious crime and partner with schools, faith and neighborhood groups, and non-police mental-health and addiction response teams to prevent problems before they escalate.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

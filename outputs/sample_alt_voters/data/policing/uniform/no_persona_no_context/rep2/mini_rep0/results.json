@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should focus on preventing serious harm while applying the least intrusive, legally sound response necessary, so enforcement is both effective and rights\u2011respecting. That means clear limits on stops, searches, and force; strong supervision and independent investigation of misconduct; and transparent reporting on outcomes like crime reduction, complaints, and disparities. Pair targeted, problem\u2011oriented patrol with well-funded non\u2011police crisis and prevention services so officers are used where they add the most value and communities see consistent, fair treatment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing, using evidence-based, least-harm tactics that prevent violence while honoring constitutional protections. Clear, enforceable use-of-force limits, strong de-escalation and bias-reduction training, routine data transparency, and independent/civilian oversight with accessible complaint processes can improve legitimacy and accountability. Pairing law enforcement with well-funded alternatives\u2014such as mental health crisis response and other community services\u2014addresses root causes and reduces unnecessary arrests. Shared metrics and ongoing community dialogue should guide continual improvement and rebuild trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue a shared goal of safe neighborhoods and protected constitutional rights by using evidence\u2011based, proportional tactics that prioritize de\u2011escalation and intervene early to prevent violence. Clear, enforceable use\u2011of\u2011force rules, routine public reporting, and independent oversight with fair due process for officers can build trust and accountability at the same time. Communities should help set priorities through regular dialogue, while specialized teams and services (e.g., mental health and youth supports) handle problems better addressed without arrest so police can focus on serious crime.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

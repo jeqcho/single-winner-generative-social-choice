@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to protect both human dignity and public health by keeping early pregnancy decisions primarily in the hands of the pregnant person and their licensed medical team, with privacy and safety as defaults. As pregnancy advances, the state may set medically informed, workable guardrails, but it must guarantee prompt exceptions for threats to life or serious health, nonviable pregnancies, and pregnancies from rape or incest, without criminal penalties that deter emergency care. Whatever limits exist should be paired with strong prevention and support\u2014accessible contraception, accurate sex education, prenatal care, paid leave, childcare, and adoption and parenting resources\u2014so fewer people face unwanted pregnancies and more families have real options.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should prioritize health, privacy, and timely access to safe care by keeping medical decisions primarily between pregnant patients and qualified clinicians, guided by clear, evidence-based standards. It should acknowledge sincere moral concern for potential life by focusing any limits later in pregnancy and ensuring workable exceptions for emergencies and serious health risks, rape or incest, and nonviable or severe fetal conditions. To reduce crisis pregnancies and the perceived need for abortion, policy should expand comprehensive sex education, affordable contraception, and strong prenatal, childcare, and family supports, emphasizing compassion and harm reduction over criminalization.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical evidence, and respect for both the moral value many place on unborn life and the dignity and autonomy of pregnant people. Policy should protect timely, safe care and patient privacy, keep urgent medical decisions with patients and qualified clinicians, and include clear, workable limits and exceptions\u2014especially for serious health risks, rape or incest, and nonviable or severe fetal conditions. To reduce the number of abortions and support real choices, laws should be paired with strong prevention and family supports: comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, and adoption resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Trust increases when institutions make decisions in daylight: publish the reasons, costs, and expected results, then report back on what happened using independent evaluation and easy-to-check data. Combine steady, fair service with clear options for appeal and remedy when things go wrong, so accountability is practical rather than performative. Ongoing two-way engagement\u2014especially with people most affected\u2014helps policies reflect local realities while setting consistent standards that apply to everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions consistently deliver fair, reliable services and match promises with visible results people can verify. That requires transparent, plain\u2011language decisions, open data and performance measures, and independent oversight that regularly audits outcomes. Trust is strengthened when institutions listen to communities as partners, offer accessible ways to participate, and promptly acknowledge and fix mistakes so improvements show up in everyday life.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Trust rises when institutions deliver dependable, everyday results\u2014safe neighborhoods, fair courts, reliable schools, responsive public services\u2014and clearly explain decisions in plain language people can verify. They should publish simple performance measures and open records, welcome local input, and use independent audits so both taxpayers and communities can see what works and what doesn\u2019t. When mistakes happen, leaders must acknowledge them quickly, fix them visibly, and apply rules consistently and fairly so everyone feels respected, protected, and heard.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

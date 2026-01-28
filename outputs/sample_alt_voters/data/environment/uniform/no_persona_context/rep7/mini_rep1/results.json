@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth should proceed within clear ecological limits that protect health, property, and the natural assets communities rely on, while giving businesses certainty to plan and invest. Set outcomes-focused standards and let regions and industries meet them flexibly through a mix of innovation, market signals, and streamlined permitting for cleaner projects. Use gradual timelines plus targeted help for workers, households, and small firms so the costs of transition are manageable and the benefits are widely shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats a healthy environment and a strong economy as mutually reinforcing: protecting air, water, and land safeguards public health and long\u2011term productivity while creating room for new industries and good jobs. Policies should set clear, science\u2011based and enforceable standards, paired with cost\u2011effective market incentives and predictable, phased timelines so businesses and communities can plan and innovate. Public investment in clean infrastructure and technology, plus targeted transition support and workforce retraining\u2014guided by transparent metrics and local input\u2014helps ensure the benefits and burdens are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by keeping clean air and water as non\u2011negotiable safeguards while giving businesses clear, predictable, and phased rules they can plan around. Use practical, cost\u2011effective tools\u2014like performance standards, incentives, and pricing pollution where it works\u2014to reward innovation, efficiency, and new investment. Pair these policies with targeted support for workers, small businesses, and regions affected by change through retraining, infrastructure upgrades, and locally guided transition plans, so families and communities share in the benefits.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

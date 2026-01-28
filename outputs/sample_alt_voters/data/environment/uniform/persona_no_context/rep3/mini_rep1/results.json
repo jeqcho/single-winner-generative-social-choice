@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as a risk-management and competitiveness strategy: protect the natural systems that keep people healthy and businesses stable, while giving companies clear, predictable rules to plan and invest. Set firm pollution and habitat baselines, then use flexible compliance options\u2014pricing harmful impacts, rewarding efficiency, and fast-tracking proven clean projects\u2014to achieve results at the lowest cost. Pair this with targeted help for workers, regions, and small businesses so the transition strengthens local economies rather than leaving communities behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, recognizing that clean air, water, and healthy ecosystems are foundations for public health, resilient communities, and long-term prosperity. A practical balance pairs clear, science-based standards and predictable timelines with market incentives that spur clean innovation and keep burdens on small businesses and working families manageable. Investing in proven technologies, job training, and fair transition support for affected workers helps reduce pollution while preserving livelihoods and competitiveness.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "We should protect clean air, clean water, and productive land as essential to public health, farming, industry, and long-term prosperity\u2014not as a luxury that competes with jobs. A practical balance sets clear, science-based standards with predictable timelines, cuts red tape that doesn\u2019t improve outcomes, and uses market incentives and innovation to help businesses reduce pollution affordably. It should also include local input and fair support for workers and communities\u2014through training, transition assistance, and investments in new manufacturing and energy efficiency\u2014so environmental progress strengthens economic security rather than undermining it.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "39"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "87"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a simple standard: maximize safety while minimizing unnecessary intrusion, using the least force and least coercion consistent with protecting life and enforcing the law. That means clear, publicly known policies on stops, searches, and use of force; strong training and supervision; and early-warning systems that correct problems before they become tragedies. Pair law enforcement with well-funded alternatives\u2014civilian crisis teams, violence interruption, and accessible treatment and housing\u2014so police can focus on serious crime while fewer encounters escalate. Transparent reporting, independent investigation of serious incidents, and fair discipline alongside support for officer wellness can rebuild trust and improve outcomes across communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights together by pairing clear, enforceable standards (especially for stops, searches, and use of force) with rigorous, recurring training in de-escalation, crisis intervention, and bias awareness. Communities should have transparent data, body-worn camera policies, and independent oversight with real accountability so misconduct is addressed and good performance is recognized. Expand co-responder and non-police crisis options for mental-health and social-service calls, while investing in prevention and community partnerships so officers can focus on serious violence and people are treated with dignity and fairness.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights by using clear, consistent rules; strong de\u2011escalation and crisis\u2011intervention training; and well-supported officers who are equipped to handle serious crime while avoiding unnecessary force. Mental\u2011health and substance\u2011use calls should be routed, when safe, to co\u2011responder or civilian crisis teams, with partnerships in schools and community services to prevent harm before it starts. Trust grows when agencies publish transparent data, use body-worn cameras with privacy safeguards, and rely on independent oversight and fair discipline that holds people accountable while respecting due process.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

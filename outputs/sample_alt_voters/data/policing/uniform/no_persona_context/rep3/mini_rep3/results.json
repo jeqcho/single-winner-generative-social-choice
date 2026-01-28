@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should focus on preventing harm while protecting constitutional rights by setting clear, enforceable limits on stops, searches, and use of force, backed by consistent training and supervision. Send the right responder to the right call by expanding non\u2011police options for mental\u2011health, substance\u2011use, homelessness, and other nonviolent needs, while keeping police capacity for serious threats. Build legitimacy through transparent data, fair complaint processes, and independent review that distinguishes good\u2011faith mistakes from misconduct and applies timely, proportional consequences. Ongoing community co\u2011design and regular evaluation should guide adjustments so safety improves without sacrificing civil liberties.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by operating under clear, enforceable standards\u2014especially for stops and use of force\u2014paired with routine de-escalation, crisis-intervention, and bias/cultural-competency training. Nonviolent mental-health and social-service calls should be routed to specialized, often unarmed responders, with prevention and restorative options to reduce unnecessary arrests and escalation. Independent oversight, timely investigations, and transparent public reporting (including body-worn cameras with strong privacy safeguards) should measure outcomes like fewer injuries, fewer rights violations, and sustained community trust through ongoing partnership and input.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe and uphold constitutional rights by using clear, enforceable rules\u2014especially for stops, searches, and use of force\u2014paired with regular de\u2011escalation and legal/cultural training and support for officer wellness. Independent, timely review of serious incidents, body\u2011worn cameras with privacy safeguards, and transparent reporting of outcomes (crime reduction, response times, complaints, and use\u2011of\u2011force rates) can strengthen accountability and public trust. Nonviolent mental\u2011health and substance\u2011use crises should be routed to specialized civilian or co\u2011responder teams when appropriate, while police focus on serious crime and victim support. Ongoing community input, including rural and urban voices, should guide prevention efforts so safety and civil liberties advance together.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

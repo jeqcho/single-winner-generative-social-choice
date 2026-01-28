@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy to see how decisions are made, how money is spent, and what happens when standards aren\u2019t met. A durable middle ground is to pair simple, measurable service commitments with strong safeguards\u2014independent review, whistleblower protections, and plain-language explanations that help people verify claims for themselves. Regular, structured opportunities for residents to raise concerns and help set priorities can turn frustration into feedback and show that rules and outcomes apply consistently to everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions deliver consistent, fair service and can be checked by the people they serve. A shared path forward is transparent decision-making and open, easy-to-use information about rules, spending, and outcomes, backed by independent audits and accessible complaint and appeal processes. Institutions should set measurable performance benchmarks, admit and correct mistakes quickly, and report progress publicly. Regular two-way engagement\u2014listening sessions, citizen panels, and feedback loops\u2014helps ensure reforms reflect community values and stay accountable over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions consistently deliver basic services well, apply rules equally, and explain decisions in plain language. A shared reform agenda can pair independent oversight and regular audits with clear performance measures, easy-to-use complaint and appeals processes, and real consequences for misconduct. When officials listen through local forums and publish what changed as a result, people across viewpoints can judge progress by visible results rather than politics.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

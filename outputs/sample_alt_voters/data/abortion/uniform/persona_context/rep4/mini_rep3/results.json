@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "16"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be written to minimize harm: protect a pregnant person\u2019s health, privacy, and equal standing under the law, while recognizing that many communities attribute moral value to developing human life. Regulations, if used, should be medically defined, workable in emergencies, and crafted with clinicians\u2014explicitly guaranteeing access in cases of serious health risk, rape or incest, and pregnancies that are nonviable or involve severe fetal conditions. To reduce abortions without coercion, government should pair any legal framework with broad access to contraception and accurate education, plus strong prenatal, postpartum, childcare, and economic supports so choosing to carry a pregnancy is realistically supported.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical evidence, compassion, and respect for human dignity\u2014protecting patient safety, privacy, and timely access to care while acknowledging the moral seriousness many attach to potential life. Time\u2011sensitive decisions should remain primarily between the pregnant person and qualified clinicians, with clear, narrowly defined exceptions for serious threats to life or health, rape or incest, and nonviable or severe fetal conditions. Any legal standards should be practical and enforceable without criminalizing patients or clinicians, and should be paired with strong prevention and support\u2014affordable contraception, comprehensive sex education, prenatal and postpartum care, adoption options, and economic help\u2014so fewer families face crisis pregnancies.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, human dignity, and medical evidence, protecting a pregnant person\u2019s health, privacy, and bodily autonomy while acknowledging that many people also see moral value in developing prenatal life. Government should set clear, workable standards crafted with clinicians and ethicists, avoid criminalizing patients or good\u2011faith medical care, and guarantee prompt exceptions for threats to life or serious health, rape or incest, and nonviable or severe fetal conditions. To reduce unwanted pregnancies and support families whatever they decide, policy should expand affordable contraception and sex education, strengthen prenatal and postpartum care, and provide real economic, parenting, and adoption supports.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

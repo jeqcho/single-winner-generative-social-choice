@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect life and health, while recognizing that the state must not force people into medically dangerous or untenable situations. A durable middle ground is to ensure timely access to care early in pregnancy, set any later restrictions through transparent medical standards with real exceptions for health, fatal fetal conditions, and pregnancies from violence, and avoid criminalizing patients. Pairing the law with contraception, comprehensive sex education, and concrete economic and childcare supports can reduce unintended pregnancies and make choosing birth more achievable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by shared aims in a pluralistic society: protecting health and safety, respecting moral disagreement about developing life, and reducing coercion and preventable suffering. A workable framework keeps early, safe care accessible, sets any later-pregnancy rules using medical evidence and clear, humane exceptions for threats to health and for cases like rape or incest. Whatever the legal boundaries, policy should invest in proven prevention and support\u2014comprehensive sex education, affordable contraception, prenatal care, childcare, and economic supports\u2014so fewer people face unwanted pregnancies or impossible choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect human dignity and health, while acknowledging sincere moral disagreement about when developing life gains full moral status. A workable compromise prioritizes early, safe access and medical privacy, with clear, medically defined exceptions for threats to the pregnant person\u2019s life or serious health, and for pregnancies resulting from rape or incest, while keeping later-pregnancy rules tied to clinical realities rather than politics. Whatever limits exist should be paired with evidence-based prevention\u2014comprehensive sex education and affordable contraception\u2014and strong supports for parenting, adoption, and economic security so fewer people face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

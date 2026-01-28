@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_personas": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by human dignity, medical evidence, and humility about deeply contested moral questions: protect the health and rights of the pregnant person while acknowledging society\u2019s interest in developing life, especially as pregnancy progresses. Rules should be clear and workable for clinicians, preserving timely decision\u2011making in the exam room and guaranteeing explicit exceptions for serious health risks, rape or incest, and pregnancies that are nonviable or involve severe fetal complications. The strongest common ground is preventing crises\u2014through comprehensive sex education, affordable contraception, and strong prenatal, childcare, and economic supports\u2014so fewer people face this decision and more families can welcome children safely.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should protect patient health, privacy, and timely access to medically necessary care by grounding rules in evidence and clinical judgment, especially in emergencies. They should acknowledge the moral seriousness many attach to developing life by setting clear, workable limits later in pregnancy, paired with precisely defined exceptions for serious health risks, rape or incest, and nonviable or catastrophic fetal conditions so clinicians can act without fear. To reduce abortions and hardship, policy should prioritize prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, adoption services, and economic assistance\u2014so continuing a pregnancy is a realistic option for more families.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should protect both the dignity of unborn life and the health, safety, and basic rights of pregnant people by relying on clear, medically defined standards that doctors can apply without fear. Policy should permit timely care and narrowly written exceptions at least for threats to the mother\u2019s life or serious health, rape or incest, and pregnancies that are nonviable or involve severe fetal anomalies. To reduce abortions and support families, lawmakers should pair any legal limits with strong prevention and practical help\u2014accurate education, affordable contraception, prenatal and mental healthcare, adoption options, and real economic support for parents\u2014so fewer people face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

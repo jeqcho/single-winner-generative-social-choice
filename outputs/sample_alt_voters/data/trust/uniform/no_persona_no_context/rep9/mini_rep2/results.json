@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Trust improves when institutions make it easy for the public to see what they are trying to achieve, how decisions are made, and what happens when things go wrong. Setting clear service commitments, publishing results and rationales in plain language, and enforcing strong ethics and conflict-of-interest rules help reassure both skeptics and supporters. Pair that transparency with real consequences for misconduct and simple ways for residents to report problems, help set priorities, and verify that fixes were implemented.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "People across political perspectives want institutions that are competent, fair, and respectful, so rebuilding trust starts with clear, truthful, plain\u2011language explanations of decisions and results. Pair that transparency with measurable performance standards and independent oversight\u2014audits, enforceable ethics rules, and review mechanisms\u2014so mistakes are acknowledged, corrected, and prevented. Create regular, inclusive channels for community input that visibly changes policy and service delivery, demonstrating reliability and accountability over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver fair, reliable services and explain decisions in plain language\u2014including the evidence, costs, and trade-offs\u2014so people can see how choices are made. Strengthen clear ethics and conflict-of-interest rules, independent audits and review boards, and measurable performance standards, with real consequences when leaders fall short. Create ongoing, accessible ways for residents to be heard\u2014local forums, community advisory panels, and easy feedback channels\u2014and publicly report what changed as a result. Over time, steady results, honest communication, and shared oversight can rebuild confidence across political and cultural differences.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

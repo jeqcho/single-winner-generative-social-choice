@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance recognizes that the economy depends on healthy air, water, and land, while households and businesses need affordable, reliable energy and predictable rules. Set firm, science-based pollution and habitat limits, then give flexibility in how to meet them through performance standards, competitive incentives, and market signals that reward cleaner production. Pair these policies with streamlined permitting for low-impact projects, targeted help for trade\u2011exposed industries, and transition supports\u2014retraining, wage insurance, and local reinvestment\u2014so regions facing change can adapt without being left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, water, and healthy ecosystems as foundations for long-term prosperity. Set clear, science-based, outcome-focused standards and use market tools that price pollution, paired with targeted public investment in clean innovation and resilient infrastructure. Implement changes predictably and in phases, with measurable goals and meaningful local input. Provide strong transition support\u2014retraining, safety nets, and place-based funding\u2014so workers and communities can adapt and share in the benefits.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and a stable climate should be treated as essential to public health, property, and long-term economic strength, while recognizing that families and small businesses need affordable energy and reliable jobs. Set clear, science-based baseline standards and measure outcomes, but use flexible, market-friendly tools\u2014like incentives, efficiency upgrades, and paying for pollution\u2014to meet them at lowest cost. Phase changes in predictably and invest in U.S. manufacturing, grid and infrastructure upgrades, and conservation, with strong retraining, local transition funds, and wage supports so workers and communities dependent on today\u2019s industries aren\u2019t left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

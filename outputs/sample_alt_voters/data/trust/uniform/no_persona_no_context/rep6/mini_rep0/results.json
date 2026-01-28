@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "66",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "People may disagree about politics, but most can agree institutions should earn trust through predictable rules, equal treatment, and results people can verify. That means publishing clear standards for decisions, protecting whistleblowers, and using independent audits with findings shared in plain language. Pair national transparency with local \u201cservice guarantees\u201d and community review panels so residents can see problems fixed, not just promises made.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Across different views, people tend to agree that institutions earn trust by serving the public rather than themselves\u2014through transparent decision-making, clear plain-language explanations, and reliable follow-through. Trust improves when there are meaningful ways for communities to be heard, mistakes are acknowledged and corrected publicly, and results are reported with open data people can verify. Strong, independent oversight and conflict-of-interest safeguards help ensure rules are applied fairly, reducing polarization while strengthening confidence in institutions that deliver.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People across the political spectrum can agree that trust is earned when institutions are honest about what they know, explain decisions in plain language, and deliver fair, reliable results. Rebuilding confidence means clear rules that limit conflicts of interest, independent audits and oversight that the public can verify, and consequences when officials fall short. It also requires regular, easy-to-use ways for communities to give input and see how it changed decisions, plus public reporting on outcomes so progress can be judged by facts rather than rhetoric.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

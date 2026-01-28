@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_personas": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make decisions and spending easy to see and verify, then follow through with reliable service and timely, public corrections when they fall short. Leaders should set clear goals, report progress with plain metrics, and submit to independent audits and conflict-of-interest rules so accountability is real rather than rhetorical. Pairing these standards with ongoing local forums and accessible complaint-and-appeal processes\u2014so people can be heard and get answers\u2014helps show that institutions serve the public fairly across political lines.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when leaders communicate transparently in plain language, accept responsibility and correct mistakes, and deliver steady, measurable improvements to everyday life. Institutions should pair clear rules and due process with independent oversight (audits, watchdogs, and public reporting) so decisions and outcomes are verifiable and fair. Bringing engagement closer to communities\u2014through accessible feedback channels, local partnerships, and civic education\u2014helps people feel heard across political and cultural lines, while strong protections for privacy and equal treatment show institutions serve everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they deliver reliable everyday results while making decisions transparent: clear rules, plain-language explanations, published goals and outcomes, and leaders who admit mistakes and fix them. Trust deepens with independent audits and oversight, strong protections for privacy and equal treatment, and real consequences when standards are violated. Bringing decisions closer to communities\u2014through local partnerships, accessible public meetings, multilingual communication, and meaningful feedback channels\u2014helps people across political and cultural lines see institutions as fair, competent, and accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

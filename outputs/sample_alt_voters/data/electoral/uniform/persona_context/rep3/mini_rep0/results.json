@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star": {
+      "winner": "21",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "21"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "39",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to align the presidential outcome more closely with the national vote while keeping states central to administering elections and avoiding abrupt constitutional upheaval. A workable compromise is to reduce winner-take-all incentives\u2014by encouraging proportional elector allocation (or an interstate compact that activates only with broad, cross\u2011regional participation)\u2014while tightening rules for audits, recounts, and elector binding so close results are verifiable and accepted. Piloting improvements, setting clear national baselines for ballot access and transparency, and phasing changes in over multiple cycles can protect smaller communities\u2019 influence while making campaigns compete beyond a few battleground states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make each lawful vote carry comparable weight while preserving states\u2019 central role in administering elections and protecting smaller communities, through practical changes that can earn broad trust. A bridging path is to reduce winner\u2011take\u2011all distortions via proportional or district-based elector allocation and/or a National Popular Vote interstate compact with a clear activation threshold, alongside optional ranked\u2011choice voting to ensure majority support. Any approach should be paired with uniform baseline rules for ballot access, auditable paper records, transparent recount triggers, and enforceable limits on faithless electors, phased in incrementally and transparently so legitimacy and stability are strengthened rather than politicized.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Constitution\u2019s state-based role while ensuring the presidency more closely reflects the will of voters nationwide and that every lawful ballot is counted with comparable weight. A practical compromise is to curb winner-take-all incentives by encouraging proportional elector allocation within states (or a carefully triggered National Popular Vote compact) while leaving election administration with states. Whatever path is chosen should come with uniform baseline rules for ballot access, secure voter ID alternatives where needed, auditable paper trails, clear automatic recount triggers, and enforceable limits on faithless electors so results are transparent, stable, and broadly trusted in both rural and urban communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

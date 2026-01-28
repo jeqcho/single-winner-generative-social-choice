@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing strategies should aim to prevent serious harm while keeping government power bounded by constitutional rights and equal treatment under the law. Departments can do this by setting clear, publicly reported standards for stops, searches, and use of force; rewarding de-escalation and problem-solving; and ensuring independent investigation of misconduct with meaningful consequences. Partnering with residents and shifting appropriate calls\u2014such as many mental health and substance-use crises\u2014to specialized responders can reduce unnecessary confrontations while maintaining rapid response to violent crime.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the shared goal of safe, free communities, treating public safety and civil rights as mutually reinforcing rather than competing priorities. Departments should use evidence-based, targeted prevention alongside clear use-of-force limits, de-escalation and bias-mitigation training, transparent data-sharing, and independent civilian oversight with meaningful accountability. Partnering with residents to set measurable standards and investing in non-police responses for mental health and social needs can reduce harm, build trust, and improve outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should aim for safe neighborhoods and protected civil rights by using targeted, evidence-based tactics while enforcing clear constitutional limits on stops, searches, and use of force. Departments should strengthen trust through transparent data, body-worn cameras where appropriate, fair complaint processes, and independent oversight, alongside training in de-escalation and bias reduction. Communities are safer when police focus on serious crime and partner with residents, while mental-health and social-service teams handle crises better suited to non-police response and prevention.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a public ethic of shared responsibility: treat pregnancy as morally serious while keeping real people safe, informed, and supported. A durable framework combines strong prevention (education, contraception, prenatal care), meaningful assistance for parenting and adoption, and clear legal protections for timely medical care\u2014especially when health, rape or incest, or severe fetal conditions are involved. Where limits are set, they should track medical viability and be written with clinician input so they are enforceable without punishing patients or doctors acting in good faith.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical evidence, and respect for plural moral convictions\u2014seeking to reduce harm while taking seriously both concern for developing life and the health, dignity, and autonomy of the pregnant person. Common ground includes preventing unintended pregnancies through accurate education, contraception access, and strong prenatal and maternal healthcare, alongside practical supports for parenting and adoption. Where legal limits are set, they should be clear and workable, track medical realities, and include timely exceptions for medical emergencies, serious health risks, and severe fetal conditions so clinicians can act without dangerous delay.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared commitment to human dignity and the protection of both life and health, using clear, medically grounded rules rather than ideology. Even amid moral disagreement, most people can support preventing unintended pregnancies through education, contraception access, and strong prenatal, maternal, and economic supports for families and adoption. Where limits are set, they should include explicit, workable exceptions for threats to the pregnant person\u2019s life or serious health, rape or incest, and severe fetal conditions, with timely care protected in emergencies. Policy should also safeguard informed consent, guard against coercion, and allow room for conscience while keeping patients safe and the law practical to follow.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

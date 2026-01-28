@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for anyone to see how decisions are made, who benefits, and what happens when something goes wrong. A practical middle ground is to pair plain-language disclosure (data, funding, conflicts, and trade-offs) with enforceable standards\u2014independent review, real consequences for misconduct, and rapid fixes when errors are found. Give communities a standing role through representative citizen panels and simple, responsive complaint processes, and then report back regularly on what changed and why.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions make decision-making transparent, report clear and measurable results, and invite meaningful public participation that is easy to access. Pair that openness with independent oversight\u2014regular audits, fair complaint processes, and enforceable accountability\u2014so people can verify integrity rather than rely on assurances. Leaders should acknowledge mistakes, explain trade-offs in plain language, and correct course quickly while partnering with communities to deliver visible, everyday improvements that benefit everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions earn it through fair, consistent rules and results people can see in their daily lives. That means plain-language communication about decisions and trade-offs, transparent budgets and data, and real accountability\u2014independent audits, ethical standards, and consequences when leaders fall short. It also means making participation easy and respectful: accessible complaint and feedback channels, local partnerships, and timely fixes when problems are found. When institutions listen, correct mistakes, and deliver reliably for every community, people across political lines are more willing to cooperate even when they disagree on policy.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

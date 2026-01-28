@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "66",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make their work easy to see and evaluate: clear goals, open data and records, plain-language explanations, and independent audits with real consequences for failures and misconduct. Just as important, they should co-design solutions with communities through regular local forums, inclusive outreach, and feedback loops that show what was heard and what changed. When services are fair, timely, and consistently improve everyday life\u2014and when officials correct errors openly\u2014people across viewpoints can agree the system is earning confidence rather than demanding it.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions consistently match words with actions: transparent decision-making, open records, independent oversight, and clear accountability when mistakes happen. Leaders should communicate in plain language and in the communities\u2019 languages, show how money and policies affect daily life, and report measurable results people can verify. Regular, respectful local engagement\u2014listening, responding quickly, and partnering with trusted community groups\u2014helps bridge political and cultural divides by proving institutions serve everyone fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions consistently tell the truth, explain decisions and spending in plain language, and show measurable results that improve daily life\u2014while admitting mistakes and fixing them. Strong, independent oversight, equal and fair enforcement of rules, and clear standards for performance help assure people that power is not being abused. Trust grows fastest when leaders listen in person, partner with local schools, faith communities, and civic groups, and communicate accessibly across languages and cultures so everyone can see how their input shaped outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

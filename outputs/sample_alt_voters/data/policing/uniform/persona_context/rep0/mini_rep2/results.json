@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should follow a \u201cleast harm, most accountability\u201d approach: intervene early and proportionately, use force only when necessary, and protect constitutional rights through clear policies, documented decisions, and fair due process for both residents and officers. Departments should prioritize scenario-based de\u2011escalation, duty\u2011to\u2011intervene expectations, and independent review with public reporting so trust is earned through consistent outcomes, not promises. When calls involve behavioral health, homelessness, or youth conflict, co-responder teams and non\u2011police crisis options should be available so the right help arrives first while police remain ready to address genuine threats.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while safeguarding civil rights through clear, consistently enforced use-of-force and due-process standards, backed by rigorous de-escalation and bias-aware training. Trust grows when accountability is transparent and independent\u2014supported by body-worn cameras, accessible complaint processes, and regular public reporting\u2014so good officers are protected and misconduct is addressed. Pairing police with mental-health and social-service crisis response teams and sustained community partnerships helps prevent escalation, reduce harm, and deliver fair, predictable outcomes for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe and orderly while treating every person with equal dignity and protecting constitutional rights, guided by clear, consistently enforced standards for stops, searches, and use of force. Regular scenario-based de-escalation, bias- and trauma-informed training, body-worn cameras, and transparent public reporting\u2014paired with independent oversight and fair due process for both the public and officers\u2014strengthen accountability and trust. When calls involve mental-health crises, addiction, or homelessness, co-responder teams and strong partnerships with social services should help ensure the right response at the right time, reducing harm while supporting officers to do their jobs well.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

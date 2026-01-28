@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "93",
+      "epsilon": 0.0,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make their work easy to see and challenge: publish goals, budgets, and evidence in plain language, explain tradeoffs, and show what changed after public input. Build credibility with independent audits, clear complaint and appeal paths, and swift, public fixes when things go wrong. Deliver a few reliable, high\u2011impact services consistently\u2014while protecting rights, privacy, and fair treatment\u2014so people judge institutions by verified outcomes rather than promises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions act like dependable service providers: they explain decisions in plain language, share the evidence and tradeoffs, and publish clear performance measures people can verify. Trust deepens when mistakes are acknowledged quickly, corrected publicly, and checked through independent oversight and accessible avenues for redress. Regular, respectful local engagement\u2014meeting people where they are and inviting feedback\u2014helps ensure services are fair, protect safety and individual rights, and deliver steady, practical improvements to everyday life.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions act like dependable service providers: explain decisions in plain language, publish clear goals and results people can verify, and admit and fix mistakes quickly. Pair transparent data and budgeting with strong independent oversight, real consequences for misconduct, and easy ways to appeal or get problems resolved. Meet people where they are\u2014locally and in the languages they use\u2014so communities can shape priorities while institutions protect basic rights, privacy, and fair treatment for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

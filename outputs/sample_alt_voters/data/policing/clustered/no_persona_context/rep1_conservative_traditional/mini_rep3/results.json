@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.20999999999999996,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.20999999999999996,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim to prevent harm and uphold constitutional rights by setting clear, publicly understood rules for stops, searches, arrests, and use of force, backed by fair, independent investigations and meaningful consequences when standards are violated. Departments should measure success by fewer injuries, fewer unnecessary arrests, and higher case clearance and community confidence\u2014not by volume of enforcement alone\u2014while publishing accessible data and audit results. Pairing targeted, evidence-based enforcement with co-responder or non-police options for mental-health, substance-use, and youth crises, plus consistent training and wellness support for officers, can improve safety while reducing biased or coercive encounters.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together through clear, enforceable standards\u2014especially for use of force\u2014backed by consistent de-escalation training and timely, independent, transparent oversight. Departments should partner with communities, publish meaningful data on outcomes and harm reduction, and evaluate tactics with evidence rather than arrest counts alone. Expanding non-police crisis response and investing in mental-health and other social supports can prevent problems from escalating while allowing officers to focus on serious threats, strengthening trust and legitimacy.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and constitutional rights as reinforcing goals by setting clear, enforceable rules for stops, searches, and use of force, backed by consistent training in de-escalation and lawful, respectful conduct. Independent, transparent review of serious incidents and publicly reported measures that prioritize reductions in harm\u2014alongside fair, evidence-based crime prevention\u2014can build trust and accountability. Expanding partnerships with mental-health, addiction, and youth services, including non-police crisis response where appropriate, lets officers focus on serious threats while getting people help. Supporting officers with clear guidance, wellness resources, and modern tools used with privacy safeguards strengthens professionalism and community confidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

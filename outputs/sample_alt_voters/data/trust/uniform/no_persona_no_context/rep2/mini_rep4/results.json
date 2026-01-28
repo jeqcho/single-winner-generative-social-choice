@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "52",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Trust grows when institutions earn it through day-to-day performance, not promises: clear service standards, plain-language explanations of decisions, and published results that people can verify. When mistakes happen, institutions should admit them quickly, provide accessible ways to appeal or seek remedy, and show what changed to prevent repeats. Pairing independent oversight with ongoing, representative community input helps ensure decisions reflect both expertise and lived experience, strengthening confidence across viewpoints.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Rebuilding public trust starts from a widely shared expectation: institutions should be reliable, fair, and honest, even when people disagree about policies. That means transparent decision-making and open reporting, clear rules and performance metrics, and independent oversight with real consequences for misconduct and accessible remedies when harm occurs. Institutions should also acknowledge mistakes, explain corrective actions, and create ongoing, meaningful ways for the public to give input and see how it changes outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People may disagree about specific policies, but most want institutions that are fair, competent, and honest, with the same rules applied to everyone. Trust grows when agencies publish clear, plain-language explanations of decisions and spending, set public performance goals, and face independent audits and real consequences for misconduct. It also helps to create easy ways for residents to report problems, get timely remedies, and participate locally through regular public forums so institutions learn from both expertise and lived experience.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

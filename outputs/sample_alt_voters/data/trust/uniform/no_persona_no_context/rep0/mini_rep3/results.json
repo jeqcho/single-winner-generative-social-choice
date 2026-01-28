@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "64",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make it easy for people to see what was decided, why it was decided, and whether it worked. A broadly acceptable approach is to publish plain-language rationales, disclose conflicts of interest, and use independent ombuds offices to investigate complaints with real consequences for misconduct. At the same time, creating regular, structured ways for residents\u2014especially those most affected\u2014to inform priorities and review outcomes turns criticism into practical feedback and makes improvement visible over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Rebuilding trust starts with institutions proving they are competent, honest, and fair through transparent decision-making, plain-language data, and clear metrics the public can track. When mistakes happen, leaders should acknowledge them, correct course quickly, and invite independent audits and review to ensure accountability. Trust also grows when communities help shape solutions\u2014through meaningful public participation and safe, accessible channels for feedback and grievances\u2014so oversight is real and results are visible.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People across political and community lines can agree that trust rises when institutions are honest, predictable, and fair\u2014doing what they say they\u2019ll do and applying rules consistently. A practical path is to make decisions and data easy to understand, publish clear performance measures, and use independent audits and review boards so mistakes or abuse are found and fixed quickly. Just as important, institutions should create safe, accessible ways for everyday people to give input and file complaints without retaliation, and then show what changed as a result.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

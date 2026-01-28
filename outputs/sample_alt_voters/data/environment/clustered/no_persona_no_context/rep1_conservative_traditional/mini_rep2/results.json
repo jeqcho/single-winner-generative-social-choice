@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance sets firm, science-based guardrails for air, water, climate, and biodiversity, while giving businesses flexibility in how they meet them at the lowest cost. Governments can pair these standards with predictable timelines, streamlined permitting for cleaner projects, and targeted investment in innovation and infrastructure to keep economies competitive. Any remaining costs should be managed through transition support for workers and regions, so environmental progress and economic opportunity move together.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection should be treated as mutually dependent by setting clear, measurable safeguards for critical ecosystems while giving businesses flexible pathways to comply and innovate. Policies should internalize environmental costs and reward efficiency\u2014through standards, market-based tools, and targeted public investment in clean technologies, circular practices, and resilient infrastructure. To keep the transition fair and durable, phase changes in transparently and provide transition support for affected workers and regions so communities share in new jobs and reduced long-term risks.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based safeguards for air, water, and critical habitats while giving businesses flexible, cost-effective ways to meet them. We should reward innovation and efficiency, reduce waste and pollution, and keep rules predictable so employers can invest and create jobs. A fair, phased transition\u2014supporting workers, retirees, and small businesses with training, local infrastructure, and reliable energy\u2014can protect health and natural resources without sacrificing livelihoods.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

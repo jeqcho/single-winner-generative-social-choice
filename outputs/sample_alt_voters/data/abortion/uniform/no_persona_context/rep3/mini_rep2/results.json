@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "93",
+      "epsilon": 0.0,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be built around reducing preventable suffering: protect safe, timely care and keep clinical decisions in the hands of patients and licensed medical professionals, not prosecutors. Set transparent, medically meaningful thresholds that permit earlier access and ensure later\u2011pregnancy care remains available when health is threatened, the pregnancy is nonviable, or coercion or violence is involved. Any regulation should be matched with real alternatives\u2014affordable contraception, accurate education, prenatal and mental\u2011health care, childcare and income supports, and streamlined adoption\u2014so fewer people reach a crisis point and communities can disagree without denying care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should treat abortion primarily as a time\u2011sensitive healthcare matter, keeping decisions as close as possible to patients and qualified clinicians and grounded in medical evidence, privacy, and safety. They should protect timely access early in pregnancy and include clear, narrowly tailored exceptions later for serious threats to a patient\u2019s health, fatal or nonviable fetal conditions, and circumstances such as rape or incest, while avoiding punitive criminalization that deters emergency care. Any limits should be paired with robust prevention and support\u2014affordable contraception, comprehensive sex education, prenatal and postpartum care, childcare and economic assistance, and adoption services\u2014so fewer people face crisis pregnancies and more families can thrive.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should protect the health, dignity, and privacy of pregnant people by keeping medical decisions primarily between patients and qualified clinicians, guided by clear, evidence-based standards. They should also reflect the moral concern many hold for developing life by encouraging early prenatal care and allowing measured limits later in pregnancy, while guaranteeing timely exceptions for serious health threats and cases of rape, incest, or nonviable pregnancies. To reduce both unintended pregnancies and the pressures that drive crisis decisions, policy should expand contraception access, accurate education, prenatal and postpartum care, adoption options, and practical supports like childcare and economic assistance, while avoiding punitive criminalization that endangers patients and providers.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "27",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should focus on preventing harm while protecting constitutional rights by using clear, narrowly tailored policies for stops, searches, and force that are reinforced through frequent scenario-based training in de-escalation and impartial decision-making. Communities are best served when the right responder is sent to the right call\u2014expanding co-responder and non-police crisis teams for mental-health, substance-use, and homelessness situations while keeping officers available for serious violence. Public trust grows with transparent reporting, independent investigation of serious incidents, and early-intervention systems that correct patterns and hold misconduct accountable while also providing fair due process, staffing, and wellness support for officers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by setting clear, consistently applied standards\u2014especially for stops, searches, and use of force\u2014backed by rigorous de-escalation, bias-awareness, and constitutional-rights training. Communities should have transparent, independent oversight and regular public reporting of measurable outcomes, while privacy-sensitive technology is governed by clear rules. Expanding non-police responses for mental-health and social-service crises, alongside sustained community partnerships, can prevent harm and reduce unnecessary confrontations. Supporting officer wellness and fair accountability helps officers do their jobs effectively while strengthening trust and dignity for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by using clear, consistently enforced standards\u2014especially for stops, searches, and use of force\u2014paired with strong due process, body-worn camera policies, and independent oversight that is transparent to the public. Officers should receive ongoing de-escalation, constitutional, and bias-awareness training, along with fair discipline and support for wellness so they can do the job professionally and safely. Communities should expand non-police responses for mental-health and substance-use crises, while using measurable, privacy-respecting data to track outcomes and improve trust and effectiveness.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

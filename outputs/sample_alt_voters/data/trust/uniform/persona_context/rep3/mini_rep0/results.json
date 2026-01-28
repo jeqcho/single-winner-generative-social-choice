@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "28"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make their work easy to see, test, and improve: publish clear goals, explain decisions in everyday language, and report results\u2014good and bad\u2014against timelines the public can track. Create real consequences for failures through independent audits and enforceable ethics rules, while making it simple for residents to report problems and get timely fixes. Pair this transparency with ongoing, locally led forums and partnerships that include skeptics and underserved groups, so policies reflect lived experience and deliver practical benefits in daily life.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver steady, measurable improvements in everyday life and make decisions people can see and check: clear standards, transparent processes, accessible data, and independent oversight. They should communicate in plain, culturally and linguistically accessible language, listen locally in ongoing partnerships, and show how feedback changes what they do. When mistakes happen, leaders should admit them promptly, fix them visibly, and be held accountable\u2014building confidence through consistent, service-first competence rather than slogans.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions reliably deliver the basics\u2014safe communities, fair rules, and dependable services\u2014and explain decisions in plain language people can understand. They should publish clear goals and results, use independent audits and open records, and admit and fix mistakes quickly so performance is easy to verify. Trust also rises when leaders partner with local communities\u2014including underserved voices\u2014treat everyone with dignity, protect individual rights, and show steady, practical improvements over time rather than big promises.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

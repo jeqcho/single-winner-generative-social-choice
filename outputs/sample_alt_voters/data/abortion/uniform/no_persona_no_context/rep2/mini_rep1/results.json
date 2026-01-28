@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a public ethic of care: protect the health and dignity of pregnant people, acknowledge the moral weight many attach to fetal development, and reduce preventable suffering. That points to medically defined protections for emergency and serious health cases, strong safeguards for informed and voluntary decision-making, and policies that make pregnancy less economically and socially punishing. Alongside any legal limits, governments should invest in contraception access, evidence-based education, prenatal care, and meaningful support for parenting and adoption so fewer people face crisis-driven choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by harm reduction and human dignity: protecting pregnant people\u2019s health, safety, and voluntary decision-making while taking seriously the moral concern many feel for developing life in a pluralistic society. Common ground includes guaranteeing timely, evidence-based medical care with clear health exceptions, preventing coercion, and keeping families and clinicians out of crisis. Policy should also invest in prevention and support\u2014accurate education, contraception, prenatal care, and economic help for parenting or adoption\u2014so fewer people face unwanted pregnancies and desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared commitment to human dignity: protecting the health and safety of pregnant patients, taking seriously many people\u2019s moral concern for developing life, and respecting that citizens and faiths disagree about when legal protection should begin. Common ground includes clear, medically defined exceptions for threats to life and serious health, rape and incest, along with protections against coercion and for informed consent and privacy. At the same time, government should reduce the number of abortions and family crises by expanding access to contraception and accurate education, prenatal and postnatal care, and practical supports like childcare, paid leave, and adoption assistance.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

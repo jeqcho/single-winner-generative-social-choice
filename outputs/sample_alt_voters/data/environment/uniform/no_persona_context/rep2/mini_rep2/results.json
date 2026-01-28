@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Aim for \u201cgrow within limits\u201d: set non\u2011negotiable health and ecosystem thresholds (clean air and water, habitat protection) while giving firms flexibility in how to meet them through performance standards, pricing pollution, and permitting that rewards low\u2011impact investment. Use revenues and public funds to modernize infrastructure, expand R&D, and provide place\u2011based transition packages\u2014retraining, wage support, and help for small businesses\u2014so affected regions are not left behind. Make decisions transparent with shared metrics and regular review so rules tighten or adjust as technology improves and local conditions change.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Treat environmental protection as essential to long-term prosperity by setting clear, science-based standards that safeguard air, water, and ecosystems while giving businesses predictable, phased timelines to comply. Pair these safeguards with market incentives that internalize pollution costs and reward efficiency, alongside targeted public investment in clean infrastructure and innovation. Ensure a fair transition through workforce retraining, support for affected workers and small businesses, and community-led planning with transparent metrics so progress is measurable and locally trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, water, and reliable energy as essentials for public health, business stability, and long-term prosperity. Set clear, science-based standards with predictable timelines, use market incentives and innovation to cut pollution at lowest cost, and invest in infrastructure that strengthens local economies. Pair these policies with practical transition support\u2014retraining, local job creation, and help for small businesses and affected workers\u2014so communities can adapt without losing livelihoods. Measure results transparently and adjust based on outcomes and local input to protect both today\u2019s jobs and future generations\u2019 resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

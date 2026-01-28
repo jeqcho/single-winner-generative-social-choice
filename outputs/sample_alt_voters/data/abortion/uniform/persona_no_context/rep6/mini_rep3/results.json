@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by protecting health and dignity, respecting that people disagree in good faith about when developing life deserves legal protection. A consensus approach is to guarantee timely, evidence-based care and clear emergency exceptions, while setting any limits in plain, medically workable terms that avoid criminalizing patients or pressuring clinicians. At the same time, policy should reduce the situations that drive abortion by expanding contraception access, prenatal and maternal care, paid leave, and practical support for parenting or adoption, so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for human dignity\u2014recognizing both the moral weight many attach to developing life and the real, sometimes urgent circumstances facing pregnant people and families. A workable framework keeps decisions grounded in patient privacy and qualified medical judgment, guarantees timely care and clear exceptions when life or serious health is at risk, and sets any limits in plain, medically workable terms rather than through punishment. Common ground also includes reducing unintended pregnancies and crisis decisions through accurate education, affordable contraception, and strong support for prenatal care, adoption, and parents who choose to carry to term.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, respect for human dignity, and medical evidence, recognizing both the moral weight many attach to unborn life and the real, sometimes urgent circumstances facing pregnant people and families. A workable framework should guarantee timely care in emergencies and serious health threats, protect patient privacy and clinician judgment, and set clear, consistently written rules that avoid criminalizing patients or providers. Common ground also includes reducing unintended pregnancies and hardship through accurate education, access to contraception, and strong support for prenatal care, adoption, and parents who choose to carry to term.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

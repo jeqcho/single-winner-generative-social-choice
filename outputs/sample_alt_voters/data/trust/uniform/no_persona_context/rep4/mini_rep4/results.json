@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "95"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for people to see how decisions are made, how money is spent, and whether programs actually work. Set clear service standards, publish simple scorecards, and empower independent watchdogs with real authority\u2014then fix problems quickly and publicly when performance falls short. Pair this with respectful, two\u2011way engagement that includes dissenting voices and safeguards civil liberties, so accountability feels shared rather than imposed.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions reliably deliver fair, competent services and enforce rules consistently, while explaining decisions in clear, plain language. They should publish accessible, verifiable performance data, invite meaningful local participation, and submit to independent oversight so people can check results for themselves. When mistakes happen, institutions should acknowledge them quickly, fix them transparently, and protect privacy and individual freedoms\u2014showing measurable follow\u2011through in everyday life.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions prove, day after day, that they deliver fair and reliable services, enforce rules consistently, and treat people with respect. They should explain decisions in plain language, publish easy-to-check performance results, and admit and fix mistakes quickly. Independent audits and ethics enforcement, along with strong privacy and civil-liberty protections, show that power is not being abused. Regular local forums and partnerships that bring in community voices\u2014including workers, seniors, and families\u2014help people see how decisions are made and how feedback changes outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

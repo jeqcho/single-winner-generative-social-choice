@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "49",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, achievable standards that protect health and natural resources while giving businesses certainty to invest and compete. Use flexible tools\u2014performance-based targets, streamlined permitting for cleaner projects, and time-limited incentives\u2014to cut pollution at the lowest cost, paired with transition support such as retraining, wage/benefit bridges, and small-business assistance. Decisions should be guided by transparent data and local input so burdens don\u2019t fall unfairly on workers, rural communities, or low-income neighborhoods, and so benefits show up as real jobs and more resilient economies over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by safeguarding clean air, water, and soil while keeping jobs and local businesses strong. Set clear, science-based standards with predictable, phased timelines and measurable outcomes, paired with market incentives and targeted public investment to help employers adopt cleaner technology. Fund workforce retraining and fair transition assistance for workers, small businesses, and vulnerable communities, using local input and accountability so the costs and benefits are shared and communities can adapt without being left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should reinforce each other: clean air and water protect public health and reduce long-term costs, while a strong economy funds the innovations that keep communities thriving. We should set clear, science-based standards with predictable, phased timelines, using market tools and incentives to help businesses\u2014especially small employers and manufacturers\u2014adopt cleaner, more efficient technology. Pair these rules with real transition support like job training, apprenticeships, and targeted help for workers and families facing higher costs, guided by local input and transparent results so no community is left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

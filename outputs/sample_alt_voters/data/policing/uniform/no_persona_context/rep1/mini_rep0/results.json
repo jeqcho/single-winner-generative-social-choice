@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be organized around a \u201cleast harm, most rights\u201d principle: use the minimum necessary authority to resolve situations safely, guided by clear use-of-force limits, procedural justice, and strong supervision. Pair enforcement with well-funded nonpolice responses for mental-health, substance-use, and homelessness-related calls, while focusing police time on serious violence and repeat harm. Build legitimacy through transparent performance measures (including stops, searches, and force), privacy-protecting body-camera policies, and independent, timely review of critical incidents with meaningful community input.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing clear, proportional standards\u2014especially on stops, searches, and use of force\u2014paired with rigorous, recurring de-escalation and bias/cultural-competence training. Transparent accountability is essential: timely independent investigations, meaningful civilian oversight, and public reporting of outcomes and harm-reduction metrics build legitimacy for both residents and officers. To reduce unnecessary coercive encounters, communities should expand non\u2011police crisis response and prevention investments (mental health, housing, youth supports) while maintaining evidence-based policing and strong community partnership in setting priorities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights together by using clear, consistently enforced standards\u2014especially for stops, searches, and use of force\u2014backed by strong de-escalation training, body-worn cameras with privacy safeguards, and timely independent review of serious incidents. Communities are safer when officers focus on evidence-based prevention and problem-solving, while nonviolent mental-health, substance-use, and homelessness calls are routed to well-coordinated crisis and social-service teams. Transparent public reporting on outcomes (including harm reduction, response times, and complaints) and ongoing community input can rebuild trust, improve fairness, and support officers in doing their jobs professionally.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

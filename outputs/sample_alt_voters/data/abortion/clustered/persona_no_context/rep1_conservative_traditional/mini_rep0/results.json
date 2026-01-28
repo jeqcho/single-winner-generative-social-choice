@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.3500000000000001,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "39",
+      "epsilon": 0.31000000000000005,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to protect health and dignity, recognize the moral seriousness many people attach to developing life, and avoid turning a complex medical reality into a punitive system. A workable framework protects timely access to care early in pregnancy, allows physicians clear discretion in emergencies and serious fetal or maternal diagnoses, and sets any later restrictions with medically grounded, enforceable standards and explicit exceptions. Common ground grows when policy also reduces the need for abortion through prevention and real support\u2014education, contraception, prenatal and mental health care, and economic help for parenting and adoption\u2014so fewer families face the decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.32000000000000006
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for human dignity\u2014taking seriously both the moral weight many attach to potential life and the real health, trauma, and hardship some pregnancies involve. A workable approach provides clear, humane standards that protect patient safety and privacy, preserve timely care and medical judgment, and include well-defined exceptions for serious medical emergencies and other extreme circumstances. Common ground is strengthened by investing in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal care, and practical help for parents and adoption\u2014so fewer people face this decision in crisis and policy avoids punishment or political intrusion into the exam room.",
+      "is_new": true,
+      "epsilon": 0.32000000000000006
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should reflect respect for unborn life and for the dignity, health, and safety of pregnant women, keeping decisions grounded in medical evidence and allowing doctors to act quickly in emergencies. A workable middle ground sets clear limits that protect viable unborn life where possible, with well-defined exceptions for the mother\u2019s life, serious health threats, severe fetal conditions, and rape or incest, without criminalizing patients or politicizing the exam room. Common ground also means investing in prevention and support\u2014sex education, affordable contraception, prenatal and maternity care, adoption options, and practical help for parents\u2014so fewer families face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

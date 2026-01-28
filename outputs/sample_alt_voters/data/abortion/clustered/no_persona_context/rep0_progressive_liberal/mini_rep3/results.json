@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should start from shared aims: protect the health and dignity of pregnant people, respect ethical disagreement about fetal life, and keep medicine\u2014rather than fear of prosecution\u2014at the center of urgent care. A workable framework preserves early access and privacy, sets any later limits in line with medical evidence, and guarantees clear, timely exceptions for threats to health, nonviable pregnancies, and pregnancies resulting from violence. It should also reduce the need for abortion by expanding contraception and accurate education, improving maternal healthcare, and providing concrete economic, childcare, and adoption supports so more families can carry pregnancies if they choose.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by medical evidence and compassion: protect patient safety, privacy, and timely access to early care, while allowing carefully defined, clinically workable limits later in pregnancy. Any framework must include clear exceptions and clinician discretion for emergencies and serious health risks, and for pregnancies resulting from rape or incest or involving severe fetal anomalies or nonviability. Enforcement should avoid criminalizing patients and instead focus on accountability for safe, licensed care. Alongside any limits, governments should reduce unwanted pregnancies and hardship through affordable contraception, comprehensive sex education, and strong prenatal, childcare, and family supports.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by medical evidence, compassion, and respect for human dignity\u2014protecting patient safety, privacy, and timely access to care while acknowledging that many people view fetal life as morally significant. A workable framework keeps early decisions primarily between the patient and qualified clinicians, sets clearer, medically grounded limits later in pregnancy, and guarantees enforceable exceptions for threats to health or life, pregnancies from rape or incest, and nonviable or severe fetal conditions. Policy should avoid criminalizing patients and clinicians, and instead reduce the number of unwanted pregnancies and crisis decisions through affordable contraception, accurate sex education, prenatal and mental-health care, and practical supports for parents and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

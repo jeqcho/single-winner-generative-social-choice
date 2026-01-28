@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "4"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "4"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "4"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "4"
+    },
+    "chatgpt_star_personas": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a \u201cleast\u2011harm, most\u2011effective\u201d standard: intervene only as much as necessary, with clear legal thresholds for stops, searches, arrests, and force, and with documentation that is reviewable. Build a layered public\u2011safety response\u2014unarmed clinicians, mediators, and service providers for nonviolent crises and prevention\u2014so police focus on serious threats. Legitimacy requires transparent data, independent investigation of serious incidents, and community input into priorities, alongside fair training, supervision, and support for officers to follow the rules consistently.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by setting clear, enforceable limits on force and stops, backed by rigorous de-escalation and bias-awareness training and strong support for officer wellness and professionalism. Pair these standards with transparent, data-driven accountability\u2014body-worn cameras with privacy safeguards, public reporting, and independent civilian oversight\u2014so performance is measurable and misconduct is addressed fairly. Divert appropriate nonviolent calls to unarmed crisis and social-service teams, and sustain community partnerships to prevent harm, reduce unnecessary confrontations, and build durable trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe and uphold civil rights by enforcing the law with clear, consistent standards\u2014especially on stops, searches, and use of force\u2014backed by strong de\u2011escalation and crisis\u2011intervention training. Independent oversight, transparent reporting, and body\u2011worn cameras with commonsense privacy protections can build accountability and trust for residents and officers alike. Nonviolent mental\u2011health and social\u2011service calls should be routed to specialized teams when safe, while police focus on serious threats, supported by fair discipline, adequate staffing, and officer wellness resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

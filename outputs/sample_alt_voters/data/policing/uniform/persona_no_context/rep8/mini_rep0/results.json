@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "19"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "19"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safety and civil rights together by using the least-intrusive, most effective response: prevention and problem-solving first, enforcement when necessary, and force only as a last resort. Clear, publicly known rules\u2014especially for stops, searches, and use of force\u2014should be paired with fair discipline, independent review, and transparent reporting so accountability is consistent for both citizens and officers. Building durable trust requires regular two-way community input, strong training and support for officers, and specialized co-responder options for mental-health and substance-use crises, with outcomes tracked and policies updated based on evidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights at the same time through clear, consistently enforced standards\u2014especially for stops, searches, and use of force\u2014paired with strong de-escalation, bias-awareness, and scenario-based training. Transparent data reporting (including use-of-force incidents) and independent oversight with meaningful community input should ensure accountability and due process for both residents and officers. Communities should expand partnerships with mental-health and social-service responders so that crises are met with the right level of care, reducing harm while building lasting trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while protecting constitutional rights through clear, consistently enforced standards for stops and use of force, strong de-escalation training, and transparent reporting. Independent oversight and timely review of serious incidents\u2014paired with body cameras and accessible data\u2014can strengthen accountability and public trust while supporting officers with fair due process. Expanding partnerships with residents, schools, and mental-health and social-service teams for crisis calls can prevent violence, reduce unnecessary arrests, and help all neighborhoods feel both secure and respected.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

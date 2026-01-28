@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star": {
+      "winner": "37",
+      "epsilon": 0.0,
+      "full_winner_idx": "37"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "78",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make decisions in ways people can inspect: publish the reasoning, data sources, and tradeoffs; disclose conflicts of interest; and state clear goals with timelines. They should invite meaningful public input early, then show how that input changed outcomes, while protecting individual rights and applying rules consistently. When mistakes happen, leaders should explain what went wrong, fix it quickly, and track progress publicly through independent audits so trust is earned through verifiable performance rather than promises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions are transparent about how decisions are made, publish clear goals and performance metrics people can verify, and accept independent oversight and audits. Trust is strengthened by plain-language, culturally and linguistically accessible communication, regular community forums that treat questions as legitimate, and meaningful ways for residents to participate in feedback and oversight. Institutions should show competence through reliable services, admit mistakes, correct them quickly, and report results openly so accountability is tangible rather than rhetorical.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver dependable, everyday results and make decisions in the open\u2014showing clearly how choices are made, how money is spent, and what outcomes are achieved. They should welcome independent audits and public oversight, publish simple performance measures, and admit and correct mistakes quickly. Trust also improves when leaders listen respectfully in regular local forums and communicate in plain, accessible language while protecting individual rights and treating citizens as partners rather than subjects.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

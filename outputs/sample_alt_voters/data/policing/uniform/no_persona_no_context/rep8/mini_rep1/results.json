@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a \u201cminimum necessary intervention\u201d approach: prevent and stop serious harm while using the least intrusive tactics consistent with safety and the Constitution. That means clear, enforceable standards for stops, searches, and force; early-warning systems and independent investigations when harm occurs; and public reporting that lets communities evaluate results. Pairing focused enforcement on high-risk violence with strong diversion, crisis-response, and social-service partnerships for nonviolent issues can reduce crime and unnecessary encounters while protecting equal rights.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the shared goal of preventing harm while protecting civil rights, since safety and liberty depend on one another. That requires clear, enforceable use-of-force and de-escalation standards, transparent reporting, and independent oversight with accessible complaint and discipline processes. Communities should help shape priorities and review outcomes, while nonviolent crises are routed to tailored responses and social services so police focus on serious threats. Success should be measured by reductions in violence, unnecessary force, and disparities, alongside increased public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a dual mandate: prevent violence and respond to emergencies effectively while protecting constitutional rights through equal treatment, due process, and restraint. That means clear, enforceable use-of-force standards; strong de-escalation and crisis-intervention training; independent and timely review of serious incidents; and transparent reporting so the public can judge results. To reduce unnecessary and contentious encounters, communities should expand proven alternatives for nonviolent mental-health, addiction, and homelessness calls while keeping police focused on serious threats. Safety improves most when residents and officers jointly set priorities and measure success by fewer crimes, fewer injuries, and fewer rights violations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection can be balanced by setting firm, science-based limits on the most harmful pollution while giving businesses flexibility in how to meet them through performance standards and market mechanisms. Use the revenue and savings from cleaner systems to lower transition costs\u2014investing in grid and transit upgrades, small\u2011business support, and targeted training for workers in affected industries. Regular public reporting, periodic rule reviews, and locally tailored plans can keep policies accountable, affordable, and responsive as technology and community needs change.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats a healthy environment as the foundation of long-term prosperity, with clear, science-based, enforceable safeguards for air, water, and land. Pair predictable, phased standards with market-based incentives and investment in clean technology and infrastructure so businesses can innovate and remain competitive. Provide fair transition support\u2014retraining, small-business assistance, and targeted help for affected communities\u2014guided by transparent timelines, measurable outcomes, and meaningful local input.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance starts from the idea that clean air, safe water, and healthy land are the foundation of long-term prosperity, while also protecting paychecks and local businesses. Set clear, science-based standards with fair enforcement, but use flexible, cost-effective tools\u2014like incentives for efficiency and clean technology, streamlined permitting for better projects, and phased timelines\u2014so companies can plan and innovate. Pair these policies with practical transition supports such as retraining, small\u2011business help, and targeted assistance for communities and workers most affected, shaped through transparent goals and meaningful local input.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

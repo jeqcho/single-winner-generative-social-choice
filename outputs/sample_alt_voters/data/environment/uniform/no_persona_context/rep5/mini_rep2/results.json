@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance protects the environmental systems that sustain health and long-term prosperity while giving businesses and workers a realistic, competitive path to adapt. Set outcomes-based standards with predictable timelines, price or limit pollution where feasible, and pair them with targeted support for innovation, small firms, and households most affected by higher transition costs. Measure results publicly and adjust policies as evidence improves, so economic growth continues without locking in avoidable environmental damage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing by using science-based, transparent standards and predictable timelines that prevent avoidable harm to air, water, and ecosystems. Pair phased implementation with market incentives and investments in clean technology and infrastructure to spur innovation and durable job creation. Provide targeted transition support\u2014retraining, placement, and assistance for affected workers, small businesses, and communities\u2014so the benefits and burdens are shared fairly through local, measurable planning.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and productive land is essential to public health and to the farms, small businesses, and local jobs that depend on them. A workable balance pairs clear, science-based standards and polluter-pays principles with flexible, phased compliance, letting businesses choose the lowest-cost path while keeping rules predictable. Invest in energy efficiency, modern infrastructure, and domestic clean manufacturing, and provide straightforward transition support\u2014retraining, wage and benefit bridges, and help for rural and industrial communities\u2014so the benefits and burdens are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

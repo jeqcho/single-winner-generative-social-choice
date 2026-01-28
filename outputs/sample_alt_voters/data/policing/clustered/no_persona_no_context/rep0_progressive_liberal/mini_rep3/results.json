@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star": {
+      "winner": "52",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star_personas": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable approach to policing starts by defining success as both fewer crimes and fewer unnecessary intrusions or injuries, then aligning tactics to that standard. That means prioritizing the least coercive effective response\u2014especially for low-level and behavioral-health calls\u2014while maintaining clear authority to intervene quickly in serious threats. Legitimacy grows when rules are specific and consistently enforced (including discipline for misconduct), and when agencies publish auditable data and invite residents into setting priorities and evaluating results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by centering procedural justice, clear and proportionate use-of-force limits, and transparent reporting of outcomes. Independent oversight and real accountability for misconduct, paired with meaningful community input on priorities, can build durable trust and cooperation. Investing in de-escalation training and alternatives for nonviolent and behavioral-health calls\u2014through diversion, mental-health supports, and partnerships with social services\u2014reduces harm while maintaining safety.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the shared goal of safe neighborhoods where everyone\u2019s rights and dignity are protected, recognizing that long-term safety depends on public trust. That means clear, enforceable standards for stops and use of force; transparent data; independent oversight; and real consequences for misconduct, alongside strong training in de-escalation and bias reduction. Communities should help set priorities, and nonviolent crises should be met first with mental-health and social-service alternatives so police can focus on serious threats while preserving due process and equal treatment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

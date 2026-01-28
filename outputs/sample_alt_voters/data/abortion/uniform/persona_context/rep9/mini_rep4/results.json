@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.3500000000000001,
+      "full_winner_idx": "95"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_personas": {
+      "winner": "25",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should start from two shared commitments: protecting people\u2019s ability to obtain timely, evidence-based medical care and taking seriously the moral value many attribute to developing human life. Any regulation should be clear, medically defined, and nonpunitive\u2014leaving clinical judgment and privacy at the center\u2014and it must include reliable exceptions for threats to life or serious health, rape or incest, and severe fetal conditions. To reduce both abortions and hardship, governments should pair any limits with proven supports such as comprehensive sex education, affordable contraception, prenatal and postpartum care, and economic and childcare assistance.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, sound medical evidence, and respect for both patient autonomy and the moral seriousness many attach to developing life, keeping time\u2011sensitive decisions primarily between patients and qualified clinicians with strong privacy protections. Any legal limits should be clear, consistently enforceable, and paired with narrowly tailored exceptions for threats to a pregnant person\u2019s life or serious health, rape or incest, and severe fetal anomalies, without punitive criminalization of people in crisis or good\u2011faith medical care. To reduce the number of abortions and support families, policy should invest in prevention and practical support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption options, and economic and childcare assistance\u2014so fewer people face desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should protect the health, dignity, and privacy of pregnant people while recognizing that many citizens, including people of faith, attach real moral value to developing life. Any legal limits should be medically defined, clear, and consistently applied, keeping time\u2011sensitive decisions primarily between patients and qualified clinicians, with explicit exceptions for threats to life or serious health, rape or incest, and severe fetal anomalies, and without criminalizing people in crisis or good\u2011faith medical care. To reduce abortions and support families, policy should invest in prevention and practical help\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption and parenting resources, and economic and childcare supports\u2014so fewer people face desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star": {
+      "winner": "52",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect life and health while recognizing that pregnancy decisions are often urgent, complex, and deeply personal. A durable compromise keeps early care safe and accessible, sets medically informed standards for later pregnancies that track fetal development and maternal risk, and guarantees prompt exceptions when a patient\u2019s life or serious health is at stake or when pregnancy results from violence. Instead of relying on punishment, policy should reduce the number of crisis pregnancies through affordable contraception, accurate education, prenatal and maternal care, and concrete support for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, evidence-based medicine, and respect for both a pregnant person\u2019s dignity and the moral concerns many attach to developing life. Policy should protect timely access to emergency and medically necessary care, keep clinical decisions centered on patients and qualified clinicians with clear, workable standards, and avoid punitive rules that deter treatment. Common ground is strengthened by reducing unintended pregnancies and crisis decisions through comprehensive sex education, affordable contraception, prenatal and maternal care, and practical support for parents and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should keep people safe by grounding decisions in medical evidence, protecting privacy, and guaranteeing timely care in emergencies and serious threats to a pregnant person\u2019s life or health. Because people hold sincere moral and religious views about potential life, policy should be clear and workable for clinicians, avoid punitive approaches that criminalize patients or doctors, and allow room for conscience while setting transparent, medically informed guardrails, especially later in pregnancy. Common ground is strongest when any rules are paired with prevention and support\u2014accurate education, affordable contraception, prenatal and maternal care, adoption options, and economic help for parents\u2014so fewer families are forced into crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

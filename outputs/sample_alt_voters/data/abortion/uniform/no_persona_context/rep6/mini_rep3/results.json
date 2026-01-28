@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "94",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "95",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should prioritize the well\u2011being and rights of pregnant people while recognizing that many citizens attribute moral value to developing fetal life, aiming for rules that are humane, workable, and medically sound. Policy should guarantee timely access to safe care and emergency treatment, protect privacy, and place clinical decisions with patients and licensed clinicians, with carefully defined standards and exceptions for serious health threats, grave fetal diagnoses, and pregnancies resulting from violence. Any legal framework should avoid punitive enforcement against patients and clinicians and be paired with strong measures that reduce unintended pregnancy and hardship\u2014reliable contraception, accurate education, prenatal/postpartum care, and economic and childcare supports\u2014so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical evidence and compassion, protecting patient privacy and timely access to safe care while keeping decisions as close as possible to patients and qualified clinicians rather than politicians. Any legal limits should be clear and narrowly drawn, with explicit exceptions for medical emergencies and serious threats to health, as well as for rape, incest, and fatal or severe fetal conditions. Policy should avoid criminalizing patients and clinicians and instead pair rules with strong prevention and support\u2014accessible contraception and sex education, plus healthcare, childcare, and economic and adoption resources\u2014so fewer people face unwanted pregnancies or crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical evidence and compassion, protecting patient privacy and ensuring that urgent, life- and health-saving care is always available based on clinician judgment. Recognizing deep moral disagreement, the law can set clear, workable standards with narrowly defined exceptions for threats to the pregnant person\u2019s health, rape or incest, and fatal fetal conditions, while avoiding criminal penalties for patients and clinicians acting in good faith. At the same time, society should reduce unwanted pregnancies and support families through accessible contraception and sex education, prenatal and postpartum healthcare, childcare, adoption support, and financial assistance so people have real alternatives and fewer face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

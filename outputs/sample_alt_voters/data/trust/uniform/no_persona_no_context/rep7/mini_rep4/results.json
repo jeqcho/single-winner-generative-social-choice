@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Trust grows when institutions make their goals, constraints, and trade-offs explicit, then show\u2014through independently verified evidence\u2014whether they met them. A practical middle ground is to pair transparency with consequences: publish plain-language decision records and performance metrics, and apply consistent remedies when standards aren\u2019t met. Create regular, structured ways for residents to contribute (not just comment), such as citizen panels and open hearings, so feedback is reflected in policy and progress is easy to track.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "People across perspectives want institutions that are fair, competent, and responsive, so rebuilding trust starts with clear explanations of decisions and honest limits on what can be delivered. Institutions should pair transparency and plain\u2011language public reporting with consistent accountability\u2014independent audits, oversight, and visible correction when mistakes occur. Creating real two\u2011way engagement (public input, accessible data, and feedback loops that show what changed) lets people judge performance on shared, measurable standards over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People across political and personal backgrounds want institutions that are fair, competent, and on the public\u2019s side, not captured by special interests. Trust can be rebuilt by setting clear, consistently enforced rules; publishing plain-language reasons for decisions and measurable results; and requiring independent audits with real consequences when standards aren\u2019t met. Pair that accountability with easy, respectful ways for residents to give input and get timely answers, so institutions demonstrate they listen, learn from mistakes, and improve in visible, verifiable steps.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

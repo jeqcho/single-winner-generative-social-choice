@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "2"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "2"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "32"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "2"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make their goals, rules, spending, and results easy to see and verify, and when failures have real consequences and prompt fixes. Pair independent watchdogs and open records with strong privacy protections and straightforward, jargon-free explanations so people can understand what\u2019s being done and why. Build confidence through regular local forums and responsive service channels that show communities were heard, and by consistently delivering core services fairly, on time, and without political favoritism.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they act like dependable service providers: making decisions transparently, communicating in plain language, and delivering consistent, measurable results that people can feel in daily life. Leaders should admit mistakes, correct them quickly, and be held to enforceable accountability through independent audits and local oversight. Ongoing, respectful engagement\u2014listening to community concerns and protecting privacy and individual freedoms while ensuring fairness\u2014creates common ground across political divides.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they act like dependable service providers: explain decisions in plain language, protect privacy and safety, apply rules consistently, and show measurable results that improve daily life. Institutions should publish open, verifiable performance data, welcome independent audits and local citizen oversight, and promptly admit mistakes with clear plans to fix them. Trust is strengthened when communities are genuinely heard through accessible, multilingual engagement and when services are delivered fairly\u2014respecting individual freedoms, equal treatment, and shared responsibilities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

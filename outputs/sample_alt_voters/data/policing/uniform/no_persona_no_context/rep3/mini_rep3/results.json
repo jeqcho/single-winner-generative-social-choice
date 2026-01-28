@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a \"least intrusive, most effective\" approach: use the minimum level of enforcement needed to stop harm, and prioritize prevention and problem-solving before punishment when possible. Clear, publicly available policies for stops, searches, and use of force\u2014paired with reliable data collection and independent investigation of serious incidents\u2014protect rights and improve performance. Co-responder and diversion options for mental health, substance use, and youth cases can reduce unnecessary arrests while keeping communities and officers safer.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by practicing procedural justice\u2014fairness, neutrality, and giving people voice\u2014backed by clear rules, de-escalation and bias-reduction training, and proportional responses. Trust grows when agencies are transparent about stops, use of force, and outcomes, and when misconduct is addressed through independent, credible oversight. Sustained community partnership and regular public reporting help ensure strategies reduce harm effectively while protecting constitutional protections and human dignity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the principle that public safety and constitutional rights depend on each other, and that fair, respectful treatment strengthens cooperation and crime prevention. Communities can support reforms that set clear, enforceable standards for de-escalation and proportional response, require transparent reporting, and ensure independent review when force or misconduct is alleged. Pairing these safeguards with evidence-based problem solving and partnerships with local services helps officers focus on serious threats while giving residents a real voice in priorities and accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

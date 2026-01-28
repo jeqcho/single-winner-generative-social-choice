@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "46",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "46"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "47",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance pairs firm, science-based environmental guardrails with predictable rules that give businesses confidence to invest and plan. Instead of choosing between jobs and nature, policy should focus on cutting pollution and waste at lowest cost through market signals, flexible compliance options, and targeted public investment in clean infrastructure. Where change disrupts local economies, transition support\u2014training, regional diversification, and temporary assistance\u2014should be built in so communities can benefit from a more resilient, resource-efficient economy.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth can be aligned by treating healthy ecosystems as the foundation of long-term prosperity and setting clear, science-based environmental targets with flexible, measurable ways to meet them. Pair smart regulations that internalize pollution costs with incentives for clean energy, efficiency, resilient infrastructure, and circular-economy innovation to boost competitiveness and jobs. Ensure a just transition through workforce training, targeted support for affected regions, and transparent, inclusive decision-making so costs and benefits are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance protects the air, water, and climate we all depend on while keeping energy reliable and prices affordable for families and small businesses. We should set clear, science-based environmental goals, but use flexible, cost-effective tools\u2014innovation, efficiency, and market incentives\u2014so communities can meet them without unnecessary red tape. Public and private investment in clean energy, infrastructure, and manufacturing can create good local jobs, paired with practical support like retraining, help for affected workers, and transition assistance for industries and regions. With transparent metrics and shared responsibility, we can grow the economy now while safeguarding natural resources for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

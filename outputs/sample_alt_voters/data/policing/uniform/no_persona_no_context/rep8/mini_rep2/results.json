@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim to reduce harm and prevent crime while upholding constitutional rights through consistent, publicly understood standards and supervision. This means reserving force and intrusive tactics for clearly defined, necessary situations; using de-escalation and proportional responses as the default; and providing non-police options for mental health and other nonviolent calls. Trust grows when agencies publish usable data, invite community input into priorities, and ensure misconduct is investigated independently with fair due process for both residents and officers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public safety and civil rights should be treated as mutually reinforcing goals, guided by clear, enforceable standards for stops and use of force, strong de-escalation and anti-bias training, and transparent reporting. Independent oversight\u2014with meaningful community representation\u2014should investigate misconduct and regularly audit outcomes for both safety and rights impacts. Cities should also fund non-police responses and prevention (e.g., mental-health crisis teams, housing and violence-interruption) and expand alternatives to arrest for nonviolent issues to reduce unnecessary, harmful contacts. Using evidence-based, data-driven evaluation and community partnership can improve effectiveness while protecting dignity and liberties.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public safety and civil rights should be pursued together through clear, consistently enforced standards for stops, searches, and use of force, paired with strong training in de-escalation and constitutional policing. Independent oversight, transparent reporting (with sensible privacy protections), and regular audits can build trust and ensure accountability when mistakes occur. Communities should help set priorities, and nonviolent calls\u2014especially mental-health or substance-use crises\u2014should have well-funded alternatives to arrest so police can focus on serious crime while reducing unnecessary rights-impacting encounters.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

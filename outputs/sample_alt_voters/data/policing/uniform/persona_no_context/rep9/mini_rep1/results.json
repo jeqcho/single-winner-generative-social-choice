@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "48",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "48",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be designed to prevent harm and solve problems while strictly respecting constitutional rights, with clear limits on stops, searches, surveillance, and use of force. Departments should pair strong training and supervision (de-escalation, crisis intervention, bias mitigation, communication) with real consequences for misconduct, including independent investigations, early-warning systems, and public reporting of outcomes. Public safety improves when officers are supported to focus on serious crime and when communities have reliable alternatives\u2014co-responder models, diversion, and victim services\u2014built through regular local input and measurable goals.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by centering human dignity, clear constitutional standards, and evidence-based practices that prioritize de-escalation and proportional responses. Officers should be trained and supported for crisis response\u2014including disability and mental-health situations\u2014while partnering with co-responders and community services to prevent harm and reduce unnecessary arrests. Trust is strengthened through transparency (body-worn cameras, timely public reporting), independent oversight, and consistent accountability when standards are violated, alongside regular community input to guide continuous improvement.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while treating constitutional rights and human dignity as non\u2011negotiable, guided by clear, consistent rules and fair enforcement for everyone. Officers should be equipped with strong de-escalation, bias-awareness, disability and mental-health crisis training, and backed by coordinated response options\u2014such as co-responder teams and social-service partnerships\u2014so the right help arrives without unnecessary force. Trust grows through transparent practices like body cameras with clear privacy safeguards, timely public reporting, and independent oversight that investigates misconduct and applies consequences while also supporting officers with adequate staffing, training, and wellness resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

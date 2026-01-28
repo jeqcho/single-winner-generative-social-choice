@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by protecting health and human dignity, recognizing both the pregnant person\u2019s rights and the sincere moral concern many feel about developing life. A durable compromise keeps early care accessible and safe, sets clearer limits as pregnancy advances, and guarantees prompt exceptions for threats to life or serious health harm, rape or incest, and lethal fetal diagnoses\u2014using medically defined standards so clinicians can act without delay. To reduce abortions and conflict, policy should also expand contraception and sex education, strengthen prenatal and maternal care, and provide concrete economic and childcare supports so fewer families face the decision under crisis conditions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, sound medical evidence, and respect for both women\u2019s health and the sincere moral concern many people feel about potential life. Policy should keep decisions as close as possible to patients and qualified clinicians, protect timely access to safe care\u2014especially early in pregnancy\u2014and set clear, workable limits later with explicit exceptions for threats to the mother\u2019s life or serious health risks, rape, incestincest, and fatal fetal conditions. Common ground grows when law is written plainly and paired with real prevention and support: affordable contraception and comprehensive sex education, plus prenatal care, childcare, and adoption resources so fewer people feel forced into crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, human dignity, and sound medical evidence\u2014protecting the health and safety of pregnant people while also acknowledging the sincere moral concern many feel about developing life. Policy should keep urgent decisions in the hands of patients and qualified clinicians, guarantee clear exceptions for rape, incest, fatal fetal conditions, and serious threats to the mother\u2019s life or health, and provide consistent, plain rules so care isn\u2019t delayed by fear or confusion. Common ground grows when we also reduce unintended pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and maternal healthcare, paid leave, childcare, and adoption and parenting supports, so fewer families face this choice in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

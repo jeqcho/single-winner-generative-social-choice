@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safety and civil rights as inseparable goals by using the least intrusive, proportionate response necessary and reserving force for truly unavoidable situations. Departments should set clear, enforceable standards for stops, searches, and use of force, paired with strong training in de-escalation, crisis response, and lawful decision-making, and backed by independent review with timely public reporting. Public trust can grow through regular community consultation, problem-solving focused on repeat harms, and well-governed technology and data practices that deter misconduct while helping prevent and solve serious crime.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and constitutional rights as mutually reinforcing goals, grounded in clear, enforceable standards\u2014especially for stops, searches, and use of force\u2014and rigorous training that prioritizes de-escalation. Independent oversight, transparent reporting (including body-worn camera and use-of-force data), and consistent accountability for misconduct are essential to maintain legitimacy and public trust. Community partnership and targeted, evidence-based prevention\u2014paired with well-supported alternatives for mental-health and crisis calls\u2014can reduce harm while enabling officers to enforce the law fairly and effectively.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while strictly protecting constitutional rights by setting clear use-of-force and search standards, requiring strong de-escalation training, and enforcing consistent discipline for misconduct. Trust grows when departments are transparent\u2014publishing key data, using body cameras with sensible privacy safeguards, and relying on independent review\u2014while also backing officers who follow the rules and do their jobs professionally. Communities should have regular input, and whenever appropriate, crises involving mental health, addiction, or youth should be handled with partnerships and specialized responders so police can focus on serious crime without unnecessary confrontations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

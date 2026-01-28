@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "23",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "90",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make their work easy to see, easy to challenge, and hard to abuse. That means publishing plain-language rationales, data, and spending in usable formats; enforcing clear ethics and conflict-of-interest rules; and creating independent complaint and review channels with real consequences. Pair this openness with reliable service improvements and local, two-way engagement so people can verify progress and feel heard without turning every decision into a partisan fight.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions are clearly competent and fair, and when people can see and verify how decisions are made and whether they worked. That means plain-language explanations of trade-offs, open data and budget transparency, measurable service standards, and consistent consequences for mistakes, corruption, or conflicts of interest through independent oversight. Institutions should also create regular, inclusive ways for communities to give input and track follow-through, so participation is meaningful and results are visible.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions are honest about mistakes, explain decisions in plain language, and follow the same rules they enforce\u2014fairly and consistently. We can build common ground by pairing transparency (open budgets, data, and clear standards) with strong, independent oversight that prevents corruption and conflicts of interest. Trust also grows when people can participate in practical ways\u2014local forums, accessible complaint and appeal channels, and regular public reporting that shows what changed and why.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

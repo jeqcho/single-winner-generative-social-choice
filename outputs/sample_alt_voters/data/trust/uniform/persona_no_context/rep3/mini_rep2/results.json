@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make decisions in the open, explain the tradeoffs in plain language, and let people verify progress through clear goals, timelines, and independent audits. Rules and enforcement should be consistent and fair, with simple, reliable ways to appeal mistakes and prompt correction when failures occur. Building trust also means sharing power locally\u2014using citizen panels, community partnerships, and regular public reporting\u2014so services improve around everyday needs like safety, health, and opportunity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions deliver reliable, fair services and back their decisions with plain-language transparency, measurable goals, and regular public reporting. Leaders should admit mistakes, correct them quickly, and submit to independent oversight and consistent ethical standards applied to everyone. Trust also grows when institutions listen without defensiveness and share decision-making through accessible local forums and partnerships with community groups, ensuring information is available in the languages people use. Steady, practical follow-through\u2014showing improvements people can see in safety, health, and everyday quality of life\u2014builds confidence across political and cultural divides.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions prove, in everyday ways, that they are honest, fair, and competent: explain decisions in plain language, publish results people can verify, and admit and fix mistakes quickly. Use independent oversight and clear, consistently enforced rules to prevent favoritism and misuse of funds, while protecting individual rights and public safety. Create regular local channels\u2014town halls, libraries, schools, clinics, faith and neighborhood groups\u2014where residents can shape priorities and get timely answers in the languages they use. Focusing on reliable services that reduce inequities and respect families\u2019 needs, paired with fiscal responsibility and measurable outcomes, can rebuild confidence across political and cultural lines.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

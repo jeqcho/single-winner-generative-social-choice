@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make it easy for people to see how decisions were made, how money was used, and what changed as a result\u2014through simple public dashboards, clear standards of conduct, and consequences for misconduct. They should pair that transparency with strong due process and privacy protections, so accountability doesn\u2019t become partisan punishment or intrusive surveillance. Finally, institutions should invite residents into early, ongoing problem-solving\u2014especially at the local level\u2014and show, in concrete time-bound steps, how public feedback altered priorities and improved everyday services.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver reliable, everyday services and make decisions in plain language backed by clear, published performance metrics. Independent oversight\u2014such as audits, open data, and enforceable standards\u2014should make results and mistakes visible, with prompt public correction when things go wrong. Trust is strengthened by regular, accessible local channels for two-way input and partnership, alongside strong protections for rights and privacy, so people can judge institutions by verifiable outcomes rather than rhetoric.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions prove they work for everyday people: deliver reliable services, enforce rules fairly, and show clearly\u2014using plain language and simple metrics\u2014what was promised, what was done, and what results followed. Require independent audits and public reporting to deter corruption and waste, while protecting privacy and basic rights. Create regular local forums and easy feedback channels so residents can help set priorities, flag problems, and see corrections made quickly when mistakes happen.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

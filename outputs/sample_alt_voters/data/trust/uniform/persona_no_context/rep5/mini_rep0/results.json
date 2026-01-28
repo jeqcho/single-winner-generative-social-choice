@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "34",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "25",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make decisions in the open\u2014explaining goals, tradeoffs, and evidence\u2014while applying rules consistently and correcting errors quickly and publicly. People across viewpoints are more likely to believe systems that deliver basic services reliably, treat everyone with dignity, and publish clear metrics that allow the public and independent watchdogs to verify performance. Creating easy, local pathways for input and appeal\u2014so residents can be heard, get answers, and see changes\u2014turns skepticism into shared expectations and durable accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they deliver reliable, everyday results while making decisions transparent, explaining tradeoffs in plain language, and applying rules fairly and consistently. Leaders should admit mistakes, publish measurable goals and outcomes, and create independent oversight and clear avenues for feedback and redress. Regular, respectful engagement with local communities\u2014including frontline workers and service users\u2014ensures policies reflect lived experience and that accountability is real rather than performative.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver reliable, everyday results and show their work: plain-language explanations of decisions, open data where possible, and clear standards applied consistently and fairly. Leaders should admit mistakes, fix them quickly, and be held accountable through independent audits and simple, accessible ways for people to report problems and get timely answers. Regular local listening sessions\u2014designed to include working people, seniors, and multilingual communities\u2014along with nonpartisan, evidence-based policies can reduce polarization by letting citizens judge performance by transparent outcomes rather than rhetoric.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

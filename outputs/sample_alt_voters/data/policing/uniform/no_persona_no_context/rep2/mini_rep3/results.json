@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim to prevent harm and reduce crime while treating constitutional rights as non\u2011negotiable guardrails, not obstacles. A workable middle path pairs clear, enforceable standards for stops, searches, and use of force with public reporting, independent audits, and fair discipline when rules are broken. It also expands co-response and diversion options for mental health and low-level offenses, while using community input and outcome data to focus resources where they measurably improve safety.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as reinforcing goals by grounding strategy in evidence, procedural justice, and respectful treatment. Clear limits on use of force, strong de-escalation and bias-aware training, and transparent reporting\u2014paired with meaningful independent oversight and accessible complaint processes\u2014help prevent harm and build legitimacy. Communities should help set priorities and evaluate outcomes, while partnering with behavioral-health and other services to provide effective alternatives to arrest when appropriate.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by focusing on fair, lawful, and effective practices that earn community trust. That means clear and consistently enforced use-of-force and search standards, strong de-escalation and crisis-response training, and transparent reporting of stops, complaints, and outcomes. Independent, timely review of serious incidents and accessible complaint processes protect both the public and good officers, while partnerships with residents and non-police services for mental health and addiction help prevent crime and reduce unnecessary arrests.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

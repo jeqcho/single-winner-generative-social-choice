@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College\u2019s state-based structure but require every state to allocate electors proportionally based on the statewide vote, with a clear national floor for ballot access, paper records, audits, and recount triggers. That would reduce \u201cwrong-winner\u201d outcomes and the outsized focus on a few swing states, while still pushing candidates to build geographically broad coalitions. If confidence grows, the country could then consider a more direct national popular vote through an amendment or compact, using ranked-choice voting to ensure majority support and limit spoiler effects.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should reduce winner-take-all distortions while preserving a meaningful state role, so candidates still have incentives to build broad, cross-regional coalitions. A practical bridge is to keep the Electoral College but require proportional (or district-based) allocation of electors in every state, paired with clear national baseline standards for ballot access, counting, audits, and recount triggers to strengthen transparency and trust. If broader agreement emerges, the National Popular Vote Interstate Compact could serve as a phased path toward aligning the outcome with the national popular will without abrupt disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforms to the Electoral College should protect the role of states and smaller communities while making outcomes track voters more closely and feel legitimate nationwide. A practical compromise is to keep the Electoral College but end winner-take-all by allocating electors proportionally (or by district with clear anti-gerrymandering safeguards), paired with uniform national baseline rules for voter access, paper-backed voting, audits, and consistent recount triggers. If there is broad bipartisan agreement, the National Popular Vote Interstate Compact could be a next step once those integrity and transparency standards are in place.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

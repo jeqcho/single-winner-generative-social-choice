@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to reduce harm and respect both the developing life many seek to protect and the rights, health, and dignity of the pregnant person, with rules written in medically precise terms. Any framework should guarantee timely, evidence-based care and clearly protect exceptions for rape or incest, serious threats to physical or mental health, and nonviable or catastrophic fetal conditions, while avoiding criminal penalties that deter emergency treatment. Legislators should pair whatever limits exist with proven measures that lower unintended pregnancy and support families\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical financial, childcare, and adoption assistance.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should balance respect for potential life with the health, dignity, autonomy, and privacy of the pregnant person, keeping time-sensitive medical decisions primarily between patients and qualified clinicians and grounded in medical evidence. Any legal standards should be clear and enforceable, include well-defined exceptions for rape, incest, and serious threats to life or health (including nonviable or catastrophic fetal conditions), and avoid criminalizing patients or clinicians acting in good faith. Policy should also prioritize prevention and real support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare and economic assistance, and adoption resources\u2014so fewer people face crisis pregnancies and communities can reduce harm.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be grounded in medical evidence and protect the health, dignity, and privacy of pregnant people while acknowledging that many citizens attach moral value to developing prenatal life. Policy should keep time\u2011sensitive decisions primarily between patients and qualified clinicians, with clear, workable exceptions for rape or incest and for serious threats to a patient\u2019s life or health, including nonviable or catastrophic fetal conditions. Any legal framework should avoid punitive criminalization and be paired with strong prevention and family supports\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare and economic assistance, and adoption resources\u2014so fewer people face crisis pregnancies and communities can respect conscience while reducing harm.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.26,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.26,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_personas": {
+      "winner": "84",
+      "epsilon": 0.0,
+      "full_winner_idx": "84"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to protect human dignity by ensuring no one is forced into dangerous care delays, while treating pregnancy as medically and morally serious rather than political theater. A durable middle ground sets clear, medically defined protections for emergencies and serious health threats, preserves meaningful decision-making between the patient and clinician early in pregnancy, and allows reasonable limits later with carefully written exceptions and due-process clarity for doctors. At the same time, policy should reduce crisis pregnancies by expanding contraception access, accurate sex education, prenatal and postpartum care, adoption support, and practical aid so families have real options.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, clear medical evidence, and respect for human dignity, ensuring that urgent and medically necessary care is never delayed and that patients and clinicians have clear, workable standards. Policy should acknowledge the moral seriousness many attach to unborn life while keeping government intrusion limited and avoiding punitive approaches that turn crises into courtrooms. Common ground includes focusing on prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postnatal care, adoption options, and practical help for parents\u2014so fewer families are driven into desperate, heartbreaking choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for human dignity, keeping urgent health decisions in the hands of patients and qualified clinicians and protecting privacy. Policy should guarantee timely care in emergencies and in cases of rape or incest, while allowing communities to set clear, workable limits and conscience protections that do not block medically necessary treatment. Common ground is strongest when the law also reduces unwanted pregnancies and family hardship through affordable contraception, honest sex education, prenatal and postnatal care, adoption support, and practical help for parents.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

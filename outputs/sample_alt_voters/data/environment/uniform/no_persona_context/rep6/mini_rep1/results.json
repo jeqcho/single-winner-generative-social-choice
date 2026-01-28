@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "54",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection should be pursued together by setting clear health-and-ecosystem safeguards while giving households and firms flexible, cost-effective ways to meet them. Establish stable long-term targets and simplify permitting for low-impact projects, while requiring polluters to pay for verified harms and rewarding measurable reductions. Pair these rules with transition assistance\u2014job placement, retraining, and support for affected regions and small businesses\u2014so progress is steady, affordable, and broadly shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable balance treats clean air, water, and healthy ecosystems as the foundation of long\u2011term prosperity while recognizing the need for stable jobs today. Pair science\u2011based, enforceable standards with predictable, phased timelines, streamlined permitting for cleaner projects, and market tools that make pollution costs visible and reward innovation. Invest in clean infrastructure and R&D, and provide retraining and targeted transition support\u2014especially for workers, small businesses, and regions most affected\u2014guided by local input and transparent metrics.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A fair balance starts from the idea that clean air, water, and safe communities are essential to long-term prosperity, but policies must also protect paychecks and keep energy and goods affordable. Set clear, science-based environmental standards with reasonable timelines, and pair them with streamlined permitting for responsible projects, market-based incentives that reward efficiency and cleaner production, and strong enforcement for major polluters. Invest in U.S.-made clean infrastructure and technology, and guarantee practical supports\u2014retraining, wage and benefit protection, and help for small businesses and affected regions\u2014so workers and local economies can adapt without being left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

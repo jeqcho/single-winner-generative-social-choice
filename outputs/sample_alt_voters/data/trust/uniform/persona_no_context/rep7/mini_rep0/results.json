@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "89"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star": {
+      "winner": "24",
+      "epsilon": null,
+      "full_winner_idx": "24"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": null,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make their goals, tradeoffs, and budgets easy to see, then invite residents to help set priorities before decisions are finalized. They should publish simple service standards (what people can expect and by when), report progress publicly, and face real consequences\u2014through independent audits and enforceable ethics rules\u2014when they fall short. Pairing these reforms with respectful, accessible communication and consistent, equal treatment under the rules helps people with different politics judge institutions by shared facts and everyday results.",
+      "is_new": true,
+      "epsilon": 0.030000000000000027
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when decisions are made transparently, the same rules apply to everyone, and leaders are held accountable through independent oversight, clear performance measures, and open admission and correction of mistakes. Institutions should pair demonstrated competence\u2014reliable delivery of everyday services and responsible stewardship of resources\u2014with plain-language, culturally and linguistically accessible communication that explains what was decided, why, and how results will be tracked. Trust is strengthened when communities have meaningful, ongoing ways to shape priorities and evaluate outcomes, so people across viewpoints can judge institutions by fairness, responsiveness, and tangible results.",
+      "is_new": true,
+      "epsilon": 0.030000000000000027
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions apply the same rules to everyone, explain decisions in plain, nonpartisan language, and back claims with open budgets, data, and independent audits. They should deliver reliable basics\u2014safe communities, strong schools, timely healthcare, responsive local services\u2014while setting clear performance goals the public can track and using feedback to fix problems quickly. Trust is earned by listening respectfully across differences, protecting individual rights and taxpayer stewardship, and admitting mistakes publicly with concrete corrective action.",
+      "is_new": true,
+      "epsilon": 0.030000000000000027
+    }
+  }
+}

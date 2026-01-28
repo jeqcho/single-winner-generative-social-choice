@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the principle of least necessary intrusion: use the minimum force and surveillance needed to stop harm, with clear rules, strong supervision, and independent investigation when things go wrong. Focus officers on serious violence and repeat harm while expanding non-police responses for mental-health crises, substance use, homelessness, and other nonviolent calls. Build legitimacy through transparent reporting, community-informed priorities, and privacy limits on data tools, while ensuring officers are well-trained, supported, and held to fair, consistent standards.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by using clear, constitutionally grounded use-of-force and data-collection standards; strong de-escalation, bias-awareness, and crisis-response training; and transparent, independent oversight with timely investigations and fair consequences. Where appropriate, route nonviolent mental-health, substance-use, and homelessness calls to specialized civilian teams and invest in prevention (housing, youth supports, and treatment) to reduce reliance on force. Pair these reforms with open, privacy-protecting data, meaningful community input, and adequate support for officers so performance is measured, trust grows, and safety improves.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while fully protecting constitutional rights through clear, enforceable use-of-force and due-process standards, strong de-escalation and crisis training, and consistent consequences for misconduct\u2014paired with fair support and protections for officers who follow policy. Independent oversight, transparent reporting, and body-worn cameras and data tools governed by strict privacy rules can build trust without expanding surveillance. When nonviolent mental-health and substance-use calls are routed to trained crisis teams and communities invest in prevention (housing, youth programs, treatment), officers can focus on serious threats while reducing harm and strengthening legitimacy.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

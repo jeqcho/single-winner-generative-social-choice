@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "23",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable balance starts from the reality that strong economies rely on clean water, healthy land, and stable climate conditions, while communities also need reliable jobs and affordable energy. Policy should set clear, science-based environmental guardrails and enforce them consistently, while giving businesses flexible, cost-effective pathways to comply through innovation, efficiency, and targeted incentives. Pair these measures with transparent metrics and transition support for workers and regions most affected so progress is real, fair, and economically practical over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance starts with recognizing that clean air, water, and healthy ecosystems are foundations for long-term economic opportunity, so protections should be science-based, targeted, and predictable. Pair clear standards with market-based incentives that spur innovation\u2014cleaner technologies, efficiency, and responsible land use\u2014while avoiding unnecessary burdens on small businesses. Invest in workforce training and phased, fair transition support so workers and communities can adapt and prosper as the economy grows more sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A smart balance starts with the principle that clean air and water are essential to public health and long-term prosperity, while steady jobs and affordable energy keep families and communities strong. We should use clear, science-based standards with flexible, market-driven tools that reward efficiency and innovation, while avoiding one-size-fits-all rules that hit small businesses and working communities hardest. Investing in cleaner technology, infrastructure upgrades, and practical conservation can grow the economy, and any major transition should include training and support so workers, veterans, and local industries are not left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

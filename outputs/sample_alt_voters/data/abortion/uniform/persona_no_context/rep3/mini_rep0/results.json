@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.28,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to reduce harm by protecting both a pregnant person\u2019s health and autonomy and society\u2019s interest in developing life, using clear rules grounded in medical evidence rather than political pressure. A durable compromise protects timely access early in pregnancy, sets transparent standards as pregnancy advances, and guarantees workable, clinician-defined exceptions for life- and health-threatening complications, severe fetal conditions, and pregnancies from rape or incest. It should pair any legal framework with robust prevention and support\u2014affordable contraception, accurate sex education, prenatal and mental-health care, paid leave, childcare, and streamlined adoption\u2014so fewer people face crisis decisions and families are better supported whatever they choose.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, evidence-based medicine, and respect for personal conscience, while acknowledging that many people place serious moral value on developing life. A durable approach keeps government and politics out of urgent medical decisions by protecting timely, medically appropriate care\u2014especially in emergencies\u2014while allowing carefully defined, medically informed limits as pregnancy progresses and clear exceptions for rape, incest, and serious threats to a patient\u2019s life or health. Common ground grows when policy also reduces unintended pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal care, and practical support for parents and adoption, so fewer families face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, evidence-based medicine, and respect for both a pregnant person\u2019s privacy and the moral value many place on developing life. A workable approach protects timely care and doctors\u2019 judgment\u2014especially in emergencies and serious health complications\u2014while setting clear, predictable rules and allowing carefully defined limits later in pregnancy with exceptions for rape, incest, and serious threats to the patient\u2019s life or health. Common ground grows when policy also reduces unintended pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and mental health care, and practical supports for parents and adoption, so fewer families face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for fewer harmful encounters and more legitimate outcomes by matching the response to the situation: default to communication and time, send trained non\u2011police teams to behavioral\u2011health and low\u2011risk calls when appropriate, and reserve force for clear, necessary threats. Agencies should operate under simple, publicly known standards\u2014lawful stops, proportional use of force, and fair, unbiased enforcement\u2014verified through body\u2011camera use, regular audits, and independent investigation of serious incidents. At the same time, officers need adequate staffing, training, and support, while communities have a real voice through ongoing consultation and transparent reporting of results so safety and rights improve together.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should advance public safety and civil rights together through clear, constitutional standards for stops and use of force; consistent de-escalation, bias-awareness, and disability/mental-health training; and early intervention systems that support officer professionalism. Communities should have meaningful partnership and independent oversight, with transparent reporting and review of key outcomes (uses of force, stops, complaints) to ensure accountability and build trust. When appropriate, jurisdictions should deploy co-responder or non-police crisis teams and invest in mental-health and social services that prevent emergencies and reduce unnecessary arrests.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety while firmly upholding constitutional rights through clear, consistently applied rules\u2014especially for stops, searches, and use of force\u2014paired with strong de-escalation, bias-awareness, and disability/mental-health training. Communities are safer when the right responder shows up: police for serious crime, and coordinated mental-health and social-service teams for many crises, backed by fair funding and shared protocols. Trust grows with transparency and accountability\u2014body-worn cameras with privacy safeguards, public reporting of outcomes, and independent review of serious incidents\u2014alongside regular community input and support for officer wellness and professionalism.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

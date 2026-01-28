@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should treat pregnancy decisions as primarily a matter of healthcare and human dignity: protect confidential, timely access to care early in pregnancy and ensure clinicians can act without delay in emergencies or severe medical complications. Any restrictions should be transparent, medically defined, and paired with fair due\u2011process safeguards so patients and providers are not criminalized for good\u2011faith care, while also acknowledging society\u2019s interest in developing life through measured limits later in pregnancy. Alongside any legal framework, governments should invest in proven prevention and support\u2014sex education, contraception, prenatal and postpartum care, paid leave, childcare, and adoption resources\u2014so fewer people face unwanted pregnancies and more can choose parenthood without coercion.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should treat it primarily as a healthcare matter: protect patient privacy, safety, and timely access to medically appropriate care, keeping decisions centered on patients and licensed clinicians. Any limits should be transparent, evidence-based, and narrowly tailored, with clear exceptions for serious health risks, medical emergencies, and pregnancies resulting from violence, and without criminalizing patients or providers. Alongside this, policy should reduce unwanted pregnancies and hardship through comprehensive sex education, affordable contraception, and strong prenatal, postpartum, childcare, and economic supports so parenthood is a real option.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should treat it as a serious, time-sensitive healthcare matter: protect the pregnant person\u2019s health, privacy, and clinician judgment, while acknowledging many citizens\u2019 moral concern for unborn life. Any limits should be medically evidence-based, clearly defined, and paired with explicit exceptions for threats to life or serious health, rape or incest, and fatal fetal conditions, with no criminal penalties for patients and with due-process protections for clinicians. At the same time, government should reduce unintended pregnancies and support families through comprehensive sex education, affordable contraception, prenatal and postpartum care, paid leave, childcare, and adoption support so fewer people face this decision under crisis or coercion.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

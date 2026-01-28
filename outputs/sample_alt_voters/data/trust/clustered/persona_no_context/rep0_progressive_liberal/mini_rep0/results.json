@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make decisions in the open: publish the reasons, the evidence used, who is responsible, and how the public can challenge or appeal outcomes. They should set a few clear service standards (timelines, costs, performance targets), report progress regularly, and impose real consequences for misconduct through independent review. Pairing plain-language communication with ongoing local input\u2014while protecting privacy and applying rules consistently\u2014helps people across political lines see institutions as fair, competent, and accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when rules are applied consistently and fairly, decisions are transparent, and independent oversight ensures real accountability\u2014including admitting mistakes and correcting them. Institutions should communicate plainly and accessibly, share measurable results, and make it easy for people to see how resources are used and outcomes are achieved. Trust is strengthened by genuine local engagement\u2014listening, involving residents in decisions, and delivering reliable services that address everyday concerns across political and cultural lines.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when people can see that rules are applied fairly, decisions are made openly, and mistakes have real consequences through independent oversight and regular public reporting. Institutions should communicate plainly (and in the languages communities use), protect privacy, and invite meaningful local participation\u2014listening sessions, citizen advisory boards, and feedback channels that lead to visible changes. Above all, leaders must consistently deliver reliable, everyday services and measurable results while keeping nonpartisan expertise and due process at the center, so skeptics and supporters alike experience competence, respect, and integrity.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

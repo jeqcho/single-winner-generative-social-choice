@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": null,
+      "full_winner_idx": "17"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": null,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": null,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": null,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star": {
+      "winner": "44",
+      "epsilon": null,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "86",
+      "epsilon": null,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for safer communities and stronger civil rights by setting clear, constitutional limits on stops, searches, surveillance, and use of force, and by rewarding officers for resolving encounters safely. Independent, transparent review of serious incidents\u2014paired with fair due process for officers and accessible complaint pathways for residents\u2014can build legitimacy and improve performance. Communities should expand non-police options for mental-health and social-service calls, while using measured, privacy-protected data to evaluate what reduces harm and crime over time.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil liberties as mutually reinforcing by setting clear, consistently enforced limits on force and prioritizing rigorous de\u2011escalation, bias-awareness, and crisis-response training. Pair well-supported officers with mental\u2011health and social-service alternatives\u2014especially for behavioral health calls\u2014and sustained community partnerships that prevent problems before they escalate. Transparent, independent oversight and accessible avenues for redress, alongside responsible, privacy\u2011protecting data and technology for accountability, can build trust and improve outcomes for everyone.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while strictly protecting constitutional rights through clear use\u2011of\u2011force limits, consistent de\u2011escalation and crisis\u2011response training, and fair, timely accountability with independent oversight. Communities benefit when officers are well\u2011trained, supported, and held to transparent standards, and when mental\u2011health and social\u2011service partners handle appropriate calls so police can focus on serious crime. Using data and technology to improve performance and transparency should include strong privacy safeguards and regular public reporting, building trust across residents, businesses, and law enforcement.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    }
+  }
+}

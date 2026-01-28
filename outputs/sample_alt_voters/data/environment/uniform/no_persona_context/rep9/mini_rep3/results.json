@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance starts by setting clear environmental baselines that protect public health and critical ecosystems, then giving firms flexibility in how they meet them through performance-based standards and market mechanisms. Use gradual timelines, predictable permitting, and regular review of outcomes so rules stay effective without creating unnecessary cost or uncertainty. Pair the shift with investments in modern infrastructure and targeted help for workers and regions most affected, so the benefits and burdens are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A strong economy and a healthy environment can reinforce each other when policy treats clean air, water, and ecosystems as essential long-term assets. Set clear, science-based and predictable standards, use market tools and targeted incentives to internalize pollution costs and accelerate efficient, clean innovation, and phase changes to give firms time to adapt. Pair investments in clean infrastructure with workforce retraining and place-based, community-led planning so the transition protects public health while sustaining good jobs and local prosperity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and productive land should be treated as essential to public health, local quality of life, and long-term economic strength, not a luxury that comes after growth. Set clear, science-based standards with predictable timelines, use market tools and incentives to reward efficiency and clean innovation, and streamline permitting for projects that meet those standards. Pair these policies with targeted help for workers and regions affected\u2014retraining, small-business support, and investments in resilient infrastructure\u2014so the transition strengthens communities while keeping the economy competitive.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

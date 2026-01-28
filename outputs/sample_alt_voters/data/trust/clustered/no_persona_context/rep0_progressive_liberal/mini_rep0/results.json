@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Institutions build public trust when they set clear goals, explain the tradeoffs behind decisions, and publish simple scorecards showing whether they met their commitments. Credibility rises when rules apply equally, conflicts of interest are disclosed, and independent watchdogs can audit and enforce consequences without political interference. Ongoing trust comes from making it easy for people to participate\u2014online and in person\u2014responding quickly to complaints, and delivering practical, everyday improvements that residents can see and verify.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Institutions increase public trust by delivering visible, measurable improvements to everyday life while explaining decisions in plain language and publishing accessible data. Trust grows when there is independent oversight with real consequences for wrongdoing, consistent and fair enforcement of rules, and transparent admission and correction of mistakes. Regular local engagement\u2014through inclusive, multilingual participation channels and civic education\u2014helps people feel heard and verify that decisions protect privacy, due process, and the common good rather than partisan agendas.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Institutions can rebuild broad public trust by delivering visible, measurable improvements in everyday life while explaining decisions in plain language and publishing accessible data about goals, tradeoffs, and results. Independent oversight, strong ethics rules, and real consequences for misconduct\u2014along with protections for privacy, due process, and equitable treatment\u2014make accountability verifiable. Regular, inclusive local engagement (including multilingual communication and genuine chances to shape priorities) helps communities feel heard and ensures institutions serve people rather than partisan or special interests.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

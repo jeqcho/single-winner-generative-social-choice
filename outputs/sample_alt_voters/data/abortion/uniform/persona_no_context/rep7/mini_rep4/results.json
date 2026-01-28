@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.33000000000000007,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be built around protecting people from preventable harm: ensuring no one is denied urgent, medically indicated care, while acknowledging that many communities also feel a duty to treat developing life with seriousness. A durable compromise sets clear, medically workable rules\u2014written with clinicians and ethicists\u2014that protect early access and privacy, allow later procedures when health is at stake or in cases like rape or severe fetal conditions, and avoid criminalizing patients or doctors acting in good faith. It should also pair any legal framework with strong investments in contraception, accurate education, maternal healthcare, and economic supports so fewer pregnancies become crises in the first place.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for human dignity\u2014protecting a pregnant patient\u2019s health, privacy, and timely access to care with decisions led by qualified clinicians rather than political delay. Policy should also take seriously the moral concerns many people hold about potential life by setting clear, workable guardrails and ensuring explicit exceptions for medical emergencies, serious health risks, and pregnancies involving rape or incest. Common ground is strengthened by focusing on prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and adoption and parenting resources\u2014so fewer people face crisis pregnancies and fewer abortions occur.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by respect for human life and for the dignity, health, and freedom of the pregnant person, with decisions grounded in medical evidence rather than politics. A workable framework protects timely, safe care and privacy, includes clear exceptions for threats to the mother\u2019s life or serious health harm as well as cases of rape or incest, and sets consistent limits and informed-consent safeguards that don\u2019t delay emergency treatment. Common ground grows when these rules are paired with real prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and resources for parenting and adoption\u2014so fewer families ever face this crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

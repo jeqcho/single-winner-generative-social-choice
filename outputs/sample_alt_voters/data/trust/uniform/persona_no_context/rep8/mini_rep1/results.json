@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star": {
+      "winner": "44",
+      "epsilon": 0.0,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "44",
+      "epsilon": 0.0,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for people to see what was decided, why it was decided, and whether it worked\u2014through plain-language reporting, open records, and clear service standards. Leaders should be held to the same rules as everyone else, with independent audits, meaningful consequences for misconduct, and rapid correction when systems fail. Trust also grows when institutions share power with communities by funding local solutions, protecting rights and privacy, and maintaining reliable, nonpartisan channels for feedback and appeal.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver competent, fair everyday services and make decisions in plain language that people can verify through transparent data and regular outcome reporting. Leaders should admit mistakes, fix them quickly, and welcome independent oversight so accountability is real rather than rhetorical. Trust also requires meeting people where they are\u2014through local partnerships, accessible forums for input and redress, and communication that avoids jargon and respects diverse communities\u2014so citizens can see their concerns reflected in measurable improvements.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when people can clearly see fair rules, reliable everyday services, and leaders who tell the truth, admit mistakes, and fix problems quickly. Institutions should publish plain-language results, budgets, and decision reasons; protect privacy and civil liberties; and use independent oversight so performance can be verified rather than argued about. Building trust also means meeting communities where they are\u2014through local forums, accessible and culturally competent communication, and simple channels to report concerns and get timely responses\u2014so everyone is treated with dignity and has a real voice.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

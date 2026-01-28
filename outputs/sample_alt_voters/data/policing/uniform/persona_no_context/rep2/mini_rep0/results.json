@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for the least intrusive, most effective response that prevents harm while strictly honoring constitutional rights and equal treatment. That requires clear, enforceable rules for stops, searches, and use of force; early-warning and fair discipline systems; and independent review that is transparent to the public. Safety improves when police partner with residents and when nonviolent crises are handled by the right responders\u2014mental-health, social-service, and mediation teams\u2014backed by data, training, and support that help officers act consistently and professionally.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while strictly upholding constitutional rights through clear, predictable standards\u2014especially for stops, searches, and use of force\u2014backed by rigorous de-escalation, bias-awareness, and scenario-based training. Trust and effectiveness depend on transparency and accountability, including body-worn cameras with clear privacy rules, timely independent oversight, and public reporting of measurable outcomes. Communities should be true partners in prevention, with expanded non-police responses for mental-health and substance-use crises and support for officer wellness so officers can act fairly, safely, and consistently.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while strictly upholding constitutional rights and due process, so public safety and civil liberties strengthen each other. Departments should set clear, enforceable use-of-force and stop/search standards; require strong de-escalation, bias-awareness, and crisis-intervention training; and provide body cameras, transparent reporting, and independent oversight with fair, consistent discipline for misconduct. Communities should be true partners through regular engagement and shared data, while cities expand non-police responses for mental-health, substance-use, and other nonviolent crises and invest in prevention and youth supports. Officers should also receive wellness and training support so they can act professionally, predictably, and with dignity toward every person.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

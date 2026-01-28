@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.18999999999999995,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College but reduce its distortions so the winner more consistently reflects broad voter support. States could move away from winner-take-all by adopting proportional elector allocation (with a small bonus for the statewide winner, if desired) and pair that with a uniform national framework for ballot access, auditing, and recount triggers. This would make campaigns compete in more places, protect state administration, and improve the sense that every vote matters without requiring an abrupt constitutional overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform the Electoral College to better reflect the national popular will while keeping states meaningfully involved by reducing winner-take-all outcomes\u2014through proportional allocation of electors within states or a state-driven National Popular Vote Interstate Compact with clear activation rules. Pair any change with uniform, transparent standards for ballot access, counting, audits, and recount timelines so close elections are verifiable and trusted. The goal is to reward broad, cross-regional coalitions so candidates compete beyond a few battleground states, while addressing smaller and rural states\u2019 concerns about being ignored.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fairer and less dominated by a few swing states, while keeping states meaningfully involved and protecting smaller and rural communities from being ignored. A practical path is to reduce winner-take-all incentives by encouraging proportional or district-based elector allocation with strong anti-gerrymandering rules, and to allow an interstate compact option only if paired with clear nationwide standards for ballot access, recounts, and auditable election security. Any change should be phased in transparently so voters across parties can see that the goal is equal respect for every lawful ballot, not a partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Rather than an all\u2011or\u2011nothing fight over abolishing the Electoral College, reforms can aim to make outcomes track voter intent more closely while keeping states at the center of election administration. A widely acceptable package would curb winner\u2011take\u2011all by encouraging proportional or ranked\u2011choice allocation of electors, add uniform national baselines for ballot access, counting, recount triggers, and audits, and bind electors to the certified results. Changes should be phased in and stress-tested so close elections are easier to verify, candidates have incentives to compete beyond a few battlegrounds, and both large and small states see the system as legitimate.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep states\u2019 central role in running elections while making the presidential outcome track the will of voters more closely and reducing \u201cswing\u2011state\u201d distortions. A practical bridge is to retain the Electoral College framework but end winner\u2011take\u2011all by allocating electors proportionally (or via a ranked-choice method within states), and/or adopt the National Popular Vote Interstate Compact as states choose. Any change should come with clear, uniform national standards for ballot access, counting deadlines, recount triggers, and rigorous audits so results are transparent, hard to game, and broadly trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable reform should make the presidential outcome track the will of voters more closely while preserving states\u2019 role and avoiding sudden, partisan-tilted changes. A strong middle path is to keep the Electoral College but replace winner-take-all with proportional (or district-based) elector allocation, paired with clear nationwide baseline rules for ballot access, voter-roll maintenance, counting deadlines, automatic recount triggers, and routine post-election audits. Reforms should be phased in and designed to reduce swing-state dominance, strengthen transparency, and ensure both large cities and smaller communities feel their votes matter and the result is verifiable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

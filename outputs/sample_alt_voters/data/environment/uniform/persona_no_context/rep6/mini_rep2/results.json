@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "4"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "4"
+    },
+    "chatgpt_star_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Lasting prosperity depends on natural systems that are safe and productive, so environmental policy should set clear, enforceable guardrails while giving businesses flexible, cost-effective paths to meet them. Pairing smart standards with tools like pollution fees, streamlined permits for cleaner projects, and public-private investment in innovation can cut emissions without stalling growth. To keep the transition fair and politically durable, communities and workers most affected should receive targeted support\u2014training, infrastructure, and diversification\u2014guided by transparent metrics and local input.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based standards that safeguard clean air, water, and public health while giving businesses predictable timelines to comply. Pair commonsense regulation with market-based tools and incentives that drive clean innovation, efficiency, and new investment. To keep the transition fair and practical, invest in workforce training, community input, and targeted support for workers and regions most affected so livelihoods are protected as pollution falls.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing: clean air and water protect public health and reduce long-term costs, while a strong economy funds innovation and resilient infrastructure. Policymakers should set clear, science-based standards with predictable timelines, use market-based tools to reward efficiency and cleaner production, and prioritize cost-effective solutions that don\u2019t punish responsible businesses. Any transition should include job training, support for workers and small businesses, and meaningful local input so manufacturing and rural communities can adapt without being left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

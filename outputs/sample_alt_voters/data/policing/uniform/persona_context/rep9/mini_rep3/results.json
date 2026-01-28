@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should focus on preventing harm first\u2014using proportional, clearly defined authority and a presumption of de\u2011escalation\u2014while enforcing the law in ways that respect constitutional rights and equal treatment. Agencies should route nonviolent crises to the right responders (mental\u2011health, social services, and violence\u2011interruption partners), and use technology like body cameras and transparent reporting to document decisions without expanding unnecessary surveillance. Independent review of serious incidents, consistent discipline, and fair support for officer training and wellness can strengthen legitimacy so communities experience both safety and civil rights in practice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals, guided by clear, consistently enforced use-of-force and engagement standards, routine de-escalation and bias/cultural-competency training, and timely public reporting. Communities are safer when mental-health and social-service crisis teams and trusted local partnerships handle appropriate calls, while officers are supported with fair training, wellness resources, and tools like body cameras. Transparent, independent oversight and data-driven performance measures should ensure accountability, reduce harm, and build durable trust so every person is treated with dignity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while protecting constitutional rights through clear, consistently enforced use-of-force and search standards, routine de-escalation and bias/cultural-competency training, and body-worn camera and evidence policies that safeguard privacy. Communities should have transparent reporting and independent oversight that is fair to residents and officers, with timely review of serious incidents and measurable performance standards. Public safety improves when police are partnered with well-funded mental-health and substance-use crisis teams, youth and family supports, and community organizations\u2014so the right responder is sent to the right call. With strong training, officer wellness support, and accountability for misconduct, safety and civil liberties can reinforce each other rather than compete.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

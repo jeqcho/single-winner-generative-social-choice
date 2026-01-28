@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be organized around a simple standard: intervene when necessary to prevent harm, and do so in the least intrusive, most lawful way possible. That means clear limits on stops, searches, and force; strong documentation and independent auditing; and consistent training and supervision that reward de-escalation and constitutional decision-making. Pairing targeted enforcement for serious violence with well-resourced civilian responses to mental health, substance use, and homelessness can reduce crime while protecting rights and strengthening legitimacy.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals, judging success by measurable reductions in harm alongside fair, lawful treatment. A strong consensus approach combines clear, proportional use-of-force rules and de-escalation training with transparency, independent oversight, and meaningful community input. Pairing enforcement with prevention\u2014such as nonviolent crisis response and partnerships with social and mental-health services\u2014can reduce unnecessary arrests and build the trust needed for effective crime prevention.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public safety and civil rights should be treated as mutually reinforcing goals: policing works best when it is effective, constitutional, and earns public trust. That means clear and consistently enforced use-of-force and due-process standards, strong transparency and independent review, and training that prioritizes de-escalation and unbiased decision-making. It also means matching responses to situations\u2014partnering with mental-health and social-service teams when appropriate\u2014while measuring success by reduced crime and victimization, fewer injuries, and fair, respectful treatment for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

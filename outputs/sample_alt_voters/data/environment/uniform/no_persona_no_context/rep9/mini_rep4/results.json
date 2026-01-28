@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "53",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "47",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance is to treat environmental protection as a guardrail for growth, not a brake: set clear, science-based limits on pollution and ecosystem damage while letting businesses compete to meet them in the most cost-effective ways. Public investment in energy, water, and transport resilience\u2014paired with predictable rules\u2014can lower long-run costs and open new markets. At the same time, targeted support for workers and regions facing disruption ensures the transition protects livelihoods and maintains broad public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable balance starts from shared recognition that healthy ecosystems are the foundation of long-term prosperity, so we should set clear, measurable environmental limits while allowing flexible, cost\u2011effective ways to meet them. By steering markets toward clean technology, efficiency, and resilient infrastructure through smart incentives and evidence-based regulation, we can reduce pollution and waste while strengthening competitiveness. A phased, collaborative transition\u2014backed by retraining and targeted support for affected workers and communities\u2014helps ensure the benefits of growth are broadly shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance starts with the idea that clean air, water, and healthy lands are essential to long-term jobs, health, and community stability, while families and businesses also need affordable, reliable energy and a strong economy. We should set clear, science-based environmental limits and enforce them predictably, while using market incentives and innovation to cut pollution at the lowest cost and grow new industries. Just as important, we should invest in practical transition support\u2014training, local infrastructure, and assistance for workers and small businesses\u2014so communities aren\u2019t left behind as we protect the resources we all depend on.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

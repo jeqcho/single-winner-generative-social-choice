@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "12"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "12"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "12"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the principle that lasting safety comes from constitutional, respectful, and predictable enforcement that earns public cooperation. Departments should set clear, publicly understood limits on stops and use of force; train for de-escalation, crisis response, and bias reduction; and use body cameras and transparent reporting with independent review to ensure accountability and due process. Communities and police should jointly define priorities\u2014while expanding non-police responses for mental health, addiction, and homelessness and supporting officer wellness\u2014so resources focus on serious harm and trust is strengthened for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals by using clear, rights-respecting rules of engagement, rigorous de-escalation and bias/trauma-informed training, and measured use-of-force standards. Trust grows when accountability is transparent\u2014through independent oversight, body-worn cameras where appropriate, and public data reporting that tracks outcomes and disparities. Communities are safer when police partner with residents and connect people to mental-health and social-service alternatives to arrest, while also supporting officer wellness, adequate staffing, and continual evaluation to reduce harm and prevent crime.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as inseparable goals, guided by clear laws, consistent rules of engagement, and respect for due process and dignity in every encounter. Priorities should include rigorous de-escalation and bias-awareness training, well-defined and measured use-of-force standards, and transparent accountability through body-worn cameras, public reporting, and independent oversight that is fair to both residents and officers. Communities are safest when police work in partnership with local leaders, schools, and social and mental-health services to prevent harm and connect people to help when appropriate, while also supporting officer wellness and adequate staffing so standards can be met reliably.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

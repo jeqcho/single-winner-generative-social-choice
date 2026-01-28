@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "49"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "49"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "49"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should keep states administering elections while making the presidential result track voters more closely and reducing the outsized influence of a few battleground states. A workable compromise is to end winner-take-all by requiring proportional allocation of electors (with a small threshold to avoid extreme fragmentation) and to bind electors to the certified vote, paired with uniform national standards for registration, ballots, audits, and automatic recount triggers. This preserves federalism and regional voice while making outcomes more transparent, competitive in more places, and easier for the losing side to accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable reform is to keep the Electoral College\u2019s state-based framework but reduce winner-take-all distortions so the outcome tracks the national popular will more closely. States could join the National Popular Vote Interstate Compact or adopt proportional (or district-based) allocation of electors, while requiring electors to follow the state\u2019s certified results. Pair these changes with clear, uniform national standards for ballot access, counting, recounts, and post\u2011election audits to improve transparency, security, and acceptance of close results across rural and urban communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable reform is to keep states running elections while ensuring the presidency reflects the voters\u2019 overall choice more closely by reducing winner-take-all distortions\u2014through proportional allocation of electors or a National Popular Vote agreement once clear safeguards are in place. To build trust across parties, pair any change with uniform nationwide standards for ballot access, audits, recounts, and elector accountability so close races are handled consistently and transparently. The goal is a stable system where every lawful vote matters more, campaigns compete in more communities, and results are easier for the country to accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

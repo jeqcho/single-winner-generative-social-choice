@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should keep states central to administering elections while ensuring the presidency reflects the choice of the most voters and not just the luck of a few battleground margins. A pragmatic path is to curb winner-take-all by encouraging proportional or multi-district allocation of electors and to add a national popular-vote backstop (via compact or statute where possible) that triggers only when the Electoral College result would contradict the popular vote. Pair either approach with uniform minimum standards for ballot access, audits, and recounts so outcomes are verifiable, predictable, and accepted across large and small states alike.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should preserve states\u2019 role while making presidential outcomes track voters more closely and reducing the \u201cswing\u2011state\u201d effect. A strong middle path is to keep the Electoral College but end winner\u2011take\u2011all by moving to proportional (or district-plus-statewide) allocation of electors, alongside clear national baseline standards for ballot access, audits, and recounts. States that prefer an even closer link to the people\u2019s choice could join a National Popular Vote compact once it includes uniform transparency and a predictable national recount trigger. The goal is a system that is practical, constitutional, and widely trusted\u2014so every vote matters and every region feels heard.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any reform should make every lawful vote matter more equally while keeping states meaningfully involved, so both big-city and rural communities see the outcome as legitimate. A practical bridge is to keep the Electoral College but end winner-take-all by requiring proportional allocation in every state (with an option to adopt the National Popular Vote compact once it has broad buy-in), paired with ranked-choice voting to ensure the winner has majority support. Back these changes with clear national standards for ballot access, audits, and recounts, plus enforceable rules against faithless electors, so results are transparent, secure, and easier to accept across parties.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

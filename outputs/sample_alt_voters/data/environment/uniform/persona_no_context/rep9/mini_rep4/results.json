@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth should not come at the expense of clean air, water, and stable climates, but environmental goals should be pursued in ways that keep energy reliable, costs manageable, and communities employed. A workable middle ground sets clear outcome-based standards and timelines, then lets businesses meet them through a mix of innovation, market mechanisms, and local flexibility. Public investment in modern infrastructure and targeted support for workers and regions most affected can protect livelihoods while steadily reducing pollution and risk.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, recognizing that clean air, water, and healthy ecosystems are foundations of public health, reliable livelihoods, and long-term prosperity. A workable balance uses science-based, cost-effective, and predictable rules\u2014paired with market incentives and investment in clean technology and resilient infrastructure\u2014so businesses can innovate and compete. Changes should be phased and measured, with targeted support and retraining for workers and small businesses, and flexibility for local communities to help deliver durable results for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing: clean air and water, safe public lands, and healthy communities reduce long-term costs and support stable businesses and family livelihoods. A practical balance uses clear, predictable, science-based standards with flexible, cost-effective compliance options, rewarding innovation while cutting red tape that doesn\u2019t improve outcomes. Investments in clean energy, efficiency, and resilient infrastructure should be paired with phased timelines and targeted support\u2014retraining, wage and small-business assistance\u2014so workers and local communities can adapt and share in the benefits.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "39"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reforming the Electoral College should aim for two goals at once: the winner should reflect the voters\u2019 overall choice, and the process should still encourage candidates to earn support across many states and communities. A practical compromise is a national popular-vote outcome implemented through an interstate compact, paired with baseline national standards for voter access, paper-auditability, and transparent recounts so close elections are credible. If that proves too hard to adopt quickly, states could reduce winner-take-all by moving to proportional elector allocation and expanding the House to better match population, while keeping the state-based framework intact.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fairer and easier to trust by reducing winner-take-all distortions while keeping states\u2019 voices and the Constitution\u2019s stability. A workable middle path is for states to allocate electors proportionally (or by district with fair, nonpartisan maps) and to adopt clear, uniform rules for ballot access, counting, audits, and recounts, with electors bound to the certified results. If broader change is desired, the National Popular Vote Interstate Compact can be a bridge toward aligning the outcome with the national popular will, while encouraging candidates to compete beyond a few swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep the states\u2019 role and the need for broad geographic support, while making it far less likely that a candidate wins without the most votes and that only a few swing states matter. A practical compromise is a national popular-vote outcome implemented through the National Popular Vote Interstate Compact once uniform standards for ballot access, paper-audit verification, and transparent recounts are in place. If that\u2019s not achievable yet, states could move to proportional elector allocation and expand the House to reduce winner-take-all distortions and make each vote count more equally. Any change should be simple to understand, hard to game, and aimed at restoring confidence across parties and communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

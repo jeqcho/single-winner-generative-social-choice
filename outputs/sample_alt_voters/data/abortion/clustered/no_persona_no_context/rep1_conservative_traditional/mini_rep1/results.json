@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim for the broadest public legitimacy by protecting health and bodily integrity while taking seriously the widely felt responsibility to treat developing life with moral care. A bridging framework combines reliable access to timely, regulated medical care\u2014especially clear protections in emergencies\u2014with strong measures that reduce unwanted pregnancy and make continuing a pregnancy more feasible (contraception, education, prenatal care, and family support). Where legal limits are set, they should be transparent, narrowly tailored, and enforced in ways that avoid punishing patients or delaying clinicians from providing medically indicated care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared commitment to human dignity and reducing preventable harm, recognizing deep moral disagreement about when legal rights begin. Common ground is to lower unintended pregnancies through education and contraception, strengthen healthcare and economic supports for parents and children, and ensure no one is denied timely, evidence-based care in medical emergencies. Policy should be humane and transparent, aiming to reduce crisis pregnancies and abortions through support rather than stigma or unsafe coercion.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by respect for human dignity and by compassion for both the pregnant person and developing life, while acknowledging sincere moral disagreement about where legal lines should be drawn. Common ground starts with clear, medically grounded protections so no one is denied emergency care, and with strong prevention and support\u2014accurate education, access to contraception, prenatal and postnatal healthcare, adoption services, and practical help for parents\u2014so fewer pregnancies become crises. Any limits or exceptions should be transparent, consistent, and focused on reducing harm rather than punishing people in difficult circumstances.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

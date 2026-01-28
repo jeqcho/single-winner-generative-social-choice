@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make it easy for people to see how decisions are made, who is responsible, and what results were achieved\u2014using clear, accessible information and open records. They should set simple service standards, report progress regularly, and correct mistakes quickly, with independent audits to verify claims. Building two-way channels\u2014local offices, community partners, and time-respecting public meetings\u2014helps institutions learn from residents and deliver practical improvements people can feel in everyday life.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions act like reliable neighbors: they communicate in plain, culturally and linguistically accessible language, listen locally, and keep promises with visible, measurable improvements in everyday life. They should make decisions and results easy to verify through open records, clear metrics, and practical transparency tools, while protecting privacy. Independent oversight, routine audits, and prompt admission and correction of mistakes create predictable, fair outcomes so people across viewpoints can judge performance by results rather than rhetoric.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver the basics reliably\u2014safe neighborhoods, fair enforcement, responsive services, and honest stewardship\u2014while explaining decisions in plain, culturally and linguistically accessible language. They should publish clear goals and results, admit and fix mistakes quickly, and accept independent audits and local oversight so people can verify performance. Regular, convenient neighborhood listening sessions and partnerships with trusted community groups should shape priorities and budgets, keeping decisions focused on practical outcomes rather than politics.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

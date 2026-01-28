@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star": {
+      "winner": "44",
+      "epsilon": 0.0,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "44",
+      "epsilon": 0.0,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for both safety and civil rights by setting clear, enforceable limits on authority (especially stops, searches, and force) and pairing them with fair discipline, independent review, and public reporting that protects privacy while enabling accountability. Officers should be trained and resourced to prioritize proportionality and de-escalation, while nonviolent behavioral-health and social-need calls are routed to specialized responders whenever feasible. Ongoing community dialogue, problem-solving partnerships, and regular evaluation of outcomes can reduce crime and harm without sacrificing constitutional protections.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safety and civil rights as mutually reinforcing goals by enforcing clear, lawful limits on stops and use of force, backed by continuous de\u2011escalation, bias\u2011aware, and trauma\u2011informed training. Independent civilian oversight, transparent reporting (including body\u2011worn evidence and outcomes), and accessible complaint processes make accountability timely and credible. Nonviolent behavioral\u2011health and social\u2011service crises should be diverted to specialized responders, while communities co\u2011design priorities and officers receive support and wellness resources so responses are fair, effective, and rights\u2011respecting.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should advance safety and civil rights together through clear, enforceable standards\u2014especially on stops, searches, and use of force\u2014paired with consistent de-escalation and bias-aware training and practical tools like body-worn cameras. Accountability should be timely and understandable, with independent review, transparent public reporting, and fair due-process protections for both residents and officers. Communities should help shape priorities and evaluate results, while nonviolent behavioral-health and social-service calls are routed to trained crisis teams so officers can focus on serious threats and build lasting trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

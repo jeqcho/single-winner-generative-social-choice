@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "78",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make decisions in the open, explain the tradeoffs in plain language, and invite independent checks so people can verify claims rather than rely on assurances. It also depends on dependable day-to-day service\u2014clear standards, published results, and quick, public fixes when things go wrong. Bringing citizens and frontline staff into problem-solving early, while protecting rights and data privacy, helps institutions feel closer, fairer, and less partisan.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they deliver reliable, everyday services and explain decisions in plain language, backed by clear, measurable results. Institutions should invite real community input, share data and tradeoffs transparently, and admit and fix mistakes quickly. Independent oversight, regular public reporting, and fair, respectful treatment for all\u2014while safeguarding privacy and limiting concentrated power\u2014help people across political lines see institutions as accountable partners rather than distant authorities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions prove, in everyday life, that they are competent, fair, and honest\u2014delivering reliable services while explaining decisions in plain language and showing the data behind results. They should invite regular local input from residents and frontline workers, protect privacy and individual rights, and prevent abuses of power through independent audits, clear ethics rules, and real consequences for mistakes. When institutions listen respectfully across political and cultural differences, correct errors quickly, and report progress openly, people can judge them by consistent performance instead of promises.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "16"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star": {
+      "winner": "52",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make their work understandable and contestable: explain decisions in plain language, disclose limits and uncertainties, and publish what success looks like before programs begin. Pair that openness with strong safeguards\u2014independent audits, conflict-of-interest rules, and fast, fair ways for people to appeal decisions or report misconduct without retaliation. When feedback consistently leads to visible adjustments and outcomes are tracked publicly over time, both skeptics and supporters have concrete reasons to believe institutions are acting in the public interest.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions are transparent about decisions and spending, accept responsibility for mistakes, and fix problems quickly with clear, measurable reforms. Pair independent oversight and real consequences for misconduct with plain-language, timely communication so people can verify performance for themselves. Create ongoing, accessible ways for residents to shape policies and seek redress, combining professional expertise with lived experience to produce fairer, more reliable results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions are honest about past mistakes, communicate decisions in plain language, and show measurable results that improve everyday life. We can unite around clear, consistently enforced rules, independent oversight, and real consequences for misconduct\u2014regardless of politics or position. Institutions should also make it easy for people to be heard and get problems fixed through accessible local forums, transparent reporting on spending and performance, and straightforward ways to appeal or file complaints.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

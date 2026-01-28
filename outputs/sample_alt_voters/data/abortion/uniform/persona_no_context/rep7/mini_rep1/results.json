@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect health and human dignity while acknowledging that people disagree, in good faith, about when moral status begins. A balanced framework would guarantee timely care in early pregnancy and in cases of medical emergency, severe health threat, or pregnancy from rape or incest, with later abortions limited to serious medical circumstances defined by evidence-based standards and clinician judgment. To reduce abortions without criminalizing people in crisis, policy should expand contraception and sex education, strengthen prenatal and parenting support (health care, leave, childcare), and keep enforcement focused on clear rules and safety\u2014not punishment for patients or good-faith medical care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for both human dignity and the moral seriousness many attach to potential life. A workable framework protects timely, safe care and patient privacy\u2014especially early in pregnancy\u2014while setting clear, medically grounded standards and exceptions for threats to the pregnant person\u2019s life or serious health, rape or incest, and complex fetal conditions, with room for clinician judgment in emergencies. Common ground also means reducing unwanted pregnancies and the pressures that drive abortion through comprehensive education, affordable contraception, and strong supports for parents, prenatal care, adoption, childcare, and economic stability. Whatever the limits, the law should be plain, enforceable, and focused more on help and harm reduction than on punishment, while safeguarding providers who act in good faith.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by respect for human dignity, medical evidence, and the serious moral concerns many people hold about potential life, while ensuring no one is denied urgent, life- and health-preserving care. A workable framework sets clear, understandable limits that protect viable pregnancies where possible, with explicit exceptions for the mother\u2019s life and serious health risks, and for pregnancies resulting from rape or incest, while keeping time-sensitive decisions in the hands of patients and licensed clinicians acting in good faith. Common ground also means reducing unintended pregnancies and the pressures that lead to abortion through comprehensive education, affordable contraception, prenatal and mental-health care, adoption support, childcare, and economic help\u2014focused on support rather than punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

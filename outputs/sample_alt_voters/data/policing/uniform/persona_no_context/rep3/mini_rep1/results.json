@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.16999999999999993,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.16999999999999993,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "89",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for the least intrusive response that reliably prevents harm, treating constitutional rights as operational requirements rather than afterthoughts. This means clear limits on stops, searches, surveillance, and force; scenario-based training and coaching that reward de-escalation; and rapid access to co-responder teams for mental-health, substance-use, and homelessness calls. Trust grows when outcomes are publicly reported, discipline and commendations follow consistent standards, and independent civilian review can audit incidents while preserving due process for officers and civilians alike.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and constitutional rights as mutually reinforcing goals, guided by clear, evidence-based policies for stops, searches, and proportionate use of force, with de-escalation as the default. Officers should receive rigorous, ongoing training and be supported by specialized responses for mental-health and crisis calls, backed by strong community partnerships. Trust and accountability require transparent, auditable data (including on stops and use-of-force), body-worn cameras with appropriate privacy safeguards, and independent civilian oversight and after-action review with real consequences and support for professional policing.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safer neighborhoods and protect constitutional rights at the same time through clear, enforceable rules, proportionate use-of-force standards, and consistent training that prioritizes de-escalation, crisis intervention, and cultural and disability awareness. Communities gain trust when agencies publish auditable data on stops, searches, and force; use tools like body cameras with strong privacy safeguards; and accept independent review and fair discipline when policies are violated. Public safety is strengthened by partnering with residents and by pairing officers with mental-health and social-service responders where appropriate, while also supporting officers with adequate staffing, training, and wellness resources so they can do their jobs professionally and lawfully.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

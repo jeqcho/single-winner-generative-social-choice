@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star": {
+      "winner": "88",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_personas": {
+      "winner": "88",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for people to see how decisions are made, who is responsible, and what results are achieved. A practical middle ground is to pair openness with performance: publish plain-language rationales and data, set service standards, and empower independent inspectors and ombuds offices to investigate complaints and require fixes. When leaders admit errors, protect whistleblowers, and show measurable improvement over time, skepticism can shift toward confidence without asking anyone to suspend scrutiny.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "People across the spectrum can agree that institutions earn trust when they are competent and predictable, explain decisions in plain language, and publish transparent evidence for why choices were made. Trust grows when there is independent oversight with real authority, clear performance metrics, and protected channels for reporting problems. Institutions should also acknowledge mistakes and correct them quickly, with accessible ways for the public to give input and get timely redress. Consistent, verifiable practices like these let supporters and skeptics judge institutions by results rather than rhetoric.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People may disagree about politics, but most of us can agree institutions should be honest, competent, and treat everyone by the same clear rules. Trust grows when decisions and spending are explained in plain language, results are measured and published, and independent audits and oversight prevent favoritism or abuse. Institutions should also admit mistakes, fix problems quickly, and provide easy, respectful ways for citizens to ask questions, appeal decisions, and be heard.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

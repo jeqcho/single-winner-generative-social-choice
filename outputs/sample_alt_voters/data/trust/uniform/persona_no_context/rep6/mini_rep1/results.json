@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make it easy for people to see how decisions are made, how money is spent, and what results are achieved\u2014using plain, accessible communication and open data rather than slogans. Leaders should set clear service standards, report progress regularly, and acknowledge errors with specific fixes, while independent watchdogs and protected whistleblowers ensure consequences for misconduct. Trust grows fastest when institutions partner with local communities to co-design solutions, resolve complaints quickly, and deliver reliable, fair services that improve daily life for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make decisions transparently, apply rules fairly, and can be independently audited\u2014then show measurable follow\u2011through in the services people rely on. Leaders should communicate in plain, accessible language (including multiple languages where needed), admit and correct mistakes, and protect safe channels for feedback and whistleblowing. Regular local engagement\u2014through community partnerships and open forums\u2014helps ensure decisions reflect lived experience and are judged by consistent results rather than rhetoric.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions are transparent about how decisions are made, publish clear goals and results, and apply rules fairly with real consequences for mistakes or misconduct. They should communicate in plain language (and multiple languages where needed), make services easy to access, and create regular local forums where people can raise concerns and see timely follow\u2011through. Independent audits, protected complaint and whistleblower channels, and measurable improvements in everyday services help people across political lines judge institutions by consistent performance rather than rhetoric.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

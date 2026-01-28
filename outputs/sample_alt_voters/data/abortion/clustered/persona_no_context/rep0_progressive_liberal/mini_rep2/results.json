@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "10"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "69",
+      "epsilon": null,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": null,
+      "full_winner_idx": "4"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": null,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by a commitment to protect life and dignity while keeping care safe, timely, and rooted in medical expertise rather than political punishment. A durable framework can set clear gestational standards, guarantee explicit exceptions for threats to the pregnant person\u2019s life or serious health harm and for pregnancies from rape or incest, and ensure patients and clinicians have legal clarity in emergencies. Common ground grows when policy also invests in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and maternal healthcare, childcare, and adoption services\u2014so fewer people face crisis pregnancies in the first place.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for personal autonomy and privacy, and sound medical judgment, while acknowledging that many people attach serious moral weight to potential life. Policy should ensure timely, safe, evidence-based care with clear, medically grounded exceptions for threats to the pregnant person\u2019s life or serious health risks, and it should avoid stigma, coercion, or political interference in urgent clinical decisions. Common ground is strengthened by reducing crisis pregnancies through comprehensive sex education, affordable contraception, and robust supports for prenatal care, parenting, and adoption so fewer people feel cornered into this choice.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for personal conscience, and sound medical evidence, recognizing both the moral weight many attach to potential life and the need for people to make time-sensitive healthcare decisions with qualified clinicians. A workable framework should protect access to safe, timely care with clear, medically grounded exceptions for threats to the pregnant person\u2019s life or serious health risks and for cases like rape or incest, while setting fair, consistent standards that avoid stigma and political interference. Common ground grows when policy also reduces crisis pregnancies through comprehensive education, affordable contraception, prenatal and mental healthcare, and strong supports for parenting and adoption so fewer families feel trapped.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    }
+  }
+}

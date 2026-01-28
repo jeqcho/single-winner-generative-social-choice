@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "89",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable approach to policing protects civil rights while keeping communities safe by setting clear, enforceable limits on stops, searches, and use of force, and by auditing outcomes for bias with transparent public reporting and independent review. Officers should be trained and supported to resolve encounters with the least intrusive, least violent options, while serious mental-health and social-service calls are routed to co-responder or civilian teams whenever feasible. Ongoing community input should shape priorities and deployment, with success measured by both safety outcomes and reductions in unnecessary enforcement and harm.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should advance public safety and civil rights together through clear, enforceable use-of-force and stop standards, routine de-escalation/bias- and trauma-informed training, and transparent, independent oversight with timely public reporting of outcomes. Communities should co-design response models and performance metrics, using data to identify disparities, improve tactics, and hold agencies accountable. Cities should expand non-police and co-responder options for mental-health and social-service calls, and invest in prevention (housing, youth, treatment), while supporting officer wellness and professionalism. Technology such as body-worn cameras can strengthen accountability when governed by strong privacy safeguards and open auditing.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect both safety and civil rights by using clear, enforceable use-of-force rules that prioritize de-escalation, paired with fair, timely investigations and independent civilian oversight so decisions are transparent and accountable. Departments should focus on prevention and right-sized responses by partnering with mental-health and social-service providers, using co-responder or alternate teams for appropriate calls, and investing in youth and community programs that reduce repeat crises. Regular training in de-escalation, bias awareness, and trauma-informed practice\u2014along with officer wellness supports and publicly reported performance data\u2014can reduce unnecessary confrontations while improving trust and effectiveness for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

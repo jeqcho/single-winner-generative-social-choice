@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to reduce harm by protecting a pregnant person\u2019s health and agency while recognizing that many view developing life as morally significant. Regulations, if any, should use clear, medically workable standards\u2014especially around viability\u2014and guarantee prompt exceptions for threats to life or serious health, rape or incest, and devastating fetal conditions, with decisions made by patients and licensed clinicians under strong privacy protections. To lower abortion rates without coercion, governments should expand contraception and evidence-based sex education and ensure real material support for pregnancy, birth, parenting, and adoption while avoiding punitive measures that criminalize people in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical evidence, protect patient privacy, and keep time\u2011sensitive decisions primarily between a pregnant person and qualified clinicians, while recognizing the moral seriousness many attach to developing life. Any legal limits should be clear and workable, with narrowly defined exceptions for rape or incest and for threats to the pregnant person\u2019s life or serious health (and severe fetal conditions where medically relevant), and should avoid criminalizing patients or clinicians acting in good faith. To reduce unwanted pregnancies and make carrying to term a real option, policy should invest in affordable contraception, comprehensive sex education, prenatal and postpartum care, and practical parenting or adoption supports.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by medical evidence, compassion, and respect for both a pregnant person\u2019s dignity and the moral value many attach to developing life. Policy should protect patient\u2013clinician privacy and timely care, with clear, narrowly defined exceptions at minimum for life-threatening emergencies, serious health risks, rape, and incest, and should avoid criminalizing patients. Any limits should be paired with practical supports that prevent crisis pregnancies and make parenting or adoption realistically possible\u2014affordable contraception, comprehensive sex education, prenatal and postpartum care, childcare, and economic help\u2014so communities reduce harm and support families rather than punish them.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

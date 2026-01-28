@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "37",
+      "epsilon": 0.0,
+      "full_winner_idx": "37"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be built around protecting health and minimizing preventable harm: ensure timely, confidential, high-quality care and let medically trained clinicians\u2014not prosecutors\u2014make urgent decisions. Any gestational limits should be medically grounded, clearly written, and include workable exceptions for threats to the patient\u2019s life or serious health, pregnancies from rape or incest, and lethal or profoundly disabling fetal conditions, without criminalizing patients or routine care. To reduce abortions and support families, pair the legal framework with proven prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, and economic assistance\u2014so choices are freer and less driven by crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in evidence-based medicine and public health, protecting patient safety, privacy, and timely access to care while keeping complex decisions primarily within the patient\u2013clinician relationship rather than criminalization or political interference. Policy should acknowledge the moral seriousness many attach to potential life by using clear, workable standards and narrowly defined exceptions for threats to the pregnant person\u2019s life or serious health, and for cases such as rape/incest or severe fetal anomalies. To reduce unintended pregnancies and crisis decisions, governments should invest in comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, and economic supports so choices are less driven by desperation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should protect the life, health, and dignity of pregnant people through clear, medically grounded rules that preserve privacy and allow clinicians to act without delay in emergencies. They should also take seriously many citizens\u2019 moral concern for unborn life by setting reasonable, workable guardrails while guaranteeing compassionate exceptions for threats to life or serious health, rape or incest, and fatal fetal conditions. Alongside any legal framework, public policy should reduce crisis pregnancies through comprehensive sex education, affordable contraception, and strong supports for parents and families\u2014prenatal care, childcare, adoption services, and economic assistance\u2014so fewer people face desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

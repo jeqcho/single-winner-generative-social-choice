@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "19"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "19"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "19"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "19"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "94",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect life and dignity by keeping care safe, medically sound, and responsive to the realities families face, while avoiding one-size-fits-all mandates. A durable compromise protects early decision-making and patient privacy, sets clearer standards as pregnancy advances tied to viability and serious health risks, and guarantees prompt exceptions for threats to life or health and for pregnancies from rape or incest. Whatever limits exist should be paired with real prevention and support\u2014affordable contraception, evidence-based education, prenatal and postpartum care, and economic help\u2014so fewer people reach a crisis point and neither women nor clinicians are treated as criminals for difficult decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect health and human dignity by grounding rules in medical evidence and preserving the patient\u2013clinician relationship, especially in emergencies. A workable framework can protect early privacy and access while allowing carefully defined, medically grounded limits later in pregnancy, with clear exceptions for threats to the mother\u2019s life or serious health harms and for cases such as rape or incest. To reduce abortions and polarization, policy should pair any legal boundaries with strong prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and resources for parenting or adoption\u2014so fewer families feel forced into desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect both human dignity and health by keeping care grounded in medical evidence and the patient\u2013clinician relationship, while recognizing the sincere moral concerns many people hold about potential life. A workable framework should preserve early access and privacy, set clear and medically defined standards for later pregnancies tied to viability and serious health risks, and include compassionate exceptions (such as threats to the mother\u2019s life and severe fetal conditions). Common ground grows when any legal approach is paired with practical supports\u2014sex education, affordable contraception, prenatal and postpartum care, adoption options, and help for families\u2014so fewer people face crisis pregnancies and no one is pushed toward unsafe outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

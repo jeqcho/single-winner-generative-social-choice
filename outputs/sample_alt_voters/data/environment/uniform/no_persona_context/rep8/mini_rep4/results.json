@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth is strongest when it reflects the real costs of pollution and the value of clean air, water, and land, so rules should set clear performance goals while giving businesses flexibility in how to meet them. Use a mix of enforceable standards, market signals, and targeted public investment in clean infrastructure and R&D to cut risk and accelerate innovation. Phase changes in with transparent benchmarks, and provide transition support for workers, small businesses, and regions most affected so the shift is practical and broadly shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, water, and land as essential infrastructure and setting clear, science-based standards that hold polluters accountable. Pair predictable, phased implementation with market incentives and targeted public investment to speed clean innovation, resilient infrastructure, and competitiveness. Provide robust transition support\u2014retraining, small-business assistance, and community-led planning\u2014so changes are practical and fair. Use transparent, measurable outcomes and local input to build trust and keep both ecosystems and livelihoods strong for the long term.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and land is essential to public health and long-term prosperity, so we should set clear, science-based standards that hold polluters accountable while keeping rules predictable for businesses. Pair these safeguards with market-based incentives and streamlined permitting for proven clean technologies and infrastructure that create good-paying jobs. Use phased timelines and targeted support\u2014retraining, wage insurance, and small-business assistance\u2014so workers and communities can adapt without being left behind, guided by transparent results and local input.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

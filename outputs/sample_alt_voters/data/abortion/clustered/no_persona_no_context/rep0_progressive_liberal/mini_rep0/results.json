@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect life and liberty by reducing coercion, crisis, and preventable harm. A durable middle ground is to guarantee timely care for life- and health-threatening conditions, keep decisions anchored in medical standards and patient privacy, and avoid criminal penalties that deter treatment. At the same time, policy should make unintended pregnancy rarer and parenting more viable through contraception access, accurate education, prenatal and mental-health care, and practical support for families.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion and measurable outcomes that protect health, respect moral pluralism, and reduce preventable suffering. Common ground includes guaranteeing timely emergency and medically necessary care, keeping rules clear and medically informed, and avoiding punitive approaches that deter patients or clinicians from safe treatment. Alongside any limits, society should invest in prevention and real alternatives\u2014education, affordable contraception, prenatal and maternal care, and economic supports\u2014so fewer pregnancies become crises and families have genuine choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical evidence, and respect for moral and religious diversity, with the primary goals of protecting health, reducing suffering, and supporting family stability. At minimum, policy should guarantee timely emergency and medically necessary care, protect patient privacy and due process, and avoid criminalizing people for complex medical decisions. Common ground also includes preventing unintended pregnancies through accurate education and affordable contraception, and ensuring strong supports for parenting, adoption, and economic security so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

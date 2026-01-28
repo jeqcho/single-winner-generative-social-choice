@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College\u2019s state-based framework but make it track voter preferences more closely by replacing winner-take-all with a uniform proportional method in every state, paired with a small minimum threshold to avoid extreme fragmentation. To improve legitimacy no matter which party wins, Congress and the states should adopt baseline national rules for registration access, ballot counting, audits, and recount triggers, while leaving day-to-day administration to the states. If distortion remains high, an expanded House could be a next step to reduce the gap between state populations and electoral votes without rewriting the Constitution overnight.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential outcomes track the voters\u2019 will more closely while keeping states meaningfully involved and protecting smaller and rural communities from being ignored. A practical middle-ground is to keep the Electoral College but curb winner-take-all by encouraging proportional or district-based elector allocation (with clear, uniform recount and certification rules), alongside stronger national baselines for ballot access, security, and transparent audits. Additional modernization like expanding the House to reduce representational distortion can improve legitimacy without abruptly dismantling the federal structure.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any reform should make election results match voters\u2019 choices more closely while keeping states and smaller communities meaningfully represented and confident in the process. A workable compromise is to keep the Electoral College but reduce winner-take-all by having states allocate electors proportionally or by district with a small statewide component, and to expand the House so electoral votes track population more fairly. Pair that with clear national baseline standards for ballot access, secure audits, and transparent recount/certification rules so every side can trust the count and candidates have incentives to compete beyond a few swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "The right balance starts with treating clean air, water, and stable climate conditions as non\u2011negotiable public goods, while giving businesses clear, predictable pathways to comply and compete. Use a mix of performance standards and flexible tools\u2014such as tradable credits, time-limited tax incentives, and streamlined permitting for cleaner projects\u2014to cut pollution at lowest cost and speed innovation. Pair these policies with targeted support for workers, small businesses, and regions in transition so near-term disruptions are minimized and the gains of cleaner growth are widely shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should move together by setting clear, science-based safeguards for clean air, water, and land while giving businesses predictable, practical rules that reward innovation. Pair targeted regulations with market incentives and public-private investment in cleaner technologies so manufacturing, construction, and small businesses can stay competitive and create good jobs. Support phased transitions with workforce training and help for communities and workers most affected, so families aren\u2019t left behind while we protect resources for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should move together by keeping air and water clean while setting clear, practical rules that let businesses and local industries plan, compete, and innovate. Use market-based incentives and public-private partnerships to speed cleaner technology, infrastructure upgrades, and energy efficiency, while avoiding red tape that doesn\u2019t measurably improve health or conservation. Pair these steps with targeted support\u2014apprenticeships, retraining, and transition assistance\u2014so workers in manufacturing, utilities, trades, and small businesses can keep good jobs as communities become more resilient for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

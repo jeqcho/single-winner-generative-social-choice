@@ -1,0 +1,117 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "borda": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "irv": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "plurality": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "veto_by_consumption": {
+      "winner": null,
+      "error": "Alternative '-1' not found in alternatives list"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": null,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star": {
+      "winner": "10",
+      "epsilon": null,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": null,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be focused on preventing harm, responding proportionally, and protecting constitutional rights through clear, enforceable policies that prioritize de\u2011escalation and the least intrusive effective response. Independent accountability with timely public reporting\u2014paired with strong privacy safeguards\u2014should ensure mistakes are corrected and good policing is recognized. Communities should expand non\u2011police responses for mental\u2011health, substance\u2011use, and other nonviolent crises while supporting officers with training, staffing, and wellness resources. Regular community input and measurable outcomes can align day\u2011to\u2011day practice with both safety and civil liberties.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by following clear, consistently applied rules\u2014especially for stops, searches, and use of force\u2014paired with rigorous de-escalation and bias-awareness training. Independent, transparent accountability (including body-worn cameras, accessible complaint processes, and public reporting of outcomes) should protect constitutional rights while supporting lawful, well-trained officers. Communities are safer when nonviolent mental-health and social-service crises are met with co-response teams and prevention-focused partnerships, alongside fair staffing and wellness support for officers to reduce unnecessary escalation.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep families and neighborhoods safe while firmly protecting constitutional rights by enforcing clear, consistently applied standards\u2014especially for stops, searches, and use of force\u2014backed by rigorous de-escalation, bias\u2011aware, and crisis-response training. Independent, transparent accountability (body\u2011worn cameras with privacy safeguards, accessible complaint processes, and public reporting of outcomes) should reinforce trust while respecting due process for both residents and officers. Nonviolent mental\u2011health, substance\u2011use, and youth-related crises should be routed to co\u2011responders and community services when appropriate, paired with prevention efforts and officer wellness supports, so safety and civil liberties strengthen each other.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    }
+  }
+}

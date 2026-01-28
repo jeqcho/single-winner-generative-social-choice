@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Treat environmental protection as a core guardrail for growth: safeguard clean air, water, and biodiversity while pursuing prosperity through innovation and efficient use of energy and materials. Set science-based limits on pollution and habitat loss, then give businesses flexibility to meet them via pricing harmful impacts, performance standards, and support for cleaner processes. Pair these policies with transition funding for workers and regions, and publish clear metrics so communities can see both economic and environmental results over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats clean air, water, and ecosystems as foundational to long\u2011term prosperity, while giving businesses and workers clear, predictable rules to innovate and grow. Combine strong, science\u2011based standards that hold polluters accountable with market incentives and public investment in clean technology, infrastructure, and efficiency. Phase in changes with transparent metrics and community input, and provide targeted transition support\u2014especially for workers and small businesses\u2014so environmental protection becomes a practical pathway to good jobs and resilient local economies.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and land is essential to public health and long-term prosperity, but policies should be practical, predictable, and affordable for working families and small businesses. Set clear, science-based standards that hold major polluters accountable while using market tools and incentives to reward efficiency and clean innovation rather than relying on one-size-fits-all mandates. Phase changes in with local input, streamlined permitting for cleaner projects, and targeted help for workers and industries in transition\u2014training, wage support, and infrastructure investment\u2014so communities can keep good jobs while reducing pollution.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

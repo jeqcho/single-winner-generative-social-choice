@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by human dignity, medical safety, and humility about deep moral disagreement\u2014protecting both pregnant people in crisis and the serious value many place on unborn life. A durable compromise can guarantee prompt care in emergencies and serious health cases, keep medical decisions in the hands of patients and licensed clinicians, and set transparent viability-based standards that avoid criminalizing those seeking or providing care. At the same time, policy should invest in prevention and support\u2014comprehensive education, affordable contraception, prenatal and postpartum healthcare, and resources for parenting and adoption\u2014so fewer pregnancies become emergencies and fewer people feel forced into impossible choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, sound medical evidence, and respect for personal conscience, keeping time-sensitive decisions grounded in the judgment of patients and qualified clinicians rather than political punishment. A durable framework should protect health, safety, and privacy with clear, medically defined exceptions for life-threatening or serious health situations and humane, workable standards as pregnancy advances. Common ground lies in reducing unintended pregnancies and abortions through comprehensive education, affordable contraception, and strong support for prenatal care, adoption, and parents who choose to carry and raise children.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity, and sound medical evidence, recognizing both the moral seriousness many attach to unborn life and the real health and hardship situations families face. A durable framework should protect timely, medically necessary care and patient privacy, keep complex decisions primarily between patients and qualified clinicians, and set clear, carefully defined limits with humane exceptions for threats to life or serious health complications. Common ground is strengthened by reducing unintended pregnancies through accurate education and affordable contraception, and by expanding practical support\u2014prenatal and postpartum healthcare, childcare, adoption services, and economic help\u2014so fewer people feel forced into crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

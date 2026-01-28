@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform would keep elections administered by states but reduce the \u201cfew swing states decide\u201d dynamic by phasing out winner\u2011take\u2011all elector awards in favor of proportional allocation (with a consistent, anti\u2011gerrymandering method if districts are used). A National Popular Vote compact could be treated as a later option, triggered only after broad state adoption and paired with a majority\u2011winner safeguard such as ranked\u2011choice or a uniform runoff rule. Whatever model is chosen should be anchored by nationwide minimum standards for ballot access, paper\u2011based records, transparent post\u2011election audits, and clear recount and certification timelines to strengthen legitimacy across regions and parties.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should modernize the Electoral College without erasing states\u2019 roles by reducing winner-take-all distortions\u2014encouraging proportional (or otherwise more even) allocation of electors and, where feasible, an interstate compact that reflects the national popular vote once broadly adopted. Any shift should be paired with ranked-choice or runoff-style safeguards to ensure the winner has broad support and to reduce spoiler effects. To build trust across regions and parties, set clear national baselines for ballot access, certification, paper trails, independent audits, and recount triggers while keeping day-to-day administration state-run.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A consensus reform should keep elections run by states but make outcomes track voters more closely and reduce winner\u2011take\u2011all distortions by encouraging proportional or district-based allocation of electors and enforcing that electors follow the certified result. If states prefer a national standard, a National Popular Vote compact could be used only after broad bipartisan adoption, paired with ranked\u2011choice or a runoff to ensure a majority-supported winner. Any path should include clear national baseline rules for ballot access, secure paper trails, independent audits, and recount thresholds so results are trusted in both small and large states.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

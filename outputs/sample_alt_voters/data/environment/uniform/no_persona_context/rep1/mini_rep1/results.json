@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection should be treated as joint requirements: safeguard the natural assets that support health and productivity while keeping rules stable enough for businesses to invest. Set firm, outcome-based limits on pollution and habitat loss, then give flexibility in how to meet them through pricing harms, streamlined permitting for cleaner projects, and incentives for efficiency and innovation. Pair these policies with region-specific transition plans\u2014worker support, local revenue sharing, and infrastructure upgrades\u2014so communities benefit early and aren\u2019t asked to carry disproportionate costs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Healthy air, water, and ecosystems are the foundation of long-term prosperity, so economic growth should be guided by clear, science-based environmental safeguards and predictable rules that let businesses plan and innovate. Pair these standards with market-smart incentives and public\u2013private investment in clean infrastructure and technologies that create durable jobs and lower costs over time. To keep the transition fair and politically durable, provide targeted retraining, wage and community supports for affected workers and regions, with transparent evaluation and meaningful local participation to ensure measurable results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance treats clean air, water, and land as non\u2011negotiable protections for public health and long-term economic stability, while keeping rules clear, practical, and predictable so businesses can invest and jobs can grow. Use a mix of enforceable standards and market-based incentives to reward efficiency, cut pollution, and speed permitting for proven clean projects and needed infrastructure. Pair these changes with retraining, wage support, and local development funds so workers, small businesses, and communities\u2014especially those tied to energy and construction\u2014share in the benefits and aren\u2019t left behind. Require transparent, measurable outcomes and community input to ensure progress is real, fair, and cost-effective.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

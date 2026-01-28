@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should make the presidency reflect the will of the most voters while keeping states central to administering elections and giving smaller communities confidence they won\u2019t be written off. A middle-ground path is to curb winner-take-all by requiring proportional allocation of electors (or a national popular-vote compact once states representing a majority join), while standardizing baseline rules for ballots, audits, and recount triggers so results are clear and comparable nationwide. Pairing that with a modest House expansion would reduce vote-weight gaps, encourage campaigning beyond swing states, and strengthen legitimacy without a sudden, all-or-nothing rewrite.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep states meaningfully involved while making the outcome track the people\u2019s will more closely and reducing winner\u2011take\u2011all distortions that leave many voters feeling ignored. A broadly workable path is to move toward a national popular vote (e.g., via the National Popular Vote Interstate Compact) or require proportional allocation of electors within states, paired with clear, uniform rules for ballot access, counting, audits, and recount triggers. Whatever the mechanism, the priority should be simple, transparent administration that strengthens legitimacy, encourages campaigning beyond a few swing states, and helps rural and urban communities alike trust the result.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any reform should keep the election stable and state-administered while making each vote matter more evenly and reducing the sense that only a few swing states decide the presidency. A broadly acceptable path is to curb winner-take-all by moving to proportional elector allocation (or a phased-in National Popular Vote compact once clear thresholds are met), paired with uniform nationwide rules for ballot access, voter ID options, audits, and recount triggers. This approach respects smaller and rural states\u2019 voices, improves national legitimacy, and builds trust through clear, transparent standards everyone can understand.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

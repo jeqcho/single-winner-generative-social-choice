@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make decisions in the open\u2014sharing the reasoning, tradeoffs, and who benefits or bears costs\u2014then report back with clear evidence of what changed and why. They should set simple service standards, publish performance dashboards, and use independent audits and conflict-of-interest rules so accountability is real, not rhetorical. Trust also grows when institutions meet people where they are through local partners, accessible formats and languages, and structured public input that can demonstrably shape outcomes. When mistakes happen, timely disclosure, concrete fixes, and consequences signal respect for the public and help bridge divides.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions act like reliable service providers: they explain decisions in plain language, publish easy-to-check data, and deliver steady, measurable improvements to everyday needs such as health, safety, education, and basic services. Trust is strengthened by clear accountability\u2014independent audits and oversight, open reporting, and prompt admission and correction of mistakes. Bringing decision-making closer to communities through accessible local participation and partnerships with trusted neighborhood, faith, and civic groups helps people across viewpoints verify results, feel respected, and protect both individual freedoms and shared resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions act like reliable service providers: explain decisions and spending in plain language, make data easy to verify, and show steady improvements in basics people feel\u2014health, safety, schools, infrastructure, and clean air and water. Trust also requires clear accountability, including independent audits, strong privacy protections, and prompt public correction when mistakes happen. Bringing decisions closer to neighborhoods through regular local forums and partnerships with trusted community groups\u2014while applying rules fairly and respecting individual freedoms and faith traditions\u2014helps people across viewpoints see institutions working for them, not for politics.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

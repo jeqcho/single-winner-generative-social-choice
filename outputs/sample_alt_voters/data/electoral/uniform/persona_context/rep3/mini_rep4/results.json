@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "39",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Constitution\u2019s state-administered structure while making the presidential result track the public will more closely and reducing incentives to focus on a few battleground states. A workable compromise is to end statewide winner-take-all by default\u2014encouraging proportional allocation of electors with a small statewide bonus\u2014and allow a National Popular Vote compact only once shared, enforceable standards for voter access, auditable paper ballots, and recount thresholds are in place. Pairing these changes with clearer rules to bind electors and a transparent phase-in schedule can improve legitimacy without a sudden overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Preserve the Electoral College\u2019s state-based framework while making outcomes track the national popular will more closely by phasing out winner-take-all through statewide proportional (or district-based) elector allocation, or a National Popular Vote interstate compact with clear activation and transition rules. Pair any change with uniform, auditable election standards\u2014paper ballots or voter-verifiable records, consistent ballot-access rules, automatic recount triggers, and strong limits on faithless electors\u2014so results are transparent and broadly accepted. Where practical, allow ranked-choice voting to reduce spoiler effects and encourage candidates to build broad, cross-region coalitions rather than focusing on a few swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential election reform should protect the federal role of states while making every lawful vote count as fairly and consistently as possible, so no community feels ignored. A reasonable compromise is to keep the Electoral College but reduce winner\u2011take\u2011all distortions through optional proportional or district-based elector allocation (or a clearly triggered interstate popular\u2011vote compact), paired with strong limits on faithless electors. Any change should come with uniform, auditable election standards\u2014paper records, clear recount thresholds, and accessible ballot options\u2014implemented gradually and transparently to build trust across parties and regions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

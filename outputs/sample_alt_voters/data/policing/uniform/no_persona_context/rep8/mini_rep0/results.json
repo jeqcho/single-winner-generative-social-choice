@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be judged by a dual standard: it must reduce harm and crime while reliably protecting constitutional rights in every encounter. That requires clear limits on stops, searches, surveillance, and use of force; consistent training and supervision focused on restraint and communication; and independent, well-resourced review with transparent reporting of outcomes. Public safety should also rely on the right responder\u2014coordinated non\u2011police teams for mental-health, substance-use, and homelessness calls, plus prevention and community input\u2014while ensuring officers have the staffing, support, and fair accountability needed to do the job professionally.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by grounding enforcement in clear, measurable standards\u2014especially proportional use-of-force rules\u2014paired with routine de-escalation, bias-awareness, and trauma-informed training. Independent civilian oversight, transparent public reporting, and privacy-respecting tools (such as body-worn cameras with strong safeguards) should ensure accountability and build legitimacy. Communities should expand non-police responses for mental-health and substance-use crises and strengthen ongoing partnerships and prevention efforts. Supporting officer wellness alongside fair discipline helps reduce harm, improve outcomes, and sustain public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while protecting constitutional rights through clear, measurable standards\u2014especially for stops, searches, and use of force\u2014backed by body\u2011worn cameras, transparent reporting, and independent civilian review. Officers should be trained and supported to use de\u2011escalation, bias\u2011aware and trauma\u2011informed practices, with fair accountability and wellness resources that sustain professionalism. Communities should also fund prevention and non\u2011police options\u2014like mental\u2011health and substance\u2011use crisis teams, restorative approaches, and social services\u2014so the right responder is sent and arrests are not the default. Regular public input and data\u2011driven evaluation should guide adjustments to reduce harm, build trust, and improve outcomes for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

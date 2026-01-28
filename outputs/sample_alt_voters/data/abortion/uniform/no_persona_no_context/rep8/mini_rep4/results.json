@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim for a medically workable, democratically legitimate framework that treats pregnancy as both a serious moral question and a real-world health condition. Policy can reduce conflict by prioritizing prevention (contraception and sex education), strong supports for pregnancy and parenting, and clear protections so urgent medical care is never delayed. Where legal limits exist, they should be evidence-based, consistently applied, and include enforceable exceptions for threats to health, severe fetal conditions, and pregnancies from violence, with the goal of reducing suffering rather than assigning blame.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to reduce harm and protect both human life and human dignity, while acknowledging sincere moral disagreement about when fetal moral status begins. A workable framework should prioritize evidence-based prevention\u2014contraception access, comprehensive sex education, and strong prenatal, maternal, and family supports\u2014so fewer pregnancies become crises. Where legal limits exist, they should be clear, medically informed, and paired with explicit protections and exceptions for serious health risks and other extreme circumstances, keeping care safe and accessible. The goal is fewer tragedies and more real options, not punishment or ideological victory.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect life and protect the health, dignity, and freedom of pregnant people, while recognizing that people of good faith disagree about when moral status begins. A workable approach should reduce the need for abortion through evidence-based prevention\u2014contraception access, medically accurate education, and strong support for pregnancy, parenting, and adoption\u2014so fewer families face crisis decisions. Where limits exist, they should be clear, medically informed, and paired with firm exceptions for rape or incest and for serious risks to the pregnant person\u2019s life or health, so care is timely and humane rather than punitive.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "14"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "14"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental limits as real guardrails while giving businesses predictable timelines and flexibility in how they meet them. Set science-based targets and enforceable standards, then use a mix of market tools, public investment, and streamlined permitting to speed cleaner production and infrastructure. Pair these steps with local benefit-sharing and transition support for workers and regions so growth remains competitive, fair, and durable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection as the foundation of long-term prosperity: set clear, measurable limits for pollution and ecosystem loss, then use market-friendly tools\u2014like carbon pricing, performance standards, and targeted incentives\u2014to drive innovation and competitiveness. Pair these policies with major investments in clean infrastructure and support for workers, communities, and small businesses affected by the transition through retraining and temporary assistance. With transparent metrics and phased implementation, growth can expand opportunity while restoring and safeguarding natural capital for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, water, and healthy land as essential infrastructure for jobs and public health. Set clear, measurable standards to safeguard critical ecosystems, while using flexible tools\u2014like pollution pricing, targeted tax credits, and support for local innovation\u2014to help businesses compete and adapt. Pair these policies with practical transition plans, including job training, wage and community support, and phased timelines for affected workers and regions, so the shift is fair and economically stable. By tracking both economic outcomes and environmental results transparently, communities can build trust and keep progress on course.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

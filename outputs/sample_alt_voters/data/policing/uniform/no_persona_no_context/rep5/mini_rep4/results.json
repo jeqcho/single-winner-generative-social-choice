@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing strategies should be built around a simple standard: intervene only when necessary, use the least intrusive lawful option, and explain actions clearly to the public. Pair proactive crime prevention with strong safeguards\u2014constitutional training, early-warning systems, and independent audits of stops, searches, and use-of-force\u2014so patterns of harm are caught and corrected. Expand co-responder and diversion options for mental health and substance-related calls, while setting shared, publicly reported goals for both crime reduction and fair treatment across communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public safety and civil rights are reinforcing goals, best achieved through clear, rights-respecting standards and tactics that reduce harm. Departments should prioritize de-escalation and bias-aware training, strict use-of-force and search policies, and transparent reporting with meaningful independent or civilian oversight and consequences for misconduct. Communities should help set priorities and review outcomes, while investing in non-police crisis and mental-health response options so that the right resources meet the right situations. Tracking measurable safety, trust, and equity metrics allows strategies to be adjusted based on evidence and shared accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect neighborhoods from violence while also protecting every person\u2019s constitutional rights, because trust and legitimacy make communities safer. Departments should use clear, enforceable standards for stops and use of force, prioritize de-escalation and fair, evidence-based enforcement, and publish transparent data and outcomes. Independent oversight and accessible complaint processes, paired with support for officers and non-police crisis responses for mental health and addiction, can reduce harm while keeping officers focused on serious crime.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

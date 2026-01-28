@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_star": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to protect human dignity and reduce preventable suffering by keeping medical decisions in the hands of patients and licensed clinicians under clear, evidence-based rules. Any restrictions should be predictable and workable in real clinical timelines, with explicit protections for threats to life or serious health, and for pregnancies resulting from rape or incest, without criminalizing patients or routine care. At the same time, government should expand the conditions that make abortion less likely\u2014reliable contraception, accurate sex education, prenatal and postpartum healthcare, and material support for parenting and adoption\u2014so choices are shaped by genuine options rather than coercion or poverty.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical evidence and protect patient privacy by keeping time\u2011sensitive decisions primarily between pregnant people and qualified clinicians, with clear standards that allow prompt care in emergencies and serious health situations. Where limits are set, they should be narrowly defined, transparent, and nonpunitive, while acknowledging that many citizens hold sincere moral concerns about potential life and ensuring conscience protections that do not block access to care. Any durable approach should also invest in prevention and real options\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and economic and childcare supports\u2014so fewer people face crisis pregnancies and decisions made under duress.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical evidence and protect patient privacy, keeping time\u2011sensitive decisions primarily between the pregnant person and qualified clinicians while allowing medically necessary care without delay. Any legal limits should be clear, narrowly defined, and include exceptions for threats to life or serious health, rape or incest, and severe fetal conditions, while avoiding punitive enforcement that endangers patients or providers. At the same time, communities should reduce the need for abortion through practical supports\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, and economic help\u2014so families have real options and fewer face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

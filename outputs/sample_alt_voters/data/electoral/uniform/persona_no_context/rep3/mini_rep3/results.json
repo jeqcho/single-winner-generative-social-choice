@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.1399999999999999,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.1399999999999999,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.1399999999999999,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.1399999999999999,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for a president who wins clear national support while keeping states central to administering elections and protecting regional voices. A workable compromise is to end winner-take-all by requiring proportional (or ranked-choice) allocation of electors within states, paired with baseline national standards for voter access, ballot design, audits, and recount triggers so close results are handled consistently. If these steps still leave repeated popular-vote mismatches, an incremental backstop like the National Popular Vote Interstate Compact could be considered once it can operate transparently and predictably.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fair to individual voters while respecting the role of states and avoiding outcomes that hinge on a few swing areas. A practical bridge is adopting the National Popular Vote Interstate Compact or requiring proportional allocation of electors, paired with clear nationwide standards for ballot access, counting, recounts, and routine risk-limiting audits. Adding ranked-choice voting where feasible can reduce \u201cwasted\u201d votes and reward candidates who build broader coalitions across urban, suburban, and rural communities. Any change should be phased in transparently and designed to strengthen legitimacy rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep states\u2019 roles and protect rural and smaller-community voices, while making the winner align more reliably with the voters\u2019 choice nationwide. A strong compromise is to require states to allocate electors proportionally (or through ranked-choice within the state) and pair that with clear national standards for ballot access, secure counting, automatic audits, and transparent recount rules. This reduces winner-take-all distortions and swing-state targeting without rushing into a single centralized system, and it strengthens trust that every vote is counted fairly no matter where someone lives.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

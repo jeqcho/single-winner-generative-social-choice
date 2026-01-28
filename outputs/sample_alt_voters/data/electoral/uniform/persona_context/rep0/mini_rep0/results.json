@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Electoral reform should aim to align outcomes more closely with the voters\u2019 will while keeping states central to election administration and ensuring results are secure, auditable, and widely accepted. A durable middle path is to keep the Electoral College but reduce winner-take-all effects\u2014through proportional or multi-district elector allocation and stronger rules binding electors\u2014while allowing a national popular-vote interstate compact to take effect only with broad, cross-partisan adoption. Any change should be paired with baseline national standards for voter access, paper-based verification, transparent audits, and uniform recount triggers so close elections are resolved consistently and trusted in every state.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make every lawful vote matter more equally while preserving a meaningful state role and producing clear, auditable outcomes people across regions can accept. A broad compromise is incremental: strengthen uniform standards for ballot access, paper ballots, audits, and recounts and require electors to reflect their state\u2019s certified vote, while encouraging states to reduce winner\u2011take\u2011all distortions through proportional or district allocation and allowing a National Popular Vote interstate compact only once it has durable, bipartisan participation. Where adopted, ranked\u2011choice or runoff options can help winners earn broader coalitions and reduce incentives to focus only on a few swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fair and auditable\u2014so every lawful vote counts clearly\u2014while keeping a meaningful role for states and avoiding disruptive constitutional overhauls. A workable compromise is to curb winner-take-all by moving states toward proportional or district-based elector allocation, or a widely adopted interstate popular-vote compact, and to require electors to follow their state\u2019s certified results. Pair any change with consistent, transparent rules for ballot access, paper-ballot verification, routine public audits, and clear recount standards so outcomes are trusted and candidates must compete beyond a handful of swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

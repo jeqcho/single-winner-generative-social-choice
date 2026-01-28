@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": null,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": null,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "61",
+      "epsilon": null,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should start from shared goals: protecting human dignity, safeguarding health, and reducing the number of people who feel trapped in a crisis pregnancy. A durable compromise keeps urgent and medically indicated care fully protected and clearly defined, avoids criminal penalties for patients and good-faith clinicians, and sets any limits in terms that match medical practice and are consistently enforceable. At the same time, it invests heavily in prevention and support\u2014contraception, accurate education, prenatal and mental-health care, and practical help for parents, adoption, and disability needs\u2014so fewer pregnancies become emergencies and fewer families face this decision at all.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for human dignity\u2014protecting patients\u2019 health and privacy while acknowledging the moral weight many people attach to potential life. A workable middle ground keeps time-sensitive medical decisions primarily between patients and qualified clinicians, with clear, medically grounded limits and explicit exceptions for emergencies and serious health risks, as well as for rape, incest, and nonviable or severe fetal conditions. Policy should avoid criminalizing patients and doctors and instead reduce crises by expanding accurate sex education, affordable contraception, prenatal and postnatal care, and practical support for parents, disability needs, and adoption.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for human dignity\u2014recognizing both the moral weight many attach to potential life and the lived realities of patients and families. Policy should guarantee timely, safe care and protect privacy and clinician judgment, with clear, workable exceptions at minimum for medical emergencies and serious health risks, and with consideration for cases like rape, incest, and severe fetal conditions. Common ground is strengthened by reducing crisis pregnancies through accurate education, affordable contraception, prenatal and mental-health care, and practical supports for parents, disability needs, and adoption\u2014while avoiding criminal penalties that punish people in crisis or deter needed medical care.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "borda": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "irv": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "plurality": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "veto_by_consumption": {
+      "winner": null,
+      "error": "Alternative '-1' not found in alternatives list"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": null,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": null,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "24",
+      "epsilon": null,
+      "full_winner_idx": "24"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": null,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make decisions in the open: explain the goals, the tradeoffs, who benefits and who bears costs, and what evidence was used. They should publish simple, trackable commitments\u2014service standards, budgets, timelines\u2014and report results regularly, including mistakes and how they were corrected, with independent audits to verify claims. Trust also grows when people can participate without needing insider knowledge, through local forums, accessible complaints and appeals, and shared problem-solving with community partners focused on fair, reliable outcomes.",
+      "is_new": true,
+      "epsilon": 0.030000000000000027
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver reliable services while making decisions transparent, understandable, and open to scrutiny. Leaders should communicate in plain, accessible language, listen locally, publish clear performance measures and budgets, and use independent oversight to enforce accountability\u2014especially by admitting mistakes and fixing them quickly. Creating regular, convenient ways for people to participate with community partners helps bridge divides by focusing on shared expectations of fairness, safety, and practical results.",
+      "is_new": true,
+      "epsilon": 0.030000000000000027
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they deliver reliable basics\u2014safe schools, fair courts, honest policing, and quality healthcare\u2014while explaining decisions in plain, accessible language and publishing clear results people can verify. Institutions should welcome independent audits and local oversight, admit mistakes quickly, and show exactly how they will fix problems and prevent repeats. Ongoing two-way engagement through community hubs (schools, libraries, clinics, faith and civic groups) should make it easy for working families and seniors to be heard, regardless of politics, while protecting equal treatment, personal freedoms, and respect for different cultures and beliefs.",
+      "is_new": true,
+      "epsilon": 0.030000000000000027
+    }
+  }
+}

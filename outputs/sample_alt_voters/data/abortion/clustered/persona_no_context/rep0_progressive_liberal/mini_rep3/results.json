@@ -1,0 +1,117 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "borda": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "irv": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "plurality": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "veto_by_consumption": {
+      "winner": null,
+      "error": "Alternative '-1' not found in alternatives list"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": null,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": null,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by protecting health and human dignity, taking seriously both the moral value many attach to developing life and the reality that pregnancy can involve urgent medical, traumatic, or destabilizing circumstances. A sustainable framework keeps decisions primarily in the hands of patients and qualified clinicians, sets clear and medically workable boundaries with prompt exceptions for serious health risk, rape or incest, and fetal conditions incompatible with life, and avoids criminal penalties that deter emergency care. Common ground grows when policy also invests in prevention and support\u2014contraception and accurate education, prenatal and postpartum care, childcare and economic help, and adoption services\u2014so fewer people feel pushed into crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for personal conscience, recognizing both the moral weight many people place on unborn life and the real, time\u2011sensitive medical and personal crises families face. Policy should protect patient safety, privacy, and clinicians\u2019 ability to provide care, with clear, workable standards and explicit exceptions for serious threats to the pregnant person\u2019s life or health and other extreme circumstances, while avoiding criminalizing patients or medical professionals. Common ground is strengthened by reducing unwanted pregnancies and hardship through comprehensive sex education, affordable contraception, and strong prenatal, postpartum, adoption, and parenting supports so fewer people are pushed into crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for personal conscience\u2014protecting patient health, privacy, and clinicians\u2019 ability to provide timely care, while acknowledging that many people place real moral value on unborn life. A workable framework keeps government from criminalizing patients or doctors, ensures clear exceptions for threats to the pregnant person\u2019s life or serious health and for traumatic circumstances like rape or incest, and sets transparent, medically grounded standards. Common ground also means investing in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and real resources for parenting and adoption\u2014so fewer families face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    }
+  }
+}

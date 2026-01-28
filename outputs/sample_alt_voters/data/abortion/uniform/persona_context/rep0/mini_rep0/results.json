@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.17999999999999994,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to minimize suffering by protecting maternal health and preserving respect for developing life, while recognizing that pregnancy can involve urgent, deeply personal circumstances. Any limits should be medically workable and paired with straightforward exceptions for serious threats to health or life, rape or incest, and lethal fetal conditions, with decisions in emergencies guided by clinical judgment and patient consent rather than criminal enforcement. Lasting common ground also requires investing in what reduces abortions without coercion\u2014accurate sex education, affordable contraception, strong prenatal and postpartum care, and practical support for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical evidence and compassion, protecting patient privacy and keeping time\u2011sensitive decisions primarily between pregnant people and qualified clinicians rather than politicians. Policy should acknowledge the moral weight many attach to potential life by setting clear, workable standards and humane, well\u2011defined exceptions for serious threats to health or life, rape or incest, and nonviable or fatal fetal conditions. Any limits should be paired with robust prevention and support\u2014comprehensive sex education, affordable contraception, and accessible prenatal, postpartum, childcare, and adoption resources\u2014so fewer families face crisis choices and care is not driven by punishment or fear.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be grounded in medical evidence and compassion, protecting patient privacy and timely clinician judgment while recognizing that many people see unborn life as morally significant. Any legal framework should be clear and enforceable, include well-defined exceptions for threats to the pregnant person\u2019s life or serious health, rape, incest, and nonviable or fatal fetal conditions, and avoid criminalizing patients or doctors acting in good-faith medical care. At the same time, communities should reduce the number of crisis pregnancies through practical support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption options, and economic and childcare help\u2014so fewer families feel forced into desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

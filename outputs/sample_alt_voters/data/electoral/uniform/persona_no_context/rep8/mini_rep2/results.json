@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "28"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the constitutional Electoral College framework but change the incentives so campaigns must compete beyond a handful of battleground states. States could replace winner-take-all with a proportional or mixed allocation (e.g., statewide winner plus proportional remainder), paired with clear national baseline standards for ballot access, counting, audits, and recount triggers. To reduce controversy, electors should be bound to the certified state result and the rules should be uniform, easy to explain, and adopted with bipartisan oversight so the system feels fair even in close elections.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable reform is to keep the Electoral College\u2019s state-based role, but reduce winner-take-all distortion by moving to proportional (or district-based) allocation of electors and binding electors to follow their state\u2019s certified popular vote. In parallel, set clear nationwide baseline standards for ballot access, counting, recounts, and transparent audits, with strong protections for election workers, so trust doesn\u2019t depend on where someone lives. As a further step if enough states agree, the National Popular Vote Interstate Compact could align outcomes more closely with the national popular will while preserving federalism and stability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable reform should keep a meaningful role for states while ensuring the president reflects the voters\u2019 will more closely and that people in every state feel their ballot matters. A strong middle-ground is to end winner-take-all by allocating electors proportionally (or by district with safeguards against gerrymandering), paired with a clear national baseline for ballot access, secure counting, and transparent audits and recounts. To reduce \u201cswing-state\u201d distortions without forcing an immediate constitutional overhaul, states could also consider the National Popular Vote Interstate Compact once it has broad, durable support. Any change should be simple to explain, fair across regions, and focused on trust and stability rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

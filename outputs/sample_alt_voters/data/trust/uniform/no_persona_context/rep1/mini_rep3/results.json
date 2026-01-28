@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Trust increases when institutions make their work easy to understand and easy to check: publish clear goals, explain trade-offs in plain language, and report outcomes regularly using simple, comparable measures. Pair that transparency with real consequences for misconduct\u2014independent investigations, protections for whistleblowers, and consistent enforcement of fair rules. Create ongoing two-way channels (local liaisons, citizen panels, responsive help lines) so people can surface problems early, see fixes implemented, and experience reliable, respectful service regardless of politics or background.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions deliver fair, reliable services people can see in daily life, and communicate decisions and trade-offs in plain language. Leaders should publish clear goals and performance metrics, welcome independent audits and community oversight, and respond to feedback by admitting mistakes and making timely, visible corrections. Partnering with trusted local organizations, protecting privacy and civil liberties, and keeping participation accessible helps diverse communities verify results and share ownership of outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions focus on dependable, fair service and back it up with plain-language explanations of decisions, costs, and trade-offs. They should publish simple, verifiable results, welcome independent audits, and enforce clear consequences when standards are not met\u2014while protecting privacy and equal rights. Ongoing local forums and partnerships with trusted community groups should give people a real say and a clear way to report problems, so mistakes are acknowledged quickly and fixed in ways the public can see.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

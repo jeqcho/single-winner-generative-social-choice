@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be designed to prevent harm first: use narrowly tailored enforcement, clear and publicly known rules, and proportional responses that protect life, constitutional rights, and officer safety at the same time. Agencies should pair consistent training (de-escalation, crisis response, and lawful stops) with transparent measurement of outcomes\u2014crime reduction, complaints, use-of-force, and clearance rates\u2014and independent review when serious incidents occur. Communities and police should jointly set priorities and expand non-police options for mental-health and social-service calls, so public safety improves without unnecessary intrusion or unequal treatment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together through clear, evidence-based standards\u2014especially for stops, searches, and use of force\u2014paired with rigorous de-escalation, bias-awareness, and crisis-response training. Transparent data reporting, body-worn cameras with strong privacy rules, and timely, independent investigation of serious incidents provide accountability while protecting officers\u2019 ability to do their jobs. Strong community partnerships and non-police alternatives for mental-health and social-service calls can prevent harm, reduce unnecessary force, and build the trust needed for safer, fairer neighborhoods.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while strictly protecting constitutional rights through clear, enforceable standards\u2014especially on stops, searches, and use of force\u2014backed by fair discipline and independent, timely review when serious incidents occur. Officers should be well trained and supported in de-escalation, crisis response, and respectful communication, with body cameras and transparent reporting used to document actions and learn from mistakes. Communities benefit when police partner with residents and use targeted enforcement against repeat violent offenders, while routing mental-health and low-level social issues to non-police or co-responder teams when appropriate. These practical steps strengthen trust, improve safety, and protect both the public and the officers who serve it.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection can be aligned by setting firm, science-based limits on pollution and habitat loss while giving businesses flexible, cost-effective ways to meet them. Pair these guardrails with predictable timelines, support for small firms and affected workers, and investments in clean energy, efficiency, and natural infrastructure that lower long-run costs. Regular public reporting and periodic policy adjustments can keep progress on track and ensure both livelihoods and ecosystems are protected.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection as the foundation of long-term prosperity, while enabling near-term growth through clear, predictable standards phased in over time. Pair strong protections for core ecosystems with incentives for efficiency and clean innovation, plus targeted investment, retraining, and safety nets for workers and communities in transition. Use transparent metrics and inclusive, community-led planning to evaluate trade-offs and adjust policies so benefits are shared broadly across regions and generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance treats clean air, water, and healthy land as essential infrastructure for lasting prosperity, while recognizing that families and local businesses need reliable jobs today. Set clear, science-based environmental guardrails, then give industries time and tools to meet them through phased-in rules, technology and efficiency incentives, and strong enforcement for major polluters. Pair these standards with practical support\u2014retraining, transition pay, and targeted investment in energy, manufacturing, and transportation\u2014so communities, workers, and small businesses can adapt and share in the economic gains.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

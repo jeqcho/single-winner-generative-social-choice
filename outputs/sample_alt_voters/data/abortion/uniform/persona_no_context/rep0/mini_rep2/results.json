@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_personas": {
+      "winner": "61",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by a commitment to protect human dignity and reduce preventable harm, recognizing both the moral concern many have for developing life and the reality that pregnancy can involve urgent, complex medical and personal circumstances. Policy should ensure timely, evidence-based care with clearly written medical exceptions and due process that lets clinicians act in emergencies, while setting transparent limits that reflect a community\u2019s interest in potential life. Lasting common ground also requires investment in prevention and support\u2014contraception, comprehensive education, prenatal and postpartum care, and economic help\u2014so fewer people face a crisis pregnancy in the first place.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, sound medical evidence, and respect for human dignity, acknowledging both the moral weight many attach to developing life and the need for timely, private care when pregnancies involve crisis, violence, or serious health risks. A workable framework sets clear, medically grounded rules with explicit exceptions for threats to the pregnant person\u2019s life or serious health, and for rape and incest, while keeping decisions centered on patients and qualified clinicians rather than politics or punishment. Common ground grows when policy also reduces unintended pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and postnatal care, and practical support for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by respect for human life and human dignity, while recognizing that pregnancy can involve complex, time-sensitive medical and personal crises where compassionate care is essential. A workable framework should keep decisions grounded in medical evidence and the patient\u2013clinician relationship, with clear, consistent rules and explicit exceptions for threats to the pregnant person\u2019s life or serious health, as well as for rape and incest, while setting reasonable limits as pregnancy advances. Common ground grows when policy also reduces unwanted pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and postnatal healthcare, adoption support, and practical help for families\u2014without stigma, coercion, or political punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

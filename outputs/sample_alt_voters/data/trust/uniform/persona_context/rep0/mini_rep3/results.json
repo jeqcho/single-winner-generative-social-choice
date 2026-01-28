@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_personas": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for people to see what was promised, what was delivered, and what happens when performance falls short. Set clear service standards and timelines, publish plain-language \u201creceipts\u201d for major decisions (including trade-offs and data sources), and empower independent auditors and community review panels with real authority to investigate and recommend fixes. Pair this with responsive local channels\u2014town halls, ombuds offices, and frontline feedback loops\u2014so residents can report problems and watch corrections happen without sacrificing privacy or due process.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver dependable, measurable improvements in everyday services\u2014especially those affecting families and neighborhoods\u2014while enforcing rules fairly and predictably. They should explain decisions and trade-offs in plain language, publish simple performance metrics, and admit and fix mistakes openly. Bringing decisions closer to communities through regular listening and meaningful participation, backed by independent oversight and clear accountability, lets people verify that institutions serve the public rather than partisan interests.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver the basic services people rely on\u2014safe streets, good schools, fair courts, and responsive help\u2014while explaining decisions in plain language and showing the evidence behind them. Trustworthy institutions set clear standards, enforce rules predictably, and admit and fix mistakes quickly, with independent oversight and real consequences when officials fall short. Bringing decisions closer to neighborhoods through regular listening sessions, partnerships with local and faith-based groups, and simple public scorecards (that protect privacy) lets people of different views verify results for themselves.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

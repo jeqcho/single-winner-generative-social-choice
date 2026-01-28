@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "22",
+      "epsilon": 0.0,
+      "full_winner_idx": "22"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "84",
+      "epsilon": 0.0,
+      "full_winner_idx": "84"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to reduce preventable suffering and conflict by combining respect for developing life with a firm commitment to safe, timely medical care and personal privacy. Rules should be written from clear clinical standards, ensure urgent care is never delayed, and include explicit exceptions for rape, incest, and serious threats to a pregnant person\u2019s life or health, with oversight focused on providers and systems rather than criminalizing patients. Whatever gestational limits are adopted, they should be matched by strong, practical supports\u2014affordable contraception and sex education, prenatal and postpartum care, paid leave and childcare, and streamlined adoption and family assistance\u2014so fewer pregnancies become crises and more people can carry to term when they choose.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in sound medical evidence and protect the health, dignity, and privacy of pregnant people while acknowledging the moral seriousness many attach to developing life. Time\u2011sensitive decisions should remain primarily between patients and qualified clinicians, with clear, workable rules and exceptions for rape, incest, and serious threats to a patient\u2019s life or health (including severe fetal conditions). Any limits should be paired with strong prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical help for parents and adoption\u2014so fewer people face crisis pregnancies. Policy should emphasize clarity, safety, and support over punishment, avoiding criminalization of patients or clinicians.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in medical evidence and individual privacy, keeping time\u2011sensitive decisions primarily between the pregnant person and qualified clinicians, while acknowledging that many people attach moral weight to developing life. Policy should guarantee safe, legal care at least early in pregnancy and provide clear, workable exceptions for rape, incest, and serious threats to the patient\u2019s life or health and nonviable pregnancies, with enforcement that does not criminalize patients or good\u2011faith medical care. Whatever limits exist, they should be paired with practical measures that reduce crisis pregnancies and strengthen families\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, mental\u2011health support, paid leave/childcare help, and accessible adoption services.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

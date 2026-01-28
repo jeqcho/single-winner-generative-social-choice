@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as shared risk management: keep strong safeguards where pollution or resource loss causes clear harm, and give businesses predictable pathways to comply and compete. A balanced strategy pairs science-based standards with flexible tools\u2014such as performance targets, permitting reform, and time-limited incentives\u2014to speed cleaner production and infrastructure upgrades. It should also invest in affected regions through job training, transition assistance, and local planning so the costs and benefits are distributed fairly and communities remain economically secure.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, recognizing that clean air, water, and healthy ecosystems are foundations of long-term prosperity and public health. A durable balance pairs clear, predictable, science-based rules with market incentives and investment in cleaner technology and resilient infrastructure so businesses can innovate and communities can thrive. Policies should phase in changes where feasible and provide practical support\u2014especially workforce training and transition assistance\u2014for workers, small businesses, and regions most affected, with results measured transparently over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as linked goals: clean air, water, and healthy land support public health, agriculture, and long-term business stability. Policymakers should set clear, science-based standards and predictable timelines, while using market incentives and public\u2013private investment to speed cleaner technology and infrastructure without punishing small businesses. Just as important, communities and workers should be included early and backed with retraining, transition support, and local flexibility so the shift creates good jobs and strengthens energy and economic security for today\u2019s families and future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

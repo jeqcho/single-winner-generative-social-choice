@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "93",
+      "epsilon": 0.0,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be designed to prevent harm while protecting constitutional rights through clear, publicly understood standards for stops, searches, and force, with strong supervision and fair, independent review when things go wrong. Officers need ongoing training and support to resolve encounters safely\u2014including de-escalation, bias mitigation, and crisis response\u2014and the tools to match the response to the problem rather than defaulting to arrest. Expanding non-police crisis options, co-response with clinicians, and community problem-solving, alongside transparent outcome reporting, can reduce violence and improve trust without weakening accountability or officer safety.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals by using clear, enforceable rules\u2014especially on proportional use of force\u2014paired with continuous de-escalation, crisis-response, and bias-awareness training. Independent, transparent oversight with open reporting, accessible complaint processes, and fair, consistent discipline should ensure accountability and learning. Safety improves when officers are well supported and work with community partners and mental-health and social-service alternatives to prevent crises and reduce unnecessary arrests and harm.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights together by using clear, consistently enforced standards\u2014especially for stops, searches, and use of force\u2014paired with regular de-escalation, crisis-response, and bias-awareness training. Independent oversight, transparent public reporting, and fair, predictable discipline should ensure accountability while also supporting officer safety and morale. Communities are safer when police work with residents and when mental-health and social-service teams handle appropriate calls, reducing unnecessary confrontations and keeping enforcement focused on serious threats.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

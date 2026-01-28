@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Rather than an all-or-nothing choice between keeping or abolishing the Electoral College, a workable compromise is to keep the state-based framework but make the allocation of electors reflect votes more accurately through proportional or ranked-choice methods that reduce winner-take-all distortions. Pair that with baseline national rules for voter access, counting timelines, recount triggers, and transparent audits so the same election is run to comparable standards in every state. Over time, reforms could be phased in through broad state agreement (including compacts) to ensure legitimacy, protect smaller-state interests, and reduce the dominance of a few battleground states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable reform should keep states meaningfully involved while making outcomes track the voters\u2019 will more closely and reducing winner\u2011take\u2011all distortions that cause campaigns to ignore most states. Common-ground options include expanding the National Popular Vote Interstate Compact once it has broad, bipartisan state participation, or shifting states to proportional or district-based allocation of electors so more ballots affect the result. Whichever path is chosen, nationwide baseline standards for voting access, timely counting, recounts, and transparent audits should be adopted so every lawful vote is treated consistently and the process is harder to game and easier to trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable reform should keep states meaningfully involved while making the outcome match voters\u2019 choices more closely, so people in both small towns and big cities feel their ballots matter. Common ground is to reduce winner-take-all by moving to proportional or district-based elector allocation, and to pair any change (including a carefully triggered National Popular Vote compact) with clear nationwide standards for ballot access, secure verification, timely counting, and transparent recounts/audits. The goal is a system that\u2019s hard to game, respects federalism, and builds trust by treating voters consistently no matter where they live.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

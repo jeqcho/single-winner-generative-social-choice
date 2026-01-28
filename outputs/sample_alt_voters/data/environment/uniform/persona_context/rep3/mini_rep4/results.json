@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by focusing on outcomes\u2014clean air and water, lower waste, and reliable energy\u2014while keeping policies stable and affordable. Set long-term environmental goals with flexible, sector-specific pathways (including performance standards, pricing where appropriate, and voluntary credit markets) so businesses can meet targets in the most cost-effective way. Pair these measures with transition funding for affected workers and regions, support for small businesses to upgrade equipment, and transparent reporting so communities can see progress and hold decision-makers accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, recognizing that clean air, water, and healthy land are foundations for long-term prosperity and public health. Policy should set clear, science- and evidence-based standards that are phased in predictably, paired with market-based incentives and investment in proven clean technologies so businesses can innovate without sudden shocks. To keep the transition fair and affordable, plans should include funded workforce retraining and targeted support for small businesses and communities, guided by local input and transparent, measurable outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by safeguarding clean air and water while keeping jobs, energy reliability, and affordability front and center. Set clear, science-based standards with realistic timelines, and pair them with incentives and public\u2013private investment so businesses can modernize without sudden shocks. Provide practical transition support\u2014retraining, help for small businesses, and protections for workers and rural communities\u2014guided by local input and transparent results so everyone can see what\u2019s working.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

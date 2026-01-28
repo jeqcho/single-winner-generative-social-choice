@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "90",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the principle that public safety is strongest when it is earned through lawful, fair, and respectful treatment. Agencies can pursue this by setting clear limits on stops, searches, and force; using early-warning and supervision systems to correct problems; and ensuring independent, timely review of serious incidents and complaints. Pairing these safeguards with targeted, evidence-based enforcement and well-funded non-police crisis and prevention services can reduce harm, strengthen legitimacy, and keep communities safer.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals by using clear, constitutional standards\u2014especially for stops and use of force\u2014paired with proportional, de-escalation-first tactics. Trust and effectiveness grow when agencies are transparent with data, provide fair and accessible complaint processes, and are subject to independent civilian oversight and accountability. Working with residents on problem-solving and expanding non-police alternatives for mental-health and other nonviolent crises can reduce harm while keeping neighborhoods safe.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect people from crime while safeguarding constitutional rights by emphasizing proportional, fair, and well-trained responses to danger. Clear use-of-force and stop/search standards, consistent de-escalation and bias training, and transparent reporting of outcomes can improve safety and legitimacy. Independent, timely review of incidents and complaints\u2014along with regular community input and partnerships with mental-health and social services for nonviolent crises\u2014helps reduce harm while keeping neighborhoods secure.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

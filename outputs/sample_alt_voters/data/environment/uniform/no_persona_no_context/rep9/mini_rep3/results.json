@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star": {
+      "winner": "99",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance starts by protecting non\u2011negotiable environmental thresholds\u2014clean air and water, stable climate risks, and critical habitats\u2014while giving businesses predictable, flexible pathways to comply. Using tools like pollution pricing, streamlined permitting for low\u2011impact projects, and targeted public investment can drive productivity and new industries without shifting costs onto communities. Pair strong standards with transition support\u2014retraining, regional diversification, and temporary relief for exposed households\u2014so near\u2011term disruptions are managed while long\u2011term prosperity grows.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "We should treat a healthy environment as the foundation of long-term prosperity, while pursuing growth that is innovative, competitive, and broadly shared. Set clear, measurable environmental limits and use cost-effective tools\u2014like pricing pollution, efficiency standards, and targeted public investment\u2014to drive clean technology, resource efficiency, and resilient infrastructure. Pair these policies with a just, phased transition that includes retraining and support for workers, regions, and small businesses so communities can adapt without sacrificing livelihoods.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance treats clean air, water, and stable ecosystems as the foundation for lasting jobs and prosperity, while recognizing that communities and industries need time and flexibility to adapt. We should set clear, science-based environmental standards and use cost-effective, market-friendly tools (like efficiency incentives and pollution pricing) to spur innovation and keep energy and consumer costs affordable. Pair these policies with transparent impact reviews, targeted investment in domestic clean manufacturing and infrastructure, and strong support for workers and small businesses\u2014retraining, transition assistance, and phased timelines\u2014so the benefits and burdens are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

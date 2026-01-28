@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should focus on preventing harm while protecting constitutional rights by setting clear, enforceable standards for stops, searches, and use of force, with consistent consequences when rules are broken. Safety improves when the right responder is sent to the right call\u2014pairing officers with trained clinicians, mediators, or outreach teams for many behavioral-health, substance-use, and quality-of-life incidents. Transparent public reporting, independent review with meaningful community participation, and measures of success that include reduced violence and complaints (not just arrests) can strengthen legitimacy and support effective, professional policing.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should advance safety and civil rights together through clear, enforceable standards\u2014especially proportionality and strict use-of-force limits\u2014backed by transparent reporting and independent, community-informed oversight. Officers should be equipped with rigorous de-escalation, bias/cultural-competency, and crisis-intervention training, plus wellness support, so they can act effectively and safely. Communities should expand non-police responses for mental-health and other appropriate calls and invest in prevention-oriented social services, while measuring success by reductions in harm and improved trust\u2014not arrests alone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should deliver safe neighborhoods and protect civil rights by using clear, consistently enforced standards for stops and use of force, with transparent reporting and independent, community-informed review when things go wrong. Officers should be trained and supported to prioritize de-escalation, proportional responses, and fair treatment, while data and measurable outcomes focus on reducing harm and repeat calls\u2014not just arrests. When appropriate, mental-health and substance-use crises should be handled with co-responder or non-police teams and stronger links to social services, so police can focus on serious crime and residents can trust that everyone\u2019s dignity and constitutional rights are respected.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

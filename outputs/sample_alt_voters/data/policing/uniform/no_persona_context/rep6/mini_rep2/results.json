@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for both safety and civil rights by matching responses to risk: focus enforcement on serious threats while expanding non-police options for mental-health crises, homelessness, and minor disputes when safe to do so. Clear, consistently enforced policies\u2014especially on stops, searches, and use of force\u2014should be paired with scenario-based de-escalation training and early-intervention systems to prevent misconduct and reduce harm. Independent review, timely discipline when warranted, and transparent reporting of outcomes (with privacy protections) create accountability, while regular community forums and officer support help set priorities and sustain legitimacy.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing clear, consistently applied use-of-force and accountability standards, emphasizing de-escalation, bias-aware and cultural-competence training, and transparent, independent oversight with public data reporting. Appropriate calls should be diverted to mental-health and social-service crisis teams, while prevention investments and community partnership help address root causes and set shared priorities. Supporting officer wellness and fair, timely review of misconduct strengthens professionalism, reduces harm, and builds durable public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe and protect civil rights by enforcing clear, consistently applied standards\u2014especially for stops, searches, and use of force\u2014paired with strong de-escalation and crisis-intervention training. Independent oversight, timely and transparent reporting, and fair due process for both residents and officers should ensure accountability and build trust. When appropriate, redirect nonviolent mental-health, substance-use, and homelessness calls to specialized responders and invest in prevention and community partnership so police can focus on serious threats while treating everyone with dignity and proportionality.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

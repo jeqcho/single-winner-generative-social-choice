@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "65",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Institutions can rebuild trust by making decisions traceable from evidence to outcome: publish the reasoning, budgets, and performance targets in plain language, then report results on a predictable schedule. Create real consequences for misconduct and failures\u2014through independent audits, whistleblower protections, and enforceable ethics rules\u2014while also rewarding good performance. Share power locally with structured community input (including critics), and demonstrate fairness by applying rules consistently and protecting rights and privacy for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions are consistently competent and transparent: explain decisions and trade\u2011offs in plain language, publish accessible data and goals, and report progress with clear, measurable results. Pair this openness with real accountability\u2014independent audits/oversight, impartial enforcement of standards, and prompt admission and correction of mistakes. Make participation routine through neighborhood\u2011level forums and partnerships with local groups so people can be heard and can verify that services are fair, reliable, and improve everyday life while protecting rights and privacy.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions prove they are fair, competent, and accountable: explain decisions in plain language, publish clear goals and results, and enforce rules consistently without favoritism. When mistakes happen, leaders should admit them quickly, fix them openly, and welcome independent audits so anyone can verify performance. Build trust locally by creating practical, respectful ways for residents and community groups to give input, while protecting individual rights and privacy and focusing on reliable services that improve everyday life.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

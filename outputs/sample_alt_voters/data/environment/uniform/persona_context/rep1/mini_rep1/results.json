@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection should be pursued together by setting firm, transparent pollution and habitat safeguards while giving businesses and communities clear timelines and flexibility in how to meet them. Public and private investment should prioritize upgrades that cut waste and costs\u2014efficiency, grid and water infrastructure, and low\u2011emission manufacturing\u2014while providing transition support for workers, small businesses, and regions reliant on legacy industries. Decisions should be guided by measurable health and economic metrics, local participation, and a fair share of benefits and burdens so prosperity is real, durable, and broadly shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, water, and soil as essential assets for public health and long-term prosperity. Policies should set clear, science-based standards while using predictable, market-friendly incentives that help businesses\u2014especially small firms\u2014plan, invest, and adopt cleaner technologies. Phased implementation paired with funded worker retraining and targeted community support can protect livelihoods in regions dependent on traditional industries. Centering local input and measurable outcomes builds trust and ensures the transition is fair and effective.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, water, and land as essential infrastructure for public health, property values, and long-term competitiveness. Set clear, science-based standards with predictable timelines, and pair them with market-friendly incentives and permitting reforms that help businesses\u2014especially small employers and the trades\u2014adopt cleaner, cost-effective technologies. Phase changes in with targeted support for workers and communities, including retraining, local hiring, and transition funding, so families aren\u2019t left behind. Use transparent, measurable outcomes and strong local input to build trust and ensure benefits and burdens are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

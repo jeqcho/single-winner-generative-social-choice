@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as a single long-term competitiveness strategy: conserve the natural assets that communities and industries depend on while expanding opportunity and keeping costs predictable. Set clear, outcome-based standards focused on the biggest risks (air, water, and climate resilience), then let businesses meet them through flexible tools like performance credits, innovation prizes, and time-limited support for upgrades. Pair these expectations with locally informed planning, permitting that is fast but rigorous, and targeted assistance for workers and regions facing higher transition costs so the benefits and burdens are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth are mutually reinforcing: clean air, water, and resilient landscapes support public health, productivity, and the places communities depend on. A workable balance pairs clear, science-based standards with market-based incentives and regulatory certainty that spur innovation, clean technology, and job creation while keeping rules targeted and cost-effective. Policies should be phased and locally informed, with workforce retraining and transition support so workers, small businesses, and rural communities can adapt without sudden shocks, using measurable outcomes and transparency to build durable trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as linked goals: clean air, water, and healthy land keep people safe and productive, and a strong economy provides the resources to invest in stewardship. We should use clear, science-based standards with flexible, market-friendly tools\u2014like incentives for cleaner technology and practical timelines\u2014so businesses, farmers, and workers can adapt without sudden shocks. Decisions should be locally informed and transparent, with support for job training and rural and working communities, so the benefits and responsibilities are shared fairly across generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

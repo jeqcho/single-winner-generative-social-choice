@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "59"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "28"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim to prevent harm first, using the least intrusive tools necessary while honoring constitutional rights and treating every person with dignity. That means clear, enforceable limits on stops, searches, and use of force; strong training and staffing for de-escalation and crisis response; and independent review with public reporting when misconduct occurs. Trust grows when residents help set priorities and officers are supported to solve problems collaboratively\u2014so safety improves without sacrificing equal treatment or due process.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights together through clear, measurable rules\u2014especially for stops, searches, and use of force\u2014backed by rigorous de\u2011escalation, crisis-intervention, and bias-awareness training. Trust grows when departments pair body cameras, transparent public reporting, and independent oversight with swift, fair accountability and due process for both residents and officers. Strong community partnership and data-driven evaluation, alongside co-responder mental-health options and prevention-focused services, can reduce harm and crime while treating every person with dignity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while strictly upholding constitutional rights through clear, publicly known rules for stops, searches, and use of force, with strong de\u2011escalation and crisis\u2011intervention training. Independent oversight, body\u2011camera and data transparency, and fair discipline protect both residents and good officers and build trust across political lines. Partnering with mental\u2011health, addiction, and youth services\u2014and using non\u2011police responders when appropriate\u2014prevents harm and lets police focus on serious crime. Results should be measured and reported so communities can see reductions in violence, complaints, and unequal treatment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "98"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "15"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "15"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "39",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should make presidential elections reflect the national will more closely while keeping states central to administering elections and maintaining broad, geographic legitimacy. A workable middle path is to curb winner-take-all by requiring states to allocate electors proportionally (with a minimum threshold) and to adopt uniform baseline rules for ballot access, counting, recounts, and risk-limiting audits. If the country later moves to a national popular vote, it should be phased in with ranked-choice ballots and clear national standards so outcomes remain trusted, transparent, and hard to manipulate.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fair and easy to trust by ensuring the national winner reflects the broad will of voters, while keeping states meaningfully involved in running elections. A practical bridge is an incremental move toward a national popular vote\u2014such as the National Popular Vote Interstate Compact\u2014paired with clear, uniform standards for ballot access, counting, recounts, and strong post\u2011election audits. For those who prefer keeping the Electoral College, states could reduce winner\u2011take\u2011all distortions by adopting proportional or district-based elector allocation so more voters matter in more places. Any changes should be phased in with transparent rules and safeguards so both rural and urban communities see the outcome as legitimate.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make the presidential outcome track the will of voters more closely while keeping states central to administering elections and protecting smaller and rural communities from being ignored. A practical bridge is to keep the Electoral College but end winner-take-all by encouraging proportional (or district-based with a small statewide bonus) allocation of electors, paired with uniform national standards for ballot access, transparent recount triggers, and strong post\u2011election audits. States that want a further step could join a safeguarded National Popular Vote compact once those integrity and access standards are in place. The goal is a system that is simpler to understand, harder to game, and more legitimate to people across parties and regions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

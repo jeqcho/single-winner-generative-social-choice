@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for two goals at once: keep states meaningfully involved in presidential selection while ensuring the winner aligns more reliably with the people\u2019s nationwide choice. A workable compromise is to end blanket winner-take-all by encouraging proportional elector allocation (with room for small-state flexibility) and to require electors to follow certified results, while also setting baseline national standards for ballot access, counting timelines, audits, and recount triggers. If states want to go further, a National Popular Vote compact or ranked-choice ballots can be adopted gradually and only with clear, transparent rules so campaigns broaden beyond a few battlegrounds and outcomes are easier to accept across regions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep a meaningful state-based role while making presidential outcomes track the popular will more closely and reducing winner-take-all distortions. A pragmatic package is to encourage proportional or district-based elector allocation, require electors to follow voters\u2019 results, and consider a phased National Popular Vote interstate compact once broad participation and clear guardrails are in place. To rebuild trust, pair any change with uniform baseline standards for ballot access and counting, timely certification, transparent audits, and clear recount rules, with ranked-choice ballots as an optional tool to ensure majority support.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable reform should keep the states\u2019 role in choosing the president while making outcomes better reflect the will of voters and reducing the winner-take-all problem that leaves many ballots feeling wasted. States could move to proportional (or district-based with a statewide component) elector allocation and require electors to follow the certified vote, paired with clear, uniform rules for ballot access, timely counting, audits, and recounts to strengthen trust. If a national popular-vote approach is pursued, it should be phased in only with broad bipartisan adoption and strong integrity safeguards, with optional ranked-choice voting where states want it to ensure majority support.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

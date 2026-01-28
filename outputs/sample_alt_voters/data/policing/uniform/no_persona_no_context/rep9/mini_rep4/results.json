@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "49",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a simple test: interventions must reduce harm and crime while respecting constitutional rights at every step. That means clear, publicly known limits on stops, searches, surveillance, and use of force; routine release of outcome data; and independent review with real consequences when rules are broken. At the same time, departments should prioritize prevention\u2014problem-solving with residents, focused deterrence on the small number of repeat offenders, and non-police responses for many behavioral health and homelessness calls\u2014so safety improves without unnecessary coercion.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should be judged by whether it delivers both real public safety and strong protection of civil rights, treating these goals as mutually reinforcing. That requires clear, transparent rules\u2014especially for stops and use of force\u2014regular public reporting, and independent accountability when standards are violated. It also means investing in de-escalation, bias-aware and procedural-justice training, and using evidence-based, targeted approaches with meaningful community partnership. Expanding non\u2011police crisis and mental-health response options can reduce unnecessary arrests and harm while maintaining safety.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the shared goal of keeping neighborhoods safe while consistently protecting constitutional rights and human dignity. That means clear, publicly known standards for stops and use of force; strong training in de-escalation, crisis and mental-health response, and bias awareness; and independent, transparent oversight that tracks both crime reduction and harm reduction. Pairing focused enforcement on serious and repeat violence with community partnership and effective alternatives for nonviolent crises can improve safety, build trust, and uphold civil liberties for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

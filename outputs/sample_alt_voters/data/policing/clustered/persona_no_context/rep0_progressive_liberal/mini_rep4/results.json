@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.22999999999999998,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.22999999999999998,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star": {
+      "winner": "31",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.18999999999999995,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim to prevent harm and solve serious crimes while treating constitutional rights as non\u2011negotiable limits on government power. Agencies should set simple, enforceable standards\u2014proportional use of force, strong de\u2011escalation and crisis-response training, and early warning systems\u2014paired with independent review, public reporting, and fair, timely discipline when misconduct occurs. Building durable trust also requires routine two\u2011way community input and coordinated alternatives for mental-health and social-service calls so officers can focus on core safety duties without unnecessary escalation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety while upholding constitutional rights by applying clear, consistently enforced standards; using de-escalation, crisis-intervention, and bias- and culture-aware training; and treating every person with dignity and due process. Trust grows when departments pair body cameras, transparent data reporting, accessible complaint processes, and independent oversight with timely, fair accountability for misconduct. Strong community partnerships and coordinated responses with mental-health and social services can prevent harm, reduce unnecessary use of force, and keep both residents and officers safe.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect neighborhoods while fully respecting constitutional rights, treating every person with dignity and ensuring fair, consistent enforcement. This requires clear, consistently applied use-of-force and engagement standards; strong de-escalation, crisis-intervention, and bias- and culture-aware training; and transparent accountability through body-camera policies, accessible complaint processes, and independent review with due process for officers and residents. Partnering with communities, schools, and mental-health and social-service providers\u2014and using data to measure outcomes\u2014can prevent harm, reduce unnecessary force, and build trust so both safety and civil liberties are strengthened.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

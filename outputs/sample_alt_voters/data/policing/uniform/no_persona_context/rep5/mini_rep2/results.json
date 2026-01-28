@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star": {
+      "winner": "44",
+      "epsilon": 0.0,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "63",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "63"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the principle that rights\u2011respecting, fair treatment is a core tool of public safety: set clear constitutional limits, require proportional and well-documented uses of force, and use independent review with timely public reporting to ensure accountability. Pair these guardrails with practical capacity\u2014de\u2011escalation and scenario training, early\u2011warning systems, and supports for officer wellness\u2014so responders can act safely and consistently. Shift the right calls to the right responders through co\u2011response and nonpolice crisis options, while maintaining sustained community input on priorities and measurable outcomes to improve trust and reduce harm.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat community safety and civil rights as mutually reinforcing by grounding enforcement in clear, constitutional use-of-force standards, proportionality, and rigorous de-escalation, bias-aware, and trauma-informed training. Independent civilian oversight, transparent public reporting (including body-worn evidence with privacy safeguards), and measurable, data-driven accountability should guide continuous improvement and fair discipline. Communities should co-design public safety priorities, while nonpolice crisis-response teams and sustained investments in mental health, housing, youth programs, and addiction services reduce avoidable arrests and harm. Supporting officer wellness and safety strengthens professional judgment and helps build durable public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while protecting constitutional rights by setting clear, enforceable rules for stops and use of force, emphasizing de-escalation, and using body-worn cameras and transparent reporting with strong privacy safeguards. Independent review, fair complaint processes, and consistent accountability\u2014along with support for officer training and wellness\u2014help build trust for both residents and responders. Communities should help shape priorities, and nonviolent behavioral-health and substance-use calls should be routed to co-response or civilian crisis teams, backed by investments in prevention like youth programs, housing stability, and addiction services.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

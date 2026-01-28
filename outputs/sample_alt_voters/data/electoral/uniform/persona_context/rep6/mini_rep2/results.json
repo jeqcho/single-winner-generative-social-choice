@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "66",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Any reform should strengthen national legitimacy while keeping states as meaningful partners, so candidates must earn support across regions rather than win a handful of battlegrounds. A workable compromise is to curb winner-take-all by encouraging proportional elector allocation (or district methods with safeguards against gerrymandering), and consider a national popular-vote alignment only with clear, enforceable rules and a stable transition plan. At the same time, adopt shared baseline standards for voter access, ballot counting, audits, and automatic recount thresholds so outcomes are verifiable, consistent, and widely accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep a meaningful state role while making each ballot carry more comparable weight and reducing today\u2019s swing\u2011state and winner\u2011take\u2011all distortions. A practical, phased approach is to shift states toward proportional or district-based elector allocation, while allowing a national popular\u2011vote compact only with clear, enforceable rules and broad buy\u2011in. Pair these changes with uniform minimum standards for ballot access, transparent post\u2011election audits, and automatic recount triggers; where states choose, ranked\u2011choice presidential ballots can reduce spoiler dynamics and encourage broader coalition\u2011building.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforms should protect the Constitution\u2019s federal-state balance while making outcomes feel fairer and more predictable to voters in every region. A workable compromise is to curb winner\u2011take\u2011all by encouraging proportional or district-based elector allocation, tighten and enforce rules against faithless electors, and allow an interstate popular\u2011vote compact only with clear triggers and uniform, auditable election standards. Pair these steps with baseline national rules for ballot access, secure ID/verification options, transparent post\u2011election audits, and automatic recount thresholds so results are easier to verify and accept. Changes should be phased in and evaluated over multiple cycles to build bipartisan confidence and reduce the sense that only a few swing states decide the presidency.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

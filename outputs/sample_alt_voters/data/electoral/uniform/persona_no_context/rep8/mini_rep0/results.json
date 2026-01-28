@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Constitution\u2019s state-based role while making the outcome track the voters more closely by ending automatic winner-take-all and moving to a uniform proportional method for awarding electors, with an explicit national popular-vote \u201cbackstop\u201d if the Electoral College winner trails by a clear margin. Pair that with baseline nationwide rules for ballot access, transparent audits, and automatic recount thresholds so close contests are handled consistently in every state. This approach preserves federalism and regional attention while reducing swing-state distortions and improving confidence that the president reflects broad public support.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make the presidential result track the voters\u2019 will more closely while preserving a meaningful state role and reducing today\u2019s winner-take-all \u201cswing state\u201d distortions. A workable bridge is either adopting the National Popular Vote Interstate Compact once enough states join or requiring states to allocate electors proportionally, paired with uniform baseline standards for ballot access, counting, and transparent audits/recounts so outcomes are trusted. If further modernization is needed, adding ranked-choice voting and/or modestly expanding the House can help ensure winners have broad support and representation better matches population, without abrupt constitutional upheaval.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should be decided in a way most Americans see as fair: every vote should matter more equally, while states and diverse communities still have a real voice and candidates have incentives to campaign beyond a few battlegrounds. A practical compromise is to keep the Electoral College framework but reduce winner-take-all by requiring proportional allocation of electors (with strong protections against gerrymandering if any district method is used), and to set clear national baseline standards for ballot access, counting, audits, and automatic recount triggers in close races. If broader agreement grows, states could also choose to join a national popular-vote compact, ideally paired with ranked-choice voting so the winner reflects majority support. Any reform should be transparent, easy to understand, and focused on legitimacy and trust for both winners and losers.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

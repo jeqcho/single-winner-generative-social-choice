@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "49",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make their work easy to see, test, and challenge: publish clear goals, explain decisions without jargon, and report results alongside what didn\u2019t work and how it will be fixed. Create real accountability with independent audits and review boards that include community members, frontline workers, and critics, plus simple ways for people to appeal decisions and get timely responses. Focus reforms on delivering fair, predictable services\u2014applied consistently, protecting rights and privacy\u2014so people experience competence in everyday interactions, not just in press releases.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions consistently deliver reliable services that improve everyday safety and opportunity, and explain decisions in clear, jargon\u2011free language. Leaders should publish measurable results and budgets, welcome independent audits and oversight, and promptly admit and correct mistakes so performance can be verified rather than assumed. Bringing decisions closer to neighborhoods\u2014through regular local forums, civic education, and partnerships with community and faith groups\u2014ensures respectful listening, fair enforcement, and accountability that people across viewpoints can see and count on.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions reliably deliver fair, predictable services\u2014public safety, schools, health, and infrastructure\u2014while enforcing rules consistently and managing tax dollars with open budgets, audits, and clear consequences for failures. Leaders should communicate in plain language, share easy-to-check performance measures, protect privacy and individual freedoms, and admit and correct mistakes quickly. Decisions should be closer to communities through regular local forums and partnerships with schools, faith groups, unions, and neighborhood organizations, so residents and frontline workers help set priorities and verify results.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

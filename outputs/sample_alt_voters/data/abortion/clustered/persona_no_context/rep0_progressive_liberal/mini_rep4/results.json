@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "51"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "69",
+      "epsilon": null,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": null,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": null,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by a commitment to protect life and reduce suffering, acknowledging both the moral significance many attach to unborn life and the right of patients to timely, evidence-based medical care. A durable compromise would keep early decisions primarily between patients and clinicians, draw clear lines later in pregnancy with well-defined exceptions for life, serious health threats, and nonviable pregnancies, and avoid criminalizing people or doctors acting in good faith. Common ground is strengthened by investing in prevention and support\u2014comprehensive education, affordable contraception, prenatal and postpartum care, and practical help for parenting and adoption\u2014so fewer families face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, sound medical evidence, and respect for personal conscience, keeping time-sensitive decisions primarily between patients and qualified clinicians rather than politicians. A durable framework should protect health and safety with clear, medically grounded standards and exceptions for serious risks or nonviable pregnancies, while avoiding punitive approaches that criminalize people in crisis. Common ground lies in reducing unintended pregnancies and hardship through comprehensive education, affordable contraception, prenatal and postpartum care, and practical support for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity and potential life, and sound medical evidence, recognizing that people of faith and conscience disagree while families still face urgent, real-world crises. A workable framework should protect timely, safe care and patient privacy with clear, medically defined exceptions for threats to life or serious health complications, while setting transparent standards that reflect moral seriousness rather than political punishment. Common ground is strengthened by reducing unintended pregnancies through accurate education and affordable contraception, and by expanding prenatal, postpartum, adoption, and parenting supports so fewer people feel cornered into painful choices.",
+      "is_new": true,
+      "epsilon": 0.020000000000000018
+    }
+  }
+}

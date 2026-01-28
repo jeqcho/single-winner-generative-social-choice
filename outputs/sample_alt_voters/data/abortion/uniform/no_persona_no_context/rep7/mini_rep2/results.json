@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by two public responsibilities: to treat pregnancy as serious medical care best informed by clinicians and patients, and to show moral regard for developing life without using criminal punishment as the default tool. A consensus approach can set medically grounded guardrails that allow earlier access while ensuring timely exceptions for threats to health, fetal conditions incompatible with life, and pregnancies from rape or incest. Pairing the law with strong prevention and support\u2014contraception, unbiased counseling, prenatal and postpartum care, childcare, and economic help\u2014can reduce abortions and protect families regardless of moral viewpoint.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by human dignity and harm reduction, recognizing sincere moral disagreement while safeguarding the health, autonomy, and real-life circumstances of pregnant people. Policy should rely on clear, evidence-based medical standards and guarantee timely exceptions for serious health risks, nonviable pregnancies, and other extreme cases so essential care is never delayed. Alongside any legal boundaries, society should invest in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and maternal care, childcare, and economic assistance\u2014so fewer people face unwanted pregnancies or feel pressured into any decision.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by human dignity, medical reality, and a shared aim to reduce harm for both pregnant people and developing life, while recognizing good-faith moral disagreement about when personhood begins. Policy should guarantee timely, physician-guided care and clear exceptions for threats to the pregnant person\u2019s health, nonviable pregnancies, and pregnancies resulting from rape or incest, and set any limits in ways that are evidence-based and workable rather than punitive. Alongside the law, expanding contraception, accurate education, prenatal and maternal healthcare, and practical supports for parenting and adoption can prevent unintended pregnancies and make more families feel supported rather than cornered.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

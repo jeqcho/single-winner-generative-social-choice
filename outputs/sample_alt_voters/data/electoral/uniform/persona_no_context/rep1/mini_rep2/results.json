@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to make presidential outcomes track voter intent more closely while keeping a meaningful state role and avoiding abrupt constitutional disruption. A workable compromise is to curb winner-take-all by requiring proportional or ranked-choice allocation of electors within states, paired with a uniform national baseline for registration, ballot access, audits, and recount timelines. To preserve stability, electors should be bound to certified results and the system should include clear contingency rules for extremely close national finishes, so both big and small states can trust the process.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Constitution\u2019s state-based role while making outcomes track the voters more closely and reducing winner-take-all incentives that concentrate campaigns in a few swing states. A broadly acceptable path is to move toward a national popular vote\u2014via a constitutional amendment or the National Popular Vote Interstate Compact\u2014paired with uniform nationwide standards for ballot access, audits, and transparent recount procedures. If a full popular vote shift is not feasible immediately, require states to allocate electors proportionally or by district with limited at-large electors, and bind electors to the certified results to reduce uncertainty. The goal is a system that feels fair in big cities and small towns alike, strengthens legitimacy, and rewards broad, consensus-building support.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "The Electoral College should be updated so outcomes more consistently reflect the will of voters while preserving the role of states and avoiding abrupt, destabilizing change. A strong middle-ground reform is to end winner-take-all by requiring proportional (or district-plus-at-large) allocation of electors, paired with clear nationwide baseline standards for ballot access, security, audits, and a transparent recount process. To reduce polarization and \u201cspoiler\u201d fears, states should be encouraged to adopt ranked-choice voting, and electors should be required to follow the certified results. This combination keeps federalism and smaller-state concerns in view while making campaigns and vote-weight feel fairer across urban, suburban, and rural communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

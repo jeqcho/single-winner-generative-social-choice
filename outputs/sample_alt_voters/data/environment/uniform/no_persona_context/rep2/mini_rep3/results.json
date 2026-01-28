@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance sets firm, health-based environmental guardrails while giving businesses flexible, cost-effective ways to meet them through innovation, efficiency, and market signals. Policies should be predictable and phased, with transparent measurement of results, so investment and jobs can adjust rather than collapse. Pair higher-risk protections with targeted support for workers, small firms, and regions in transition\u2014retraining, infrastructure, and diversification\u2014so cleaner growth strengthens both household security and the resources the economy depends on.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be planned together by treating clean air, water, and ecosystems as essential public assets and by making polluters pay through clear, science-based standards and market incentives. Pair predictable, phased timelines with targeted investment in clean technology, infrastructure, and efficiency so businesses can innovate and compete. Provide strong, locally guided support\u2014retraining, transition funding, and help for small businesses and affected communities\u2014so the shift is fair and jobs and health improve. Use transparent metrics and community input to keep policies practical, accountable, and durable across generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based standards that safeguard air, water, and health while giving businesses predictable timelines and flexibility to meet goals at the lowest cost. Pair these rules with market incentives and targeted investments in cleaner energy, infrastructure, and efficiency so employers can innovate and keep prices and competitiveness in mind. To keep the transition fair, provide job training, local reinvestment, and practical support for workers, small businesses, and communities most affected, with transparent metrics to track results and adjust when needed.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

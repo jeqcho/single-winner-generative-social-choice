@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be designed to prevent harm while upholding civil rights through clearly defined, consistently applied standards for stops, searches, and use of force, backed by real-time supervision and independent audits. Officers should be trained and supported to resolve encounters with the least intrusive, least forceful options, and non\u2011police professionals should handle behavioral-health and other noncriminal crises whenever possible. Public reporting of outcomes\u2014including complaints, stops, and serious incidents\u2014paired with fair discipline and incentives for good performance can strengthen trust, protect lawful policing, and improve safety.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing clear, constitutional use-of-force and stop standards, backed by strong de-escalation, bias-aware, and crisis-response training. Independent, transparent oversight\u2014including open data reporting and timely review of serious incidents\u2014should ensure accountability and build public trust. Pair officers with well-funded mental-health and community service alternatives, and measure outcomes so resources shift toward prevention, harm reduction, and fair, effective enforcement.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together through clear, consistently enforced rules on stops and use of force, strong de-escalation and crisis-response training, and transparent reporting with independent review of serious incidents. When behavioral-health and other nonviolent calls are routed to co-responders or specialized teams, officers can focus on violent crime and repeat offenders while reducing unnecessary confrontations. Ongoing community input, data-driven evaluation, and fair support and expectations for officers help build trust, prevent harm, and keep neighborhoods safe.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

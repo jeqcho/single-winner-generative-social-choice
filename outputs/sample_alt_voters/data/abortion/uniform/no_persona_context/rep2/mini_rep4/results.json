@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "98",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should start from two shared aims: protecting the health, dignity, and decision-making of the pregnant person, and treating developing fetal life with increasing moral seriousness as pregnancy progresses. Policy should guarantee timely, legal access early on, and rely on medically defined viability-based limits later that always include prompt exceptions for threats to health or life, rape or incest, severe fetal conditions, and other emergencies, with decisions made by patients and qualified clinicians rather than criminal courts. Enforcement should focus on clear clinical standards and access, not punishment, while governments invest in contraception, evidence-based sex education, maternal healthcare, workplace protections, and economic supports that reduce unintended pregnancies and make parenting a realistic choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should treat pregnancy as a complex medical and moral issue by protecting patient health, privacy, and bodily autonomy while recognizing the sincere moral concern many people hold for developing fetal life. Policy should be grounded in evidence-based medicine, keep decisions primarily between patients and qualified clinicians, ensure timely access to safe care early in pregnancy, and set clear, medically justified standards and exceptions for later, including serious health risks, rape or incest, and severe fetal anomalies. Enforcement should avoid criminalizing patients or clinicians and instead emphasize clarity and safety. Alongside any legal framework, society should invest in prevention and practical supports\u2014comprehensive sex education, affordable contraception, prenatal/postnatal care, and economic and adoption resources\u2014so fewer people face this decision under hardship.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion law should treat pregnancy as a serious medical and moral matter: protect the health, life, and privacy of the pregnant person while recognizing the value many place on unborn life. Rules should be clear and medically evidence\u2011based, keep decisions primarily with patients and licensed clinicians, and include explicit exceptions for life\u2011threatening conditions, serious health risks, rape/incest, and severe fetal anomalies, without criminalizing patients. Where limits are set later in pregnancy, they should be narrowly tailored to medical viability and safety and written so needed care is not delayed. Alongside any legal framework, society should invest in prevention and practical supports\u2014sex education, affordable contraception, prenatal and postpartum care, adoption options, and economic help for families\u2014so fewer pregnancies become crises and more people can choose life and stability.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

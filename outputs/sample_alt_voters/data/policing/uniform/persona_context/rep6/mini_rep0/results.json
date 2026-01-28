@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "28"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "27",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for safe neighborhoods and equal treatment under the law by setting clear, narrowly tailored authority\u2014especially around stops, searches, and use of force\u2014and requiring regular training and scenario practice that emphasizes de\u2011escalation, communication, and bias awareness. When situations are better handled by others, agencies should route calls to co\u2011responder or civilian-led teams for mental-health, substance-use, and homelessness crises, with strong links to social services. Trust grows when performance is measured and publicly reported (including stops, complaints, and outcomes), investigations are timely and independent, and officers are supported with fair pay, wellness resources, and consistent discipline when standards are violated.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals through clear, consistently applied rules\u2014especially on use of force\u2014paired with routine de-escalation, bias-aware, and cultural/language-competency training. Independent oversight, transparent reporting, and measurable outcomes should guide accountability and resource deployment while protecting privacy. Communities should expand nonviolent alternatives such as mental-health crisis teams and partnerships with social services, alongside sustained community engagement. Officers should receive fair support, training, and wellness resources so expectations are realistic and performance is evaluated consistently.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should deliver safe neighborhoods and equal justice by using clear, consistently applied rules\u2014especially for stops, searches, and use of force\u2014paired with strong de\u2011escalation training and fair, predictable enforcement. Independent oversight, transparent reporting, and body\u2011camera and complaint data reviewed with due process for officers and civilians can build trust and accountability. When calls involve mental\u2011health crises, addiction, or homelessness, communities should expand co\u2011responder and diversion options so armed force is a last resort, while still ensuring a timely response to crime. Supporting officer wellness and recruiting for professionalism and local partnership helps reduce conflict, protect rights, and keep families secure.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

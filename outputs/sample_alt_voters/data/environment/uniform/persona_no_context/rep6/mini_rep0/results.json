@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as shared long-term goals: a stable climate, clean water, and healthy land are foundational economic infrastructure, while good jobs and affordability are essential for public buy-in. Policymakers should set clear, measurable environmental outcomes and let businesses meet them flexibly through performance standards, pricing of pollution where appropriate, and streamlined permitting for demonstrably low-impact projects. Pair these rules with targeted support for small businesses, frontline communities, and workers\u2014training, diversification, and transition assistance\u2014so progress is durable, competitive, and fair.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing: clean air, safe water, and healthy land underpin public health, local livelihoods, and long-term prosperity. Common-ground policy pairs clear, predictable, science-based standards with market incentives and investments in clean technology and efficient infrastructure so businesses can innovate and create jobs. Phased timelines, community input, and targeted support for workers and small businesses during transitions can reduce disruption while steadily improving environmental outcomes for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air and water, healthy land, and reliable jobs as shared necessities. Set clear, predictable, science-based standards and use market incentives that reward efficiency and innovation, while cutting red tape that doesn\u2019t improve outcomes\u2014especially for small businesses and trades. Invest in clean energy, infrastructure, and local conservation projects that create good-paying work, and provide practical transition support and training where industries and communities are affected so no region is left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "78"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "78"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star_personas": {
+      "winner": "25",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise is to keep the Electoral College\u2019s state role but make outcomes track voters more closely by ending winner-take-all: require states to allocate electors proportionally (with a small minimum threshold) and automatically award the national winner any remaining electors needed to reach 270. Pair that with uniform national baselines for ballot access, counting, audits, and recount triggers so close elections are handled consistently and transparently across states. This approach preserves federalism, reduces swing-state overconcentration, and makes it easier for people in every state to believe the result reflects the electorate rather than the rules.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential election reform should keep a meaningful role for states and smaller communities while making outcomes track the national will more closely and reducing \u201cwinner-take-all\u201d distortions. A practical compromise is to keep the Electoral College but require states to allocate electors proportionally (or by district as an interim option), paired with clear, uniform national standards for ballot access, recounts, audits, and certification to strengthen trust. For those who want the result to match the popular vote, an incremental path\u2014such as expanding adoption of the National Popular Vote Interstate Compact\u2014can move in that direction without abrupt constitutional disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential election reforms should make outcomes track the will of voters more closely while keeping a meaningful role for states and avoiding sudden, destabilizing changes. A practical path is to reduce winner-take-all by encouraging proportional allocation of electors (or a national popular-vote compact once broadly adopted), paired with clear, uniform standards for ballot access, recounts, audits, and certification so every lawful vote is handled consistently. Adding a runoff-style safeguard such as ranked-choice voting can help ensure the winner has broad support and reduce spoiler fears, building confidence for both urban and rural communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

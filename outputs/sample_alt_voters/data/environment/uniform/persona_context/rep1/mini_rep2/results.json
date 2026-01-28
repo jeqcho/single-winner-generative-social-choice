@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection should be pursued together by recognizing that natural resources are both public health essentials and productive economic inputs. Set outcome-based, science-informed limits on pollution and habitat loss while giving businesses flexibility through streamlined permitting for low-impact projects, transparent timelines, and tools like pricing, performance credits, or tax incentives to cut emissions efficiently. Pair these standards with place-based plans and transition funding\u2014retraining, wage support, and infrastructure investment\u2014so communities can modernize industries, attract new employers, and share the benefits of a cleaner economy.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A balanced approach treats clean air, water, and land as essential to long-term prosperity while keeping stable, well-paying jobs and local businesses strong. Use clear, science-based standards with predictable, phased implementation so employers can plan and communities can adapt. Pair these safeguards with market-based incentives and targeted investments in clean technology, green infrastructure, and funded retraining and transition support. Center local input and measurable outcomes so stewardship and economic opportunity reinforce each other for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A strong economy and a healthy environment depend on each other: clean air and water protect public health and reduce long-term costs, while steady jobs and competitive businesses keep communities stable. We should set science-based, predictable standards and use market incentives and innovation to cut pollution efficiently, with clear timelines that let employers plan and invest. Any transition should be fair\u2014funding retraining, local infrastructure, and support for workers, small businesses, and places most affected\u2014guided by local input and measured outcomes so communities can see what works.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star_personas": {
+      "winner": "47",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make it easy for people to see how decisions are made, who is responsible, and what happens when things go wrong. Set clear service standards, publish understandable performance dashboards, and use independent audits so progress and failures are visible without partisan framing. Pair that transparency with continuous local feedback loops\u2014listening sessions, citizen panels, and rapid response to complaints\u2014so communities can help shape priorities and verify that institutions deliver fair, reliable results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust is rebuilt when institutions consistently deliver reliable, fair service and back it up with plain-language transparency: explain decisions, publish goals and results, and show the trade-offs. Leaders should be clearly responsible, admit mistakes, correct them quickly, and invite independent oversight so accountability is real and measurable. Ongoing local engagement\u2014partnering with community, neighborhood, and faith-based groups and listening across the political spectrum\u2014gives people a genuine seat at the table and keeps institutions focused on everyday needs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust is rebuilt when institutions do the basics consistently: tell the truth in plain language, explain the reasons and trade-offs behind decisions, and publish clear measures of success so people can verify results. Leaders should be accountable to the same rules as everyone else\u2014independent audits and oversight, real consequences for misconduct, and quick, public corrections when mistakes happen. Trust grows fastest when services that affect everyday life are reliable, fair, and responsive, and when local communities (including faith and civic groups) have a real seat at the table to raise concerns and help shape solutions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

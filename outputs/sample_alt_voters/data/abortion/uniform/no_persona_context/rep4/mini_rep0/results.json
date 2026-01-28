@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should prioritize protecting people from preventable injury and death by ensuring timely, medically supervised care and shielding private medical information, while recognizing that many citizens attribute increasing moral significance to fetal development. A workable compromise sets objective, health- and viability-based rules with prompt, clearly defined pathways for exceptions in emergencies, sexual violence, and cases of nonviable or profoundly anomalous pregnancies\u2014without turning patients or clinicians into criminals. To reduce the number of abortions and the hardship around them, the same framework should expand contraception access, comprehensive sex education, prenatal and mental-health care, and practical supports like childcare, paid leave, and financial assistance.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical evidence and compassion, protecting patient health, privacy, and clinician-guided decision-making while acknowledging that many people assign moral value to developing life. Policy should preserve timely access to safe care\u2014especially early in pregnancy\u2014with clear, transparent limits as pregnancy progresses and narrow, workable exceptions for serious health risks, rape or incest, and nonviable or fatal fetal conditions, without punitive enforcement that deters emergency care. Alongside any legal framework, governments should expand contraception, comprehensive sex education, prenatal and postnatal healthcare, and family supports (including childcare and economic assistance) so fewer pregnancies become crises and more people can realistically choose to carry to term.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical evidence, and respect for both the pregnant person\u2019s autonomy and the sincere moral concern many hold for unborn life. Policy should keep urgent decisions primarily between patients and licensed clinicians, with clear, viability- and health-based standards and narrowly defined exceptions for life endangerment, serious health threats, fatal fetal conditions, and pregnancy from rape or incest, without criminalizing patients or doctors acting in good faith. To reduce abortions and support families, lawmakers should expand access to contraception and sex education, strengthen prenatal and postnatal care, and provide practical economic supports such as childcare, paid leave, and adoption services.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

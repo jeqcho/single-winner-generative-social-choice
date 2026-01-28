@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection should be pursued together by setting clear, achievable pollution and habitat standards while giving businesses flexibility in how to meet them at the lowest cost. Pair these guardrails with investment in modernization\u2014cleaner energy, efficiency, and resilient infrastructure\u2014and temporary, targeted help for workers, small firms, and regions facing the biggest transition risks. Decisions should rely on transparent data, periodic review, and local participation so policies improve health and ecosystems without undermining competitiveness or basic affordability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Long-term economic prosperity and a healthy environment reinforce each other, so policy should set firm, science-based protections for air, water, and ecosystems while giving businesses and communities clear, predictable rules. Pair phased standards with market-based incentives and investments in clean technology and infrastructure to spur innovation and keep costs manageable. Provide targeted transition support\u2014retraining, local reinvestment, and temporary assistance\u2014so workers, small businesses, and regions most affected can adapt fairly, with transparent metrics to track results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based safeguards for clean air, water, and public health while keeping rules predictable and cost-effective for employers and consumers. Pair phased standards with market incentives and permitting reforms that speed up cleaner projects, and invest in domestic energy, efficiency, and infrastructure to create reliable jobs. Provide targeted transition support\u2014training, wage/benefit bridges, and local reinvestment\u2014so workers and small businesses in affected industries aren\u2019t left behind, with transparent metrics to ensure results and accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "16"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "37",
+      "epsilon": 0.0,
+      "full_winner_idx": "37"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Any reform should make presidential outcomes track the will of voters more closely while keeping elections primarily administered by states and preserving stable transitions. A broadly acceptable package would curb winner\u2011take\u2011all incentives (through proportional electors, optional multi-district allocation, or a popular\u2011vote compact once broadly adopted), require electors to follow certified results, and encourage majority-building tools like ranked-choice or a runoff. These steps should be matched with baseline national standards for ballot access, paper records, audits, and recount triggers so results are secure, comparable across states, and easier for the public to trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should preserve state-run elections and the stabilizing federal framework, while making the presidential outcome track the national popular will more closely. A broadly acceptable path is to reduce winner-take-all distortions through proportional (or district-based) allocation of electors and/or the National Popular Vote interstate compact, with a clear rule that electors are bound to certified results. Pair these steps with uniform, nonpartisan standards for ballot access, paper trails, routine audits, and transparent recounts, and allow ranked-choice or runoff options where feasible to encourage majority-backed, coalition-building winners.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Electoral College\u2019s state role and avoid abrupt constitutional disruption, while making outcomes better match the voters\u2019 overall will and reducing the swing\u2011state, winner\u2011take\u2011all problem. A broadly acceptable path is to require electors to follow certified state results, encourage states to adopt proportional or district-based allocation (or join a popular\u2011vote compact only with clear, bipartisan rules), and expand ranked\u2011choice/runoff options to ensure majority support. Any changes should come with uniform, auditable standards for ballot access, paper records, recounts, and post\u2011election audits so results are transparent, secure, and widely trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

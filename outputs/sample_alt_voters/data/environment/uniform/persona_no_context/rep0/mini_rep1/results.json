@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "21",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "21"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as a single long-term competitiveness strategy: what harms air, water, and soil eventually raises costs and weakens communities. A workable balance sets clear, science-based limits for the most harmful pollution, while giving businesses flexible, cost-effective pathways\u2014such as performance standards, tradable credits, and support for efficiency upgrades\u2014to meet them. Governments should prioritize predictable rules, transparent results, and targeted help for workers and regions facing transition so prosperity and stewardship advance together.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A sound balance starts from the reality that clean air, water, and healthy land are essential infrastructure for long-term prosperity, while stable jobs and competitive local businesses matter today. Policymakers should pair clear, science-based safeguards with market-driven incentives and predictable, phased timelines that reward cleaner technology and efficiency without sudden disruption. Investments in innovation, resilient infrastructure, and workforce retraining\u2014especially for small businesses and affected workers\u2014can make the transition fair, measurable, and widely supported.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by recognizing that clean air and water support public health, local livelihoods, and long-term prosperity. Set clear, science-based standards and enforce them fairly, while using market incentives, innovation, and predictable timelines so businesses\u2014especially small and local employers\u2014can adapt without sudden job loss or price shocks. Pair these policies with investments in infrastructure, energy efficiency, and worker retraining so communities and working families share in the benefits of a cleaner economy.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

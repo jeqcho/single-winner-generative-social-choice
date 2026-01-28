@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for safe neighborhoods and protected civil rights by setting clear, narrowly tailored rules for stops, searches, and use of force, reinforced through scenario-based training in de-escalation, bias awareness, and crisis intervention. Accountability should be independent and transparent\u2014tracking outcomes with public data, body-worn camera standards, and accessible complaint processes\u2014while preserving due process and safety for officers. Expanding co-responder and civilian crisis options for mental-health and nonviolent calls, alongside regular community problem-solving forums, can reduce unnecessary encounters and build trust through measurable results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing, guided by clear, consistently enforced use-of-force limits and rigorous de-escalation, crisis-response, and bias-aware training. Independent, transparent oversight\u2014with body-worn cameras, accessible complaint paths, and measurable, data-driven accountability that respects due process\u2014builds predictable trust and fair outcomes. Pairing well-supported officers with mental-health and social-service partners and sustained community dialogue helps prevent crises, reduce harm, and keep neighborhoods safe while protecting dignity and constitutional liberties.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be a disciplined public service that keeps families safe while honoring constitutional rights through clear, consistently enforced standards for stops, searches, and use of force, backed by regular de\u2011escalation and crisis-intervention training. Independent, transparent oversight\u2014with body-worn cameras, accessible complaint options, and data reporting\u2014should ensure fair consequences for misconduct while protecting due process for officers. Partnering with mental\u2011health and social\u2011service responders when appropriate and maintaining ongoing community input can prevent crises, reduce harm, and build trust so safety and civil liberties strengthen each other.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

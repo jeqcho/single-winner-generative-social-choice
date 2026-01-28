@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "36",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "78",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be written to reduce preventable suffering by combining respect for developing life with firm protections for a pregnant person\u2019s health, liberty, and equal access to medical care. Legal standards should be medically defined and workable\u2014protecting emergency treatment, privacy, and clinician discretion, with clear exceptions for serious threats to health, rape or incest, and lethal fetal anomalies\u2014rather than vague rules that deter care. Across disagreements about limits, governments should invest in what most people share: fewer unintended pregnancies and fewer coerced choices, through comprehensive sex education, affordable contraception, prenatal and postpartum care, and real support for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should minimize harm by keeping time\u2011sensitive decisions grounded in evidence and the patient\u2013clinician relationship, while acknowledging many people\u2019s moral concern for developing life and setting clear, medically workable guardrails. It should guarantee prompt care and privacy, with transparent, narrowly defined exceptions for serious threats to health or life, sexual violence, and fatal fetal conditions, so emergencies are never politicized. Alongside any limits, governments should reduce unintended pregnancies and crisis decisions through comprehensive sex education, affordable contraception, and strong supports for pregnancy, parenting, and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should protect women\u2019s health and dignity and keep urgent, time\u2011sensitive decisions guided primarily by patients and qualified clinicians, with clear, workable rules and privacy protections. Policy should acknowledge the moral seriousness many attach to developing life by setting transparent, medically grounded standards and ensuring well-defined exceptions for threats to life or serious health risks, rape or incest, and fatal fetal conditions. To reduce abortions and support families, government should expand prevention and practical help\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, and adoption and parenting resources\u2014so fewer people face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

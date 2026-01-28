@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a practical ethic of care: protect patients\u2019 health and decision-making while acknowledging society\u2019s interest in supporting developing life. A durable compromise focuses on what reduces suffering and conflict\u2014reliable contraception and prenatal care, material support for parents, and adoption resources\u2014alongside clear, medically defined protections for emergencies and severe circumstances. Whatever limits are set should be narrow, enforceable without criminalizing patients or clinicians acting in good faith, and designed to keep care safe, timely, and transparent.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, evidence, and humility about deep moral disagreement\u2014protecting the health, dignity, and freedom of pregnant people while taking seriously the value many place on developing life. Common ground is to reduce crises through prevention (contraception and accurate information) and strong supports for pregnancy, parenting, and adoption, so fewer people feel forced into any choice. Any legal boundaries should be clear, medically workable, and paired with reliable exceptions for emergencies, serious health threats, and cases of violence, focusing on care and safety rather than punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared commitment to human dignity, protecting both the health and freedom of the pregnant person and the value many place on developing life, while acknowledging sincere moral disagreement. Policy should guarantee timely care in medical emergencies and serious health threats, use clear and medically grounded rules that protect patients and clinicians, and avoid criminalizing families in crisis. Common ground also includes investing in prevention and support\u2014contraception and accurate education, prenatal and mental healthcare, and real help with childcare, adoption, and economic stability\u2014so fewer people face desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

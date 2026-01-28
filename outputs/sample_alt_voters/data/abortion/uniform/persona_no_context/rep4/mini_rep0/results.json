@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.3500000000000001,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "94",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.3500000000000001,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star_personas": {
+      "winner": "95",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to protect human dignity in all circumstances by balancing respect for developing life with the pregnant person\u2019s health, rights, and lived realities. A durable compromise protects prompt care for medical emergencies and serious health threats, sets transparent, medically defined parameters that become more protective as pregnancy advances, and avoids criminalizing patients or forcing clinicians to delay care. At the same time, policy should reduce abortion demand through proven supports\u2014contraception, accurate education, prenatal and maternal healthcare, childcare and economic assistance, and adoption services\u2014so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by human dignity, compassion, and evidence-based medicine, recognizing both the moral weight many attach to prenatal life and the health, autonomy, and real-life circumstances of the pregnant person. A workable framework protects private, timely medical decision-making\u2014ensuring clear exceptions for medical emergencies, serious health risks, rape or incest, and nonviable or severe fetal conditions\u2014while allowing carefully defined limits later in pregnancy that are grounded in medical reality, not politics. Whatever the legal rules, common ground is strengthened by reducing unwanted pregnancies and crisis decisions through comprehensive sex education, affordable contraception, prenatal and maternal healthcare, and practical supports for parents and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, respect for human dignity and conscience, and medically grounded standards that protect patients and allow doctors to act quickly in emergencies. A workable approach protects access early in pregnancy, permits carefully defined limits later, and guarantees clear exceptions for threats to the mother\u2019s life or serious health harm, rape or incest, and severe or nonviable fetal conditions. Whatever the legal framework, communities should reduce the need for abortion by expanding sex education and contraception, strengthening prenatal and maternal care, and providing real support for parenting and adoption so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

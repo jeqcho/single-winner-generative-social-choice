@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions show, in practical ways, that the same rules apply to everyone and that decisions are made for clear reasons that people can check. That means publishing understandable rationales and outcomes, welcoming independent review, and fixing problems quickly when things go wrong. Trust also grows when residents have real avenues to shape priorities\u2014through local advisory input, accessible hearings, and responsive services\u2014so performance is judged by everyday results rather than partisan messaging.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when leaders consistently deliver reliable, fair results and communicate decisions in plain language, including openly acknowledging mistakes and correcting them. Institutions should back transparency with real accountability\u2014independent oversight, clear standards, protected whistleblowers, and regular public reporting of measurable outcomes. Trust is strengthened by ongoing local engagement that listens respectfully to diverse concerns and shows follow-through, so people see institutions serving the common good rather than partisan interests.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they consistently deliver fair, reliable services and explain decisions in plain language, with clear goals, timelines, and public reporting on results. Leaders should admit mistakes, protect whistleblowers, and use independent audits and oversight to ensure rules are applied evenly and money is spent responsibly. Trust also improves when institutions regularly listen to local communities across political views and incorporate practical feedback, so reforms strengthen what works while fixing what doesn\u2019t.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

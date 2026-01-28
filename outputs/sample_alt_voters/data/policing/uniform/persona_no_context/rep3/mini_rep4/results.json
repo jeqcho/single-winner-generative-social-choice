@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.16999999999999993,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.16999999999999993,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.16999999999999993,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safety and civil rights as mutually reinforcing goals by narrowing enforcement to serious harm, using the least intrusive tools that work, and applying rules consistently. Agencies should adopt clear limits on stops, searches, surveillance, and use of force; train and certify officers in de-escalation, crisis response, and bias awareness; and pair these with reliable supports like adequate staffing and wellness care. Independent investigations, public reporting of key outcomes, and accessible complaint and remediation processes\u2014alongside strong partnerships with community and service providers\u2014can reduce violence and crime while protecting constitutional freedoms.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and constitutional rights together through clear, consistently enforced use-of-force and de-escalation standards, supported by rigorous training and adequate resources for officers. Independent oversight, body-worn cameras, and transparent reporting should provide fair, measurable accountability that protects both residents and officers. Pair evidence-based enforcement with community partnerships and coordinated mental-health/crisis response so vulnerable people get appropriate help, trust is rebuilt, and harm and crime are reduced.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect neighborhoods from crime while firmly upholding constitutional rights through clear, consistently enforced use-of-force and search standards, strong de-escalation training, and transparent reporting. Independent oversight and fair, timely accountability should be paired with support for officers\u2014adequate staffing, training, and mental-health resources\u2014so expectations are realistic and performance is professional. Communities benefit when police work with local partners and specialized crisis/mental-health responders for appropriate calls, using data-driven practices to reduce both victimization and unnecessary force.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

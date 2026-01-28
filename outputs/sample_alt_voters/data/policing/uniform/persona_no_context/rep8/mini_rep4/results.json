@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for safe neighborhoods and equal justice by using the least-intrusive tactics that can effectively resolve situations, with force as a true last resort. Departments should set clear, publicly known rules for stops, searches, and use of force, and pair them with independent audits, timely investigations, and transparent reporting of outcomes. Trust and effectiveness grow when officers are trained and supported for de-escalation and crisis response, and when communities have real input and non-police options are available for mental-health and other nonviolent calls.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and uphold constitutional rights by using clear, measurable rules\u2014especially for stops, searches, and use of force\u2014paired with transparent reporting, body-worn cameras where appropriate, and independent oversight. Departments should prioritize rigorous de-escalation, bias-awareness, and crisis-intervention training, while partnering with community leaders and co-responder or alternative services for mental-health and nonviolent calls to reduce unnecessary force and arrests. This balanced approach strengthens accountability and officer professionalism, builds trust through ongoing dialogue, and focuses resources on preventing harm and addressing serious crime.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect neighborhoods through lawful, professional enforcement that treats every person with dignity and guards constitutional rights. Clear, measurable rules\u2014especially for stops, searches, and use of force\u2014paired with transparent reporting, body-worn cameras, and independent review can strengthen accountability and public trust. Rigorous training in de-escalation, bias awareness, and crisis intervention, along with officer wellness supports, should be matched with partnerships that route mental-health and nonviolent calls to appropriate responders when safe. Community input and regular evaluation of outcomes should guide continual improvement so safety and civil liberties advance together.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

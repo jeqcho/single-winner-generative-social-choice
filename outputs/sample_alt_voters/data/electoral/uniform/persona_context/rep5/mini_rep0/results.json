@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "47",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College but modernize it so the winner is harder to dispute and campaigns aren\u2019t dominated by a few battleground states. Encourage states to adopt a consistent, legally enforceable approach\u2014ending winner\u2011take\u2011all through proportional or district allocation (or a carefully conditioned popular\u2011vote compact)\u2014while guaranteeing uniform baseline rules for ballot access, paper records, audits, recounts, and binding electors to certified results. Phase changes in with bipartisan oversight and clear triggers so the system becomes fairer and more representative without a sudden constitutional rupture.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College\u2019s federal framework and state administration, but reduce winner\u2011take\u2011all distortions so the presidency more reliably reflects the national popular will. Do this through a phased, legally durable shift toward proportional or district allocation of electors, or a carefully conditioned interstate popular\u2011vote compact, while allowing ranked\u2011choice/runoff options to limit spoiler effects. Pair any change with clear, enforceable national standards for ballot access and equal treatment, secure paper records, transparent chain\u2011of\u2011custody, routine post\u2011election audits, and firm rules on recounts, certification, and faithless electors to rebuild broad trust and encourage nationwide campaigning.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College to preserve states\u2019 role, but reduce winner\u2011take\u2011all distortions so the winner more consistently reflects broad national support. Encourage states to adopt proportional or district allocation of electors (and consider a national popular\u2011vote compact only with clear safeguards), while requiring enforceable, uniform rules for voter access, paper backups, transparent chain\u2011of\u2011custody, routine post\u2011election audits, and firm recount/certification timelines. Phase changes in gradually and with bipartisan oversight so small and rural communities remain heard, big states\u2019 voters aren\u2019t discounted, and results are easier for everyone to trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

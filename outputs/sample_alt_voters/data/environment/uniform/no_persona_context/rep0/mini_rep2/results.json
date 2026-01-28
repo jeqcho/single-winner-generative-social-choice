@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance recognizes that the economy depends on clean air, water, and stable ecosystems, while families and businesses need affordable, reliable energy and clear rules. Set performance-based, science-grounded standards with flexible compliance options, and pair them with time-limited incentives for efficiency and cleaner production. Use predictable timelines, transparent measurement, and targeted support for workers, small firms, and regions most affected so the transition protects livelihoods while steadily reducing environmental harm.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection and economic growth as mutually reinforcing: protect air, water, and natural capital with clear, science-based, enforceable standards while using cost-effective, market-friendly incentives to speed cleaner technology and infrastructure. Implement changes on predictable timelines with measurable goals and transparency so businesses can plan and innovate. Pair these policies with robust support for workers, small businesses, and hard-hit communities\u2014retraining, transition funding, and local participation\u2014so the benefits and costs are shared fairly and prosperity lasts.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance treats clean air, water, and healthy land as the foundation for lasting prosperity, while keeping rules clear, science-based, and predictable so businesses can plan and compete. Use cost-effective, market-friendly tools and phased timelines to cut pollution and spur innovation, paired with investments in infrastructure, energy efficiency, and homegrown manufacturing. Protecting jobs must be part of the plan through retraining, apprenticeships, and targeted support for workers, small businesses, and communities most affected by change, guided by transparent local input and measurable results.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

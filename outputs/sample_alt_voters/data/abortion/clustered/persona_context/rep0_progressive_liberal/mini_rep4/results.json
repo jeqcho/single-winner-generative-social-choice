@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should seek to reduce suffering and conflict by protecting the health, dignity, and privacy of pregnant people while acknowledging that many citizens assign real moral value to developing life. Any limits should be medically informed, clear, and workable in practice, with prompt access and broad clinical discretion in emergencies and for serious health threats, and with carefully defined exceptions for rape, incest, and fatal or nonviable pregnancies. To lower the number of unwanted pregnancies and abortions, government should prioritize prevention and support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, childcare and economic assistance, and streamlined adoption\u2014rather than criminalization.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should balance respect for potential life with safeguarding the health, autonomy, and privacy of pregnant people, using clear, consistent standards grounded in medical evidence and timely clinician judgment. Any legal limits should include well-defined exceptions for rape, incest, nonviable or fatal fetal conditions, and serious threats to the pregnant person\u2019s life or health, and should avoid criminalizing patients or doctors for good-faith care. Policy should also focus on reducing unwanted pregnancies and hardship through comprehensive sex education, affordable contraception, and strong prenatal, postpartum, childcare, and adoption supports so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical evidence and basic human dignity, protecting patient privacy and ensuring timely care while acknowledging the moral seriousness many people attach to prenatal life. They should set clear, workable standards that keep urgent decisions with patients and qualified clinicians, with well-defined exceptions for rape, incest, nonviable or fatal fetal conditions, and serious threats to the pregnant person\u2019s life or health, and without criminalizing patients. To reduce the number of abortions and hardships that lead to them, policy should invest in prevention and support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, mental-health services, childcare and economic help, and adoption resources\u2014so families have real choices rather than punishment or politics.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

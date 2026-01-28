@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "93",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for safety and civil rights at the same time by limiting enforcement to what is necessary, lawful, and proportional, guided by clear policies that favor de-escalation and protect due process. Accountability should be credible and fair\u2014independent investigation of serious incidents, timely discipline when warranted, and public reporting that protects privacy while enabling oversight. Communities should help set priorities and evaluate outcomes, while non-police responders and service providers take the lead in mental-health, substance-use, and homelessness-related calls when appropriate. Investing in training, officer wellness, and prevention-oriented resources can reduce harm, improve legitimacy, and make neighborhoods safer for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing clear, narrowly defined use-of-force rules and prioritizing de-escalation, proportionality, and bias-aware, trauma-informed training. It should be backed by independent oversight, transparent public reporting, and fair, consistent discipline that protects due process and builds legitimacy. Pairing officers with mental-health and social-service co-response options, plus sustained community partnership and data-driven evaluation, can prevent crises, reduce harm, and strengthen trust for residents and officers alike.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should advance public safety and civil rights together through clear, narrowly defined use-of-force rules, consistent de-escalation and bias-aware training, and fair, independent oversight with routine public reporting. Communities are safer when police work in partnership with residents and when mental-health, addiction, homelessness, and youth crises are met first with co-responder teams and other service alternatives where appropriate. Using data to evaluate outcomes and providing officer support and due process can reduce harm, strengthen trust, and make enforcement more predictable, humane, and effective.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

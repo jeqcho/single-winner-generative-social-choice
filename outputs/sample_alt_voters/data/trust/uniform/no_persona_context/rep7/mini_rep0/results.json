@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make it easy for people to see how decisions are made, how money is spent, and what results are achieved\u2014without requiring insider knowledge. Set clear service standards, publish simple scorecards, and empower independent watchdogs and citizen panels to review performance, investigate failures, and recommend fixes. When institutions enforce rules consistently, protect rights, and respond quickly to problems with honest explanations and visible improvements, confidence can grow across ideological and cultural lines.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions reliably improve everyday life through fair, competent services and predictable enforcement, while making decisions transparent with clear, plain-language (and multilingual) explanations of evidence and trade-offs. Independent oversight, open performance metrics, and real consequences for misconduct\u2014paired with prompt admission and correction of mistakes\u2014let communities verify integrity rather than rely on rhetoric. Ongoing local, two-way engagement and shared problem-solving treat residents as partners and help bridge cultural and political divides.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions prove they are fair, competent, and nonpartisan: delivering the everyday services people rely on, enforcing rules consistently, and publishing clear, measurable results. Decisions should be explained in plain language, backed by evidence and respect for individual rights, with open data and independent audits so the public can verify performance. When mistakes happen, leaders should acknowledge them quickly, fix them transparently, and learn from them. Ongoing local listening and shared problem\u2011solving\u2014across neighborhoods, cultures, and political views\u2014helps communities shape priorities and see that institutions work for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

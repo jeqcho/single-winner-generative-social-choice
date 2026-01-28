@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "76",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "76"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the idea that lasting safety depends on lawful, fair treatment\u2014when people trust the process, they are more willing to report crime and cooperate. Departments should focus enforcement on the most serious, evidence-based risks while using the least intrusive, proportional tactics and requiring de-escalation and clear documentation for stops, searches, and force. Independent review, transparent data (including demographic impacts), and accessible complaint and remediation systems help correct errors and prevent abuse. Pairing policing with well-resourced mental-health and social-service partners reduces unnecessary criminalization while keeping communities and officers safer.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public safety and civil rights reinforce each other, so policing should be guided by clear constitutional standards, proportional responses, and strong de-escalation practices that minimize harm to residents and officers. Departments should partner with communities to set priorities and expand non-police crisis responses (e.g., mental health and social-service teams) where appropriate. Transparent data reporting, accessible complaint processes, and independent civilian oversight with real authority to review incidents and recommend discipline are essential for accountability and trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by focusing enforcement on serious threats while treating every person with dignity and equal protection under the law. That means clear, constitutional rules for stops and use of force, strong de-escalation and bias-awareness training, and transparent reporting with independent review when complaints or critical incidents occur. Communities are best served when police partner with residents and when mental-health or nonviolent crises have appropriate non-police co-responders, so officers can concentrate on preventing violence and solving crime.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

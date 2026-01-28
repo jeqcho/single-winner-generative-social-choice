@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "37",
+      "epsilon": 0.0,
+      "full_winner_idx": "37"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make decisions in the open: explain goals and tradeoffs in plain language, publish simple performance dashboards, and invite independent audits with real consequences for failures or misconduct. They should co-design services with local communities and frontline staff, respond quickly to complaints, and protect privacy so participation feels safe. Trust is rebuilt most reliably when people can see steady follow-through\u2014improvements in everyday services, honest admission of mistakes, and fair rules applied consistently to everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions are transparently and consistently accountable: they explain decisions in plain language, publish accessible performance data, and admit and correct mistakes. Trust is strengthened by reliable, measurable services that make everyday life easier, delivered with respect for people\u2019s time, dignity, and community traditions. Independent oversight and real opportunities for local participation\u2014especially with frontline workers and community leaders\u2014help ensure decisions are fair, fiscally responsible, and guided by shared civic values rather than partisanship.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when leaders are transparent about goals, data, and tradeoffs, communicate in plain language, and deliver reliable services that improve everyday life. Institutions should be held to clear, measurable standards with truly independent oversight, open reporting, and prompt, public correction when mistakes occur. Trust lasts when decision-making includes local voices\u2014frontline workers, families, faith and community leaders\u2014and when agencies show respect for people\u2019s time, privacy, and tax dollars by following through consistently.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

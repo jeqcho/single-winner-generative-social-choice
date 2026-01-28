@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for people to see how decisions are made, who is responsible, and what changes after problems are identified\u2014using clear language and public metrics rather than slogans. They should deliver reliable basics first (safety, health, schools, infrastructure), set fair rules that are applied consistently, and create simple ways for residents to give input and get timely responses. Independent audits, strong privacy protections, and real consequences for misconduct\u2014paired with regular community-facing reporting\u2014help people across viewpoints judge performance on facts and lived experience.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver steady, visible improvements in everyday services\u2014schools, safety, healthcare, and infrastructure\u2014while explaining decisions in plain language and publishing clear, verifiable results. Trust is reinforced by independent oversight, regular audits, and a habit of admitting mistakes, correcting them quickly, and reporting what changed. Institutions should make participation easy through accessible local engagement (including multilingual channels) and protect privacy and basic rights, so people across different values and politics can hold leaders accountable and see that government serves the common good.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions are reliably competent in the basics people feel every day\u2014safe neighborhoods, fair schools, responsive healthcare, and well\u2011kept roads\u2014while being honest about limits and results. That means transparent, plain\u2011language explanations of decisions, public metrics people can verify, and independent audits and ethics enforcement that hold leaders accountable when mistakes happen. Trust also grows when decision\u2011making includes meaningful local input across political, faith, and cultural communities, with privacy and equal rights protected, and when institutions show follow\u2011through by fixing problems quickly and reporting back.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

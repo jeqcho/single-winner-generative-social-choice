@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "21",
+      "epsilon": 0.0,
+      "full_winner_idx": "21"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be designed to reduce harm while enforcing the law fairly, with constitutional rights treated as non\u2011negotiable and public safety as the shared goal. That requires clear, narrow limits on stops and force; strong hiring, training, and supervision focused on de-escalation and crisis response; and real consequences for misconduct alongside due-process protections. Transparent reporting, independent review, and regular community input\u2014paired with alternatives for mental-health and low-level calls\u2014can improve trust, officer effectiveness, and measurable safety outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights as mutually reinforcing goals, guided by clear, enforceable use-of-force standards and rigorous training in de-escalation, bias awareness, and crisis intervention. Departments should pair transparency (body-worn cameras, public reporting, data-driven evaluation) with independent oversight and fair, consistent discipline that upholds due process for both civilians and officers. Strong community partnerships\u2014especially with mental-health and social-service providers\u2014can expand nonviolent response options, reduce unnecessary escalation, and build durable trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep people safe while protecting constitutional rights through clear, enforceable use-of-force and search standards, strong de-escalation and crisis-intervention training, and real consequences when rules are broken\u2014along with due process and support for officers who act properly. Communities should expand co-responder options for mental-health and addiction calls and invest in prevention so police are not the default solution to every social problem. Public trust grows when departments are transparent with body-worn cameras, timely reporting, and independent oversight that uses data to measure outcomes and continuously improve.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

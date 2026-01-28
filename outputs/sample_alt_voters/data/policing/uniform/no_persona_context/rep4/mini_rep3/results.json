@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "30",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "89",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be organized around clear, publicly known limits on authority and a simple principle: use the least intrusive response that can safely resolve the situation. That requires enforceable use-of-force and stop standards, independent investigation of serious incidents, and routine public reporting of outcomes, alongside strong training, supervision, and support for officers. Public safety improves when agencies divert appropriate calls to co\u2011responders and community providers, focus patrol on the highest\u2011harm problems using evidence, and build ongoing community input into priorities and evaluation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing clear, proportional use-of-force standards and prioritizing de-escalation through routine, evidence-based training in bias reduction, cultural competency, and trauma-informed response. Independent oversight (including civilian review), body-worn camera policies, and timely public reporting of outcomes and complaints should provide transparent, measurable accountability. Communities should co-design local safety priorities while expanding non-police crisis response and partnerships with mental-health and social services to address root causes and reduce reliance on arrest and force.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect both public safety and civil rights through clear, enforceable rules\u2014especially on stops and use of force\u2014paired with consistent de-escalation, bias-awareness, and scenario-based training, plus strong support for officer wellness and supervision. Independent oversight, body-worn cameras, and timely public reporting of key outcomes (use of force, complaints, and crime trends) create accountability while recognizing the difficult decisions officers face. Communities should help shape local priorities, and non-police co-responders and social-service partnerships should handle many mental-health, addiction, and youth-related calls so the response matches the need and reduces unnecessary conflict.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

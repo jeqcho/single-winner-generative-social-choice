@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "33",
+      "epsilon": 0.0,
+      "full_winner_idx": "33"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_personas": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for \u201cleast harm, most legitimacy\u201d: intervene early to prevent violence, and when force is necessary, use the minimum required under clear, public rules that protect due process and equal treatment. Pair strong training (de-escalation, bias awareness, and tactical alternatives) with practical supports like co-responder teams for mental health and substance-use crises so officers can focus on serious threats. Build trust through transparent data, body-camera policies with consistent release standards, and independent review that distinguishes good-faith mistakes from misconduct and applies fair, predictable consequences. Ongoing community input\u2014especially from those most affected\u2014should shape priorities, while officers who follow policy are backed with resources and wellness support to sustain professional, rights-respecting service.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and civil rights together through clear, consistently enforced use-of-force and due-process standards, rigorous de-escalation and bias-aware training, and transparent reporting (including body-worn camera policies). Independent oversight with regular audits and fair consequences for misconduct should be paired with support for officers who follow best practices. Strong community partnerships\u2014alongside mental-health crisis teams and coordination with social services\u2014can prevent harm, improve outcomes, and rebuild trust while keeping neighborhoods safe.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while strictly honoring constitutional rights through clear, consistently enforced standards for stops, searches, and use of force, paired with strong de-escalation and crisis-intervention training. Transparency\u2014body-worn cameras with fair privacy rules, timely public reporting, and independent review of serious incidents\u2014builds trust and accountability without tying officers\u2019 hands. Communities are best served when police partner with residents, schools, and faith and service providers, using mental-health and social-service co-response when appropriate, and when officers are supported and rewarded for professional, respectful, lawful policing.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

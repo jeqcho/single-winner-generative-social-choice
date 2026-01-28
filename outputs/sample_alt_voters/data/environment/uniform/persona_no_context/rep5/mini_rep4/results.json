@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats clean air, water, and healthy ecosystems as foundations for lasting prosperity, while recognizing that communities need reliable jobs and affordable energy. Set clear, science-based goals and predictable timelines, but give businesses flexibility to meet them through innovation, efficiency, and market competition\u2014paired with transparent cost-benefit review and strong enforcement for major polluters. Use the revenue and savings from cleaner systems to invest in local infrastructure, worker transition support, and small-business assistance so the benefits are shared and disruptions are minimized.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats clean air, water, and healthy land as essential to public health and long\u2011term prosperity, while giving businesses clear, practical rules and reasonable timelines to adapt. We should pair evidence\u2011based, enforceable standards with market incentives and investment in cleaner technology so innovation cuts pollution and strengthens competitiveness. Just transition support\u2014retraining, targeted assistance for affected workers and communities, and a seat at the table for local employers and families\u2014can protect livelihoods while delivering measurable environmental results for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and farmland is a basic health and stewardship responsibility, and it can be pursued in ways that strengthen\u2014not weaken\u2014local jobs and small businesses. The best path is practical and predictable: science-based standards with clear timelines, market incentives and support for cleaner technology, and fair enforcement that focuses on the biggest harms. Communities and workers should have a real voice, with retraining, transition assistance, and targeted investment so people can adapt and families can count on both a safe environment and a stable economy.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

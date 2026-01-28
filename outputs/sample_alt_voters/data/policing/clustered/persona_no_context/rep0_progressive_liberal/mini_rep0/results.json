@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star": {
+      "winner": "31",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.18999999999999995,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safety and civil rights together by focusing on what is necessary, lawful, and least harmful in each encounter, with clear policies that officers and the public can understand. A balanced approach pairs strong training and supervision (de-escalation, crisis intervention, constitutional policing) with real-time and after-the-fact accountability (body cameras, public reporting, independent investigation of serious incidents). Communities should help set priorities and evaluate outcomes, while alternative responders and social services handle many nonviolent crises so police can concentrate on serious threats. This framework supports effective officers, corrects misconduct, and builds legitimacy through measurable, transparent results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing goals, grounded in dignity, constitutional protections, and consistent, clearly communicated standards. Common-sense reforms include rigorous de-escalation and crisis-response training, pairing appropriate calls with mental-health or social-service responders, and building sustained community partnerships. Trust and effectiveness grow with transparent data, independent civilian oversight, body-worn cameras where appropriate, and swift, fair accountability for misconduct while supporting officers who follow policy. Investing in prevention and targeted, evidence-based enforcement can reduce harm, improve outcomes, and help every neighborhood feel both protected and respected.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by setting clear, constitutional standards for stops and use of force, backed by ongoing training in de-escalation, bias awareness, and crisis response. Trust grows when departments pair transparent data and body-worn cameras with independent, community-informed oversight and swift, fair accountability for misconduct while supporting officers who follow the rules. Communities are safer when the right responder is sent\u2014co-responder or civilian mental-health teams for behavioral crises, and targeted, evidence-based enforcement for serious violence\u2014alongside partnerships that strengthen prevention, youth services, and neighborhood problem-solving.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

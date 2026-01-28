@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "21",
+      "epsilon": 0.0,
+      "full_winner_idx": "21"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a pluralistic ethic that protects life and health while respecting that citizens hold sincere, conflicting views about fetal moral status. A stable compromise pairs accessible early care and privacy with medically defined, workable limits later in pregnancy, always including timely exceptions for threats to life or serious health, rape or incest, and catastrophic fetal conditions. Alongside any limits, government should invest in contraception, sex education, prenatal care, childcare, and anti-coercion protections so fewer people face unwanted pregnancies or desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared commitment to human dignity, health, and personal agency, while taking seriously the moral concern many feel for developing life amid deep and sincere disagreement. A workable approach combines medically grounded, timely access to care\u2014especially for emergencies and serious health risks\u2014with clear, democratically accountable limits that become more weighty later in pregnancy. Common ground also includes investing in prevention and support: contraception and sex education, prenatal and maternal care, and economic help that makes carrying a pregnancy and raising a child more feasible. The goal is fewer crises and less suffering, not punishing people or declaring ideological victory.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to human dignity, protecting both the wellbeing and autonomy of pregnant people and the moral concern many citizens have for developing life. A durable compromise prioritizes prevention and support\u2014accurate sex education, contraception access, prenatal and maternal healthcare, and economic help for families\u2014so fewer people face crisis pregnancies. Laws should be medically grounded and clear, guaranteeing timely care and privacy in early pregnancy and always permitting exceptions for the pregnant person\u2019s life and serious health risks, rape or incest, and severe fetal anomalies, while allowing proportionate limits later based on medical reality. The goal is fewer tragedies and healthier families, not punishment or ideological victory.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

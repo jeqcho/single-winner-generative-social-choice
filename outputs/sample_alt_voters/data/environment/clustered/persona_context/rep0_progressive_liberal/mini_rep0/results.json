@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.15999999999999992,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.15999999999999992,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based guardrails for air, water, and climate while giving businesses predictable time and tools to comply. A balanced approach uses performance targets, streamlined permitting for cleaner projects, and incentive-based financing to reward innovation, alongside transition support for workers and regions most affected. Regular public reporting and local participation can keep policies accountable, prevent unfair burdens, and sustain both long-term health and prosperity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing: protect clean air and water with clear, science-based standards while giving businesses and workers predictable, phased timelines to adapt. Pair these rules with market incentives and cost-effective investments in clean technology, local infrastructure, and workforce retraining\u2014especially supporting small businesses and communities most affected\u2014so transitions don\u2019t create sudden hardship. Commit to transparency, measurable outcomes, and meaningful local input to share costs and benefits fairly and build lasting public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based standards for clean air and water while giving businesses and workers predictable, phased timelines to adapt. Pair these rules with practical supports\u2014clean\u2011technology incentives, energy-efficiency upgrades, and accessible retraining and job placement\u2014so small businesses and working families aren\u2019t hit with sudden costs. Use transparent, measurable outcomes and local input to ensure benefits reach frontline neighborhoods and the transition creates stable, well\u2011paying jobs while reducing long\u2011term health and climate risks.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

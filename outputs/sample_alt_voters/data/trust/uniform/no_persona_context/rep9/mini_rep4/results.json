@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "52"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "52"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "To increase public trust, institutions should make it easy for people to see how decisions are made, who benefits, and how success or failure will be judged\u2014using plain language, open data, and clear lines of responsibility. They should invite early, ongoing public input (not just after decisions are set), and show they can change course by correcting errors, addressing misconduct, and improving services with timelines the public can track. Independent oversight, consistent rule\u2011of\u2011law enforcement, and strong protections for privacy and civil liberties help ensure accountability without politicizing outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions act like reliable service partners: they deliver consistent, fair results people can see, explain decisions and trade\u2011offs in plain language, and publish clear metrics so performance is verifiable. Credibility increases when leaders admit uncertainty, correct mistakes quickly, and welcome independent audits and oversight that protect privacy and individual rights. Ongoing local engagement\u2014real input channels, community partnerships, and civic education\u2014helps policies reflect everyday needs and makes accountability continuous rather than occasional.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions focus on practical, dependable service\u2014delivering timely, fair results people can see\u2014while clearly explaining decisions, costs, and trade-offs in plain language. They should publish easy-to-check performance data, protect privacy and civil liberties, and submit to independent audits with real consequences for misconduct. Just as important, institutions must admit mistakes, fix them quickly, and create ongoing local forums where residents help set priorities and give feedback that leads to visible improvements.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

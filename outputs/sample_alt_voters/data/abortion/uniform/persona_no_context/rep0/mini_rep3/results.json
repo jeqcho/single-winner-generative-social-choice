@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.24,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by human dignity, medical expertise, and the shared aim of reducing avoidable suffering, while recognizing that citizens hold profoundly different views about when moral personhood begins. A durable framework protects timely, safe care\u2014especially in cases of serious health risk, rape or incest, and fetal conditions incompatible with life\u2014while setting clear, clinically workable standards later in pregnancy and avoiding criminal penalties for patients. Common ground grows when policy pairs limits with robust prevention and support: accurate sex education, affordable contraception, prenatal and postpartum care, childcare, and adoption services, so fewer people face the decision under pressure or poverty.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for human dignity, recognizing both the moral weight many place on unborn life and the real, time-sensitive realities women, families, and clinicians face. A workable framework should protect patient safety, privacy, and clinicians\u2019 medical judgment, with clear, practical rules that include explicit exceptions for serious threats to a pregnant person\u2019s life or health and for cases such as rape or incest. Common ground is strengthened by focusing on prevention and support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, and resources for parenting and adoption\u2014so fewer people face crisis pregnancies. Policy should avoid criminalizing patients or clinicians and aim for fewer tragedies through help and accountability rather than shame or political messaging.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for human dignity, recognizing both the moral value many people place on unborn life and the rights, health, and conscience of the pregnant person. Policy should keep time-sensitive decisions primarily between patients and qualified clinicians, with clear, workable standards and explicit exceptions for rape, incest, nonviable pregnancies, and serious threats to a woman\u2019s life or health, while avoiding criminal penalties for patients and good-faith medical care. Common ground is strengthened by reducing unwanted pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption options, and practical support for parents and children.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

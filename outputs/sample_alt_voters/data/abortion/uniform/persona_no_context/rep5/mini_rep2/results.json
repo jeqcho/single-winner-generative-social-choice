@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to protect human dignity in all its forms\u2014respecting the moral concern many feel for developing life while ensuring pregnant people can access safe, timely medical care and make decisions with their clinicians. A broadly workable framework sets clear, medically defined standards and exceptions for threats to life or serious health harm, rape or incest, and severe fetal conditions, while avoiding punitive measures that endanger patients or chill medical practice. Common ground grows when any legal approach is paired with strong prevention and support: affordable contraception, accurate education, prenatal and maternal healthcare, and practical help for parents and adoption so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, respect for personal autonomy and conscience, and clear, evidence-based medical standards that keep patients safe and allow clinicians to act quickly when health is at risk. A workable middle ground protects private, timely care early in pregnancy and ensures explicit exceptions for rape, incest, and serious threats to the pregnant person\u2019s life or health, with any later limits defined by medical reality rather than politics. Common ground grows by reducing unintended pregnancies and crisis decisions through affordable contraception and accurate sex education, and by strengthening supports for those who carry to term\u2014prenatal and mental-health care, paid leave, childcare, and adoption resources\u2014so people have real choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, respect for human dignity, and medical evidence, recognizing both the moral value many people place on unborn life and the importance of privacy and bodily autonomy for those who are pregnant. A workable consensus protects safe, timely care\u2014especially when a pregnancy threatens a patient\u2019s life or serious health, and in cases of rape or incest\u2014while setting clear, medically grounded standards that keep politicians out of urgent clinical decisions. Common ground also means reducing crisis pregnancies through accurate education, affordable contraception, and strong support for parents and children, including prenatal care, paid leave, childcare, and adoption resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

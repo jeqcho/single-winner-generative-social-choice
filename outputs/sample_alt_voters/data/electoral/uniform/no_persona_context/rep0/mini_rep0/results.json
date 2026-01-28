@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A constructive compromise is to keep the Electoral College and state-run elections, but reduce winner-take-all distortions so outcomes track the popular vote more closely. States could adopt proportional or district-based elector allocation, paired with a larger House to narrow the small\u2011state bonus, while exploring a phased interstate agreement only if broad bipartisan buy\u2011in emerges. Whatever model is chosen should come with baseline national rules for ballot access, secure paper records, routine risk\u2011limiting audits, and clear recount/certification timelines to make close elections credible across all states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should be incremental and bipartisan, keeping state administration intact while making the overall result track the national popular will more closely. A practical package is to reduce winner\u2011take\u2011all distortions through proportional or district-based elector allocation and/or a carefully designed interstate compact, alongside ranked\u2011choice or runoff rules to ensure the winner has broad support. Any change should include clear, uniform national minimum standards for ballot access, paper records, transparent certification, and routine independent audits and recount rules so outcomes are trusted across states and parties.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A practical compromise would keep states running elections but reduce winner\u2011take\u2011all distortions by encouraging proportional or district-based allocation of electors, while supporting an optional, phased interstate compact that awards electors to the national popular-vote winner once enough states join. To protect small-state and rural influence without overriding voter equality, pair these changes with a larger House (to better match population) and clear national minimum standards for ballot access, paper records, routine independent audits, and transparent recount/certification rules. This incremental approach strengthens legitimacy, reduces swing\u2011state dominance, and preserves federalism while making outcomes track voters\u2019 preferences more closely.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

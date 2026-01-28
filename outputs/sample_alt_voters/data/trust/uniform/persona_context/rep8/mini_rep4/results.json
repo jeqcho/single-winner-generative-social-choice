@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make their work easy to see and test: explain goals and tradeoffs in plain language, publish clear performance metrics, and invite independent audits with real consequences for failure or misconduct. People are more willing to grant authority when they can participate early\u2014through local advisory panels, frontline-worker feedback, and accessible multilingual channels\u2014and when leaders consistently follow through on what they promise. Protecting privacy and due process, spending money transparently, and fixing errors quickly with public explanations can rebuild confidence by proving institutions serve everyday needs rather than politics.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver practical improvements people can see in everyday services, while explaining decisions in plain language and publishing clear, measurable results. Trustworthy institutions invite genuine local participation, respect community values and traditions, and partner with community and faith-based groups so policies reflect lived experience. Independent oversight, strong privacy protections, and a willingness to admit mistakes and fix them quickly make accountability real and verifiable over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions focus on doing the basics well\u2014safe streets, fair courts, reliable schools and healthcare\u2014and show clear, measurable results that people can verify. They should explain decisions in plain language, protect privacy and individual rights, and publish transparent budgets and performance data checked by independent auditors and community oversight. Trust grows fastest when institutions listen locally and partner with civic, faith, labor, and neighborhood groups, admit mistakes promptly, and fix problems with consistent follow\u2011through.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

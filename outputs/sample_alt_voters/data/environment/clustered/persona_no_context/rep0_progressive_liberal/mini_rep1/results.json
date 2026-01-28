@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance starts by acknowledging that nature is economic infrastructure: when air, water, and soils are degraded, communities and businesses pay the bill. Set clear, science-based guardrails for the highest risks, then give firms flexible, cost-effective options\u2014such as performance standards, tradable credits, and time-limited incentives\u2014to meet them while staying competitive. Pair these rules with transition support for workers and regions, predictable permitting, and transparent measurement so progress is real, affordable, and broadly shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, recognizing that clean air, water, and healthy ecosystems are foundations for long-term prosperity and public health. A practical approach pairs clear, science-based safeguards with market incentives and investment in cleaner technologies, energy efficiency, and resilient infrastructure so businesses can innovate rather than be smothered by uncertainty. Standards should be phased in with measurable outcomes and fair enforcement, alongside worker retraining and targeted support for small businesses and communities most affected by the transition. This balance can protect resources for future generations while sustaining good jobs and broad economic opportunity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A strong economy depends on clean air, safe water, and healthy communities, so environmental protection and job growth should be pursued together. Set clear, science-based standards with predictable timelines, and pair them with incentives and public investments that help businesses\u2014especially small employers\u2014adopt cleaner technology and improve efficiency. Make the transition fair by funding worker training, supporting communities most affected by pollution or industry shifts, and measuring results transparently so policies deliver real health and economic benefits.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

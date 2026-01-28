@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star": {
+      "winner": "44",
+      "epsilon": 0.0,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "44",
+      "epsilon": 0.0,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make promises that are specific, time-bound, and publicly trackable\u2014and then reliably deliver, correcting course openly when they fall short. Decisions and budgets should be explainable in plain language, with independent audits, clear conflict-of-interest rules, and real consequences for misconduct. Trust also grows through shared power: regular local forums, citizen panels, and frontline staff input that shape priorities so services feel fair, accessible, and responsive to everyday life.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver dependable, everyday services while making decisions transparent through plain-language explanations, open data, and clear measures of results. Leaders should welcome independent oversight, admit mistakes, and show accountable follow-through so people can see problems fixed, not just discussed. Trust also rises when institutions listen locally\u2014partnering with communities, respecting diverse values, and providing real channels for input\u2014so fairness, competence, and responsiveness are experienced in daily life.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions deliver reliable, everyday results and explain decisions in plain language with open data, clear budgets, and real consequences for misconduct or waste. Leaders should listen early and often through local forums, multilingual services, and user-friendly complaint and appeal channels, and they should admit mistakes and show measurable follow-through. Independent audits and community oversight\u2014alongside strong protections for individual rights and fair, equal treatment\u2014help people across political and cultural lines see institutions as competent, honest, and on the public\u2019s side.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

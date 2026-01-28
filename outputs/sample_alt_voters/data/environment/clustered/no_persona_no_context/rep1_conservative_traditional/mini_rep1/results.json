@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental limits as real economic constraints while giving businesses clear, predictable rules and time to adapt. Protect high-value ecosystems and public health through enforceable baselines, then use flexible tools\u2014like performance standards, tradable credits, and targeted tax incentives\u2014to cut pollution at lowest cost. Pair these policies with transition support for workers and regions, and track outcomes with metrics that include productivity, resilience, and environmental quality.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth are mutually dependent, so policy should treat healthy ecosystems as a foundation for durable prosperity rather than a trade-off. Set clear, enforceable environmental standards while using market-based tools (like pricing pollution) and public investment to spur clean innovation, efficiency, and resilient infrastructure. Pair these measures with transparent metrics and targeted transition support for affected workers and communities so the shift is fair, predictable, and economically viable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A good balance protects clean air, water, and key habitats while keeping jobs and costs in mind, since a damaged environment ultimately hurts families, health, and local economies. Set clear, predictable standards and use practical, market-friendly tools (like incentives and performance-based rules) so businesses can innovate rather than face sudden disruption. Invest in American energy efficiency and cleaner technologies, and provide training and transition support for workers and small businesses so growth remains strong and communities are not left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

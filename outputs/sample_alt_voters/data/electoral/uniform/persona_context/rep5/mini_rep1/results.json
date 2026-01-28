@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "51",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Any update to the Electoral College should protect the federal role of states while reducing the current \u201call-or-nothing\u201d incentives that overvalue a few battlegrounds and undervalue voters elsewhere. A workable middle path is to keep state administration but encourage states to award electors more proportionally (or through a durable interstate agreement tied to the national vote), paired with a consistent baseline for voter access, paper-backed tabulation, timely audits, and clear recount triggers. Reforms should be piloted and phased in with bipartisan oversight so legitimacy, stability, and broad nationwide campaigning all improve together.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should preserve states\u2019 constitutional role in administering elections while making the presidential outcome more closely reflect the national popular will and reducing winner\u2011take\u2011all distortions that overemphasize a few swing states. A pragmatic package could include proportional (or district-based) allocation of electors or participation in a National Popular Vote interstate compact, with ranked\u2011choice ballots as an option to limit spoiler effects and strengthen majority support. Any change should be phased in and paired with uniform, enforceable standards for ballot access, secure paper trails, transparent counting, routine post\u2011election audits, and clear recount rules to build durable, bipartisan trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforms to the Electoral College should keep states administering elections while making outcomes better reflect the will of voters nationwide and reducing the outsized focus on a few swing states. A pragmatic compromise is to move away from universal winner\u2011take\u2011all through proportional allocation (with states free to choose the method) or a legally durable interstate popular\u2011vote compact, and to encourage ranked\u2011choice ballots to ensure majority support and limit spoiler effects. Any change should include clear, uniform protections\u2014secure paper ballots, transparent audits and recount rules, and reasonable ballot\u2011access standards\u2014phased in gradually with bipartisan oversight so communities large and small can trust the results.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

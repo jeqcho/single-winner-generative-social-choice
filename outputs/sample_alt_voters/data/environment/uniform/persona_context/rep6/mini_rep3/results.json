@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable balance starts by recognizing nature as essential infrastructure\u2014clean air and water, productive soils, and safer communities\u2014while keeping energy and goods affordable and jobs secure. Set outcome-based standards and price the worst pollution, but give businesses clear multi-year timelines, compliance flexibility, and targeted help for small firms and rural areas. Pair these protections with major investments in efficiency, clean manufacturing, and reclamation projects, plus wage insurance and retraining so workers can move into good local careers. Decisions should be transparent and locally informed, using measurable results to adjust policy rather than relying on abrupt mandates or unchecked deregulation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing by recognizing clean air, safe water, and healthy land as essential long-term economic assets. Policies should set clear, predictable, evidence-based standards with phased timelines, using market incentives and cost\u2013benefit analysis to help businesses innovate and adapt. Pair investments in clean technology and resilient infrastructure with strong transition support\u2014worker retraining, help for small businesses, and local input\u2014so communities keep good jobs while improving public health for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Clean air, safe water, and healthy land are essential to our kids\u2019 health, our communities, and the long-term strength of the economy, so we should protect them while keeping jobs and small businesses viable. That means clear, predictable standards phased in over time, paired with market-based incentives and public\u2013private investment that help industry innovate and cut pollution at the lowest cost. Communities should have a real voice in how rules are applied, with strong transition support\u2014retraining, apprenticeships, and targeted aid\u2014for workers and regions affected. Done this way, we safeguard public health and property while building durable, good-paying work and avoiding sudden disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

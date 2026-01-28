@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "76",
+      "epsilon": 0.0,
+      "full_winner_idx": "76"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "76",
+      "epsilon": 0.0,
+      "full_winner_idx": "76"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth should be measured not just by output today but by whether it leaves communities with clean air, safe water, and resilient landscapes tomorrow. A workable balance sets clear, predictable environmental guardrails and then uses flexible tools\u2014like performance standards, pollution pricing or credits, and streamlined permits for low-impact projects\u2014to let businesses choose the most cost-effective path. Public investment in modernization (energy, transportation, and efficiency) and targeted transition support for workers and regions can reduce costs, spur competitiveness, and ensure the benefits of stewardship are broadly shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth are mutually reinforcing: healthy air, water, and land underpin public health and long-term prosperity, while smart investment in clean energy, efficiency, and resilient infrastructure can create good jobs. A balanced approach uses clear, science-based standards and market incentives to drive innovation, with phased implementation and transparent benchmarks so businesses can plan and outcomes can be measured. It should also provide practical transition support\u2014especially for workers, small businesses, and communities most affected\u2014so today\u2019s livelihoods are protected while safeguarding resources for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should advance together: clean air and water, healthy land, and reliable energy are foundations for public health, local jobs, and long-term prosperity. A workable balance uses clear, science-based standards with flexible, market-driven incentives so businesses can innovate and plan, while focusing regulations on the biggest risks and waste. Investments in clean energy, efficiency, and resilient infrastructure\u2014paired with phased timelines, strong enforcement, and retraining or wage support for affected workers and small businesses\u2014can protect communities now and expand opportunity for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental safeguards as a foundation for durable growth, while keeping pathways open for businesses and communities to adjust. Set clear long-term pollution and habitat goals, but allow flexible compliance options and realistic timelines, paired with support for small firms, workers, and regions most affected. Use transparent metrics and periodic reviews to tighten or recalibrate policies based on results, so protection improves without unnecessary economic disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection and economic growth as mutually reinforcing by recognizing that healthy ecosystems and public health are foundations of long-term prosperity. Policies should internalize pollution costs and set clear, predictable standards, while using flexible, phased implementation and incentives to spur clean innovation and competitiveness. Pair these measures with transparent metrics and a just transition\u2014retraining, targeted support, and community input\u2014so workers and regions can adapt and share the benefits of a cleaner economy.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance protects public health and critical ecosystems while keeping energy, food, and housing affordable and supporting good local jobs. Set clear, science-based goals and hold major polluters accountable, but use flexible, phased standards and incentives that help businesses and farms adopt cleaner, more efficient technologies. Pair these policies with reliable permitting, transparency on results, and retraining or wage support so workers and communities aren\u2019t left paying the costs of transition alone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

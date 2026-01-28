@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental safeguards as part of sound economic policy: set clear ecological guardrails, then let businesses and communities compete to meet them in the lowest-cost, most innovative ways. Pair predictable standards and transparent monitoring with targeted public investment in clean infrastructure, R&D, and permitting reforms that speed genuinely low-impact projects. Use transition supports\u2014training, regional development, and relief for low-income households\u2014to ensure near-term costs don\u2019t fall disproportionately while long-term benefits are widely shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating healthy ecosystems as essential economic assets and setting science-based limits that prevent irreversible harm. Policies should internalize environmental costs, provide clear and phased standards, and use incentives to drive innovation in clean energy, efficiency, and circular practices that create jobs. A fair balance also includes transparent metrics and collaborative planning, with targeted transition support so affected workers and vulnerable communities share in the benefits and are protected from short-term disruptions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "We can protect the land, air, and water we all rely on while still growing good-paying jobs by setting clear, science-based safeguards and giving businesses flexible, practical ways to meet them. Policies should price and reduce pollution, invest in clean energy, efficient infrastructure, and sustainable agriculture, and support local conservation that keeps communities healthy. To keep the transition fair, we should phase in changes, provide training and assistance for workers and small businesses, and ensure the costs and benefits are shared across communities and generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

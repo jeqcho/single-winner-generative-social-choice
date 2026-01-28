@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should keep the state-centered character of presidential elections while making outcomes track the voters more closely and predictably. A workable compromise is to curb winner-take-all by encouraging proportional elector allocation (or a uniform district method with independent redistricting) and to adopt nationwide baseline rules for ballot access, counting, audits, and recount triggers so close results are trusted. If broader change is desired, an interstate compact could be written with clear thresholds and transparency requirements so it activates only with wide, cross\u2011regional support. The goal is a system where every lawful vote matters, every region remains relevant, and disputes are harder to manufacture.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reforms to the Electoral College should keep states meaningfully involved while making outcomes track voters more closely and reducing winner-take-all distortions that leave many people feeling ignored. A practical compromise is to encourage proportional (or district-based) allocation of electors, require electors to follow their state\u2019s certified results, and adopt clear national standards for ballot access, counting, audits, and recounts to strengthen transparency and trust. If broader agreement emerges, an orderly next step could be an interstate compact that aligns the Electoral College outcome with the national popular vote once enough states join, so change is predictable rather than abrupt.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforms to the Electoral College should aim to make outcomes feel fair, transparent, and stable\u2014so every lawful vote matters while smaller and rural communities still know they won\u2019t be ignored. A practical compromise is to keep the state-based system but reduce winner-take-all by encouraging proportional or district-based allocation of electors, alongside clear nationwide standards for ballot access, counting, auditing, and recount triggers. States that prefer a stronger link to the national popular will could adopt a carefully drafted interstate compact that takes effect only with broad buy-in, helping ensure change is orderly and widely trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by focusing on outcomes\u2014cleaner air and water, lower waste, and reduced climate risk\u2014while keeping rules predictable and affordable to comply with. Set clear long-term targets, but phase in standards with flexibility (performance-based options, tradable credits, or sector-specific pathways) so businesses can innovate rather than simply absorb costs. Pair these policies with investments in infrastructure and research, plus wage insurance, retraining, and support for communities and small firms most affected. Transparent measurement and regular review can tighten or adjust policies based on results, protecting both public health and economic stability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based safeguards for clean air and water while giving workers and businesses predictable, phased timelines to comply. Pair these standards with market incentives and targeted investments in proven clean technologies, local infrastructure, and innovation so costs stay manageable and new opportunities emerge. Provide funded retraining and transition support\u2014especially for workers, small businesses, and low-income households\u2014and measure outcomes transparently with strong local input to keep the approach fair, practical, and durable for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based standards that are phased in with predictable timelines so workers, small businesses, and local governments can plan and adapt. Pair reasonable regulations with market incentives and cost-effective investments in cleaner infrastructure and technology, while providing strong transition support\u2014retraining, apprenticeships, and wage/benefit protections\u2014for workers and communities most affected. Transparent measurement of results, local input, and a focus on affordability and reliability can protect health and natural resources without sacrificing good jobs or family security.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

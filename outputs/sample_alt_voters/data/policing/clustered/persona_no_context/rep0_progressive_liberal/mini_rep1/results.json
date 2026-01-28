@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for the least intrusive, most effective approach to preventing harm, using clear constitutional limits and a duty to intervene when those limits are crossed. Departments should pair rigorous scenario-based training (de-escalation, bias awareness, and crisis response) with early-warning systems, body-worn camera policies, and independent review that is fair to both residents and officers. Public safety is strengthened when police focus on serious violence, coordinate with mental-health and social-service partners for noncriminal crises, and report outcomes transparently so communities can judge both safety gains and rights protections.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights together through clear, enforceable policies, rigorous training in de-escalation and cultural competence, and transparent accountability with independent oversight and accessible complaint processes. Partnering with residents and local institutions, while expanding mental-health and social-service responses, can prevent crises from escalating and reduce unnecessary force. Using data, body-worn cameras, and measurable standards to evaluate outcomes builds trust and supports officers in fair, consistent, and effective service.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by using clear, enforceable policies; rigorous training in de-escalation, bias awareness, cultural competency, and trauma-informed response; and a use-of-force framework that prioritizes preserving life. Trust grows when accountability is real and transparent\u2014through body-worn cameras, accessible complaint processes, independent oversight, and public reporting of outcomes\u2014while also providing officers the support and equipment needed to do their jobs safely and lawfully. Communities are safer when law enforcement partners with schools, social services, and faith/community groups and deploys co-responder or specialized mental-health crisis teams so the right professionals handle nonviolent crises whenever possible.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

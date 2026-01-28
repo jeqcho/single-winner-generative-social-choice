@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a simple bargain: officers are equipped to prevent and respond to harm, and the public is protected by clear limits, due process, and meaningful accountability. Priorities should focus on the most serious threats while using the least intrusive, evidence-based tactics\u2014especially de-escalation and narrowly tailored stops\u2014with transparent reporting that communities can evaluate. Independent audits of use-of-force and stop data, coupled with consistent discipline and supports like co-responder crisis teams, can improve safety outcomes without eroding civil rights.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as inseparable by setting clear, proportional use\u2011of\u2011force and enforcement standards; training for de\u2011escalation, procedural justice, and bias reduction; and publishing transparent data on stops, complaints, and outcomes. Independent oversight, consistent discipline, and community co\u2011design of priorities and metrics can strengthen legitimacy and trust. Public safety is improved when police focus on serious harms while partnering with clinicians and social services to provide non\u2011police responses for mental\u2011health crises and other low\u2011level social needs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by focusing resources on preventing and solving serious crime while setting clear, legally grounded limits on stops, searches, and use of force. Communities and officers should share transparent, data-based goals\u2014such as reductions in violent crime and complaints\u2014backed by body-worn cameras with privacy safeguards, consistent training and discipline, and independent review of serious incidents. For mental-health crises and low-level social needs, pairing officers with clinicians and expanding non-police response options can reduce unnecessary escalation and keep police available for urgent threats.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

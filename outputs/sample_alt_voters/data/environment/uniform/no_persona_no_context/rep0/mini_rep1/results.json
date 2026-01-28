@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "52",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental limits as part of economic planning: protect critical ecosystems and public health while enabling businesses to compete through cleaner processes and efficient use of energy and materials. Use a predictable mix of standards and flexible market signals so firms can choose the lowest-cost path to cut pollution, paired with targeted support for workers and regions most affected. Track progress with transparent indicators for jobs, costs, and environmental outcomes, and adjust policies as evidence and technology evolve.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental protection as a foundation for long-term prosperity by internalizing pollution and resource costs so markets reward efficiency and clean innovation. Pair clear, evidence-based standards and transparent metrics with phased timelines, targeted incentives, and investment in clean infrastructure. To keep the transition fair, provide retraining, local transition funding, and cost-sharing support for workers, communities, and small businesses so competitiveness and ecosystem health advance together.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A durable balance treats clean air, water, and a stable climate as essential infrastructure for long-term prosperity, while recognizing people need reliable jobs and affordable energy today. Policies should make polluters pay and reward efficiency and clean innovation, paired with practical, phased timelines and streamlined permitting so businesses can plan and invest. To keep the transition fair, revenue and public investment should support worker retraining, community revitalization, and targeted help for households and regions most affected, with transparent metrics to track both environmental results and economic impacts.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

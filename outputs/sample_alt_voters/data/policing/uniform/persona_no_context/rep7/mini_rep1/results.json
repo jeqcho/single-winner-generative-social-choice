@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "82"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "82"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "82"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star_personas": {
+      "winner": "31",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be organized around a simple principle: use the least intrusive, most effective response that keeps people safe and protects constitutional rights. That means clear limits on stops, searches, surveillance, and force; well-trained officers supported by strong supervision; and prompt, independent review with transparent public reporting when harm occurs. Shifting suitable calls to unarmed or co-responder teams and focusing enforcement on serious violence can reduce unnecessary encounters while maintaining order. Ongoing community input and measurable performance standards\u2014fairness, safety outcomes, and legality\u2014should guide continuous improvement.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety while steadfastly upholding constitutional rights through clear, consistently enforced rules\u2014especially on use of force\u2014backed by rigorous de-escalation and bias-aware training. Independent oversight, transparent reporting, and accessible avenues for redress should ensure accountability and build public trust. A practical, prevention-focused approach should triage nonviolent crises to mental-health and social-service responders when appropriate, while using data responsibly to evaluate outcomes and improve fairness and effectiveness.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while protecting constitutional rights through clear, consistently enforced rules\u2014especially on stops, searches, and use of force\u2014paired with strong training in de-escalation, crisis intervention, and respectful communication. Independent, transparent accountability (body cameras with privacy safeguards, public reporting, and fair investigations) should hold misconduct responsible while also supporting officers with due process and wellness resources. When appropriate, a public-safety team approach\u2014partnering with mental-health professionals, social services, and community leaders\u2014can prevent crises, reduce repeat calls, and build lasting trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

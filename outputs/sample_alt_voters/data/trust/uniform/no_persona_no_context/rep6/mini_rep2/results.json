@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star": {
+      "winner": "23",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "90",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust improves when institutions make it easy to see who decides what, why they decided it, and what happens if they\u2019re wrong. A durable middle ground is to pair openness (plain-language explanations, accessible records, and protections for whistleblowers) with real recourse (independent audits, enforceable ethics rules, and timely remedies for people harmed by errors). When performance targets are published and regularly reviewed with communities\u2014including critics\u2014institutions can earn trust through consistent results rather than rhetoric.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "People across the spectrum can agree that trust grows when institutions consistently deliver fair, reliable results and explain how decisions are made. To rebuild confidence, institutions should publish clear, accessible information (budgets, data, decision criteria), set measurable goals, and report progress and mistakes honestly. Pair transparency with real accountability\u2014independent oversight and consequences for misconduct\u2014and create meaningful, ongoing ways for diverse communities to participate and be heard.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People across the spectrum can agree that trust is earned when institutions deliver reliable services, treat people fairly, and explain decisions in plain language. To rebuild confidence, institutions should publish clear goals and results, open budgets and data where possible, and submit to independent audits and real consequences for misconduct. They should also create practical ways for residents\u2014across parties and communities\u2014to give input and raise concerns, so rules are applied consistently and problems are corrected quickly.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

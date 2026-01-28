@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.29000000000000004,
+      "full_winner_idx": "29"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "25",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.29000000000000004,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be built around protecting health and human dignity, using clear medical definitions and input from clinicians so patients and doctors aren\u2019t put at risk by vague rules. A balanced framework can preserve timely access early in pregnancy while allowing carefully limited regulation later, with explicit exceptions for rape or incest and for serious threats to a patient\u2019s life or long-term health. Whatever limits exist should be paired with real prevention and support\u2014contraception, accurate education, prenatal care, and economic help for parents\u2014so fewer people face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be grounded in compassion, clear medical evidence, and respect for human dignity, recognizing that people hold sincere and differing moral convictions about developing life. A workable framework protects timely, safe care\u2014especially early in pregnancy\u2014and provides clear, narrowly defined exceptions for rape, incest, and serious threats to the pregnant person\u2019s life or health, written plainly with input from medical professionals so patients and clinicians are not forced into guesswork. Common ground is strengthened by pairing any legal rules with real support to reduce crises and unintended pregnancies: contraception and accurate education, prenatal and maternal care, adoption resources, and practical help for parents.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for human dignity\u2014protecting a pregnant person\u2019s health and privacy while acknowledging the moral value many attach to developing life. A workable approach keeps early decisions centered on the patient and clinicians, allows proportionate limits later in pregnancy with clear, medically defined exceptions for rape, incest, and serious threats to the mother\u2019s life or health, and is written plainly so doctors aren\u2019t forced into guesswork. Common ground grows when any legal framework is paired with real support\u2014contraception and accurate education, affordable prenatal and mental-health care, paid leave and childcare help, and adoption resources\u2014so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

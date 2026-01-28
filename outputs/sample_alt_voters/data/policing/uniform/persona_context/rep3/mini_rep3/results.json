@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the principle that safety and civil rights rise or fall together: officers need clear, enforceable rules (especially on stops, searches, and use of force), strong de\u2011escalation and crisis-intervention training, and the time and resources to solve problems without unnecessary confrontation. Communities should have real visibility and voice through transparent, privacy\u2011protected public reporting, independent investigation of serious incidents, and regular forums that shape priorities and evaluate outcomes. Pairing focused enforcement on serious harm with well-funded mental\u2011health, housing, and youth supports\u2014alongside fair pay, wellness care, and consistent discipline for officers\u2014can reduce violence and complaints while strengthening legitimacy for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights together through clear, enforceable use-of-force rules, routine de-escalation and crisis-response training, and culturally and linguistically competent communication. Trust grows when agencies provide transparent, data-driven reporting (including technology like body cameras where appropriate) and independent civilian oversight with timely, fair accountability. Communities should invest in mental-health, social-service, and community-based response options to prevent crises from becoming confrontations, while also supporting officer training, wellness, and the resources needed to do the job with restraint and professionalism.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while protecting constitutional rights by using clear, enforceable use-of-force rules, strong de-escalation and crisis-response training, and consistent consequences for misconduct. Communities should have transparent, easy-to-understand reporting (including body-camera and stop data), independent oversight, and regular opportunities to help set local priorities. When possible, pair officers with well-funded mental-health, addiction, and family-support responders so people in crisis get help without unnecessary force. At the same time, provide officers fair training, staffing, and wellness support so they can do the job with restraint and earn lasting public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

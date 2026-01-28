@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_star": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Trust is rebuilt when institutions make it easy for the public to see what they are trying to achieve, how decisions are made, and whether results match the promises. A broad middle ground is to pair strong ethics and anti-corruption safeguards with service improvements people can feel\u2014clear timelines, published metrics, and simple ways to appeal or correct errors. Creating regular, structured forums where residents, frontline workers, and independent reviewers evaluate performance together can turn distrust into shared problem-solving.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Trust in institutions grows when people can clearly see standards, results, and consequences, so reforms should pair plain-language reporting with open data and independent audits. Across viewpoints, many can support predictable, fair processes\u2014strong conflict-of-interest rules, consistent enforcement, and accessible ways to file complaints and get timely responses. Treating citizens as partners through regular community input and clear follow-through (including admitting and correcting mistakes) can turn skepticism into shared accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People across political, racial, and faith lines want institutions that are honest, competent, and fair\u2014and that treat everyone with dignity. Trust grows when rules are applied consistently, conflicts of interest are controlled, and independent audits and public dashboards show what\u2019s working and what isn\u2019t in plain language. Institutions should make it easy to be heard with local forums and accessible complaint channels, then respond on clear timelines and publicly explain fixes when mistakes happen. These steps don\u2019t require agreement on every policy, only shared standards of transparency, accountability, and respectful service.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

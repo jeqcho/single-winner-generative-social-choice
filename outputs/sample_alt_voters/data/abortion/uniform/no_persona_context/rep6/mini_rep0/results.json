@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "94",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "95",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by public health and pluralism: protect early, safe access and keep complex medical decisions primarily in the hands of patients and licensed clinicians, not prosecutors. Where limits are set later in pregnancy, they should be clear, medically workable, and include prompt exceptions for threats to life or serious health, rape or incest, and nonviable or catastrophic fetal conditions. Any framework should avoid criminal penalties for patients and prioritize prevention and real alternatives through contraception, accurate sex education, affordable healthcare, and practical supports for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should prioritize health, safety, and dignity by keeping time\u2011sensitive decisions primarily between a patient and qualified clinicians, guided by medical evidence, clear standards, and strong privacy protections. It should include clear, compassionate exceptions for threats to life or serious health, rape or incest, and fatal fetal anomalies, and avoid criminalizing patients or providers acting in good faith. To reduce unwanted pregnancies and make real alternatives viable, policymakers should pair any legal framework with broad access to contraception and comprehensive sex education, plus affordable healthcare and practical supports for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion law should protect both human dignity and women\u2019s health by keeping time\u2011sensitive decisions primarily between patients and licensed clinicians, with clear, medically defined protections for emergencies, life\u2011threatening conditions, and severe fetal anomalies, and compassionate consideration in cases of rape or incest. Any limits should be evidence\u2011based, consistent, and enforced through health regulation\u2014not criminal penalties for patients or doctors\u2014so care is safe and predictable. To reduce the number of abortions and strengthen families, lawmakers should expand contraception access, comprehensive sex education, prenatal and postpartum care, paid leave, childcare, and adoption supports, while also respecting conscience rights so no one is forced to participate against deeply held beliefs.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

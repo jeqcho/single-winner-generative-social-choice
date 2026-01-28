@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable middle ground is to keep the Electoral College but reduce its most distortive features: encourage states to award electors proportionally (with clear minimum thresholds) or by multi\u2011member regions, and bind electors to the certified results. Pair that with baseline nationwide rules for voter access, transparent counting, paper records, and automatic risk\u2011limiting audits so results are verifiable and disputes are less likely. If broad agreement emerges over time, an interstate compact or constitutional amendment could then move further toward a popular\u2011vote outcome, but only after the integrity and accountability standards are in place.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should preserve a meaningful state role while making outcomes track the national popular will more consistently by reducing winner\u2011take\u2011all distortions through proportional or district-based elector allocation, and keeping the option of a national popular-vote result via an interstate compact. Any change should be paired with uniform baseline standards for ballot access and counting, secure paper records, routine risk-limiting audits, and clear rules binding electors to certified results. Implement reforms gradually and transparently, with nonpartisan safeguards (including fair districting where districts are used), so campaigns compete beyond a handful of swing states and the results are clear and broadly trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Electoral College\u2019s state-based structure while ensuring the winner more consistently reflects the will of voters and reducing the \u201cwinner\u2011take\u2011all\u201d focus on a few battleground states. A practical compromise is to encourage states to award electors proportionally (or by district with clear anti\u2011gerrymandering rules) and to consider an interstate compact as a voluntary path toward a popular\u2011vote outcome, paired with binding electors to certified results. Any change should come with clear, uniform minimum standards for registration, ballot access, paper backups, and routine audits and recounts, phased in transparently to build trust across rural, suburban, and urban communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

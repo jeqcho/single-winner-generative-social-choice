@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "50",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as a shared long-term investment: safeguarding clean air, water, and climate stability while keeping communities competitive and affordable. Set clear goals and transparent metrics, then use flexible tools\u2014performance standards, permitting reform, and market signals\u2014so businesses can meet targets in the most cost-effective way. Pair these policies with transition support such as wage insurance, apprenticeships, and upgrade grants for small firms and energy-intensive industries, prioritizing places and workers most affected. Done well, this approach reduces health and disaster costs, rewards innovation, and protects both livelihoods and natural resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, water, and public health as foundations of long-term prosperity while protecting steady jobs and local livelihoods. Clear, science-based standards with phased timelines and transparent, measurable outcomes can provide certainty and avoid sudden shocks. Pairing these rules with market-aligned incentives for cleaner technology, plus targeted support for small businesses and worker retraining, helps communities adapt fairly and build resilient local economies for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Protecting clean air and water is essential for public health and long-term prosperity, and it can be pursued alongside economic growth when rules are clear, science-based, and phased in so families and employers can plan. Pair strong standards with market-friendly incentives and investments in clean technology, efficiency, and local infrastructure, while providing practical help\u2014especially for small businesses and workers in affected industries\u2014through retraining, apprenticeships, and temporary transition support. Set measurable goals, review progress transparently, and include local community voices so the costs and benefits are shared fairly and communities keep both good jobs and a healthy environment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

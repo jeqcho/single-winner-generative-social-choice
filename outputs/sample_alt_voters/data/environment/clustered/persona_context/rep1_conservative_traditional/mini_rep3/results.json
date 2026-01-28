@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued as one plan: safeguard the natural systems that support health and productivity while keeping communities competitive and employed. Set clear, science-based limits and transparent timelines, then pair them with practical tools\u2014performance-based compliance options, incentives for efficiency and cleaner production, and streamlined permitting for low-impact projects. Direct transition support to the people and places most affected through retraining, wage and small-business assistance, and locally guided investments, and track results publicly so policies can be adjusted to what works.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats clean air, water, and land as the foundation of long-term prosperity, not a tradeoff against jobs. We should set clear, science-based standards with predictable, phased timelines, paired with market incentives that reward cleaner innovation and efficiency. To keep communities whole, transitions must include funded worker retraining and targeted support for small businesses, guided by local input and measurable outcomes that protect health while sustaining family-supporting work.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Clean air, safe water, and healthy land are not a luxury\u2014they protect our kids\u2019 health, local traditions, and the long-term strength of our communities and economy. We should use science-based, clearly written rules that are phased in and enforced fairly, while giving businesses flexibility and market incentives to meet standards through innovation. The goal is to grow good, family-sustaining jobs by investing in American-made clean technology, energy efficiency, and infrastructure, with real retraining and transition support for workers and small businesses. Decisions should include local voices and be measured by results so we protect public health without unnecessary red tape or sudden shocks to livelihoods.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_personas": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "51",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_personas": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should focus on preventing harm while treating constitutional rights as nonnegotiable guardrails. A balanced strategy pairs narrowly tailored enforcement with early-intervention supports\u2014such as crisis response options, diversion, and victim services\u2014so the default response is not always arrest or force. Clear, publicly accessible policies; routine auditing of stops, searches, and force; and fair, timely complaint resolution can strengthen accountability while giving officers reliable guidance to do their jobs safely and effectively.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public safety and civil rights should be treated as mutually reinforcing goals, guided by clear constitutional standards, strict and proportional use-of-force rules, and consistent de-escalation training. Police departments should pair transparent, data-driven performance measures (crime reduction, harm reduction, and equitable treatment) with independent civilian oversight and meaningful avenues for review and remedy when misconduct occurs. Communities should help set priorities through sustained dialogue, while co-responder teams and partnerships with social and mental-health services provide alternatives to arrest and reduce unnecessary confrontations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as inseparable goals by setting clear, lawful standards for stops and use of force, prioritizing de-escalation, and ensuring officers have the training and support to act safely and fairly. Transparent data reporting, independent civilian oversight, and accessible ways to investigate complaints and remedy misconduct help build trust and accountability. Partnering with residents and expanding non-police responses\u2014such as mental-health and social-service teams\u2014can prevent harm, address root causes, and reduce unnecessary arrests while keeping neighborhoods safe.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

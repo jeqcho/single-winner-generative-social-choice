@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for the winner to reflect the broadest public support without wiping out the state-based role that many see as essential to federalism. A workable middle path is to keep the Electoral College but require states to distribute electors proportionally using a common formula, paired with a national baseline for ballot access, recount triggers, and post-election audits to make close results credible everywhere. To reduce spoilers and encourage cross-regional coalitions, states could adopt ranked-choice voting for president (or for allocating electors) while phasing changes in on a clear timetable with bipartisan oversight.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "The Electoral College should be retained but modernized so presidential outcomes track the popular will more closely while preserving state-by-state administration and incentives to campaign nationwide. A broadly acceptable reform is to reduce winner-take-all distortions by requiring proportional (or otherwise fair, anti-gerrymander) allocation of electors within states, alongside clear national standards for ballot access, counting, audits, and automatic recount thresholds in close races. As additional states agree, an interstate compact or similar mechanism could provide a stepwise path toward a de facto national popular vote without abruptly rewriting the constitutional structure.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable reform should make the presidential result match voters more closely while keeping states meaningfully involved and avoiding rule changes that look like partisan gamesmanship. A strong middle ground is to keep the Electoral College but require proportional allocation of electors in every state (or a district method with anti-gerrymandering safeguards), paired with uniform national standards for ballot access, counting, automatic recount triggers, and transparent audits. This would reduce winner-take-all distortions and swing-state dominance while preserving a federal structure and clear, trusted outcomes for communities of every size.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

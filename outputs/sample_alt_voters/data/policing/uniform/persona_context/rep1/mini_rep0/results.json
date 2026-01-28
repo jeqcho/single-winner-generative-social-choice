@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for the least intrusive response that can reliably keep people safe, with clear use\u2011of\u2011force limits, strong due\u2011process protections, and consistent enforcement against serious harm. That means investing in early intervention\u2014problem\u2011solving with residents, addiction and mental\u2011health response teams, and non\u2011police options for appropriate calls\u2014while preserving the capacity for professional, lawful enforcement when needed. Transparent reporting, independent review of critical incidents, and fair labor supports (training, wellness, and discipline that is timely and consistent) help protect officers and the public and sustain trust across viewpoints.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals, guided by clear, enforceable standards, measured use of force, and transparent, independent oversight with public reporting. Invest in rigorous de-escalation, crisis-intervention and bias-aware training, and expand non-police and co-responder options for mental-health and social-service crises so enforcement is focused where it\u2019s most needed. Pair data-driven evaluation and consistent accountability with fair staffing, support, and equipment for officers and sustained community partnership, so neighborhoods are safer, trust is rebuilt, and dignity is protected for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while fully protecting constitutional rights by using clear, enforceable rules for stops, searches, and force, backed by transparent reporting and truly independent oversight. Officers should be trained and supported to resolve situations safely through de-escalation, bias-aware and trauma-informed practice, and consistent discipline when standards are violated. Communities should expand non-police responses for mental-health, addiction, and homelessness crises, and invest in prevention and youth supports, while maintaining focused, evidence-based enforcement for serious and repeat harm. Regular community input and measurable outcomes can build trust, protect families and small businesses, and ensure safety and civil liberties strengthen each other.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

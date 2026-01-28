@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star": {
+      "winner": "86",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_personas": {
+      "winner": "86",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth should proceed within clear environmental guardrails that protect public health and the natural assets communities and businesses rely on. Set outcome-based standards and transparent timelines, then give firms flexibility to meet them through innovation, efficiency, and market tools that price real environmental costs. Pair these policies with practical transition support\u2014retraining, regional investment, and help for small businesses and affected workers\u2014so the shift is fair, predictable, and economically competitive.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing: clean air, water, and healthy ecosystems are essential public-health infrastructure and long-term prosperity. Policy should set clear, science-based, outcome-measured standards with predictable timelines, paired with market incentives and targeted R&D to speed adoption of clean technologies and efficiency. To keep families, workers, and small businesses whole, changes should be phased in with funded retraining, transition assistance, and place-based investment shaped by local input and accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as shared, practical goals: clean air and water protect public health and productivity, while predictable rules give businesses, farmers, and workers the certainty to plan and invest. Set clear, science-based standards with flexible, market-friendly paths to comply\u2014rewarding efficiency and clean innovation\u2014paired with phased timelines, property-rights respect, and transparent local input. Invest in domestic clean infrastructure, R&D, and targeted support like retraining, small-business assistance, and community transition funds so families and regions that face the biggest changes are not left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A sensible compromise is to keep the Electoral College\u2019s state-based structure but make it track the public\u2019s choice more closely by ending winner-take-all and requiring proportional allocation of electors based on statewide results, with a uniform minimum standard for transparent counting, audits, and recount triggers. To address concerns about close outcomes and \u201cspoiler\u201d candidates, states could pair this with ranked-choice voting for president within each state. This approach preserves federalism and broad geographic buy-in while making campaigns compete for more voters in more places and strengthening confidence that the winner reflects the most support.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep the state-based role many people value while making outcomes align more closely with the national popular will so voters in every state feel their ballots matter. A workable middle ground is to end winner-take-all by allocating electors proportionally (or by district with fair, non-gerrymandered maps), or to use the National Popular Vote Interstate Compact, paired with clear nationwide standards for ballot access, counting, audits, and recounts. The goal is a transparent, trusted system that reduces swing-state distortion and is legitimate to both small and large states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fair and legitimate to people in every state by reducing winner-take-all distortions while keeping states\u2019 roles and smaller communities\u2019 voices meaningful. A broad compromise is to keep the Electoral College but require proportional (or district-based with strong anti-gerrymandering rules) allocation of electors, and allow a National Popular Vote agreement as an optional path if states choose it. Any change should come with clear national baseline standards for ballot access, secure counting, recounts, and routine post-election audits so outcomes are transparent, predictable, and trusted across parties.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

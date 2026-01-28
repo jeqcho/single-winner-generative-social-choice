@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "21",
+      "epsilon": 0.0,
+      "full_winner_idx": "21"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for people to see what they\u2019re doing, why they\u2019re doing it, and whether it worked\u2014using plain, multilingual communication, open records, and clear success measures. They should pair that transparency with real consequences for failures and misconduct, while also fixing problems quickly and learning publicly from mistakes. Decisions improve when local residents, workers, and independent reviewers can regularly audit results, give input early, and access simple channels to appeal or report issues without retaliation. Consistent, fair service\u2014delivered without partisan favoritism and with strong privacy safeguards\u2014turns skepticism into confidence over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver steady, dependable results in everyday needs\u2014schools, health, safety, and basic services\u2014while explaining decisions in plain, multilingual language and making data and performance easy to verify. Trust is strengthened when mistakes are acknowledged quickly, fixed openly, and reviewed through independent oversight with clear consequences and fair, predictable enforcement. Meaningful local participation\u2014listening sessions, accessible complaint channels, and shared goal\u2011setting with parents, workers, and community groups\u2014turns distant authority into accountable stewardship across political and cultural divides.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions deliver dependable basics\u2014safe neighborhoods, responsive schools and clinics, fair permitting and benefits\u2014while explaining decisions in plain language and showing results people can verify. They should publish clear performance measures, protect privacy, and use independent audits and complaint channels that lead to real consequences and fixes when mistakes happen. Trust also grows when local residents and frontline workers have regular, meaningful input so policies reflect community values and are applied consistently and fairly to everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

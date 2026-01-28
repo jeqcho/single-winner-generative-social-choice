@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.1499999999999999,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.1499999999999999,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.1499999999999999,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for a result that tracks the voters\u2019 will while keeping states as meaningful partners in the process. A broadly acceptable path is to reduce winner-take-all incentives by having states allocate electors proportionally (or by a consistent district-based method) with electors legally bound to those results, while also setting clear, uniform baselines for registration, recounts, audits, and certification. Combined with improvements like ranked-choice voting where states choose to adopt it, this approach would widen the map beyond a few battlegrounds and make outcomes easier to accept across regions and parties.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should preserve a meaningful state role while making outcomes feel fairer and easier to trust nationwide. A practical middle path is to reduce winner-take-all distortions by allocating electors proportionally (or by district with statewide electors) and/or joining a National Popular Vote Interstate Compact once enough states participate, so campaigns compete beyond a handful of swing states. Any change should be paired with clear, uniform standards for ballots, recounts, audits, and certification\u2014plus accessible voting rules\u2014so every lawful vote is handled consistently and results are broadly legitimate.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should be easy to understand and trust, with every lawful vote carrying real weight while still giving states\u2014especially smaller and rural ones\u2014a meaningful role. A practical compromise is to keep the Electoral College but end winner-take-all by allocating electors proportionally (or by district with safeguards against gerrymandering), while allowing the National Popular Vote Interstate Compact once enough states join and uniform recount/audit rules are in place. Any change should come with clear, auditable standards for ballots, certification, and election security, plus broad voting access, so outcomes better match the public will and lose\u2013win gaps are less likely.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

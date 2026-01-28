@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "34",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should focus on preventing serious harm while treating constitutional rights as non\u2011negotiable guardrails. That means narrowly tailored enforcement based on evidence, clear limits on stops and force, and reliable accountability through public reporting and independent investigation of complaints. Pairing officers with well-funded alternatives for mental health, substance use, and homelessness\u2014designed with community input\u2014reduces unnecessary contact and builds legitimacy while keeping neighborhoods safe.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as reinforcing goals by grounding practice in constitutional standards, clear use-of-force limits, and de-escalation as the default. Trust and effectiveness improve when departments are transparent with data, measured on outcomes, and held to meaningful independent civilian oversight. Pair targeted, evidence-based deployment with community partnership and non-police crisis/mental-health response options so help is proportional, unbiased, and respectful of due process and dignity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a simple standard: protect the public while respecting constitutional rights and treating every person with dignity. That means clear, consistently enforced rules on stops and use of force; strong training in de-escalation and bias awareness; and transparent data reporting with independent oversight so accountability is credible. Safety also improves when police partner with residents and local services\u2014especially mental health and addiction responders\u2014so the right resource is sent to each call and enforcement stays focused on serious, evidence-based crime prevention.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

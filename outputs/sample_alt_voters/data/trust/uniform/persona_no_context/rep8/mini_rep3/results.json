@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "23"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "23"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_personas": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star": {
+      "winner": "44",
+      "epsilon": 0.0,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Trust increases when institutions make fairness easy to see and easy to challenge: explain the \u201cwhy\u201d behind decisions, publish goals and results, and offer simple, timely ways to appeal or correct errors. Show reliability through competent everyday service, equal enforcement of rules, and regular public audits with real consequences for misconduct. Rebuild relationships by meeting people in local settings, partnering with community groups across viewpoints, and turning feedback into visible improvements rather than slogans.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions reliably deliver everyday services and safety while explaining decisions in clear, plain language that people can verify. Transparency must be matched with enforceable accountability\u2014independent oversight, fair and consistent rules, and open data\u2014so mistakes are admitted, corrected, and prevented. Trust is strengthened by sustained local engagement that listens first, invites meaningful participation and feedback, and shows measurable results that respect diverse community values and dignity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver everyday results\u2014safe neighborhoods, reliable services, and fair treatment\u2014while explaining decisions in plain language and in the languages people use. They should publish clear goals and performance data, welcome independent audits and oversight, enforce rules consistently, and admit and fix mistakes quickly. Trust also increases when communities have real local input\u2014through accessible meetings, partnerships with civic and faith groups, and practical civic education\u2014so people can see their concerns reflected in policy and outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "54",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "54",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should reduce the winner-take-all distortions that make a few states decisive, while retaining a clear role for states and a stable, constitutional process. A balanced package would encourage states to adopt proportional (or carefully designed district) elector allocation and, if pursued, limit any national popular-vote compact with transparent triggers and broad state buy-in. Whatever model is chosen should be paired with strong guardrails\u2014paper-backed voting, routine risk-limiting audits, uniform recount timelines, and clear rules for elector certification\u2014to make outcomes more legitimate and harder to manipulate.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make every lawful vote matter more equally while preserving a meaningful state role, by reducing winner-take-all distortions through proportional (or carefully designed district-based) allocation of electors and, if states choose, a phased National Popular Vote interstate compact. Any change should be paired with baseline national standards for ballot access and counting, voter-verifiable paper records, automatic post-election audits, and clear recount and anti\u2013faithless-elector rules. This incremental, bipartisan approach would lessen swing-state dominance, improve transparency and trust, and push candidates to build broader coalitions across the country.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "To strengthen legitimacy and make every vote matter while keeping states meaningfully involved, we should pursue incremental, constitutionally grounded reforms rather than an abrupt overhaul. A workable compromise is for states to move away from winner\u2011take\u2011all toward proportional allocation of electors (with clear protections against faithless electors), while continuing to evaluate an interstate popular\u2011vote compact as more states adopt it. Any change should be paired with nationwide baseline standards\u2014easy-to-understand ballots, secure paper records, automatic risk\u2011limiting audits, and clear recount rules\u2014so results are transparent, trusted, and candidates compete in more places than just a few swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

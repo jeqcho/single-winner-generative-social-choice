@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "28"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be oriented around legitimacy: preventing harm while protecting constitutional rights through clear, narrowly tailored authority, proportional responses, and consistent documentation of stops, searches, and uses of force. Pair officer training and supervision with independent, timely investigation of serious incidents, and publish accessible data so communities can evaluate outcomes. Reduce unnecessary enforcement by routing behavioral-health, substance-use, and other nonviolent calls to specialized responders and community programs, while ensuring officers have support and resources to focus on serious crime. Regular, structured community input and evidence-based evaluation should guide adjustments so safety gains do not come at the expense of equal treatment under the law.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and constitutional rights as mutually reinforcing goals through clear, consistently applied engagement and use-of-force standards, rigorous de-escalation and bias/trauma-informed training, and transparent data reporting. Independent, timely oversight of serious incidents and misconduct\u2014paired with fair, predictable accountability\u2014builds legitimacy and trust. To prevent crises and reduce unnecessary arrests, jurisdictions should invest in community partnerships and alternatives such as mental-health crisis teams, restorative options, and housing/youth supports, while also supporting officer wellness and professionalism.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights at the same time through clear, consistently enforced standards for stops and use of force, strong de-escalation and bias-aware training, and transparent reporting with independent review of serious incidents. To reduce unnecessary confrontations, communities should expand non-police responses for mental-health and nonviolent crises and invest in prevention\u2014youth programs, addiction treatment, and housing\u2014while keeping officers focused on serious threats. Ongoing community dialogue, open data, and fair support for officer wellness and professionalism help build trust so enforcement is effective, proportional, and respectful for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

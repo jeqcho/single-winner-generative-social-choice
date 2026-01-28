@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the idea that safety and civil rights rise or fall together: officers need the tools to stop serious harm while being tightly bound to constitutional limits. That means clear, publicly known policies (especially for stops, searches, and use of force), strong supervision and fair discipline, and routine public reporting so communities can verify results. It also means using the least intrusive effective response\u2014diverting mental-health, substance-use, and homelessness-related calls to specialized teams when possible\u2014while investing in community problem-solving that prevents crime and reduces unnecessary contact.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue the shared goal of keeping communities safe while consistently safeguarding constitutional rights through clear, predictable policies, rigorous de-escalation and bias training, and disciplined supervision. Trust is strengthened by transparent reporting (including body-camera and use-of-force data), accessible complaint processes, and independent oversight with measurable accountability. Public safety should also include coordinated crisis response with mental-health and social-service partners and prevention-focused community partnerships, while ensuring adequate staffing and officer wellness so officers can act professionally and lawfully.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safe neighborhoods and constitutional rights as mutually reinforcing goals by setting clear, enforceable standards for stops, searches, and use of force, and by training officers in de-escalation, procedural justice, and unbiased enforcement. Accountability should be real and transparent\u2014body-worn cameras where appropriate, accessible complaint processes, public reporting, and independent oversight\u2014so the public can trust that laws are applied fairly. To reduce crime and unnecessary arrests, departments should partner with mental-health and social-service responders for appropriate calls, while ensuring officers have adequate staffing, supervision, and wellness support to do their jobs safely and professionally.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

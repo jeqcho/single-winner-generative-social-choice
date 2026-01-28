@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "99",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance starts by protecting the environmental foundations\u2014clean air and water, biodiversity, and climate stability\u2014while giving businesses predictable timelines and flexibility in how they meet clear, science-based targets. Pair guardrails with incentives and investment that speed up cleaner production, modern infrastructure, and new markets, so competitiveness grows as impacts fall. Ensure the transition is fair through worker retraining, community support, and help for smaller firms, and track progress with transparent metrics that reflect both economic performance and environmental outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental health as a core economic asset: set clear, science-based standards that prevent irreversible harm while giving businesses predictable rules and flexible, market-based ways to comply. Pair these standards with investment in clean technology, energy efficiency, and resilient infrastructure that drives innovation and new jobs. To keep the transition fair, provide targeted support for affected workers, communities, and industries, and track outcomes transparently so prosperity and ecosystem protection reinforce each other over the long term.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance treats clean air, water, and stable climate as foundations for long-term jobs and community health, while recognizing that families and small businesses need predictable costs and practical timelines. We should set clear, science-based environmental standards and pair them with flexible tools\u2014like incentives, efficiency upgrades, and market mechanisms\u2014so innovation and entrepreneurship can meet the goals. Just as important, we should invest in infrastructure and provide training and transition support for workers and regions most affected, so the benefits and burdens are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

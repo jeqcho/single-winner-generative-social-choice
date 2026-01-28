@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Institutions build trust when they make their goals, tradeoffs, and spending easy to see and challenge\u2014using plain-language summaries, publicly tracked commitments, and independent audits with real consequences. Trust grows when people have practical ways to be heard and get problems fixed (timely responses, appeals, and local forums) and when rules are applied consistently to everyone while protecting rights and privacy. Over time, steady delivery on a few visible priorities people care about\u2014paired with openness about what worked, what failed, and what will change\u2014turns skepticism into confidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions act like accountable service providers: explain decisions in plain language, publish clear standards and data people can verify, and submit to truly independent oversight. They should measure and report results that matter in everyday life, admit mistakes quickly, fix them, and offer accessible ways for the public to seek redress. Ongoing, respectful local engagement and meaningful opportunities to shape priorities\u2014while protecting privacy and individual rights\u2014help people judge performance by outcomes rather than rhetoric.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions consistently deliver dependable, everyday results while showing\u2014 in plain language\u2014how decisions are made, how money is spent, and what standards they will be held to. Independent audits and oversight, clear performance metrics, and easy-to-use complaint and appeal processes should make it simple for anyone to verify progress and get problems fixed, while protecting privacy and equal rights. Ongoing, respectful local listening sessions and partnerships with community groups (including schools, faith communities, and neighborhood organizations) help policies reflect real needs and demonstrate that rules are applied fairly to everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by a commitment to protect life and dignity, while recognizing that pregnancy and childbirth carry real medical risks and complex family realities. A fair framework keeps early care safe and lawful, sets later-pregnancy rules that follow medical evidence and include clear, workable exceptions for serious health threats and tragic circumstances, and avoids criminalizing patients or clinicians acting in good faith. Common ground grows when policy also invests in prevention and support\u2014comprehensive education, affordable contraception, prenatal and postpartum care, and practical help for parenting and adoption\u2014so fewer people reach a crisis point.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be grounded in compassion, respect for personal conscience, and medically informed standards that protect patients and clinicians, especially in time-sensitive situations. A workable approach keeps decisions as close as possible to patients and qualified healthcare professionals, ensures safe and legal access with clear health and life protections, and allows for reasonable, evidence-based limits later in pregnancy that prioritize serious medical circumstances. Common ground grows when policy focuses less on punishment and more on reducing crisis pregnancies through accurate education, affordable contraception, and strong prenatal, postpartum, and parenting or adoption supports.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity, and medically grounded judgment, recognizing both the moral weight many place on unborn life and the need for individuals to make private healthcare decisions without fear. A workable approach protects timely, safe care\u2014especially in emergencies and serious health complications\u2014while setting clear, consistent standards and avoiding punitive measures that endanger patients or clinicians. Common ground also means investing in prevention and support: accurate education, affordable contraception, prenatal and postpartum care, and real help for parents and adoption services so fewer families face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

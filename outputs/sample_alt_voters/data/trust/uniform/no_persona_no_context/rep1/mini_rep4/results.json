@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "88",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "88",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make their work legible to ordinary people: explain the reasons for decisions, publish results people can verify, and show how feedback changes outcomes. Set clear standards for service and ethics, enforce them consistently, and investigate mistakes through independent bodies with the power to recommend or require fixes. Pair transparency with practical improvements\u2014faster, fairer, more reliable services\u2014so trust is earned through both openness and performance.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "To increase trust, institutions should prove they are fair, effective, and answerable by making decisions and results transparent, enforcing rules consistently, and publishing clear performance metrics people can track. Independent oversight\u2014such as audits and consequences for misconduct\u2014should be routine, and mistakes should be acknowledged and corrected publicly. Trust will grow faster when institutions also create regular, accessible ways for diverse communities to participate, provide feedback, and see that input reflected in real, local improvements.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions deliver basic results people can see\u2014safe communities, reliable services, and fair treatment\u2014while being honest about limits and mistakes. A common path forward is clear, plain\u2011language communication; open records and transparent decision rules; and independent audits with real consequences for misconduct. Regular local listening sessions and citizen advisory roles can ensure policies reflect everyday concerns across communities. Trust should be earned through consistent performance and accountability, not partisan messaging.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

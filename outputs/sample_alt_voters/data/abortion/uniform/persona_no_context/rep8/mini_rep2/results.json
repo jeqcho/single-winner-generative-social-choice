@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "52",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect both human dignity and public health by grounding rules in medical evidence, clear definitions, and respect for differing moral convictions. A workable compromise keeps early pregnancy decisions primarily with patients and clinicians, while allowing carefully limited regulation later, with explicit, non-negotiable exceptions for rape, incest, and serious threats to the pregnant person\u2019s life or major bodily functions. Any limits should be paired with robust prevention and support\u2014contraception, comprehensive education, prenatal and postpartum care, and economic help\u2014so fewer people face crisis pregnancies and no one is punished for seeking or providing medically necessary care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for personal conscience, recognizing both the moral weight many attach to developing life and the complex realities families face. A workable approach protects safe, legal access early in pregnancy, sets clear and enforceable standards later, and includes well-defined exceptions for rape, incest, severe fetal conditions, and serious threats to a patient\u2019s health or life, so clinicians can act quickly without fear of criminalization. Common ground also requires practical prevention and support\u2014affordable contraception, comprehensive sex education, prenatal and mental health care, and resources for parenting and adoption\u2014so fewer people face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for both women\u2019s dignity and the sincere moral convictions many hold about developing life. A workable framework protects early access and privacy while allowing clearly defined, medically grounded limits later in pregnancy, with firm exceptions for rape, incest, severe fetal conditions, and serious threats to a patient\u2019s life or health, and without criminalizing patients or clinicians acting in good faith. Common ground also requires reducing crisis pregnancies through affordable contraception and education, plus real supports for parenting and adoption so fewer families feel forced into an impossible choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

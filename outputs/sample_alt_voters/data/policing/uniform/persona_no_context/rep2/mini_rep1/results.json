@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for safe streets and protected rights by making encounters predictable, proportional, and reviewable: clear laws-and-limits policies, strong supervision, and early-warning systems that correct problems before they become crises. Pair timely response to serious crime with consistent de-escalation, communication, and constitutional-rights training, while using body cameras, stop/use-of-force reporting, and independent audits to ensure accountability. Build legitimacy through regular neighborhood input, fair complaint processes, and coordinated alternatives for mental-health and substance-use calls so officers can focus on public safety without unnecessary intrusion.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing, guided by clear constitutional standards, rigorous de-escalation and bias-awareness training, and well-defined use-of-force rules. Transparent data, body-worn cameras with strong privacy safeguards, and independent civilian oversight should provide measurable accountability and continuous improvement. Durable safety also requires sustained community partnership and coordinated mental-health and social-service responses, while supporting officer wellness so officers can act fairly and effectively.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect everyone\u2019s safety and constitutional rights by using clear, consistent standards\u2014especially for stops, searches, and use of force\u2014paired with strong de-escalation and crisis-response training. Accountability should be real and fair: transparent reporting and body-worn camera policies, independent review of serious incidents, and support for officers\u2019 wellness and professionalism. Communities are safest when police work in partnership with residents and service providers, using data to deploy resources where needed while safeguarding privacy and treating every person with dignity.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

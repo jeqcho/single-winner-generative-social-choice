@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental protection as a core economic risk-management issue: safeguard critical ecosystems and public health while allowing firms flexibility in how they meet clear, science-based targets. Pair predictable rules (and, where appropriate, pricing of pollution) with support for innovation, infrastructure upgrades, and competitiveness so businesses can adapt without abrupt shocks. Use transparent metrics and community input to phase changes, protect vulnerable households, and provide retraining and transition assistance where costs are concentrated.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental protection as a foundation for durable prosperity, while designing policies that keep businesses competitive and communities secure. Set clear, measurable environmental standards and use market-based incentives (e.g., carbon pricing and efficiency rewards) to spur innovation and investment in clean technologies and circular practices. Pair these steps with transparent, evidence-based decision-making and targeted support\u2014especially for workers and regions facing transition\u2014so costs and benefits are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A durable balance treats clean air, water, and climate stability as essential economic assets while keeping communities and small businesses able to thrive. Set clear, science-based environmental standards and use flexible tools\u2014like market incentives, efficiency upgrades, and public-private innovation\u2014to meet them at the lowest cost. Pair these policies with predictable timelines and fair support such as job training, wage and benefit protections, and local investment so workers and regions aren\u2019t left behind. This approach protects health and ecosystems now while building competitive, resilient industries and good jobs for the future.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

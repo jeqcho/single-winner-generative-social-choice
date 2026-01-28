@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Trust increases when institutions make commitments the public can check: clear standards of service, public metrics on outcomes, and straightforward consequences when officials fail to meet them. Pair that with due process and equal treatment so accountability is fair rather than partisan. Institutions should show how public input changes decisions\u2014through published responses, timelines, and follow-through\u2014so engagement feels meaningful instead of symbolic.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver fair, reliable service and make their decisions easy for ordinary people to see and evaluate. Leaders should set clear rules, publish plain-language explanations and open performance data, and welcome independent audits and oversight. When mistakes happen, institutions should acknowledge them quickly, fix them transparently, and keep accessible channels for community input so people can verify that accountability is real.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People don\u2019t have to agree on every policy to agree on the standards institutions should meet: equal treatment under clear rules, reliable service, and honesty about results. Trust grows when decisions are explained in plain language, performance is measured and published, and independent audits and oversight investigate complaints and correct mistakes quickly. Institutions should also create easy, local ways for people to be heard and see how their input changes outcomes, so accountability is real and not just promised.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

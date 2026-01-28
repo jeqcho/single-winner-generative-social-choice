@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance sets non-negotiable environmental guardrails\u2014protecting critical habitats, clean air and water, and preventing irreversible harm\u2014while giving businesses predictable timelines and flexible options to comply. Using tools like pollution pricing, streamlined permitting for cleaner projects, and targeted support for small firms and impacted workers can cut waste and spur innovation without undermining competitiveness. Measured against both economic outcomes and ecological indicators, this approach protects today\u2019s jobs while reducing long-term risks and costs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth are best treated as mutually reinforcing: healthy ecosystems and clean air and water are economic assets that underpin long\u2011term prosperity. We should set clear, science-based standards to prevent irreversible harm while using market incentives and targeted public investment to speed clean innovation, efficiency, and resilient infrastructure. A fair transition\u2014predictable timelines, support for affected industries and communities, and worker retraining\u2014can share costs and benefits transparently and keep economies competitive as environmental impacts fall.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth can reinforce each other when we set clear, science-based limits that prevent irreversible harm while giving businesses and communities predictable timelines and flexibility to meet them. Using a mix of innovation incentives, targeted standards, and market tools that make pollution costs transparent can drive cleaner industry, lower long-term health and disaster costs, and create good local jobs. A fair balance also includes practical support\u2014retraining, infrastructure investment, and help for small businesses and workers in energy- and manufacturing-dependent areas\u2014so the transition strengthens livelihoods as it improves the environment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

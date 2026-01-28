@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "32"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "32"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "32"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "32"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "54",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "54",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Any reform should keep states administering elections while ensuring the presidency reflects voters more evenly and discourages \u201call\u2011or\u2011nothing\u201d battleground politics. A workable compromise is to require each state to allocate electors proportionally using a common, auditable method (with strong anti\u2011gerrymandering protections if districts are used), while piloting ranked\u2011choice ballots to produce a clear majority winner. Pair these changes with nationwide baseline rules for ballot access, paper records, automatic risk\u2011limiting audits, and transparent recount triggers so results are easier to verify and broadly accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fair and dependable by giving each ballot more comparable weight while keeping states meaningfully involved. A broadly acceptable path is to phase out strict winner-take-all in favor of proportional or district-based elector allocation with strong anti\u2011gerrymandering guardrails, and allow an interstate national\u2011popular\u2011vote compact only with clear, enforceable rules. Pair any change with uniform baseline standards for ballot access, paper-backed voting records, routine risk\u2011limiting audits, and transparent recount procedures so results are auditable, campaigns compete beyond a few swing states, and public trust improves.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep a state-based presidential election while making outcomes reflect voters more fairly and reducing the \u201call-or-nothing\u201d pressure on a few swing states. A bipartisan, incremental approach could encourage states to move from winner-take-all to proportional allocation of electors (or a district method only with strong, nonpartisan anti-gerrymandering rules), paired with uniform baseline standards for ballot access, paper ballots, transparent recount rules, and routine post-election audits. After those safeguards are in place, options like a carefully designed interstate popular-vote compact and expanded ranked-choice runoffs can be piloted to ensure broad majority support and public confidence across urban and rural communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

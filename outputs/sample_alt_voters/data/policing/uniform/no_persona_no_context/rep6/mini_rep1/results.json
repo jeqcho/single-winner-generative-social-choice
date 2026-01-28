@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "30"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "30"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "30"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim to prevent violence and victimization while treating constitutional rights as non\u2011negotiable guardrails, not tradeoffs. Departments can pursue this by using proportional, least\u2011intrusive tactics; clearly limiting stops, searches, surveillance, and force; and pairing enforcement with trained non\u2011police responders for behavioral health and other nonviolent calls. Publicly reported outcomes, accessible complaint processes, and independent auditing\u2014designed with community input\u2014help ensure safety gains are real and rights are consistently protected.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by using lawful, proportional, and evidence-based tactics grounded in procedural justice. Departments should pair de-escalation and bias-aware training with transparent data, clear use-of-force rules, accessible complaint processes, and independent civilian oversight. Communities should help set priorities and define success, while expanding non-police responses and social-service partnerships for mental health and other nonviolent needs to reduce harm and build trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should deliver real public safety while strictly protecting constitutional rights, using tactics that are lawful, proportional, and focused on the people and places at highest risk of violence. Departments should pair de-escalation and communication training with clear use-of-force rules, transparent reporting, and independent review so good officers are supported and misconduct is addressed. Communities should help set priorities and track shared metrics\u2014reductions in violent crime, response quality, and rights violations\u2014while expanding mental-health and other non-police responses for situations where enforcement is not the best tool.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

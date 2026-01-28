@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "The right balance is to protect the environmental systems that make economies possible while keeping rules workable and growth-oriented. Set clear baseline limits on pollution and habitat loss, then give firms flexibility to meet them through performance targets, streamlined permitting, and incentives that reward the cheapest verified reductions. Use revenues and public investment to modernize infrastructure, support small businesses, and provide wage, retraining, and regional diversification support so the costs of transition are shared fairly and results are measured transparently.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Long-term prosperity depends on protecting clean air, water, and land as essential infrastructure for public health and resilient local economies. A pragmatic balance pairs enforceable, science-based safeguards with predictable, phased implementation and market incentives that reward efficiency and clean innovation, including support for small businesses. Invest in clean infrastructure and provide targeted retraining and transition assistance so workers and communities share the benefits and no region is left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A responsible balance starts with protecting clean air, water, and land as non\u2011negotiable basics for public health and long\u2011term prosperity, while keeping rules clear, predictable, and rooted in sound science. Use market incentives and streamlined permitting to help businesses\u2014especially small and local employers\u2014innovate and cut pollution at the lowest cost. Phase in changes with measurable goals and transparent accountability, and provide practical support like retraining and targeted help for workers and communities so the transition strengthens jobs and energy reliability rather than undermining them.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

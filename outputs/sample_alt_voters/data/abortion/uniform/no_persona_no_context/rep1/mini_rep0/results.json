@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_personas": {
+      "winner": "99",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim for practical fairness in a society with deep moral disagreement: protect patients\u2019 health and decision-making, take the moral value many assign to developing life seriously, and avoid punitive approaches that drive care underground. Legal standards should be clear and grounded in medical expertise, including timely exceptions for medical emergencies, severe fetal conditions, and serious threats to the patient\u2019s well-being. At the same time, government should invest in contraception access, prenatal and postnatal healthcare, childcare, and economic supports so that choosing to carry a pregnancy is a realistic, supported option rather than a forced sacrifice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical evidence, and a commitment to reduce harm in a society with sincere moral disagreement. Policy should protect timely, medically necessary care and patient safety, while also acknowledging the value many place on developing life and encouraging prevention of unintended pregnancy. Whatever legal boundaries are set should be clear and workable for clinicians, paired with robust supports\u2014contraception, prenatal and maternal healthcare, and economic help for parenting or adoption\u2014so fewer people face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by respect for human dignity in a pluralistic society: taking prenatal life seriously while protecting the pregnant person\u2019s health, safety, and freedom of conscience. Whatever legal limits exist, they should be clear, medically defined, and include firm exceptions for medical emergencies, serious health threats, rape or incest, and fatal fetal conditions, so care is never delayed or denied. At the same time, government should work to reduce abortions by expanding contraception, prenatal and maternity care, and practical supports for parenting and adoption, so choosing birth is truly feasible.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "78"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "84",
+      "epsilon": 0.0,
+      "full_winner_idx": "84"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to reduce harm in a morally contested area by pairing respect for developing life with protection of a pregnant person\u2019s health, liberty, and privacy, using medically defined standards rather than political litmus tests. Any regulation should guarantee timely care and include clear exceptions for rape, incest, and serious risks to life or significant health, while avoiding punitive approaches that deter patients or clinicians from seeking or providing emergency treatment. Lasting common ground also requires prevention and real options\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, and adoption and economic supports\u2014so decisions are less often driven by coercion, poverty, or crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in medical evidence and patient safety, balancing respect for developing life with the health, dignity, privacy, and autonomy of pregnant people by keeping time\u2011sensitive decisions primarily between patients and qualified clinicians rather than politicians. Any limits should be clear, enforceable, and compassionate, with narrowly tailored exceptions for rape, incest, and serious threats to the pregnant person\u2019s life or health (and severe fetal anomaly). Policymakers should prioritize reducing unwanted pregnancies and crisis-driven decisions through comprehensive sex education, affordable contraception, and robust prenatal/postpartum, mental\u2011health, childcare, adoption, and economic supports, avoiding criminalization that deters needed care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be rooted in medical evidence and compassion, recognizing the moral seriousness many attach to developing life while protecting the health, dignity, and privacy of pregnant people. Any rules should be clear and workable for clinicians, include exceptions for rape, incest, and serious threats to the pregnant person\u2019s life or health (and severe fetal conditions), and avoid criminal penalties that delay or deter necessary care. To reduce unintended pregnancies and the number of abortions, policy should invest in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, mental\u2011health care, and practical help for families such as childcare, paid leave, and adoption services.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

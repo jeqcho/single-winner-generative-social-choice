@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "84",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "84"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for a presidential result that matches the broad popular will while keeping elections manageable through state administration and respecting smaller communities\u2019 concerns about being ignored. A balanced approach is to reduce winner-take-all incentives by moving states toward proportional elector allocation (or an equivalent method) and pairing it with baseline national standards for ballot access, counting, audits, and automatic recount triggers. If larger changes are pursued, they should be phased in with clear constitutional grounding and bipartisan oversight so the rules are stable, transparent, and trusted before and after Election Day.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep states\u2019 role in running elections but reduce winner-take-all distortions so the outcome more consistently matches the national popular will and every vote feels meaningful. A pragmatic bridge is to move toward proportional (or district-based) allocation of electors\u2014potentially paired with a national popular vote agreement\u2014while adopting clear, uniform national standards for ballot access, counting deadlines, automatic recount thresholds, and transparent post-election audits. This approach respects federalism and smaller communities while improving fairness, predictability, and public trust across parties.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "We can respect the Electoral College\u2019s state-based tradition while reducing \u201cwinner\u2011take\u2011all\u201d distortions so the winner more reliably matches the most votes nationwide and fewer communities feel ignored. A practical compromise is to keep states administering elections but move toward proportional (or district-plus-statewide) allocation of electors, paired with clear national minimum standards for ballot access, counting, audits, and automatic recount thresholds. Any change should be simple, legally durable, and focused on trust, transparency, and equal treatment for voters in both rural and urban areas.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

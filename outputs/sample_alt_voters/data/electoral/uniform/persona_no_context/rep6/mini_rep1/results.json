@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for a president chosen by the broadest, clearest consent of voters while keeping states meaningfully involved and avoiding rules that make a few battlegrounds dominate the campaign. A balanced path is to move away from winner-take-all by having states award electors proportionally (with a small threshold to prevent extreme fragmentation) and pair that with baseline national standards for ballot access, audits, and automatic recounts in close races. If the country later opts for a national popular vote, it should be phased in only after those shared integrity and transparency standards are in place so results are both fair and widely trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make the presidential election easier to understand and trust by ensuring every vote is counted fairly and transparently, while keeping states and rural communities from feeling erased. A broad, practical bridge is to move toward the national popular vote\u2014through the National Popular Vote Interstate Compact or a constitutional amendment\u2014paired with uniform national baselines for ballot access, audits, and recounts. If full replacement isn\u2019t achievable soon, states should at least end winner-take-all by allocating electors proportionally (and allowing ranked-choice ballots) so campaigns compete beyond a handful of swing states and the outcome better matches overall voter support.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should make the presidency reflect the will of the people while keeping smaller states and rural communities from feeling ignored, and the rules should be simple, transparent, and consistent so the outcome is trusted. A practical compromise is to keep state-run elections but adopt a national popular-vote outcome\u2014via the National Popular Vote Interstate Compact or an amendment\u2014paired with clear nationwide baselines for ballot access, voter-roll maintenance, ID options, audits, and recounts. If full change isn\u2019t achievable soon, states should at least move away from winner-take-all by allocating electors proportionally (or by district) and consider ranked-choice voting to ensure the winner has broad support and campaigns compete beyond a few swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

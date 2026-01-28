@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star": {
+      "winner": "21",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "21"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "86",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance is to set non\u2011negotiable safeguards for public health, critical ecosystems, and climate stability, while giving firms and workers flexible, predictable pathways to meet them. Use a mix of clear standards, pricing of pollution, and streamlined permitting for low\u2011impact projects so investment shifts toward cleaner production without unnecessary red tape. Pair these rules with transition support\u2014training, regional development, and help for small businesses\u2014so communities are protected as the economy adapts.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection as a foundation for long-term prosperity: set clear, science-based safeguards for public health and critical ecosystems while steering investment toward clean innovation, efficiency, and circular resource use. Use market signals and targeted incentives to internalize pollution costs and reward better technologies, paired with transparent metrics that track outcomes beyond short-term GDP. Plan transitions with workers, businesses, and communities so costs and benefits are shared fairly and new jobs and regional opportunities are created.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance protects clean air, water, and public health with clear, science-based standards, while giving businesses and workers predictable timelines and flexible, cost-effective ways to comply. We should steer growth toward energy efficiency, cleaner technologies, and circular practices that reduce waste and cut costs, while investing in domestic jobs, reliable infrastructure, and workforce retraining for communities most affected. Measuring success by long-term affordability, health, and resilience\u2014not just short-term output\u2014helps ensure prosperity that lasts without degrading the natural systems our economy depends on.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "85",
+      "epsilon": 0.0,
+      "full_winner_idx": "85"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection should be treated as joint priorities: guard the basic conditions for health and productivity\u2014clean air, water, and stable ecosystems\u2014while giving businesses clear, consistent rules to plan and invest. Use a mix of performance-based standards, pricing or fee-and-rebate approaches where appropriate, and targeted public investment to accelerate cleaner technologies and infrastructure without picking winners. Pair these policies with permitting reform for low-impact projects and with transition supports\u2014training, wage insurance, and help for small firms and regions\u2014to keep the shift fair and politically durable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and land is essential to long-term prosperity, so policy should pair science-based, enforceable standards with predictable rules that give businesses certainty. Align incentives with stewardship by using market tools that price pollution, rewarding efficiency and clean innovation, and investing in resilient infrastructure and low\u2011carbon technology. Phase in changes with clear timelines, local input, and targeted support\u2014such as retraining and transition funds for workers and small businesses\u2014so communities can grow while ecosystems and public health improve.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and land is the foundation of long-term health and prosperity, so policy should set clear, science-based standards and hold major polluters accountable while keeping rules predictable and practical. Economic growth should come from rewarding efficiency and innovation\u2014using market-based tools and targeted investment in clean infrastructure\u2014so businesses can compete and workers can find good jobs. To keep the transition fair, phase changes in over time and provide job training, transition support, and straightforward help for small businesses and local communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be anchored in constitutional, impartial enforcement while recognizing that legitimacy and public cooperation are essential to lasting safety. Agencies should adopt a \u201cleast-harm\u201d model\u2014clear limits on stops, searches, and force; duty-to-intervene; de-escalation and crisis-response capacity; and routine public reporting on outcomes\u2014paired with swift, fair discipline and independent review when standards are breached. Redirecting nonviolent behavioral-health and quality-of-life calls to trained civilian teams, and using data to focus on serious, repeat harm rather than broad sweeps, can reduce crime and unnecessary contact while respecting civil rights and supporting officer safety.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by grounding practice in clear, constitutional standards\u2014especially for stops, searches, and use of force\u2014paired with rigorous de\u2011escalation and crisis/mental\u2011health response training. Trust and effectiveness improve when departments use body\u2011worn cameras, transparent data reporting, and truly independent oversight with fair, consistent accountability and due process for both residents and officers. Communities are safest when police work in sustained partnership with neighborhoods and when nonviolent and behavioral\u2011health calls are routed to appropriate social-service or co\u2011responder teams, with regular evaluation to focus enforcement where it is evidence\u2011based and narrowly tailored.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as inseparable goals by setting clear, constitutional use-of-force standards and prioritizing de-escalation, crisis-intervention, and bias-awareness training so encounters are safer for residents and officers. Trust grows when there is transparent data reporting, body-worn cameras with privacy safeguards, and independent oversight that provides fair investigations and due process for both the public and police. Communities are better served when nonviolent mental-health and social-service calls are routed to specialized responders, while police focus on serious crime with targeted, evidence-based enforcement and regular neighborhood input.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

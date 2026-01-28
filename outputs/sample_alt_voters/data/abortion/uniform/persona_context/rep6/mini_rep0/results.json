@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star_personas": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to reduce harm and protect human dignity by pairing clear, medically grounded rules with strong safeguards for patient health, privacy, and timely care. Limits, where adopted, should be workable in practice and include well-defined exceptions for rape, incest, and serious threats to the pregnant person\u2019s life or major bodily functions, with decisions guided by qualified clinicians rather than criminal enforcement. At the same time, society should invest in proven prevention and support\u2014contraception, accurate sex education, prenatal and postpartum care, adoption pathways, and economic help\u2014so fewer pregnancies become crises and fewer people feel pushed toward abortion.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be pragmatic and compassionate, protecting patients\u2019 health, dignity, and privacy while recognizing the moral seriousness many attach to developing life. Policy should rely on clear, evidence-based medical standards and timely patient\u2013clinician decision-making, with narrowly tailored exceptions at least for rape, incest, and serious threats to the pregnant person\u2019s life or long-term health. Alongside any limits, governments should avoid criminalizing people in crisis and invest in prevention and support\u2014accessible contraception and comprehensive sex education, plus affordable prenatal/postpartum care, adoption options, and economic and childcare supports\u2014so fewer families face desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to reduce harm and protect both human dignity and public health by grounding rules in medical evidence and preserving patient privacy, with time\u2011sensitive decisions made by patients in consultation with qualified clinicians rather than politicians. Any limits should be clear, consistently enforceable, and include narrow exceptions for rape, incest, and serious threats to the pregnant person\u2019s life or health, with compassionate safeguards for severe fetal conditions. Policy should also invest in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption options, and economic and childcare assistance\u2014so fewer families face crisis pregnancies and no one is treated as a criminal for seeking needed care.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

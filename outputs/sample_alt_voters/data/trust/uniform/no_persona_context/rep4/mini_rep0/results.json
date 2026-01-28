@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Institutions can rebuild trust by setting clear, limited commitments and then proving they meet them\u2014on time, on budget, and with fair treatment for everyone. They should make decisions traceable with easy-to-read explanations, publish results people can verify, and provide simple paths for appeals and redress when things go wrong. Regular independent evaluations plus community-led feedback panels can surface problems early and show that reforms are real, not just promised.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions act like dependable service providers: explain decisions in plain language, publish verifiable data and clear performance metrics, and consistently deliver fair, usable services that improve daily life. They should admit mistakes quickly, fix them transparently, and provide real avenues for feedback, redress, and local participation so people can see how decisions are made and influence outcomes. Independent audits and oversight help ensure accountability and protect rights and freedoms, creating common ground across different values and viewpoints.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions deliver fair, predictable services and explain decisions in plain language people can verify with open data, clear budgets, and simple performance measures. They should invite local input early, protect privacy and individual rights, and keep rules consistent so communities and small businesses know what to expect. Independent audits and review boards, plus fast, public correction when mistakes happen, show that no one is above accountability and that institutions are working for the common good.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

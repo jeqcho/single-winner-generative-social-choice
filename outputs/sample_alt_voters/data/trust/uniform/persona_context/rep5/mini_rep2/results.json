@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star": {
+      "winner": "50",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make their work easy to see, evaluate, and challenge: publish goals, budgets, and decision rationales in plain language, then report outcomes against clear benchmarks. Create real checks\u2014independent inspectors, open data, conflict\u2011of\u2011interest rules, and simple complaint/appeal paths\u2014so accountability doesn\u2019t depend on politics or personalities. Share power with communities through ongoing local councils and deliberative forums that include skeptics and supporters, and show respect by correcting errors quickly and compensating harms when warranted. Deliver reliable, fair service first and communicate trade\u2011offs honestly so people can judge institutions by consistent performance rather than promises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver steady, competent service people can see in everyday life, while explaining decisions and trade-offs in plain language. Make accountability visible through transparent processes, routine metrics and audits, and truly independent oversight, and require leaders to admit mistakes quickly and fix them. Bring decisions closer to communities with meaningful local participation, respectful listening, and accessible civic education\u2014including multilingual outreach\u2014so residents can verify performance and help set priorities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver reliable, everyday services\u2014safe communities, fair treatment, and responsive help\u2014while explaining decisions and trade\u2011offs in plain language people can check. Make accountability visible through independent oversight, routine audits, and public performance measures, and require leaders to promptly admit mistakes, fix them, and prevent repeats. Bring decisions closer to residents with respectful local listening, multilingual access, and practical civic education so people across political and cultural lines can participate and see results. Protect individual rights and use tax dollars responsibly so trust is earned through steady competence, not rhetoric.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

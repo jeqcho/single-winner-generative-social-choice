@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a simple bargain: the public gets safety and fair treatment, and officers get clear authority, strong training, and accountable support. That means narrow, well-defined use-of-force and search standards; continuous de-escalation, bias, and disability training; and independent review with transparent reporting that protects both civil rights and due process for officers. It also means shifting appropriate calls to co-responder or civilian teams (mental health, addiction, homelessness, traffic and youth services), while partnering with residents to set priorities and measure results so enforcement is focused, proportional, and respectful.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals, guided by clear, consistently enforced use\u2011of\u2011force standards, evidence\u2011based de\u2011escalation and bias/cultural\u2011competency training, and transparent, independent oversight. Communities are best served when officers are supported with fair training, wellness resources, and due\u2011process discipline, while accountability is strengthened through open data and measurable outcomes. Expanding partnerships that route appropriate calls to mental\u2011health and social\u2011service responders, alongside sustained community engagement, can reduce unnecessary confrontations and build durable trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while protecting constitutional rights through clear, consistently enforced rules\u2014especially on stops, searches, and use of force\u2014backed by regular de-escalation, bias/cultural-competency, and crisis-intervention training. Independent oversight with transparent reporting and body-worn cameras that include strong privacy safeguards can strengthen accountability and public trust. When appropriate, pair police with well-funded mental-health, addiction, and social-service responders so crises are met with the right help and less force. Support officers with fair due process, adequate staffing, and wellness resources, and measure success by reduced violence, fewer rights violations, and higher community confidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

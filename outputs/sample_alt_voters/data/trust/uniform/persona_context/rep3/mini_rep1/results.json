@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for people to see how decisions are made, how money is spent, and whether services actually improve\u2014using plain-language summaries alongside publicly available data. Setting clear standards, protecting due process, and empowering truly independent audits and ombuds offices ensure mistakes are surfaced and fixed quickly rather than defended. Regular, structured community input (including dissenting voices) plus small, consistent wins in everyday services can rebuild confidence across political lines without requiring anyone to surrender their core values.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions deliver predictable, everyday results\u2014safe services, fair processes, and timely problem\u2011solving\u2014backed by clear standards, independent oversight, and transparent performance data people can easily verify. Decisions and tradeoffs should be explained in plain, accessible language, with prompt admission and correction of mistakes and accountable follow\u2011through. Regular, respectful local engagement that treats residents as partners\u2014while practicing fiscal and ethical stewardship and protecting individual rights\u2014builds practical common ground across political divides.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions deliver the basics reliably\u2014safe streets, honest courts, working schools and clinics\u2014while showing, in plain language, how decisions are made and where money goes. Set clear rules and due process, publish simple performance measures, and use independent audits and inspections so anyone can verify results, not just take promises on faith. When mistakes happen, leaders should admit them quickly, fix them, and face consequences, while keeping regular local forums and easy complaint channels so people are treated as partners. Consistent competence, fiscal and ethical stewardship, and respectful listening can rebuild confidence across political lines without demanding everyone agree on ideology.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

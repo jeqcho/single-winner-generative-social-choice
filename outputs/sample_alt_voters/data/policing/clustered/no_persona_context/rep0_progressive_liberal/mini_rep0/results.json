@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "93",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim to prevent harm and solve problems while treating constitutional rights as non\u2011negotiable: use the least intrusive response that can safely achieve a legitimate public\u2011safety goal. Agencies should set clear, enforceable standards for stops, searches, and use of force; train and equip officers for de\u2011escalation, bias\u2011aware decision\u2011making, and crisis response; and back this with independent review, transparent reporting, and fair, consistent discipline. Expanding non\u2011police crisis options and community\u2011driven priorities\u2014measured by outcomes like reduced violence, fewer injuries, and equitable enforcement\u2014can improve safety and trust together.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals by using clear, consistently enforced rules of engagement\u2014especially strict, proportional use\u2011of\u2011force limits\u2014paired with routine de\u2011escalation and bias/cultural\u2011competency training. Independent, transparent oversight with accessible complaint processes and regular public reporting should measure outcomes and ensure fair, timely accountability. Communities are safest when officers are supported and partnered with residents and with mental\u2011health and social\u2011service alternatives that prevent crises and reduce unnecessary arrests and harm.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should advance public safety and civil rights together by setting clear, enforceable standards for stops, searches, and use of force; prioritizing de-escalation and bias-aware training; and ensuring transparent, independent review with accessible complaint processes and public reporting. Agencies should be equipped to respond effectively by partnering with mental-health and social-service professionals, using alternatives to arrest when appropriate, and investing in prevention and community-led problem solving. Measuring outcomes and correcting patterns of harm\u2014while supporting officer safety and wellbeing\u2014can reduce unnecessary confrontations, improve fairness, and build durable public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

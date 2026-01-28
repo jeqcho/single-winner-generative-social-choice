@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect human life and health in a pluralistic society, recognizing that citizens disagree in good faith about fetal moral status. A durable framework sets clear, workable rules that preserve timely medical care\u2014especially in emergencies and cases of serious fetal or maternal risk\u2014while reducing the pressures that lead to abortion through contraception access, comprehensive prenatal care, and economic support for parenting and adoption. The test of policy should be fewer preventable deaths, less coercion and stigma, and more genuine choice for families facing difficult circumstances.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by reducing preventable harm and respecting human dignity in a pluralistic society\u2014taking seriously both concern for developing life and the health, autonomy, and lived realities of pregnant people. A workable framework protects timely, evidence-based medical care with clear exceptions for serious health risks and emergencies, while remaining transparent about tradeoffs where moral disagreement persists. Common ground includes preventing unintended pregnancies and expanding supports\u2014prenatal and maternal healthcare, contraception and education, and economic and childcare assistance\u2014so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared commitment to human dignity, protecting health and life, and respecting freedom of conscience in a pluralistic society. A workable framework ensures timely, medically sound care\u2014including clear exceptions for life-threatening or serious health situations\u2014while setting transparent, democratically accountable rules that reflect society\u2019s concern for developing life. Common ground also means reducing unintended pregnancies and pressure-driven decisions through better sex education, affordable contraception, prenatal care, childcare, and economic support, so people have real options rather than crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "86"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "86"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "86"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "12"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "46",
+      "epsilon": 0.0,
+      "full_winner_idx": "46"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_personas": {
+      "winner": "34",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental limits as real economic constraints and designs policies that cut pollution and waste while keeping businesses competitive. Set clear, measurable standards with flexibility in how to meet them\u2014using tools like performance targets, permitting reform for cleaner projects, and incentives that reward efficiency and innovation. Pair these steps with transitional help for workers and regions that rely on high-emission industries, so near-term livelihoods are protected while the economy shifts toward durable, lower-risk growth.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based safeguards for clean air, water, and climate while using predictable, market-based incentives that reward cleaner innovation and competitiveness. Pair smart, evidence-driven regulation with investments in clean energy, infrastructure, and affordable technologies so businesses can create good local jobs. Ensure a fair, phased transition with workforce training and targeted support for workers and communities most affected, so families and small businesses are not left behind and long-term prosperity is strengthened.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and land is a core responsibility because public health and local livelihoods depend on it, and it also reduces long-term costs for families and taxpayers. We should set clear, science-based standards and predictable timelines, then use market incentives and public-private partnerships to help businesses\u2014especially small firms, manufacturing, and the trades\u2014innovate and stay competitive. A fair balance includes phased transitions, worker retraining and placement, and targeted support for communities that rely on legacy industries, so environmental progress strengthens\u2014not undermines\u2014economic opportunity.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

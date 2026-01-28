@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star": {
+      "winner": "59",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental limits as practical guardrails for a competitive economy: protect critical air, water, and habitat standards while giving businesses flexibility in how they meet them. Pair predictable, gradually tightening rules with market signals like pollution pricing or performance standards, and reinvest revenues in lower energy costs, clean infrastructure, and support for workers and regions in transition. Decisions should be judged with transparent metrics that track both ecological outcomes and broad-based prosperity over the long term.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection as a foundation for long-term prosperity by internalizing pollution and resource costs so markets reward efficiency and clean innovation. Pair evidence-based, phased standards and transparent metrics with targeted investments in clean infrastructure and workforce retraining, giving businesses and communities clear timelines and practical support to adapt. This approach safeguards critical ecosystems and public health while sustaining resilient jobs, stable energy systems, and broadly shared economic opportunity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection as essential infrastructure for long-term prosperity, while keeping energy and everyday costs affordable and jobs secure. We can do this by pricing pollution and rewarding efficiency and clean innovation, paired with clear, phased standards and transparent results. Just as importantly, we should invest in worker retraining, local economic diversification, and targeted support for communities and small businesses so the transition is fair and practical.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

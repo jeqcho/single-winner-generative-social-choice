@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.29000000000000004,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "86",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_personas": {
+      "winner": "86",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, achievable environmental guardrails while giving businesses flexibility in how they meet them. Use phased timelines, transparent metrics, and a mix of market signals and targeted public investment to speed cleaner technology and infrastructure without sudden shocks to local economies. Pair these policies with straightforward permitting and strong transition support\u2014training, wage help, and assistance for small firms\u2014so communities can keep good jobs while reducing pollution and health risks.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Clean air, water, and healthy land are the foundation of lasting prosperity, so environmental protection and economic growth should be treated as reinforcing goals. Use clear, science\u2011based standards with predictable, phased timelines, paired with market incentives that reward cleaner innovation and let businesses plan and compete. Back the transition with targeted support\u2014retraining, practical compliance help, and temporary assistance for affected workers and small businesses\u2014guided by local input and measurable results so communities keep good jobs while reducing harm for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Clean air, safe water, and healthy land are not luxuries\u2014they protect public health and are the groundwork for long-term local prosperity\u2014so environmental safeguards should be strong, science-based, and consistently enforced. At the same time, policies should be predictable and phased in, using market incentives and support for clean innovation so businesses can plan and costs stay reasonable for working families. When communities face disruption, we should provide targeted help\u2014retraining, apprenticeships, and temporary assistance for workers and small businesses\u2014shaped by local input and measured with clear results so no community is left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety in ways that are demonstrably lawful, proportionate, and focused on preventing harm, with force and intrusion used only when necessary and justified. Departments can earn broad support by pairing clear, enforceable standards (especially for stops, searches, and use of force) with independent auditing, timely public reporting, and fair discipline that protects both community rights and officers\u2019 due process. Expanding non-police responses for mental health, homelessness, and substance-use crises\u2014while measuring outcomes for crime, injuries, and rights impacts\u2014helps align everyday practice with both safety and civil liberties.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the principle that public safety and civil rights reinforce each other: legitimacy and effectiveness depend on fair, respectful treatment and public trust. Departments should prioritize de-escalation and clear, proportionate use-of-force standards, supported by strong training and officer support, while expanding alternatives for mental-health and other nonviolent crises. Transparency\u2014through body-worn camera policies, open data, and accessible complaint processes\u2014paired with independent oversight and regular outcome reviews can hold agencies accountable. Success should be measured with shared metrics that track both reductions in violence and reductions in rights violations, shaped with meaningful community input.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue the shared goal of safer neighborhoods while consistently protecting constitutional rights, recognizing that trust and cooperation are essential for effective crime prevention. That means clear and publicly understood rules for stops, searches, and use of force; strong training in de-escalation and communication; and fair, independent review when complaints arise. Communities and departments should use transparent data and agreed-upon metrics that track both safety outcomes (like reduced violence) and rights outcomes (like fewer excessive-force incidents), while expanding alternatives for mental-health and nonviolent crisis calls so officers can focus on serious threats.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

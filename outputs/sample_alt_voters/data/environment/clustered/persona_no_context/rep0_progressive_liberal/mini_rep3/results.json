@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.19999999999999996,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable balance starts by recognizing that environmental damage is an economic liability, but change must be paced so workers, small businesses, and energy-reliant communities can adapt. Set clear, science-based goals for clean air and water, then give industry flexible paths to meet them through performance standards, market mechanisms, and support for innovation. Pair these protections with transition funding\u2014retraining, local redevelopment, and targeted help for small firms\u2014so the benefits of a healthier environment and a stronger economy are shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, clean water, and healthy ecosystems as foundations of long-term public health and economic resilience. A fair balance pairs clear, science-based and predictable standards with phased timelines, market incentives for cleaner technology, and investments in modern infrastructure that spur innovation and job creation. To keep communities whole, policies should include worker retraining and targeted support for small businesses and regions in transition, shaped with meaningful local input and accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as a shared long-term security plan: clean air and water protect public health and reduce future costs, while stable jobs keep families and communities strong. The best balance comes from clear, science-based standards with predictable timelines, paired with incentives and technical help\u2014especially for small businesses and rural working industries\u2014to adopt cleaner, more efficient practices. Investments in clean infrastructure, local innovation, and paid retraining and transition support can create good jobs without leaving workers and communities behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

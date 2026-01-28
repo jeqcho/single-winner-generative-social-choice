@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "60"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "60"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable middle ground is to keep the Electoral College\u2019s state role but reduce winner-take-all distortions so the outcome more consistently matches the national vote. States could adopt a uniform proportional allocation formula (with a modest statewide threshold to avoid extreme splintering) and pair it with nationwide baseline rules for ballot access, audits, and automatic recount triggers. This would broaden campaigning beyond a few battlegrounds, protect confidence in close elections, and still preserve a meaningful state-based framework.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential elections should feel fair, transparent, and easy to trust, while still respecting the federal role of states and ensuring rural, suburban, and urban communities all feel heard. A strong compromise is to keep the Electoral College but end winner-take-all by allocating electors proportionally (or through a district-based method with guardrails against gerrymandering), paired with clear nationwide standards for ballot access, recount triggers, and post\u2011election audits. Reforms should aim to make outcomes track the national popular will more closely and reduce the sense that a handful of swing states decide everything, without giving either party an advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any reform should make elections feel fair and easy to trust by ensuring every lawful vote is counted transparently while keeping a meaningful role for states and smaller communities. A strong compromise is to keep the Electoral College but end winner-take-all by allocating electors proportionally (or through a district-plus-statewide method) nationwide, paired with clear, uniform rules for ballot access, audits, and recounts. If a broader shift is desired, the National Popular Vote compact could be a phased option once enough states join, so the winner reliably matches the national vote without a sudden constitutional overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

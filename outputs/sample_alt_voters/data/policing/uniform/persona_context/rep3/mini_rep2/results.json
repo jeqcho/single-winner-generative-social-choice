@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should focus on preventing harm and responding proportionately, with the least intrusive methods that still keep people safe and respect constitutional rights. That means clear use-of-force limits, strong supervision, and routine public reporting on stops, searches, complaints, and outcomes\u2014paired with independent review and fair due process for both residents and officers. Cities should expand co-responder models and diversion options for mental-health, substance-use, and homelessness-related calls, while investing in training, recruitment, and wellness so officers can resolve conflicts without unnecessary force and communities can trust the results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by grounding all enforcement in clear, lawful standards\u2014especially for use of force\u2014backed by rigorous, ongoing de-escalation, crisis-response, and cultural-competency training. Nonviolent behavioral-health and social-service calls should be diverted when appropriate to dedicated mental-health crisis teams, while officers receive adequate resources, wellness support, and consistent discipline. Transparent data reporting, body-worn cameras with privacy safeguards, and independent civilian oversight should track measurable outcomes and ensure accountability. Sustained community partnerships and regular public input can rebuild trust so safety improves without sacrificing dignity or liberty.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while strictly protecting constitutional rights through clear, enforceable use-of-force and search standards, regular de-escalation and crisis-response training, and consistent, fair discipline when rules are broken. Pair officers with the right tools for the right call\u2014mental-health and substance-use co-responders, youth and social-service diversion, and language/cultural competence\u2014so fewer situations escalate to force. Earn trust with transparent reporting, body-worn cameras with privacy safeguards, and independent review that includes community and law-enforcement voices, while also investing in officer staffing, training, and wellness so professionalism and safety reinforce each other.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

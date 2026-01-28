@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "94"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "50",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should start from two shared aims: protecting human dignity and minimizing preventable suffering, while keeping policy anchored in medical reality rather than partisan signaling. A balanced framework can preserve early, timely access to care and guarantee unequivocal exceptions for threats to the pregnant person\u2019s life or serious health harm, with later-pregnancy decisions guided by clear clinical standards and accountable oversight. Whatever limits are set, they should be paired with proven supports\u2014contraception, accurate education, prenatal and postpartum care, adoption services, and economic help\u2014so fewer pregnancies become crises and fewer people feel trapped. Enforcement should focus on safety, transparency, and support, not criminalizing patients or second-guessing good-faith medical judgment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be grounded in compassion, clear medical evidence, and respect for human dignity, recognizing both the moral seriousness many attach to potential life and the complex realities families and clinicians face. A workable approach protects access to safe, timely care\u2014especially for medical emergencies and serious health threats\u2014while allowing room for professional medical judgment and patient privacy through plainly written, consistent rules. Common ground is strengthened by reducing unwanted pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and mental-health care, and practical supports like paid leave, childcare, and adoption resources. Policy should focus on prevention and support rather than punishment, so fewer people are pushed into crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should balance respect for unborn life with respect for a pregnant person\u2019s health, dignity, and freedom of conscience, and they should be grounded in clear medical evidence rather than politics. Policy should guarantee timely care in emergencies and serious health threats, protect patients\u2019 privacy and clinicians\u2019 good-faith judgment, and set any limits in plain language with workable, narrowly tailored exceptions. Common ground also means reducing unintended pregnancies and hardship through comprehensive education, affordable contraception, prenatal and mental-health care, and practical support for parents and adoption\u2014so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

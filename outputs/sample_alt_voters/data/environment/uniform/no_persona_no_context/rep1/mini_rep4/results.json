@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "95",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance is to treat environmental limits as non\u2011negotiable guardrails while giving the economy flexibility in how to meet them. Set science-based thresholds for emissions and ecosystem protection, then use a mix of predictable standards, market tools, and targeted public investment to let businesses innovate and compete. Pair these measures with transition support for workers and regions, and regularly review results to tighten or adjust policies based on real-world outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental protection as an economic necessity: prevent irreversible ecosystem damage while using phased, predictable rules that give businesses time to innovate and invest. Policies should internalize pollution costs and reward cleaner production through tools like carbon pricing, targeted incentives, and clear standards, guided by transparent metrics. Pair these measures with strong engagement of communities, workers, scientists, and industry\u2014plus transition support for affected regions\u2014so the shift is fair, practical, and strengthens long\u2011term prosperity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "We can protect the environment and grow the economy by focusing on practical steps that cut pollution and waste while keeping jobs and costs in mind. Set clear, science-based standards to prevent irreversible damage, then use flexible tools\u2014like incentives, phased timelines, and market-based pricing where appropriate\u2014so businesses can innovate and adapt. Pair these policies with targeted support for workers, small businesses, and communities most affected, and track results transparently to ensure both cleaner air and water and a stronger, more resilient economy.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

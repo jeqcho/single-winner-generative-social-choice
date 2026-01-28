@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "49",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the idea that long-term safety comes from lawful, respectful enforcement that people can predict and trust. That means clear limits on stops, searches, and use of force; strong due-process protections; and early-warning, auditing, and independent investigation systems that correct problems before they escalate. Pair targeted, evidence-based patrol and problem-solving with non-police responses for mental health, addiction, and homelessness, and regularly publish results so the public can judge both crime reduction and rights protections.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the principle that public safety and civil rights reinforce each other, and legitimacy depends on delivering both. Prioritize clear, enforceable use-of-force limits, de-escalation and bias-aware training, and transparent data on stops, force, and outcomes. Pair that with independent civilian oversight, accessible complaint and remedy processes, and community-shaped priorities plus alternatives to arrest (including crisis and social-service response) so preventable harm falls while safety improves.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a simple standard: keep communities safe while consistently respecting constitutional rights and treating people with dignity. That means clear, public rules for stops and use of force; strong de-escalation and bias-aware training; transparent reporting of outcomes; and independent, fair review when problems occur. Pair targeted, evidence-based enforcement for serious crime with community-informed priorities and non-police crisis and social-service responses where appropriate, so safety improves without unnecessary arrests or harms.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

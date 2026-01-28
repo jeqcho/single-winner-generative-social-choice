@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be built around protecting health, dignity, and freedom of conscience, using clear medical definitions so patients and clinicians can act quickly when pregnancy threatens life or serious health. At the same time, it should take seriously the widely held interest in developing life by setting transparent, workable boundaries later in pregnancy that include well-defined exceptions for medical emergencies, severe fetal conditions, and pregnancies resulting from sexual violence. A durable approach also reduces pressure on anyone\u2019s choices by expanding prevention and support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, childcare, and economic stability\u2014while avoiding punitive, criminal-style enforcement.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should be grounded in clear, evidence-based medical standards that protect patient health, privacy, and timely care, while acknowledging the moral seriousness many attach to developing life. Decisions should remain primarily between patients and qualified clinicians, with narrowly defined, workable exceptions for threats to life or serious health, rape or incest, and severe fetal conditions, and without punitive enforcement that deters emergency care. To reduce the number of crisis pregnancies and support families, policy should pair any limits with broad prevention and assistance\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption options, and economic and childcare supports.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in clear, evidence-based medical standards that protect patient safety, privacy, and the ability of clinicians to act quickly in emergencies, while acknowledging that many people attach real moral value to developing life. Any legal limits should be predictable and narrowly tailored, with explicit exceptions for threats to the pregnant person\u2019s life or serious health, rape or incest, and severe fetal conditions, and should avoid punitive approaches that criminalize patients or providers acting in good faith. To reduce the number of abortions and support families, policy should also expand comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption and childcare options, and practical economic supports so fewer people face crisis pregnancies.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

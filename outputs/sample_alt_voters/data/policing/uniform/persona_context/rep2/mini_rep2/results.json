@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for the least intrusive, most effective response needed to keep people safe, with constitutional rights treated as a core performance requirement rather than a tradeoff. Departments should set clear, publicly known rules for stops, searches, and use of force; train and reward de-escalation and problem-solving; and ensure swift, independent investigation and fair discipline when rules are broken. Co-responder and non-police options for behavioral-health and low-level community issues, paired with transparent data on outcomes and disparities, can reduce unnecessary encounters while helping officers focus on serious harm. Regular community input, strong privacy protections for technology, and support for officer wellness and professionalism are essential to sustaining trust and safety over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing, guided by clear, constitutionally grounded standards\u2014especially for stops and use of force\u2014paired with rigorous, ongoing de-escalation, bias/cultural-competence, and trauma-informed training. Accountability should be transparent and independent, with routine public reporting of measurable outcomes and body-worn camera policies that include strong privacy safeguards. Communities should expand mental-health and social-service crisis responses and maintain sustained partnerships with residents, while also supporting officer training and wellbeing so good policing is both effective and accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while protecting constitutional rights through clear, consistently enforced standards for stops, searches, and use of force, backed by regular de-escalation, bias-awareness, and crisis-response training. Independent oversight with transparent, timely reporting\u2014alongside body-worn camera policies that include strong privacy safeguards\u2014can build trust and ensure fair accountability. Communities should expand partnerships with mental-health and social-service teams so the right responders handle crises, while also supporting officers with proper staffing, wellness resources, and fair protections when they follow the rules.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

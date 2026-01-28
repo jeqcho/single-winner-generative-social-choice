@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star": {
+      "winner": "96",
+      "epsilon": 0.0,
+      "full_winner_idx": "96"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "95",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to protect both human dignity and patient safety by keeping urgent medical decisions with patients and qualified clinicians, not politicians. A workable framework can preserve privacy and access early in pregnancy, allow carefully defined limits later with clear exceptions for life and serious health risks (and for rape or incest), and avoid criminal penalties for patients or doctors acting in good faith. Whatever the legal line, policy should prioritize prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and economic help for families\u2014so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be grounded in compassion, medically accurate evidence, and respect for personal dignity, recognizing both the serious moral weight many people place on potential life and the real, time-sensitive circumstances pregnant people and clinicians face. A workable framework protects privacy and safe, timely care\u2014especially early in pregnancy\u2014while setting clear, medically defined limits later on with strong exceptions for threats to life or health, rape or incest, and nonviable or catastrophic fetal conditions, and avoids criminalizing patients or doctors. Whatever the legal lines, policy should reduce crisis pregnancies and hardship through comprehensive sex education, affordable contraception, and strong prenatal, postpartum, and family supports so fewer people feel cornered into impossible choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to protect human dignity by keeping patients safe, respecting conscience and privacy, and grounding rules in medically accurate standards rather than political punishment. A workable middle path can protect timely care early in pregnancy, provide clear and humane limits later, and guarantee strong exceptions for threats to the mother\u2019s life or serious health risks, as well as for rape, incest, and nonviable pregnancies, with decisions guided by qualified clinicians. Whatever the legal framework, society should reduce crisis pregnancies and support families through comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption resources, and practical economic help so fewer people feel cornered into painful choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

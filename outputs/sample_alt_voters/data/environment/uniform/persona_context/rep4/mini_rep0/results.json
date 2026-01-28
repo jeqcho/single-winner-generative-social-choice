@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "43"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "49",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth should be pursued within clear environmental limits that prevent irreversible harm, because degraded air, water, and land ultimately raise costs and weaken communities. Set outcome-based standards with transparent timelines, then give businesses flexible pathways\u2014tax credits, financing, and technical assistance\u2014to meet them while encouraging innovation. Pair these rules with transition support for workers and regions most affected, so the benefits of cleaner production and new investment are broadly shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing by protecting clean air, water, and soil with science-based, enforceable standards while giving families, farmers, and businesses predictable, phased timelines to adapt. Pair clear rules with market incentives and investment in cleaner technology, infrastructure, and locally led solutions that fit community realities. Provide fair transition support\u2014especially workforce retraining and help for small businesses\u2014so the costs and benefits are shared and communities remain competitive while safeguarding natural resources for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as shared priorities: clean air, safe water, and healthy land protect public health and property values, while steady jobs and affordable energy keep families and small businesses secure. Set clear, science-based, enforceable standards with predictable, phased timelines, and use market incentives to speed cleaner technology and infrastructure upgrades without sudden shocks. Pair this with locally guided plans, transparent results, and fair transition support\u2014training, apprenticeships, and help for small employers and workers\u2014so every community can adapt and benefit.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

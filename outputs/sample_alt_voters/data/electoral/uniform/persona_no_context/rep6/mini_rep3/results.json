@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for two shared goals: the winner should reflect the broad will of voters, and regions outside major metros should still matter in presidential campaigns. A workable compromise is to keep the Electoral College but end winner-take-all by requiring proportional (or district-based) elector allocation nationwide, paired with a uniform set of baseline rules for access, counting, audits, and recount triggers so results are easier to verify and accept. Over time, states could opt into an interstate agreement that guarantees the national popular-vote winner once the new standards are in place and a clear transition threshold is met, reducing the risk of sudden disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep a meaningful state role and the benefits of broad geographic coalitions, while reducing \u201cwinner-take-all\u201d distortions so outcomes track the voters\u2019 will more closely. A practical middle path is to keep the Electoral College but allocate electors proportionally or by district nationwide, require electors to follow their state\u2019s certified results, and set clear, uniform standards for ballot access, audits, and recounts. This approach makes more votes matter in more places, strengthens transparency and integrity, and helps both rural and urban communities feel represented and confident in the outcome.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any reform should make the presidential result line up more closely with how Americans actually vote, while keeping states and smaller communities meaningfully involved so campaigns don\u2019t just chase a few big metro areas. A workable compromise is to keep the Electoral College but replace winner-take-all with proportional (or Maine/Nebraska-style district) allocation, require electors to follow their state\u2019s vote, and adopt clear nationwide standards for ballot access, voter-roll accuracy, audits, and recounts. This would reduce \u201cswing state\u201d distortion, improve trust and transparency, and still respect the federal structure that many voters value.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

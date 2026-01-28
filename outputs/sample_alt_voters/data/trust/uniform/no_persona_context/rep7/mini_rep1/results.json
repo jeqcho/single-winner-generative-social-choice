@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make decisions in the open\u2014sharing goals, evidence, costs, and uncertainties in clear language\u2014and then follow through with reliable, everyday service. Create simple ways for residents to question decisions, appeal outcomes, and see corrections when mistakes happen, backed by independent evaluation rather than political messaging. When rules are applied consistently and feedback leads to visible improvements, people across viewpoints can judge institutions by predictable fairness and results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions reliably deliver everyday services while explaining decisions and trade\u2011offs in plain, culturally accessible language. It strengthens when rules are applied consistently and outcomes are measured and published so people can see what is working. Independent audits and real accountability\u2014admitting mistakes, fixing them quickly, and learning openly\u2014show integrity. Ongoing two\u2011way local engagement and co\u2011design let communities help shape fair, practical solutions and verify that institutions serve the common good, not special interests.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions are predictable and fair: explain decisions in plain language, apply rules consistently, and show where money goes and what results people can expect. Back this up with independent audits, strong ethics safeguards, and prompt, public correction when mistakes happen. Build trust locally through regular two-way listening\u2014especially with underserved communities\u2014and deliver visible improvements in everyday services so people can verify performance for themselves.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

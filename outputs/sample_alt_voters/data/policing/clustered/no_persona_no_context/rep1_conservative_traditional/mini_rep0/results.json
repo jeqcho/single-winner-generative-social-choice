@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a harm\u2011reduction framework that makes protecting life, dignity, and constitutional rights the first duty of every encounter. That means clear limits on stops, searches, and use of force; strong training in communication and de\u2011escalation; and reliable alternatives for mental\u2011health and low\u2011level incidents so police are not the default response. Public trust and safety are strengthened when policies, data, and discipline processes are transparent, independently audited, and shaped with ongoing community input.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a shared commitment to public safety and civil rights, recognizing that legitimacy and trust are essential to achieving both. That means prioritizing de-escalation and proportional responses, bias-aware training, and evidence-based tactics that minimize harm while protecting due process and equal treatment. To sustain confidence, departments should partner with communities in setting goals and publish clear metrics, backed by transparent reporting and independent oversight for misconduct.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a dual commitment to protect public safety and uphold constitutional rights, treating these goals as mutually reinforcing. That means clear, enforceable policies; training that prioritizes de-escalation, proportional responses, and bias awareness; and transparent reporting with independent review when serious incidents occur. Strong community partnership\u2014alongside support for officer training and wellness and appropriate alternatives for nonviolent calls\u2014can build trust, improve cooperation, and reduce harm for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

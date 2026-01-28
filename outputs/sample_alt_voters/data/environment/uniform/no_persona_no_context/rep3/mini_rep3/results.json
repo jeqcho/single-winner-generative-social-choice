@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance starts by protecting non-negotiable environmental essentials\u2014clean air and water, climate stability, and biodiversity\u2014while giving businesses clear, predictable rules and time to adapt. Use market-based incentives and targeted regulation to reward efficiency and low-waste production, and reinvest revenues in innovation, infrastructure, and support for workers and regions facing disruption. This approach treats nature as critical economic infrastructure and aligns near-term competitiveness with long-term resilience.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection as a foundation for long-term prosperity while acknowledging short-term adjustment costs that must be managed fairly. Set clear, science-based environmental baselines and use cost-effective, phased policies that reward clean innovation, efficiency, and investment in low\u2011carbon industries. Pair these standards with retraining, transition support, and targeted help for vulnerable workers and regions, guided by transparent metrics and ongoing collaboration among communities, businesses, and policymakers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance starts by recognizing that clean air, water, and healthy land are essential to people\u2019s health and to livelihoods like farming and local business, so protecting them is part of protecting the economy. We should set clear, science-based safeguards while using flexible, cost-effective tools and realistic timelines so businesses can adapt and innovation can grow. At the same time, communities and workers facing higher costs or job changes deserve practical support\u2014training, infrastructure investment, and targeted relief\u2014so the transition strengthens both opportunity and stewardship for the next generation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

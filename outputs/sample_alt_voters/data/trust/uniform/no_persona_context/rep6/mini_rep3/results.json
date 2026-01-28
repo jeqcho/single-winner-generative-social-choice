@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "83"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for people to see how decisions are made, how money is spent, and what results are achieved\u2014using plain language, open data, and clear service standards. Independent oversight, strong ethics rules, and real consequences for misconduct or poor performance show that no one is above accountability. Trust grows fastest when agencies routinely work with communities to set priorities, respond quickly to complaints, and demonstrate measurable improvements in everyday services while protecting rights and privacy.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver reliable, fair services and show their work: make decisions transparently, publish clear data, and explain choices in plain, culturally aware language tied to everyday outcomes. Independent audits and enforceable accountability\u2014especially prompt admission and correction of mistakes\u2014make performance verifiable rather than rhetorical. Trust strengthens further when communities have real, accessible ways to participate, give feedback, and seek redress, so institutions act as dependable partners across different neighborhoods and viewpoints.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions are transparent about how decisions are made and money is spent, and when the same rules are applied fairly to everyone. Leaders should invite regular local input, publish clear, plain-language data on results, and use independent audits and strong whistleblower protections so mistakes are found and fixed quickly. The fastest way to rebuild confidence is to deliver reliable, everyday services\u2014safe streets, good schools, clean water, responsive courts and permits\u2014and show measurable improvement that people can see in their own communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

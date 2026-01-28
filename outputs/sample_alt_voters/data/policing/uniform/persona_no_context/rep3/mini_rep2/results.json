@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be organized around a harm\u2011reduction mission: prevent violence and respond to crime while minimizing unnecessary intrusion on constitutional rights. That requires clear, publicly known limits on stops, searches, surveillance, and use of force; scenario-based training and supervision that reward de-escalation; and independent investigation of serious incidents with timely, privacy-protecting disclosure of outcomes and data. Communities and officers should jointly set local priorities and measure results (crime, injuries, disparities, complaints), while expanding non-police responses and service referrals for mental-health, homelessness, and other nonviolent calls.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue measurable public safety outcomes while treating constitutional rights and human dignity as non\u2011negotiable, using evidence-based practices and clear, enforceable use-of-force and stop/search standards. Prioritize rigorous de-escalation and crisis-intervention training, with specialized non-police or co-responder teams for mental-health and other nonviolent calls to reduce harm. Trust and legitimacy require independent oversight, transparent and auditable data (with strong privacy safeguards), and meaningful community partnership to guide problem-solving and ensure accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights together through clear, enforceable use-of-force and search standards, strong de-escalation and crisis-intervention training, and early, coordinated response options for mental-health and nonviolent calls. Trust is strengthened when departments use transparent, auditable data; body cameras with privacy safeguards; and independent review of serious incidents and misconduct, alongside fair support and training for officers. Locally tailored, evidence-based, community-partnered problem-solving\u2014paired with investments in prevention and social services\u2014can reduce harm, improve outcomes, and maintain legitimacy across viewpoints.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

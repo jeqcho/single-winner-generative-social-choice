@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "61"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "61"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "61"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "61"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": null,
+      "full_winner_idx": "12"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star": {
+      "winner": "54",
+      "epsilon": null,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": null,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_personas": {
+      "winner": "34",
+      "epsilon": null,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as a single long-term strategy: communities prosper most when the air, water, and land they rely on stay healthy. Set clear, science-based goals and measure results, but meet them with flexible tools\u2014performance standards, market signals, and time-limited assistance\u2014so businesses can innovate and plan rather than face sudden disruption. Pair environmental rules with targeted transition support for workers and regions, rewarding solutions that cut pollution, reduce waste, and keep local industries competitive.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing, since clean air, water, and healthy land are the foundation of long-term prosperity and public health. A durable balance uses practical, science- and data-based standards with predictable timelines, paired with market-oriented incentives that reward cleaner, cost-effective innovation and keep businesses competitive. It also invests in clean infrastructure and supports small businesses, worker retraining, and community-led transition planning so families and local economies are not left behind.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based standards that keep air and water clean while giving businesses predictable, reasonable timelines to comply. Pair smart, streamlined regulation with incentives for cost-effective clean technology, energy efficiency, and conservation so companies can stay competitive and communities can stay healthy. Invest in local infrastructure, small-business help, and paid retraining/apprenticeships so workers in manufacturing, construction, and service jobs are not left behind. This approach protects public health and natural heritage while supporting stable jobs and long-term prosperity for today\u2019s families and future generations.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    }
+  }
+}

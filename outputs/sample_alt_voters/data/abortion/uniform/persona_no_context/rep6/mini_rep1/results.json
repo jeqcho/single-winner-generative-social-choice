@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should aim to protect human dignity in situations where people hold sincere, conflicting moral views, by prioritizing women\u2019s health, safety, and privacy while acknowledging the moral significance many attach to developing life. A bridging approach is to keep abortion legal and medically accessible early in pregnancy, set carefully defined limits later with clear exceptions based on medical judgment (including serious threats to health or life and cases of rape or incest), and ensure clinicians can provide care without fear of politicized penalties. At the same time, policy should reduce the need for abortion through proven prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, and economic assistance\u2014so choices aren\u2019t driven by desperation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, medical evidence, and respect for personal privacy, recognizing both the serious moral weight many attach to potential life and the complex realities that bring people to this decision. A workable approach protects safe, timely access early in pregnancy, sets clear and medically informed standards later, and includes well-defined exceptions for threats to the patient\u2019s life or health, rape, and incest\u2014written with input from clinicians and ethics experts rather than political punishment. Common ground also means reducing unintended pregnancies and crisis decisions through comprehensive sex education, affordable contraception, and strong prenatal, postpartum, adoption, and economic supports so no one is forced into outcomes by lack of care or resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by respect for human dignity, bodily autonomy, and medically grounded care, while acknowledging that many people attach serious moral weight to unborn life. A workable middle ground protects privacy and timely access early in pregnancy, and allows clear, compassionate exceptions later for rape, incest, severe fetal conditions, and serious risks to the patient\u2019s life or health, with decisions led by patients and qualified clinicians rather than politicians. To reduce the number of abortions and crisis pregnancies, policy should also expand contraception and sex education, prenatal and postpartum healthcare, mental-health support, adoption services, and practical help like childcare and economic stability.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

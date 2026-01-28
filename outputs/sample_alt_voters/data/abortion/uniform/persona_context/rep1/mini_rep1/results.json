@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to reduce harm and coercion by grounding rules in medical science, due process, and respect for deeply different moral convictions. It should protect timely, private care\u2014especially in emergencies\u2014through clear health-based exceptions (including serious threats to the pregnant person\u2019s life or long-term health, rape or incest, and lethal or nonviable fetal conditions) that clinicians can apply without fear of prosecution. Any limits should be paired with strong, measurable support to prevent unintended pregnancy and make parenting or adoption realistic: comprehensive sex education, affordable contraception, prenatal and mental-health care, paid leave, childcare, and economic assistance. The goal is fewer crisis pregnancies, fewer abortions by prevention rather than punishment, and a system that treats patients, families, and medical professionals with dignity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in sound medical evidence and compassion, balancing respect many hold for potential life with the pregnant person\u2019s health, dignity, and bodily autonomy. Time\u2011sensitive decisions should remain primarily between patients and qualified clinicians, with clear, narrowly tailored exceptions for serious threats to life or health, rape or incest, and severe fetal anomalies or nonviable pregnancies. Any legal framework should also invest in prevention and practical support\u2014comprehensive sex education, affordable contraception, prenatal care, childcare, and adoption and economic resources\u2014so fewer people face this decision under crisis conditions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be rooted in medical evidence and human dignity, aiming to reduce harm while recognizing that many citizens hold sincere, differing convictions about unborn life and bodily autonomy. Policy should guarantee timely, confidential care when a pregnancy endangers the patient\u2019s life or serious health, and provide clear, workable exceptions for rape, incest, and fatal fetal conditions, while keeping urgent decisions primarily between patients and qualified clinicians. At the same time, communities should invest in prevention and real alternatives\u2014comprehensive sex education, affordable contraception, prenatal and mental-health care, adoption support, and financial and childcare assistance\u2014so fewer pregnancies become crises and fewer families feel pushed toward any one outcome.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

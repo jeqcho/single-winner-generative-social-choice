@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "99",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by a public-health and human-rights framework that treats pregnancy as morally significant while keeping the pregnant patient\u2019s safety, agency, and privacy central. Because people disagree about when personhood begins, rules should be medically defined, transparent, and include real exceptions for health threats, rape/incest, and severe fetal anomalies\u2014without criminalizing patients or clinicians acting in good faith. Lasting policy should also invest in contraception, comprehensive sex education, prenatal care, and economic supports so fewer people face unwanted pregnancies and fewer families are pushed into crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion and harm reduction, protecting the health, dignity, and decision-making of the pregnant patient while taking seriously the moral concern many citizens feel about developing life. A workable framework should be medically grounded, clear, and non-punitive, guaranteeing timely care and explicit exceptions for emergencies and serious health threats. Common ground is strengthened by investing in prevention and support\u2014accurate information, access to contraception and prenatal care, and economic and childcare resources\u2014so fewer people face crisis pregnancies and fewer abortions are driven by desperation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to human dignity, protecting both the pregnant patient\u2019s health and autonomy and society\u2019s interest in developing life, while recognizing sincere moral and religious disagreement about when rights begin. A durable approach should prioritize prevention\u2014comprehensive sex education, affordable contraception, and strong economic and healthcare supports for parents and children\u2014so fewer people face crisis pregnancies. Any limits should be clear, medically defined, and non-punitive, with guaranteed exceptions for rape or incest and for serious threats to the patient\u2019s life or health, and with decisions in complex cases led by medical professionals rather than politicians.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

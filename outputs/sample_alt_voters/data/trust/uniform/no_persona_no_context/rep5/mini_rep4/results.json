@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "71"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "71"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "71"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "93",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make their work verifiable: set clear service standards, publish performance and spending in plain language, and invite independent audits with real consequences for misconduct. At the same time, decisions should be shaped early by those affected through accessible forums, representative advisory panels, and timely responses to public input. Focusing on fair procedures, measurable results, and visible follow-through allows people with different politics to judge trustworthiness by evidence rather than promises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver reliable, fair services and are held to clear, independent standards that prevent favoritism or secrecy. Rebuilding confidence means admitting mistakes, fixing them transparently, and reporting measurable results in plain language so people can judge progress for themselves. Institutions should also create easy, routine ways for communities to give input and see how that feedback changes decisions, balancing professional expertise with meaningful public oversight.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions prove they are fair, competent, and accountable: apply the same rules to everyone, deliver reliable services, and measure results people can see. When mistakes happen, leaders should acknowledge them quickly, explain what went wrong in plain language, and publish a clear plan and timeline for fixing it. Independent oversight, open records, and easy ways for residents to give input\u2014locally and online\u2014help ensure decisions reflect community needs while protecting integrity and equal treatment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

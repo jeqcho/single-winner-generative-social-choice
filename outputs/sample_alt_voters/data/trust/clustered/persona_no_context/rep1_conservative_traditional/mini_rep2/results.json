@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_personas": {
+      "winner": "11",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make decisions in the open\u2014showing who benefits, what evidence was used, and how tradeoffs were weighed\u2014and then report back on what worked, what didn\u2019t, and what will change. Setting simple, public performance goals, protecting privacy, and empowering independent inspectors and local citizen panels to verify results can reduce suspicion across political lines. When people can easily see fair treatment, predictable rules, and real consequences for misconduct, trust becomes a practical conclusion rather than a partisan belief.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions reliably deliver everyday results while making decisions transparent, fair, and accountable through clear rules, open records, and independent oversight. Leaders should communicate in plain language, admit mistakes, and show measurable follow-through on promises\u2014especially on shared priorities like safety, fairness, and dependable services. Rebuilding confidence also requires genuine local engagement: listening across political and cultural lines, creating accessible ways to participate and give feedback, and partnering with trusted community organizations so people can see how their input changes outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently follow the rule of law, spend public dollars responsibly, and deliver reliable services that improve everyday life\u2014while being transparent about decisions, data privacy, and results. Leaders should communicate in plain language, admit and fix mistakes quickly, and publish independent audits and clear performance measures so accountability is real, not rhetorical. Trust also increases when decisions are shaped through accessible local forums that include families, veterans, small businesses, and community and faith leaders, so people across viewpoints can see and verify that institutions serve everyone fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

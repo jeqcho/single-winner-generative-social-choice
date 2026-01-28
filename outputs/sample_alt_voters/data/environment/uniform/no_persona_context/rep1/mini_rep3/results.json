@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "76",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "76"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth should proceed within clear ecological guardrails, because degrading air, water, and climate ultimately raises costs and undermines livelihoods. Set outcome-based standards (with monitoring and enforcement) while giving businesses flexible, predictable ways to comply\u2014through performance targets, tradable credits, and faster permitting for cleaner projects. Pair this with investments in modernization, energy efficiency, and remediation, plus transition support for workers and regions so the shift is practical, competitive, and fair.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A strong economy depends on clean air, water, and healthy ecosystems, so environmental protection should be treated as a foundation for long-term prosperity rather than a tradeoff. Pair clear, science-based and enforceable standards with market-based incentives, predictable rules, and efficient permitting that reward clean innovation and let businesses plan and compete. Invest in resilient infrastructure and growing green industries, while phasing changes in and providing retraining and targeted support for workers and communities most affected. Center local input, transparent accountability, and measurable outcomes so the benefits and costs are shared fairly and results are real.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance treats clean air, water, and healthy land as non\u2011negotiable foundations for prosperity, while keeping rules predictable so businesses can invest and workers can plan. Set clear, science-based standards that hold polluters accountable, pair them with incentives and streamlined permitting for cleaner technology and resilient infrastructure, and measure results transparently. Phase changes in and provide practical support\u2014job training, small-business help, and community-led planning\u2014so the costs and benefits are shared fairly and local livelihoods are protected.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

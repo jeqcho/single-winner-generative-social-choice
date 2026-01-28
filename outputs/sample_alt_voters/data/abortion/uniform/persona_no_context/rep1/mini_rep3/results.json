@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.15999999999999992,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect both the health and dignity of the pregnant person and the moral value many people place on developing life, using clear, medically grounded standards rather than vague or punitive rules. A balanced framework should guarantee timely care and privacy in early pregnancy, and set carefully defined later-pregnancy limits with unambiguous exceptions for serious health threats and other extreme circumstances, so clinicians can act without fear. Whatever limits are set, they should be paired with real prevention and support\u2014education, contraception, prenatal and postpartum care, and resources for parenting or adoption\u2014so fewer families reach a crisis point.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for human dignity\u2014taking seriously both the moral value many attach to unborn life and the autonomy, health, and privacy of the pregnant person. A workable framework should keep early pregnancy decisions primarily between patient and qualified clinicians, with clear, medically defined limits later in pregnancy and strong exceptions for threats to health, severe fetal conditions, and cases like rape or incest. Whatever the legal lines, policies should be written plainly and consistently for clinicians, avoid criminalizing patients, and be paired with prevention and support\u2014comprehensive sex education, affordable contraception, prenatal care, adoption options, and resources that help families thrive.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, respect for human dignity, and medical evidence, recognizing both the moral value many place on unborn life and the right of pregnant people to safe, timely care in serious or complex circumstances. A workable framework sets clear, understandable standards with strong protections for the mother\u2019s life and health and carefully defined exceptions in extreme cases, written with input from clinicians, ethicists, and affected communities so rules are consistent and fair. Whatever limits exist, they should be paired with real prevention and support\u2014sex education, affordable contraception, prenatal and postnatal care, adoption services, and help with childcare and stability\u2014so fewer families are pushed into crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

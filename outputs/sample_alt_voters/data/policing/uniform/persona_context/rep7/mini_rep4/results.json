@@ -1,0 +1,117 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "borda": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "irv": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "plurality": {
+      "winner": null,
+      "error": "Candidate c-1 found in ballot RankBallot\n1.) c-1, \n2.) c-1, \n3.) c-1, \n4.) c-1, \n5.) c-1, \n6.) c-1, \n7.) c-1, \n8.) c-1, \n9.) c-1, \n10.) c-1, \n11.) c-1, \n12.) c-1, \n13.) c-1, \n14.) c-1, \n15.) c-1, \n16.) c-1, \n17.) c-1, \n18.) c-1, \n19.) c-1, \n20.) c-1, \nWeight: 1.0 but not in candidate list ('c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10', 'c11', 'c12', 'c13', 'c14', 'c15', 'c16', 'c17', 'c18', 'c19')."
+    },
+    "veto_by_consumption": {
+      "winner": null,
+      "error": "Alternative '-1' not found in alternatives list"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": null,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "86",
+      "epsilon": null,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": null,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "86",
+      "epsilon": null,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be measured by both safety outcomes and rights-protecting conduct: prevent violence while minimizing unnecessary stops, searches, and force through clear, enforceable standards and consistent training in de-escalation, constitutional limits, and disability and mental-health response. Accountability should be fair and transparent\u2014independent review, timely public reporting, and privacy-respecting tools like body-worn cameras\u2014paired with reliable complaint and remedy processes. Officers should be resourced and supported, while communities receive expanded non-police crisis and prevention services, so the right responder is sent to the right call and trust can grow alongside safety.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing clear, proportionate use-of-force standards, rigorous de-escalation and constitutional/bias training, and transparent independent civilian oversight with regular public reporting and accessible avenues for redress. Pair officers with well-funded mental-health and social-service crisis responses and sustained community partnerships to prevent harm and reduce unnecessary force. Support officer wellness, training, and fair resources while using privacy-respecting, data-driven accountability so results are measurable and trust grows.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should deliver safe neighborhoods while fully protecting constitutional rights through clear, consistently enforced use-of-force standards, routine de-escalation and bias training, and strong support for officer safety and wellness. Independent civilian oversight, timely public reporting, and privacy-respecting accountability tools should ensure transparency, fair discipline for misconduct, and accessible ways for residents to raise concerns. Communities should expand partnerships with mental-health and social-service responders and locally tailored prevention so officers can focus on serious crime, reduce unnecessary confrontations, and build durable trust.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    }
+  }
+}

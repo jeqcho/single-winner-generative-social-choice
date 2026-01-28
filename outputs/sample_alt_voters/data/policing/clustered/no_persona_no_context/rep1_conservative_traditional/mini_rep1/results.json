@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a \u201cminimum necessary\u201d approach: use the least intrusive, proportionate tools that effectively prevent harm, with clear constitutional limits and strong procedural justice. Pair evidence-based enforcement with robust non-police crisis response, youth and violence-interruption programs, and support services so officers aren\u2019t the default solution to every problem. Build legitimacy through consistent standards, body-worn camera and stop/use-of-force data that are publicly reported, and independent, timely review of serious incidents with real consequences and remedies.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the shared goal of keeping communities safe while protecting constitutional rights, recognizing that legitimacy and safety reinforce each other. That means clear, enforceable standards (especially for stops and use of force), strong de-escalation and bias-aware training, and transparent, data-driven reporting that tracks both crime reduction and rights impacts. Independent oversight and fair accountability for misconduct, paired with genuine community partnership in setting priorities and evaluating outcomes, can build trust and prevent harm. Investing in prevention and alternatives for nonviolent crises helps reduce unnecessary force while keeping officers and residents safer.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safe neighborhoods and equal treatment under the law by using clear, consistently enforced rules\u2014especially for stops, searches, and use of force\u2014paired with de-escalation training and support for officer safety and wellness. Departments should publish easy-to-understand performance measures that track both crime reduction and respectful, lawful conduct, with independent review of serious incidents to ensure accountability for everyone. Working with local residents, faith groups, and business owners on prevention and alternative responses for mental-health or substance crises can reduce repeat harm while protecting civil rights and strengthening trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

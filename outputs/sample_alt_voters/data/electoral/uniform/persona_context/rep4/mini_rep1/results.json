@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise is to keep the Electoral College\u2019s state-based structure but narrow the gap between the popular vote and the outcome by ending winner-take-all through proportional (or multi-district) allocation and requiring electors to follow the certified results. If states can agree on common eligibility, ballot design, counting timelines, and risk-limiting audits, an interstate compact that delivers the national popular-vote winner could be triggered only once those safeguards and a broad participation threshold are met. Pairing these changes with a majority-producing method such as ranked-choice voting would reduce spoiler dynamics, expand campaigning beyond a few battlegrounds, and make close results easier to accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep the state-based framework but reduce winner-take-all distortions so every lawful vote carries more comparable weight and candidates have incentives to campaign beyond a few swing areas. A practical path is to expand proportional or district-based allocation of electors, with the National Popular Vote interstate compact as an optional, phased step once widely adopted and paired with clear safeguards. Any changes should include binding electors to the voters\u2019 outcome, uniform standards for ballot access, counting, audits and recounts, and transparent, secure procedures to strengthen legitimacy and reduce litigation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College\u2019s state-based framework, but reduce winner-take-all distortions so every lawful vote has more comparable weight and candidates must campaign beyond a few swing states. A practical, phased approach is to encourage proportional (or thoughtfully designed district) allocation of electors and allow a National Popular Vote interstate compact only with clear safeguards and broad adoption. Pair any reform with nationally consistent rules for ballot access, secure counting, routine audits and recount standards, and binding electors to the voters\u2019 choice to strengthen trust and legitimacy.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

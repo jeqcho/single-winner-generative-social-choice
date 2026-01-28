@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by an ethic of shared responsibility: taking concerns about developing life seriously while ensuring pregnant patients retain safe, timely medical care and meaningful agency over their futures. A durable framework sets clear, medically grounded rules with strong protections for emergencies and complex cases, and avoids punitive enforcement that drives care underground. At the same time, it reduces the number of crisis pregnancies through contraception access, accurate education, and concrete support for parenting and adoption so fewer people feel forced into any outcome.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical reality, and humility in a pluralistic society where people disagree in good faith about moral status. Policy should protect patient safety, privacy, and timely access to essential care\u2014especially in emergencies and serious health risks\u2014while setting clear, workable standards that doctors can follow without fear. Common ground includes reducing unintended pregnancy through contraception and education, and strengthening prenatal care and practical supports for parents and children so fewer people face the decision under coercive or desperate circumstances.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect human dignity in a pluralistic society, taking seriously both concern for developing life and the reality that pregnancy can affect a person\u2019s health, safety, and future. Policy should be grounded in medical evidence and clear standards, guaranteeing timely care and strong exceptions for life-threatening conditions, serious health risks, rape or incest, and severe fetal diagnoses, without punishing patients or clinicians. Common ground also includes reducing unintended pregnancies and hardship through access to contraception, accurate education, prenatal and maternal care, and practical supports for parents and children so fewer families face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

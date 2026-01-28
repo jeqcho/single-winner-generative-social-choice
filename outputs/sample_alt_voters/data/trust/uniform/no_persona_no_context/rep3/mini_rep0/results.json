@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make it easy for anyone to see what they are trying to do, how well it\u2019s working, and what happens when it fails. Set a few shared, nonpartisan standards\u2014equal treatment, timely service, and ethical conduct\u2014and publish simple, regular scorecards alongside independent investigations and real consequences for misconduct. Pair that transparency with ongoing, two-way community input so policies can be adjusted based on lived experience and measurable results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions prove\u2014through observable actions\u2014that they are competent, fair, and answerable to the people they serve. Prioritize small, verifiable reforms: consistent service delivery, plain-language decisions and open data, independent audits/oversight, and simple complaint-and-fix processes with public follow-through. Pair these measures with ongoing community partnership and inclusive input so policies reflect real concerns, and leaders can admit mistakes, explain tradeoffs, and correct course quickly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions prove, in everyday ways, that they are fair, competent, and answerable to the people they serve. That means clear, plain-language explanations of decisions and tradeoffs, transparent performance measures the public can track, and independent audits with real consequences for misconduct or waste. It also means easy-to-use complaint and appeal processes and regular community forums\u2014online and local\u2014where leaders listen, admit mistakes, and show how they fixed them. These practical steps give skeptics and supporters the same evidence to judge results beyond partisan narratives.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

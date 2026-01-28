@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "31",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim to prevent harm and protect rights by using the least intrusive, proportional response needed, with clear rules that prioritize de-escalation and require timely intervention and reporting when force is used. Legitimacy grows when standards are enforced through independent investigation, accessible complaint processes, and transparent publication of stops, searches, force, and outcomes. Public safety improves when departments work with communities to define priorities and rely on non-police partners for behavioral-health, substance-use, and youth-support calls, while supporting officer training, supervision, and wellness to reduce errors and misconduct.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should make public safety and civil rights mutually reinforcing through clear, proportional use-of-force standards; consistent de-escalation, crisis-intervention, and bias/trauma-informed training; and transparent public reporting of stops, force, and outcomes. Independent civilian oversight with timely, fair accountability should be paired with meaningful community input and co-design of local priorities. Expand non-police responses and partnerships for mental-health and substance crises, and invest in prevention and officer wellness so fewer encounters escalate and enforcement remains effective, lawful, and dignified.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while protecting constitutional rights by using clear, enforceable use-of-force limits, strong due process, and independent oversight with transparent public reporting. Officers should be trained and supported to prioritize de-escalation, bias-aware and trauma-informed practices, and measured, evidence-based tactics, with accountability that is fair and timely for both the public and officers. Communities should help set priorities through regular civilian input, while non-police teams and social services respond to mental-health and substance crises when appropriate to prevent escalation and reduce unnecessary arrests.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

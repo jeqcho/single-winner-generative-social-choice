@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.17999999999999994,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.17999999999999994,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "9",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect both human dignity and public health by keeping the hardest decisions centered on patients and qualified clinicians, not politics. They can recognize the moral value many place on developing life by allowing access early in pregnancy, setting medically grounded limits later, and guaranteeing clear, workable exceptions when a pregnancy results from rape or incest, threatens health, or cannot result in a viable birth. Lasting common ground comes from reducing crisis pregnancies through contraception and evidence-based education, and from ensuring real support for parenting, prenatal and maternal care, adoption, and economic stability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity, and evidence-based medical judgment, recognizing both the moral value many place on unborn life and the complex realities families face. A workable framework protects safe, timely care\u2014especially early in pregnancy\u2014and includes clear, narrowly tailored exceptions for rape, incest, serious fetal conditions, and threats to the patient\u2019s life or health, so doctors can act without delay. Any limits should be paired with strong prevention and support: comprehensive sex education, affordable contraception, prenatal and maternal care, adoption resources, and economic help for parents. The aim is fewer unintended pregnancies, fewer crises, and less suffering, without turning private medical decisions into punishment or politics.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, respect for human dignity and potential life, and medical evidence\u2014keeping urgent decisions in the hands of patients and qualified clinicians rather than politicians. A workable approach protects safe, timely care early in pregnancy and guarantees clear exceptions for threats to the pregnant person\u2019s life or serious health harm, rape, incest, and nonviable or severe fetal conditions, with any later limits tied to medical realities. Common ground grows when these rules are paired with strong prevention and support: affordable contraception and sex education, prenatal and maternal care, paid leave and childcare, and real help for parenting and adoption, so fewer families face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

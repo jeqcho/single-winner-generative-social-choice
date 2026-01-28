@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental limits as basic guardrails for a strong economy, not optional add-ons. Set clear, predictable standards for clean air, water, and climate risk, then give businesses flexibility to meet them through competition, innovation, and market signals. Pair these rules with targeted help for workers and regions in transition\u2014retraining, infrastructure upgrades, and temporary relief\u2014so communities can keep growing while environmental outcomes measurably improve.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by safeguarding clean air and water while enabling responsible development and good-paying jobs. A balanced approach pairs clear, predictable, evidence-based standards with market incentives that spur innovation and cost-effective pollution reduction. Investing in clean technology, infrastructure, and worker retraining\u2014shaped by local input\u2014helps communities and small businesses adapt without sudden disruption. By valuing public health and natural resources as foundations of prosperity, we can strengthen today\u2019s economy while protecting the legacy we leave future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should reinforce each other by keeping clean air and water as non\u2011negotiable baselines while pursuing practical policies that protect jobs and local industries. Use clear, predictable, science-based standards paired with market incentives and support for innovation so businesses can meet goals cost-effectively without excessive red tape. When changes affect workers and communities, phase them in and invest in retraining, infrastructure, and local input so the transition is fair, strengthens public health, and preserves opportunity for the next generation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

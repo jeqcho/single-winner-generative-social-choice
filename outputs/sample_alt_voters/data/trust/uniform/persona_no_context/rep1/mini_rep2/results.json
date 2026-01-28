@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "4"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "4"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "4"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "4"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "4"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "4"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make decisions in the open, explain the tradeoffs in plain language, and show\u2014through independent audits and published performance measures\u2014that rules are applied fairly. People are more willing to accept outcomes they dislike when there are real ways to question decisions, report problems safely, and see timely fixes when mistakes occur. Pairing reliable basic services with local, bipartisan community advisory input and regular \u201cyou said, we did\u201d updates turns participation into visible results that can earn confidence across political and cultural lines.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when actions reliably match promises: transparent, plain\u2011language explanations of decisions, predictable and fair rules, and consistent delivery of services that improve everyday life. Institutions should publish measurable performance results, admit mistakes, and correct them through clear accountability, independent oversight, and open audit trails. Trust is strengthened by sustained local engagement\u2014listening across political and cultural lines, partnering with trusted community leaders, and creating accessible ways for people to participate and give feedback\u2014so tangible outcomes, not rhetoric, earn confidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions follow the same rules they enforce: make decisions and spending transparent, protect personal data, and accept independent audits and consequences when they fall short. They should communicate plainly, report measurable results, and fix mistakes quickly so people can see everyday improvements in safety, health, and reliable services. Trust also grows when institutions listen locally\u2014through accessible public forums and partnerships with community and faith leaders\u2014and treat everyone fairly and respectfully regardless of politics or background.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

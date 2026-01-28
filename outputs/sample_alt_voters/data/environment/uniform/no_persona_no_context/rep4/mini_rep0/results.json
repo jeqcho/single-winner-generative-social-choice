@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection should be treated as joint constraints: pursue development that raises living standards while staying within clear, science-based limits on pollution and habitat loss. Governments can set predictable rules and market signals, and use the revenue to fund cleaner infrastructure, innovation, and targeted help for workers and regions that face higher transition costs. By measuring outcomes transparently and adjusting policies over time, societies can protect essential ecosystems while keeping investment and jobs resilient.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental protection as a foundation for long-term prosperity while acknowledging near-term jobs and investment constraints. Policies should align market incentives with real environmental costs through clear standards, pollution pricing where appropriate, and targeted support for clean innovation, green infrastructure, and circular resource use. Changes should be phased and measured transparently, with affected workers and communities supported through retraining and transition assistance developed in collaboration with business, labor, scientists, and civil society.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental protection as essential to long-term prosperity while keeping today\u2019s jobs, energy reliability, and cost of living front and center. Set clear, science-based standards and price the worst pollution, but phase changes in predictably and pair them with incentives for cleaner, homegrown energy and efficiency that cut waste and create skilled local work. Invest in resilient infrastructure and land and water stewardship, and provide targeted retraining and support for workers and communities most affected, with transparent metrics and regular review so policies stay fair and practical.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.24,
+      "full_winner_idx": "74"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.24,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.24,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College as the constitutional mechanism but make its outcomes track voters more closely and predictably. States could allocate electors proportionally using a common national formula, require electors to vote for the certified results, and adopt baseline federal standards for ballot access, counting, audits, and recount triggers so close races don\u2019t hinge on ad hoc rules. This would reduce winner-take-all distortions, broaden incentives to campaign nationwide, and strengthen legitimacy without erasing the states\u2019 role in presidential elections.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A practical compromise is to keep the Electoral College\u2019s state-based role but modernize it so outcomes track voters more closely and are harder to dispute. Key reforms could include requiring electors to follow their state\u2019s certified results, moving away from winner-take-all toward a consistent proportional method for allocating electors, and adopting clear national baseline standards for ballot access, counting, audits, and recounts. This approach aims to make every vote feel more meaningful, reduce battleground-state distortions, and strengthen legitimacy for both large and small states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "The presidential election system should make every voter\u2019s ballot feel equally meaningful while keeping a clear role for states, so the outcome is seen as legitimate in both small towns and big cities. A practical compromise is to keep the Electoral College but reduce winner-take-all by moving toward proportional allocation of electors, require electors to follow certified state results, and adopt baseline national standards for ballot access, recounts, and transparent audits. If states can agree on strong safeguards, expanding the National Popular Vote Interstate Compact can be considered as a next step, but any change should be simple, secure, and focused on building broad trust rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for people to see what was decided, why it was decided, who is responsible, and what happens if it fails. Set clear goals, publish simple scorecards, and create independent avenues for audits, complaints, and corrections\u2014then follow through quickly and publicly when mistakes occur. Pair this with ongoing local partnerships that include skeptics as well as supporters, so policies are tested against real-life impacts and adjusted based on what communities experience.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they consistently deliver reliable, measurable results while communicating plainly and transparently about decisions, finances, and tradeoffs. Institutions should pair clear accountability\u2014admitting mistakes, fixing problems quickly, and welcoming independent oversight\u2014with meaningful, local opportunities for people to participate and be heard. Showing respect for diverse communities through practical, accessible services and steady follow-through demonstrates that institutions serve the public rather than partisan agendas, helping bridge divides over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they consistently deliver reliable services\u2014safe neighborhoods, fair courts, good schools, and responsive health and social supports\u2014while showing clearly where money goes and what results are achieved. Leaders should communicate in plain, respectful language, admit mistakes quickly, and fix problems with measurable timelines, backed by independent oversight and open records. Trust deepens when people have real, local ways to participate and be heard\u2014through community meetings, partnerships with schools and faith/community groups, and multilingual access\u2014so decisions reflect everyday needs rather than partisan agendas.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

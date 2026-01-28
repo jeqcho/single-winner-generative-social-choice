@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "2"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "39"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "76",
+      "epsilon": 0.0,
+      "full_winner_idx": "76"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats a healthy environment as essential infrastructure for long-term prosperity while recognizing communities need reliable jobs and affordable energy today. Set clear baseline protections for air, water, and high\u2011value ecosystems, then give businesses flexibility to meet them through innovation, performance standards, and well-designed incentives. Pair these rules with transparent measurement, predictable timelines, and targeted support for workers, small firms, and regions facing the biggest transitions so progress is both effective and fair.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing: healthy air, water, and ecosystems are long-term economic assets, and strong local economies make stewardship achievable. Policymaking should set clear, evidence-based, outcome-focused standards\u2014especially where public health and sensitive ecosystems are at risk\u2014while using market incentives and targeted investment to spur cleaner technology and efficiency. To keep the transition fair and durable, pair phased implementation with worker retraining, support for communities and small businesses, and meaningful local input so jobs, competitiveness, and conservation advance together.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A practical balance protects clean air and water and the health of families while keeping local businesses competitive and paychecks secure. Set clear, science-based baseline safeguards\u2014especially where pollution threatens public health\u2014while giving employers predictable timelines and flexible, cost-effective ways to comply through incentives and innovation. Invest in clean infrastructure, domestic manufacturing, and energy efficiency, and pair changes with job training and transition support so workers and communities are not left behind. With local input and measurable results, environmental stewardship and economic growth can reinforce each other for today\u2019s households and future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

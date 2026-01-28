@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating pollution reduction and resource conservation as risk management that prevents costly health and disaster impacts while keeping the economy competitive. Set clear, outcome-based standards with predictable timelines, and use flexible tools\u2014such as tradable permits, performance credits, and targeted tax incentives\u2014so businesses can choose the lowest-cost path to compliance. Pair these policies with transition support for workers and regions most affected, and regularly review progress with transparent data so rules can be tightened or adjusted based on results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and healthy land is a foundation for long-term prosperity and public health, so environmental safeguards should be clear, science-based, and predictable. Pair phased implementation with market-based incentives and targeted investments in clean technology and resilient infrastructure so businesses can innovate and plan with confidence. Provide well-funded workforce retraining and transition support\u2014especially for workers and small businesses\u2014guided by local input and measurable outcomes so communities can adapt fairly while sustaining good jobs for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Clean air and water are basic to public health and long-term prosperity, but environmental policy should be designed so working families and small businesses can keep earning a living. Set clear, science-based standards with predictable, phased timelines and flexibility for different industries and regions, using market incentives so innovation\u2014not red tape\u2014drives compliance. Pair these rules with investments in clean energy and resilient infrastructure, plus practical job training and transition support, so communities see lower pollution and steady, good-paying jobs.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

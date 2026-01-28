@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "88"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental safeguards and economic growth should be treated as linked goals: a strong economy depends on clean water, healthy workers, and reliable natural resources. Policymakers should set clear, outcome-based standards and timelines, then give businesses flexibility to meet them through competition, innovation, and cost-effective compliance options. Pairing these rules with targeted support\u2014such as transition assistance for affected regions, permitting that is faster but still rigorous, and investments in modern infrastructure\u2014can reduce pollution while keeping jobs and productivity growing.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be advanced together, recognizing that clean air, water, and healthy ecosystems are foundations for long-term prosperity and public health. Clear, science-based and predictable rules\u2014paired with market incentives and investment in clean technology and efficiency\u2014can cut pollution while keeping businesses competitive and costs manageable for families and small firms. Policies should be phased and locally informed, with workforce training and transition support for workers and communities, and should emphasize measurable outcomes and accountability so the benefits are real and durable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be advanced together by treating clean air, water, and safe communities as the groundwork for lasting prosperity and good jobs. Set clear, predictable, science-based standards and enforce them fairly, while using market incentives and permitting reforms to help businesses\u2014especially small firms\u2014innovate, cut waste, and stay competitive. Pair these policies with targeted investment in clean infrastructure and energy reliability, plus retraining and transition support for workers and regions most affected, so progress is practical, affordable, and broadly shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

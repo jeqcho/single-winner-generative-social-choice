@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "51",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing strategies should be built around a simple test: do they measurably reduce harm while respecting constitutional limits. That means narrowly tailored enforcement guided by evidence and clear, publicly known policies\u2014paired with strong safeguards like early-warning systems, independent investigation of serious incidents, and meaningful consequences for misconduct. When officers are equipped with de-escalation skills and supported by co-responder and diversion options, police can focus on serious threats while reducing unnecessary stops, arrests, and uses of force.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the shared goals of preventing harm and protecting constitutional rights, recognizing that legitimacy and long-term safety depend on public trust. Priorities should include de-escalation and clear, proportional use-of-force standards; transparent data and body-worn cameras; and independent civilian oversight for serious incidents. Communities and officers should help shape local strategies while expanding alternatives to arrest\u2014such as mental-health and social-service responses\u2014so enforcement is focused, fair, and accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the shared goal of keeping communities safe while consistently protecting constitutional rights and human dignity. That means clear, publicly known rules for stops and use of force; strong de-escalation and anti-bias training; and transparent data, body cameras, and independent civilian review when harm occurs. It also means pairing law enforcement with mental-health, substance-use, and youth-support responders so people get the right help and police can focus on serious crime. Regular community input and measurable outcomes can build trust, reduce unnecessary confrontations, and make safety efforts more effective for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

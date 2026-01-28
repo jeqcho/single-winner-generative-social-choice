@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_personas": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by the goals of protecting life, protecting health, and reducing suffering, while recognizing that pregnancy can involve urgent and deeply personal circumstances. Standards should be medically defined, workable in real clinical settings, and should ensure timely care and privacy, with clear exceptions for serious threats to life or health and for pregnancies arising from rape or incest. Any legal framework should avoid punitive approaches that deter patients from seeking care or clinicians from providing it, and should be paired with strong measures that prevent unintended pregnancy and support families\u2014contraception access, accurate education, maternal healthcare, childcare, and adoption and social services\u2014so fewer people face this decision.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by sound medical evidence and compassion, balancing respect for developing life with the health, privacy, and bodily autonomy of the pregnant person. Time\u2011sensitive decisions should be made primarily by patients and qualified clinicians under clear, consistent rules that include narrowly tailored exceptions for serious threats to life or long\u2011term health and for pregnancies resulting from rape or incest, without criminalizing patients or clinicians. Alongside any limits, policy should invest in prevention and practical support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption options, and economic help\u2014so fewer families face unwanted pregnancies or desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should protect the health, safety, and privacy of pregnant people while also recognizing the sincere moral concern many have for developing life. Policy should be grounded in medical evidence, keep time\u2011sensitive decisions primarily between patients and qualified clinicians, and include clear, workable exceptions for rape or incest and for serious threats to life or major long\u2011term health, without criminalizing patients. Whatever limits are set should be paired with practical prevention and support\u2014accurate sex education, affordable contraception, prenatal and postpartum care, adoption services, and economic help\u2014so fewer people face unwanted pregnancies or feel forced into desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

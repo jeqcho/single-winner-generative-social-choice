@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be narrowly focused on preventing serious harm while protecting constitutional rights through simple, enforceable rules on stops, searches, arrests, and force, backed by real consequences for misconduct and protections for lawful dissent. Communities are safer when agencies pair this with transparent data (including complaints and outcomes), independent auditing, and practical training in communication, de-escalation, and bias awareness. Where appropriate, non-police responders and diversion options for behavioral-health, substance-use, and homelessness-related calls should handle crises so officers can concentrate on violent crime and keep encounters as minimal and respectful as possible.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by grounding practice in clear, constitutionally based standards\u2014especially for stops, searches, and use of force\u2014paired with de\u2011escalation, bias\u2011aware, and trauma\u2011informed training. Independent oversight, fair consequences for misconduct, and transparent data reporting (including body\u2011camera policies with privacy protections) strengthen accountability and legitimacy. Communities should expand non\u2011police crisis responses and social\u2011service partnerships for mental\u2011health, substance, and homelessness calls, while sustaining community input and officer wellness so resources focus on prevention, safety, and dignity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while firmly protecting constitutional rights by using clear, consistently enforced use-of-force and due-process standards, strong supervision, and independent review for serious incidents. Officers should receive regular training in de-escalation, bias-awareness, and crisis intervention, with body-worn cameras and public reporting that increase accountability while safeguarding privacy. When appropriate, mental-health and social-service co-responders and diversion options should handle nonviolent crises and connect people to help, so police can focus on serious crime and build trust through sustained community partnership.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

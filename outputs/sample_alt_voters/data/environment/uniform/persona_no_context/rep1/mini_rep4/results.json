@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.17999999999999994,
+      "full_winner_idx": "55"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.17999999999999994,
+      "full_winner_idx": "49"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star": {
+      "winner": "23",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.17999999999999994,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.24,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection should be treated as the same long-term goal: keeping communities healthy, costs predictable, and businesses competitive. Set clear, science-based limits on pollution and habitat loss, but give firms flexible pathways and timelines to meet them through innovation, efficiency, and clean infrastructure. Pair these rules with streamlined permitting for lower-impact projects, transparent monitoring, and targeted transition support\u2014training, wage insurance, and local reinvestment\u2014so workers and small businesses can adapt without being left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by recognizing that clean air, water, and healthy land are the foundation of lasting prosperity and community well-being. A practical path pairs clear, science-based standards and accountability with market incentives and predictable permitting that reward cleaner technology and efficient resource use without imposing unnecessary burdens, especially on small businesses. Transitions should be phased in and supported with job training, wage and community assistance, and local stakeholder input so workers and regions that rely on existing industries are treated fairly. This approach protects public health and natural heritage while keeping innovation, investment, and family-supporting jobs strong for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, recognizing that clean air and water are essential to public health and long-term prosperity while businesses and workers need stable jobs and predictable rules. A practical path sets clear, science-based standards and uses market incentives to speed cleaner technology, energy efficiency, and responsible resource use without unnecessary red tape for small businesses. Transitions should be phased in and paired with job training, local hiring, and targeted support for communities and industries most affected, so families aren\u2019t left behind. With transparent enforcement and community input, we can protect natural resources and keep local economies strong for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

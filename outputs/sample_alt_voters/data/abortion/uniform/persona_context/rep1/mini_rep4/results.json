@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should treat pregnancy as a matter of profound moral significance while ensuring that no one is forced to endure grave medical danger or traumatic circumstances, with decisions guided by accepted medical standards and clinician judgment. Regulations, where set, should be clear, workable, and minimize political intrusion by protecting privacy, timely care, and good\u2011faith medical practice, including exceptions for serious threats to life or health, rape or incest, and nonviable pregnancies. Alongside any limits, governments should invest in measures that reduce unintended pregnancy and make parenting a real option\u2014affordable contraception, accurate education, prenatal and mental\u2011health care, paid leave, childcare, and adoption support.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should reflect the moral seriousness many attach to unborn life while prioritizing the pregnant person\u2019s health, dignity, and timely access to care, grounded in clear medical evidence rather than political interference. Any limits should be plain, enforceable, and paired with narrowly tailored exceptions for life\u2011threatening or serious health risks, rape or incest, and severe fetal conditions, so clinicians can act quickly and safely. Policy should also reduce unintended pregnancies and hardship through comprehensive sex education, affordable contraception, and strong supports such as prenatal care, childcare, paid leave, economic assistance, and adoption services.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should reflect both the moral value many place on unborn life and the health, dignity, and freedom of conscience of the person who is pregnant, using clear standards grounded in medical evidence rather than politics. They should ensure timely, private care with well-defined exceptions for life-threatening or serious health risks, rape or incest, and nonviable pregnancies, while avoiding criminal penalties that deter doctors from acting in emergencies. At the same time, policy should reduce abortions by expanding prevention and real-life support\u2014comprehensive education, affordable contraception, prenatal and mental-health care, paid leave, childcare, and adoption and parenting resources\u2014so families have practical options and fewer people face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

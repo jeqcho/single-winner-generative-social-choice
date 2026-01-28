@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "39",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make their decisions and spending easy to inspect, explain the tradeoffs they faced, and show who is responsible when things go wrong. Pair independent oversight and strong ethics rules with simple, reliable ways for people to report problems and see timely fixes. Focus on a few measurable commitments\u2014safe services, fair enforcement, and respectful treatment\u2014and publish progress regularly in plain language so communities can judge performance for themselves.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions show transparent decision-making and spending, deliver competent services people can verify, and accept clear accountability through independent oversight, audits, and accessible complaint processes. Leaders should communicate plainly and in the languages communities use, share evidence and performance measures, and admit mistakes with concrete plans to fix them. Trust is strengthened by treating people as partners\u2014listening locally, inviting meaningful community participation, and enforcing fair, consistent standards\u2014so institutions reliably serve families, workers, and neighborhoods above partisan interests.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently tell the truth about what they know, what they don\u2019t, and how decisions and dollars are tracked\u2014using plain language people can verify. Leaders should be held to clear standards: independent audits and oversight, fair and consistent enforcement of rules, easy complaint and appeals processes, and prompt correction when mistakes happen. Trust is rebuilt fastest when people see practical results in daily life\u2014safe communities, reliable services, and respectful treatment across jobs, languages, and neighborhoods\u2014through real local listening and participation rather than partisan messaging.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

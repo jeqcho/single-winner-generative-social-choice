@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions make it easy for people to see how decisions are made, how money is spent, and what happens when standards are violated. A practical middle ground is to publish clear decision rationales and service benchmarks, protect independent watchdogs, and create regular, structured ways for residents to question, appeal, and help improve policies. Pairing these safeguards with visible improvements in day\u2011to\u2011day service shows respect for both public skepticism and the need for effective governance.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions are reliably fair, competent, and open to scrutiny\u2014whatever our politics. Commit to plain-language transparency (including open data and clear explanations of decisions), independent oversight with real consequences, and routine reporting on results people feel in daily life. Pair this with meaningful, ongoing community input so policies can be corrected quickly and consistently, building a verifiable track record of responsiveness over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People across the political spectrum want institutions that treat everyone fairly, use tax dollars responsibly, and deliver dependable results in daily life. Trust grows when decisions and spending are explained in plain language, performance is reported with clear metrics, and conflicts of interest are prevented and enforced through independent audits and review. Pairing that transparency with respectful, ongoing community input\u2014and making small, verifiable improvements people can see\u2014helps rebuild confidence without sacrificing expertise or effectiveness.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

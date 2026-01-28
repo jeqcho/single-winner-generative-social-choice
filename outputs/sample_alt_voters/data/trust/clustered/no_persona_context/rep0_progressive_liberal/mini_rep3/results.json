@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Increase trust by making institutional performance easy to verify: publish clear goals, budgets, and results in plain language, and use independent oversight with real consequences when standards aren\u2019t met. Pair transparency with protections for individual rights and privacy, so openness doesn\u2019t become surveillance or political targeting. Build two-way relationships through regular local forums and representative citizen panels that can influence priorities, then follow up publicly on what was heard and what changed. Over time, consistent, nonpartisan service delivery and visible course-corrections can turn skepticism into earned confidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Increase public trust by making decisions and performance easy to verify: publish clear, plain-language explanations, open records and data, and invite independent audits with real consequences when standards are missed. Deliver reliable, measurable improvements in everyday services so people can see results in their daily lives, not just hear promises. Create regular, accessible local forums for input and oversight, and protect privacy and individual rights so participation feels safe and fair across viewpoints.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions deliver reliable everyday services and explain decisions in plain language, with transparent records that people can check. Build credibility through independent oversight, clear consequences for misconduct, and prompt, public correction when mistakes happen. Create accessible, local, and multilingual ways for residents to shape priorities and monitor performance, while protecting privacy and treating everyone fairly. Over time, steady follow\u2011through on measurable commitments turns skepticism into shared confidence across communities and political views.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

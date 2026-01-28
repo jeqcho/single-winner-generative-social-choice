@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "76",
+      "epsilon": 0.0,
+      "full_winner_idx": "76"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection can be balanced by setting clear health- and science-based environmental floors, then giving businesses flexibility to meet them through least-cost, innovation-friendly approaches. Use tools like pollution pricing or tradable credits alongside strategic public investment in clean energy, efficiency, and resilient infrastructure to lower long-run costs and risks. Pair these policies with time-bound transition aid\u2014retraining, regional diversification, and support for small firms\u2014and publish simple, auditable results so communities can see both economic and environmental gains.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental protection as a foundation for long\u2011term prosperity by using science\u2011based, enforceable standards and market signals that internalize pollution costs while rewarding efficiency and clean innovation. Pair these rules with predictable, phased timelines and public investment in clean energy and resilient infrastructure, plus targeted support, retraining, and transition assistance for workers and small businesses. Track clear metrics and engage local communities so benefits and burdens are shared fairly across regions and generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance treats clean air, water, and land as essential to public health and long-term prosperity while keeping energy and compliance costs predictable for families and businesses. Use science-based, enforceable standards with flexible, market-friendly pathways\u2014like incentives, efficiency upgrades, and fair pricing of pollution\u2014phased in with clear metrics and regular review. Pair this with targeted help for small businesses and trade-dependent communities, plus retraining and local job opportunities so workers can move into growing fields without being left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

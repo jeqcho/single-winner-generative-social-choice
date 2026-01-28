@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should make the presidential outcome track the nationwide vote more closely while keeping states as the administrators of elections and preserving confidence that no region is ignored. A practical compromise is to end winner-take-all by requiring proportional (or ranked-choice) allocation of electors within each state, paired with baseline national rules for ballot access, audits, and recount triggers so close elections are handled consistently. If that proves workable, the country could then consider a broader step like the National Popular Vote compact with clear safeguards, focusing on legitimacy and stability rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make the presidential outcome track the national popular will more closely while preserving a meaningful state role, by replacing winner-take-all with proportional allocation of electors or adopting the National Popular Vote Interstate Compact as a practical bridge. To build trust across regions and parties, pair that change with clear nationwide standards for ballot access, counting, audits, and recounts so every vote is treated consistently and transparently. The aim is to reduce swing-state distortion, encourage nationwide campaigning, and ensure the result is seen as legitimate without abruptly discarding the federal structure many voters value.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforms to the Electoral College should make each voter\u2019s ballot matter more equally while still keeping a clear state role in running and certifying elections. A practical compromise is to end winner-take-all by adopting proportional (or district-based) elector allocation nationwide, and/or use the National Popular Vote Interstate Compact as a voluntary bridge if it includes clear, uniform standards for ballot access, recounts, audits, and election security. Pairing these changes with expanded, straightforward participation options\u2014like automatic registration and accessible early/mail voting\u2014can reduce swing\u2011state distortions, strengthen confidence, and encourage candidates to compete for votes everywhere.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

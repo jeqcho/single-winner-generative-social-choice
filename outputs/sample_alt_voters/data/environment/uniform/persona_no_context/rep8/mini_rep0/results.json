@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing: economies thrive when people are healthy, resources are reliable, and ecosystems remain productive. The best balance sets clear, science-based limits on pollution and habitat loss while giving businesses flexible, predictable pathways\u2014such as performance standards, time-bound permits, and incentives\u2014to meet them at lowest cost. Pair these safeguards with targeted support for workers, small businesses, and affected regions so the transition is fair, innovation-driven, and strengthens local economies over the long run.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, recognizing that clean air, water, and healthy land are foundations for public health, local livelihoods, and long-term prosperity. A balanced approach pairs clear, science-based and outcome-focused safeguards with market incentives and investment in clean innovation, infrastructure, and small businesses so growth is durable rather than extractive. Policies should be locally informed, transparent, and accountable, with phased implementation and practical support\u2014like workforce training and transition assistance\u2014so communities and workers can thrive as pollution declines.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by recognizing that clean air, water, and healthy land are public health necessities and the foundation of durable local economies. Policymakers should set clear, science-based standards and enforce accountability for major polluters, while using market incentives and practical flexibility to help small businesses and workers adopt cleaner technologies without losing jobs. Investments in affordable energy, infrastructure, and workforce training\u2014especially in communities that have borne the greatest burdens\u2014can create stable work today and preserve resources and opportunity for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

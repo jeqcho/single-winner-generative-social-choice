@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance is to protect critical ecosystems and public health with clear, predictable standards, while allowing flexibility in how businesses meet them through innovation and cost-effective options. Policies should phase in requirements, price or otherwise account for pollution and resource depletion, and reinvest revenues in clean infrastructure, permitting modernization, and support for workers and regions in transition. By measuring outcomes transparently and adjusting based on evidence, we can enable responsible growth that stays within ecological limits.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats a healthy environment as the foundation of long-term prosperity, while acknowledging near-term trade-offs and the need for pragmatic pathways for businesses and workers to adapt. Set clear, science-based standards to prevent irreversible harm and internalize environmental costs, paired with market-friendly incentives and investment in clean technology, efficient resource use, and circular practices. Use transparent metrics, regulatory certainty, and inclusive planning to guide phased transitions, with targeted support and retraining so affected communities share in new economic opportunities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance protects the natural systems we all depend on\u2014clean air and water, stable climate, and productive land\u2014while keeping jobs and local economies strong. We can do this by setting clear, science-based standards against irreversible harm, using market-friendly tools that reward efficiency and innovation, and giving businesses predictable timelines to adapt. Pair these rules with practical investments in clean infrastructure, conservation, and workforce training, plus targeted support for workers, farmers, and communities facing higher costs, so the transition is fair and economically resilient.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

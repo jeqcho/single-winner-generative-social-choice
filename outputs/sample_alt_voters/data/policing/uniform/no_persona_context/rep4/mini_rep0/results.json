@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "30",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safety and civil rights through a \u201cminimum necessary intervention\u201d approach: clear constitutional standards for stops, searches, and use of force, with early de-escalation and a duty to intervene and report. Independent, well-resourced oversight and transparent, privacy-protective public data should track outcomes, complaints, and disparities, paired with fair discipline and officer supports that prevent burnout and misconduct. Communities should help design priorities, while cities expand non-police responses for behavioral-health crises and invest in prevention so officers can focus on serious harm and people receive the right help at the right time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by adopting clear, enforceable use-of-force and de-escalation standards, backed by transparent reporting, open data, and independent civilian oversight with meaningful discipline when standards are violated. Agencies should pair this accountability with sustained training (bias-aware, trauma-informed, crisis response) and officer wellness supports so restraint is practiced consistently. Communities should co-design response models that expand non-police and co-responder options for mental-health, substance-use, and homelessness-related calls, while focusing officers on serious threats and prevention through strong local partnerships.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should advance both safety and constitutional rights by setting clear, enforceable standards for stops, searches, and use of force, backed by consistent training in de-escalation and crisis response. Independent oversight, body-worn cameras, and transparent reporting should be paired with fair due process for officers and support for wellness so accountability is trusted and professional. Communities should help shape priorities and expand co-responder or non-police options for mental-health, substance, and homelessness calls, so officers can focus on serious threats while reducing unnecessary arrests and harm.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

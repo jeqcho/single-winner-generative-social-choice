@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "49",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable middle path is to keep the state-based Electoral College but remove the biggest distortion by ending winner-take-all: each state would award electors proportionally using a consistent method, with independent redistricting if districts are used. In return, Congress and the states should adopt baseline national standards for voter access, ballot design, audits, and automatic recount triggers so close elections are handled the same everywhere. This approach preserves federalism and regional voice while making outcomes track the popular vote more closely and reducing the outsized power of a few swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections feel fairer by reducing winner-take-all distortions and the outsized power of a few swing states, while keeping states central in running elections. A practical compromise is to require every state to allocate electors proportionally (or by district with anti-gerrymandering safeguards), paired with clear national baseline standards for ballot access, counting, audits, and recounts so close results are handled consistently. If broader agreement emerges, the National Popular Vote Interstate Compact could be a next step once uniform administration and verification rules are in place. The goal is an outcome that reflects broad nationwide support and is credible to voters in rural, suburban, and urban communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforms should make presidential elections feel fairer and less dominated by a few swing states, while still respecting that states run elections and smaller communities want a real voice. A practical middle path is to keep the Electoral College but require every state to end winner-take-all by awarding electors proportionally (or by district with anti-gerrymandering safeguards), paired with clear nationwide standards for ballot access, counting, audits, and recounts. If states prefer a stronger one-person-one-vote approach, the National Popular Vote Interstate Compact can be pursued alongside the same uniform integrity and transparency rules so outcomes are easier to accept across parties.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "23",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection as an investment in the economic foundations we all depend on\u2014clean water, reliable food systems, and reduced disaster risk\u2014while keeping rules workable for employers and workers. Set clear, science-based standards with flexibility in how they\u2019re met, using tools like performance targets, pollution pricing or credits, and support for small businesses to adopt cleaner processes. Pair these measures with transition assistance and regional development plans so communities tied to legacy industries can move into new opportunities without being left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by recognizing that clean air, water, and healthy ecosystems are foundations of long-term prosperity and public health. A practical balance pairs clear, science-based, predictable standards and strong enforcement with market incentives and targeted public investment that spur clean innovation, energy efficiency, and resilient infrastructure. To keep communities whole, policies should phase in changes where needed and fund workforce training and transition support so workers and small businesses can adapt while good jobs grow.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A durable balance treats clean air, water, and healthy land as the foundation of long-term prosperity, while setting clear, predictable rules that let businesses plan, innovate, and grow. We should pair strong, science-based protections and accountable enforcement with market incentives and investment in clean energy, efficient infrastructure, and sustainable resource industries. Just as importantly, communities and workers\u2014especially those tied to farming, logging, manufacturing, and other traditional sectors\u2014deserve paid training, transition support, and local decision-making so new opportunities replace lost ones rather than leaving people behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

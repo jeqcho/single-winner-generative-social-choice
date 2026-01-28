@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "57"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "88",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by an ethic of care that aims to reduce preventable suffering while treating both prenatal life and pregnant people\u2019s wellbeing as morally serious. A durable middle ground pairs medically defined protections for emergencies and severe fetal conditions with strong measures that prevent unintended pregnancy and make parenting or adoption genuinely supported options. Whatever limits are adopted should be clear, consistently applied, and designed to avoid punishment, coercion, or delays in necessary care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical evidence and a respect for pluralism, recognizing sincere moral disagreement while prioritizing safety, dignity, and freedom from coercion. Common ground includes strong protections for medical emergencies and other hard cases, alongside clear, humane rules that are transparent about tradeoffs. Policy should aim to reduce crisis pregnancies by expanding contraception, prenatal and maternal care, and practical economic supports so people are not forced into abortion or into birth by lack of resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to reduce harm in a society with sincere moral disagreement by protecting both respect for developing life and the health, dignity, and equal rights of pregnant people. Policy should be medically evidence-based and ensure clear, workable protections for emergencies and severe fetal conditions, with safeguards against coercion and unequal treatment. Common ground also includes preventing unintended pregnancies and expanding practical supports\u2014affordable contraception, prenatal and maternal care, paid leave, childcare, and adoption resources\u2014so decisions are not driven by poverty, fear, or lack of options.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

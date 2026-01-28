@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_personas": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make their work easy to see, test, and challenge: publish clear goals, budgets, and outcomes; explain trade\u2011offs plainly; and create simple ways for residents to appeal decisions and report failures without retaliation. Back that openness with real consequences for misconduct, independent audits, and routine \u201cyou said, we did\u201d follow\u2011through that shows problems get fixed, not buried. When services are delivered reliably and fairly\u2014while protecting privacy and welcoming local input\u2014people across viewpoints can judge performance for themselves and rebuild confidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver the everyday services people rely on with steady competence, fair and predictable rule enforcement, and clear lines of responsibility. They should explain decisions and trade\u2011offs in plain language, publish simple, verifiable performance measures, and admit mistakes quickly while fixing them visibly. Independent oversight and regular, neighborhood\u2011level listening\u2014backed by privacy\u2011protecting, easy\u2011to\u2011use tools\u2014let the public verify that government is serving families and communities rather than politics.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver the basic services people rely on\u2014schools, health, safety, and infrastructure\u2014with steady competence, fair and predictable rules, and clear, plain-language explanations of decisions and trade-offs. They should publish simple, verifiable performance measures, protect privacy, and invite meaningful local input\u2014especially from frontline workers, parents, and underrepresented communities\u2014while ensuring independent oversight and real consequences when standards are broken. Admitting mistakes quickly and showing how they are fixed demonstrates humility and keeps the focus on results for families and neighborhoods rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "69"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be organized around a simple test: actions must be necessary, proportional, and lawful, with the least intrusive option used whenever possible. Clear policies for stops, searches, and force\u2014paired with strong training, fair discipline, and independent investigation of serious incidents\u2014can protect residents and give officers predictable standards. Regular public reporting, community input on priorities, and well-resourced alternatives for mental health and other nonviolent crises help prevent harm while preserving civil liberties.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals by setting clear, enforceable standards for stops and use of force, prioritizing de-escalation and nonviolent problem-solving, and ensuring officers are trained in procedural justice and bias reduction. Trust and effectiveness improve when transparency and independent accountability are real\u2014through open data, body-worn camera policies that protect privacy, and civilian or inspector\u2011general review with timely remedies for misconduct. Communities should help set priorities and evaluate outcomes, while investments in mental-health and crisis response teams, alternatives to arrest, and social services address root causes and reduce unnecessary police contact.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue the shared goals of safer neighborhoods and protected civil rights by pairing evidence-based prevention with clear, publicly known rules for stops, searches, and use of force that prioritize de-escalation and preserving life. Communities, officers, and civil-rights advocates should co-design priorities and review outcomes through independent oversight, transparent reporting, and swift, fair accountability when standards are violated. Expanding alternatives\u2014such as mental-health and substance-use crisis teams, diversion, and support services\u2014can reduce unnecessary arrests and force while allowing police to focus on serious violence and repeat harm. Ongoing training in constitutional rights, procedural justice, and bias reduction, combined with measurable goals, helps build trust and improves safety for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

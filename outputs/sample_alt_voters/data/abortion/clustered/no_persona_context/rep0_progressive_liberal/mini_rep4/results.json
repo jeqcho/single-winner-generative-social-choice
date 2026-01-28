@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "59",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to protect human dignity and reduce preventable suffering by keeping urgent medical decisions in the hands of patients and qualified clinicians, not prosecutors. It can recognize the developing moral value of prenatal life through workable, medically informed limits that tighten later in pregnancy, while guaranteeing prompt exceptions for threats to health, rape or incest, and fatal or nonviable fetal conditions. The most durable compromise pairs any limits with prevention and support\u2014accurate sex education, affordable contraception, prenatal and mental health care, and practical help for parents\u2014so fewer people face unwanted pregnancies or coerced, desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical evidence, and respect for both bodily autonomy and the moral concern many attach to fetal life, keeping urgent decisions primarily between patients and qualified clinicians. Policy should guarantee timely access to safe care with clear, workable exceptions for serious health risks, rape or incest, and nonviable pregnancies, and avoid punitive approaches that deter needed treatment. Alongside any reasonable, enforceable limits, governments should reduce crisis pregnancies by expanding comprehensive sex education, affordable contraception, and robust prenatal, childcare, and family supports so fewer people are forced into desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical evidence, and respect for conscience, protecting the health, dignity, and privacy of pregnant people while recognizing that many communities attach real moral value to developing fetal life. Policy should guarantee timely, clinician-led care and clear, workable exceptions for threats to life or serious health, rape or incest, and nonviable or severe fetal conditions, with any limits written so they do not delay emergency treatment. At the same time, governments should reduce crisis pregnancies by expanding affordable contraception, comprehensive sex education, prenatal and mental-health care, and practical supports like childcare, paid leave, and adoption services, focusing on help rather than punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

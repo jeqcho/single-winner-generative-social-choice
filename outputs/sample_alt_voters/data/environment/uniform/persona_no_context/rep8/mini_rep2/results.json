@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as two sides of long-term community security: we need clear baseline safeguards for health and critical ecosystems, paired with flexible pathways for businesses to meet them. A fair balance uses transparent cost\u2013benefit analysis, predictable timelines, and \u201cpolluter pays\u201d accountability while rewarding efficiency, clean production, and local problem-solving. Public investment in infrastructure, R&D, and workforce transition support can help regions adapt so new opportunities replace lost ones rather than leaving communities behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, because clean air, water, and healthy land are the foundation of public health, local livelihoods, and long\u2011term prosperity. A durable balance combines evidence-based, enforceable safeguards and accountability for polluters with market-based incentives and targeted investment in clean innovation, efficiency, and infrastructure that keep businesses competitive. Policies should be practical and predictable, with streamlined compliance where appropriate and strong support\u2014retraining, phased transitions, and community investment\u2014for workers and regions affected by change.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing: clean air, water, and healthy land are the foundations of public health, agriculture, and long-term prosperity. Policy should set clear, science-based safeguards and hold major polluters accountable, while using cost-effective tools\u2014like market incentives, streamlined permitting for cleaner projects, and support for small businesses\u2014to drive innovation and keep communities competitive. Changes should be phased and predictable, with workforce training and transition assistance so workers, families, and local economies are not left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

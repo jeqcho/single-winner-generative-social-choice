@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-informed environmental goals while giving businesses predictable pathways to meet them at the lowest practical cost. Governments can pair firm baseline standards for air, water, and land with flexible compliance options\u2014such as performance targets, tradable credits, and time-limited transition aid\u2014so innovation and investment are rewarded rather than punished. Regular public reporting, local input, and periodic review can ensure rules deliver real benefits, protect public health, and keep communities competitive as technologies and economic conditions change.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together because clean air, water, and healthy ecosystems underpin public health, local livelihoods, and long-term prosperity. Policymakers should use science- and evidence-based standards with clear, predictable rules and metrics, pairing targeted regulation with market incentives and investment in clean technology and resilient infrastructure. Phased implementation, streamlined permitting, and support for small businesses and workers\u2014through training and transition assistance\u2014can reduce disruption while driving innovation and good-paying jobs. Grounding decisions in local input and accountability helps build durable trust and real-world results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A strong economy depends on clean air, safe water, and healthy land, so environmental protection and job growth should be pursued together with practical, science-based standards. Set clear, predictable rules with measurable goals, streamline permitting for cleaner projects, and use market incentives so businesses\u2014especially small firms\u2014can innovate and stay competitive. Pair these protections with phased timelines, workforce training, and transition support for workers and communities, so families aren\u2019t left behind while we reduce pollution and prevent costly disasters.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

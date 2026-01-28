@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "52"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a duty to protect life and dignity while acknowledging persistent disagreement about fetal moral status. A consensus approach would ensure timely access to care early in pregnancy, guarantee clear exceptions for life-threatening conditions and serious health threats, and use medically grounded standards that give clinicians predictable guidance. Any limits should be paired with policies that reduce crisis pregnancies\u2014affordable contraception, comprehensive prenatal and maternal care, and strong economic support for parenting or adoption\u2014so law emphasizes responsibility and care rather than punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by minimizing preventable harm and respecting human dignity amid sincere moral disagreement about fetal life. Policy should protect patients and clinicians with clear, evidence-based medical standards, including prompt care and explicit exceptions for life- or serious health-threatening complications, rape or incest, and severe fetal conditions, while preventing coercion and ensuring informed consent. Where limits are set, they should be transparent and consistently applied, and paired with robust supports\u2014contraception, accurate education, prenatal and maternal healthcare, paid leave, childcare, and adoption resources\u2014so fewer people face crisis pregnancies and more families can thrive.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by protecting human dignity and minimizing harm: safeguarding the health and life of the pregnant person, taking moral concern for developing life seriously, and keeping decisions grounded in clear medical standards rather than stigma or punishment. A workable compromise pairs early, safe access and strong protections in emergencies (including rape, incest, and serious health risks) with transparent, consistently applied limits later in pregnancy. Alongside any legal framework, society should invest in prevention and support\u2014contraception, accurate education, prenatal and maternal care, paid leave, childcare, and adoption resources\u2014so fewer families face crisis pregnancies and more choices are truly viable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

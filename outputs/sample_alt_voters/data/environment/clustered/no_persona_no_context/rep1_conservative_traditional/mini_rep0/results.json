@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental limits as real constraints while giving businesses and households predictable time and flexibility to adapt. Set clear, science-based guardrails (like pollution caps and habitat protections), then let firms meet them through a mix of market signals, streamlined permitting for clean projects, and targeted public investment. Pair these steps with transition support\u2014skills training, regional development, and temporary cost relief\u2014so the shift protects jobs and competitiveness as it protects the ecosystems that economies ultimately depend on.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection and economic growth as interdependent: healthy ecosystems and public health are foundations of long-term prosperity. Set clear, measurable environmental standards and use flexible tools\u2014like carbon pricing, targeted incentives, and efficient regulation\u2014to spur innovation, competitiveness, and cleaner infrastructure. Phase policies in predictably and provide transition support (retraining, community investment, and safety nets) so workers and regions share in the benefits and no one is left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A responsible balance protects clean air, clean water, and public health while keeping jobs and local economies strong. The best path is practical and phased: set clear, achievable standards, reduce waste and pollution through innovation and efficient energy use, and use flexible, market-friendly tools where possible. Pair these steps with transparent metrics and real support for workers and communities so families and small businesses aren\u2019t unfairly burdened as we safeguard the natural resources future generations will rely on.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

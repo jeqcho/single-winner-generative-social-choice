@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as joint goals: protect the essentials\u2014clean air, safe water, and climate stability\u2014while keeping rules predictable so businesses can plan and invest. Use a mix of tools, such as clear performance standards, market mechanisms that reward efficiency, and targeted public investment in infrastructure and R&D, to cut pollution at the lowest cost. Pair these steps with transition support for workers and regions most affected, so the benefits of cleaner growth are shared and communities are not left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, recognizing that clean air, water, and healthy ecosystems are long-term economic assets. The best balance pairs clear, predictable, science-based standards with market-smart incentives and investment in clean innovation so businesses can stay competitive while pollution falls. Phased implementation, local input, and targeted support\u2014especially for workers, small businesses, and communities in transition through retraining and upgrade assistance\u2014can protect livelihoods while steadily raising environmental performance.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, because clean air and water, public health, and reliable jobs all support strong communities. Set clear, science-based standards with predictable timelines, while using market incentives and targeted investments to help businesses\u2014especially small and local employers\u2014adopt cleaner technology and improve efficiency. Pair these policies with practical support for workers and regions affected by change, including retraining, apprenticeships, and transition assistance, so the benefits and burdens are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

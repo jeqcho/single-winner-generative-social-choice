@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be judged by whether it reduces harm while consistently honoring constitutional limits and equal treatment. A balanced strategy pairs clear, publicly known standards for stops, searches, and use of force with strong training in de-escalation and bias awareness, plus early-warning and independent review systems that correct problems before they escalate. When departments publish outcome measures that track both safety results and rights impacts\u2014and work with community partners on non-police responses where appropriate\u2014trust and effectiveness can grow together.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as inseparable goals by using proportional, de-escalation-first responses and treating people with procedural justice\u2014fairness, neutrality, and a real voice in encounters. Departments should partner with communities to set priorities and invest in alternatives to enforcement where appropriate, while using evidence-based tactics to prevent harm. Trust and effectiveness grow when agencies publish clear metrics, protect privacy, and ensure independent oversight and accountability for misconduct.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the shared aim of safer neighborhoods and equal protection under the law, using the least force necessary and protecting due process in every encounter. That means strong de-escalation and bias-aware training, clear and consistent policies, and transparent reporting on stops, use of force, and outcomes so the public can see what works. Independent, timely review of serious incidents\u2014paired with regular community input and targeted partnerships with mental-health and social-service responders\u2014can reduce crime and harm while safeguarding civil rights and building trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

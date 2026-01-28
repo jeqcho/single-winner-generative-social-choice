@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "32"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "32"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "52",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable balance starts by treating clean air, water, and healthy ecosystems as core economic assets, while recognizing that communities also need dependable jobs and affordable energy. Policymakers should set clear outcomes-based environmental limits, then give businesses flexibility to meet them through innovation, performance standards, and market tools, with predictable timelines to support investment. Targeted help for workers, small firms, and regions in transition\u2014retraining, infrastructure upgrades, and temporary assistance\u2014can protect livelihoods while keeping progress steady and measurable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and land is essential to public health and long\u2011term prosperity, and it should be pursued alongside policies that keep jobs and local businesses strong. A workable balance pairs clear, science\u2011based and predictable standards with market incentives and investments that reward cleaner technology, efficiency, and conservation without unnecessary red tape. Phasing in changes with realistic timelines\u2014plus retraining and transition support for affected workers and communities\u2014can reduce disruption while building durable, locally grounded growth for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by recognizing that clean air, safe water, and healthy land are basic safeguards for families and the long-term foundation of prosperity. We should set clear, science-based standards and predictable timelines, while using flexible, market-oriented tools\u2014like incentives for cleaner technology and efficiency\u2014so businesses can innovate without unnecessary red tape. Any transition should protect workers and small communities through retraining, infrastructure investment, and fair support, ensuring new opportunities grow while the costs are not dumped on families or future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

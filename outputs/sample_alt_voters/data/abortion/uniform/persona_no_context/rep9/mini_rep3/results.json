@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "25",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to protect human dignity on all sides by pairing moral seriousness about developing life with a strong commitment to women\u2019s health, privacy, and equal access to timely medical care. Policymakers should set clear, medically defined rules that allow clinicians to act without delay in emergencies and in cases of grave harm, while keeping enforcement focused on providers and institutions rather than criminalizing patients. Common ground grows when any limits are matched with real prevention and support\u2014comprehensive education, affordable contraception, prenatal and mental-health care, and practical help for parenting or adoption\u2014so fewer people reach a crisis point.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, human dignity, and evidence-based medicine, keeping time-sensitive decisions primarily between patients and licensed clinicians while recognizing the serious moral weight many attach to developing life. Policy should guarantee clear, timely protections for emergency and medically necessary care, privacy, and due process, with carefully defined standards and exceptions in cases like serious health risk, rape/incest, and severe fetal conditions. Common ground is strongest when any legal framework is paired with proven prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and mental health care, and resources for parenting and adoption\u2014so fewer families face crisis choices in the first place.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity, and evidence-based medical standards, recognizing both the moral value many place on unborn life and the need for women to make time-sensitive decisions with their doctors. Policy should guarantee prompt care and clear exceptions when a pregnancy threatens a woman\u2019s life or health, and in cases of rape, incest, or severe fetal conditions, while setting any limits in plain, enforceable terms that do not criminalize patients or clinicians acting in good faith. Common ground is strengthened by reducing unintended pregnancies through accurate education and affordable contraception, and by expanding prenatal care, mental health support, adoption options, and childcare so fewer families are driven into crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

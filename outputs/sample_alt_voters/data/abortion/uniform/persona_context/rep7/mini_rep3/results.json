@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to reduce harm and respect human dignity by grounding rules in medical science, protecting privacy, and keeping urgent decisions primarily within the patient\u2013clinician relationship. Where the state sets limits, they should be clear, workable, and paired with guaranteed exceptions for threats to life or serious health, as well as cases of rape or incest, without criminalizing patients and with fair legal protections for clinicians acting in good faith. At the same time, policy should invest heavily in preventing unintended pregnancies and supporting families\u2014comprehensive sex education, affordable contraception, prenatal/postpartum care, childcare, and economic stability\u2014so fewer people reach a crisis point.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in evidence-based medical standards that protect patient health, privacy, and timely access to care by keeping urgent decisions primarily within the patient\u2013clinician relationship, while acknowledging the sincere moral concern many attach to potential life. Policy should avoid punitive criminalization and instead provide clear, medically grounded rules and exceptions for life- or serious health-threatening circumstances and for traumatic cases such as rape or incest, with protections for clinicians\u2019 judgment and reasonable conscience accommodations that do not delay emergency care. At the same time, governments should invest in proven prevention and supports\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare and economic assistance, and adoption resources\u2014so fewer families face crisis pregnancies.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by both respect for potential life and the health, dignity, and privacy of the pregnant person, with decisions rooted in medical evidence and made in the patient\u2013clinician relationship rather than through politicized or punitive enforcement. Policy should include clear, workable protections and exceptions when a pregnancy threatens life or serious health, and in cases such as rape or incest, while allowing room for clinician judgment and conscience without blocking urgent care. At the same time, communities should invest in prevention and practical supports\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, adoption resources, and economic help\u2014so fewer people face crisis pregnancies and families are better supported.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

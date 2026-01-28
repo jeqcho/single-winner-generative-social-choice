@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "52",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "88",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim for a stable, humane balance: treat pregnancy as a serious medical and moral matter, protect the pregnant person\u2019s safety and agency, and acknowledge society\u2019s interest in developing life. A broad middle ground is to keep early care legal and accessible, require that later restrictions be tied to medical viability and clinical realities, and guarantee prompt exceptions for threats to life or major health, rape or incest, and grave fetal anomalies. Alongside any limits, policy should invest heavily in contraception, accurate education, maternal healthcare, and practical supports for parenting and adoption, so fewer people face crisis pregnancies and fewer choices are made under duress.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared commitment to human dignity, medical reality, and compassion in a pluralistic society\u2014taking seriously both the pregnant person\u2019s health and autonomy and the moral concern many attach to developing life. Common ground starts with reducing crisis pregnancies through evidence-based sex education, accessible contraception, strong maternal healthcare, and practical support for parenting and adoption. Where legal limits exist, they should be clear, medically informed, and include timely exceptions for life-threatening or serious health risks and other severe circumstances, aiming to reduce harm rather than punish.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical evidence, and respect for moral pluralism\u2014protecting the health, dignity, and equal citizenship of pregnant people while acknowledging the moral concern many feel for developing life. A durable approach prioritizes preventing unintended pregnancy through education and contraception, and strengthening supports for pregnancy, parenting, adoption, and maternal healthcare. Where legal limits are set, they should track medical reality, avoid punitive approaches that deter care, and include clear, workable exceptions for rape or incest and for serious threats to life or health, including severe fetal conditions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

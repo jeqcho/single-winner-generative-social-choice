@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "36"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should focus on preventing harm while upholding constitutional rights by setting clear, publicly known rules for stops, searches, arrests, and proportional use of force\u2014backed by consistent training, documentation, and real consequences for violations. Pair this with independent oversight, transparent reporting, and privacy safeguards so the public can evaluate outcomes without enabling surveillance overreach. Expand non-police and co-responder options for mental-health, substance-use, and other low-risk calls, while investing in problem-solving partnerships that target serious violence and repeat victimization.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and civil rights together through clear, constitutional use-of-force limits; consistent de-escalation, bias, and trauma-informed training; and independent civilian oversight with transparent public reporting and fair consequences for misconduct. Adopt a public-health approach that prioritizes prevention and routes nonviolent mental-health and social-service calls to co-responder or non-police teams, reserving armed response for genuine threats. Use privacy-protecting, data-driven policies (including body-worn camera standards) and sustained community partnership to measure outcomes, build trust, and improve safety over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while protecting constitutional rights through clear, enforceable use-of-force rules, strong de-escalation training, and independent oversight with transparent public reporting. Reserve armed enforcement for genuine threats and expand co-responder or non-police options for mental-health and nonviolent crises, while ensuring timely response to serious crime. Use data-driven, privacy-protecting practices (including body-camera policies) and regular community input to evaluate outcomes, correct misconduct, and support well-trained officers so safety and civil liberties improve together.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

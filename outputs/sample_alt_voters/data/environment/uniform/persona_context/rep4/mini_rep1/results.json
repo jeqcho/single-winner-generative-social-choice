@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_star": {
+      "winner": "49",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing goals: strong safeguards for air, water, and ecosystems set the baseline for lasting prosperity, while a competitive economy provides the means to invest in solutions. Policymakers should set clear, science-informed targets and let communities and industries meet them flexibly through a mix of standards, market mechanisms, and streamlined permitting for cleaner projects. To keep the balance fair, pair these steps with transition support\u2014retraining, temporary assistance, and help for small businesses\u2014so costs don\u2019t fall hardest on workers and vulnerable regions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should reinforce each other by treating clean air, water, and resilient ecosystems as the foundation of long-term prosperity while keeping jobs and small businesses viable. Policies should set clear, science-based standards with predictable, phased timelines, paired with market incentives and targeted investments in clean technology. To keep the transition fair and practical, provide robust support for workers and local employers\u2014training, small-business assistance, and community-led planning\u2014with transparent, measurable outcomes and accountability for results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should reinforce each other by treating clean air, safe water, and healthy land as essentials for public health and long-term prosperity, while keeping jobs and local businesses strong. Set clear, science-based standards with predictable, phased timelines and flexible, cost-effective compliance options so employers and workers can plan and invest. Pair these rules with targeted incentives for clean technology and energy efficiency, plus practical transition support\u2014job training, help for small businesses, and protections for communities most affected\u2014so families are not left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

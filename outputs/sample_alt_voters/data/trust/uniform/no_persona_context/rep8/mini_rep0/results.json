@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star_personas": {
+      "winner": "85",
+      "epsilon": 0.0,
+      "full_winner_idx": "85"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make it easy for people to see how decisions are made, how money is spent, and what happens when standards aren\u2019t met\u2014through clear explanations, accessible records, and independent checks. Trust also depends on everyday reliability: services that work, rules applied consistently, and timely fixes when problems occur. Creating simple, safe ways for residents to participate, ask questions, and get remedies\u2014especially for marginalized communities\u2014turns engagement into shared responsibility rather than one\u2011way messaging.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions make decisions and trade-offs transparent in plain language, publish accessible performance data, and submit to independent audits and enforceable accountability. Trust is reinforced when people see consistent, fair delivery of essential services that protects rights and privacy and produces measurable improvements in daily life. Regular, culturally competent local forums\u2014multilingual where needed\u2014should provide real channels for participation, redress, and co-design, including admitting mistakes and correcting them promptly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions consistently deliver fair, reliable services and explain decisions and trade-offs in plain language that people can verify with clear, privacy-protecting data. Independent audits, firm consequences for mistakes, and simple, accessible ways to report problems and get timely remedies show real accountability. Ongoing local forums and partnerships\u2014multilingual and culturally respectful\u2014let communities help shape priorities and see visible improvements in safety, schools, health, and basic services.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

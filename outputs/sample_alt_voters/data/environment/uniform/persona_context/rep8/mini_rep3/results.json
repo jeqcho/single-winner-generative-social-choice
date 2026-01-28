@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "54",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued as a single long-term strategy: set clear, science-based limits that prevent lasting harm while giving businesses predictable timelines and flexibility in how to comply. Use market tools and public investment\u2014performance standards, pollution pricing where appropriate, and support for clean infrastructure\u2014to drive innovation, competitiveness, and lower costs over time. Pair these measures with targeted help for workers, energy-intensive regions, and small firms, plus transparent metrics so communities can see both cleaner outcomes and real economic gains.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing goals, because clean air, water, and healthy land are foundations for public health and long-term prosperity. Policy should pair clear, science-based and predictable standards with market incentives that accelerate clean innovation and hold major polluters accountable. Phased timelines, local input, and transparent, measurable outcomes can keep rules practical while building trust. Targeted support\u2014workforce retraining, small-business assistance, and transition funding\u2014helps communities adapt fairly while creating durable jobs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as two sides of the same goal: healthy communities with stable paychecks, clean air and water, and a dependable future. Set clear, science-based standards that hold major polluters accountable, but pair them with predictable timelines, flexible compliance options, and incentives that help businesses\u2014especially small employers\u2014adopt cleaner, cost-saving technology. Invest in domestic clean-energy and efficiency jobs, apprenticeships and retraining for displaced workers, and targeted help for rural and working-class communities so the transition is fair, practical, and measurable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

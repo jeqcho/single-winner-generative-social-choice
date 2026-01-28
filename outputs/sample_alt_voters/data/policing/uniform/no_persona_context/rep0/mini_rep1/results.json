@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "93",
+      "epsilon": 0.0,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim to prevent harm and protect rights by using the least intrusive, proportionate response that safely resolves incidents, guided by clear policies and consistent training in de-escalation, bias awareness, and procedural justice. Safety improves when police focus on serious violence and chronic harm while routing behavioral-health, homelessness, and substance-use crises to well-funded civilian partners whenever feasible. Public confidence requires transparent reporting, independent review of serious uses of force and misconduct, and fair, timely discipline and remedies for residents as well as due-process protections for officers. Ongoing community input and regular evaluation of outcomes should shape tactics so enforcement is effective, predictable, and respectful across all neighborhoods.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing clear, proportional rules\u2014especially on use of force\u2014backed by routine de-escalation, bias-awareness, and procedural-justice training. Legitimacy and trust depend on transparent data, accessible complaint processes, and timely, independent oversight with measurable accountability. To reduce harmful encounters, pair officers with mental-health and social-service partners and expand non-police crisis response and prevention, while supporting officers with consistent standards and wellness resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while protecting constitutional rights through clear, enforceable rules, restrained and proportional use-of-force standards, and consistent de-escalation and bias-aware training. Trust grows when misconduct is investigated quickly and independently, outcomes are reported transparently, and residents have accessible, fair complaint and remedy processes. Pairing officers with mental-health and social-service responders and using diversion where appropriate reduces unnecessary arrests and confrontations while letting police focus on serious crime. Supporting officers with adequate staffing, training, and wellness resources\u2014along with measurable performance standards\u2014helps deliver predictable, respectful, and effective public safety for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

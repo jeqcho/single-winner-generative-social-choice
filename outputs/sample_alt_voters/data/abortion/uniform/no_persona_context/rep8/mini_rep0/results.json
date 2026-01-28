@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "84",
+      "epsilon": 0.0,
+      "full_winner_idx": "84"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by harm\u2011reduction: protect patients\u2019 health, privacy, and timely access to clinically appropriate care while acknowledging that many citizens ascribe moral value to prenatal life. Any gestational rules should be medically grounded, clearly written, and include workable exceptions for threats to life or serious health, rape or incest, and fatal or nonviable fetal conditions, with enforcement focused on regulation rather than criminal punishment of patients or clinicians. To reduce the number of abortions without coercion, policy should also expand contraception and comprehensive sex education, prenatal and postpartum healthcare, and practical supports for parenting or adoption so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should treat abortion primarily as a healthcare matter, guided by medical evidence, patient safety, privacy, and timely clinical judgment, while acknowledging the moral seriousness many attach to prenatal life. Rules, if any, should be clear and workable for clinicians, protect emergency and medically necessary care, and include narrowly defined exceptions for rape, incest, and severe or nonviable fetal conditions, without criminalizing patients or providers. To reduce crisis pregnancies and the number of abortions, policy should pair legal standards with strong prevention and family supports\u2014comprehensive sex education, affordable contraception, prenatal/postpartum care, and meaningful resources for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by medical evidence, respect for personal conscience, and a commitment to protect both pregnant people\u2019s health and the value many place on developing life. Decisions should remain primarily between patients and qualified clinicians, with clear statewide standards that guarantee timely care and explicit exceptions for life and serious health risks, rape or incest, and pregnancies that are nonviable or involve severe fetal anomalies, while avoiding criminal penalties for patients and clinicians. At the same time, society should reduce crisis pregnancies by expanding comprehensive sex education, affordable contraception, prenatal and postpartum healthcare, and practical supports for parenting and adoption so choices are shaped by stability rather than desperation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

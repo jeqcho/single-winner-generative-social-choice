@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.29000000000000004,
+      "full_winner_idx": "88"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.16999999999999993,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star_personas": {
+      "winner": "95",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be built around shared goals: protecting human dignity, safeguarding health, and respecting that citizens hold deeply different moral views. A workable framework should ensure timely, evidence-based medical care and clear exceptions when a pregnancy results from rape or incest, is nonviable, or poses serious risk to the pregnant person, while setting transparent, medically informed limits that avoid criminalizing patients or clinicians for good-faith care. Alongside any legal rules, public policy should invest in prevention and support\u2014contraception, accurate sex education, prenatal and postpartum care, adoption services, and economic help\u2014so fewer people face crisis decisions in the first place.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be grounded in compassion, evidence-based medicine, and respect for moral diversity, keeping urgent medical decisions primarily in the patient\u2013doctor relationship while setting clear, workable rules the public can understand. A balanced approach should protect timely care when a pregnant person\u2019s life or serious health is at risk and address grave circumstances like rape or incest, while aiming to reduce abortions by preventing unintended pregnancies through comprehensive sex education and affordable contraception. Any legal framework should be paired with strong supports for those who carry to term\u2014prenatal and postpartum care, adoption services, childcare, and economic stability\u2014so fewer families feel cornered into crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity, and sound medical evidence, recognizing both the moral value many place on unborn life and the serious health, safety, and family realities that can make pregnancy a crisis. A workable approach protects timely, medically necessary care and clear exceptions for rape, incest, and serious threats to the pregnant person\u2019s life or health, while setting transparent, practical rules written with clinicians rather than political slogans. Common ground is strengthened by reducing unwanted pregnancies and hardship through comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption support, and economic help for parents, so fewer people feel forced into painful choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

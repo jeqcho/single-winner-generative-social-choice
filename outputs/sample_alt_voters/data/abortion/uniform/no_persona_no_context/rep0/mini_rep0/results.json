@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a public-health and human-rights framework: protect life and health by preventing crisis pregnancies, ensuring timely medical care, and treating families with dignity. Common ground includes medically defined protections for emergencies and serious fetal conditions, early and safe access with appropriate informed consent, and no criminal penalties for patients or good-faith clinicians. Pair any legal limits with proven supports\u2014contraception, prenatal/postpartum care, paid leave, childcare, and adoption resources\u2014so fewer people feel forced into desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, humility about deep moral disagreement, and a clear duty to protect health and reduce preventable harm. Common ground includes guaranteeing timely emergency and medically necessary care, keeping standards medically informed and predictable, and avoiding punitive approaches that deter patients or clinicians from seeking care. Alongside any limits, policy should prioritize measurable outcomes by expanding contraception and evidence-based education, strengthening prenatal and maternal healthcare, and providing real economic and social support so fewer pregnancies become crises and families are more stable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect human life and dignity while keeping the government from turning private, time-sensitive medical decisions into criminal cases. Common ground includes guaranteed emergency care and clear medical exceptions, decisions informed by clinicians and evidence, and strong prevention and support\u2014contraception and accurate education, prenatal and maternal healthcare, and practical help for parenting or adoption. The aim should be fewer crisis pregnancies and healthier, more stable families, while respecting sincere moral and religious differences in a pluralistic society.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

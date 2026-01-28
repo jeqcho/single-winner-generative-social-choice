@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim for the least coercive approach consistent with protecting health and acknowledging sincere moral concern for developing fetal life. It should secure prompt access and privacy early in pregnancy, set any later limits by medical evidence and viability while guaranteeing clear, workable exceptions for life and serious health threats, rape or incest, and lethal fetal conditions\u2014leaving time\u2011sensitive decisions to licensed clinicians rather than prosecutors. To reduce abortions without punishing people, governments should expand contraception, accurate education, and practical supports for pregnancy, childbirth, and parenting (including healthcare, paid leave, childcare, and adoption counseling).",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by medical evidence and compassion, keeping timely decisions primarily between pregnant patients and qualified clinicians while protecting safety, privacy, and freedom of conscience. It can acknowledge the moral seriousness many attach to fetal life through clear, workable limits later in pregnancy, paired with explicit exceptions for threats to health or life, rape or incest, and nonviable or severe fetal conditions, without criminalizing people in crisis. To reduce abortions and hardship, governments should expand prevention and support\u2014affordable contraception, comprehensive education, and strong prenatal, childbirth, childcare, and parenting resources\u2014so fewer families face desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by medical evidence, human dignity, and a commitment to reduce harm\u2014protecting safe, timely care and patient privacy while acknowledging that many view fetal life as morally significant. A workable framework keeps early decisions primarily between patients and qualified clinicians, sets clearer limits later in pregnancy, and guarantees prompt exceptions for threats to health or life, rape or incest, and nonviable or severe fetal conditions, without criminalizing people in crisis or overriding clinical judgment. Alongside any limits, government and communities should invest in prevention and support\u2014affordable contraception, accurate education, prenatal and postnatal care, childcare and economic help, and adoption resources\u2014so fewer families face unwanted pregnancies and fewer feel forced into desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

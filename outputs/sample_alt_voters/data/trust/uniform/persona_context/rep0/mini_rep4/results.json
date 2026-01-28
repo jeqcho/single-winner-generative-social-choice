@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_personas": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Institutions can rebuild trust by making their work easy to see and judge: set clear goals, publish understandable budgets and performance results, and explain tradeoffs honestly before decisions are made. Pair that transparency with real consequences for misconduct\u2014independent audits, whistleblower protections, and consistent enforcement of rules for everyone. Create regular, locally grounded ways for residents to shape priorities and evaluate services, and then show what changed because of their input. Reliability in the basics, respect for rights and privacy, and prompt correction when things go wrong give people across viewpoints evidence that institutions serve the public rather than themselves.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions reliably deliver measurable improvements in everyday life\u2014health, safety, schools, and economic stability\u2014while explaining decisions in plain, respectful language. Clear standards, independent oversight, and publicly verifiable results (with strong privacy protections) make accountability real, including prompt admission and correction of mistakes. Trust deepens when decision-making is brought closer to communities through regular, multilingual, face-to-face engagement and meaningful opportunities to participate. Putting service, fairness, and competence ahead of partisanship creates common ground where people across viewpoints can see institutions working for the public.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions deliver reliable, everyday results\u2014safer neighborhoods, responsive schools and health services, fair permits and benefits\u2014while explaining decisions in plain language people can verify. They should publish clear metrics and audits, protect privacy, and enforce consistent standards through independent oversight with real consequences when mistakes happen. Trust also grows when decision\u2011making is brought closer to communities through regular local forums, respectful listening across viewpoints and faiths, and accessible civic education so people feel heard and share responsibility for improvement.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

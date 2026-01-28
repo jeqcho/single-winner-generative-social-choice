@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "49",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should operate as a rights\u2011protecting public safety service: prevent harm when possible, use the least force necessary when not, and document decisions so the public can verify fairness. That means clear constitutional and use\u2011of\u2011force standards, frequent scenario-based training in de\u2011escalation and crisis response, and dependable alternatives for mental\u2011health and nonviolent calls. Trust and effectiveness improve when oversight is independent, data is transparent but privacy\u2011protected, and officers receive the staffing, wellness support, and consistent discipline needed to meet measurable safety and civil-rights outcomes together.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing goals, guided by clear, enforceable standards (especially for stops, searches, and use of force) and routine training in de-escalation, crisis response, and cultural and language competence. Pair armed response with well-resourced mental-health and social-service alternatives for appropriate calls, while strengthening community partnerships that prevent harm and improve communication. Trust and effectiveness depend on transparent, privacy-conscious data and independent oversight with meaningful civilian input\u2014alongside fair resources, wellness support, and consistent discipline for officers\u2014so outcomes are measurable, lawful, and humane.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be a professional, community\u2011rooted public service that keeps neighborhoods safe while protecting constitutional rights through clear, enforceable use\u2011of\u2011force standards, consistent de\u2011escalation and crisis training, and fair, transparent discipline when rules are broken. Independent oversight, timely public reporting, and responsible data practices that protect privacy can build trust across political lines while still supporting effective policing. Pairing law enforcement with well\u2011resourced mental\u2011health and social\u2011service crisis responders, plus ongoing community partnerships, reduces unnecessary confrontations and helps officers focus on serious crime.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

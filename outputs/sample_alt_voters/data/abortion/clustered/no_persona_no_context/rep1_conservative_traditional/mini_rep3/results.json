@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect health, reduce preventable suffering, and respect the fact that citizens disagree in good faith about fetal moral status. A durable middle ground prioritizes evidence-based medical standards, strong protections for life- and health-threatening situations, and safeguards against coercion or misinformation, while allowing democratic limits that are clear, workable, and sensitive to real-world complexity. Pairing any legal boundaries with practical supports\u2014contraception, prenatal care, adoption options, and economic help for parents\u2014helps ensure fewer people face crisis pregnancies and more children are born into stable conditions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a shared goal of reducing harm while respecting deep moral disagreement: protecting women\u2019s health and autonomy and acknowledging the moral value many place on developing life. A workable framework centers medical evidence and privacy, guarantees timely emergency and medically necessary care, and prevents coercion through clear, honest standards. It also pairs any legal limits with strong prevention and support\u2014contraception and education, affordable healthcare, and real economic help for parenting and adoption\u2014so fewer people face desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by protecting both human life and the health and dignity of the pregnant person, with humility about sincere moral and religious disagreement. A workable compromise pairs medically grounded limits with clear protections for the mother\u2019s life and serious health emergencies, bans coercion, and ensures informed consent and safe, accountable care. To reduce abortions and hardship, policy should strengthen prevention (education and access to contraception) and expand practical support for families\u2014prenatal care, adoption services, paid leave, childcare, and help for low-income parents\u2014so choosing birth is realistic.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

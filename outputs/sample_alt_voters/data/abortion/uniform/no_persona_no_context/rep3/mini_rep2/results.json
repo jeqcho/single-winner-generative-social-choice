@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "48",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "93",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by a harm-reduction framework that treats pregnancy as a serious medical and moral situation, not a battlefield. It should protect timely care\u2014especially in emergencies and severe fetal or maternal conditions\u2014while allowing democratic debate about any limits to be grounded in medical evidence and due process, not stigma. The strongest common ground is upstream: wide access to contraception and accurate education, plus real supports like healthcare, paid leave, and childcare so fewer pregnancies become crises and fewer people feel cornered into any outcome.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to reduce harm and protect human dignity, recognizing that reasonable people differ about the moral status of developing life. A workable framework prioritizes medically informed care and clear health exceptions, while pairing any legal standards with strong prevention and support: education, contraception access, prenatal and maternal healthcare, and economic and childcare resources. The aim should be fewer crisis pregnancies, safer outcomes for patients, and more supported families, pursued with compassion rather than stigma or punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to reduce harm and conflict by protecting the health and dignity of pregnant people while also acknowledging the moral concern many citizens have for developing life. A workable approach keeps medical decisions grounded in clinical evidence, includes clear exceptions for rape, incest, and serious threats to health, and avoids criminalizing patients or doctors acting in good faith. To lower the number of abortions and strengthen families, policy should also expand access to contraception, accurate education, prenatal and maternal care, and practical supports like childcare, paid leave, and economic assistance.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

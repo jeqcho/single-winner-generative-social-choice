@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "59"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "59"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "59"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "59"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance sets clear ecological \u201cred lines\u201d against irreversible damage while giving businesses flexibility in how to meet them. Pair predictable, phased standards with market tools\u2014like pollution pricing and time\u2011limited tax credits\u2014so cleaner production becomes the most profitable path. Use the revenue and public investment to fund R&D, modernize infrastructure, and provide transition support for workers and regions that face higher adjustment costs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth can reinforce each other when policy makes it profitable to cut pollution and conserve natural capital instead of externalizing costs. A durable balance sets clear, science-based safeguards against irreversible harm while phasing in predictable standards, incentives, and investment in clean technology, efficient infrastructure, and circular production. To keep the transition fair and politically workable, pair these measures with workforce retraining and targeted support for regions and industries most affected, and track progress with transparent metrics beyond GDP such as health, resilience, and ecosystem condition.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as linked goals: we need to prevent irreversible harm to air, water, and ecosystems while keeping energy and everyday costs manageable for families and employers. A practical balance pairs clear, predictable standards and strong enforcement with incentives for innovation, efficiency, and cleaner domestic production, phased in with realistic timelines. Investing in infrastructure, workforce retraining, and targeted support for communities and industries in transition can protect jobs today while building a more resilient economy for the future.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

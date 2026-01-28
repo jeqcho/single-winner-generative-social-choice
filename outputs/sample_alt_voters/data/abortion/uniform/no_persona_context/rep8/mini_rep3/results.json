@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "84",
+      "epsilon": 0.0,
+      "full_winner_idx": "84"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be written to reduce preventable harm: protect prompt, evidence-based care and patient privacy, and keep clinical judgment\u2014not politics\u2014at the center of urgent decisions. It should set clear, workable standards for later pregnancies while guaranteeing straightforward exceptions for life- or serious health-threatening conditions, pregnancy nonviability, and pregnancies resulting from rape or incest, without criminal penalties that deter necessary treatment. Lasting common ground also requires lowering the number of unwanted pregnancies and crisis situations through affordable contraception, accurate education, prenatal/postpartum care, and practical support for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion law should treat abortion primarily as healthcare: protect patient safety, privacy, and timely access to medically necessary care by keeping decisions between patients and qualified clinicians, with clear, evidence-based standards for later-pregnancy cases. It should acknowledge sincere moral concern for prenatal life through predictable limits and narrowly defined exceptions for serious health threats, nonviable or catastrophic fetal conditions, and cases of rape or incest, without criminalizing patients or clinicians. Any legal framework should be paired with robust prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, and adoption resources\u2014so fewer people face crisis pregnancies and choices are made with real options rather than hardship.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion law should be grounded in medical evidence and privacy, keeping time\u2011sensitive decisions primarily between a pregnant person and qualified clinicians, while recognizing that many citizens see prenatal life as morally significant. Any limits should be clear, consistent, and nonpunitive, with explicit exceptions for threats to life or serious health, nonviable pregnancies or severe fetal anomalies, and pregnancies from rape or incest, so emergency and medically necessary care is never delayed. To reduce abortions and coercion in either direction, pair the legal framework with broad prevention and support\u2014accurate education, affordable contraception, prenatal and postpartum care, mental\u2011health services, childcare and economic help, and accessible adoption resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

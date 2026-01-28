@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "69"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "69"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make performance easy to see and hard to game: clear standards for service, published results people can understand, and real consequences for misconduct or waste. Decisions should be explained early and plainly, with privacy protected, conflicts of interest disclosed, and a simple path for people to appeal, report problems, and get timely responses. Partnering with local community groups and frontline workers to co-design and audit key services turns residents into collaborators, not spectators, and builds confidence through consistent follow-through.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver steady, visible improvements in everyday services and back them up with transparent, plain-language explanations of how decisions are made. Clear accountability\u2014independent oversight, measurable goals, open reporting, and prompt admission and correction of mistakes\u2014lets people verify performance rather than rely on promises. Bringing decision-making closer to neighborhoods through accessible, multilingual participation and civic education helps residents share responsibility and see institutions as service-first stewards of the common good, not partisan instruments.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions focus on dependable basics\u2014safe streets, fair schools, timely permits and benefits\u2014and publish clear, plain-language goals and results so people can see what\u2019s working. Decisions should be transparent and privacy-protecting, with independent audits, real consequences for misconduct, and prompt, public correction when mistakes happen. Bringing problem-solving closer to neighborhoods through regular local forums (in the languages people use) and including frontline workers and residents in shaping solutions helps ensure services are respectful, nonpartisan, and actually meet everyday needs.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect health, dignity, and freedom of conscience while acknowledging that many citizens view developing life as morally significant. A stable compromise is to guarantee timely, safe access early in pregnancy and to regulate later procedures around clear, physician-led standards with explicit exceptions for life and serious health risks, rape or incest, and severe fetal conditions\u2014without criminalizing patients or undermining emergency care. Common ground grows when policy also invests in proven prevention and support: affordable contraception and sex education, prenatal and mental-health care, and practical help with childbirth, adoption, and parenting.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should balance respect for bodily autonomy and privacy with a sincere regard for developing human life, keeping decisions grounded in medical evidence rather than politics. A durable approach protects timely, safe access early in pregnancy and guarantees clear, medically defined exceptions later for threats to life or health, rape or incest, and severe fetal conditions, with room for clinician judgment and patient conscience. Common ground also means reducing unwanted pregnancies and hardship through affordable contraception, comprehensive sex education, prenatal and mental-health care, and strong supports for parenting and adoption, focusing on compassion and prevention over punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity, and medically grounded judgment, recognizing both a woman\u2019s bodily autonomy and the moral concern many people hold for developing life. A durable policy should protect timely access early in pregnancy, and set clear, workable standards later that guarantee exceptions for the woman\u2019s life and serious health risks, as well as for pregnancies from rape or incest and severe fetal conditions, with decisions led by patients and clinicians rather than politics. Common ground also means investing in prevention and support\u2014accurate sex education, affordable contraception, prenatal and mental-health care, and real help for families who choose to carry to term\u2014so fewer people face crisis decisions and no one is punished for seeking needed care.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "4"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "32",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to align the presidency more closely with the will of voters while retaining states\u2019 constitutional role and avoiding abrupt, high-risk changes. A workable compromise is to curb winner-take-all incentives\u2014through proportional elector allocation (or district allocation with strong anti-gerrymandering rules) and/or the National Popular Vote Interstate Compact\u2014paired with improvements like ranked-choice voting to ensure winners reflect broad support. Any shift should come with clear, nationwide minimum standards for ballot access, paper-backed audits, and automatic recount thresholds so outcomes are transparent, verifiable, and widely accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make every vote count more equally while keeping states central to running elections and ensuring smaller and rural communities remain meaningfully represented. A pragmatic path is to reduce winner-take-all distortions through proportional (or district-based) allocation of electors with strong anti-gerrymandering safeguards, or by adopting an interstate compact that aligns the outcome with the national popular vote. Pair any change with clear, uniform standards for ballot access, auditable paper trails and post-election audits, and transparent recount triggers, implemented gradually and with bipartisan oversight so results are trusted and candidates campaign beyond a few swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should protect the Constitution\u2019s federal structure and states\u2019 administration of elections while making outcomes reflect voters more evenly and reducing the outsized focus on a few swing states. A practical compromise is to keep the Electoral College but end winner-take-all by encouraging proportional allocation of electors (or a carefully designed popular-vote compact) and to consider ranked-choice voting where states choose to adopt it. Whatever path is chosen should come with clear, uniform baseline standards\u2014secure paper ballots, routine audits, transparent recount triggers, and strong anti-gerrymandering rules\u2014phased in with bipartisan oversight so both urban and rural communities can trust the results.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

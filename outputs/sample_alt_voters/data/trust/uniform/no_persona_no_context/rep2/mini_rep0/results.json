@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "52",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust can grow without forcing consensus on every policy if institutions make their work legible and verifiable: explain decisions in plain language, publish the evidence and trade-offs, and disclose who benefits and who bears costs. Pair that openness with real accountability\u2014independent investigations, protections for whistleblowers, and timely remedies when people are harmed. Finally, make participation meaningful by involving communities early (not after decisions are set) and reporting back on what input changed, so trust is built through repeated, checkable follow-through.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently show competence and integrity through transparent decision-making, accessible information, and clear explanations of trade-offs. Establish independent oversight and audits, track measurable performance metrics, and apply real consequences for misconduct so accountability is visible and predictable. Pair these standards with regular, inclusive public forums and feedback channels\u2014especially at the community level\u2014so people can be heard, see improvements, and get timely redress when things go wrong.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "To rebuild trust, institutions should commit to the same clear rules for everyone: open decision-making, plain-language explanations of trade-offs, and accessible public data on results. Independent oversight and audits, real consequences for misconduct, and simple ways to file complaints and get timely responses can show accountability in practice. Regular local listening sessions and partnerships with community groups can ensure people of different backgrounds feel respected, heard, and able to shape improvements. Over time, consistent performance, honest communication about mistakes, and visible follow-through can earn confidence across political lines.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

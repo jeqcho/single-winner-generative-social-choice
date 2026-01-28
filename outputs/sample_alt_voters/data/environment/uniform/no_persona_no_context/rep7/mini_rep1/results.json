@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance is to protect critical ecosystems and public health as non\u2011negotiable guardrails, while giving businesses flexible, predictable pathways to meet them at lowest cost. Pair pollution and resource-use limits with incentives for cleaner production, streamlined permitting for low-impact projects, and public investment in R&D and resilient infrastructure. Ensure the transition is fair through local input, support for affected workers, and regular reporting on both economic performance and environmental outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based environmental limits while enabling businesses and communities to thrive within them. Use predictable standards and market-based tools that price pollution and reward efficiency, circular practices, and clean innovation, paired with targeted public investment in resilient infrastructure and renewable energy. Provide transition support\u2014retraining, local planning, and assistance for affected regions\u2014so the costs and benefits are shared fairly and long-term prosperity rests on healthy ecosystems.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "We can protect clean air, safe water, and critical habitats while growing the economy by setting clear, science-based environmental baselines and giving businesses predictable rules to meet them. Using market-friendly tools and incentives to reward efficiency and innovation can lower pollution, cut waste, and create new jobs without sacrificing competitiveness or affordable energy. Just as important, the transition should include retraining, local input, and targeted support for workers and communities so the costs and benefits are shared fairly over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "14"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.22999999999999998,
+      "full_winner_idx": "31"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by both respect for developing life and a commitment to protect the health, rights, and dignity of pregnant people, with decisions anchored in sound medical standards rather than politics. A workable compromise is to guarantee timely care and patient\u2013clinician decision-making early in pregnancy, and allow carefully defined regulations later that always include clear exceptions for threats to the patient\u2019s life or serious health, and for extreme circumstances. To reduce abortions without criminalizing people in crisis, policy should also invest in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical help for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by medical evidence, patient safety, and respect for human dignity, while acknowledging that many people also feel a serious moral obligation to protect developing life. Policy should keep urgent, time-sensitive decisions in the hands of patients and licensed clinicians, with clear, workable standards and well-defined exceptions when a pregnancy threatens the patient\u2019s life or health and in other extreme circumstances. At the same time, the best way to reduce abortions and hardship is prevention and support: comprehensive sex education, affordable contraception, prenatal and postnatal care, adoption resources, and practical help for families. The goal should be fewer crises and better outcomes\u2014compassionate, enforceable rules that reduce harm without turning personal tragedies into political or legal battles.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by respect for human dignity and potential life, medical evidence, and compassion for families facing difficult circumstances. They should ensure timely, noncriminalized care when a pregnancy threatens the patient\u2019s life or serious health, and set clear, workable rules that reflect the community\u2019s moral concerns without forcing doctors to delay emergency treatment. Common ground is stronger when policy also prevents crises\u2014through accurate education, affordable contraception, prenatal and postnatal care, adoption support, and practical help for parents\u2014so fewer people feel cornered into painful choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

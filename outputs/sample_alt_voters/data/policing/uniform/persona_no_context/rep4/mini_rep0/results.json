@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim to prevent harm first\u2014resolving most encounters through respectful communication, proportional responses, and de-escalation\u2014while maintaining the capacity to intervene decisively when serious threats arise. Clear, publicly known rules on stops, searches, and use of force; reliable data and body-camera governance; and independent review of critical incidents can protect civil rights and strengthen legitimacy. Partnering with community leaders and expanding non-police crisis, mental-health, and substance-use responses can reduce unnecessary enforcement while keeping neighborhoods safe.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the shared goals of keeping communities safe and upholding constitutional rights through clear, enforceable standards, strong de-escalation and crisis-response training, and transparent data reporting. Independent oversight and fair, consistent accountability for misconduct\u2014paired with meaningful community engagement in setting priorities\u2014can rebuild trust across perspectives. Investing in mental-health and social-service alternatives alongside well-supported, well-trained officers helps prevent crises, reduce unnecessary force, and improve safety and dignity for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and constitutional rights as reinforcing goals by setting clear, enforceable standards for stops, searches, and use of force, backed by regular de-escalation, crisis-response, and bias-awareness training. Trust is strengthened through transparent reporting (including body-worn camera and stop data), fair and timely investigations of misconduct with independent/community input, and consistent consequences when rules are broken. Communities are safer when officers are supported with adequate staffing and wellness resources and when non-police partners\u2014mental health, addiction, and social services\u2014handle appropriate calls so police can focus on serious crime and prevention.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "46",
+      "epsilon": 0.0,
+      "full_winner_idx": "46"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "34",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth should be measured by whether it strengthens, rather than damages, the natural systems communities depend on, so environmental safeguards should be clear, science-based, and designed to prevent the most costly harms. At the same time, rules should be predictable and flexible enough to let businesses choose the lowest-cost ways to comply, supported by incentives for efficiency and cleaner production. A fair balance also includes transition support\u2014retraining, local reinvestment, and infrastructure upgrades\u2014for workers and regions most affected, with regular review of outcomes to keep both jobs and ecosystems resilient.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by recognizing that clean air, water, and a stable climate are the foundation of long-term prosperity and public health. The best balance pairs clear, science-based and predictable rules with market incentives that reward cleaner technologies and efficiency, so businesses can plan and innovate while environmental costs are fairly accounted for. To protect livelihoods, policies should phase in changes and include targeted transition support\u2014retraining, infrastructure investment, and community assistance\u2014especially for regions and workers that are most affected.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A strong economy and a healthy environment reinforce each other, so we should protect clean air and water with clear, science-based rules while keeping them predictable and practical for businesses to follow. Pair those safeguards with market-based incentives and targeted investments in clean technology, infrastructure, and energy efficiency that lower costs and create good local jobs. For communities and workers who would be most affected, phase in changes and provide retraining, wage support, and local input so families aren\u2019t left behind while we build long-term prosperity.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

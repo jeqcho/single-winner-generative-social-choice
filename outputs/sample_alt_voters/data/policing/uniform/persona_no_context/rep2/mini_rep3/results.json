@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be built around a simple standard: intervene only as much as necessary to keep people safe, and always in a way that preserves constitutional rights and human dignity. That requires clear, enforceable policies (especially on stops, searches, and use of force), reliable transparency through public reporting and audits, and independent review with meaningful consequences for misconduct. Public safety improves when officers are equipped to slow situations down\u2014through training, staffing, and wellness supports\u2014and when non-police responders handle many mental-health, substance-use, and other nonviolent crises. Ongoing collaboration with communities to set priorities and measure results can reduce both crime and unnecessary harm while strengthening trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing, guided by clear, constitutionally grounded rules\u2014especially for stops, searches, and use of force\u2014paired with transparent reporting and independent oversight. Departments should prioritize de-escalation, bias and cultural-competence training, and officer wellness, while tracking measurable outcomes and enforcing meaningful accountability when standards are violated. For mental-health and other nonviolent crises, communities should expand co-responder and alternative response options and strengthen partnerships with local services. Done consistently and openly, these evidence-based practices can reduce harm, build trust, and keep neighborhoods safe.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by enforcing clear, constitutional rules\u2014especially on stops, searches, and use of force\u2014paired with consistent training in de-escalation, crisis response, and bias awareness. Trust and effectiveness grow when departments use transparent reporting, body-worn cameras with privacy safeguards, and independent oversight that provides fair accountability for both misconduct and good policing. Communities are safer when officers partner with residents and when nonviolent mental-health and social-service crises have alternative responders, while also supporting officer safety and wellness so they can do the job professionally.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

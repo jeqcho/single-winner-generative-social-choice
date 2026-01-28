@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "69"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as the same long-term project: reducing health, climate, and resource risks while keeping communities employed and competitive. Set clear, science-based goals for air, water, and emissions, but let regions and industries choose flexible, cost-effective ways to meet them\u2014phased in with predictable timelines, streamlined permitting for cleaner projects, and accountability through transparent metrics. Pair standards with transition supports such as targeted help for small businesses, worker training and wage insurance, and investment in modern infrastructure and innovation so the costs and benefits are shared fairly. This approach safeguards public health and natural assets while encouraging productivity, resilience, and durable local prosperity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing by setting clear, science-based standards for clean air and water with transparent, measurable outcomes and predictable, phased timelines. Pair these safeguards with market-aligned incentives and targeted investments in clean technology, infrastructure, and cost-effective efficiency so businesses\u2014especially small employers\u2014can adapt and innovate. Provide robust transition support, including workforce retraining and local, community-driven planning, to share costs and benefits fairly while protecting public health and sustaining stable jobs for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as linked goals: keep air and water clean to protect health and reduce long\u2011term costs, while keeping jobs and local businesses strong. Set clear, science-based standards with predictable, phased timelines and straightforward enforcement, paired with market incentives and investments in cleaner infrastructure and technology. Provide practical transition help\u2014retraining, temporary assistance, and support for small businesses and trades\u2014so workers, rural communities, and manufacturers can adapt without sudden hardship. Measure results publicly and use local input to adjust policies so benefits and burdens are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

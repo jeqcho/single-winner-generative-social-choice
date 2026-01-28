@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make decisions people can inspect: publish the evidence and tradeoffs, explain them in plain language, and protect privacy and basic rights. Then earn credibility through reliable service\u2014set clear goals, report results, invite independent audits, and fix problems quickly with consequences when failures occur. Keep the public involved through regular local forums and representative citizen panels so feedback changes policy, not just messaging. Over time, steady competence, openness, and shared participation build confidence across political and cultural divides.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions act like dependable local service providers: they show up consistently in neighborhoods, deliver practical improvements people can feel, and publish clear, plain-language explanations of what they\u2019re doing and why. Decisions should be transparent and evidence-based, with independent oversight, routine audits, and simple performance measures so outcomes can be verified. Trust is strengthened when leaders listen respectfully, protect individual rights and privacy, and quickly admit, fix, and learn from mistakes through real avenues for community participation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "To increase trust, institutions should act like reliable public-service organizations: make decisions transparent and evidence-based, explain them in plain language, and publish clear goals and results people can verify. Trust grows when there is real accountability\u2014independent audits, strong ethics rules, privacy protections, and prompt admission and correction of mistakes. Bringing services and decision-making closer to neighborhoods through regular in-person listening sessions and partnerships with local schools, clinics, workplaces, and faith/community groups helps people feel respected and see consistent follow-through. When institutions deliver practical improvements in everyday life while respecting individual rights and local needs, common ground becomes possible across political and cultural divides.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

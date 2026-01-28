@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_star_personas": {
+      "winner": "96",
+      "epsilon": 0.0,
+      "full_winner_idx": "96"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Any Electoral College reform should keep the federal character of presidential elections while reducing the current winner-take-all incentives that make many voters and states feel irrelevant. A broadly acceptable package could bind electors to certified results, encourage states to allocate electors proportionally with basic anti-gerrymandering protections, and allow an interstate compact as an optional bridge where states agree. Whatever the path, shared national baselines for ballot access, transparent tabulation with paper-backed audits, and clear automatic recount rules are essential so close outcomes are trusted across parties and regions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep states meaningful in choosing the president while making each lawful vote carry more comparable weight and reducing winner\u2011take\u2011all distortions. A pragmatic, phased approach could start by binding electors to certified state results and encouraging proportional or district-based allocation, while allowing states to join an interstate popular\u2011vote compact if broad agreement develops. Any change should be paired with clear national baseline standards for ballot access and secure counting\u2014paper backups, routine post\u2011election audits, and automatic recount triggers\u2014so outcomes are consistent, transparent, and trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any reform should protect the Constitution\u2019s federal balance and smaller states\u2019 influence while better matching outcomes to the public\u2019s votes and reducing today\u2019s winner-take-all incentives. A practical compromise is to keep the Electoral College but encourage states to allocate electors proportionally (or by district with a small statewide bonus) and strictly bind electors to certified results, while allowing an interstate compact only if it includes clear, enforceable rules. At the same time, adopt uniform national baselines for voter access and ID options, paper-backed ballots, routine post\u2011election audits, and automatic recount thresholds so results are secure, transparent, and trusted across parties.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

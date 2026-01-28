@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth can reinforce each other when policy focuses on preventing the highest\u2011cost harms while giving businesses and workers a clear path to comply. Set firm, science\u2011based baseline standards for air, water, and climate risk, then meet them with flexible tools\u2014performance targets, pricing or trading options, and streamlined permitting for cleaner projects\u2014so innovation and investment can move faster. Pair this with transparent metrics, local participation, and dedicated transition support for affected workers, small firms, and communities so the benefits and burdens are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and healthy land is essential to public health and long-term prosperity, and it can be pursued alongside strong local economies. The best balance pairs science-based standards with predictable, phased timelines and market incentives that help businesses plan and innovate in cleaner technologies. To keep the transition fair, policies should include funded workforce retraining and targeted support for small businesses and affected communities, guided by local input and measurable results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Clean air, safe water, and healthy land are non\u2011negotiable for public health and long\u2011term prosperity, but protections should be designed so families, small businesses, and local industries can plan and keep working. That means science\u2011based standards with clear, predictable timelines, flexible compliance options, and market incentives that reward innovation and cost\u2011effective clean technology. Communities most affected\u2014workers, farmers, and neighborhoods\u2014should have a real voice, with transparent metrics, accountability, and funded transition supports like job training, small\u2011business assistance, and infrastructure upgrades so the shift is fair and strengthens local economies.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

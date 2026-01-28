@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.20999999999999996,
+      "full_winner_idx": "52"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "99",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and a pluralistic respect for both bodily autonomy and the widely held belief that developing life has moral value. A durable framework protects timely care in early pregnancy and guarantees clear, clinician-led exceptions for the patient\u2019s life and serious health risks, with additional narrowly defined provisions for situations like rape, incest, or catastrophic fetal conditions. Whatever limits are set should be plain, consistently applied, and paired with prevention and support\u2014contraception, accurate education, prenatal and postpartum care, and economic help\u2014so fewer pregnancies become crises and fewer people feel forced into any single outcome.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for both personal autonomy and the sincere moral concern many people have for developing life. A workable framework sets clear, plain rules that protect timely care and privacy, with firm exceptions for the mother\u2019s life and serious health risks, and for pregnancies involving rape or incest, while allowing reasonable, evidence-based limits later in pregnancy. Common ground grows when any legal approach is paired with practical supports\u2014affordable contraception, comprehensive sex education, prenatal and postpartum care, and adoption and parenting resources\u2014so fewer people face crisis pregnancies and families and clinicians aren\u2019t trapped in uncertainty.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for both personal liberty and the moral concern many people have for developing human life. The rules should be clear and workable: protect timely, safe care and privacy early in pregnancy, and allow carefully defined, medically grounded limits later with firm exceptions for rape, incest, and threats to a woman\u2019s life or serious health. Whatever the legal framework, it should be paired with real prevention and support\u2014affordable contraception, accurate education, prenatal and postpartum care, and help for parenting and adoption\u2014so fewer families face crisis decisions and doctors aren\u2019t forced to guess in emergencies.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College\u2019s state-based structure but reduce its sharpest distortions by ending statewide winner-take-all and awarding electors in a proportional, voter-verifiable way (with a clear minimum threshold) so more ballots matter in every state. Pair that with national baseline rules for ballot access, counting timelines, audits, and automatic recount triggers to make close elections consistent and credible. If these steps still leave repeated popular-vote/electoral-vote mismatches, an agreed-upon \u201cbackstop\u201d such as the National Popular Vote Interstate Compact could activate, preserving stability while aligning outcomes with the voters.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "The strongest common ground is to keep state-run elections and the federal role of states, while reducing winner-take-all distortions so outcomes more consistently match the popular will. A practical reform would adopt either the National Popular Vote Interstate Compact or proportional (or district-based) allocation of electors, paired with clear national baselines for ballot access, counting, recounts, and transparent audits. This approach makes more votes matter in every state, encourages candidates to build broader coalitions, and strengthens trust that results are fair, secure, and hard to game.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the states administering elections but reduce winner-take-all so presidential outcomes more closely match the national vote and fewer communities feel ignored. States could either join the National Popular Vote Interstate Compact or adopt proportional allocation of electors, paired with clear national baseline standards for ballot access, counting, audits, and automatic recounts in close races. This preserves the federal balance and rural voice while making elections simpler to trust, harder to game, and more reflective of the voters overall.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

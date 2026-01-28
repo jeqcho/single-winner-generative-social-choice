@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A middle-ground reform can keep the Electoral College\u2019s state role while reducing the winner\u2011take\u2011all effects that leave many voters and regions feeling irrelevant. States could adopt a uniform, nonpartisan model for awarding electors more proportionally (or by fair, non\u2011gerrymandered districts) and require electors to follow certified results, paired with national baseline rules for ballot access, paper records, post\u2011election audits, and clear recount triggers. If a broad, bipartisan set of states later prefers a national popular\u2011vote approach, it should be phased in only after those shared safeguards and dispute\u2011resolution standards are in place so outcomes remain trusted and stable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep states\u2019 meaningful role in presidential elections while making each lawful vote count more comparably and reducing winner-take-all distortions. A pragmatic path is phased adoption of proportional or district-based elector allocation, with the option for states to join a national popular-vote compact only after common baseline rules for ballot access, secure paper trails, routine audits, and clear recount triggers are in place. Electors should be bound to certified results, and states may adopt ranked-choice ballots to ensure winners have broad, cross-regional support and to strengthen public confidence in close outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should keep a meaningful state role while ensuring every lawful voter\u2019s ballot counts in a comparable way and the outcome reflects broad national support. A practical compromise is to reduce winner\u2011take\u2011all by encouraging proportional (or clearly defined district\u2011based) allocation of electors, with states free to join a national popular\u2011vote compact only if uniform baseline rules for ballot access, hand\u2011verifiable paper records, post\u2011election audits, and timely recounts are in place. Electors should be bound to certified results and district lines must be drawn with transparent anti\u2011gerrymandering standards, while optional ranked\u2011choice voting can help nominees win majority support and campaign beyond a few swing areas.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

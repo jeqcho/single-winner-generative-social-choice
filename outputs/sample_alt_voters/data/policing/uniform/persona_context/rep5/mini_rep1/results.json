@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": null,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": null,
+      "full_winner_idx": "11"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": null,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": null,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "48",
+      "epsilon": null,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": null,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "46",
+      "epsilon": null,
+      "full_winner_idx": "46"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safety and civil rights together by setting simple, enforceable expectations: use the least force necessary, intervene and render aid when harm occurs, and document decisions for public review. Pair these standards with high-quality training (de-escalation, lawful stops/searches, crisis and disability response) and a layered response system that sends clinicians, mediators, or outreach teams to appropriate nonviolent calls. Independent oversight, fair discipline, and transparent outcome reporting\u2014alongside support for officer wellness and community-led problem solving\u2014can reduce harm, improve clearance and service, and strengthen trust across neighborhoods.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing, grounded in clear, enforceable use-of-force limits, rigorous de-escalation and bias-awareness training, and transparent, independent oversight with publicly reported data. Nonviolent mental-health, substance-use, and homelessness-related calls should be routed to well-resourced crisis and social-service responders when appropriate, while officers receive fair training, support, and wellness resources. Sustained community partnership, accessible complaint processes, and measurable outcomes should guide continuous improvement so neighborhoods stay safe while dignity and constitutional protections are upheld.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by setting clear, enforceable use-of-force rules, prioritizing de-escalation, and requiring fair, consistent accountability with transparent reporting and independent review. Communities are safer when nonviolent mental-health and substance-use crises are routed to trained crisis teams and social services, while officers are equipped with strong training, body-camera policies that protect both transparency and privacy, and wellness support. Sustained community partnership\u2014listening to residents, measuring outcomes, and improving practices\u2014can reduce harm, strengthen trust, and keep neighborhoods secure and dignified for everyone.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    }
+  }
+}

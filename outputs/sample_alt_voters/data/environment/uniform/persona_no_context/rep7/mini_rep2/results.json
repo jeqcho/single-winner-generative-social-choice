@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "97",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as linked goals: a strong economy requires clean air, water, and reliable natural resources, and environmental progress is most durable when it supports competitive industries and good jobs. Policymakers should set clear, science-based standards while giving businesses flexible, cost-effective ways to meet them\u2014such as performance targets, permitting certainty, and incentives for efficiency and cleaner production. Any transition should be phased and paired with targeted support for workers, small businesses, and affected regions so communities share in the benefits and aren\u2019t left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, recognizing that clean air, water, and healthy ecosystems are foundations for long-term prosperity and public health. A pragmatic balance pairs clear, enforceable baseline standards with market-based incentives and targeted investment in clean technology, efficiency, and infrastructure so businesses can innovate and stay competitive. Policies should be phased and predictable, with transition support such as job training and community assistance to protect workers, small businesses, and local economies during change.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Protecting clean air and water and growing a strong economy should be treated as shared goals, because public health, property values, and long-term job stability depend on a safe environment. We should set clear, enforceable standards while using practical tools\u2014phased timelines, incentives for efficiency and cleaner technology, and streamlined permitting for low-impact projects\u2014so businesses can plan and stay competitive. Any transition should include job training, support for small businesses and energy-impacted communities, and input from local residents to keep costs fair and benefits widely shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

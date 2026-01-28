@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "83"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should keep the state-based framework that many view as part of federalism, but reduce the winner-take-all distortions that make a few states decisive and leave many voters feeling ignored. A strong compromise is to require states to allocate electors proportionally (with a clear minimum threshold and uniform recount rules), while pairing that with nationwide standards for ballot access, transparent audits, and nonpartisan certification. If the popular-vote winner and electoral-vote winner still diverge, a narrow, pre-set national tie-break procedure\u2014agreed to in advance\u2014could resolve the result in a way that is predictable, legitimate, and hard to game.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential outcomes track the voters\u2019 will more closely while keeping state-based election administration and ensuring rural, small-state, and urban communities all feel represented. A strong bridge is to end winner-take-all by allocating electors proportionally (or by district only with strict anti-gerrymandering rules), paired with clear national standards for ballot access, counting, audits, and recounts to strengthen trust. If confidence still falls short, a phased path to a national popular vote\u2014potentially via the National Popular Vote compact and/or ranked-choice voting\u2014can further ensure every vote matters while encouraging broad coalition-building across the country.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any reform should make the presidential outcome track the voters\u2019 will more closely while still giving every state and community a meaningful stake, so the result is seen as legitimate across regions and parties. A practical compromise is to keep state-run elections but end winner-take-all by allocating electors proportionally (or by district with strong anti-gerrymandering rules), paired with clear national standards for ballot access, counting, recounts, and transparent audits. If public confidence still remains low, a carefully phased move toward a national popular vote\u2014potentially with ranked-choice voting and a modest geographic-spread safeguard\u2014could strengthen fairness while encouraging candidates to campaign beyond a handful of swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued as a single resilience strategy: keep air and water safe while ensuring communities can compete and workers can plan for change. Set clear long-term goals with flexible, sector-specific pathways\u2014starting with the biggest pollution sources\u2014and use tools like performance standards, tradable credits, and streamlined permitting for cleaner projects to cut costs and uncertainty. Pair these policies with transition funding for affected regions, apprenticeships and wage insurance for workers, and transparent tracking so progress is real and adjustments are made when impacts are uneven.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A strong economy and a healthy environment should be pursued together, because clean air, water, and resilient landscapes protect public health and underpin long\u2011term prosperity. The best balance uses clear, predictable, evidence\u2011based standards phased in over time, paired with market incentives and investment that help businesses innovate in cleaner technologies and infrastructure. To keep the transition fair, policies should include targeted workforce retraining and practical support for affected communities, guided by meaningful local input and measurable accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air and water as essential to health and long-term prosperity while keeping family-sustaining jobs and local businesses strong. Set clear, science-based standards with predictable, phased timelines, and use market incentives and innovation to cut pollution at the lowest cost. Pair these policies with practical transition support\u2014job training and placement, help for small firms, and targeted community investment\u2014shaped by local input so workers, taxpayers, and future generations all benefit.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

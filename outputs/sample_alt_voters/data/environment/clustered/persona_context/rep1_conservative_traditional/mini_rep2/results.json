@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as shared goals: safeguarding clean air, water, and land reduces long-term costs and risks, while a strong economy funds innovation and community stability. Set clear, outcome-based environmental targets with flexible compliance options (including market tools and performance standards) so businesses can plan, compete, and invest. Pair these policies with time-limited transition assistance\u2014retraining, small-business support, and local infrastructure upgrades\u2014so workers and regions most affected are protected as cleaner industries scale.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, water, and land as core assets for long-term community prosperity while keeping jobs and local businesses strong. Set clear, science-based standards with predictable, phased timelines so employers can plan and invest, paired with market incentives that speed adoption of cleaner technologies. Fund targeted workforce retraining and transition support, shaped by local input and measured with transparent outcomes, so communities can adapt without being left behind and future generations inherit both opportunity and a healthy environment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Clean air, safe water, and productive land are not luxuries\u2014they protect children\u2019s health, strengthen communities, and support the farms, tourism, and businesses that create jobs. We should set clear, science-based standards with predictable timelines so employers can plan and invest, using market incentives and innovation to cut pollution at the lowest cost. When change affects workers and small businesses, provide practical transition help\u2014retraining, infrastructure upgrades, and locally guided solutions\u2014so no community is left behind while we safeguard resources for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

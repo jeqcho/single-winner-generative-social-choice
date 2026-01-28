@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "98",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be built around protecting health and preventing avoidable suffering, using clear, medically defined standards rather than political micromanagement of clinical care. A workable compromise preserves meaningful access early in pregnancy, sets narrowly tailored, evidence-based parameters for later abortions, and guarantees prompt exceptions for threats to life or health, nonviable pregnancies, and pregnancies resulting from sexual violence. Enforcement should focus on licensing and medical oversight\u2014not criminalizing patients\u2014and be paired with strong measures that reduce unintended pregnancy and economic coercion, including contraception, accurate education, prenatal care, and family supports.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should prioritize patient health, safety, and privacy by keeping decisions primarily between patients and qualified clinicians, grounded in evidence-based medical standards rather than political micromanagement. Policy should preserve timely access early in pregnancy and include clear, workable exceptions for threats to life or serious health, and for cases such as rape, incest, and severe fetal anomaly, while avoiding punitive enforcement that deters care. Where later-pregnancy limits exist, they should be medically informed, narrowly tailored, and enforceable without endangering emergency treatment. Alongside any legal guardrails, governments should invest in comprehensive sex education, affordable contraception, prenatal and parental healthcare, and economic supports so fewer people face crisis pregnancies and families have real options.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should prioritize the health and dignity of pregnant people by keeping decisions as much as possible between patients and qualified clinicians, grounded in medical evidence and protecting privacy. At the same time, they should recognize society\u2019s interest in potential life by setting clear, workable standards for later pregnancy and guaranteeing explicit exceptions for life- or serious health-threatening conditions, rape or incest, and severe fetal anomalies, without criminalizing patients or doctors. Policymakers should pair any legal boundaries with broad prevention and support\u2014comprehensive sex education, affordable contraception, prenatal care, adoption and parenting resources, and economic help\u2014so fewer families face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

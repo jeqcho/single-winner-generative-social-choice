@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for legitimacy: preventing harm and solving serious crime while protecting constitutional rights through clear limits, fair procedures, and consistent consequences for misconduct. Departments should prioritize proportional, least-intrusive tactics\u2014strong de-escalation, well-defined stops and searches, and careful use-of-force rules\u2014paired with transparent reporting and independent review that the public can trust. When nonviolent crises arise, dispatch should route people to the right help by expanding co-responder and community-based services, while giving officers the training, staffing, and wellness support needed to perform professionally. Progress should be tracked with measurable outcomes that include both safety (victimization, response times) and rights (complaints, disparities, injuries), so communities can see improvements on both fronts.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should advance public safety and civil rights together through clear, constitutionally grounded standards, consistent enforcement, and respectful, dignity\u2011preserving treatment of every person. Priorities should include rigorous de\u2011escalation and bias/trauma\u2011 and disability\u2011aware training, clear use\u2011of\u2011force rules, and strong officer support and supervision. Transparent data reporting, body\u2011worn cameras with privacy safeguards, and independent oversight with accessible complaint and remedy processes can deter misconduct and reinforce accountability. Expanded mental\u2011health and community\u2011based crisis responses and sustained community partnerships should prevent avoidable encounters and produce measurable reductions in harm and improvements in trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while firmly protecting constitutional rights by using clear, consistent rules\u2014especially for stops, searches, and use of force\u2014and by emphasizing respectful communication and de\u2011escalation. Independent, fair oversight, transparent reporting, and body\u2011worn cameras with strong privacy safeguards should hold everyone accountable while also supporting responsible officers with training and wellness resources. Communities are safer when police partner with residents and when mental\u2011health and social\u2011service crisis teams handle situations better suited to care than arrest, with measurable goals to reduce both crime and unnecessary harm.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

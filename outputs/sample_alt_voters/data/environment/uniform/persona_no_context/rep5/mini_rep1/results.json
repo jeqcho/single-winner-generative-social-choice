@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "The best balance treats a healthy environment as core economic infrastructure while acknowledging the need for affordable energy, competitive businesses, and steady jobs. Set clear, science-based standards for air, water, and land, then give firms flexibility to meet them through innovation, market signals, and predictable permitting. Pair the transition with targeted help for workers, small businesses, and regions most affected so communities share in the benefits of cleaner growth.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A strong economy and a healthy environment are mutually reinforcing: protecting clean air, water, and land supports public health, community stability, and long\u2011term growth. A balanced approach should pair clear, science\u2011based, outcomes\u2011driven safeguards with market incentives and regulatory certainty that let businesses innovate and invest in clean technologies and resilient infrastructure. It should also include local input and practical transition support\u2014retraining, targeted assistance, and workforce pathways\u2014so workers, small businesses, and energy reliability aren\u2019t sacrificed in the process.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should reinforce each other by keeping air and water clean, safeguarding public health, and giving businesses clear, predictable rules to plan and invest. Use practical, science-based standards with market incentives and local input to cut pollution, improve energy efficiency, and expand affordable, reliable power and infrastructure. Pair these steps with job training, transition support, and opportunities for small businesses and workers in construction, industry, and energy so communities don\u2019t bear unfair costs. This balanced approach protects today\u2019s livelihoods and property while preserving natural resources for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

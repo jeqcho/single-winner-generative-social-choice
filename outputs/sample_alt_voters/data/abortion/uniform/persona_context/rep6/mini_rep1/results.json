@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to reduce harm by protecting maternal health and patient privacy while treating fetal life as a serious moral concern, with decisions guided by medical expertise rather than political litmus tests. A workable framework maintains legal access early in pregnancy, sets medically informed limits later, and guarantees prompt, clearly defined exceptions for rape, incest, lethal or severe fetal conditions, and threats to life or major health. Any restrictions should be matched with real prevention and support\u2014affordable contraception, comprehensive sex education, prenatal and mental-health care, paid leave, childcare, and adoption assistance\u2014so fewer pregnancies become crises and fewer families feel cornered.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be grounded in medical evidence and compassion, protecting the health, dignity, and privacy of those who are pregnant while acknowledging the serious moral concern many hold for developing life. Time\u2011sensitive decisions should remain primarily between patients and qualified clinicians, with clear, narrowly defined exceptions for rape, incest, and threats to life or serious health (and other severe medical circumstances) set by transparent medical standards rather than politics. Policy should avoid punitive criminalization and instead pair any limits with robust prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, adoption resources, and economic assistance\u2014so fewer people face unwanted pregnancies or desperate choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should prioritize the health, dignity, and privacy of pregnant people while acknowledging that many citizens and faith traditions place real moral value on unborn life. Policy should be grounded in medical evidence and keep urgent decisions primarily within the patient\u2013clinician relationship, with clear statewide standards and exceptions for rape, incest, and threats to life or serious health (and other medically severe circumstances). At the same time, communities should invest in practical prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption options, childcare, and economic assistance\u2014so fewer families face unwanted pregnancies or desperate choices, without relying on punitive approaches that harm vulnerable people.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

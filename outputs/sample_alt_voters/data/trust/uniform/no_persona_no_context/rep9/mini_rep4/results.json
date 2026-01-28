@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions earn it through fair rules and visible performance, not partisan messaging. Setting clear service standards, publishing easy-to-verify results, and enforcing real consequences for misconduct can reassure both skeptics who fear abuse and supporters who want effective governance. Pair this with accessible ways for people to appeal decisions, report problems, and see how complaints are resolved so accountability is routine rather than occasional.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Across viewpoints, people want institutions that are fair, competent, and responsive, and they\u2019re more likely to trust them when decisions and results are visible. Institutions can rebuild confidence by using plain-language communication, publishing performance data and evidence behind major choices, and acknowledging mistakes with clear timelines for fixing them. Pairing this transparency with independent audits/oversight and regular, inclusive channels for community input creates enforceable accountability and steady, verifiable improvements.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Trust grows when institutions are honest, predictable, and fair\u2014delivering basic services reliably while treating people with respect regardless of politics, income, or background. We can unite around plain\u2011language explanations of decisions and trade\u2011offs, public performance metrics, and strong, independent oversight with real consequences for misconduct. Just as important are easy, local ways for people to be heard\u2014and visible follow\u2011through when problems are raised\u2014so accountability is routine rather than partisan.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

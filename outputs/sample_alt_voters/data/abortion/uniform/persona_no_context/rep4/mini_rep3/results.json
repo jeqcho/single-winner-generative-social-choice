@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star": {
+      "winner": "95",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.3400000000000001,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_personas": {
+      "winner": "95",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by both the moral significance many attach to developing life and the need to protect a pregnant person\u2019s health, dignity, and ability to make time-sensitive medical decisions with qualified clinicians. A durable framework sets clear, medically defined protections for emergencies and hard cases (including serious health threats and pregnancies from sexual violence), while avoiding criminalizing patients or doctors acting in good faith. Common ground grows when policy also lowers the demand for abortion through proven prevention\u2014comprehensive education, affordable contraception, and strong supports for pregnancy, parenting, and adoption\u2014so fewer families face crisis alone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws concerning abortion should be guided by compassion, respect for human dignity, and clear, medically grounded standards that protect patients\u2019 health, safety, and privacy while acknowledging the sincere moral concerns many hold about unborn life. A workable approach protects timely access to qualified care, includes clear exceptions for rape, incest, and serious threats to the pregnant person\u2019s life or health, and avoids criminalizing people in crisis or second\u2011guessing clinicians. Common ground is strongest when policy also reduces unintended pregnancies through evidence-based education and reliable contraception and expands practical support for parents and children\u2014prenatal and postnatal care, economic help, childcare, and adoption resources\u2014so fewer families feel cornered into heartbreaking choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by respect for human life and human dignity, while ensuring that patients can get timely, evidence-based medical care and that families and clinicians can make difficult decisions with privacy and compassion. Policy should set clear, medically workable standards\u2014including explicit protections for the mother\u2019s life and serious health threats, and humane consideration in cases like rape or incest\u2014written with input from doctors rather than political slogans. Common ground also means reducing the number of abortions by expanding contraception and accurate education, and by providing real support for parents and children\u2014prenatal care, paid leave, childcare, and adoption resources\u2014so fewer people feel forced into crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

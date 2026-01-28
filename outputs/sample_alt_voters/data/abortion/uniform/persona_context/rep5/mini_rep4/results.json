@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to reduce preventable suffering while acknowledging that many citizens place real moral value on developing life, so rules should be medically informed, predictable, and focused on outcomes rather than punishment. Decisions in urgent or complex cases should be guided by licensed clinicians in confidential consultation with the patient, with explicit protections for life\u2011 and health\u2011threatening situations and for pregnancies resulting from rape or incest. Alongside any limits, government should expand the conditions that make carrying a pregnancy feasible\u2014contraception access, accurate sex education, prenatal and postpartum care, paid leave and childcare support, and well-resourced adoption and foster systems\u2014so fewer people reach crisis points.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be grounded in evidence-based medicine and protect patient safety, privacy, and timely clinician\u2013patient decision-making, while acknowledging the moral seriousness many attach to potential life. Policy should set clear, workable rules with narrowly defined exceptions for rape, incest, and serious threats to a pregnant person\u2019s life or health so urgent care is not delayed or criminalized. At the same time, governments should reduce crisis pregnancies by investing in comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical supports for parents and adoption\u2014prioritizing dignity and community assistance over political intrusion.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion law should protect the life and health of the pregnant person while acknowledging that many people see prenatal life as morally significant, so rules should be clear, medically grounded, and not punish patients or clinicians for acting in good-faith care. It should guarantee timely exceptions for rape, incest, and serious threats to life or substantial, lasting health, with decisions made confidentially in the patient\u2013clinician relationship and with due process rather than political micromanagement. Alongside any limits, governments should reduce unintended pregnancies and hardship by expanding access to contraception, comprehensive sex education, prenatal/postpartum care, mental-health support, childcare and paid leave, and adoption and family assistance.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

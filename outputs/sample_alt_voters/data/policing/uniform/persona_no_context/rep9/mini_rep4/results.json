@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.1499999999999999,
+      "full_winner_idx": "52"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_star_personas": {
+      "winner": "46",
+      "epsilon": 0.0,
+      "full_winner_idx": "46"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim to prevent harm while upholding constitutional rights by using the least intrusive, proportional response necessary and documenting decisions when force or stops are used. Departments should set clear, publicly known rules; train and equip officers for de-escalation and crisis response; and pair that with swift, independent review and fair due process when misconduct is alleged. Building trust also requires routine public reporting, community input on priorities, and alternatives to arrest\u2014such as mental-health responders and diversion programs\u2014so safety improves without widening unnecessary criminalization.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by grounding everyday decisions in clear, constitutional standards\u2014especially for stops, searches, and use of force\u2014paired with rigorous de-escalation and crisis-response training. Trust and effectiveness improve when departments provide transparent public reporting, timely investigations, and independent civilian oversight with consistent consequences for misconduct. Strong community partnerships and coordinated alternatives to arrest for mental-health and substance-use crises help prevent harm, focus resources where they work best, and keep neighborhoods safe and free.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while treating constitutional rights as non\u2011negotiable, using clear, consistently applied standards for stops, searches, and use of force with proportionality and de\u2011escalation as the default. Accountability should be transparent and fair\u2014prompt investigations, independent or civilian-involved oversight, and regular public reporting\u2014so the public can trust results and officers have clear expectations. Pairing these safeguards with community partnerships and strong mental-health and crisis-response options can prevent problems early, reduce unnecessary arrests, and help officers focus on serious crime.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

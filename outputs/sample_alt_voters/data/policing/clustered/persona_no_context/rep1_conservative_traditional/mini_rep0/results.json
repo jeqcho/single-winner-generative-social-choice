@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be designed to maximize safety and legitimacy at the same time: officers focus on serious harm, use the least intrusive effective response, and treat every person with dignity and equal protection under the law. That requires clear, enforceable rules for stops, searches, and force; prompt, independent investigation of complaints; and public reporting that allows communities to judge results. Routine collaboration with residents\u2014paired with well-funded, nonpolice options for mental-health crises, substance use, and homelessness\u2014can reduce unnecessary encounters while keeping neighborhoods secure.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by pairing clear, consistently applied standards\u2014especially for stops and use of force\u2014with transparent reporting, body-worn cameras, and independent oversight. Officers should be supported with rigorous training in de-escalation, bias awareness, and mental-health crisis response, while partnering regularly with neighborhoods to solve problems before they escalate. When appropriate, communities should invest in co-responder and nonpolice options for behavioral-health and social-service calls, with meaningful avenues for redress when harm occurs so trust and safety grow together.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals by setting clear, consistently applied standards for stops, searches, and use of force, paired with transparent reporting and independent review when things go wrong. Officers should be equipped and supported with practical training in de-escalation, constitutional policing, and crisis response\u2014using mental-health and social-service partners when appropriate\u2014so the right help arrives quickly. Ongoing community engagement and fair, predictable accountability can build trust, protect families, and ensure officers can do their jobs effectively and respectfully.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

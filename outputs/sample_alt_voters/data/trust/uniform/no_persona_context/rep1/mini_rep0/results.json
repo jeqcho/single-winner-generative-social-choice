@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Increase trust by making institutions easier to understand and easier to challenge: explain goals, costs, and trade-offs in plain language, and keep a public record of who decided what and why. Set clear service standards and report performance regularly, with independent review and real consequences for misconduct or chronic failure. Give communities ongoing ways to shape priorities\u2014through local councils, participatory budgeting, and responsive complaint systems\u2014so people can see their input change outcomes and verify that rules are applied fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Increase public trust by making institutions visibly reliable and fair: explain decisions and trade\u2011offs in plain language, publish open metrics and data, and deliver consistent services that improve everyday life. Pair this transparency with independent audits, clear standards applied impartially, and prompt admission and correction of mistakes so performance is easy to verify. Create ongoing neighborhood\u2011level forums and partnerships with local groups to listen, incorporate feedback, and build shared civic understanding while protecting individual rights and privacy.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Increase public trust by making institutions easy to understand and easy to check: explain decisions and trade-offs in plain language, publish goals and results, and protect privacy and individual rights. Hold everyone to the same rules through independent audits, clear consequences for misconduct, and prompt admission and correction of mistakes. Deliver reliable, fair services that improve everyday life, and invite ongoing local input through accessible community forums so people can see their concerns reflected in measurable outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

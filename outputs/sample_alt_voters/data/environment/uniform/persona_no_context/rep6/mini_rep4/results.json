@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as connected priorities: the economy needs clean air, water, and stable climate risks, and environmental goals are more durable when they support jobs and affordability. Set clear, science-based guardrails and enforce them consistently, while giving businesses flexibility in how to comply through performance standards, transparent reporting, and well-designed pricing or rebate mechanisms. Pair these rules with streamlined permitting for demonstrably low-impact projects and strong transition support for workers and regions so the shift to cleaner production is steady, competitive, and fair.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together, because clean air, water, and healthy ecosystems underpin long-term prosperity and public health. A practical balance uses clear, science-based and enforceable standards alongside market-based tools that price pollution, reward efficiency, and give businesses predictable rules to innovate. Pair investments in clean technology, resilient infrastructure, and streamlined permitting with phased transitions and targeted support for workers and communities so change creates opportunity rather than disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A strong economy and a healthy environment should be pursued together, because clean air and water protect public health and reduce long-term costs for families, businesses, and taxpayers. We can set clear, science-based, measurable standards that hold polluters accountable, while using market-based incentives and streamlined, predictable permitting to help employers innovate and stay competitive. The transition should be phased and paired with workforce training and support for workers and communities\u2014especially in energy, manufacturing, and transportation\u2014so good-paying jobs are protected as we reduce pollution. Local input and respect for property rights can help tailor solutions that fit different regions while safeguarding resources for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

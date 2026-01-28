@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "1",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make it easy for people to see what was decided, why, who benefited, what it cost, and what will change if results fall short. Set clear service standards and timelines, publish simple performance dashboards, protect privacy, and invite independent audits plus routine community review panels that include supporters and critics alike. When leaders consistently follow the same rules, correct errors openly, and show steady improvements in everyday services, trust becomes based on evidence rather than politics.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver fair, reliable services and explain decisions in plain, on-the-record language people can use. Publish clear standards, budgets, and results; invite independent audits and responsive channels for complaints; and admit and fix mistakes quickly so performance is measurable rather than rhetorical. Bring decision-making closer to neighborhoods by partnering with local schools, community, faith, and volunteer groups, and support civic education and privacy-respecting, accessible data so people can verify progress and feel heard across political lines.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions deliver dependable, fair services and protect basic freedoms, while enforcing rules consistently and explaining decisions in plain, respectful language. They should publish clear goals, budgets, and results, invite independent audits and community review, and admit and fix mistakes quickly. Bringing decision\u2011making closer to neighborhoods\u2014through regular local forums and partnerships with schools, veterans, faith, and civic groups\u2014helps people see problems solved without partisan spin. Using privacy\u2011respecting tools to share easy-to-understand data and simple channels for complaints and appeals turns accountability into visible, everyday improvements.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

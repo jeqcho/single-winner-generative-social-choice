@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to reduce harm and protect human dignity by pairing respect for developing life with a realistic recognition of bodily autonomy, medical complexity, and unequal burdens on families. A durable framework protects timely, safe care early in pregnancy, sets transparent criteria for later limits tied to viability and medical judgment, and guarantees clear exceptions for life-threatening or serious health risks, rape, and incest without criminalizing patients or clinicians. Alongside any limits, governments should invest in prevention and support\u2014evidence-based sex education, affordable contraception, prenatal and postpartum care, and economic help for parenting and adoption\u2014so fewer people face this decision under crisis conditions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for personal autonomy, while also taking seriously the moral weight many people attach to developing life. Policy should keep decisions primarily between patients and qualified clinicians\u2014especially early in pregnancy\u2014paired with clear, workable limits later in pregnancy and well-defined exceptions for threats to life or health, rape or incest, and severe fetal anomalies, without criminalizing patients or trapping providers. Whatever the legal framework, it should focus on reducing crisis pregnancies and the demand for abortion through comprehensive sex education, affordable contraception, and strong prenatal, postpartum, and parenting/adoption supports so fewer families feel cornered.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for human dignity\u2014recognizing both the moral concern many people hold for unborn life and the lived reality that pregnancy can involve hardship, trauma, or serious health risk. A workable framework keeps early decisions primarily between the patient and qualified clinicians, while allowing carefully defined limits later in pregnancy with clear exceptions for the patient\u2019s life and health, rape or incest, and severe fetal anomalies, written so doctors can act without fear. Whatever the limits, policy should invest in prevention and support\u2014accurate education, affordable contraception, prenatal and postpartum care, and real help for parenting and adoption\u2014so fewer families face crisis choices and communities can disagree without shame or punishment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

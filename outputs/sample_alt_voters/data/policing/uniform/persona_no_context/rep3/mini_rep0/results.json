@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for the least intrusive response that reliably prevents harm, with enforcement that is lawful, proportionate, and consistent for everyone. To earn trust and improve safety, departments should set clear use-of-force and stop standards, publish auditable data, and ensure independent investigation and fair discipline when misconduct occurs. Pair core policing with well-resourced alternatives for mental-health and nonviolent crises, and build policies through ongoing community input and evidence about what reduces crime without undermining rights.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue measurable public safety while treating constitutional rights and human dignity as non\u2011negotiable, using the least intrusive and least forceful options that can safely resolve incidents. Core strategies include clear use\u2011of\u2011force and conduct standards, strong de\u2011escalation and crisis\u2011intervention training, independent oversight with transparent, auditable data (including body\u2011worn cameras with privacy safeguards), and fair, consistent accountability for misconduct. Pair evidence\u2011based deployment with community partnership and well-supported alternatives for mental\u2011health and other nonviolent crises, so trust, officer effectiveness, and safety improve together.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by setting clear, enforceable standards for stops, searches, and use of force, with strong de-escalation and crisis-intervention training so force is proportional and last-resort. Accountability should be independent and transparent\u2014body-worn cameras with privacy safeguards, public reporting of key data, and fair, timely review of serious incidents\u2014so good officers are supported and misconduct is addressed. Departments should work with communities to prevent crime through targeted, evidence-based deployment and partnerships with mental-health and social services, while ensuring equal treatment under the law and accessible ways for the public to raise concerns.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

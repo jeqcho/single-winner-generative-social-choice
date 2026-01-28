@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Trust can rise when institutions make it easy for the public to see what was decided, why it was decided, and what will happen if it fails. That means plain-language rules, published performance targets, and independent complaint and appeal processes with real consequences for misconduct. Pairing those safeguards with regular community forums and publicly tracked follow-through can reassure skeptics while preserving the expertise and stability institutions need to deliver results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "To rebuild public trust, institutions should focus on practical, verifiable reforms: transparent decisions and budgeting, clear explanations of trade-offs, and measurable service goals that are reported publicly. Pair this with independent audits, strong anti-corruption safeguards, and real consequences when standards are violated. Start with local, visible commitments and scale what works while creating simple, accessible ways for diverse communities to give input and seek redress when things go wrong.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People across the political spectrum want institutions that are honest, competent, and fair, and trust grows when decisions are understandable, rules are applied consistently, and services improve in ways people can see locally. Institutions should publish clear goals and results, open their budgets and data where possible, and use independent audits and real consequences for misconduct or waste. Just as important, they should create easy, respectful ways for residents to give input and get problems fixed\u2014then show how that feedback changed priorities\u2014so accountability and performance reinforce each other.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

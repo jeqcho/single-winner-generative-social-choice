@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim for a stable, medically grounded framework that reduces preventable suffering while taking seriously both the interests of the pregnant person and the moral concern many feel for developing life. That means guaranteeing timely care in emergencies and serious fetal or maternal complications, protecting privacy and due process, and keeping decisions anchored in clinical standards rather than political punishment. At the same time, society should invest in measures that genuinely expand options\u2014contraception access, comprehensive sex education, affordable prenatal care, paid leave, childcare, and adoption support\u2014so fewer people face unwanted or crisis pregnancies.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical evidence, and a shared responsibility to protect both the pregnant person\u2019s health and the moral value many place on developing life. Whatever legal limits are set, they should be clear, predictable, and include strong protections for emergency and medically necessary care, with decisions grounded in clinical expertise rather than politics. Common ground also includes reducing unintended pregnancy and strengthening real supports\u2014healthcare, contraception, childcare, and economic help\u2014so fewer people face crisis choices and more families can thrive.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should aim to protect both human life and the health and dignity of the pregnant person, recognizing that citizens hold sincere moral differences about when legal protection should begin. Common ground includes clear, medically guided rules with firm protections for emergency and medically necessary care, and a commitment that no one is pressured into abortion by lack of support. The best policy pairs any limits with strong prevention and family support\u2014contraception access, prenatal care, adoption and parenting resources, and help with childcare and poverty\u2014so fewer pregnancies become crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

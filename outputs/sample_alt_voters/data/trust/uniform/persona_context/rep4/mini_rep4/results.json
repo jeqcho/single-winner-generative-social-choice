@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make their work easy to verify: clear goals, transparent budgets, and simple public scorecards that show what was promised, what was delivered, and what changed after feedback. Independent review with real consequences\u2014paired with strong ethics rules, conflict\u2011of\u2011interest limits, and protections for privacy and free expression\u2014helps people across viewpoints see fairness in practice. Regular two\u2011way engagement through local forums, multilingual and accessible communication, and responsive frontline service turns accountability into visible improvements in daily life.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when people can verify that decisions are made fairly and competently: publish plain-language goals, data, and budgets; use clear standards under the rule of law; and subject outcomes to independent audits and oversight. Pair that transparency with steady delivery of tangible local improvements, regular community forums that genuinely listen and respond, and civic education that helps people understand how decisions are made. When mistakes happen, acknowledge them quickly, explain what changed, and track follow-through with measurable results\u2014while protecting privacy and individual freedoms\u2014so reliability is proven in everyday life.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions prove, in everyday ways, that they are fair, competent, and accountable: set clear rules, publish plain-language results people can verify, and use independent audits and oversight with real consequences for failures. Pair this transparency with reliable, respectful frontline service\u2014protecting privacy and individual rights, admitting mistakes quickly, and fixing them\u2014so communities see problems solved rather than explained away. Create regular local channels for input and review (including civic, faith, labor, and neighborhood groups) and show how public feedback changes decisions, building steady confidence across political and cultural divides.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

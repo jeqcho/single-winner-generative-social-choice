@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be guided by a commitment to protect health and dignity while taking seriously the moral value many people place on prenatal life. A consensus approach keeps medical decisions in the hands of patients and qualified clinicians at least in emergencies and early pregnancy, and sets any later limits around viability and medical complexity with clear exceptions for threats to life or serious health. Alongside the legal framework, society should invest in prevention\u2014education and contraception\u2014and in real support for pregnancy, birth, and parenting so fewer people face the decision under coercion or desperation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by human dignity and harm reduction\u2014taking seriously both the moral value many attach to developing life and the health, autonomy, and real-world burdens faced by pregnant people. Even amid disagreement about when rights begin, policy should guarantee medically necessary care and clear, evidence-based standards that keep decisions in the hands of patients and clinicians rather than criminal courts. Common ground is to reduce crisis pregnancies through prevention (sex education and contraception) and to expand supports that make parenting feasible\u2014prenatal care, childcare, and economic assistance\u2014so fewer people face this decision in desperation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a commitment to protect both the health and dignity of pregnant people and the moral value many place on developing life, while recognizing that citizens disagree in good faith about when legal rights begin. A workable consensus ensures timely, medically guided care in emergencies and other serious circumstances, sets clear and humane rules that avoid criminalizing patients and doctors, and keeps decisions grounded in safety and informed consent. Common ground also includes reducing unintended pregnancies through effective sex education and contraception, and strengthening support for parents and children\u2014prenatal care, childcare, and economic stability\u2014so fewer families are pushed into crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

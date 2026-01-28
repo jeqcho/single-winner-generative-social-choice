@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "60"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.15999999999999992,
+      "full_winner_idx": "59"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.15999999999999992,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise would keep the Constitution\u2019s state role in choosing presidents while changing incentives so candidates compete everywhere, not just in a few battlegrounds. States could move away from winner-take-all by adopting proportional elector allocation with a small statewide \u201cbonus\u201d for the top finisher (or a ranked-choice statewide tally), which better reflects voter preferences while still rewarding broad, cross-regional support. Any reform should be paired with uniform baseline rules for voter registration, ballot access, recount triggers, and transparent post-election audits so results are easier to verify and accept across parties and states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A practical reform is to keep the constitutional, state-based structure of presidential elections while ending winner-take-all so electoral votes are awarded proportionally (or by district with safeguards against gerrymandering), making outcomes better match how people actually voted and reducing swing\u2011state distortion. If broader change is desired, states can also pursue the National Popular Vote Interstate Compact once enough states join, with transparent, uniform standards for ballot access, counting, recounts, and certification. Any approach should be simple to explain, protect election integrity with routine audits, and ensure every eligible voter can participate so results are trusted in both big cities and smaller communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any reform to the Electoral College should protect the voice of smaller and rural states while making the outcome track voters\u2019 choices more closely and reducing the sense that only a few swing states matter. A practical compromise is to keep the constitutional, state-based framework but phase out winner-take-all by allocating electors proportionally (or through a fair district method with anti-gerrymandering rules), with an option for states to join the National Popular Vote compact if broad support develops. Whatever path is chosen, the priority should be uniform, transparent standards for ballot access, counting, recounts, and certification, plus routine audits so results are trusted, secure, and easy to accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

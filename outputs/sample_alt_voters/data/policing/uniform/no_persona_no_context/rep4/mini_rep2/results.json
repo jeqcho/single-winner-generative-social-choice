@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the principle that the safest communities are those where enforcement is both effective and demonstrably fair. That means setting enforceable standards for stops, searches, and use of force; strengthening independent review and public reporting; and training and resourcing officers to prioritize de-escalation and proportionality. Pairing targeted enforcement with non-police crisis responses, diversion, and prevention efforts can reduce harm and crime while protecting constitutional rights and public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals, guided by clear, constitutional policies and proportional use-of-force standards. To earn legitimacy and reduce harm, departments should invest in regular de-escalation and bias training, transparent data reporting (including stops and force), and independent civilian oversight with meaningful accountability. Partnering with communities to set priorities and evaluate outcomes\u2014while expanding alternatives for mental health and substance-related calls\u2014can prevent crime, protect dignity, and build lasting trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals by setting clear, lawful standards for stops and use of force, training officers in de-escalation, and measuring results with transparent public data. Trust grows when communities have real input and independent review of serious incidents, while officers have the support and resources to respond effectively. Public safety is strengthened by pairing focused enforcement on serious violence with practical alternatives\u2014like crisis and mental-health response teams and service referrals\u2014so problems are addressed without unnecessary arrests or escalation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

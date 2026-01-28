@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be shaped by medical evidence and a shared commitment to human dignity, keeping patients and clinicians\u2014not politicians\u2014at the center of urgent, personal decisions. A durable middle ground protects timely access early in pregnancy and guarantees clear, workable exceptions for rape, incest, and serious threats to a patient\u2019s life or health, with later-pregnancy rules tied to clinical realities rather than rigid one-size-fits-all bans. At the same time, policy should reduce the number of unwanted pregnancies and crisis decisions by expanding contraception, accurate sex education, prenatal/postpartum care, and practical support for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for personal conscience and privacy, recognizing both the moral value many attach to developing life and the complex, time-sensitive realities families and clinicians face. Policy should keep decisions grounded in patient\u2013doctor judgment and ensure clear protections for the pregnant person\u2019s life and serious health risks, with narrowly tailored, clearly defined exceptions for rape and incest, and reasonable, medically workable limits as pregnancy advances. Common ground is strengthened by investing in what reduces crisis and unintended pregnancy\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical support for parents and adoption\u2014so fewer people feel cornered and the law remains humane rather than punitive.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for both personal autonomy and the sincere moral value many place on developing life, keeping urgent decisions centered on patients and qualified clinicians rather than politicians. A workable framework protects access to early, safe care and guarantees clear, timely exceptions for rape, incest, and serious threats to a pregnant person\u2019s life or health, with later-pregnancy rules allowing physician judgment in complex cases. Whatever limits exist, policy should reduce crisis pregnancies by expanding comprehensive sex education, affordable contraception, prenatal and postpartum care, mental health support, and practical help for parenting and adoption\u2014so fewer families feel cornered and dignity is protected for all.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

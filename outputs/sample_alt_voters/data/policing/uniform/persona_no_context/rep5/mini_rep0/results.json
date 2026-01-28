@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "11"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be judged by whether it reduces harm and crime while protecting constitutional rights, treating arrests and force as last resorts rather than default tools. That requires clear, publicly written standards (especially for stops, searches, and use of force), continuous training in de-escalation and bias awareness, and independent, well-resourced oversight with transparent reporting and fair discipline. Pairing officers with community partners and specialized responders for mental-health, substance-use, and youth crises\u2014and evaluating success by outcomes like safety, trust, and lawful conduct\u2014can strengthen legitimacy while keeping residents and officers safer.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals, guided by clear, enforceable standards for stops and use of force, strong de-escalation training, and respect for due process and dignity. Transparent reporting, body-worn cameras with privacy safeguards, and independent civilian oversight with accessible complaint processes should ensure accountability and continuous improvement. Communities are safer when police partner with residents and deploy mental-health and crisis-response alternatives where appropriate, while supporting officer training and wellness to reduce harm and build lasting trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should deliver safe neighborhoods while strictly protecting constitutional rights through clear, consistently enforced standards for stops, searches, and use of force, with de-escalation as the default. Accountability should be real and transparent\u2014body cameras with privacy safeguards, timely public reporting, and independent review of serious incidents\u2014so trust is earned without weakening lawful authority. Communities should be partners through regular input and problem-solving, while mental-health and substance-use crises are routed to trained co-responders when appropriate, letting officers focus on serious crime. Investing in training, fair recruiting, and officer wellness helps prevent unnecessary harm and supports professional, respectful policing for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.31000000000000005,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.18999999999999995,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to reduce preventable harm while treating pregnancy as a serious, time-sensitive medical and moral matter, not a political weapon. A durable framework protects timely access and clinician-led care early in pregnancy, and allows carefully defined, medically grounded limits later on with clear exceptions for threats to life or serious health risks and for the most extreme circumstances. Common ground grows when policy also invests in what lowers abortion rates without coercion\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical support for parenting and adoption\u2014so more people can choose without desperation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, evidence-based medical standards, and respect for personal privacy and conscience, recognizing both the moral weight many people attach to potential life and the lived reality of pregnant patients. A workable framework protects timely, safe care\u2014especially in early pregnancy\u2014and includes clear, clinician-driven exceptions for threats to life or serious health complications, with consistent rules that avoid criminalizing patients or doctors. Common ground is strengthened by focusing on prevention and real support: comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical resources for parents and adoption so fewer people face this decision in crisis.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, respect for human dignity, and clear, evidence-based medical standards that protect a pregnant person\u2019s health and safety while acknowledging that many people attach moral value to unborn life. A durable approach keeps time-sensitive decisions primarily between patients and qualified clinicians, with transparent limits and well-defined exceptions for rape or incest, threats to life or serious health, and severe fetal medical circumstances, written so doctors can act without fear or delay. Common ground is strengthened by investing in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption services, and practical help for parents\u2014so fewer families face crisis choices and the law relies less on punishment and more on real options.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

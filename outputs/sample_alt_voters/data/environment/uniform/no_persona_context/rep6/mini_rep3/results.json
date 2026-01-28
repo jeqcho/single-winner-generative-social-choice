@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "54"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "54"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "54"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star": {
+      "winner": "50",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance recognizes that environmental quality is a precondition for long-term prosperity, but that change must be paced to protect jobs, affordability, and competitiveness. Set clear, science-based performance targets and let businesses meet them flexibly through a mix of standards, market mechanisms, and streamlined approval for genuinely cleaner projects. Pair these policies with transparent measurement, reinvestment of revenues in innovation and resilient infrastructure, and targeted support for workers and regions most affected so the benefits and burdens are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth can reinforce each other when policy treats clean air, water, and healthy ecosystems as essential long-term infrastructure. Pair science- and evidence-based standards with market tools that make pollution costs transparent, while investing in clean technology, resilient infrastructure, and streamlined permitting for sustainable projects. Phase changes predictably and provide strong transition support\u2014retraining, local development, and help for small businesses\u2014so communities can adapt with minimal disruption and share in the benefits. Measure outcomes openly and incorporate local input to build durable trust and prosperity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should reinforce each other by keeping air and water clean while letting businesses and workers plan and adapt. Set clear, science-based standards with flexible, market-friendly options (like incentives and pay-for-pollution approaches) and streamlined permitting for cleaner projects so innovation and competitiveness can grow. Phase changes in with predictable timelines and invest in infrastructure, retraining, and support for workers and communities\u2014especially in energy, manufacturing, and transportation\u2014so the transition is fair and doesn\u2019t leave people behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

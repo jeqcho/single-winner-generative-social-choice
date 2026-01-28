@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental safeguards as risk management for the economy, while setting clear, predictable rules that let businesses plan and compete. Pair firm standards for pollution and habitat protection with flexible compliance options\u2014such as performance targets, tradable credits, and time-bound support for innovation\u2014so the lowest-cost solutions emerge. Direct public investment toward clean infrastructure and efficiency, and provide transition assistance to workers and regions most affected, so prosperity grows without drawing down the natural systems it relies on.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental protection as a foundation for long-term prosperity by making sure markets and policies account for environmental costs and protect the natural capital our economies rely on. Pair smart, phased-in safeguards (such as carbon pricing and circular-economy standards) with targeted incentives for clean innovation and resilient infrastructure so businesses can stay competitive while emissions and pollution fall. To keep the transition fair and durable, use transparent metrics beyond GDP and provide support for workers and communities most affected through retraining and transition assistance.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A durable balance treats a healthy environment as the foundation of long-term jobs, public health, and local industries, while recognizing that people and businesses need time and support to adapt. We should phase in clear standards that reduce pollution and protect land and water, paired with incentives for clean innovation and practical steps like efficiency and circular practices. Just as important, we should invest in worker retraining, community input, and transition assistance so places dependent on resource and industrial work can maintain stable livelihoods as the economy becomes cleaner.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

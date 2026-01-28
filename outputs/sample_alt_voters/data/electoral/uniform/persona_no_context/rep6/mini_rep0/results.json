@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "25",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should keep the state-based role of the Electoral College while making the national outcome track voters\u2019 preferences more closely and reducing the outsized power of a few battleground states. A practical compromise is to replace winner-take-all with a uniform proportional allocation of electors in every state, paired with clear national baselines for ballot access, counting, audits, and recount triggers that states can administer locally. This preserves incentives to build broad regional coalitions, makes more votes matter in more places, and strengthens confidence that the result is both fair and verifiable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Constitution\u2019s state-based framework and regional coalition-building while making outcomes track voter intent more closely and reducing the outsized role of a few swing states. A practical middle-ground is to replace winner-take-all with proportional (or district-based) allocation of electors nationwide, paired with clear, uniform baseline standards for ballot access, counting, recounts, and routine post-election audits so results are transparent and verifiable. If broader agreement emerges, states could also pursue a National Popular Vote approach or ranked-choice voting to ensure majority support, but any change should be simple to administer and protect both rural and urban voices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any reform to the Electoral College should protect the idea that every vote matters while ensuring smaller states and rural communities aren\u2019t simply ignored. A practical bridge is to keep the state-based system but reduce winner-take-all distortions by awarding electors proportionally (or by district with guardrails against gerrymandering), paired with clear national baseline standards for ballot access, voter ID options, audits, and recounts. Over time, if a broad bipartisan majority agrees, a National Popular Vote compact or amendment\u2014ideally with ranked-choice voting\u2014could further align outcomes with the popular will while still encouraging candidates to build support across the whole country.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

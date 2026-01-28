@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "88"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "88"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_star": {
+      "winner": "51",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be built around measurable outcomes that protect both safety and constitutional rights: reduce serious harm, minimize unnecessary stops and force, and increase lawful, respectful encounters. That requires clear limits on when police intervene, strong supervision and early-warning systems, and independent investigation of serious incidents with public reporting. Communities should help set priorities and evaluate results, while officers receive training and support to use de-escalation and connect people to services when enforcement is not the best tool.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should be judged by whether it delivers both public safety and equal protection, treating civil rights as essential to lasting crime reduction. Common-ground reforms include clear use-of-force and de-escalation standards, transparent data and body-worn cameras, and independent civilian review so accountability is credible. Partnering with residents and routing mental-health, substance-use, and other social crises to appropriate services reduces unnecessary arrests and confrontations, strengthening trust and effectiveness.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the shared goal of safer neighborhoods and equal protection under the law, recognizing that long-term safety depends on public trust. That means clear, consistently applied use-of-force and stop standards, strong training in de-escalation, and transparent reporting (including body-camera policies and public data) with independent review of serious incidents. Communities should have a real voice through regular forums and oversight, while officers are supported with evidence-based deployment and partnerships with mental health and social services so the right response\u2014not just arrest\u2014is available. By combining accountability with practical prevention and proportional enforcement, we can reduce crime and protect civil liberties at the same time.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

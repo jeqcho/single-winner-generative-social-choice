@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "47"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_personas": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt_star": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star_personas": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as a shared long-term competitiveness strategy: a healthy environment reduces public costs and gives businesses the stable conditions they need to invest. Set clear, science-based environmental guardrails and predictable permitting timelines, then use flexible tools\u2014performance standards, pricing/incentives, and support for small businesses\u2014to meet them at lowest cost. Pair these policies with transition assistance for affected workers and regions so the benefits of cleaner growth and the burdens of change are fairly distributed.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth are mutually reinforcing: clean air, water, and healthy ecosystems protect public health and provide the natural foundation for long-term prosperity. A balanced approach pairs strong, enforceable safeguards with predictable, science-based rules, reasonable timelines, and market incentives that help businesses innovate and compete. Investing in cleaner technology, resilient infrastructure, and workforce training\u2014along with targeted support for workers and small businesses during transitions\u2014can create good local jobs while reducing pollution and preserving resources for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing: clean air and water protect public health and reduce long-term costs, while a strong economy provides the resources to innovate and invest. The best balance pairs clear, science-based and enforceable standards with predictable timelines, flexibility for small businesses, and market incentives that reward cleaner, more efficient technologies. To keep communities whole, policy should include job training, transition support, and locally tailored solutions so workers, families, and businesses can adapt without being left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

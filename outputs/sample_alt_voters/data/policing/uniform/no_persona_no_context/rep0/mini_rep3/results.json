@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "2"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star": {
+      "winner": "51",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable middle ground is to define policing success as preventing harm while rigorously protecting constitutional rights, with clear, consistently enforced rules for stops, searches, and use of force. Pair that with independent investigations of serious incidents, regular public reporting on outcomes and disparities, and early\u2011intervention systems that correct problems before they become scandals. For nonviolent and behavioral-health calls, expand co\u2011response and diversion options so officers can focus on serious crime without defaulting to arrest.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by prioritizing procedural justice, clear limits on force, and de-escalation to minimize harm. Trust and effectiveness improve when agencies are transparent with data, measure outcomes, and are accountable through independent review and meaningful community input into priorities. Partnering with mental health and social services\u2014and using diversion and alternatives to arrest for nonviolent issues\u2014can prevent crises, reduce crime, and protect dignity and equal treatment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be treated as a public service that protects people from crime while rigorously protecting constitutional rights, because trust and safety depend on each other. Clear use-of-force limits, strong de-escalation training, and fair, consistent enforcement\u2014paired with independent review and transparent reporting\u2014help prevent abuse while supporting officers who do the job well. Communities should help set priorities, and nonviolent crises should be routed to mental-health and social-service responders when appropriate, so police can focus on serious threats and everyone is treated with dignity and due process.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

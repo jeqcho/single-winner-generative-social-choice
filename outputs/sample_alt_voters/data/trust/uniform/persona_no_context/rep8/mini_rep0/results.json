@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "19"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "44",
+      "epsilon": 0.0,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_personas": {
+      "winner": "44",
+      "epsilon": 0.0,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust rises when institutions make decisions in ways people can see, question, and verify\u2014showing their work, explaining trade-offs in plain language, and applying rules consistently to everyone. They should measure what they promise to deliver, publish progress (including failures), and fix problems quickly under independent review. Trust also depends on treating residents as co-owners: meeting people where they are, inviting local input early, and demonstrating through everyday services that government and civic bodies are fair, competent, and focused on practical results rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions consistently deliver reliable, fair results in people\u2019s daily lives while showing, in plain language, how decisions are made and money is spent. That requires routine transparency, independent oversight, equal enforcement of rules, and leaders who admit mistakes and explain how they will fix them. Trust also improves when institutions listen locally and create easy, accessible ways for residents to participate, give feedback, and see measurable progress over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they show their work: publish clear, plain-language reasons for decisions, open budgets and data for anyone to check, and invite independent oversight so rules apply equally to everyone. Trust also comes from everyday reliability\u2014fixing problems that affect families and workers, admitting mistakes quickly, and reporting what changed\u2014so people can see results in their communities. Building common ground means meeting people locally, listening with respect across cultures and beliefs, and creating simple ways to participate and get a fair response, regardless of party.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safety and civil rights together by setting clear, publicly known standards for stops, searches, and use of force, and by rewarding restraint and problem-solving as much as enforcement. Officers should be trained and equipped to slow situations down\u2014using de-escalation, communication, and proportional tactics\u2014and supported by co-responder models that route mental-health, substance-use, and homelessness crises to the right professionals. Independent review of serious incidents, transparent reporting of outcomes, and fair, timely discipline and due process can ensure accountability while protecting good-faith officers and strengthening community trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by pairing rigorous, ongoing de-escalation and bias-aware training with clear, consistently enforced use-of-force standards. Independent, transparent oversight\u2014supported by body-worn cameras, accessible complaint processes, and regular public reporting\u2014should ensure timely accountability while protecting due process for officers who act lawfully. Communities are best served when officers are well resourced and work alongside mental-health and social-service responders and sustained local partnerships so the right help arrives, harm is reduced, and every person is treated with dignity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep families safe while strictly protecting constitutional rights through clear, consistently enforced use-of-force standards, robust de-escalation and bias-awareness training, and transparent, independent oversight with accessible complaint and review processes. Communities should expand co-responder models and partnerships with mental-health, addiction, and social-service providers so the right help arrives when crises don\u2019t require armed enforcement. Regular public reporting of outcomes (including stops, force, and complaints), paired with fair due process, training, and support for officers, can build trust and ensure accountability without undermining effective policing.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

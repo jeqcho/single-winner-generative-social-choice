@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "59",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should start from a public-health aim: protect life and health while minimizing coercion and preventable suffering. It should guarantee prompt access to emergency and medically indicated care, with clear, workable standards and exceptions that rely on clinician judgment and protect patient privacy. Any legal limits should be paired with strong upstream measures\u2014comprehensive sex education, affordable contraception, maternal healthcare, and economic supports\u2014so fewer pregnancies become crises and fewer people feel pushed toward abortion or forced to carry against their will.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for differing moral convictions, while protecting the pregnant person\u2019s health, privacy, and bodily autonomy and keeping time\u2011sensitive decisions primarily between patients and qualified clinicians. Policy should include clear, workable standards with explicitly defined exceptions for serious health risks and medical emergencies, rape or incest, and nonviable or fatal fetal conditions. To reduce the number of crisis pregnancies and the need for abortion, governments should invest in comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical supports for parents such as childcare, healthcare, and adoption services, prioritizing care and harm reduction over criminalization.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion, medical evidence, and respect for both bodily autonomy and the moral seriousness many attach to developing life. Policy should keep time\u2011sensitive decisions primarily between patients and qualified clinicians, with clear protections for privacy and explicit exceptions for threats to life or health, rape or incest, and nonviable or fatal fetal conditions. Any legal limits should be written to reflect medical reality and paired with strong prevention and family supports\u2014comprehensive sex education, affordable contraception, prenatal care, childcare, and economic help\u2014so fewer people face crisis pregnancies and no one is treated as a criminal for seeking care.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

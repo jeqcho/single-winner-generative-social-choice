@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Trust is earned when institutions make their decisions understandable, their data verifiable, and their incentives aligned with the public interest. Setting clear service standards, publishing plain-language rationales and performance dashboards, and empowering independent investigators with real authority to act on complaints can reassure both skeptics and supporters. When policies are piloted, evaluated openly, and adjusted based on evidence and community experience, institutions show they are accountable, not insulated.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "People across perspectives want institutions that are competent, fair, and on the public\u2019s side, so rebuilding trust should focus on practical, verifiable reforms. Institutions can earn confidence by communicating decisions in plain language, publishing measurable results, and being transparent about tradeoffs. Pair this with independent oversight and regular audits, plus real opportunities for communities to help shape priorities, and with prompt acknowledgment and correction of mistakes. Consistent delivery of quality services\u2014matched with respectful, accessible processes\u2014turns accountability into trust over time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions are honest about how decisions are made, enforce the same rules for everyone, and deliver reliable services people can see in their daily lives. That means plain-language communication, transparent budgets and data, and independent oversight with real consequences for misconduct or poor performance. It also means creating convenient, respectful ways for citizens\u2014across politics, ages, and communities\u2014to give input, report problems, and see timely fixes, so accountability is visible rather than promised.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

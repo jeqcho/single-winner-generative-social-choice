@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make their work easy to inspect and hard to game: publish clear goals, explain trade-offs, and report results in plain language alongside the raw data. Pair that transparency with real consequences for failures\u2014independent investigations, conflict-of-interest safeguards, and quick, visible fixes\u2014so accountability is more than a slogan. Give communities practical power through participatory budgeting, local advisory panels, and accessible complaint-to-resolution tracking, while protecting privacy and equal treatment under the rules.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions reliably deliver fair, predictable services and publish clear, plain-language results people can verify. They should pair transparency with independent audits and real accountability\u2014admit mistakes, fix them quickly, and explain decisions and trade-offs. Regular, accessible local engagement (including multilingual outreach) and easy-to-use open data give communities meaningful ways to participate and oversee performance. Protecting individual rights and privacy while focusing on practical, measurable improvements creates common ground across political and cultural divides.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust grows when institutions act like dependable service providers: they deliver fair, predictable results in daily services, apply rules consistently, and explain decisions and trade-offs in plain, respectful language. They should publish easy-to-check performance measures and budgets, protect privacy and individual rights, and use independent audits and nonpartisan community oversight to catch problems early. When mistakes happen, leaders must acknowledge them quickly, fix them transparently, and keep regular local forums\u2014across neighborhoods, faith groups, and workplaces\u2014so people can see progress and help shape solutions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

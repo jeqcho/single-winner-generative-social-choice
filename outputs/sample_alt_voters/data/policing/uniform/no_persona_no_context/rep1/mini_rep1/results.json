@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be organized around a simple standard: use the least intrusive, proportional response that effectively protects the public, with constitutional safeguards built into everyday practice. That means clear use-of-force and stop/search rules, strong supervision and early-warning systems, and independent review when harm occurs\u2014paired with training, officer support, and alternatives for mental-health and other nonviolent crises. Regular public reporting and ongoing community input should guide adjustments based on outcomes that track both crime reduction and fair, rights-respecting treatment.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the shared aim of keeping communities safe while fully upholding constitutional rights, treating safety and civil liberties as mutually reinforcing. That requires clear, enforceable standards; de-escalation and bias-aware training; and transparent, data-driven practices with routine public reporting. Independent oversight and meaningful community partnership in setting priorities and evaluating outcomes can build trust while measuring both reductions in violence and reductions in rights violations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public safety and civil rights should be treated as mutually reinforcing: policing works best when it is fair, predictable, and focused on preventing harm. Communities can support effective law enforcement by pairing clear constitutional standards and de-escalation training with transparent reporting, independent review of serious incidents, and data that tracks both crime reduction and complaints of misconduct. Expanding partnerships\u2014such as community problem-solving and alternative responses for mental-health or low-level crises\u2014can reduce unnecessary force while keeping officers available for serious threats. With shared goals and measurable accountability, trust grows and neighborhoods become both safer and freer.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

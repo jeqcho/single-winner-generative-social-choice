@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "11"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safety through legitimacy: clear, constitutional rules for stops, searches, and force; strong supervision; and swift, impartial investigation of misconduct with public reporting of outcomes. Routine training in de-escalation, procedural justice, and bias reduction should be paired with safeguards for privacy and limits on surveillance and militarized tactics. Communities should help set priorities and review data, while nonviolent behavioral-health and quality-of-life calls are routed to specialized civilian responders and prevention services so officers can focus on serious threats.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing laws within clear, constitutional limits on stops, searches, and use of force, backed by consistent de-escalation, bias-awareness, and crisis-intervention training. Independent civilian oversight, transparent reporting and open data, and fair, timely accountability for misconduct should be standard to build legitimacy and trust. Nonviolent mental-health and social-service calls should be routed to trained crisis teams, while prevention investments (e.g., mental health, housing, youth programs) reduce recurring harm and allow officers to focus on serious threats.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while protecting constitutional rights through clear, consistently enforced use-of-force rules, strong de-escalation and bias training, and transparent reporting with independent oversight that is fair to both the public and officers. Nonviolent mental-health, substance-use, and homelessness-related calls should be routed to trained civilian crisis teams when safe, while police focus on serious threats and evidence-based prevention. Agencies should partner regularly with residents to set measurable goals, safeguard privacy in any technology used, and evaluate outcomes so trust, safety, and civil liberties strengthen together.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

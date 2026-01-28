@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should focus on preventing harm and solving problems, not maximizing stops or arrests, by using clear constitutional limits, proportional use\u2011of\u2011force rules, and the least intrusive response that can keep people safe. Independent oversight, transparent reporting, and early\u2011warning accountability systems should be paired with strong support for officers\u2014quality training, supervision, and wellness\u2014so standards are realistic and consistently met. When crises involve mental health, addiction, homelessness, or youth conflict, communities should deploy co\u2011responders and non\u2011police services whenever feasible, reserving armed enforcement for situations that truly require it. Regular community input and measurable outcomes can align safety, fairness, and trust without treating rights and security as competing goals.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while upholding constitutional rights and treating every person with dignity, guided by clear, enforceable standards\u2014especially on use of force\u2014and measurable accountability. Priorities should include rigorous de-escalation and crisis-response training, strong partnerships with mental-health and social-service providers, and community engagement that prevents harm before it escalates. Trust is strengthened through transparent data and truly independent oversight, alongside fair support, training, and consistent discipline so officers can act professionally and the public can rely on equal protection under the law.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals, with clear, enforceable use-of-force standards, strong de-escalation and crisis-response training, and fair support for officers to do their jobs professionally. Communities are safer when police work with mental-health and social-service partners to resolve crises and prevent repeat harm, while focusing enforcement on serious threats. Transparent reporting, independent oversight, and consistent consequences for misconduct\u2014paired with respectful community engagement\u2014build the trust needed for effective, lawful policing.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

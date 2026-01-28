@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": null,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": null,
+      "full_winner_idx": "28"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "89"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "89"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": null,
+      "full_winner_idx": "20"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": null,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star": {
+      "winner": "34",
+      "epsilon": null,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": null,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": null,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable balance means setting clear environmental limits that protect health and ecosystems while giving businesses the certainty and flexibility to meet them at the lowest cost. Use science-based standards with transparent metrics, pair enforcement for major polluters with tools like tax credits, competitive grants, and performance-based compliance options, and phase in changes to avoid shocks. Invest in modern infrastructure and targeted transition support\u2014retraining, wage insurance, and help for small firms\u2014so cleaner growth strengthens local jobs rather than displacing them.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together through a practical, evidence-based approach that treats clean air, water, and land as foundations of long-term prosperity. Pair clear, predictable regulations that hold major polluters accountable with market-based incentives and public investment that help businesses\u2014especially small and local employers\u2014adopt cleaner technologies and innovate. Use phased timelines, transparent benchmarks, and targeted transition support such as job training and community investment so workers and regions can adapt without losing stability.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A strong economy depends on clean air, safe water, and healthy land, so environmental protection should be designed to support long-term jobs and community well-being rather than undermine it. We should set clear, science-based standards that hold major polluters accountable, while using market incentives, practical timelines, and streamlined permitting to help businesses\u2014especially small employers\u2014adopt cleaner, cost-effective technology. Public investment in infrastructure, energy efficiency, and local conservation, paired with retraining and transition support for workers, can cut waste and pollution while keeping families and communities economically secure.",
+      "is_new": true,
+      "epsilon": 0.010000000000000009
+    }
+  }
+}

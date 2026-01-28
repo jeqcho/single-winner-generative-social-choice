@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be scoped to what police are uniquely trained to do\u2014stop imminent harm and investigate serious crime\u2014while routing behavioral-health, homelessness, and minor quality-of-life issues to civilian-led services whenever feasible. Departments should operate under clear constitutional limits and proportionality standards, with early-intervention systems, independent investigations of serious incidents, and publicly reported metrics that track both safety outcomes and disparities. Continuous training in de-escalation, bias awareness, and lawful stops, paired with officer wellness and community co-designed priorities, can reduce unnecessary encounters while preserving the capacity to respond decisively when needed.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing laws fairly within clear constitutional and use-of-force limits, with strong de-escalation and bias-aware training so coercion is a last resort. Build trust through transparent data, body-camera and privacy safeguards, and timely independent civilian oversight with real avenues for review and redress. Pair evidence-based deployment and measurable outcomes with sustained community partnership and investments in non-police crisis response, mental-health care, housing, and youth services to prevent harm and reduce unnecessary arrests.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe by enforcing the law fairly and predictably within clear constitutional limits, with strict, well-defined use-of-force rules that make de-escalation the default and force a last resort. Trust grows when departments provide transparent public reporting, independent review of serious incidents, and real consequences for misconduct, while also supporting officer training and wellness so good officers can do their jobs well. Communities are safer when the right response is sent to the right call\u2014expanding mental-health and substance-use crisis teams, youth and victim services, and other prevention supports\u2014while regularly using data and community feedback to improve outcomes without violating privacy or civil liberties.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

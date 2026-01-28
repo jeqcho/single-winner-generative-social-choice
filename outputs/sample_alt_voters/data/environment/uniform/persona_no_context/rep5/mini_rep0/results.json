@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as a single long-term competitiveness plan: clear, science-based environmental limits paired with flexibility in how industries meet them. Governments can reduce costs and protect jobs by using predictable timelines, performance standards, and market signals while investing in infrastructure, permitting reform for cleaner projects, and transition support for affected workers and regions. Measuring outcomes\u2014pollution reduced, jobs created, and household costs\u2014keeps the balance accountable and builds trust across communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance recognizes that clean air, water, and healthy ecosystems are the foundation of long-term prosperity, while communities also need good jobs and thriving local businesses. We should set clear, science-based environmental standards and meet them through phased, predictable implementation, market incentives, and investment in clean technology and infrastructure that spur innovation rather than impose unnecessary burdens. Pairing these policies with workforce training, transition support, and community input can protect public health and natural heritage while expanding economic opportunity for working families.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should reinforce each other, because clean air and water, reliable energy, and safe neighborhoods are the foundation of long-term jobs and health. We should set clear, science-based standards and phase them in predictably, while using market incentives and public\u2011private partnerships to help businesses innovate, keep costs reasonable, and create good local work. Any transition should include practical support\u2014retraining, apprenticeships, and targeted help for workers and small businesses\u2014so communities that build and power the country aren\u2019t left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

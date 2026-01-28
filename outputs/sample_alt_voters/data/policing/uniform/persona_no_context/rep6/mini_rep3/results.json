@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.1399999999999999,
+      "full_winner_idx": "12"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.1399999999999999,
+      "full_winner_idx": "12"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star_personas": {
+      "winner": "54",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a simple standard: use the least intrusive, constitutionally sound response that can safely resolve the situation. Achieving this requires well-defined authority and limits, scenario-based training (de-escalation, bias-awareness, and crisis intervention), and dispatching the right responder\u2014often pairing officers with clinicians or community specialists for behavioral-health calls. Legitimacy comes from transparent reporting, independent review with real consequences for misconduct, and regular public feedback so communities can see that enforcement is fair, effective, and accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing goals, guided by clear constitutional standards, predictable procedures, and proportional use-of-force rules. Priorities should include rigorous, recurring training in de-escalation and bias awareness, coordinated mental-health/crisis response alternatives, and strong community partnerships that improve trust and cooperation. Transparent data reporting, body-worn cameras where appropriate, and independent oversight with meaningful accountability can reduce harm, support officers, and ensure fair, evidence-based enforcement.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and civil rights together by enforcing the law consistently while requiring proportional, de-escalation-first responses and clear limits on use of force. Communities and officers benefit from transparent reporting (including body-worn cameras where appropriate), fair due process for civilians and officers, and independent oversight that reviews serious incidents and complaints. Pairing police with specialized crisis and mental-health responders, along with community partnerships and prevention services, can reduce harm, strengthen trust, and focus enforcement on violent crime and repeat offenders.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

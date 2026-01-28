@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_personas": {
+      "winner": "49",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make decisions in the open, explain the evidence and trade-offs in plain language, and show who is responsible for results. They should invite ongoing public input early\u2014especially from communities most affected\u2014and back it up with independent audits, clear metrics, and real consequences for misconduct or failure. Reliable, fair service delivery and timely correction of mistakes turn transparency into proof that institutions work for everyone, not just insiders.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust is rebuilt when institutions consistently deliver reliable, fair services while making decisions transparently, in plain language, with clear responsibility for outcomes. They should publish measurable goals and results, welcome independent oversight and audits, and admit mistakes quickly with visible corrections. Trust grows faster when institutions listen locally\u2014across the political spectrum\u2014and give communities a real seat at the table through practical participation and partnerships with trusted local organizations. When people can see predictable follow-through in everyday life, legitimacy is earned rather than demanded.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when leaders consistently tell the truth in plain language, publish how decisions are made and money is spent, and accept real consequences when they fail\u2014paired with quick, visible fixes when problems are found. Institutions should deliver reliable, fair services that respect people\u2019s time, privacy, and freedoms, and that help families and communities plan their lives with confidence. Ongoing local forums\u2014working with schools, faith communities, neighborhood groups, and independent auditors\u2014should give people across the political spectrum a meaningful seat at the table and transparent, measurable proof of results.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "86"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "86"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "49",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable balance treats clean air, water, and stable climate conditions as economic necessities, while recognizing that communities and businesses need time and support to adapt. Set clear, science-based environmental goals and enforceable standards, but meet them with flexible compliance options, predictable timelines, and targeted help for small firms and displaced workers. Pair these protections with investments in modernization\u2014energy efficiency, grid and transit upgrades, and competitive clean manufacturing\u2014so growth comes from doing more with less pollution and waste.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, water, and healthy ecosystems as foundations of long-term prosperity and public health. A fair balance comes from clear, science-based, predictable standards paired with market incentives and investment in clean technology, infrastructure, and efficiency so businesses can innovate and plan. Communities most affected should help shape decisions, with targeted support like workforce retraining and transition assistance so good jobs are protected while the economy moves toward sustainable growth.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as shared goals: clean air and water protect public health and keep communities economically strong. The best balance uses clear, predictable, science-based standards with reasonable timelines, paired with incentives and technical help\u2014especially for small businesses\u2014and support for workers through training and local job creation. By rewarding innovation and accountability while listening to community needs, we can reduce pollution, protect working lands and neighborhoods, and keep the economy growing for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

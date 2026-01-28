@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect life and health by grounding rules in medical evidence, respecting personal conscience, and treating families in crisis with dignity rather than punishment. A workable middle approach preserves timely access to care\u2014especially early in pregnancy\u2014and guarantees clear, clinician-defined exceptions for emergencies and serious health threats, with transparent standards and due process. At the same time, policy should reduce the conditions that lead to abortion by expanding contraception, comprehensive education, prenatal and postpartum care, and practical support for parenting and adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for human dignity, recognizing that many people hold sincere moral convictions about unborn life while others emphasize bodily autonomy and privacy. A workable approach keeps decisions centered on the patient and clinician with clear, medically grounded standards, including prompt care and unambiguous exceptions for life-threatening emergencies and serious health risks, and it should not punish women in crisis. Common ground is strengthened by pairing any legal framework with prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical help for parents and adoption\u2014so fewer people face unwanted pregnancies or feel cornered into impossible choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should protect human dignity by keeping medical decisions grounded in evidence and made with a qualified clinician, while recognizing that many people hold sincere moral and religious convictions about unborn life. A workable approach ensures timely, safe care and clear exceptions for life-threatening or serious health situations and for extreme circumstances like rape or incest, with rules written to avoid delays in emergencies. Common ground also means reducing the number of abortions by investing in prevention and support\u2014sex education, affordable contraception, prenatal and postpartum care, adoption resources, and practical help for parents\u2014so fewer families face crisis-level choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

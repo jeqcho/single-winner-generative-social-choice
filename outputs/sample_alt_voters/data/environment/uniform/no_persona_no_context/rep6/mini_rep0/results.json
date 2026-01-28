@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "46",
+      "epsilon": 0.0,
+      "full_winner_idx": "46"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental limits as a core economic constraint: protect critical habitats, water, and air quality while allowing flexible pathways for businesses to meet clear performance standards. Pair predictable rules with time-bound incentives, infrastructure investment, and streamlined permitting for cleaner projects so growth can continue while pollution and risk decline. Where communities and workers face real disruption, provide targeted transition support and local development plans so the shift is fair, practical, and politically durable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection as the foundation for long-term prosperity: set clear, measurable standards that safeguard critical ecosystems and public health while using market signals and incentives to drive clean innovation and efficiency. Pair these policies with fair transition support\u2014retraining, regional investment, and targeted help for affected workers and small businesses\u2014so the shift creates jobs and resilience rather than hardship. With transparent, evidence-based planning and collaboration across government, industry, and communities, we can grow the economy while restoring the natural capital it depends on.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance protects the air, water, and land that communities and businesses depend on, while keeping jobs and affordability front and center. Set clear, evidence-based environmental standards and require polluters to pay their fair share, but pair this with practical flexibility, incentives for efficiency and clean technology, and streamlined permitting for projects that reduce pollution. Invest in domestic energy and infrastructure that is cleaner and more reliable, along with retraining, wage support, and community reinvestment so workers and regions don\u2019t carry the burden of the transition.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

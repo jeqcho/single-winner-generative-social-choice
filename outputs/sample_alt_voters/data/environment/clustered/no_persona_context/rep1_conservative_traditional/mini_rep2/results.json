@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection should be pursued as a single long-term strategy: protect core air, water, and ecosystem thresholds while giving businesses clear timelines and flexibility in how to meet them. Use a mix of firm standards, pricing of pollution, and targeted tax credits or procurement to reward cleaner production and spur competitiveness. Pair these policies with transition support\u2014retraining, local redevelopment, and help for small firms and low-income households\u2014so the costs and benefits are shared fairly and progress is measurable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats clean air, water, and healthy ecosystems as the foundation of long-term prosperity while giving businesses predictable, science-based rules and time-phased pathways to comply. Pair enforceable standards with market incentives and strategic public investment in clean technology and resilient infrastructure to spur innovation and good local jobs, while holding polluters accountable for real costs. Ensure the transition is fair through worker retraining, targeted support for affected regions and small businesses, and community-led planning with transparent, measurable outcomes so benefits and burdens are shared equitably.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance starts by protecting clean air and water as basic public\u2011health safeguards, while keeping rules clear, stable, and phased so employers and small businesses can plan and invest. Use practical, results-based standards that hold major polluters accountable and pair them with incentives and infrastructure investments that cut waste, strengthen energy reliability, and grow local jobs. Support workers, seniors, and communities through retraining, transition assistance, and locally led development so the costs and benefits of a cleaner economy are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

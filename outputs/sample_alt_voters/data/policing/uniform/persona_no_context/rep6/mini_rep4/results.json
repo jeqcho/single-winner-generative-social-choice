@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_star": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the principle of least harm: intervene early to prevent violence, use the minimum necessary force, and document decisions so the public can verify that rights were respected. Clear, enforceable standards\u2014paired with independent review, body\u2011camera and stop/use\u2011of\u2011force data transparency, and fair discipline\u2014promote accountability while protecting officers who follow policy. Communities are safer when police work alongside residents and specialized responders for mental\u2011health, addiction, and homelessness, focusing enforcement on serious harm while offering diversion and problem\u2011solving for lower\u2011level issues.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and civil rights together through clear, consistently enforced use-of-force and constitutional standards, rigorous de-escalation training, and transparent reporting of stops, force, and outcomes. Independent oversight and regular, data-driven accountability reviews should investigate misconduct fairly while supporting officers who follow policy. Communities should be genuine partners in setting priorities, and mental-health and social-service crisis teams should handle appropriate calls so fewer situations require armed response. These practical, evidence-based steps reduce harm, build trust, and keep neighborhoods safe while respecting dignity and equal treatment under the law.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect communities while strictly upholding constitutional rights through clear, consistently enforced standards\u2014especially for stops, searches, and use of force\u2014paired with training in de-escalation, bias awareness, and disability and crisis response. Transparent reporting, body-worn camera policies that protect privacy, and independent investigations of serious incidents help ensure accountability and fairness for residents and officers alike. Communities are safer when police work in partnership with local leaders and when mental-health and social-service teams handle appropriate calls, allowing officers to focus on serious crime with evidence-based strategies and measurable outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

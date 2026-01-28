@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Electoral reform should aim for a president who reflects the broadest national support while keeping states central to administering elections and ensuring candidates must compete across regions. A practical middle ground is to keep the Electoral College but end winner-take-all through proportional elector allocation (or another uniform rule states can adopt), and add a majority threshold with ranked-choice ballots to avoid spoiler outcomes. Any transition should be phased in with clear national baselines for ballot access, paper-based audits, and consistent recount triggers so results are verifiable, understandable, and widely accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential elections should make every lawful vote carry comparable weight while preserving a meaningful role for states and protecting smaller and rural communities from being ignored. A pragmatic path is to phase out winner\u2011take\u2011all by adopting proportional (or carefully designed district) allocation of electors and, where agreement grows, an interstate national popular\u2011vote compact, with ranked\u2011choice voting as a safeguard to reward broad coalitions. Any change should be implemented gradually with uniform, transparent standards for ballot access, auditable paper trails, and clear recount thresholds so results are easy to explain, hard to game, and widely trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should respect the federal role of states while making each vote count more equally, so no party can win by focusing only on a few swing areas. A practical compromise is to keep state-run elections but end winner-take-all by moving to proportional elector allocation (or a district method with strong anti-gerrymandering safeguards) and, if enough states agree, use the National Popular Vote compact as a further step. Any reform should come with clear, uniform standards for ballot access, auditable paper records, and consistent recount triggers and timelines so results are secure, understandable, and widely accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

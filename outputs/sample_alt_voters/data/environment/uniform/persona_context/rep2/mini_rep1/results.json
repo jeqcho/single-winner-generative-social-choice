@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be advanced together by setting firm, science-based health and ecosystem guardrails while giving businesses flexible, cost-effective pathways to meet them. Use a mix of performance standards, transparent measurement, and incentives for efficiency and clean innovation, with timelines that are ambitious but realistic. Pair these policies with place-based planning, targeted support for small firms, and transition funding for workers and communities most affected so the shift strengthens competitiveness without sacrificing fairness.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually reinforcing by safeguarding clean air, water, and public health while creating predictable conditions for businesses and workers to thrive. Set clear, science-based, outcome-focused standards and phase them in with transparent metrics, pairing them with market incentives and targeted public investment in clean technology and infrastructure. Ensure a fair transition through locally led planning, workforce retraining, and practical support for small businesses and affected communities so livelihoods are protected as pollution falls and long-term prosperity grows.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based standards for clean air and water while giving businesses predictable timelines to comply. Use cost-effective tools\u2014like incentives for cleaner equipment, energy efficiency, and practical market mechanisms\u2014to reward innovation and reduce pollution without unfairly burdening families. Pair these policies with local input, transparent measures of results, and strong support for workers and small businesses through retraining, transition assistance, and community investment so no region is left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

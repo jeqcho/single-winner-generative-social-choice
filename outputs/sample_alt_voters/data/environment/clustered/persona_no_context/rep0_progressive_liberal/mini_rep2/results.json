@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.32000000000000006,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "23",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth is strongest when it doesn\u2019t draw down the natural systems\u2014clean water, stable climate, and healthy soils\u2014that communities and businesses rely on. A workable balance sets firm pollution limits and transparent, predictable rules, while giving companies flexibility through performance standards, permitting reform, and incentives to adopt cleaner, more efficient processes. Public investment in modern infrastructure, research, and targeted transition support for affected workers and regions can turn environmental goals into durable competitiveness rather than sudden disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth are mutually reinforcing: clean air, water, and healthy ecosystems underpin public health, productivity, and long-term prosperity. A workable balance pairs clear, science-based and predictable rules with market incentives and investment in clean technology and resilient infrastructure, so businesses can innovate and communities see measurable results. Policies should phase in changes responsibly and include workforce training and transition support for workers, small businesses, and places most affected, ensuring a fair path that strengthens local livelihoods while safeguarding resources for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A fair balance starts with the idea that clean air, safe water, and a stable climate are foundations for long-term jobs, public health, and community prosperity. We should set clear, science-based and predictable standards, while using incentives and public\u2013private investment to speed up clean energy, efficiency, and resilient infrastructure so businesses can innovate rather than simply absorb costs. Just as important, the transition should be phased and paired with targeted help for workers, small businesses, and hard-hit communities\u2014training, wage supports, and local planning\u2014so environmental progress also delivers economic security.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

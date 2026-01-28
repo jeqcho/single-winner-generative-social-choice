@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "55"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should keep states as the units that run elections while making presidential outcomes track voter preferences more closely and reducing the outsized power of a few battleground states. A realistic path is to end automatic winner-take-all by encouraging proportional (or carefully designed district) elector allocation, paired with strong anti-gerrymandering safeguards and a uniform national floor for ballot access, counting, audits, and recounts. If the country later chooses a National Popular Vote approach, it should include clear, pre-agreed rules for close elections so legitimacy doesn\u2019t hinge on ad hoc disputes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep the state-based framework many voters value while reducing winner-take-all distortions that make outcomes hinge on a few swing states. A practical bridge is for states to allocate electoral votes proportionally (or by district with strong anti-gerrymandering safeguards), and to move toward a National Popular Vote Interstate Compact once enough states join so the result tracks the national will more closely. Whatever path is chosen, it should be paired with clear, uniform baseline standards for ballot access, counting, audits, and transparent recount/certification rules to strengthen legitimacy and trust across regions and parties.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should protect the states\u2019 role and encourage broad, cross\u2011regional coalitions, while making results track voters\u2019 choices more closely and reducing the \u201cwinner\u2011take\u2011all\u201d effect that leaves many communities feeling ignored. A practical, step\u2011by\u2011step approach is to set clear nationwide baseline standards for ballot access, counting, audits, and recounts, and allow states to adopt proportional (or district-based with strong anti\u2011gerrymandering rules) allocation of electors, with the National Popular Vote Interstate Compact as an option if it earns broad buy\u2011in. Pairing these changes with simple, transparent administration would strengthen trust for both urban and rural voters and make outcomes easier to accept even in close elections.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

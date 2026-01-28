@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Striking the right balance means setting firm environmental guardrails\u2014clean air and water, climate risk reduction, and habitat protection\u2014while giving businesses flexibility in how they meet them at the lowest cost. Use a mix of pollution pricing, streamlined permitting for cleaner projects, and time-bound public investments in grids, transit, and innovation, with regular review of outcomes and economic impacts. Pair these policies with just-transition supports (training, wage insurance, and community redevelopment) so workers and regions aren\u2019t left behind as the economy modernizes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Balance environmental protection and economic growth by treating clean air, water, and stable ecosystems as the foundation of long-term prosperity, while setting clear, science-based standards that hold polluters accountable. Pair predictable, phased implementation with market tools that internalize environmental costs and incentives for efficiency, renewables, and clean innovation so businesses can plan and invest. Direct targeted public investment and just-transition support\u2014retraining, local planning, and assistance for affected workers and small businesses\u2014to minimize disruption and ensure benefits are shared.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Protecting clean air, water, and public health should be treated as a core responsibility and a long-term economic asset, not a luxury. The best balance pairs clear, science-based standards and polluter accountability with flexible, cost-effective tools and incentives that let businesses innovate and keep prices and jobs stable. Changes should be phased and predictable, with targeted support for workers, small businesses, and communities\u2014retraining, infrastructure investment, and local input\u2014so the transition strengthens both livelihoods and the environment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

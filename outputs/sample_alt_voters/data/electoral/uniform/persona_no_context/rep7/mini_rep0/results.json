@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A unifying reform would keep elections administered by states but reduce winner-take-all distortions so the presidency more reliably aligns with the national popular will. One workable path is a phased package: require proportional elector allocation (or a uniform ranked-choice tally for president) alongside an expanded House to rebalance representation, with a federal floor for ballot access, counting procedures, recount triggers, and post-election audits. That combination preserves federalism, makes more votes matter in more places, and strengthens legitimacy in close elections without forcing an abrupt, all-at-once rewrite.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make the presidential outcome track the national popular will more closely while keeping states meaningfully involved, reducing winner-take-all distortions that concentrate power in a few swing states. A practical bridge is either adopting the National Popular Vote Interstate Compact or requiring proportional allocation of each state\u2019s electors, with ranked-choice/automatic runoff to ensure a majority-supported winner. Whatever path is chosen, pair it with clear, uniform baseline standards for ballot access, counting, recounts, and automatic audits so results are transparent, predictable, and broadly trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A practical reform should make presidential outcomes track the voters more closely while keeping states meaningfully involved, so no region feels ignored and close elections remain legitimate. A strong middle ground is ending winner-take-all by requiring proportional (or district-based) allocation of electors nationwide, and pairing it with clear, uniform standards for ballot access, counting, recounts, and risk-limiting audits. If broader agreement emerges, states could also pursue a carefully phased National Popular Vote approach with a ranked-choice or runoff backstop so the winner has majority support. The goal is a transparent system that rewards broad coalitions and gives voters in every state reason to participate.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

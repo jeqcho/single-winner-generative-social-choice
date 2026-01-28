@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "46",
+      "epsilon": 0.0,
+      "full_winner_idx": "46"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "46",
+      "epsilon": 0.0,
+      "full_winner_idx": "46"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable balance starts from the idea that clean air and water are basic public goods and that a stable economy needs predictable rules and room to innovate. Set clear environmental standards and timelines based on measurable outcomes, then give businesses flexibility in how to meet them through incentives, permitting certainty, and support for efficiency upgrades. Pair these policies with targeted transition help\u2014retraining, local reinvestment, and safety nets\u2014so communities and workers are not asked to carry the costs alone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, water, and public health as the foundation of lasting prosperity and strong local economies. Policies should pair clear, predictable, science- and outcome-based rules with market incentives and investment in cleaner technology, energy efficiency, and resilient infrastructure so businesses can innovate and plan with confidence. A fair transition\u2014retraining, targeted support for workers and small businesses, and meaningful local input with realistic timelines\u2014can protect livelihoods while reducing pollution and conserving resources for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A strong economy depends on clean air, safe water, and healthy land, so we should protect these basics while keeping paychecks and local businesses secure. Set clear, science-based standards and predictable timelines, then pair them with incentives and financing to help small businesses and working families adopt cleaner, more efficient equipment and energy. Invest in infrastructure and workforce training so workers in energy, construction, transportation, and service jobs can move into good-paying roles without communities being left behind. This practical, locally informed approach improves public health, reduces long-run costs, and supports steady growth for the next generation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

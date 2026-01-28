@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "50",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should start from two widely shared aims: protecting the health, dignity, and rights of pregnant people and acknowledging the moral concern many have for developing life. A consensus approach keeps care legal, safe, and timely\u2014especially in emergencies\u2014sets clearly defined, medically grounded parameters written with clinicians\u2019 input, and avoids criminalizing patients or second-guessing good-faith medical judgment. To reduce abortion without coercion, policy should pair these rules with proven supports such as affordable contraception, comprehensive sex education, prenatal and postpartum care, and practical help for parenting or adoption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should prioritize protecting the health, safety, and privacy of pregnant patients through clear, medically grounded standards that let timely clinical decisions be made with qualified clinicians, especially in emergencies. Policy should respect that many people hold deep moral convictions about potential life, seeking common ground through compassionate guardrails that avoid coercion or punishment and provide legal clarity for patients and medical staff. Alongside any rules, governments should invest in proven supports that reduce crisis pregnancies and make parenthood feasible\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, paid leave, childcare, and adoption resources.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, clear medical evidence, and respect for both the dignity of the pregnant patient and the moral seriousness many people attach to developing life. Policy should guarantee timely care and unambiguous exceptions for life-threatening emergencies and serious health risks, while protecting medical privacy and clinicians\u2019 good-faith judgment. Where limits are set, they should be written plainly, applied fairly, and paired with strong prevention and family supports\u2014comprehensive sex education, affordable contraception, prenatal/postpartum care, paid leave, childcare, and adoption resources\u2014so fewer pregnancies become crises and fewer people feel forced into any choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

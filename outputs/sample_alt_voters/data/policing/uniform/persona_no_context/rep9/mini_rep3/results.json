@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star": {
+      "winner": "48",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star_personas": {
+      "winner": "48",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for safety that is earned, not imposed, by pairing lawful, proportionate enforcement with consistent respect for constitutional rights. Clear limits on stops, searches, surveillance, and use of force\u2014backed by scenario-based training and strong supervision\u2014should be matched with prompt, independent review and public reporting when things go wrong. Communities should have a real role in setting priorities and evaluating outcomes, while officers receive the support, staffing, and mental-health resources needed to respond professionally and focus on the highest-risk harm.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together through clear, consistent rules of engagement and use-of-force standards, backed by rigorous training in de-escalation, constitutional policing, and bias awareness. Trust grows when departments pair transparent data and timely reporting with independent oversight and fair, predictable consequences for misconduct, while also supporting officers with ongoing training and mental-health resources. Strong community partnership\u2014including regular input and coordinated responses with mental-health and social-service providers\u2014can prevent crises, reduce harm, and keep neighborhoods both safe and respected.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and civil rights at the same time by enforcing clear, constitutional standards for stops, searches, and use of force, with de-escalation as the default and force proportional and reviewable. Trust grows when there is transparent reporting, body\u2011camera and data policies that safeguard privacy, and independent, timely investigation of serious incidents with real consequences for misconduct and fair due process for officers. Communities are safer when police partner with residents and expand co\u2011response options for mental\u2011health, addiction, and domestic crises so the right help arrives early and encounters are less likely to turn violent.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

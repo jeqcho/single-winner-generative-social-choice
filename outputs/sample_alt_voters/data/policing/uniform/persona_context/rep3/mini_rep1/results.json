@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "47",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be a restrained, constitutional public service that prevents harm first and uses force only as a last resort under clear, enforceable rules. Communities and officers benefit when departments combine strong due\u2011process protections, independent investigation of serious incidents, and transparent performance reporting with practical training in de\u2011escalation, bias awareness, and disability and mental\u2011health response. Expanding co\u2011responder and diversion options, improving language access, and investing in community problem\u2011solving and officer wellness can reduce unnecessary encounters and build trust so safety and civil rights advance together.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by using clear, consistently enforced use\u2011of\u2011force standards, rigorous de\u2011escalation and crisis\u2011response training, and transparent, independent oversight with meaningful community input. Expanding mental\u2011health, social\u2011service, and unarmed crisis alternatives\u2014along with language and cultural competence\u2014can prevent many situations from escalating to force. Pair strong accountability and public reporting with fair support for officer training and wellness so neighborhoods are both safe and respected.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should be a disciplined public service that keeps neighborhoods safe while protecting constitutional rights through clear, enforceable use-of-force standards, consistent de-escalation training, and transparent investigation of misconduct with independent civilian input. Communities should expand non-police options where appropriate\u2014such as mental-health and substance-use crisis teams, social services, and community partnerships\u2014so officers can focus on serious threats and fewer situations escalate to force. Public reporting of measurable outcomes, strong privacy safeguards for technology, and fair support and wellness resources for officers can build trust so safety and civil liberties reinforce each other.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

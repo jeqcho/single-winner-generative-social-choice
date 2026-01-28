@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "29"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Public trust increases when institutions make it easy for people to see what was decided, why it was decided, and what changed as a result\u2014using plain-language explanations and publicly tracked goals. Pair that openness with real consequences for misconduct or failure, through independent review, protected whistleblowers, and simple ways for citizens to appeal or get problems fixed. When institutions consistently deliver basic services fairly, protect rights and privacy, and include local voices in setting priorities, skepticism gives way to earned confidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they deliver reliable, everyday results and explain decisions in clear, plain language. Leaders should publish transparent data and reasoning, invite ongoing local input, and accept independent oversight\u2014admitting mistakes and correcting them quickly and fairly. When rules are applied predictably and people have accessible ways to ask questions, appeal decisions, or get problems fixed, institutions feel like accountable service providers rather than distant authorities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when people can plainly see how decisions are made and how money is spent, and when independent oversight confirms that rules are applied fairly to everyone. Institutions should focus on reliable, everyday results\u2014safe schools, effective healthcare, responsive public services\u2014while admitting mistakes quickly and fixing them with clear timelines. Ongoing local engagement (town halls, partnerships with community groups, and easy feedback channels) and plain-language communication help keep leaders answerable to the public rather than to partisan agendas.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

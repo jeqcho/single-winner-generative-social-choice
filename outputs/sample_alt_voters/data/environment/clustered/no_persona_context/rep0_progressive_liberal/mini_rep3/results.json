@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "40",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth should not depend on degrading the resources that communities and businesses rely on, but environmental progress should also be designed to keep investment and jobs stable. Set clear, science-based baseline protections for health and ecosystems, then let firms meet them through flexible tools\u2014performance standards, market pricing of pollution where appropriate, and support for innovation. Phase changes with realistic timelines and predictable rules, while directing transition assistance and place-based investment to workers, energy- and trade-exposed industries, and small businesses so the benefits and burdens are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental protection as a foundation for long-term prosperity: set clear, science-based, enforceable standards that safeguard air, water, and natural capital while phasing implementation predictably so businesses can plan and adapt. Pair these rules with market-aligned incentives and investment in clean energy, efficiency, and resilient infrastructure to spur innovation, competitiveness, and job growth. Provide robust transition support\u2014retraining, targeted help for affected regions and small businesses, and meaningful local input\u2014so communities share the benefits and the shift is fair and durable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by setting clear, science-based limits that keep air, water, and lands healthy while giving businesses predictable, phased timelines to adapt. Pair these safeguards with investments in clean energy, efficiency, and resilient infrastructure, plus practical support for small businesses and workers\u2014retraining, wage support, and pathways into new jobs\u2014so communities are not left behind. Decisions should include strong local and tribal input and transparent measurement of costs and benefits, ensuring both public health and long-term livelihoods are protected.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

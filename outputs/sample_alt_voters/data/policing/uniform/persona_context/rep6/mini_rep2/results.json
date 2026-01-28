@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should focus on preventing harm and responding proportionally, with clear limits on government power that are consistently enforced and publicly understood. Departments should prioritize training and supervision that reward de-escalation, lawful decision-making, and respectful treatment, backed by independent review of serious incidents and transparent reporting on stops, force, and outcomes. Communities are best served when nonviolent crises are routed to specialized mental-health and social-service responders, while officers are equipped with adequate staffing, wellness support, and fair discipline to meet high standards. This approach protects safety and civil rights by aligning tactics, accountability, and resources with measurable reductions in violence and unnecessary intrusions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by clear, evidence-based standards that keep families and neighborhoods safe while rigorously protecting constitutional rights, including strict use-of-force rules, consistent de-escalation and bias-aware training, and transparent, independent oversight. Communities should expand non-police responses for mental-health and other nonviolent crises, while investing in prevention through partnerships with local organizations and services. Measurable, publicly reported outcomes and privacy-protecting technology can strengthen accountability and trust, alongside fair support and resources for officers to do the job safely and professionally.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should focus on protecting families and neighborhoods while upholding constitutional rights through clear, consistently enforced use-of-force standards, strong de-escalation and crisis-intervention training, and fair discipline backed by independent oversight and transparent reporting. Communities should expand non-police options for mental-health and substance-use crises and partner with schools, faith groups, and local organizations to prevent harm before it escalates. Success should be measured with evidence-based metrics\u2014crime reduction, fewer injuries and complaints, and timely service\u2014alongside privacy safeguards for tools like body cameras, so public safety and civil liberties strengthen each other.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

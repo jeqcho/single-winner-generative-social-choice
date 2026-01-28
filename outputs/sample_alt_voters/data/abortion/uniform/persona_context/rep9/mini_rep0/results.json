@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should aim to minimize harm by protecting the pregnant patient\u2019s life, health, and privacy, while also taking seriously the public interest many see in developing human life. Rules should be medically workable and predictable: early access without undue barriers, and later\u2011pregnancy regulation tied to viability and clinical realities, with explicit exceptions for life and serious health threats, rape or incest, and profound fetal conditions. Enforcement should target safety and professional standards\u2014not punishment of patients\u2014and be paired with broad supports that prevent unwanted pregnancies and make parenting feasible, including contraception, accurate education, prenatal/postpartum care, childcare, and economic stability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should protect patients\u2019 health, privacy, and timely access to evidence-based medical care, keeping decisions primarily between a pregnant person and qualified clinicians while acknowledging the moral seriousness many attach to developing life. Any limits should be clear and medically grounded, applied without criminalizing patients or clinicians, and include explicit exceptions for threats to life or serious health, rape or incest, and severe fetal conditions. Policy should also reduce crisis pregnancies by expanding comprehensive sex education, affordable contraception, and robust prenatal, postpartum, and parenting supports\u2014healthcare, childcare, and economic assistance\u2014so families have real options without coercion.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should protect the health, safety, and privacy of pregnant people while acknowledging that many citizens and faith traditions see developing life as morally significant. Rules should be medically evidence\u2011based, clear, and workable\u2014preserving timely access early in pregnancy, and allowing carefully defined later limits with explicit exceptions for serious threats to life or health, rape or incest, and severe fetal conditions\u2014without criminalizing patients or clinicians acting in good faith. To reduce the number of abortions and support families, policy should expand prevention and real-life supports: comprehensive sex education, affordable contraception, prenatal and postpartum care, childcare, adoption services, and economic assistance.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

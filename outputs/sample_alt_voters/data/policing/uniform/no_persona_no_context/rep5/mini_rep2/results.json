@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should pursue the dual mandate of reducing victimization and safeguarding constitutional rights by using the least-intrusive, effective response for each situation. Clear, enforceable standards\u2014especially for stops, searches, and use of force\u2014should be paired with transparent reporting, independent investigation of serious incidents, and meaningful consequences for misconduct. Departments and communities can jointly set priorities and evaluate outcomes, while expanding co-responder and diversion options so behavioral health, youth, and homelessness-related crises are met with appropriate care instead of unnecessary enforcement.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Communities deserve both safety and equal treatment under the law, and these goals reinforce each other when policing is fair, transparent, and accountable. Prioritize de-escalation and clear, enforceable use-of-force standards, backed by independent oversight and regular public reporting to prevent abuse and build trust. Pair evidence-based enforcement with strong community partnership and expanded non-police crisis, health, and social-service responses so officers and residents can focus together on prevention and lasting safety.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Communities deserve policing that delivers real safety while consistently protecting constitutional rights, treating these goals as mutually reinforcing. A practical path forward is to pair focused, evidence-based enforcement of serious and repeat harm with clear de-escalation and use-of-force limits, transparent reporting, and independent civilian review. Police and residents should jointly set priorities and expand non-police crisis and prevention options\u2014such as mental-health response and youth supports\u2014so fewer situations escalate and trust grows alongside safety.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

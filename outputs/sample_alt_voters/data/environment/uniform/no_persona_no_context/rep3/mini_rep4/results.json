@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable balance starts by protecting non\u2011negotiable environmental essentials\u2014clean air and water, climate stability, and key habitats\u2014while giving businesses predictable, flexible pathways to meet those limits. Use a mix of performance standards and market mechanisms (like tradable permits or carbon fees) and reinvest revenues in innovation, infrastructure, and relief for households and regions most affected. With clear timelines, regular review, and local stakeholder input, economies can keep growing while reducing environmental risk and avoiding sudden shocks.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats environmental protection as a foundation for long-term economic stability, while acknowledging near-term costs and managing them fairly. Set clear, science-based limits to protect critical ecosystems and public health, and use flexible, cost-effective tools (like incentives and pricing) to spur clean innovation, efficiency, and new jobs. Pair these policies with transparent metrics, regular review, and a just transition\u2014retraining and targeted support for workers, communities, and small businesses\u2014so prosperity grows without depleting the natural assets future generations rely on.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance protects clean air, water, and critical habitats while keeping energy, housing, and everyday goods affordable and supporting strong local jobs. Set clear, science-based environmental baselines and use flexible, cost-effective tools and incentives so businesses can meet them through innovation and efficiency rather than blunt shutdowns. Phase changes in with transparent metrics and regular review, and pair them with a practical \u201cjust transition\u201d for workers and communities\u2014retraining, targeted aid, and infrastructure investment\u2014so the burdens don\u2019t fall on those least able to absorb them.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

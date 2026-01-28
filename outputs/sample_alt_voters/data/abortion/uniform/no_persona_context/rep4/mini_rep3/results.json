@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion law should be built around practical goals most people share: protecting life and health, preventing suffering, and keeping care safe and accountable. Decisions should remain primarily between a pregnant person and qualified clinicians, with clear, medically workable rules that allow timely access early in pregnancy and unambiguous exceptions for serious health threats, pregnancy complications, and pregnancies from sexual violence. Any limits should be enforced through healthcare regulation rather than criminal penalties, while governments expand contraception, evidence-based education, prenatal and child supports, and adoption services to reduce unintended pregnancy and make parenting feasible.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should prioritize patient health, safety, dignity, and privacy by grounding rules in medical evidence and preserving timely clinician\u2013patient decision-making without punitive enforcement. They should also acknowledge the moral concern many feel about potential life through clear, narrowly tailored limits later in pregnancy and explicit exceptions for serious health risks, rape, incest, and nonviable or severe fetal conditions. Alongside any legal framework, governments should invest in prevention and support\u2014comprehensive sex education, affordable contraception, prenatal/postnatal care, childcare, adoption resources, and economic aid\u2014so fewer pregnancies are unintended and fewer people face crisis-driven choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by protecting life and health, respecting personal conscience, and relying on medical evidence\u2014keeping urgent, time\u2011sensitive decisions primarily between patients and qualified clinicians, with strong privacy safeguards. Any legal limits should be clear, not punitive, and include explicit exceptions for threats to the pregnant person\u2019s life or serious health, rape or incest, and cases of nonviable or severe fetal conditions. Alongside whatever rules are set, lawmakers should invest in prevention and real family supports\u2014comprehensive sex education, affordable contraception, prenatal and postnatal care, adoption options, and economic help\u2014so fewer pregnancies become crises and more families can thrive.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

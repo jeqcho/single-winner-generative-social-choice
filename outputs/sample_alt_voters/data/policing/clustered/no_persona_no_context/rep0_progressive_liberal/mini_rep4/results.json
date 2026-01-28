@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "51",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "44",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by a harm-reduction approach: use the least intrusive, most effective response that keeps people safe while respecting constitutional limits and due process. That means clear and publicly known rules for stops, searches, and use of force; consistent training and supervision; and routine reporting that allows independent auditing and consequences for misconduct. Pair enforcement with non-police crisis response and social-service partnerships so officers are reserved for situations that truly require them, strengthening both safety and civil rights.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by using evidence-based, proportional tactics anchored in clear rules and due process. Departments should prioritize de-escalation, transparent reporting and measurable outcomes, and independent civilian oversight to ensure accountability and reduce bias and unnecessary force. Strong community partnership\u2014paired with alternatives to arrest and connections to mental-health and social-service supports\u2014can prevent harm, build legitimacy, and improve safety over the long term.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by using the least intrusive, proportionate response that still protects people, with clear rules for stops, searches, and use of force. To build trust and effectiveness, departments should pair strong training (de-escalation, bias reduction, crisis response) with transparent data reporting and independent community oversight that tracks both crime outcomes and rights impacts. When appropriate, communities should expand alternatives to arrest\u2014such as mental-health and social-service partnerships\u2014so police focus on serious threats while respecting due process and equal treatment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "31",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be built around a simple standard: protect life and public safety while minimizing intrusion on rights, using the least force and enforcement necessary to solve the problem. That requires clear, publicly known rules (especially for stops, searches, and use of force), reliable data reporting, and swift, impartial investigation and discipline when standards are violated. Communities and police should jointly set priorities and measures of success, while expanding non-police responses for mental-health, substance-use, and homelessness calls so armed officers can focus on serious violence and repeat harm. This approach supports officer safety and effectiveness while making dignity, legality, and accountability nonnegotiable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should advance public safety and civil rights together through clear, publicly reported standards for stops and use of force, rigorous de-escalation and bias training, and independent oversight that investigates misconduct and tracks measurable outcomes. Departments should partner with residents to co-design priorities and increase transparency, while expanding non-police responses\u2014such as mental-health and substance-crisis teams\u2014and investing in prevention and social services to reduce unnecessary armed encounters. This approach supports officer safety and effectiveness while centering dignity, constitutional protections, and trust across diverse communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safer neighborhoods and strong civil rights together through clear, consistently enforced rules for stops and use of force, rigorous de-escalation and bias training, and transparent reporting that is reviewed by independent oversight. Communities should help shape priorities and problem-solving, while specialized teams and partnerships with mental-health, addiction, and youth services handle many crises before they turn into crime. This balanced approach supports officer safety and decisiveness when needed, while ensuring respectful treatment, due process, and real accountability when standards are violated.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

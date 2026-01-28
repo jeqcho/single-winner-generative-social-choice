@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.25,
+      "full_winner_idx": "89"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.25,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by protecting human dignity on all sides\u2014taking seriously the moral concern many feel for developing life while ensuring pregnant people can obtain timely, medically appropriate care without fear or confusion. A balanced framework can allow access early in pregnancy, set clearer guardrails later that rely on medical standards, and include explicit exceptions for rape, incest, and threats to the patient\u2019s life or serious health. Common ground also means investing in prevention and support\u2014contraception and accurate education, prenatal and postpartum care, and practical help for parenting and adoption\u2014so fewer families face crisis-driven decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, respect for human dignity, and sound medical evidence, recognizing that people hold sincere moral convictions about unborn life and about bodily autonomy. A workable approach should guarantee timely care in medical emergencies and serious health risks, protect clinicians acting in good faith, and keep decisions as close as possible to patients and their doctors, with clear and narrowly tailored rules where limits exist. Common ground is strengthened by reducing unintended pregnancies and hardship through accurate education, accessible contraception, prenatal and postpartum care, and practical support for parents and adoption so fewer people face crisis-driven choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for human dignity, recognizing both the moral seriousness many attach to unborn life and the reality that families sometimes face urgent, complex medical and personal crises. A workable approach protects timely care in emergencies and serious health threats, avoids criminalizing patients or doctors acting in good faith, and sets clear, consistent rules shaped by medical expertise rather than politics. Common ground also means reducing unintended pregnancies and hardship through accessible contraception and education, prenatal and postpartum care, adoption options, and practical supports for parents and children.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

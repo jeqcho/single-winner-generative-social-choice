@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable balance is to treat environmental protection as a non\u2011negotiable baseline\u2014clean air, clean water, and climate stability\u2014while giving firms and workers predictable pathways to meet those goals at lowest cost. Set clear outcomes and timelines, then let regions and industries choose flexible compliance options (innovation, efficiency upgrades, trading mechanisms) backed by transparent monitoring. Pair stronger standards with targeted transition support\u2014retraining, community reinvestment, and help for small businesses\u2014so the benefits and burdens of change are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable balance treats environmental health as the foundation for durable prosperity, setting clear, measurable limits on pollution and ecosystem loss while using market incentives to drive efficiency and innovation. Pair phased standards and predictable rules with investment in clean technology and resilient infrastructure, so businesses can compete and plan with confidence. Provide targeted support\u2014retraining, transition funding, and community input\u2014for workers and regions most affected, with transparent accountability to ensure both economic and environmental goals are met.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable balance treats a healthy environment as a non\u2011negotiable foundation for long\u2011term prosperity while keeping jobs, affordability, and local competitiveness in view. We should set clear, measurable pollution and conservation standards, then use flexible tools\u2014innovation incentives, market-based mechanisms, and phased timelines\u2014so businesses and communities can adapt. Investing in clean energy, resilient infrastructure, and resource efficiency can grow new industries, while targeted support, retraining, and transition assistance protect workers and regions that would otherwise bear the costs.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

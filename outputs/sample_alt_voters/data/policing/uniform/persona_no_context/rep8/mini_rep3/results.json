@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should follow a prevention-first, rights-first approach: intervene early to keep people safe while using the least intrusive methods consistent with the law and the situation. Departments should set clear, enforceable rules for stops, searches, and use of force; train and staff for de-escalation and crisis response; and ensure swift, independent investigation and proportionate discipline when misconduct occurs. Trust grows when communities help shape priorities and when agencies publish reliable outcome data\u2014crime reduction, complaints, injuries, response times\u2014so reforms can be evaluated and adjusted without sacrificing safety or civil liberties.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing goals, guided by clear, enforceable use-of-force standards and strong training in de-escalation, crisis response, and bias awareness. Trust depends on transparent, auditable data and independent oversight with meaningful community partnership, alongside fair support and clear expectations for officers. Communities should also invest in non-police mental-health and social-service responses and other prevention strategies, reducing unnecessary arrests and harm while keeping neighborhoods safe.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should aim for safe neighborhoods and strong civil rights at the same time, through clear, enforceable rules for stops and use of force, rigorous de-escalation and crisis-response training, and transparent reporting of outcomes. Independent oversight with meaningful community input\u2014alongside fair due process for officers and real consequences for misconduct\u2014can build trust without weakening lawful enforcement. Communities should also fund prevention and alternatives where appropriate (mental-health and substance-use response, youth and conflict-interruption programs), so police focus on serious threats while every person is treated with dignity and equal protection under the law.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

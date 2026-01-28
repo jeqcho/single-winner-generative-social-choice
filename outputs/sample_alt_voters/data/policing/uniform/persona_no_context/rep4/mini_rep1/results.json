@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star": {
+      "winner": "31",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be organized around a shared goal of preventing harm while upholding constitutional rights, with enforcement that is proportional, narrowly targeted, and focused on the people and places at highest risk of violence. That requires clear rules for stops, searches, and use of force; frequent training in de-escalation, bias mitigation, and procedural justice; and real consequences for misconduct through independent review. Pairing officers with civilian responders for mental-health and substance-use crises, and measuring success by reductions in violence, complaints, and disparities\u2014not just arrests\u2014can improve safety and legitimacy at the same time.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and constitutional rights as mutually reinforcing goals, guided by clear use-of-force and due-process standards, rigorous de-escalation and anti-bias training, and transparent, independent accountability when misconduct occurs. Trust and effectiveness improve when departments partner consistently with residents and report outcomes publicly, while co-responder mental-health crisis teams and other community-based alternatives reduce unnecessary arrests and confrontations. These reforms should be evidence-driven and paired with adequate staffing and officer wellness supports so officers can act lawfully, safely, and with dignity toward every person.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by setting clear, consistently enforced rules\u2014especially on stops, searches, and use of force\u2014backed by strong training in de-escalation, bias awareness, and constitutional protections. Trust grows when departments are transparent with data, use body-worn cameras appropriately, and submit serious incidents to independent, fair oversight that holds misconduct accountable while protecting due process for officers. Communities are safer when police partner regularly with residents and expand non-police responses for mental-health and substance-use crises, alongside prevention efforts that address repeat problems before they turn violent.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

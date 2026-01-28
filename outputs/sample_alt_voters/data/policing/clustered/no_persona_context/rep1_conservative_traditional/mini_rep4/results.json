@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.20999999999999996,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.20999999999999996,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should focus on preventing harm while safeguarding civil rights by using the least intrusive, proportional response and making rules\u2014especially for stops, searches, and force\u2014clear, enforceable, and publicly auditable. Independent oversight, reliable complaint processes, and transparent data (with privacy protections) should be paired with training and wellness supports that help officers act consistently and professionally. When situations are primarily medical, behavioral, or social, communities should deploy specialized civilian or co\u2011responder teams and connect people to services, reserving armed enforcement for genuine threats. Regular community input and outcome-based evaluation can keep strategies effective, fair, and responsive to local needs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by enforcing clear, enforceable limits on stops and use of force, with routine de-escalation, bias-awareness, and crisis-intervention training. Independent civilian oversight, transparent reporting and open data, and timely, impartial investigation of misconduct are essential for accountability and legitimacy. Communities should invest in non-police mental-health and social-service crisis responses and sustained partnerships that prevent harm, while supporting officers with fair procedures and training so they can do their jobs professionally and proportionally.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while upholding constitutional rights by setting clear, enforceable standards for stops, arrests, and use of force, backed by regular de-escalation and crisis-intervention training. Independent review, transparent reporting, and appropriate tools like body cameras\u2014paired with strong privacy rules\u2014build accountability and public confidence while protecting good officers from false claims. When mental-health, addiction, or homelessness drives a call, communities should expand co-responder and non-police options so police can focus on serious threats. Ongoing community partnership and data-driven evaluation should guide what works, reduce unnecessary confrontation, and strengthen trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

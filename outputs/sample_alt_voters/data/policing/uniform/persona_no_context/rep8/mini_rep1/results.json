@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "31",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be judged by whether it reduces harm and crime while reliably protecting constitutional rights, using narrowly tailored, evidence-based tactics rather than broad or biased enforcement. Core steps include clear, enforceable rules on stops/searches and use of force; continuous scenario-based training (de-escalation, crisis response, and bias mitigation); and swift, independent investigation of serious incidents with transparent reporting. Pairing officers with credible community partners and well-resourced mental-health and social-service responses for nonviolent calls can prevent escalation, improve cooperation, and keep neighborhoods safe without sacrificing civil liberties.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as reinforcing goals by setting clear, enforceable policies\u2014especially on stops and use of force\u2014paired with rigorous de-escalation, bias, and crisis-intervention training. Trust and legitimacy should be strengthened through transparent data reporting, independent oversight, and fair accountability that protects the public while supporting officers to act lawfully and effectively. Communities should be active partners, with investments in prevention and mental-health or social-service alternatives to arrest when appropriate, so enforcement is targeted, humane, and evidence-driven.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should protect neighborhoods while strictly upholding constitutional rights through clear, consistently applied rules on stops, searches, and use of force, backed by strong de-escalation, crisis-intervention, and scenario training. Trust grows when departments publish transparent data, use body cameras with sensible privacy safeguards, and ensure independent, fair oversight and due process for both the public and officers. Communities are safer when police partner with residents, schools, and faith and civic groups, and when mental-health and addiction calls have real alternatives to arrest and jail. Evidence-based, narrowly targeted enforcement\u2014focused on the people and places driving serious violence\u2014can reduce crime without over-policing everyday life.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

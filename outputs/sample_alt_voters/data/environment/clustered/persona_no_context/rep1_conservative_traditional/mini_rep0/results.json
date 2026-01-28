@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "46",
+      "epsilon": 0.0,
+      "full_winner_idx": "46"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be linked through a \u201cdo no lasting harm\u201d rule: set clear, measurable limits on pollution and habitat loss, then give businesses flexibility in how they meet them. Pair these safeguards with predictable permitting, incentives for efficiency and clean manufacturing, and targeted transition funds for regions and workers most affected. By pricing or accounting for environmental costs, rewarding innovation, and regularly reviewing results, communities can protect health and natural assets while keeping investment and good jobs moving forward.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by recognizing that clean air, water, and stable ecosystems are the foundation of long-term prosperity and public health. The best balance pairs clear, science-based, predictable regulations with market-based incentives that drive cleaner technology, efficiency, and innovation without unnecessary burdens on job-creating businesses. Phased implementation, strong enforcement, and targeted transition support\u2014retraining, local investment, and help for affected workers and communities\u2014can protect livelihoods while building durable new opportunities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as shared priorities by focusing on clean air and water, public health, and reliable jobs. The best balance comes from clear, science-based standards that are predictable and enforced, paired with market-driven incentives and support for businesses to adopt cleaner, more efficient technology. Any major change should be phased in with local input and measured results, and it should include practical transition help\u2014such as retraining and targeted assistance\u2014so workers and communities are not left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

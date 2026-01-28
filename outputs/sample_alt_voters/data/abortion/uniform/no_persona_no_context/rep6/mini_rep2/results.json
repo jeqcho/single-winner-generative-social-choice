@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_personas": {
+      "winner": "84",
+      "epsilon": 0.0,
+      "full_winner_idx": "84"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by a harm-reduction ethic that protects patients\u2019 health and decision-making while recognizing the widely held impulse to value developing life. A durable framework combines timely, medically grounded access and clear emergency protections with gestational policies that reflect medical reality and democratic legitimacy, including narrowly defined exceptions for health, severe fetal conditions, and trauma. At the same time, governments should invest in contraception, accurate education, prenatal care, childcare, and economic supports so fewer pregnancies become crises and fewer people feel forced into any outcome.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by compassion and medical evidence, aiming to protect the pregnant person\u2019s health and autonomy while taking seriously many citizens\u2019 moral concern for developing life. Common ground lies in preventing crisis pregnancies through broad access to contraception and sex education, strong prenatal care, and practical supports for parenting or adoption. Where legal limits are set, they should be clear, medically grounded, and include timely exceptions for health, rape/incest, and fetal conditions, so patients and clinicians are not forced into dangerous delays.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by protecting health and human dignity while taking seriously the moral concern many citizens have for developing life. A durable approach pairs clear, medically grounded rules\u2014including timely care in emergencies and safeguards against coercion\u2014with strong, practical supports that reduce unintended pregnancy and make parenting or adoption more feasible (education, contraception, prenatal care, childcare, and economic help). In a pluralistic democracy, policies should aim for fewer crisis pregnancies and safer outcomes, leaving room for good-faith disagreement while avoiding punishment-driven or medically risky barriers.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

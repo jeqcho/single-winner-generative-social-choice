@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "27"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Abortion laws should be guided by public health, human dignity, and the reality that pregnancies can involve urgent, complex medical and personal circumstances. Policy should protect timely, confidential patient\u2013clinician care and avoid punitive enforcement, while setting any restrictions in clear, clinically grounded terms with enforceable exceptions for threats to life or serious health, pregnancies from sexual violence, and grave fetal diagnoses. Lasting common ground also requires reducing unintended pregnancy and coercion through comprehensive sex education, affordable contraception, and strong supports for pregnancy, parenting, and adoption so fewer people face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Abortion laws should treat abortion primarily as time\u2011sensitive healthcare, guided by evidence\u2011based medical standards that protect patient health, privacy, and clinician judgment, and avoid criminalizing patients or providers acting in good\u2011faith care. Policy should acknowledge sincere moral concerns about potential life by using clear, transparent criteria for any limits and ensuring well-defined exceptions for serious threats to life or health and for cases of sexual violence. A durable approach also reduces unintended pregnancy and hardship through comprehensive sex education, affordable contraception, and strong prenatal, postpartum, childcare, and economic supports so fewer people face crisis decisions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Abortion law should treat pregnancy decisions as serious, time\u2011sensitive healthcare, guided by medical evidence, patient privacy, and clinician judgment, while also acknowledging the moral value many people place on developing life. Any legal limits should be clearly defined, workable in real medical settings, and always include prompt exceptions for threats to the pregnant person\u2019s life or major health, severe fetal conditions, and pregnancies from rape or incest, without criminalizing patients or clinicians acting in good faith. To reduce the number of abortions and support families, policymakers should expand prevention and practical help\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, adoption and parenting supports, childcare, and economic assistance\u2014so fewer people face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

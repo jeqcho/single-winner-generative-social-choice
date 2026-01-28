@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "39"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be advanced together by focusing on outcomes: cleaner air and water, lower waste, and resilient communities, while keeping rules clear enough for businesses to plan and invest. A durable compromise combines science-based standards with flexible compliance options\u2014such as performance targets, pricing pollution, and credits for measurable improvements\u2014so innovators can meet goals at lower cost. Policymakers should phase in changes, reduce redundant permitting, and pair new requirements with support for small businesses, workers, and affected regions to ensure the transition is fair and maintains competitiveness.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance recognizes that healthy air, water, and lands are the foundation of long-term prosperity, and that strong economies can grow by using resources efficiently. Policymakers should pair science- and data-driven protections with predictable, cost-effective rules and market-based incentives that reward innovation and measurable results. Investing in clean technology, energy efficiency, and local stewardship\u2014along with phased timelines and targeted support for workers, small businesses, and communities in transition\u2014can protect public health while sustaining good jobs and opportunity for future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A strong economy and a healthy environment depend on each other, so we should protect clean air and water while keeping communities and businesses competitive. That means clear, science-based standards with predictable timelines, paired with flexible, cost-effective tools\u2014like incentives, performance-based targets, and support for innovation\u2014to reduce pollution without unnecessary red tape. We should also invest in local infrastructure and conservation and provide practical transition support, training, and help for small businesses and workers in affected industries so no community is left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

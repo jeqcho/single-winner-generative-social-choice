@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "32",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.0,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be judged by a dual standard: prevent harm and crime while consistently protecting constitutional rights, with enforcement that is proportional, documented, and open to review. That means clear, legally grounded policies; frequent scenario-based training in de-escalation, bias awareness, and communication; and robust alternatives for nonviolent crises through co-responders and service referrals. Public trust is strengthened through transparent reporting, body-camera rules that protect privacy, and independent oversight with real authority, alongside support systems that improve officer wellness and decision-making under stress.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals through clear, consistently enforced policies, strong de-escalation and crisis-intervention training, and strict, well-defined limits on use of force. Communities should have transparent data, body-worn camera and reporting practices that protect privacy, and independent oversight with real authority to investigate misconduct and track outcomes. Partnering with mental-health, housing, and other social services\u2014and using targeted, evidence-based prevention\u2014can reduce unnecessary police contact while supporting officers to focus on serious threats and uphold due process.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep communities safe while strictly protecting constitutional rights through clear, consistently enforced rules on stops, searches, and use of force, backed by routine de-escalation and bias-aware training. Pair law enforcement with well-coordinated mental-health and social-service responders so the right professionals handle crises, while officers can focus on serious threats and victim protection. Build trust with transparent data reporting, body cameras with strong privacy safeguards, and independent, fair oversight that holds misconduct accountable and recognizes good performance. Strong community partnerships and due process make safety and civil liberties reinforce each other rather than compete.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

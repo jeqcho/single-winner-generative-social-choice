@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "58",
+      "epsilon": 0.0,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Trust rises when institutions make their work easy to verify: publish goals and budgets in plain language, report progress with independent audits, and explain tradeoffs\u2014what was chosen, what wasn\u2019t, and why. Leaders should own errors quickly, correct them publicly, and set clear consequences for misconduct, so accountability is more than a slogan. Pair national standards with local flexibility by giving communities real input, timely service, and regular two-way forums that include skeptics as well as supporters.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when leaders deliver reliable, measurable results while being transparent about decisions, finances, and tradeoffs in plain language. Clear accountability\u2014admitting mistakes, fixing them quickly, and welcoming independent oversight\u2014shows that rules apply to everyone. Trust deepens when institutions engage people locally with respectful listening and meaningful ways to participate, so services reflect everyday needs and shared civic values.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Public trust in institutions grows when they consistently deliver reliable services and fair outcomes, while making decisions and budgets transparent in plain language with clear, measurable goals. Independent oversight, strong ethics rules, and prompt admission and correction of mistakes show accountability beyond politics. Trust deepens when institutions partner with local schools, faith and community groups, and culturally and linguistically accessible outreach to listen, involve residents in decisions, and invest in practical improvements that protect families, workers, and the most vulnerable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

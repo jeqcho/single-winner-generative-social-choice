@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth should not depend on degrading the air, water, and land people rely on, and environmental rules should not ignore the realities of jobs, prices, and local industry. A workable balance sets science-based, health-protective limits with flexible compliance options\u2014such as performance targets, tradable credits, and streamlined permitting for cleaner upgrades\u2014so businesses can meet goals at lower cost. Pairing these standards with transparent cost-benefit review, community input, and time-limited transition support for workers and regions helps cut pollution steadily while keeping the economy competitive and predictable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, water, and public health as foundations of long-term prosperity. Policymakers should set clear, science-based, outcome-focused standards with predictable, phased timelines, while using market incentives and targeted investment to speed clean innovation and infrastructure upgrades. A fair transition\u2014shaped by local input\u2014should include workforce retraining and practical supports for affected workers and small businesses so communities can adapt without losing stable, well-paying jobs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be pursued together by treating clean air, safe water, and public health as basic infrastructure for thriving communities and businesses. We can set clear, science-based standards with predictable timelines, while using market incentives and targeted investments to help industries modernize, lower costs, and compete. Any transition should include practical support\u2014job training, wage and benefit protections, and help for small businesses and rural areas\u2014so workers and families aren\u2019t left behind. Local input, transparent cost-benefit review, and fair enforcement can keep the rules credible and the economy strong for the next generation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

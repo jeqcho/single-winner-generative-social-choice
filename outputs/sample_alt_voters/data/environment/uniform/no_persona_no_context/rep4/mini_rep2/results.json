@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Economic growth and environmental protection should be treated as mutually reinforcing by safeguarding critical ecosystems and pricing pollution so markets reward efficiency and cleaner production. Set clear, measurable environmental limits while giving businesses flexibility in how to meet them through innovation, competition, and public\u2013private investment. Pair these policies with targeted support for workers, small firms, and regions in transition so the benefits and burdens are shared fairly and prosperity remains durable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable balance treats a healthy environment as essential economic infrastructure: set science-based standards that prevent irreversible harm, then use market incentives to drive cleaner production and innovation. Invest in clean technology, resilient infrastructure, and natural capital so growth comes from efficiency, renewables, restoration, and circular business models. Phase in changes predictably and pair them with targeted support\u2014training, safety nets, and place-based transition funding\u2014so workers, small businesses, and regions can adapt without being left behind.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A durable balance treats a healthy environment as essential infrastructure for long-term prosperity, while recognizing that families and local economies need dependable jobs now. We should set clear, science-based standards that prevent irreversible harm, and pair them with market incentives and support for clean manufacturing, energy, and conservation that reduce costs and spur innovation. To keep the transition fair, policies should be phased in with practical timelines and include targeted help for workers, small businesses, and regions most affected so communities can thrive as pollution and waste decline.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

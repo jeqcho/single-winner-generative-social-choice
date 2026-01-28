@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as mutually dependent: the economy relies on clean air, water, and stable natural systems, and environmental goals are more durable when people can earn a living through the transition. Set clear, science-based guardrails and measure outcomes, then use flexible tools\u2014phased timelines, performance standards, and market incentives\u2014to let industries choose cost-effective paths to compliance. Pair this with targeted help for workers, small businesses, and energy-burdened households through retraining, modernization support, and community-driven planning so the benefits and costs are shared fairly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Healthy ecosystems and a strong economy are mutually reinforcing, so policy should pair science-based protections for clean air, water, and soil with practical, phased timelines that give workers and businesses clarity and time to adapt. Investments in affordable clean technology, local infrastructure, and well-funded workforce retraining\u2014along with targeted transition support for small businesses and affected communities\u2014can protect public health while creating durable jobs. Decisions should be guided by measurable outcomes, transparent planning, and meaningful local input to build trust and long-term prosperity for current and future generations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Environmental protection and economic growth should be treated as shared priorities: clean air, water, and healthy land are essential to public health, agriculture, and long-term prosperity. Set clear, science-based standards with phased timelines and predictable rules, paired with market incentives and practical flexibility so employers can plan and innovate. Invest in affordable clean technology, energy efficiency, and local infrastructure, with funded retraining and targeted support for workers, farmers, and small businesses to prevent communities from bearing sudden costs. Use transparent, measurable outcomes and meaningful local input so policies protect both family livelihoods today and a livable future for the next generation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

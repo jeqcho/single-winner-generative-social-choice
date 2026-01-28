@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "36",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should keep the constitutional, state-centered framework but make outcomes more representative and easier to accept nationwide. States could replace winner-take-all with proportional elector allocation using a common, transparent method, while binding electors to the certified state result and strengthening automatic recount and audit triggers. Any shift toward a national popular-vote outcome should be voluntary, phased in, and conditioned on baseline nationwide standards for ballot access, counting, and certification so every lawful vote is treated consistently.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep a meaningful state role while making each lawful vote carry comparable weight and reducing winner\u2011take\u2011all distortions that overemphasize a few swing states. A practical path is to require electors to follow the voters\u2019 choice and move toward proportional or district-based allocation, with the option of a carefully phased National Popular Vote interstate compact once widely adopted. Any change should be paired with clear, uniform standards for ballot access, counting, certification, and routine audits or recount triggers so outcomes are transparent, hard to game, and broadly accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any Electoral College reform should keep elections simple, secure, and widely accepted while making each lawful vote matter more equally and reducing \u201cwinner-take-all\u201d distortions that over-focus campaigns on a few states. A workable compromise is to keep the state-based system but require electors to follow the state\u2019s voters, encourage proportional or district-based allocation of electors (or a carefully triggered national popular-vote compact only after broad adoption), and set clear, uniform rules for ballot access, counting, audits, and recount triggers. These steps protect smaller-state and rural voices, reduce incentives to litigate close results, and improve trust that outcomes reflect voters rather than technicalities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

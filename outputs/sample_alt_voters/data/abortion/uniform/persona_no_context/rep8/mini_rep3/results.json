@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should aim to protect human dignity by taking both the moral concern for developing life and the lived reality of pregnancy seriously, without turning private medical crises into political punishments. A durable framework should guarantee timely, clinician-led care for emergencies, serious health threats, and cases like rape or incest, while setting clear, medically informed rules that become more protective of fetal life as pregnancy progresses. Whatever the legal limits, governments should invest in prevention and support\u2014education, contraception, prenatal and postpartum care, disability services, and financial help\u2014so fewer pregnancies end in crisis and fewer families feel they have no real options.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for human dignity, recognizing both the moral seriousness many people attach to prenatal life and the need for patients to make timely, private medical decisions. Policy should set clear, workable standards that protect early access and guarantee explicit exceptions for rape, incest, nonviable pregnancies, and serious threats to the mother\u2019s life or health, leaving urgent judgments primarily to qualified clinicians rather than politicians. To reduce abortions and hardship, any legal framework should be paired with proven prevention and support\u2014comprehensive sex education, affordable contraception, prenatal and postpartum care, and practical help for parents and families.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Laws on abortion should be guided by compassion, medical evidence, and respect for human dignity, recognizing both the serious moral value many people place on unborn life and the need for pregnant people to make timely, private healthcare decisions. A workable consensus protects access at least early in pregnancy and guarantees clear, doctor-led exceptions for rape or incest and for serious threats to the mother\u2019s life or health, with rules written plainly so clinicians can act without fear in emergencies. Whatever limits a community adopts, policy should also focus on prevention and support\u2014accurate sex education, affordable contraception, prenatal/postpartum care, adoption resources, and help for parents\u2014so fewer families face crisis choices.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}
