@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star": {
+      "winner": "31",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be guided by the principle that safety and civil rights reinforce each other, with officers empowered to act decisively against serious harm while being strictly bound by clear, enforceable constitutional limits. Departments should standardize evidence-based training (de-escalation, bias awareness, and crisis response), publish stop/use-of-force data, and use body-worn cameras with strong privacy rules and meaningful, independent review of critical incidents. Pairing targeted enforcement with community co-designed prevention\u2014such as youth programs, victim services, and mental-health response options\u2014can reduce violence, protect due process, and strengthen legitimacy for residents and officers alike.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights together through clear, enforceable policies; rigorous training in de-escalation, bias awareness, and crisis/mental-health response; and transparent accountability with independent oversight and accessible complaint processes. Community-centered partnerships and open dialogue\u2014paired with data-driven evaluation, body-worn cameras where appropriate, and non-lethal options\u2014can reduce unnecessary force, improve trust, and support officer and resident safety. This balanced approach emphasizes dignity, restraint, and measurable outcomes so neighborhoods are both secure and free.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while firmly protecting constitutional rights, using clear, enforceable rules\u2014especially on stops, searches, and use of force\u2014and training that prioritizes de-escalation, communication, and bias awareness. Trust grows when departments pair officer safety and wellness supports with transparent data, body-worn cameras, accessible complaint processes, and independent oversight that respects due process for both residents and officers. When crises involve mental health or substance use, police should coordinate with specialized responders and community services, while maintaining a prompt response to violent crime through focused, accountable enforcement and ongoing community partnership.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

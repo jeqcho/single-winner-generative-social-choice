@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safety and civil rights as mutually reinforcing by limiting coercive force to what is necessary, lawful, and proportionate, and by rewarding tactics that prevent harm before it occurs. Agencies should adopt clear, enforceable standards for stops, searches, and use of force; train and staff for de-escalation, bias-aware decision-making, and crisis response; and route appropriate calls to specialized mental-health and social-service teams. Trust grows when performance metrics and discipline are transparent, misconduct is investigated by independent bodies with public reporting, and residents have regular, structured input into priorities and problem-solving.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals by setting clear, enforceable limits on stops and use of force, backed by rigorous de-escalation and mental-health response training. Accountability should be transparent and fair\u2014through body-worn cameras, public reporting, and independent oversight that protects both residents and officers by establishing credible facts and consistent consequences. Strong community partnership and data-driven deployment, paired with non-police alternatives for behavioral health and social needs where appropriate, can reduce harm, prevent crime, and build durable trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights together by setting clear, consistently enforced use-of-force and stop standards, backed by strong training in de-escalation, bias awareness, and crisis response. Trust and effectiveness grow when agencies use body-worn cameras where appropriate, publish straightforward performance data, and ensure timely, independent investigations that protect both residents and officers through due process. Partnering with communities and expanding non-police responses for mental-health and social-service calls can reduce unnecessary confrontations while keeping neighborhoods secure.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

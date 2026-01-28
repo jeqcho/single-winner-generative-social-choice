@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be organized around the shared goals of reducing harm and protecting constitutional freedoms, using the least intrusive response that can safely resolve each situation. That means clear, enforceable limits on stops, searches, surveillance, and force; well-trained officers with strong supervision and support; and independent, publicly reported review when things go wrong. Pairing targeted enforcement of serious violence with prevention and non-police crisis options\u2014especially for mental health and youth\u2014can improve safety while strengthening legitimacy and trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and constitutional rights as mutually reinforcing goals, guided by clear, enforceable standards\u2014especially for stops, searches, and use of force\u2014backed by rigorous de-escalation and lawful decision-making training. Independent oversight, transparent reporting (including body-worn camera and use-of-force data), and fair, consistent accountability for misconduct can build trust while supporting officers who follow the rules. Partnering with communities and using evidence-based prevention\u2014including mental-health crisis response and other alternatives when appropriate\u2014reduces unnecessary confrontations and improves long-term safety.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and constitutional rights as mutually reinforcing goals by using clear, enforceable standards\u2014especially for stops, searches, and use of force\u2014paired with rigorous training in de-escalation, crisis response, and bias awareness. Independent oversight, body-worn cameras with strong privacy rules, and transparent public reporting of complaints and outcomes can strengthen accountability and public trust while protecting good officers from false claims. Communities should help set priorities through regular local input, and police should work with mental-health, addiction, and youth services so that the right responders handle nonviolent crises and resources stay focused on serious crime.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

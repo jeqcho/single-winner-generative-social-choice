@@ -179,6 +179,30 @@ uv run python -m src.sample_alt_voters.generate_statements --alt1 --topic aborti
 uv run python -m src.sample_alt_voters.run_experiment --voter-dist uniform --topic abortion --alt-dist persona_no_context
 ```
 
+### Running Selected Topics
+
+To run the pipeline for a subset of topics (instead of all 13), use the provided script:
+
+```bash
+# Run 6 selected topics in tmux (recommended)
+tmux new -s six_topics './scripts/run_6topics.sh'
+
+# Or run directly
+./scripts/run_6topics.sh
+```
+
+The script runs these 6 topics: policing, trust, environment, abortion, electoral, healthcare.
+
+To customize which topics to run, edit the `TOPICS` variable in `scripts/run_6topics.sh` or run individual topics manually:
+
+```bash
+# Run a single topic (both voter distributions)
+for voter_dist in uniform clustered; do
+  uv run python -m src.sample_alt_voters.run_experiment \
+    --voter-dist $voter_dist --topic abortion --all-alts
+done
+```
+
 ### Handling Interruptions
 
 All scripts automatically skip completed work and resume from where they left off. Simply re-run the same command after an interruption. Use `--force` to overwrite existing results if needed.
@@ -186,6 +210,10 @@ All scripts automatically skip completed work and resume from where they left of
 ## Project Structure
 
 ```
+scripts/
+├── estimate_costs.py                   # Estimate API costs for the experiment
+└── run_6topics.sh                      # Run pipeline for 6 selected topics
+
 src/
 ├── compute_pvc.py                      # PVC veto-by-consumption algorithm
 │

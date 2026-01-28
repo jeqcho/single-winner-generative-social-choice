@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for the least intrusive, most effective response that prevents harm while protecting constitutional rights, with clear escalation thresholds and strict limits on force. That requires transparent, enforceable standards (including prompt public reporting), independent review with real consequences, and practical safeguards like body-worn cameras paired with strong privacy rules. Safety is strengthened when police share responsibility with communities\u2014through regular listening forums, co-designed priorities, and well-funded nonpolice options for mental-health, addiction, homelessness, and youth conflict\u2014so enforcement is targeted, fair, and trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should treat public safety and civil rights as mutually reinforcing by using clear, consistently applied standards\u2014especially for stops and use of force\u2014paired with transparent reporting, body-worn cameras where appropriate, and independent civilian oversight. Officers should be supported and held accountable through rigorous training in de-escalation, bias and cultural competence, and effective response to mental-health crises, with specialized co-responder or nonpolice options when they are safer and more effective. Ongoing community partnership and open data on outcomes can build trust, reduce harm, and ensure everyone is protected and treated with dignity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as shared, mutually reinforcing goals by using clear, consistently applied standards for stops and use of force, strong de-escalation training, and transparent reporting that protects both residents and officers. Independent oversight and fair, timely complaint and review processes can strengthen accountability while supporting officers who follow policy. Communities are safer when police partner with residents and fund practical alternatives\u2014such as mental-health crisis teams, youth outreach, and language access\u2014so the right response is sent to the right call and trust can grow.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

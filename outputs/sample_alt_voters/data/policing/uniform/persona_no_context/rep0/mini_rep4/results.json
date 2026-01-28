@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star": {
+      "winner": "31",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim for fewer harms and more legitimacy by enforcing the law with restraint, consistency, and equal respect for everyone\u2019s rights. This requires clear, publicly known standards for stops, searches, and use of force; strong training in de-escalation, crisis response, and bias awareness; and real-time transparency through data and body-worn camera policies that protect privacy. Independent review, fair and timely discipline, and accessible complaint and remediation pathways\u2014along with partnerships that connect people to mental-health and social supports\u2014can reduce crime and fear while strengthening constitutional protections and public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety and constitutional rights as mutually reinforcing goals, guided by clear, consistently applied standards and a commitment to dignity and due process. Departments should prioritize rigorous training in de-escalation, crisis intervention, and bias/cultural competency, paired with transparent data and body\u2011camera practices that support evidence-based policing. Independent oversight, accessible complaint and review processes, and fair, timely accountability for misconduct\u2014along with partnerships with community organizations and mental-health and social-service responders\u2014can reduce unnecessary force and build durable public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should deliver reliable public safety while consistently protecting constitutional rights and due process, treating every person with dignity and professionalism. That requires clear, consistently enforced rules on stops, searches, and use of force; strong de-escalation and crisis-intervention training; and fair, transparent accountability through body-camera and data reporting, accessible complaint processes, and independent review. Partnering with communities and expanding mental-health and social-service responses can prevent problems before they escalate, reduce unnecessary force, and support both residents and officers.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

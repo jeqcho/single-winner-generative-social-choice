@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should pursue safety and civil rights as mutually reinforcing by setting clear mission priorities, limiting stops and force to lawful, necessary, and proportional actions, and protecting due process for everyone. Departments should pair strong training and officer wellness supports with swift, consistent accountability\u2014using independent investigations, transparent reporting, and early\u2011warning systems to correct problems before harm occurs. Cities should expand alternatives for nonviolent crises (mental\u2011health, substance use, homelessness) and focus enforcement on serious violence, guided by ongoing community input and publicly measured results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should pursue public safety and civil rights as mutually reinforcing goals by grounding practice in clear, consistently applied rules, rigorous training, and transparent accountability. Priorities should include ongoing de-escalation and crisis-response training, well-defined use-of-force standards, and independent oversight with accessible public data to build trust and address misconduct fairly. Strong community partnerships\u2014paired with mental-health and social-service responders when appropriate\u2014can prevent harm, reduce unnecessary confrontations, and help officers and residents feel both protected and respected.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while strictly protecting constitutional rights, treating safety and civil liberties as mutually reinforcing. Common-ground reforms include clear, consistently enforced use-of-force rules; regular de-escalation, crisis-response, and cultural-competency training; and transparent reporting with independent oversight and fair due process for both residents and officers. Pairing police with mental-health and social-service responders when appropriate, focusing on targeted prevention rather than broad sweeps, and using tools like body cameras with strong privacy safeguards can reduce harm, build trust, and improve public safety for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

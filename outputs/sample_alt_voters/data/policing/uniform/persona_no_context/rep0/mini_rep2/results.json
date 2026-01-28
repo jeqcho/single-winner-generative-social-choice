@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "94"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "94"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "94"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "94"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "31",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should aim to reduce harm while preventing and solving serious crime, treating constitutional rights as a core measure of effective public safety. That means clear limits on stops, searches, surveillance, and use of force; routine publication of outcomes and demographics; and independent investigation of serious incidents, alongside fair due process for both residents and officers. Day to day, departments should prioritize de-escalation and problem-solving, and route mental-health, substance-use, and homelessness calls to specialized responders whenever possible. Ongoing community input, targeted enforcement based on evidence (not stereotypes), and support for officer wellness and staffing can improve safety while strengthening legitimacy and trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety while safeguarding civil rights through clear, consistently enforced rules, proportional use-of-force standards, and rigorous training in de-escalation and bias awareness. Transparent, independent oversight\u2014supported by body-worn cameras, accessible complaint processes, and public, data-driven review\u2014should ensure due process and real accountability for misconduct. Partnering with communities and expanding crisis-response options, including mental-health and social-service teams, can prevent avoidable confrontations and focus police on serious threats. This balanced approach supports professional officers, improves measurable outcomes, and builds trust so people feel both secure and respected.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while protecting constitutional rights by setting clear, consistently enforced rules for stops and use of force, backed by rigorous de-escalation, crisis-intervention, and bias-awareness training. Trust grows when accountability is real and fair: independent review, body-worn cameras and transparent data, and an accessible complaint process with due process for both residents and officers. Communities are safer when police partner with residents and when mental-health, substance-use, and disability-related crises are met first with specialized co-responders and social services\u2014so enforcement is focused on serious threats while every person is treated with dignity.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

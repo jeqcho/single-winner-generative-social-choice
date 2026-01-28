@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "31",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Policing should be built around a simple standard: keep people safe while minimizing unnecessary force and intrusion, with clear rules officers can follow and the public can verify. That requires consistent training in constitutional limits, de-escalation, and crisis response; transparent reporting and independent review when serious harm occurs; and early, fair discipline paired with support for officers who follow policy. Public safety improves when departments work with residents and service providers to prevent violence and handle mental-health and substance-use crises appropriately, while using technology and data in ways that protect privacy and are audited for bias.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Policing should protect public safety while steadfastly upholding constitutional rights through clear, consistently applied policies (including use-of-force standards), rigorous training in de-escalation and crisis response, and fair due process. Transparent, independent oversight\u2014with timely investigations, body-worn cameras where appropriate, and public reporting of measurable outcomes\u2014should ensure accountability and build trust. Strong community partnerships and coordinated mental-health and social-service responses can prevent harm, reduce unnecessary arrests, and support officers and residents alike.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Policing should keep neighborhoods safe while protecting constitutional rights by using clear, consistently applied rules, strong de-escalation and legal training, and fair, timely accountability that includes transparent reporting and independent review. Pairing community partnerships with practical supports\u2014such as mental-health crisis response options and prevention programs\u2014can reduce harm and calls for force while helping officers do their jobs safely and professionally. Evidence-based, privacy-respecting tools and measurable standards should be used to improve outcomes and build trust across different communities and viewpoints.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}
