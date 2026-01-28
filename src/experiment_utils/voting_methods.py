@@ -18,7 +18,7 @@ from votekit import RankProfile, RankBallot
 from votekit.elections import Plurality, Borda, IRV, RankedPairs
 
 from src.compute_pvc import compute_pvc
-from .config import GENERATIVE_VOTING_MODEL, GENERATIVE_VOTING_REASONING, TEMPERATURE, api_timer, build_api_metadata
+from .config import GENERATIVE_VOTING_MODEL, GENERATIVE_VOTING_REASONING, RANKING_MODEL, TEMPERATURE, api_timer, build_api_metadata
 from .statement_insertion import insert_statement_into_ranking
 
 logger = logging.getLogger(__name__)
@@ -931,7 +931,7 @@ def run_chatgpt_double_star(
             current_ranking = [int(full_preferences[rank][voter_idx]) for rank in range(n_alts)]
             new_ranking = insert_statement_into_ranking(
                 persona, current_ranking, all_statements, new_statement,
-                topic, openai_client, model, temperature
+                topic, openai_client, RANKING_MODEL, temperature
             )
             return voter_idx, new_ranking
         
@@ -1007,7 +1007,7 @@ def run_chatgpt_double_star_with_rankings(
             current_ranking = [int(full_preferences[rank][voter_idx]) for rank in range(n_alts)]
             new_ranking = insert_statement_into_ranking(
                 persona, current_ranking, all_statements, new_statement,
-                topic, openai_client, model, temperature
+                topic, openai_client, RANKING_MODEL, temperature
             )
             return voter_idx, new_ranking
         
@@ -1082,7 +1082,7 @@ def run_chatgpt_double_star_with_personas(
             current_ranking = [int(full_preferences[rank][voter_idx]) for rank in range(n_alts)]
             new_ranking = insert_statement_into_ranking(
                 persona, current_ranking, all_statements, new_statement,
-                topic, openai_client, model, temperature
+                topic, openai_client, RANKING_MODEL, temperature
             )
             return voter_idx, new_ranking
         
@@ -1164,7 +1164,7 @@ def insert_new_statement_into_rankings(
         # Insert new statement
         new_ranking = insert_statement_into_ranking(
             persona, current_ranking, all_statements, new_statement,
-            topic, openai_client, model, temperature
+            topic, openai_client, RANKING_MODEL, temperature
         )
         
         return local_idx, new_ranking
@@ -1345,7 +1345,7 @@ def run_chatgpt_triple_star(
             # Insert new statement
             new_ranking = insert_statement_into_ranking(
                 persona, current_ranking, all_statements, new_statement,
-                topic, openai_client, model, temperature
+                topic, openai_client, RANKING_MODEL, temperature
             )
             
             return voter_idx, new_ranking
