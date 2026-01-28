@@ -31,7 +31,9 @@ All API calls use the `client.responses.create()` method.
    - [GPT\*\*: Generate New Statement](#gpt-generate-new-statement)
    - [GPT\*\*\*: Blind Bridging Generation](#gpt-blind-bridging-generation)
 5. [Epsilon Computation](#epsilon-computation)
-   - [Statement Insertion into Rankings](#statement-insertion-into-rankings)
+   - [GPT\*\* Statement Insertion](#gpt-statement-insertion)
+   - [GPT\*\*\* Statement Insertion](#gpt-statement-insertion-1)
+   - [Insertion Prompt (Shared)](#insertion-prompt-shared)
 
 ---
 
@@ -78,6 +80,7 @@ TEMPERATURE = 1.0
 | Reasoning Effort | `minimal` |
 | Temperature | `1.0` |
 | API Calls per Topic | 815 (one per persona) |
+| Est. Cost per Topic | ~$0.34 |
 
 **System Prompt**:
 ```
@@ -115,6 +118,7 @@ Write only the statement:
 | Reasoning Effort | `minimal` |
 | Temperature | `1.0` |
 | API Calls per Topic | 1,200 (100 per rep × 12 reps) |
+| Est. Cost per Topic | ~$5.15 |
 
 **System Prompt**:
 ```
@@ -158,6 +162,7 @@ Write only the statement:
 | Reasoning Effort | `minimal` |
 | Temperature | `1.0` |
 | API Calls per Topic | 240 (20 per rep × 12 reps) |
+| Est. Cost per Topic | ~$1.30 |
 
 **System Prompt** (Verbalized Sampling):
 ```
@@ -194,6 +199,7 @@ Write a NEW bridging statement on this topic. Your statement should:
 | Reasoning Effort | `minimal` |
 | Temperature | `1.0` |
 | API Calls per Topic | 163 (5 statements per call × 163 = 815 statements) |
+| Est. Cost per Topic | ~$0.25 |
 
 **System Prompt** (Verbalized Sampling):
 ```
@@ -226,6 +232,8 @@ Write a bridging statement on this topic. Your statement should:
 | Reasoning Effort | `low` |
 | Temperature | `1.0` |
 | API Calls per Topic | 24,000 (500 per rep × 48 reps) |
+| Avg Output Tokens | ~770 (includes reasoning) |
+| Est. Cost per Topic | ~$95.20 |
 
 **System Prompt**:
 ```
@@ -296,6 +304,7 @@ Return JSON: {"ranking": ["most_preferred", "second", ..., "least_preferred"]}
 | Reasoning Effort | `none` |
 | Temperature | `1.0` |
 | API Calls per Topic | 240 (1 per mini-rep × 240 mini-reps) |
+| Est. Cost per Topic | ~$1.50 |
 
 **System Prompt**:
 ```
@@ -336,6 +345,7 @@ Statement 1: Another statement...
 | Reasoning Effort | `none` |
 | Temperature | `1.0` |
 | API Calls per Topic | 240 (1 per mini-rep × 240 mini-reps) |
+| Est. Cost per Topic | ~$1.79 |
 
 **System Prompt**:
 ```
@@ -379,6 +389,7 @@ Voter 2: 3 > 5 > 8 > 1 > 2...
 | Reasoning Effort | `none` |
 | Temperature | `1.0` |
 | API Calls per Topic | 240 (1 per mini-rep × 240 mini-reps) |
+| Est. Cost per Topic | ~$2.88 |
 
 **System Prompt**:
 ```
@@ -418,19 +429,29 @@ Voter 2: age: 52, sex: Male, race: Black...
 
 **File**: `src/experiment_utils/voting_methods.py`
 
+#### Cost Breakdown by Variant
+
+| Variant | Calls | Input Tokens | Output Tokens | Cost |
+|---------|------:|-------------:|--------------:|-----:|
+| GPT\* (base) | 240 | ~8,073 | ~30 | ~$3.49 |
+| GPT\*+Rank | 240 | ~8,773 | ~30 | ~$3.78 |
+| GPT\*+Pers | 240 | ~11,153 | ~30 | ~$4.78 |
+| **Total** | **720** | | | **~$12.05** |
+
+#### Common Parameters
+
 | Parameter | Value |
 |-----------|-------|
 | Model | `gpt-5.2` |
 | Reasoning Effort | `none` |
 | Temperature | `1.0` |
-| API Calls per Topic | 240 (1 per mini-rep × 240 mini-reps) |
 
 **System Prompt**:
 ```
 You are a helpful assistant that selects consensus statements. Return ONLY valid JSON.
 ```
 
-**User Prompt**:
+**User Prompt (GPT\* base)**:
 ```
 Here are some sample statements from a discussion:
 
@@ -446,7 +467,9 @@ You may choose any statement, not just the samples shown above.
 Return your choice as JSON: {"selected_statement_index": <index>}
 ```
 
-**Variants**: GPT\*+Rank and GPT\*+Pers follow similar patterns with additional context.
+**GPT\*+Rank** adds preference rankings: `{rankings_text}` (~700 additional tokens)
+
+**GPT\*+Pers** adds voter personas: `{personas_text}` (~3,080 additional tokens for 10 personas)
 
 ---
 
@@ -456,19 +479,29 @@ Return your choice as JSON: {"selected_statement_index": <index>}
 
 **File**: `src/experiment_utils/voting_methods.py`
 
+#### Cost Breakdown by Variant
+
+| Variant | Calls | Input Tokens | Output Tokens | Cost |
+|---------|------:|-------------:|--------------:|-----:|
+| GPT\*\* (base) | 240 | ~3,329 | ~151 | ~$1.91 |
+| GPT\*\*+Rank | 240 | ~4,029 | ~151 | ~$2.20 |
+| GPT\*\*+Pers | 240 | ~6,409 | ~151 | ~$3.20 |
+| **Total** | **720** | | | **~$7.31** |
+
+#### Common Parameters
+
 | Parameter | Value |
 |-----------|-------|
 | Model | `gpt-5.2` |
 | Reasoning Effort | `none` |
 | Temperature | `1.0` |
-| API Calls per Topic | 720 generation + 72,000 insertion = 72,720 total |
 
 **System Prompt**:
 ```
 You are a helpful assistant that generates consensus statements. Return ONLY valid JSON.
 ```
 
-**User Prompt**:
+**User Prompt (GPT\*\* base)**:
 ```
 Topic: {topic}
 
@@ -485,9 +518,9 @@ The statement should:
 Return your new statement as JSON: {"new_statement": "<your statement>"}
 ```
 
-**Variants**:
-- **GPT\*\*+Rank**: Adds preference rankings to the prompt
-- **GPT\*\*+Pers**: Adds voter personas to the prompt
+**GPT\*\*+Rank** adds preference rankings: `{rankings_text}` (~700 additional tokens)
+
+**GPT\*\*+Pers** adds voter personas: `{personas_text}` (~3,080 additional tokens for 10 personas)
 
 ---
 
@@ -502,7 +535,8 @@ Return your new statement as JSON: {"new_statement": "<your statement>"}
 | Model | `gpt-5.2` |
 | Reasoning Effort | `none` |
 | Temperature | `1.0` |
-| API Calls per Topic | 48 generation + 4,800 insertion = 4,848 total |
+| API Calls per Topic | 48 (1 per rep × 48 reps) |
+| Est. Cost per Topic | ~$0.12 |
 
 **System Prompt**:
 ```
@@ -526,18 +560,41 @@ Return your statement as JSON: {"bridging_statement": "<your statement>"}
 
 ## Epsilon Computation
 
-### Statement Insertion into Rankings
-
-**Purpose**: Insert a newly generated statement (from GPT\*\* or GPT\*\*\*) into existing voter rankings to compute epsilon.
+Epsilon computation requires inserting newly generated statements into existing voter rankings. This is done separately for GPT\*\* and GPT\*\*\* generated statements.
 
 **File**: `src/experiment_utils/statement_insertion.py`
+
+### GPT\*\* Statement Insertion
+
+**Purpose**: Insert GPT\*\*-generated statements into existing voter rankings to compute epsilon.
 
 | Parameter | Value |
 |-----------|-------|
 | Model | `gpt-5-mini` |
 | Reasoning Effort | `low` |
 | Temperature | `1.0` |
-| API Calls per Topic | 76,800 (100 voters × 768 new statements from GPT\*\*/GPT\*\*\*) |
+| GPT\*\* Statements | 720 (3 variants × 240 mini-reps) |
+| API Calls per Topic | 72,000 (720 statements × 100 voters) |
+| Est. Cost per Topic | ~$102.12 |
+
+---
+
+### GPT\*\*\* Statement Insertion
+
+**Purpose**: Insert GPT\*\*\*-generated statements into existing voter rankings to compute epsilon.
+
+| Parameter | Value |
+|-----------|-------|
+| Model | `gpt-5-mini` |
+| Reasoning Effort | `low` |
+| Temperature | `1.0` |
+| GPT\*\*\* Statements | 48 (1 per rep × 48 reps) |
+| API Calls per Topic | 4,800 (48 statements × 100 voters) |
+| Est. Cost per Topic | ~$6.81 |
+
+---
+
+### Insertion Prompt (Shared)
 
 **System Prompt**:
 ```
@@ -574,20 +631,73 @@ Rank 2 (ID 12): Another statement...
 
 ---
 
-## API Call Volume Summary
+## API Call Volume and Cost Summary
 
-| Component | Model | Reasoning | Calls per Topic | Purpose |
-|-----------|-------|-----------|-----------------|---------|
-| Alt1 Statement Gen | gpt-5-mini | minimal | 815 | Generate persona-based statements |
-| Alt4 Statement Gen | gpt-5-mini | minimal | 163 | Generate blind statements (5 per call) |
-| Preference Building | gpt-5-mini | low | 24,000 | 5 rounds × 100 voters × 48 reps |
-| GPT/GPT\* Selection | gpt-5.2 | none | 1,440 | Select consensus (240 mini-reps × 6 methods) |
-| GPT\*\* Generation | gpt-5.2 | none | 720 | Generate new statements |
-| GPT\*\* Insertion | gpt-5-mini | low | 72,000 | Insert into 100 rankings × 720 |
-| GPT\*\*\* Generation | gpt-5.2 | none | 48 | Blind bridging (1 per rep) |
-| GPT\*\*\* Insertion | gpt-5-mini | low | 4,800 | Insert into 100 rankings × 48 |
+### Calls per Topic
 
-**Total per topic: ~104,000 API calls**
+| Component | Model | Reasoning | Calls | Input Tokens | Output Tokens | Cost |
+|-----------|-------|-----------|------:|-------------:|--------------:|-----:|
+| **Statement Generation** | | | | | | |
+| Alt1 Statement Gen | gpt-5-mini | minimal | 815 | ~468 | ~151 | $0.34 |
+| Alt2 Statement Gen | gpt-5-mini | minimal | 1,200 | ~15,964 | ~151 | $5.15 |
+| Alt3 Statement Gen | gpt-5-mini | minimal | 240 | ~15,656 | ~757 | $1.30 |
+| Alt4 Statement Gen | gpt-5-mini | minimal | 163 | ~160 | ~757 | $0.25 |
+| *Subtotal* | | | *2,418* | | | *$7.04* |
+| **Preference Building** | | | | | | |
+| Iterative Ranking | gpt-5-mini | low | 24,000 | ~9,706 | ~770 | $95.20 |
+| *Subtotal* | | | *24,000* | | | *$95.20* |
+| **GPT Selection** | | | | | | |
+| GPT | gpt-5.2 | none | 240 | ~3,329 | ~30 | $1.50 |
+| GPT+Rank | gpt-5.2 | none | 240 | ~4,029 | ~30 | $1.79 |
+| GPT+Pers | gpt-5.2 | none | 240 | ~6,609 | ~30 | $2.88 |
+| *Subtotal* | | | *720* | | | *$6.17* |
+| **GPT\* Selection** | | | | | | |
+| GPT\* | gpt-5.2 | none | 240 | ~8,073 | ~30 | $3.49 |
+| GPT\*+Rank | gpt-5.2 | none | 240 | ~8,773 | ~30 | $3.78 |
+| GPT\*+Pers | gpt-5.2 | none | 240 | ~11,153 | ~30 | $4.78 |
+| *Subtotal* | | | *720* | | | *$12.05* |
+| **GPT\*\* Generation** | | | | | | |
+| GPT\*\* | gpt-5.2 | none | 240 | ~3,329 | ~151 | $1.91 |
+| GPT\*\*+Rank | gpt-5.2 | none | 240 | ~4,029 | ~151 | $2.20 |
+| GPT\*\*+Pers | gpt-5.2 | none | 240 | ~6,409 | ~151 | $3.20 |
+| *Subtotal* | | | *720* | | | *$7.31* |
+| **GPT\*\*\* Generation** | | | | | | |
+| GPT\*\*\* | gpt-5.2 | none | 48 | ~160 | ~151 | $0.12 |
+| *Subtotal* | | | *48* | | | *$0.12* |
+| **GPT\*\* Insertion** | | | | | | |
+| GPT\*\* Insertion | gpt-5-mini | low | 72,000 | ~5,513 | ~20 | $102.12 |
+| *Subtotal* | | | *72,000* | | | *$102.12* |
+| **GPT\*\*\* Insertion** | | | | | | |
+| GPT\*\*\* Insertion | gpt-5-mini | low | 4,800 | ~5,513 | ~20 | $6.81 |
+| *Subtotal* | | | *4,800* | | | *$6.81* |
+| | | | | | | |
+| **GRAND TOTAL** | | | **~105,500** | | | **~$237** |
+
+### Cost Summary
+
+| Metric | Value |
+|--------|------:|
+| Total API calls per topic | ~105,500 |
+| Total input tokens per topic | ~688M |
+| Total output tokens per topic | ~21M |
+| **Cost per topic** | **~$237** |
+| **Cost for all 13 topics** | **~$3,080** |
+
+### Cost by Model
+
+| Model | Input Tokens | Output Tokens | Input Cost | Output Cost | Total Cost |
+|-------|-------------:|--------------:|-----------:|------------:|-----------:|
+| gpt-5-mini | ~680M | ~21M | ~$170 | ~$42 | ~$212 |
+| gpt-5.2 | ~11.5M | ~181K | ~$20 | ~$2.53 | ~$23 |
+
+### Pricing Reference (per 1M tokens)
+
+| Model | Input | Cached Input | Output |
+|-------|------:|-------------:|-------:|
+| gpt-5.2 | $1.75 | $0.175 | $14.00 |
+| gpt-5-mini | $0.25 | $0.025 | $2.00 |
+
+*Note: Token estimates based on actual persona (~308 tokens avg) and statement (~151 tokens avg) data. Costs assume no caching.*
 
 ---
 
