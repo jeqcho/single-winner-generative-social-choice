@@ -40,8 +40,8 @@ FIGURE_SIZE_WIDE = (14, 6)
 FIGURE_SIZE_SQUARE = (10, 8)
 FIGURE_SIZE_TALL = (10, 10)
 
-# Method categories for coloring
-TRADITIONAL_METHODS = ["schulze", "borda", "irv", "plurality", "veto_by_consumption"]
+# Method categories for coloring (ordered for legend: VBC, Borda, Schulze, IRV, Plurality)
+TRADITIONAL_METHODS = ["veto_by_consumption", "borda", "schulze", "irv", "plurality"]
 CHATGPT_METHODS = ["chatgpt", "chatgpt_rankings", "chatgpt_personas"]
 CHATGPT_STAR_METHODS = ["chatgpt_star", "chatgpt_star_rankings", "chatgpt_star_personas"]
 CHATGPT_DOUBLE_STAR_METHODS = ["chatgpt_double_star", "chatgpt_double_star_rankings", "chatgpt_double_star_personas"]
