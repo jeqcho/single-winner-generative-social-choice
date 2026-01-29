@@ -694,38 +694,42 @@ Epsilon computation requires inserting newly generated statements into existing 
 
 **System Prompt**:
 ```
-You are inserting a new statement into your preference ranking. Return ONLY valid JSON.
+You are simulating a single, internally consistent person defined by the following persona:
+{persona}
+
+You must evaluate each statement solely through the lens of this persona's values, background, beliefs, and preferences.
+
+Your task is to determine where a new statement fits in your preference ranking and return valid JSON only.
+Do not include explanations, commentary, or extra text.
 ```
 
 **User Prompt**:
 ```
-You are a person with the following characteristics:
-{persona}
+Topic: "{topic}"
 
-Given the topic: "{topic}"
-
-You previously ranked these statements from most to least preferred:
-
+Here is your current ranking from most to least preferred (identified by 4-letter codes):
 {ranked_text}
 
-NEW STATEMENT (ID {new_idx}): {new_statement}
+NEW STATEMENT ({new_hash}): "{new_statement}"
 
 Where should this new statement be inserted in your ranking?
-- Return 0 to make it your MOST preferred (before rank 1)
-- Return {n} to make it your LEAST preferred (after rank {n})
+- Return 0 to place it MOST preferred (before rank 1)
+- Return {n} to place it LEAST preferred (after rank {n})
 - Return any position 1-{n-1} to insert it between existing ranks
+
+IMPORTANT: Your decision should reflect your persona's values and background.
 
 Return JSON: {"insert_position": <number>}
 ```
 
-Where `{ranked_text}` is formatted as:
+Where `{ranked_text}` is formatted as (using 4-letter hash codes):
 ```
-Rank 1 (ID 5): Statement text here...
-Rank 2 (ID 12): Another statement...
+Rank 1 (XXXX): "Statement text here..."
+Rank 2 (YYYY): "Another statement..."
 ...
 ```
 
-> **Note**: The insertion prompt includes the full text of all 100 ranked statements, which is necessary for accurate preference insertion.
+> **Note**: The insertion prompt uses 4-letter hash codes (same as preference building) to avoid index/rank conflation. The prompt includes the full text of all 100 ranked statements, which is necessary for accurate preference insertion.
 
 ---
 

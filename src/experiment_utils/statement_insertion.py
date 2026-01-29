@@ -13,6 +13,8 @@ from openai import OpenAI
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 from .config import RANKING_MODEL, RANKING_REASONING, TEMPERATURE, api_timer, build_api_metadata
+from src.degeneracy_mitigation.hash_identifiers import id_to_hash
+from src.degeneracy_mitigation.config import HASH_SEED
 
 logger = logging.getLogger(__name__)
 
@@ -67,29 +69,36 @@ def insert_statement_into_ranking(
     n = len(current_ranking)
     new_idx = len(statements)  # New statement gets the next available index
     
-    # Build the ranked statements for context
+    # Generate hash for new statement
+    new_hash = id_to_hash(new_idx, HASH_SEED)
+    
+    # Build the ranked statements for context with hash codes
     ranked_text = "\n".join(
-        f"Rank {i+1} (ID {idx}): {statements[idx]['statement']}"
+        f"Rank {i+1} ({id_to_hash(idx, HASH_SEED)}): \"{statements[idx]['statement']}\""
         for i, idx in enumerate(current_ranking)
     )
     
-    system_prompt = "You are inserting a new statement into your preference ranking. Return ONLY valid JSON."
-    
-    user_prompt = f"""You are a person with the following characteristics:
+    system_prompt = f"""You are simulating a single, internally consistent person defined by the following persona:
 {persona}
 
-Given the topic: "{topic}"
+You must evaluate each statement solely through the lens of this persona's values, background, beliefs, and preferences.
 
-You previously ranked these statements from most to least preferred:
+Your task is to determine where a new statement fits in your preference ranking and return valid JSON only.
+Do not include explanations, commentary, or extra text."""
+    
+    user_prompt = f"""Topic: "{topic}"
 
+Here is your current ranking from most to least preferred (identified by 4-letter codes):
 {ranked_text}
 
-NEW STATEMENT (ID {new_idx}): {new_statement}
+NEW STATEMENT ({new_hash}): "{new_statement}"
 
 Where should this new statement be inserted in your ranking?
-- Return 0 to make it your MOST preferred (before rank 1)
-- Return {n} to make it your LEAST preferred (after rank {n})
+- Return 0 to place it MOST preferred (before rank 1)
+- Return {n} to place it LEAST preferred (after rank {n})
 - Return any position 1-{n-1} to insert it between existing ranks
+
+IMPORTANT: Your decision should reflect your persona's values and background.
 
 Return JSON: {{"insert_position": <number>}}"""
 
