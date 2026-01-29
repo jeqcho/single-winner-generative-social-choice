@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for a president chosen in a way that treats voters more equally while keeping states meaningfully involved and preserving confidence in the count. A broadly acceptable path is to reduce winner-take-all by requiring proportional or district-based elector allocation nationwide and, as a longer-term option, allow a national popular vote trigger (such as an interstate compact) once uniform standards are in place. Alongside any change, set clear cross-state rules for voter access, auditing, recounts, and certification so close elections are transparent, consistent, and easier for losing sides to accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections reflect the national popular will more closely while keeping states involved and preserving trust in the process. A practical bridge is adopting the National Popular Vote Interstate Compact or requiring proportional allocation of electors, paired with ranked-choice voting to ensure majority support and reduce \u201cwinner-take-all\u201d distortions. Any change should include clear, uniform standards for ballot access, counting, audits, and recounts\u2014plus strong voting access protections\u2014so every lawful vote is handled consistently and communities in every state stay meaningfully represented.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A durable compromise should make the presidency reflect the will of voters more closely while preserving the states\u2019 role in running elections and ensuring rural and smaller-state communities aren\u2019t ignored. A practical path is to move away from winner-take-all by adopting proportional allocation of electors nationwide, or using the National Popular Vote Interstate Compact once enough states join, with ranked-choice voting to ensure a clear majority winner. Any reform should be paired with uniform, transparent standards for registration, ballot access, audits, recounts, and certification so every lawful vote is counted the same and results are widely trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

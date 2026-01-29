@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star": {
+      "winner": "30",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people can agree that access to essential healthcare shouldn\u2019t depend on income or employment, and that serious illness shouldn\u2019t lead to financial collapse. A workable middle ground is for government to guarantee a universal minimum benefit and straightforward subsidies, while setting clear rules for transparency, competition, and patient protections. Within that framework, people and employers can choose among multiple public and private plans and provider models, as long as they meet quality and cost standards.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree the goal is timely, affordable, high-quality care for everyone without medical bankruptcy, while keeping the system fiscally sustainable. A consensus role for government is to guarantee a universal baseline of essential coverage and strong consumer protections, especially where markets fail. Within that floor, policymakers can preserve choice and innovation by allowing multiple public and private delivery models, using transparent pricing, evidence-based standards, and value-focused incentives to control costs and improve outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most of us can agree that no one should be denied essential care or pushed into debt because they get sick, and that the system must be financially sustainable. A workable government role is to guarantee a basic, universal floor of coverage with strong consumer protections, while setting transparent rules that curb surprise bills, reward proven quality, and reduce waste. Within that floor, people and employers should be able to choose among different public and private plans and providers, so access is secured without eliminating innovation or personal choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

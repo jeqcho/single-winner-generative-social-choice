@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to make the presidential outcome align more closely with the nationwide vote while keeping states responsible for administering elections and preserving incentives for geographically broad support. A workable compromise is to phase out winner-take-all by encouraging proportional allocation of electors (or a uniform district method with anti-gerrymandering safeguards), while allowing states to join a popular-vote compact once it has broad, cross-partisan participation. Any change should be paired with baseline national standards for voter access, secure paper-backed ballots, transparent audits, and clear recount triggers so close results are trusted and challenges are resolved consistently.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should better align presidential outcomes with the national popular will while preserving the federal role of states and keeping transitions of power stable. A pragmatic, stepwise path is to reduce winner\u2011take\u2011all distortions through state adoption of proportional (or district-based) elector allocation and, where there is broad agreement, participation in a National Popular Vote interstate compact. Pair any allocation changes with ranked\u2011choice (or runoff) ballots to reward broad coalitions, and with uniform, auditable standards for ballot access, paper trails, recounts, and post\u2011election audits to strengthen legitimacy and trust across regions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "The presidential election should make each person\u2019s vote count as equally as possible while respecting the constitutional role of states and ensuring candidates compete beyond a handful of battlegrounds. A practical compromise is to reduce winner\u2011take\u2011all by moving toward proportional or district-based allocation of electors, while also allowing a National Popular Vote interstate compact if it reaches broad, durable participation across states. Any reform should be paired with clear, uniform protections\u2014easy ballot access, auditable paper records, transparent post\u2011election audits, and consistent recount rules\u2014to strengthen trust and legitimacy. Ranked-choice voting (or a runoff) can further ensure the winner has broad support and encourage coalition-building across regions and communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

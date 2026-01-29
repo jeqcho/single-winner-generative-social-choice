@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can obtain essential healthcare by setting universal minimum coverage standards and financing help on a sliding scale so cost is never a barrier, while allowing people to choose among competing plans and providers. Its core job is to make the system fair and efficient\u2014simplify enrollment, enforce clear quality metrics and price transparency, negotiate or cap excessive prices where markets fail, and invest in primary care, mental health, and rural access. Private and community providers should remain central, with supplemental options available, as long as the baseline guarantee is met and outcomes are publicly accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a clear, affordable baseline of essential healthcare\u2014primary, preventive, mental-health, emergency, and catastrophic protection\u2014so no one faces medical bankruptcy and coverage follows people across jobs. It should fund and regulate this safety net with streamlined administration, transparent pricing, and outcome-based accountability, while targeting support to rural and community-based providers. Private and faith/community partners and supplemental private options can coexist to preserve choice and spur innovation, so long as they meet basic quality and consumer-protection standards.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can get a clearly defined package of essential care\u2014primary, preventive, mental-health, and emergency services\u2014so no one faces medical bankruptcy, while keeping enrollment and billing straightforward. The public role should focus on fair financing and basic consumer protections: transparent prices, measurable quality standards, anti-fraud enforcement, and targeted support for rural and community providers. People should be free to choose doctors and plans, including private and employer options and supplemental coverage, as long as coverage is portable when jobs or life circumstances change. Cost controls should be evidence-based and fiscally responsible, using competition and public\u2013private partnerships where they improve access and outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

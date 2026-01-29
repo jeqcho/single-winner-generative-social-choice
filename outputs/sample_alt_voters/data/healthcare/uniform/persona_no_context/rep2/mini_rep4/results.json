@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "22",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "22"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should make sure every resident can obtain essential healthcare\u2014primary, preventive, mental health, and emergency care\u2014without facing medical bankruptcy, while leaving room for people to choose supplemental private coverage and providers to innovate. Its job is to set clear national standards, fund and coordinate coverage for those who fall through the cracks, and use tools like price transparency, simplified administration, and fair rate negotiation to curb costs. Delivery should remain flexible through partnerships with private, nonprofit, and local community systems, with strong oversight focused on quality, access, and fiscal sustainability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential and preventive care so no one is denied treatment or driven into medical bankruptcy, with coverage that is portable across jobs and regions. It should focus on practical cost control\u2014transparent pricing, simplified administration, and the ability to negotiate or benchmark high prices\u2014while setting clear quality and accountability standards. Private insurance and providers should continue to compete and innovate above the baseline, with targeted support for rural communities, small businesses, and people who are low-income, disabled, elderly, or veterans. This balanced approach protects dignity and community well-being while respecting choice, local delivery, and fiscal responsibility.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every American has access to a basic, affordable set of essential and emergency health services so no family is bankrupted by illness, while keeping room for private plans and provider innovation. It should focus on clear nationwide standards (including portability across jobs and states), strong oversight of pricing and billing transparency, and targeted help for seniors, people with disabilities, rural communities, and low-wage workers. Partnering with private, nonprofit, and faith-based providers and measuring results can expand access, reduce waste, and protect taxpayers, small businesses, and personal choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

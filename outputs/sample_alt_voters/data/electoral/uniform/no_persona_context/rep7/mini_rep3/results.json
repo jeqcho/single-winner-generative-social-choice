@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "23"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "23"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A consensus reform would keep the Constitution\u2019s state-based structure but reduce the \u201call-or-nothing\u201d effects that over-focus campaigns on a few battleground states. States could be encouraged or required to allocate electors by a uniform proportional formula (or a district method only with enforceable anti-gerrymandering standards), with a backstop mechanism\u2014such as a narrowly tailored interstate compact\u2014that activates only when the national popular vote margin is clear. Whatever path is chosen should include baseline national rules for ballot access, paper-backed voting, routine risk-limiting audits, clear recount triggers, and binding elector rules so close outcomes are resolved transparently and predictably.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should preserve states\u2019 constitutional role while reducing winner\u2011take\u2011all distortions so presidential outcomes more reliably reflect broad popular support. A practical path is to shift states toward proportional (or carefully designed district\u2011based) allocation of electors, with strong anti\u2011gerrymandering and elector\u2011fidelity rules, and to consider an interstate popular\u2011vote compact as a backstop if widely adopted. Any change should be paired with nationwide baseline standards\u2014secure paper ballots, transparent counting, routine risk\u2011limiting audits, clear recount/dispute timelines, and nonpartisan administration\u2014phased in to protect stability and public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform should keep the Electoral College\u2019s federal role but reduce winner\u2011take\u2011all outcomes so fewer voters feel ignored: encourage states to adopt proportional elector allocation or a district method with strong anti\u2011gerrymandering rules, and require electors to follow the state\u2019s certified vote. Pair any change with baseline nationwide standards for secure paper ballots, transparent counting, routine audits, and clear recount timelines so close results are trusted. Consider phasing reforms in and allowing states to pilot ranked\u2011choice or runoff options to ensure the winner has majority support while maintaining stability.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

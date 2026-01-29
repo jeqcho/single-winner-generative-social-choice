@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "28"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can get essential healthcare\u2014primary care, preventive services, mental health care, and protection from catastrophic costs\u2014without facing financial ruin, while letting people choose supplemental private coverage if they want it. The public role should focus on clear national standards, fair and simple enrollment, and strong oversight that drives down costs through price transparency, anti-fraud enforcement, and value-based payment. Delivery can remain pluralistic by paying a mix of private, nonprofit, and local providers and giving states and communities flexibility to meet the standards with accountable results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable, affordable baseline of essential healthcare\u2014especially preventive, primary, mental health, and catastrophic coverage\u2014so no one faces medical bankruptcy and communities stay healthy and productive. That public floor should be delivered with transparent pricing, evidence-based cost controls, and accountable administration that protects taxpayers and builds trust. People should keep meaningful choice among providers and plans, with room for private supplemental coverage and innovation through well-regulated public\u2013private and local community partnerships. Targeted subsidies and portable benefits can help workers, children, seniors, and caregivers maintain continuous coverage as jobs and life circumstances change.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can count on a basic, affordable level of healthcare\u2014especially preventive, primary, mental health, and emergency/catastrophic coverage\u2014so no family faces medical bankruptcy and communities can stay healthy and productive. That guarantee should be delivered with strong transparency and cost controls (clear pricing, negotiated rates, fraud reduction, and simple administration) to protect taxpayers and small businesses. People who want additional options should be free to choose private supplemental coverage, and reforms should rely on local providers and community partnerships, portable benefits, and targeted help for those with the greatest need.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

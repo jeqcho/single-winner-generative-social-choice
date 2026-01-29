@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "32",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "96",
+      "epsilon": 0.0,
+      "full_winner_idx": "96"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can obtain essential care\u2014primary, preventive, mental\u2011health, maternal/pediatric, emergency, and necessary medications\u2014without medical bankruptcy, while allowing multiple coverage and delivery models. Its role is to set clear standards, guarantee funding for those who can\u2019t afford coverage, and enforce competition and transparency in prices and outcomes, with streamlined enrollment and strong anti\u2011fraud oversight. Beyond the baseline, people and employers should be free to purchase additional coverage and choose among public, nonprofit, and private providers that meet accountability and quality benchmarks.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of high-quality healthcare\u2014especially primary, preventive, mental-health, and emergency care\u2014so no one faces medical bankruptcy and communities stay healthy and productive. That guarantee should be delivered with fiscal discipline through transparent pricing, evidence-based standards, and rigorous accountability to reduce waste and control costs. Public programs should partner with private providers, employers, and local community organizations to expand access (including rural and underserved areas) while preserving patient choice and room for innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can access a basic, affordable package of essential healthcare\u2014primary, preventive, mental-health, and emergency care\u2014so no family is driven into medical bankruptcy and communities can stay healthy and productive. The system should be fiscally disciplined and transparent, with clear standards, straightforward enrollment, and strong anti-waste oversight while encouraging personal responsibility where appropriate. Coverage can be delivered through a mix of public programs and regulated private options, partnering with employers, faith-based and community providers, and local clinics to preserve choice, competition, and innovation. Targeted support should close gaps for seniors, people with disabilities, rural areas, and other underserved groups.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

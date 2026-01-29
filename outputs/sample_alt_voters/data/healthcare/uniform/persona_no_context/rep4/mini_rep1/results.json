@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a clear national guarantee that everyone can obtain essential healthcare without fear of medical bankruptcy, while allowing multiple paths to deliver that coverage through public programs, regulated private plans, and community providers. Its core responsibilities are to define a basic benefits floor, protect people with preexisting conditions, invest in prevention and mental health, and enforce straightforward price and quality reporting so patients and purchasers can compare value. To respect fiscal limits and personal choice, subsidies and safety-net funding should be targeted by need, with regular audits and outcome-based updates that reduce waste and reward effective care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of high-quality healthcare that protects people from medical bankruptcy and ensures access to preventive, emergency, and essential chronic-care services, including protections for preexisting conditions. It should pair this guarantee with strong cost transparency, accountability, and evidence-based reforms that reduce waste and reward value, while partnering with private and community providers to preserve choice, competition, and innovation. Policies should be fiscally responsible, portable for changing jobs, and regularly evaluated against outcomes and cost-effectiveness so no one falls through the cracks while the system remains sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get timely, affordable essential care\u2014especially primary, preventive, mental health, and catastrophic coverage\u2014so illness doesn\u2019t lead to medical bankruptcy or untreated emergencies. It should set clear quality and price-transparency rules, protect people with preexisting conditions, and use evidence-based budgeting to control costs and reduce waste. Beyond this guaranteed baseline, families should be able to choose among competing public and private plans, with portability and fair support for small businesses, rural areas, and the healthcare workforce.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

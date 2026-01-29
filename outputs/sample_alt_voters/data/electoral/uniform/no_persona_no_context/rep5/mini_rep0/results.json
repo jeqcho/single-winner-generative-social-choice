@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.0,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about the Electoral College, we can agree the rules should make every vote feel meaningful, encourage candidates to compete beyond a few swing states, and produce outcomes the public can accept as legitimate. A pragmatic path is to pair election-administration upgrades (uniform counting, recount, and certification standards) with pilotable allocation reforms like proportional or ranked-choice-based elector selection, while also evaluating the National Popular Vote Interstate Compact against clear safeguards for close elections. If changes are adopted gradually and judged by transparent metrics\u2014representation, stability, and incentives to campaign nationwide\u2014people can debate mechanisms without treating the issue as winner-take-all politics.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Whatever our view of the Electoral College, most people want presidential elections that feel fair, transparent, and legitimate\u2014so the winner reflects a broad coalition and campaigns have incentives to compete beyond a few battleground states. A practical middle path is to set clear national standards for voting, counting, and recounts while reducing winner-take-all distortions through options like proportional or ranked-choice allocation of electors, and evaluating the National Popular Vote Interstate Compact with strong safeguards and broad state buy-in. If we agree on shared criteria\u2014legitimacy, stability, and meaningful votes in every state\u2014we can compare reforms by their real-world incentives rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about keeping, changing, or replacing the Electoral College, most of us want a presidential election that is easy to understand, secure, and accepted as fair\u2014so candidates must earn support beyond a few battlegrounds while every voter feels their ballot matters. A practical path is to set strong, uniform national standards for ballot access, counting, recounts, and certification, and to encourage states to reduce winner-take-all distortions through options like proportional elector allocation or ranked-choice ballots for choosing elector slates. Larger changes, such as a National Popular Vote compact or constitutional revisions, can be considered only with clear safeguards, broad bipartisan state buy-in, and a phased approach to protect stability and state voice.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

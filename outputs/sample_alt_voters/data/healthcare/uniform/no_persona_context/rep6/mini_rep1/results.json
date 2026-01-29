@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should make sure every resident can obtain a standard package of essential care\u2014primary, preventive, mental-health, and catastrophic coverage\u2014without financial hardship, with straightforward eligibility and minimal paperwork. Within that baseline, people should be able to choose among competing plans and providers, including supplemental private coverage, while public rules enforce nondiscrimination, transparent prices, and basic quality standards. Funding should blend broad-based support with income-based assistance, and payment reforms should reward outcomes and prevention. Phased implementation with independent evaluation can expand coverage while protecting budgets and learning what works locally.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential care\u2014especially preventive, primary, mental-health, and catastrophic coverage\u2014so no one faces financial ruin from illness. That safety net should be delivered through strong local public\u2011private partnerships and allow supplemental private options to preserve meaningful patient choice and innovation. To keep the system sustainable, policy should pair targeted subsidies and protections for preexisting conditions with price transparency, simpler administration, and outcome\u2011based accountability, rolled out in pragmatic phases.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person has access to an affordable, reliable baseline of essential care\u2014especially preventive, primary, mental-health, and catastrophic coverage\u2014so illness doesn\u2019t cause financial ruin or keep people from working and caring for family. It should set clear standards, protect people with preexisting conditions, and use transparency and anti-fraud enforcement to lower prices and cut waste, while keeping administration simple. People who want more options should be able to choose supplemental private coverage, with reforms phased in and evaluated by measurable health outcomes, cost trends, and local flexibility.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

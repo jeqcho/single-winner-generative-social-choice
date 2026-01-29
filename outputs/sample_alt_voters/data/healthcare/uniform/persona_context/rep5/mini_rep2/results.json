@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "24",
+      "epsilon": 0.0,
+      "full_winner_idx": "24"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can access a core set of essential healthcare services\u2014primary care, emergency care, and needed medications and mental-health support\u2014without facing medical bankruptcy. It should set clear coverage standards, negotiate and disclose prices, and enforce quality and anti-fraud rules, while allowing regulated private plans and employer coverage to compete above the baseline. Funding and expansion should be phased, with targeted help for low-income and rural communities, and reforms that reduce administrative complexity and reward prevention and measurable outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential healthcare\u2014especially preventive, primary, emergency, and mental-health care\u2014so no one faces medical bankruptcy and communities stay healthy and productive. The baseline should be delivered pragmatically through a streamlined public safety net with regulated private options and accountable public\u2013private partnerships that preserve patient choice and encourage innovation. To protect taxpayers and patients alike, policy should require clear price transparency, measurable outcomes, negotiated cost controls where appropriate, and targeted support for rural areas, caregivers, and the most vulnerable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can access an affordable, high-quality core package of preventive, primary, emergency, and mental-health care, so no one faces medical bankruptcy and communities can stay healthy and working. That baseline should be delivered pragmatically through a strong public safety net with regulated private and employer-based options, preserving patient choice while meeting clear standards of quality and fairness. To earn broad trust, the system should emphasize price transparency, negotiated savings on drugs and services, reduced administrative waste, targeted help for rural areas and the most vulnerable, and strong fiscal accountability with measurable outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

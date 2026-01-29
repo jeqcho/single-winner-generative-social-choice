@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "85",
+      "epsilon": 0.0,
+      "full_winner_idx": "85"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star_personas": {
+      "winner": "85",
+      "epsilon": 0.0,
+      "full_winner_idx": "85"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College but modernize it so the winner is less likely to diverge from the electorate: require states to award electors proportionally (or by district under independent mapping standards) and adopt a uniform national trigger for a contingent runoff if no candidate wins a clear majority. Pair any allocation change with baseline nationwide rules for ballot access, paper-backed tabulation, audits, recount timelines, and limits on faithless electors. This approach preserves state participation while reducing winner-take-all incentives, widening campaign attention beyond a few battlegrounds, and improving confidence that outcomes reflect voter intent.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should preserve the Constitution\u2019s state role while making outcomes track the national popular will more closely by moving away from winner\u2011take\u2011all toward proportional or district-based elector allocation, with strong anti\u2011gerrymandering guardrails, and/or a carefully designed interstate popular\u2011vote compact. Pair any structural change with national baseline standards for ballot access, secure paper records, transparent audits, and clear recount rules, plus limits on faithless electors. A phased, bipartisan implementation\u2014optionally including ranked\u2011choice voting where adopted\u2014can reduce swing\u2011state distortions, encourage broader campaigning, and improve public trust in results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep states\u2019 constitutional role while making presidential outcomes track voter intent more closely and reducing the \u201call-or-nothing\u201d power of a few swing states. A broadly acceptable path is to move away from winner-take-all toward proportional or district-based elector allocation with anti-gerrymandering safeguards, and/or adopt a carefully designed interstate popular-vote compact once enough states join to ensure stability. Any change should be paired with national baseline standards for ballot access, secure paper records, transparent audits, and clear recount rules so both parties and voters can trust the results. Implement reforms gradually, with bipartisan oversight and clear guardrails against manipulation, to protect small-state voices while making every vote matter more.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

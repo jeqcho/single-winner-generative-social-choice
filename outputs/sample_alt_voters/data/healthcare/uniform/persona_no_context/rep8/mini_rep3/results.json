@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can obtain timely, essential healthcare without financial hardship by setting a universal baseline of coverage and stepping in where markets fail, while leaving room for supplemental private plans and provider competition. A middle-ground approach would pair stable public financing with enforceable standards for quality, pricing disclosure, and anti-fraud oversight, and would reward prevention and primary care to reduce avoidable high-cost treatment. Implementation should be flexible\u2014using state and local delivery models and public\u2013private contracting\u2014so communities can innovate while meeting clear national guarantees.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal baseline of affordable, essential healthcare so illness doesn\u2019t lead to delayed treatment or financial ruin, while preserving patient choice and room for private plans and provider innovation. That guarantee should prioritize preventive, mental-health, and community-based care, with targeted subsidies and streamlined enrollment to make coverage reliable and continuous. To keep the system sustainable, policymakers should pair the public guarantee with clear quality standards, price transparency, and strong oversight that reduces waste, fraud, and administrative complexity.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every person can get essential, affordable care\u2014primary and preventive services, mental-health support, and protection from medical bankruptcy\u2014through a clear baseline of coverage. To respect different views on choice and the role of markets, people should be able to keep private plans and providers, while a public option and targeted subsidies close gaps for those priced out. Government\u2019s job is to set fair rules\u2014price transparency, quality standards, anti-fraud oversight, and simpler enrollment\u2014so care stays reliable, locally responsive, and fiscally sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

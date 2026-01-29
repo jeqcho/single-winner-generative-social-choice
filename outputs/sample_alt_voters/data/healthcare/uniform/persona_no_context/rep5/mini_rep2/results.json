@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.07000000000000006,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a national guarantee that no one is denied timely essential care or bankrupted by illness, while allowing people to choose among competing delivery models (public plan, regulated private plans, or mixed systems) that meet clear coverage and quality standards. To earn broad support, reforms should focus on cutting waste through price transparency, simpler billing, and strong anti-fraud enforcement, and on investing in primary and mental health care that reduces costly crises. Public subsidies should be targeted by income and health risk, with automatic enrollment and portable coverage so changing jobs or moving doesn\u2019t mean losing care. This approach protects the vulnerable and public health without crowding out private innovation or imposing one-size-fits-all medicine.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can access essential, affordable healthcare\u2014especially preventive, mental health, emergency, and catastrophic coverage\u2014so no family faces medical bankruptcy and public health is protected. It should set clear quality and transparency standards, reduce administrative waste and fraud, and target subsidies to those who need help most while keeping coverage portable across jobs and regions, including rural areas. Within that baseline, private and community-based providers and insurers should have room to compete and innovate, preserving patient choice and encouraging efficiency and personal responsibility.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person can get timely, affordable essential care\u2014especially preventive, mental health, and emergency services\u2014and be protected from catastrophic medical bills, with extra support for seniors, rural communities, and low-income working families. It should set clear standards for quality and transparency, crack down on waste and fraud, and simplify administration to keep costs down and protect taxpayers. At the same time, people who want more options should be able to choose among competing private plans and providers, preserving innovation and local flexibility while guaranteeing a dependable baseline for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

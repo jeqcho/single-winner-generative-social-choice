@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "0",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a national guarantee that every resident can access essential primary, preventive, mental-health, and catastrophic care without medical bankruptcy, while allowing people to keep or choose private coverage and providers. Rather than running all care, the public role should focus on fair rules: standard benefit floors, income-based help, strong oversight of prices and competition, and clear quality/outcome reporting. Reforms should be phased and locally delivered through a mix of public, nonprofit, and private providers, with incentives that reward prevention and value so costs stay sustainable and innovation continues.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a clear, dependable healthcare floor\u2014covering preventive, mental-health, emergency, and catastrophic needs\u2014so no one faces untreated illness or medical bankruptcy. That guarantee should be delivered through a pragmatic public safety net that partners with private, community, and faith-based providers and employers, preserving patient choice and room for innovation. Reforms should emphasize transparent pricing, portable benefits, measurable outcomes, and strong fiscal accountability, phased in to control costs and maintain long-term sustainability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person can access a basic, dependable package of preventive, primary, mental-health, emergency, and catastrophic care\u2014so no one is bankrupted by illness and vulnerable groups like seniors and people with disabilities are protected. A practical approach should set clear national standards for coverage, transparency, and measurable outcomes while allowing states, community and faith-based providers, employers, and private plans to deliver care in flexible ways that preserve choice. Reforms should be phased in with strong anti-waste oversight and fair cost-sharing so the system is fiscally responsible, rewards prevention, and earns broad public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

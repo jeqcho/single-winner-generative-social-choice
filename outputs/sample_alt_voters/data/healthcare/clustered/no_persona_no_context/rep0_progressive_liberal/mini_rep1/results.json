@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "89",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A practical middle ground is to treat healthcare like essential infrastructure: government ensures everyone can obtain necessary care without financial catastrophe, while leaving room for varied providers and supplemental private options. That means setting clear national rules for basic benefits, pricing transparency, and consumer protections, and using targeted subsidies or automatic enrollment so coverage is universal. In return, payment should be tied to outcomes and cost-effectiveness, with flexibility for states and systems to meet the standards in different ways.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people share the goal that no one should be denied needed care or face financial ruin, while keeping the system sustainable and responsive. A workable consensus role for government is to guarantee a universal baseline of essential coverage and strong patient protections, use targeted subsidies for those who can\u2019t afford care, and invest in prevention and public health. At the same time, government should set clear quality and transparency standards, curb abusive pricing, and reduce administrative waste while allowing a mix of public and private delivery models so innovation and choice can continue. Progress should be judged by measurable outcomes\u2014access, health results, and total costs\u2014so different approaches can be compared and improved.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people, regardless of ideology, want healthcare that is affordable, reliable, and doesn\u2019t leave families bankrupt, while also being financially sustainable. Government should guarantee a universal baseline of essential coverage and strong patient protections, with income-based help so everyone can get care, and clear rules that curb excessive prices and surprise bills. At the same time, it can preserve choice by allowing multiple delivery and insurance options, while measuring outcomes and rewarding quality, prevention, and efficiency.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

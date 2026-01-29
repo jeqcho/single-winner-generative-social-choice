@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "30",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable middle ground is to treat healthcare like essential infrastructure: government ensures everyone can access a defined set of necessary services and is protected from unaffordable medical bills, while leaving room for multiple ways to deliver and finance care. That means clear benefit and quality standards, income-based help, and straightforward rules that prevent denial or surprise pricing. Within those guardrails, private and public options can compete on service, efficiency, and innovation so people retain meaningful choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people share the goal that everyone can get essential care without facing financial ruin, while still preserving choice and innovation. A practical government role is to guarantee a baseline of affordable coverage (with extra protection for vulnerable groups and catastrophic costs), set clear quality and fairness standards, and make prices and outcomes transparent. Within those guardrails, diverse public and private delivery models can compete and innovate, with policy judged by measurable improvements in access, health outcomes, and cost growth.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should have to skip needed care or face bankruptcy because they got sick, and that any universal approach must be financially sustainable. Government should guarantee a basic level of essential coverage and strong protection from catastrophic costs, while setting clear rules for price transparency, fair billing, and quality standards. Within that framework, private insurers and providers can compete and innovate, and states and employers can use different models as long as they meet the same minimum protections and outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

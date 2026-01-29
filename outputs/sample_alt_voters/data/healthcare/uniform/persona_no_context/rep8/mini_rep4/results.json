@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "52"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "52"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure no one is denied needed care or pushed into bankruptcy by establishing a universal minimum benefit and enforcing consumer protections, while allowing people and employers to keep or choose private coverage above that floor. It should focus on what markets struggle to do alone\u2014fair financing, rural and underserved access, emergency readiness, and oversight that rewards outcomes and reduces administrative waste. A durable compromise pairs predictable public guarantees with competition among accountable private and nonprofit providers, using transparent pricing and evidence-based prevention to keep quality high and costs sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable, affordable baseline of essential healthcare\u2014covering preventive, chronic, mental health, and emergency services\u2014so no one is denied care or driven into medical bankruptcy. Reforms should pair this public guarantee with strong cost controls, transparent pricing, and clear quality and anti-fraud standards, while preserving patient choice and room for private plans and provider innovation. Targeted subsidies, portability of coverage, and support for rural and underserved communities can expand access responsibly and keep the system financially sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every American can afford timely essential care\u2014primary, emergency, mental health, and needed medicines\u2014so no family faces medical bankruptcy or goes without treatment. That guarantee should set a clear minimum coverage floor with transparent pricing, strong anti-fraud oversight, and incentives for prevention and chronic-care management to control costs and improve outcomes. Within that floor, people should be able to choose among competing private plans and providers, with targeted, portable support for low-income, rural, elderly, and disabled patients. A pragmatic public-private approach that rewards quality and value can protect the vulnerable while respecting personal choice and fiscal responsibility.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

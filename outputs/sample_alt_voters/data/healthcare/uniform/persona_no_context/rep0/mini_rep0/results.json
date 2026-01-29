@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal floor of coverage so everyone can get essential and preventive care and is protected from catastrophic medical bills, while allowing people to choose among competing public, nonprofit, and private plans. It should focus on rules the market can\u2019t solve alone\u2014fair enrollment, protections for pre-existing conditions, price and quality transparency, and strong anti-fraud oversight\u2014paired with payment reforms that reward outcomes over volume. Funding and benefits should be sustainable and predictable, with targeted help for low-income families and small businesses and streamlined enrollment so access is real, not just on paper.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can get essential and preventive healthcare and be protected from catastrophic medical bills, with clear legal standards and sustainable funding. The system should be delivered efficiently and transparently\u2014streamlining administration, enforcing price transparency, and using evidence-based cost controls\u2014so it reduces waste and medical debt. At the same time, policies should preserve individual choice and room for private and community-based providers to innovate, using targeted support to help the most vulnerable without creating unnecessary bureaucracy.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can get essential primary, preventive, mental-health, and emergency care without risking medical bankruptcy, while keeping room for private plans and provider innovation for those who want more options. The focus should be a simple, transparent system with clear patient protections (including pre-existing conditions), fair pricing and anti-gouging enforcement, and accountable funding that rewards outcomes and reduces wasteful bureaucracy. Targeted help for low-income families, rural communities, and working people\u2014paired with incentives for personal responsibility like preventive care\u2014can expand coverage while respecting choice and fiscal discipline.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

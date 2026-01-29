@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable middle\u2011ground reform would keep the states running elections but modernize how presidential votes translate into power: replace winner\u2011take\u2011all with a transparent proportional formula (with a small threshold) or a uniform district method so fewer ballots are effectively discarded. As a longer\u2011term option, allow an interstate agreement to award electors to the national popular\u2011vote winner only after it reaches a clearly defined supermajority of states and electoral votes, to avoid a patchwork transition. Whichever path is chosen should be paired with paper-backed voting, routine risk\u2011limiting audits, clear recount triggers, and enforceable rules that electors must follow certified results so close outcomes are credible nationwide.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Pursue a phased, state-led reform that keeps states administering elections but makes outcomes track the popular will more closely by ending winner-take-all and moving to proportional (or district-based) allocation of electors, with the National Popular Vote interstate compact as an optional backstop once a broad threshold of states joins. Pair any structural change with uniform national baselines for voter access and secure, paper-backed tabulation, plus transparent post-election audits and clear recount triggers. Bind electors to certified results and consider ranked-choice voting where adopted to reduce spoiler effects and encourage coalition-building, improving legitimacy across regions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform would keep states running elections but make the outcome track voters more closely by ending winner-take-all and moving toward proportional (or district-based) allocation of electors, with an option for a National Popular Vote compact only once enough states join and clear, bipartisan safeguards are in place. Any change should be paired with national baseline rules for ballot access, secure paper-backed voting, transparent post-election audits, and clear recount triggers so close results are trusted. Binding electors to certified results and allowing states to adopt ranked-choice ballots can further reduce spoilers, encourage coalition-building, and lessen the outsized focus on a few swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

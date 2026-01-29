@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to treat essential health coverage as a guaranteed floor: the government ensures everyone can obtain basic, affordable care and protects people from catastrophic bills, while leaving room for supplemental private options and varied delivery models. To make that guarantee sustainable, government should focus on transparent rules that curb monopolistic pricing, reward primary and preventive care, and reduce administrative complexity. This approach aims for universal protection without requiring a one-size-fits-all system, balancing equity, cost discipline, and personal choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree that no one should be denied necessary care or face financial ruin because of illness, while also wanting quality, choice, and sustainable costs. Government should guarantee a universal baseline of essential coverage, with extra help for low-income and high-need patients, and set clear standards for access, transparency, and fair pricing. Within that framework, a mix of public and private providers and plans can compete and innovate, while policymakers prioritize prevention, reduce administrative waste, and measure success by outcomes and affordability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most of us agree that no one should be denied necessary care or face financial ruin because they get sick, while also wanting a system that rewards hard work, choice, and responsible spending. Government should guarantee a basic, affordable level of coverage and protect people with preexisting conditions, then use clear rules, price transparency, and anti-fraud enforcement to curb waste and abusive billing. Within that floor, people should be able to choose among competing public and private options, with incentives for preventive care and better outcomes rather than more paperwork.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

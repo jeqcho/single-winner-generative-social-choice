@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure everyone can access essential care\u2014primary, preventive, mental-health, and emergency services\u2014without facing denial of treatment or financial catastrophe. Rather than prescribing one delivery model, it should set enforceable national standards, subsidize those who cannot afford coverage, and use transparency, competition where it works, and negotiated pricing to curb costs. Implementation should rely on a mix of public programs and regulated private plans, with strong support for rural providers and community clinics, clear accountability for outcomes, and protection for patient choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable, affordable baseline of essential care\u2014preventive, primary, mental-health, and emergency/catastrophic coverage\u2014so no one faces medical bankruptcy and small problems don\u2019t become costly crises. The public floor should be delivered with fiscal discipline through price transparency, streamlined administration, and measurable outcomes, while strengthening community clinics and ensuring portable coverage for workers and families. Above that baseline, preserve patient choice and room for private providers, employers, and local or faith-based partners to innovate within clear standards and accountable oversight.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every American can get affordable preventive, primary, mental-health, and emergency care\u2014so no one faces medical bankruptcy\u2014while letting people keep or choose private plans and doctors when they want. A practical path is a clear national floor with portable coverage, targeted help for low-income, rural, elderly, and disabled people, and strong support for local clinics and hospitals, including faith-based and community partners. To protect taxpayers and patients, reforms should require transparent prices, simpler administration, measured outcomes, and phased changes that reward quality, competition, and innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

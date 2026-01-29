@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_rankings": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star": {
+      "winner": "52",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone has access to essential healthcare\u2014primary care, preventive services, mental health, and protection from catastrophic bills\u2014without forcing a one-size-fits-all system. It can set and enforce fair rules (coverage standards, preexisting-condition protections, and transparent pricing), provide income-based assistance, and serve as a backstop insurer of last resort while allowing people to keep or choose private plans. Reforms should reward outcomes and competition, reduce administrative waste, and support local clinics and providers so access expands sustainably and taxpayer dollars are safeguarded.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable, affordable baseline of essential healthcare\u2014especially preventive, mental-health, and emergency care\u2014so no one faces untreated illness or medical bankruptcy, with clear protections like portability across jobs and coverage for pre-existing conditions. That public guarantee should be delivered with fiscal discipline, transparent pricing, and streamlined administration, while partnering with private, local, and community providers to preserve patient choice and encourage innovation. Targeted subsidies and support should focus on the most vulnerable and those facing catastrophic costs, with accountability for outcomes and spending.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person can get timely, essential care\u2014primary and preventive services, mental health, and emergency treatment\u2014without risking medical bankruptcy, while keeping patient choice and space for employer and private coverage. A practical path is a guaranteed basic plan with strong protections for pre\u2011existing conditions, fair subsidies for working families and seniors, and portability across jobs and states. Costs should be restrained through transparent pricing, anti\u2011fraud enforcement, competition where it works, and accountable partnerships with private, local, and faith\u2011based providers, with simple rules that reduce paperwork for patients and clinicians.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

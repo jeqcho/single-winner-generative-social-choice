@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to separate the goals people often conflate: keep states administering elections, but make the presidential outcome track voter intent more consistently and predictably. That could mean reducing winner-take-all through proportional (or district-based with anti-gerrymandering safeguards) elector allocation, paired with national baseline rules for ballots, audits, and recount triggers so close races don\u2019t spiral into chaos. With shared criteria\u2014legitimacy, geographic coalition-building, and administrability\u2014we can compare bigger options like the National Popular Vote compact or a constitutional amendment without assuming either side is acting in bad faith.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people want a presidential election that is easy to understand, credibly administered, and produces a winner with broad national legitimacy\u2014even when the popular vote and the outcome are close. A practical compromise is to keep the state-based structure but reduce winner-take-all distortions through proportional or district allocation of electors, paired with clear, uniform standards for counting, certification, and recounts. Larger changes like the National Popular Vote Interstate Compact can be evaluated against the same shared criteria\u2014representativeness, incentives to campaign nationwide, and workable recount rules\u2014so the debate stays focused on legitimacy rather than party advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people want a presidential election that\u2019s easy to understand, treats voters more equally, and still encourages candidates to build broad support across many states and communities. A practical compromise is to keep the state-based framework but reduce winner-take-all distortions by moving states toward proportional (or ranked-choice-informed) allocation of electors, while also adopting clear national minimum standards for counting, audits, and recount triggers. Alongside that, expanding the House could reduce the current elector imbalance between large and small states. Framing reforms around legitimacy, transparency, and nationwide engagement\u2014rather than party advantage\u2014can create a path that both federalism-minded voters and popular-vote-minded voters can accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

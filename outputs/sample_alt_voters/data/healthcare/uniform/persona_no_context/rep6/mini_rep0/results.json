@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star": {
+      "winner": "47",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "48",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal guarantee that every resident can get essential, timely care\u2014primary, preventive, mental health, and catastrophic coverage\u2014without medical bankruptcy. It should focus on funding and enforcing clear rules: transparent prices, basic benefit standards, protections against denial, and outcomes-based accountability that rewards value and reduces waste. Within that floor, people and employers can choose among competing public and private plans and add supplemental coverage, preserving choice and encouraging innovation while keeping the system fiscally sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone has access to an affordable, reliable baseline of essential healthcare\u2014especially preventive, mental health, and catastrophic coverage\u2014so illness doesn\u2019t lead to delayed care or medical bankruptcy. That universal floor should be delivered with clear quality and equity standards, price transparency, and strong cost-control measures that reduce waste and simplify administration. Within this guarantee, people can keep choice through private providers and optional supplemental coverage, using competition and outcome-based incentives to encourage innovation while protecting taxpayers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every American can get essential, timely healthcare\u2014especially preventive, mental health, and catastrophic coverage\u2014so illness never means going without care or facing financial ruin. The most workable path is a guaranteed baseline plan with clear national standards for quality and fairness, paired with price transparency, anti-fraud enforcement, and payment reforms that reward outcomes and reduce waste. People who want more options can choose supplemental private coverage, while states, employers, and community providers retain flexibility to deliver care efficiently and respect local needs and taxpayer concerns.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

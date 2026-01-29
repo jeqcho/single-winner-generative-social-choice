@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable consensus is that government should make sure every resident can obtain essential healthcare without facing financial catastrophe, while keeping the system fiscally responsible. That can mean guaranteeing baseline coverage, enforcing consumer protections and transparent pricing, and using targeted subsidies and risk-sharing to cover those the market misses. Private providers and insurers can still compete above the baseline on service, networks, and innovation, as long as rules prevent discrimination and reward value.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree no one should be denied essential care or face financial ruin from illness, while the system must remain fiscally sustainable. Government can guarantee a universal baseline (especially emergency, preventive, and catastrophic coverage), set clear cost, quality, and nondiscrimination standards, and use transparent oversight to address market failures. Private providers and insurers can continue to compete and innovate above that baseline, preserving choice while expanding reliable access for everyone.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should be denied essential, timely medical care or be financially ruined by a serious illness or accident. Government should set clear, limited ground rules\u2014protecting people with preexisting conditions, ensuring transparent prices, and providing targeted help for those who can\u2019t afford coverage\u2014while leaving room for private doctors, insurers, employers, and community programs to offer choices and compete. The focus should be on better outcomes and lower costs through prevention, anti-fraud enforcement, and simpler billing, with local flexibility and responsible budgeting to keep the system sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

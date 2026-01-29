@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_personas": {
+      "winner": "86",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure everyone can obtain essential healthcare without facing financial ruin by setting a national minimum standard for coverage and providing income-based help to afford it. Within that floor, people should be free to choose among competing public and private plans, including employer and supplemental options, with protections for preexisting conditions and seamless coverage when changing jobs. To keep the promise sustainable, policymakers should require clear, comparable prices and outcomes, cut administrative waste, and pay for value and prevention\u2014while empowering local clinics and community providers to reach rural and underserved areas.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a clear, affordable baseline of high-quality healthcare\u2014covering preventive, primary, mental-health, emergency, pediatric, and catastrophic protection\u2014so no family faces medical bankruptcy and everyone can stay healthy enough to work, learn, and care for others. That public floor should be delivered through fiscally responsible funding and simple administration, with strong price transparency, outcome-based cost controls, interoperable health IT, and portable coverage for job-changers and the self-employed. To preserve choice and innovation, the system should partner with private, community, and faith-based providers and allow supplemental private options while holding all participants accountable for quality and value.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure everyone can get essential healthcare\u2014primary, preventive, mental-health, emergency, and prescription coverage\u2014without risking medical bankruptcy, while keeping choices for supplemental private or employer plans. That baseline should be funded and regulated with strong price transparency, simple enrollment, portable coverage for people who change jobs, and accountable cost controls that reward quality and prevention. Delivery should rely on a mix of public programs and partnerships with local clinics, hospitals, and community organizations to reach rural, tribal, and underserved communities, while reducing paperwork and protecting taxpayers through oversight and efficiency.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

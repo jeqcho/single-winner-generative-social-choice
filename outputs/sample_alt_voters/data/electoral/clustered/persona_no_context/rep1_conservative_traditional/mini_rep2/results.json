@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star": {
+      "winner": "34",
+      "epsilon": 0.08000000000000007,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star_personas": {
+      "winner": "25",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Electoral College reform should aim for two shared goals: outcomes that match voter intent more closely and a process that states and citizens can trust. A workable compromise is to keep the constitutional framework but end winner-take-all by requiring proportional allocation (with a small statewide component) and enforceable rules that electors follow certified results. Pair that with baseline national standards for voting access, transparent post-election audits, and a clear, uniform recount trigger so campaigns compete nationwide instead of only in a few battlegrounds.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "The Electoral College should be modernized so outcomes more consistently match the voters\u2019 will while keeping a clear role for states and avoiding sudden instability. A strong middle-ground reform is to reduce winner-take-all incentives by allocating electors proportionally or by district with limited at-large electors, paired with uniform national standards for ballot access, counting, audits, and a clear national recount process. Reforms should also require electors to follow certified results and strengthen transparency so close elections are easier to verify and accept. The goal is a fairer system where campaigns compete in more communities, smaller states don\u2019t feel ignored, and the winner is broadly seen as legitimate.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Any reform should keep the Constitution\u2019s state-based role and protect smaller and rural communities from being ignored, while making results track voters\u2019 choices more closely and reducing the swing-state scramble. A strong middle-ground is to keep the Electoral College but require proportional (or district-plus-at-large) allocation of electors in every state, along with strict rules that electors follow certified results. Pair that with clear nationwide minimum standards for voter access, secure ID options, audits, and a transparent national recount process so outcomes are trusted and stable no matter which party wins.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

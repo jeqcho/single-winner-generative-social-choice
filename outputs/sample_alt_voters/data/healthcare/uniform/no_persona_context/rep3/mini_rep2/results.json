@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can obtain essential healthcare\u2014primary, preventive, emergency, mental-health, and catastrophic coverage\u2014without facing financial ruin, while letting people choose among competing delivery and insurance options beyond that basic guarantee. To keep costs in check, policy should pair clear benefit standards with rigorous price and quality transparency, anti\u2011monopoly enforcement, and payment reforms that reward outcomes over volume. Funding and administration should be simple and fiscally sustainable, with targeted help for low-income and high-need groups and strong support for local clinics and rural providers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential care\u2014especially preventive, primary, mental-health, and catastrophic coverage\u2014so no one is denied treatment or driven into medical bankruptcy. That public floor should preserve patient choice and allow private plans and providers to offer supplemental options and innovate, while enforcing price and quality transparency, fair competition, and strong accountability. Funding and rollout should be fiscally responsible and evidence-based, partnering with local and community providers to deliver care efficiently and sustainably.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every American can afford essential healthcare\u2014preventive, primary, mental-health, emergency, and catastrophic coverage\u2014so no one is bankrupted by illness and public health is protected. It should do so with clear national standards, transparent prices, and strong anti-fraud and cost-control oversight, while allowing private plans and providers to compete on supplemental benefits, service, and innovation. Support should be targeted to seniors, rural communities, working families, and the most vulnerable through local clinics and partnerships, with simple administration and measurable outcomes to protect taxpayers and patient choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

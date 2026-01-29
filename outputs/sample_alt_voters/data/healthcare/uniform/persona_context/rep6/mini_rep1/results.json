@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person has access to a guaranteed minimum package of essential care\u2014primary and preventive services, mental-health support, and protection against catastrophic medical bills\u2014so illness doesn\u2019t become a financial sentence or a threat to community stability. Rather than managing all care directly, the public role should focus on setting clear coverage standards, subsidizing those who need help, and enforcing fair competition through price and quality transparency. Delivery can rely on a mixed system of private, nonprofit, and community providers, with phased reforms and outcomes-based accountability to control costs while preserving patient choice and innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a reliable, portable baseline of affordable healthcare\u2014especially preventive, primary, mental-health, and emergency care\u2014so no one faces medical bankruptcy and communities stay healthy and productive. This public floor should be financed and administered with fiscal discipline, clear price transparency, and measurable outcome-based accountability, rolled out in pragmatic phases. Delivery should rely on accountable public\u2013private partnerships with local, community, faith-based, and employer providers to preserve patient choice, respect cultural needs, and leave room for innovation while controlling costs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every American has access to an affordable, dependable baseline of essential care\u2014especially primary and preventive services, mental-health support, and protection from catastrophic medical bills\u2014so illness doesn\u2019t destroy families\u2019 finances or communities\u2019 stability. That guarantee should be delivered with fiscal discipline and clear accountability, using transparent pricing and measurable outcomes to control costs and reduce waste. Private, employer, and community providers should remain central partners so patients keep meaningful choice and innovation continues, with benefits that are portable across jobs and life changes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

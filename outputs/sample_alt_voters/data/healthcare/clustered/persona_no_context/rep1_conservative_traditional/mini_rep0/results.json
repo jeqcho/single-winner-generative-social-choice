@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star_personas": {
+      "winner": "34",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should act as a guarantor that every resident can obtain essential healthcare\u2014primary care, emergency services, mental health, and necessary medications\u2014without facing financial ruin, while leaving room for people to choose supplemental private coverage. That role should focus on setting clear coverage standards, simplifying enrollment and billing, and using competitive purchasing, all-payer rate setting, and fraud reduction to keep costs predictable for families, employers, and taxpayers. Delivery can remain pluralistic through private and nonprofit providers, with targeted investments in rural and underserved areas and incentives that reward prevention and measurable health outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a basic, affordable healthcare floor for every person\u2014covering essential preventive, mental health, and chronic-care services\u2014so no family faces medical bankruptcy or dangerous gaps in care. That guarantee should be delivered through transparent, efficiently run programs that partner with private insurers and providers, preserve patient choice, and encourage innovation. Reforms should focus on cost control and accountability (price transparency, quality standards, reduced administrative waste) while using targeted support for underserved communities and straightforward enrollment to keep the system sustainable and broadly supported.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every American has access to an affordable basic level of healthcare\u2014especially primary, preventive, mental health, and emergency care\u2014so no family faces medical bankruptcy or goes without treatment. That guarantee should be delivered with strong safeguards for taxpayers: clear eligibility rules, transparent pricing, fraud and waste enforcement, and outcome-based accountability. A practical path is a public backstop with regulated private insurance and provider competition, plus targeted help for rural and underserved areas, so people can keep their doctor and choose additional coverage if they want.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "4"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure no one goes without essential care by setting a universal baseline benefit, enforcing protections like non-discrimination for pre-existing conditions, and capping out-of-pocket exposure to prevent medical bankruptcy. Within that floor, people should be able to choose among competing plans and care models\u2014including employer, nonprofit, and private options\u2014so innovation and responsiveness are rewarded. The public role should focus on measurable outcomes, transparent prices, and payment reforms that prioritize primary and preventive care, while using targeted subsidies and risk adjustment to keep coverage affordable without unchecked spending.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable baseline of affordable healthcare for everyone\u2014especially preventive, primary, and emergency care\u2014so no one is denied essential treatment or bankrupted by illness, with strong protections for people with pre-existing conditions. At the same time, it should preserve patient choice and room for private and employer-based options by setting clear standards, enforcing quality and safety, and using transparent pricing and accountability to control costs. A practical approach can blend public funding and targeted subsidies with state and local flexibility and public\u2013private partnerships to expand coverage efficiently and sustainably.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every resident can afford a basic package of essential healthcare\u2014including preventive care, primary care, and emergency protection\u2014so no one is bankrupted or left without treatment. It should set clear quality and safety standards, protect people with pre-existing conditions, and offer targeted help for seniors, people with disabilities, low-income families, and small businesses. At the same time, people should be able to keep private plans or employer coverage if they prefer, with competition and public\u2013private partnerships used to expand access. Strong cost transparency, anti-fraud oversight, and streamlined administration should keep the system fiscally responsible and accountable to patients and taxpayers.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

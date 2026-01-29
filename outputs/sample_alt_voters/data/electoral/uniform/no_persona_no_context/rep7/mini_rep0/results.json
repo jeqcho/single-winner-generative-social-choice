@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people\u2014whether they favor the Electoral College or a national popular vote\u2014want a result that reflects a broad national mandate and is straightforward to verify. A practical compromise is a package of reforms: reduce winner-take-all effects (through proportional or multi-district allocation with anti-gerrymandering safeguards), expand the House to narrow vote-weight disparities, and add uniform recount/certification standards for close elections. That approach keeps the state-based federal structure while making outcomes feel less arbitrary and less dependent on a few battleground states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Whatever our view of the Electoral College, most people want presidential elections that feel fair, transparent, and genuinely national\u2014so outcomes are accepted even in close years. A practical compromise is to reduce winner-take-all distortions by moving toward proportional (or otherwise more representative) elector allocation and by expanding the House to lessen vote-weight disparities, while keeping states central to administering elections. In parallel, we can evaluate the National Popular Vote Interstate Compact and adopt clearer, uniform standards for counting, certification, and recount triggers, comparing options against shared benchmarks of legitimacy, competitiveness, and stability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most of us want a presidential election system that\u2019s trusted, transparent, and produces a winner with a clear national mandate\u2014without making voters in either rural or urban areas feel ignored. A practical compromise is to keep the state-based framework but reduce winner-take-all distortions by encouraging proportional or ranked-choice allocation of electors, while also strengthening nationwide standards for ballot access, counting, and timely recounts. In parallel, expanding the House to better match population can narrow representation gaps and make outcomes feel fairer without forcing an immediate constitutional overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

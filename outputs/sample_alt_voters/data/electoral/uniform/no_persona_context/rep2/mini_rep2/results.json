@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should keep the states\u2019 administrative role but make outcomes track the voters more closely by curbing winner\u2011take\u2011all through proportional elector allocation and setting a clear national tie\u2011breaker that reflects the overall popular vote. To protect smaller states and broad geographic appeal, require candidates to meet a modest multi\u2011region threshold to win outright and use ranked\u2011choice ballots to ensure majority support. Any shift should be phased in with uniform, enforceable standards for registration, ballot access, paper records, audits, and recounts so legitimacy improves alongside representativeness.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform the presidential election to better reflect the national popular will while preserving a meaningful state role by moving away from winner-take-all electors toward proportional (or district-based with independent redistricting) allocation, with an option to adopt the National Popular Vote interstate compact once a broad coalition of states joins. Pair any allocation change with uniform, enforceable national standards for ballot access and administration\u2014secure paper records, routine post\u2011election audits, and clear recount rules\u2014to strengthen legitimacy and reduce litigation. Phase reforms in gradually with bipartisan oversight and transparent public education so the system becomes more representative without abrupt constitutional disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform the Electoral College in a way that keeps states administering elections but makes outcomes better match the voters: encourage states to move away from winner-take-all toward proportional allocation (or district allocation with independent, anti-gerrymandering redistricting) and allow a national popular-vote compact once a broad, politically balanced set of states joins. Pair any change with uniform baseline rules for ballot access and ID options, secure paper records, routine post-election audits, and clear recount standards to reduce fraud concerns and courtroom fights. Phase reforms in over multiple cycles with bipartisan oversight so small and rural states remain heard while every voter\u2019s ballot carries more comparable weight.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "93",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government\u2019s core role should be to set and fund a universal minimum of coverage that guarantees timely primary, preventive, mental-health, and emergency care, and caps out-of-pocket costs so illness never becomes a financial catastrophe. Rather than running all care directly, it should enforce simple national standards for access and quality, use transparent payment rules and competitive purchasing to lower prices, and reduce administrative complexity. Private insurers and providers can continue to operate for delivery and supplemental benefits, but within clear consumer protections and performance-based oversight so taxpayers, patients, and clinicians can trust the system.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee every person an affordable, clearly defined baseline of essential care\u2014especially preventive, mental-health, emergency, and catastrophic coverage\u2014so no one faces medical bankruptcy. To keep the system sustainable, it should negotiate fair prices (including drugs), cut administrative waste, and require price transparency and measurable outcomes. Delivery should rely on a mix of public programs and regulated private options, partnering with local and community providers to preserve choice, innovation, and accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee every resident access to a clearly defined, affordable baseline of essential care\u2014primary, preventive, mental-health, emergency, and catastrophic coverage\u2014so no one is denied treatment or pushed into medical bankruptcy. To keep it sustainable, it should set transparent standards, negotiate fair prices (especially for drugs and high-cost services), and reduce administrative waste while holding insurers and providers accountable for outcomes. People should be free to choose doctors and purchase supplemental private coverage, with local clinics and community organizations supported to reach rural and underserved communities. Reforms should be phased in and fiscally responsible, protecting taxpayers while strengthening public health and the workforce.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

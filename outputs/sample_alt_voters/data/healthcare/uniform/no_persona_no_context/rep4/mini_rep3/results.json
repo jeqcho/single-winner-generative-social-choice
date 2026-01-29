@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star": {
+      "winner": "30",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people can agree healthcare should guarantee access to essential services without forcing families into crushing debt, while still rewarding quality and innovation. A workable middle ground is for government to define and fund a basic, portable benefit\u2014especially for those priced out of coverage\u2014set simple rules for transparency and consumer protection, and step in where competition can\u2019t function. Beyond that baseline, individuals and employers should be free to choose among public and private options, with payment reforms that curb waste and tie spending to outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree that no one should have to forgo needed care or face medical bankruptcy, while also wanting a system that is financially sustainable and preserves choice. A unifying role for government is to guarantee a universal baseline of essential coverage, protect consumers with clear standards for affordability and quality, and provide targeted subsidies or safety-net support where markets fall short. Within those guardrails, public-private partnerships and competition can help drive innovation, prevention, and more transparent pricing to improve outcomes and control costs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should be forced to skip needed care or face financial ruin, and that any system must protect patients while respecting taxpayers and personal choice. The government should guarantee a basic, affordable floor of coverage and strong consumer protections\u2014clear prices, anti-fraud enforcement, and standards for quality and timely access\u2014while allowing people to choose among competing public and private options. Targeted subsidies and support for rural, low-income, and high-risk patients can fill gaps where markets fall short, paired with incentives that reward prevention, primary care, and outcomes to keep costs sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

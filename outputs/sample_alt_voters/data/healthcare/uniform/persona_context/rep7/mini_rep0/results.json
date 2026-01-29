@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "4",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "93",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "93",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure everyone can obtain essential healthcare without fear of bankruptcy by setting a universal floor of coverage for primary, preventive, emergency, and mental-health care, with extra support for those facing poverty, disability, or rural barriers. Rather than a single rigid system, it should use clear national standards and strong oversight to curb fraud, improve competition, and require simple, comparable pricing and quality reporting. People should be free to choose among public and private plans and providers, while payment reforms and targeted subsidies reward high-value care and keep the system fiscally sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a reliable, affordable baseline of essential healthcare so no one is driven into poverty by illness, with strong access to preventive, emergency, and mental-health services. That public floor should be fiscally sustainable and evidence-driven, using price transparency, streamlined administration, and outcome-based accountability to reduce waste and improve quality. It should preserve choice and the doctor\u2013patient relationship by partnering with private, local, and faith- or community-based providers, while using targeted support and local flexibility to close coverage gaps for the most vulnerable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person has access to a dependable, affordable baseline of essential care\u2014primary, preventive, emergency, mental-health, and needed medications\u2014so no family, veteran, senior, or small business is bankrupted by illness. That guarantee should preserve the doctor\u2013patient relationship and allow private plans and providers to compete and innovate, while using clear rules for price transparency, fair reimbursement, and measurable outcomes to reduce waste. A practical path can combine targeted subsidies and a public option or other state\u2011flexible coverage pathway, delivered through strong local clinics and community partners, with rigorous fiscal oversight to keep the system sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

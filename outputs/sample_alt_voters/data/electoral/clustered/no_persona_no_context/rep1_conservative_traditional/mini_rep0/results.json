@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people can agree that presidential elections should be easy to understand, hard to manipulate, and produce a winner seen as legitimate even in close years. A practical middle ground is to keep the constitutional role of states but update incentives: add a uniform baseline for ballot access, counting, recount thresholds, and elector certification, while encouraging states to move away from winner-take-all through proportional or ranked-choice allocation. That approach preserves federalism and coalition-building while making outcomes better reflect voters and reducing the stakes of tiny margins in a few states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Whether we favor keeping or changing the Electoral College, most of us want results that feel legitimate, treat voters comparably across states, and avoid campaigns and recounts hinging on a few \u201cwinner-take-all\u201d battlegrounds. A practical middle path is to keep the state-based framework but reduce winner-take-all distortions through proportional (or carefully designed district-based) elector allocation paired with safeguards against gerrymandering. Alongside allocation changes, adopting clear national baseline standards for ballot access, counting, and certification can strengthen transparency and public confidence regardless of which reform path is chosen.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most Americans\u2014whether they prioritize federalism or one-person-one-vote\u2014want a president chosen in a way that\u2019s trusted, minimizes chaos in close races, and doesn\u2019t make most states feel irrelevant. A practical bridge is to keep the Electoral College framework but reduce winner-take-all distortions by encouraging proportional or district-based elector allocation (with anti-gerrymandering safeguards) and adding clear, uniform national rules for ballot access, counting, and recounts. We can compare reforms by shared yardsticks\u2014legitimacy, regional balance, competitiveness, and recount feasibility\u2014so changes are judged on fairness and stability, not partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

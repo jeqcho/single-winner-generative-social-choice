@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "We don\u2019t have to choose between keeping the Electoral College exactly as it is and abolishing it outright; the shared goal is a result that matches voter intent and is accepted as legitimate across states. A workable compromise is to keep state-run elections and the elector framework, but curb winner-take-all and uncertainty by encouraging proportional (or multi-member) elector allocation, binding electors to certified results, and adopting consistent national standards for audits, recount triggers, and certification timelines. Those changes preserve a federal structure while making outcomes more representative and reducing incentives to fight over razor-thin margins in a few states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Whether we want to keep, reform, or ultimately replace the Electoral College, most people share goals of legitimacy, clear rules, and incentives for candidates to campaign broadly rather than only in a few swing states. A practical bridge is to pursue reforms that keep a meaningful state role while reducing winner\u2011take\u2011all distortions\u2014such as proportional allocation of electors, expanding the House to lessen vote-weight imbalances, and uniform national standards for counting, recounts, and certification. We can evaluate options like the National Popular Vote Interstate Compact alongside these reforms using shared criteria (fairness, stability, and transparency), aiming for rules that would feel acceptable even when our preferred candidate loses.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Even if we disagree on abolishing or keeping the Electoral College, many of us share goals of fairness, national legitimacy, and clear rules that reduce post\u2011election conflict while still respecting states\u2019 roles in running elections. A workable compromise is to keep the state-based framework but curb winner-take-all distortions and swing\u2011state dominance by encouraging proportional or otherwise more representative elector allocation, while also adopting uniform national standards for ballot access, counting, recounts, and elector certification to build trust. We can evaluate options like proportional electors, expanding the House, or the National Popular Vote Interstate Compact against shared criteria\u2014whether the outcome tracks voters\u2019 choices, candidates must campaign broadly, and losers can accept the result as legitimate.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

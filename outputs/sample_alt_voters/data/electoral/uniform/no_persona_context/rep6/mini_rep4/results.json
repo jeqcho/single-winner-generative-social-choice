@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College but narrow the gap between votes and outcomes by encouraging states to replace winner-take-all with a uniform proportional allocation (with a small threshold) or a consistent district-based approach, and by offering a voluntary interstate compact option for states that prefer a national popular-vote link. Any path should be paired with clear national baselines for voter access, ballot design, counting timelines, automatic recount triggers, and post-election risk-limiting audits, while leaving day-to-day administration to states. Phased adoption, shared transparency standards, and penalties for faithless electors can reduce battleground-state distortion and make close elections easier to accept across regions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable compromise would keep state-run elections while reducing winner-take-all distortions\u2014through proportional or district-based allocation of electors\u2014and allowing an interstate compact to move results toward the national popular vote once sufficient states and safeguards are in place. Pair structural changes with clear nationwide baselines for ballot access, counting, automatic recount triggers, and risk\u2011limiting audits to make close outcomes harder to contest and easier to trust. States could adopt ranked\u2011choice voting where practical to encourage broader coalitions and lessen spoiler dynamics without requiring an immediate constitutional overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep states administering elections while making presidential outcomes track votes more closely by reducing winner\u2011take\u2011all\u2014through proportional elector allocation or the Maine/Nebraska district method\u2014and allowing states to join a national popular\u2011vote compact only once clear safeguards are in place. Any structural change should come with simple, nationwide baseline rules for voter eligibility verification, ballot access, counting, automatic recount thresholds, and routine post\u2011election audits to reduce litigation and build trust. Where communities want it, optional ranked\u2011choice voting can help ensure the winner has broad support without forcing a one\u2011size\u2011fits\u2011all system.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star": {
+      "winner": "18",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "No matter where we land on the Electoral College, many of us want a president chosen by rules that treat voters more evenly, keep states meaningfully involved, and minimize post\u2011election chaos. A practical compromise is to reduce winner\u2011take\u2011all distortions by moving toward proportional (or ranked-choice-based) allocation of electors within states, paired with nationwide baseline standards for ballots, audits, and recounts. At the same time, we can evaluate bigger options\u2014like House expansion or a carefully designed popular-vote trigger\u2014using clear metrics: alignment with votes, regional coalition-building, and legitimacy in close elections.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about keeping or replacing the Electoral College, most of us want a result that voters see as fair, stable, and legitimate across all states\u2014and a system that doesn\u2019t make most states feel irrelevant. A practical bridge is to compare reforms that keep a meaningful state role while reducing popular-vote mismatches and swing-state distortion, such as proportional allocation of electors (with anti-gerrymandering safeguards if districts are used), House expansion to reduce small-state imbalance, or the National Popular Vote Interstate Compact with clear thresholds. Alongside any allocation change, adopting uniform standards for counting, auditing, and recounts can build trust and reduce close-election disputes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "No matter our party, most of us want a presidential election that feels fair to individual voters, respects the role of states, and produces results people trust. A practical compromise is to keep the Electoral College\u2019s state-based structure but reduce winner-take-all distortions\u2014through proportional elector allocation (or district-based allocation paired with strong anti-gerrymandering rules) and a larger House to better match population. Alongside that, adopting clear national standards for ballots, audits, and recounts can lower the risk of disputed outcomes while we evaluate bigger options like the National Popular Vote compact or an amendment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

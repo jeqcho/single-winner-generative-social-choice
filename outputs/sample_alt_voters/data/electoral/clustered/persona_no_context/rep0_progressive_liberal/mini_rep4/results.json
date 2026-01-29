@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.26,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for two goals at once: keep the state-based structure that encourages broad coalitions, while making it far less likely that the national vote winner loses. A practical middle path is to keep the Electoral College but require states to award electors by a proportional formula (with a small minimum threshold to avoid extreme fragmentation) and to bind electors to the certified result. Pair that with uniform baseline rules for ballot access, counting, audits, and automatic recount triggers in close races, so outcomes are easier to verify and harder to dispute across states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "The Electoral College can be kept but updated so outcomes track the national popular will more closely while preserving a meaningful role for states. A practical bridge is for more states to adopt proportional (or district-based) allocation and to bind electors to their state\u2019s certified results, while also enabling a National Popular Vote compact once enough states join. Whatever path is chosen, confidence depends on clear, uniform baseline rules for ballot access, recount triggers, audits, and transparent certification so every lawful vote is treated consistently and the result is easy to trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "We can keep the state-based Electoral College structure while making results track voters more closely and be easier to trust: require electors to follow certified state results, and encourage proportional allocation of electoral votes (or an NPV compact once enough states join) to reduce winner-take-all distortions. Pair any change with clear, uniform national baselines for ballot access, counting, audits, and automatic recount triggers, while leaving day-to-day administration to states. This approach respects smaller and rural communities, improves fairness for voters in every state, and strengthens legitimacy by making the rules simple, transparent, and hard to game.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

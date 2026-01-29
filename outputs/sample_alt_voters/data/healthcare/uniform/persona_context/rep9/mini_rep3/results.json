@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "47"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star": {
+      "winner": "52",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star_personas": {
+      "winner": "51",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can access essential healthcare\u2014primary care, preventive services, mental health care, and emergency treatment\u2014without facing medical bankruptcy. A workable middle path is a publicly guaranteed baseline financed transparently and administered with simple, enforceable rules, while allowing people and employers to choose among regulated public and private plans that compete on value and quality. Costs should be contained through negotiated rates, clear billing, and outcome-based accountability, with flexibility for states and local providers to tailor delivery to community needs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential healthcare\u2014especially preventive, primary, mental health, and emergency coverage\u2014so no one is denied care or bankrupted by catastrophic bills. That public floor should come with clear national standards, transparent billing and pricing, negotiated cost controls, and simplified, technology-enabled administration to improve quality and protect taxpayers. People should retain patient choice and the option for private supplemental coverage, with regulated competition and partnerships with local, nonprofit, faith-based, and private providers to deliver culturally competent care and measurable outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person has access to a basic, affordable package of essential care\u2014primary, preventive, mental health, and emergency services\u2014with strong protection against catastrophic medical bills. To respect choice and different views on the role of markets, people should be able to keep or buy private coverage, while public policy sets clear standards for quality, transparency, and fair pricing through negotiated rates and limits on surprise billing. Reforms should emphasize streamlined administration, portable coverage for workers and small businesses, and accountability for outcomes so costs are controlled and care improves without wasting taxpayer dollars.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

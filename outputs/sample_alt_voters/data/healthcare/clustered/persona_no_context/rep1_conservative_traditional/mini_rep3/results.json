@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "34",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a clear national guarantee that everyone can get essential care\u2014primary, emergency, mental health, and needed medications\u2014without medical bankruptcy, while leaving room for multiple coverage and delivery models. Its role should focus on fair financing tied to ability to pay, straightforward enrollment, and strong rules for price transparency, safety, and privacy so taxpayers and patients know what they\u2019re getting. Providers and insurers can compete and innovate above that floor, as long as results are measured, fraud is punished, and local solutions (especially for rural areas) are supported to improve access and control costs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every person has access to affordable, high-quality basic healthcare\u2014especially preventive, mental health, and catastrophic coverage\u2014so no family faces medical bankruptcy. The system should preserve patient choice by partnering with private providers and allowing multiple delivery options, while using transparent pricing, clear quality standards, and accountable oversight to control costs and protect privacy. Investing in prevention and local clinics (including rural and community-based providers) strengthens public health and the economy and can unite compassion with fiscal responsibility.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every American can get basic, affordable care\u2014especially primary care, preventive services, mental health support, and protection against catastrophic medical bills\u2014so no family is ruined by illness and communities stay strong. This can be done with clear standards for quality and privacy, transparent pricing, and strong anti-fraud oversight, while preserving patient choice and allowing private doctors, hospitals, and insurers to compete and innovate. Funding and administration should be accountable and flexible for states and local communities, with targeted support for rural areas and small businesses to keep the system sustainable and fair.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

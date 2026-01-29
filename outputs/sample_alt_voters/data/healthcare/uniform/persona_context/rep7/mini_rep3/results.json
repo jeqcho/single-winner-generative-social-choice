@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "93",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can access essential healthcare without facing medical bankruptcy, by setting clear minimum coverage and consumer-protection standards and providing help where private coverage falls short. A mixed system can meet that guarantee by combining regulated private plans and employer coverage with a public backstop for those who are uninsured or underinsured, while letting patients keep meaningful choice of doctors and plans. Reforms should focus on cutting waste and high prices through competitive purchasing, simplified billing, transparent rates, and payment tied to outcomes\u2014especially for primary care, mental health, and chronic disease management.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should ensure a dependable, affordable healthcare baseline that protects everyone from catastrophic medical costs and medical bankruptcy, with strong access to preventive and mental-health care so families and communities can stay healthy and productive. This guarantee should be delivered with fiscal responsibility and clear accountability\u2014using transparent pricing, streamlined administration, and evidence-based cost controls\u2014while preserving patient choice and room for private innovation. Partnering with private providers, local clinics, and faith- and community-based organizations, with flexibility to meet cultural and language needs, can expand access efficiently while targeting the most vulnerable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person has access to a dependable, affordable core level of healthcare\u2014especially preventive, primary, mental-health, and catastrophic coverage\u2014so no family is bankrupted by illness and communities can stay strong. That guarantee should be delivered with fiscal discipline through clear standards, price transparency, fraud and waste reduction, and streamlined administration, while preserving patient choice and room for private plans and innovation. Partnering with local hospitals, clinics, and community- and faith-based organizations, and using targeted help for low-income families, rural areas, and small businesses, can expand access without a one-size-fits-all approach.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

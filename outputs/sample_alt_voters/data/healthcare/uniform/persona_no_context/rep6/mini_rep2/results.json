@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "48",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a clear national guarantee that everyone can obtain essential healthcare without facing medical bankruptcy, while allowing multiple coverage options so people can keep plans they like or choose a public alternative. To protect taxpayers and patients, it should negotiate and publish prices, invest in primary care and mental-health services, and pay for outcomes rather than volume. Delivery can remain largely private and locally managed, with simple rules that reduce paperwork, encourage competition and innovation, and hold all participants accountable for cost and quality.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential healthcare\u2014especially preventive, primary, mental-health, and catastrophic coverage\u2014so no one is forced into financial ruin and communities remain healthy and productive. A pragmatic approach should pair clear quality standards, price transparency, and streamlined administration with phased, evidence-driven cost controls to keep the system fiscally sustainable. People should retain meaningful choice, including private and employer-based options, while government partners with private providers and innovators to improve access, competition, and outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person has access to an affordable basic package of essential care\u2014primary, preventive, emergency, and mental-health services\u2014so no family or small business is bankrupted by illness and communities stay healthier. It should set clear quality standards, reduce administrative waste, and improve price transparency while paying for outcomes and prevention to keep costs under control. People who want more coverage should be able to choose private or employer plans on top of the public baseline, preserving choice, competition, and innovation through partnerships with private providers.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

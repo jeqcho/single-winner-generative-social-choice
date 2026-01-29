@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "25"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.17999999999999994,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal floor of coverage so every resident can get primary, preventive, mental-health, and emergency care without medical bankruptcy, while allowing people to choose supplemental private plans and providers. Its core roles should be to finance and risk-pool broadly, enforce consumer protections and quality standards, and drive down costs through transparent pricing, simplified billing, and paying for outcomes rather than volume. A hybrid system that empowers states and local communities to tailor delivery\u2014while meeting national benchmarks\u2014can uphold dignity and access without sacrificing innovation, choice, or fiscal discipline.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get essential, evidence-based healthcare\u2014especially preventive, mental-health, and catastrophic coverage\u2014so no family faces medical bankruptcy and communities stay healthy and productive. A pragmatic hybrid approach can set clear baseline standards and provide robust public funding and oversight while partnering with private providers, employers, and local organizations to preserve choice and encourage innovation. Reforms should emphasize fiscal responsibility through price transparency, streamlined administration, and payment incentives tied to quality and outcomes, with targeted help to reach rural and vulnerable populations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person can get essential, evidence-based care\u2014especially preventive, emergency, and mental-health services\u2014without risking medical bankruptcy, through a clear baseline of coverage and protections for pre-existing conditions. To respect choice and different values, that guarantee can be delivered through a hybrid system that uses public standards and funding where needed while partnering with private providers, employers, and community organizations. Reforms should focus on cost control and accountability\u2014price transparency, reduced administrative waste, and outcomes-based payment\u2014so the system is compassionate, sustainable, and fair to taxpayers.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

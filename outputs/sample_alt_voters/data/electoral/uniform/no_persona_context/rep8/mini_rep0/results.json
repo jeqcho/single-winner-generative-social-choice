@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star": {
+      "winner": "30",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A bridging reform would keep the Electoral College but reduce its most distorting features: require electors to vote for the state-certified winner and encourage states to replace winner-take-all with a transparent proportional split that includes a modest statewide bonus to preserve incentives for broad, cross-regional appeal. In parallel, set enforceable national minimums for voter access, paper-based verification, routine risk-limiting audits, and uniform recount triggers so outcomes are easier to trust regardless of the state. If a true national popular-vote mechanism is pursued, it should activate only after a clearly defined supermajority of states adopts it and after several cycles of demonstrated auditability and bipartisan oversight.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A durable compromise would keep states in charge of administering elections but make outcomes reflect voter intent more consistently: require electors to follow certified results, set uniform national baselines for ballot access, paper records, transparent certification, audits, and clear recount triggers. Then reduce winner\u2011take\u2011all distortions by encouraging proportional (or district-based with independent redistricting) allocation of electoral votes, with the option of a National Popular Vote interstate compact that activates only after broad, bipartisan state adoption. Pair any transition with nonpartisan administration and robust public education so results are trusted across regions and communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A bridging reform would keep states administering elections but make the presidential result match voter intent more closely by requiring electors to follow certified state results and reducing winner\u2011take\u2011all\u2014preferably through proportional allocation (or district allocation only with independent, nonpartisan redistricting). Pair any allocation change with clear national baseline rules for ballot access, paper-backed voting, transparent post\u2011election audits, and consistent recount triggers so results are trusted across parties and regions. If a national popular\u2011vote approach is pursued, it should activate only after a broad, bipartisan set of states joins and after public education and a phased rollout to avoid abrupt disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

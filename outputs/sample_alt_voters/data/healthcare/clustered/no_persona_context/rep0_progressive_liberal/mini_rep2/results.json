@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal guarantee that every resident can get timely primary, preventive, emergency, and mental-health care without financial ruin, while letting people choose among competing nonprofit and private plans or a public option. Its main jobs are to finance need-based help, enforce fair rules (preexisting-condition protections, network adequacy, and quality standards), and use competitive purchasing, reference pricing, and anti-fraud measures to keep costs in check. Beyond the core benefit, individuals and employers can buy supplemental coverage, and local clinics and hospitals should be supported through targeted rural and safety-net investments so access is real everywhere.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee universal access to an affordable, high-quality core package\u2014preventive, primary, emergency, pediatric, and mental-health care\u2014with strong protection from catastrophic costs and medical bankruptcy. It should pair this public floor with transparent pricing, portability, and evidence-based cost controls tied to measurable quality and outcomes, while streamlining enrollment and administration. At the same time, policy should preserve patient choice and room for private and employer-sponsored supplemental options, using public\u2013private and community partnerships to expand rural and underserved access and support innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get timely, affordable essential care\u2014especially primary, preventive, mental-health, and emergency services\u2014so no family faces medical bankruptcy or gaps due to job changes or preexisting conditions. It should set clear national standards, negotiate and enforce transparent prices, and reduce waste through measurable quality and cost accountability, while responsibly funding care for low-income, rural, and high-need communities. At the same time, the system should preserve the doctor\u2013patient relationship and allow private and employer-based plans to offer supplemental options and innovation beyond the guaranteed baseline.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "86",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can access a core set of essential health services\u2014primary care, preventive care, mental-health care, and emergency protection\u2014without facing medical bankruptcy, while leaving room for people to choose supplemental private coverage. To do that, it should set clear national standards, help finance coverage on a sliding scale, and enforce fair competition through price disclosure, anti-gouging rules, and measurable quality outcomes. Delivery can remain pluralistic\u2014public programs, nonprofits, and private providers\u2014so long as enrollment is simple, coverage is portable across jobs, and rural and underserved areas are reliably served.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a clear, affordable baseline of essential healthcare\u2014especially preventive, primary, mental-health, pediatric, and catastrophic/emergency coverage\u2014so no family faces medical bankruptcy and communities stay healthy and productive. That public guarantee should be financed and administered with transparent pricing, evidence-based cost controls, streamlined enrollment, measurable outcomes, and strong privacy protections. Delivery should rely on pragmatic partnerships with private providers, community and rural clinics, employers, and faith-based organizations, while preserving patient choice and room for private supplemental plans and innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can get a clearly defined, affordable baseline of essential care\u2014primary and preventive visits, mental-health treatment, needed medications, and emergency/catastrophic coverage\u2014so no family, senior, or worker is driven into medical bankruptcy. To respect taxpayers and patients, that guarantee should come with transparent prices, evidence-based cost controls, streamlined enrollment and billing, and protections for privacy and quality. Care can be delivered through a mix of public programs and private, employer, community, rural, and faith-based providers, while allowing supplemental private options and portable coverage so people keep choice, competition, and innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

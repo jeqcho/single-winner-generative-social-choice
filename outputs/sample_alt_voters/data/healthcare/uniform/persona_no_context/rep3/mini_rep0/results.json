@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "59",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should make sure every resident has continuous access to a clearly defined package of essential healthcare\u2014primary care, preventive services, mental health, and protection against catastrophic costs\u2014so illness doesn\u2019t mean bankruptcy or untreated emergencies. It should set transparent rules that curb surprise billing and price gouging, reward outcomes over volume, and protect patient data, while letting people choose among competing public and private coverage options. Funding should be broad-based and predictable, with targeted help for low-income families and small employers, and implementation should be phased and evaluated so costs and quality stay accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should ensure everyone has access to a basic, affordable package of essential healthcare\u2014especially preventive, mental health, emergency, and catastrophic care\u2014so no family is ruined by illness and communities stay healthier and more productive. It should set clear national standards, protect people with pre-existing conditions, and use cost controls like price transparency, competition, and anti\u2013price-gouging rules to safeguard taxpayers. Within that guaranteed floor, patients should retain meaningful choice, with private insurers and providers able to offer additional options and innovate through accountable partnerships with community and nonprofit organizations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person has access to a basic, affordable package of essential care\u2014including preventive services, mental health, and protection from catastrophic medical bills\u2014so illness doesn\u2019t mean bankruptcy or untreated emergencies. It should set clear standards and transparency rules, curb price gouging, and reward value-based care, while allowing private plans and providers to offer additional options and compete on quality. Funding and reforms should be fiscally responsible and phased, with strong accountability and room for local, community, and faith-based partners to help deliver care where people live.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

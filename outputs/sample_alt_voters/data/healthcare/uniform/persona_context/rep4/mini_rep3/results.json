@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star": {
+      "winner": "27",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star_personas": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person has access to essential healthcare\u2014primary and preventive care, mental-health services, and protection against catastrophic costs\u2014so illness doesn\u2019t lead to avoidable suffering or financial collapse. A workable middle path is a publicly financed minimum standard that people can keep or supplement with private coverage, with strong price transparency, competition where it lowers costs, and negotiation where markets fail. Funding and rules should reward outcomes, reduce administrative waste, and support local clinics and hospitals, especially in underserved rural and urban communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable, affordable baseline of healthcare\u2014covering preventive, primary, mental-health, maternal/child, and emergency care\u2014so no one faces untreated illness or medical bankruptcy. That safety net should be delivered with transparent pricing, targeted cost controls (including negotiated rates where appropriate), and streamlined administration that reduces waste while protecting taxpayers. Public funding should work through strong local public\u2013private and community partnerships that preserve patient choice, support the care workforce, and leave room for innovation and supplemental coverage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident has access to a basic, affordable package of essential care\u2014prevention, primary care, mental health, maternity/pediatric services, and protection from catastrophic bills\u2014so illness never means financial ruin or untreated disease. That guarantee should be delivered with transparent prices, strong anti-fraud oversight, and disciplined budgeting, while letting people keep private options and preserving patient choice. Partnering with local hospitals, community and faith-based clinics, and private providers, and using negotiated prices and targeted subsidies for working families, seniors, and people with disabilities can expand coverage while supporting innovation and keeping the system sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

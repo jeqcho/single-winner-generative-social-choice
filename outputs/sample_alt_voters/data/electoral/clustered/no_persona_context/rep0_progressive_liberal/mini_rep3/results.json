@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should keep states administering elections while reducing the winner-take-all gap between the popular vote and the Electoral College: encourage states to award electors proportionally (with a modest statewide threshold) and require electors to follow the certified result, while leaving room for a National Popular Vote compact or amendment if broad agreement emerges. To protect smaller states and reduce distortions, pair allocation changes with expanding the House and tightening anti-gerrymandering rules for any district-based method. Whatever model is chosen, adopt national minimum standards for ballot access, paper records, routine risk-limiting audits, and consistent recount triggers so outcomes are transparent, verifiable, and widely accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Pursue an incremental reform path that keeps states central to election administration while better aligning presidential outcomes with the national popular will: encourage states to end winner\u2011take\u2011all by adopting proportional (or district-based) elector allocation, and consider joining a carefully designed National Popular Vote interstate compact once broad participation is reached. Complement any allocation change with ranked\u2011choice or runoff rules to ensure the winner has broad support and to reduce spoiler dynamics. Pair reforms with clear national baselines for ballot access, paper\u2011audit trails, routine post\u2011election audits, and uniform recount/certification procedures to strengthen legitimacy and reduce litigation while preserving smaller states\u2019 meaningful voice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Modernize the Electoral College to make outcomes track the voters\u2019 will more closely while preserving states\u2019 role: phase out winner\u2011take\u2011all by encouraging proportional or district allocation, and consider joining a National Popular Vote interstate compact once enough states participate to ensure stability. Add a majority-winner safeguard\u2014ranked\u2011choice ballots or a runoff\u2014so the winner has broad support and spoiler concerns are reduced. Pair any change with national minimum standards for secure paper ballots, transparent audits, and clear recount and certification rules so results are trusted in every community.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

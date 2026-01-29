@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "66"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star": {
+      "winner": "10",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set and finance a universal minimum standard of coverage so everyone can obtain timely primary, preventive, mental-health, and catastrophic care without facing medical bankruptcy. Rather than running all care directly, it should define clear benefits, enforce fair pricing and competition rules, reduce administrative complexity, and pay based on quality and outcomes. Delivery can remain pluralistic\u2014public, private, nonprofit, and faith-based providers\u2014so people keep meaningful choice and innovation continues, while targeted support closes gaps in rural and underserved communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of high-quality care\u2014especially primary, preventive, mental-health, and emergency services\u2014so no one faces medical bankruptcy or is excluded from care. That safety net should be financed and overseen with transparent pricing, strong cost controls, streamlined administration, and outcome-based accountability to keep it sustainable. Implementation should rely on partnerships with local, community, faith-based, and private providers, with portable coverage and room for supplemental private options to preserve patient choice and encourage innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can access an affordable, high-quality basic package of care\u2014primary and preventive services, mental-health care, and protection against catastrophic medical bills\u2014so illness doesn\u2019t mean bankruptcy or going without treatment. That guarantee should be delivered with fiscal discipline through transparent pricing, anti-fraud enforcement, simpler administration, and payment tied to outcomes, while keeping patient choice by partnering with private, nonprofit, and faith-based providers and allowing supplemental private coverage. Coverage should be portable across jobs and life changes, with targeted support for rural and underserved communities to strengthen access and the healthcare workforce.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

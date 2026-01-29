@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for two goals at once: the president should reflect the national popular will, and the system should still encourage broad support across many states and communities. A practical compromise is to curb winner-take-all by requiring proportional allocation of electors (or a uniform district-based method with independent redistricting), paired with consistent national baselines for voter access, paper-audit verification, and recount triggers. If those steps still leave repeated mismatches between votes and outcomes, states could adopt the National Popular Vote compact as a clear, orderly backstop once uniform standards are in place.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential elections reflect the people\u2019s will more closely while preserving the federal role of states and ensuring rural and smaller communities aren\u2019t ignored. A practical middle path is adopting the National Popular Vote Interstate Compact or, alternatively, requiring proportional allocation of electors within each state to reduce winner-take-all distortions and the swing-state effect. Any shift should be paired with clear, uniform nationwide standards for ballot access, counting, audits, and recounts so outcomes are transparent, secure, and broadly trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforming the Electoral College should aim to make each person\u2019s vote matter more equally while keeping a meaningful role for states and rural communities in our federal system. A practical compromise is to keep the Electoral College but require states to allocate electors proportionally (or through a consistent district method), paired with clear national standards for voter access, transparent counting, paper-audit trails, and uniform recount rules. If broader agreement develops, the National Popular Vote Interstate Compact could be a next step once these safeguards are in place. The shared goal is a system that reduces swing\u2011state distortions, rewards broad coalition-building, and strengthens confidence in the result across regions and parties.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

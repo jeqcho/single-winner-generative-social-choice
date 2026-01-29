@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "85",
+      "epsilon": 0.0,
+      "full_winner_idx": "85"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "85",
+      "epsilon": 0.0,
+      "full_winner_idx": "85"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should reduce the current swing\u2011state, winner\u2011take\u2011all incentives while keeping states central to administering elections and preserving constitutional stability. A workable compromise is to adopt a uniform national baseline for access, counting, recounts, and risk\u2011limiting audits, then let states transition from winner\u2011take\u2011all to a proportional elector allocation (with an optional national popular\u2011vote trigger once enough states join). Any change should include anti\u2011gerrymander protections for district methods, clear rules to bind electors, and a measured phase\u2011in so close elections remain predictable and widely accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should make presidential outcomes track the popular will more closely while keeping states in charge of administering elections and protecting smaller communities from being ignored. A durable compromise is to phase out winner\u2011take\u2011all by moving to proportional (or district\u2011based) elector allocation with strong anti\u2011gerrymandering safeguards, while also allowing an interstate compact or constitutional path to a national popular\u2011vote outcome once clear thresholds and legal protections are met. Any change should be paired with national baseline standards\u2014secure paper records, transparent counting rules, routine independent audits and recount procedures, and clear limits on faithless electors\u2014to reduce disputes and build broad confidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College but reduce winner-take-all outcomes so more voters in every state feel heard, for example by allowing proportional or district-based elector allocation paired with independent anti-gerrymander rules. If states pursue a national popular-vote compact, it should include clear trigger conditions, uniform baseline standards for ballot access and counting, paper records, and automatic post-election audits to build trust. Any changes should be phased in, legally clear, and broadly supported, with guardrails against faithless electors and options like ranked-choice ballots where states choose to ensure winners have majority support.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

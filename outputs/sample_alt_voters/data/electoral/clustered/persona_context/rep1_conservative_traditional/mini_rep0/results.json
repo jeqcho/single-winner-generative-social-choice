@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star_personas": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable reform should keep elections administered by states while ensuring the presidency reflects the broadest possible public support and that outcomes are easy to verify and accept. A middle-ground approach is to curb winner-take-all by encouraging proportional elector allocation (or, where states agree, a popular-vote compact) and to bind electors to certified results, while setting national baseline rules for ballot access, paper records, audits, and recount triggers. Any changes should be phased in with clear transparency requirements so rural and urban voters alike see their ballots matter and trust close results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential-election reforms should preserve a state-based, stable framework while making each lawful vote carry more comparable weight and reducing winner-take-all distortions. A practical, phased package could bind electors to certified results, encourage proportional or district-based elector allocation (with optional exploration of an interstate popular-vote compact), and set clear nationwide baseline standards for ballot access, auditable paper ballots, post-election audits, and automatic recount triggers. Implemented transparently with broad oversight, these steps can increase legitimacy, expand campaigning beyond a handful of swing states, and protect smaller and rural communities\u2019 voice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforms to the Electoral College should keep a strong state-based framework while reducing winner-take-all distortions so that every lawful vote has more comparable impact and candidates can\u2019t ignore most of the country. A practical, step-by-step approach would encourage states to adopt proportional (or carefully designed district) allocation and require electors to be bound to certified results, with clear safeguards against gerrymandering. Pair these changes with baseline national standards for ballot access, secure paper ballots, transparent audits, and automatic recount triggers to strengthen confidence and legitimacy without a sudden constitutional overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

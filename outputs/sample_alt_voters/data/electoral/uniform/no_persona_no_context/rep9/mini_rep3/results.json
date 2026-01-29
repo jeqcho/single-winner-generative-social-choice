@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "87",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "87",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "People can disagree about whether the Electoral College should be kept, reformed, or replaced, but there\u2019s broad overlap in wanting a president chosen by rules that treat voters fairly, keep states meaningfully involved, and avoid outcomes that feel like a technicality. A workable compromise is to pursue reforms that reduce winner-take-all distortions and swing-state tunnel vision\u2014such as proportional or ranked-choice allocation within states and a larger House\u2014while also strengthening uniform standards for counting, audits, and recount triggers. With clear metrics (closeness to the popular vote, geographic breadth of support, simplicity, and stability), we can compare options and adopt changes stepwise rather than forcing an all-or-nothing fight.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Whatever our view of the Electoral College, most people want presidential elections that are fair, transparent, and broadly accepted as legitimate\u2014without campaigns fixating on only a few swing states. A workable bridge is to keep states\u2019 administrative role while reducing winner-take-all distortions and bringing outcomes closer to voter intent through options like proportional or district-based elector allocation with strong anti-gerrymandering safeguards, and/or the National Popular Vote Interstate Compact with clear recount and transparency rules. Alongside any structural change, clarifying vote-counting procedures and strengthening uniform baseline standards for access and counting can reduce post-election conflict and make transitions more stable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people\u2014whether they prioritize one person, one vote or preserving a meaningful state role\u2014want presidential elections that are transparent, stable, and accepted as legitimate, without campaigns catering only to a few swing states. A practical compromise is to keep the constitutional state-based framework but reduce winner-take-all distortions by encouraging proportional (or carefully designed district-based) elector allocation with strong anti-gerrymandering safeguards, while also clarifying uniform rules for counting, recounts, and Congress\u2019s certification role. In parallel, states can openly evaluate the National Popular Vote Interstate Compact using agreed criteria like voter equality, regional legitimacy, and clear close-election procedures. Starting from shared standards of fairness and predictability lets us compare reforms on real tradeoffs instead of treating the debate as all-or-nothing.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

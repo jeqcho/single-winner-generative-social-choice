@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "0",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "36"
+    },
+    "chatgpt_star": {
+      "winner": "52",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to treat healthcare like essential infrastructure: government guarantees that everyone can obtain a defined set of necessary services\u2014primary care, preventive care, mental health, and catastrophic coverage\u2014without financial hardship. Beyond that floor, individuals and employers can choose among competing private plans and supplemental options, with transparent pricing and strong consumer protections. Government\u2019s job is to fund the safety net, enforce fair rules and accountability, and reward models that improve outcomes and reduce waste rather than simply paying for volume.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree no one should be denied essential care or face financial ruin from illness, even if they differ on the ideal system. A unifying government role is to guarantee a universal baseline of affordable coverage (including preventive and emergency care), set clear standards for fairness, transparency, and patient protections, and target subsidies to those who need help most. Within that floor, private providers and insurers can compete and innovate on quality and efficiency, preserving choice while keeping costs under control.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no American should be turned away from essential care or face financial ruin because of illness, while also wanting a system that is efficient and respects personal choice. Government\u2019s role can be to guarantee a basic level of coverage for emergencies, preventive care, and catastrophic costs, set clear rules for transparency and patient protections, and target help to those who truly can\u2019t afford care. Within that floor, private insurers and providers should be free to compete and innovate to improve quality and keep costs down, with accountability for results and responsible spending.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

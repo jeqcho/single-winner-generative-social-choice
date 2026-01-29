@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can obtain essential healthcare without facing bankruptcy, by setting a universal minimum standard of coverage and financial protection that applies regardless of job or income. Within that floor, people and employers should retain meaningful plan choices, with private providers and insurers competing under clear rules for pricing transparency, quality measurement, and fair contracting. A sustainable approach prioritizes primary care, mental health, and prevention, while using targeted subsidies and smart regulation to curb runaway costs and reduce administrative waste.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should ensure a universal, affordable baseline of essential healthcare\u2014especially preventive care, primary care, mental health, and protection from catastrophic medical bills\u2014so illness doesn\u2019t become financial ruin and communities stay productive. A practical path pairs clear national standards and cost transparency with strong accountability for insurers and providers, streamlined administration, and targeted help for families and small businesses. Private plans and providers can continue to compete and innovate above the baseline, preserving patient choice while keeping the system fiscally responsible and sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can get essential, affordable healthcare\u2014especially preventive, primary, mental health, and emergency care\u2014so families aren\u2019t bankrupted by illness and communities stay healthy and productive. The most workable path is a fiscally responsible baseline guarantee with clear benefits, strong price transparency, anti-fraud enforcement, and simpler paperwork, while allowing private plans and employer coverage to continue for those who want them. Public dollars should prioritize the most vulnerable, rural and underserved areas, and value-based incentives that reward quality and outcomes rather than volume, balancing compassion with personal choice and accountable spending.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

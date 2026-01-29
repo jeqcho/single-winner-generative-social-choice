@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A politically realistic reform is to keep the Electoral College\u2019s state-based framework but make outcomes track voter preferences more closely by ending winner-take-all and allocating electors proportionally (with a modest state \u201cbonus\u201d if needed to reassure smaller states). Pair any change with uniform national baselines for ballot access, paper-backed voting, automatic recount thresholds, and routine risk-limiting audits, plus enforceable rules against faithless electors. After these safeguards are in place, states could optionally join a popular-vote compact or adopt ranked-choice to ensure the winner has broad, majority support and campaigns compete beyond a few battlegrounds.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Pursue a phased, state-led reform that keeps states central but reduces winner-take-all distortion by encouraging proportional or district-based elector allocation and requiring electors to follow certified results. Establish clear national baseline rules for ballot access, paper-backed voting, transparent certification, uniform recount triggers, and routine post\u2011election audits to increase trust. Once those safeguards are in place and enough states opt in, consider a National Popular Vote compact or similar popular-vote backstop, and pilot ranked-choice voting to reward broad coalitions and avoid spoiler outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform is to keep states administering elections but reduce winner\u2011take\u2011all so more votes count everywhere, through proportional or district-based elector allocation (with a clear, uniform method chosen by states) and laws that bind electors to the state result. In parallel, adopt nationwide baseline rules that both expand access and improve security\u2014paper-backed ballots, transparent counting, routine audits, and clear recount triggers\u2014so close outcomes are trusted. Once these safeguards are in place and enough states agree, the National Popular Vote compact can serve as an optional next step to better align the outcome with the national vote while preserving federalism.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

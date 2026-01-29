@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A consensus reform could keep the Electoral College\u2019s state-based role but curb its most distorting effects by ending universal winner-take-all through a proportional (or proportional-with-threshold) allocation of electors in every state, backed by a uniform national floor for ballot access, secure paper records, routine audits, and transparent certification/recount timelines. To address concerns about legitimacy and close national outcomes, Congress could pair this with clear, enforceable rules binding electors to certified results and a narrowly tailored fallback\u2014such as a contingent national popular-vote tiebreaker or compact trigger\u2014activated only when agreed safeguards are met. Phasing the changes in over multiple cycles and using independent redistricting where districts matter would reduce partisan gamesmanship while giving campaigns incentives to compete beyond a handful of swing areas.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Keep state-run elections but reduce winner-take-all distortions by encouraging proportional (or district-based) allocation of electors, with a clear, phased path to a national popular-vote outcome via an interstate compact once agreed safeguards are in place. Pair any allocation changes with enforceable nationwide baselines for ballot access, secure paper records, routine audits, and automatic recount/certification timelines. Require electors to follow certified results and curb partisan gerrymandering, with ranked-choice voting as an optional tool to ensure broader majority support and reduce spoiler dynamics.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Electoral College\u2019s federal-state role but reduce winner-take-all distortions by encouraging proportional (or district-based with fair, nonpartisan maps) allocation of electors, so fewer voters feel ignored and campaigns compete beyond a handful of swing areas. Pair any change with clear, uniform national baselines for voter access, secure paper ballots, routine post\u2011election audits, and automatic recount/certification rules, plus enforceable limits on faithless electors to protect trust. Changes should be phased in through state legislation and compacts where acceptable, with regular review to ensure rural, small-state, and minority communities remain meaningfully represented.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

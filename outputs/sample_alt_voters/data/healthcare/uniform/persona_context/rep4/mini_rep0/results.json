@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can obtain essential healthcare without facing crushing debt, by setting a clear national standard for core benefits and financial protections. States and communities should be able to meet that standard through a mix of public coverage, regulated private plans, and support for local clinics\u2014so people can keep meaningful choice of doctors and insurance options. The government\u2019s role should also include enforcing fair rules (coverage of preexisting conditions, anti-surprise-billing), investing in primary care and mental health, and using competition, transparent pricing, and payment reform to keep costs and bureaucracy under control.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable, affordable baseline of healthcare so no one faces medical bankruptcy and everyone can access preventive, pediatric, mental-health, and disability supports. This guarantee should be delivered through fiscally disciplined, evidence-based programs with transparent pricing, strong cost and quality oversight, and streamlined administration. Public\u2013private and community partnerships should expand local access while preserving patient choice and room for innovation, with targeted help for the most vulnerable and clear accountability for results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every American can access a basic, affordable set of essential healthcare services\u2014especially primary and preventive care, emergency coverage, maternal/pediatric care, and mental health\u2014so no family faces medical bankruptcy or goes without needed treatment. The most workable path is a transparent, fiscally responsible public guarantee that partners with private insurers, employers, and community clinics, while allowing people to keep or choose private plans if they prefer. Clear price transparency, anti-fraud safeguards, and outcome-based accountability should be required to control costs, strengthen the healthcare workforce, and protect both patients and taxpayers.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

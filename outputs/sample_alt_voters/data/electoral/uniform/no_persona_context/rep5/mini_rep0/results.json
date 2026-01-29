@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Any reform should keep states administering elections while reducing the outsized impact of a few battleground states and making presidential outcomes track voter intent more closely. A practical compromise is to curb winner\u2011take\u2011all by allowing states to adopt proportional or district-based elector allocation, while also leaving room for a National Popular Vote compact if it proves legally durable and broadly supported. Whatever path is chosen should be paired with national baseline rules for ballot access, paper records, recount triggers, certification timelines, and risk\u2011limiting audits so close elections are transparent, consistent, and widely accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Pursue pragmatic, legally durable reforms that keep elections state\u2011run but make outcomes better reflect the voters: reduce winner\u2011take\u2011all by encouraging proportional or district-based allocation of electors and allow states to join an interstate National Popular Vote compact where feasible. Pair any structural change with clear nationwide minimum standards for ballot access, paper records, recount triggers, certification timelines, transparent post\u2011election audits, and nonpartisan oversight. Where states choose, adopt ranked\u2011choice voting for presidential ballots (or for allocating electors) to ensure majority support and reduce spoiler effects, with changes phased in to protect stability and public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform would keep states running elections while making presidential outcomes track voter intent more closely and reducing the winner\u2011take\u2011all, swing\u2011state distortion. States could choose proportional or district-based elector allocation, or join an interstate compact that awards electors to the national popular\u2011vote winner once enough states participate, with any change phased in and clearly defined in law. No matter the model, adopt uniform, enforceable baseline rules for ballot access, voter verification, paper records, recount triggers, and independent post\u2011election audits so results are secure, transparent, and widely trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

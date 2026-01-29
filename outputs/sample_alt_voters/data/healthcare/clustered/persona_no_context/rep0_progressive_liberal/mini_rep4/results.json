@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a clear national guarantee that everyone can obtain essential healthcare without facing denial of care or financial catastrophe, while allowing people to choose among public and private coverage options. Its role is to define minimum benefits and fair rules, fund help for those who cannot afford coverage, and enforce transparency and competition so prices and quality are accountable. Reforms should prioritize prevention, mental health, and streamlined administration, with sustainable financing and room for local, nonprofit, and private providers to innovate and deliver care efficiently.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "The government should guarantee a universal, affordable baseline of essential healthcare\u2014including preventive care\u2014so no one is denied needed treatment or pushed into medical bankruptcy. This should be done with sustainable funding, clear quality standards, and strong oversight that reduces administrative hassle, controls costs, and improves price transparency. Above that basic floor, people should retain meaningful choice among plans and providers, with room for private-sector innovation and community partners to help deliver care efficiently, while directing extra support to the most vulnerable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every person can get essential, affordable healthcare\u2014especially preventive and mental health care\u2014so no one is denied treatment or pushed into medical bankruptcy. A practical path is to set a clear national baseline with sustainable funding, strong cost and quality oversight, and simple enrollment, while allowing private plans, employers, and community and faith-based clinics to deliver care and expand options. Policies should emphasize transparency, fair prices for medicines and services, and targeted help for low-income, rural, and high-need communities so the system protects families without wasting taxpayer dollars.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

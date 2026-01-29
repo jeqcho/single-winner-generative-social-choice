@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "People who disagree about the Electoral College often share two concerns: preserving a meaningful role for states while ensuring the winner reflects broad voter support and avoids frequent legitimacy crises. A workable middle ground is to keep the constitutional structure but reduce winner-take-all effects and swing-state dominance by encouraging proportional or ranked-choice-based elector allocation, paired with stronger, uniform rules for certification, recounts, and election security. We can judge reforms by clear metrics\u2014how much they reduce \u201cdead\u201d votes, how resilient they are in close elections, and whether they still reward candidates who build geographically broad coalitions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about keeping or replacing the Electoral College, most of us want a system where campaigns can\u2019t ignore most voters, results are decisive and trusted, and both people and states feel represented. A practical path is to reduce winner-take-all distortions by expanding proportional or district-based elector allocation with strong anti-gerrymandering safeguards, while also considering the National Popular Vote Interstate Compact with clear, uniform recount and certification standards. We should compare these options against shared criteria\u2014fairness to voters across states, incentives for broad cross-regional coalitions, and clear administration in close elections\u2014rather than treating the debate as all-or-nothing.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about keeping or replacing the Electoral College, many of us share goals of legitimacy, broad regional appeal, and a system where fewer voters feel \u201cwasted\u201d because of where they live. A practical compromise is a stepwise reform package: encourage states to move from winner-take-all to proportional (or district-based with anti-gerrymandering safeguards) elector allocation, paired with clearer national standards for voting access, certification, and recounts to strengthen confidence in close elections. At the same time, we can evaluate larger changes like the National Popular Vote Interstate Compact or a constitutional amendment against the same agreed criteria\u2014fairness to voters, protection against one-region dominance, and stable, decisive outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

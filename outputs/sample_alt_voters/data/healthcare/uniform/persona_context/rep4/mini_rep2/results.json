@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "51",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can enroll in a straightforward, affordable health plan that covers primary, preventive, mental-health, and catastrophic care, with no one driven into bankruptcy by illness. Rather than dictating a single system, it should set clear rules and minimum benefits, subsidize costs on a sliding scale, and use competition and value-based payment to reward high-quality, efficient providers. Strong oversight\u2014price and outcome transparency, fair drug and hospital rate-setting where markets fail, and streamlined administration\u2014can protect taxpayers while leaving room for private options, employer coverage, and local innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a simple, reliable baseline of affordable healthcare so no one faces medical bankruptcy and everyone can access preventive, primary, mental\u2011health, and emergency care. That guarantee should be delivered with lean, transparent administration, strong price and quality oversight (including negotiated drug and service prices), and targeted, income\u2011based help for those who need it most. The system should preserve meaningful patient choice and room for private innovation through well\u2011regulated public\u2013private and community partnerships, with portable coverage and clear accountability for outcomes and costs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can get timely primary, preventive, mental-health, and emergency care without facing medical bankruptcy, while allowing people to keep or choose private coverage if they prefer. To earn broad trust, the guarantee should be financed and administered transparently, with strong fraud prevention, simpler and portable coverage, and real cost discipline through price transparency, negotiated drug costs, and outcomes-based payment. Delivery should rely on a mix of public programs and well-regulated private, employer, nonprofit, and faith- or community-based providers, with targeted help for low-income families, seniors, people with disabilities, and rural communities so the system is compassionate, fiscally responsible, and choice-preserving.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

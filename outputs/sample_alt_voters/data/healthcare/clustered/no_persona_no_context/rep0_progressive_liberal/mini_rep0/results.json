@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable consensus is that government should ensure every resident can obtain timely essential care without facing financial ruin, while keeping the system accountable to taxpayers. That means setting minimum coverage standards, funding need-based assistance, and using transparent price and quality rules to curb waste and unfair billing. Within those guardrails, private and nonprofit providers and insurers can compete to deliver services and offer additional options, preserving choice and encouraging innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people want a healthcare system that guarantees timely, affordable essential care without medical bankruptcy, while using public funds transparently and efficiently. Government should ensure universal basic coverage and strong consumer protections, invest in prevention and public health, and set clear quality standards. It should also partner with regulated private providers and insurers to preserve choice and encourage innovation, using tools like fair price negotiation and value-based incentives to control costs and improve outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should be denied essential care or pushed into debt because they get sick, and that public dollars should be used transparently and efficiently. Government should guarantee universal basic coverage, protect patients from catastrophic costs, and invest in prevention and public health, while setting clear standards and enforcing fair pricing and quality. Within that universal floor, private and community providers can compete to deliver care, with policies that reward value, expand choice, and reduce paperwork so the system stays responsive and sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

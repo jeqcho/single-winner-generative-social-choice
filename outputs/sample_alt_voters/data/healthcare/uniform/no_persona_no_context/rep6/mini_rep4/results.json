@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable consensus is that government should make sure every resident can obtain essential, timely healthcare without facing financial collapse, while keeping taxes and spending transparent and sustainable. That means defining an evidence-based essential benefits floor, funding it through a mix of public support and income-based subsidies, and enforcing rules on pricing transparency, nondiscrimination, and consumer protections. Beyond that floor, people and employers can choose among competing plans and delivery models, with payment reforms that reward measurable outcomes and efficient care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree no one should be denied essential care or face financial ruin because they get sick, and that a healthier population strengthens the economy. A workable role for government is to guarantee a basic, portable floor of coverage and affordability, enforce fair rules (non-discrimination, transparency, and consumer protections), and pay or subsidize coverage when needed\u2014especially for the most vulnerable. Within those guardrails, private and public providers can compete and innovate, with incentives tied to measurable outcomes, prevention, and value-based care to control costs and reduce waste.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should be forced to choose between getting essential care and financial ruin, and that a healthier population strengthens families, communities, and the economy. The government should guarantee an affordable basic level of coverage and core consumer protections\u2014preventing discrimination and surprise pricing\u2014while letting people keep choices among doctors and plans and allowing private and public providers to compete on quality. To respect taxpayers and fiscal concerns, reforms should emphasize transparency, paying for value-based outcomes, and phased, evidence-driven steps that expand access while reducing waste.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

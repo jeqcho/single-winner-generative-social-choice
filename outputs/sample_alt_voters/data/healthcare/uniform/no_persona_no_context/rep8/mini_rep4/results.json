@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is that government guarantees universal, portable coverage for essential care\u2014so employment, income, or preexisting conditions never block treatment\u2014while people can choose among competing nonprofit or for\u2011profit plans and providers. Public policy should set clear rules for fair pricing, baseline benefits, and consumer protection, and use payment reforms and transparency to reward value over volume. This approach secures a shared floor of health security and cost control without requiring a single government-run delivery system.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree that no one should have to forgo needed care\u2014or risk bankruptcy\u2014because of cost, while also expecting high-quality services and responsible use of public funds. A durable middle ground is for government to guarantee universal access to a basic package of essential and preventive care with strong protection against catastrophic expenses. Government should also set clear standards for affordability, quality, and price transparency, while letting a mix of public and private plans and providers compete and innovate to improve outcomes and keep costs down.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should be denied essential care or face financial ruin because they get sick, and that the system should reward timely, high-quality treatment. Government should guarantee a basic, portable package of coverage\u2014especially for emergencies, primary care, and catastrophic costs\u2014while setting clear rules for price transparency, fair billing, and quality outcomes. Within those guardrails, private and public providers should be free to compete and innovate, giving patients real choice and protecting taxpayers through strong oversight and anti-waste measures.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

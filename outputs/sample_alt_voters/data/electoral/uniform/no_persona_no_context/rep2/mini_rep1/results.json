@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most Americans\u2014whether they favor the Electoral College or a national popular vote\u2014want a result that reflects broad support, treats voters consistently, and avoids post\u2011election brinkmanship. A workable compromise is to standardize election administration and recount triggers nationally, then reduce winner\u2011take\u2011all incentives by encouraging proportional (or RCV-based) elector allocation within states and expanding the House to better match population. These steps keep states in the process while making outcomes more representative and less dependent on a few razor-thin swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Whatever our view of the Electoral College, most people want presidential elections that are legitimate, transparent, and stable, and that don\u2019t hinge on chaos in a few razor-thin swing states. A practical bridge is to compare reforms against shared criteria\u2014fairness to voters and states, incentives to campaign broadly, and clear recount/audit rules\u2014by testing options like proportional or district-based elector allocation (with anti-gerrymandering protections), clearer national standards for close elections, and the National Popular Vote Interstate Compact with explicit safeguards and transition timelines. Framing the debate around measurable trust and representativeness can help people disagree on mechanisms without questioning motives.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Whatever we think of the Electoral College, most people want a system that feels legitimate, keeps states meaningfully represented, and avoids razor-thin outcomes turning into chaos. A practical compromise is to reduce winner-take-all distortions by encouraging proportional allocation of electors (or district allocation paired with strong anti-gerrymandering rules), while setting clear national standards for audits, recounts, and certification timelines. Those reforms can be judged by shared metrics\u2014fairness to voters in every state, incentives to campaign broadly, and public confidence\u2014before considering larger changes like the National Popular Vote compact or a constitutional amendment.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

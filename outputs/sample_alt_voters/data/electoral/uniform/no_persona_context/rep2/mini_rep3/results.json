@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Constitution\u2019s state-based structure while ensuring the winner reflects broad national support and voters in non-battleground states matter more. States could choose a standardized menu of reforms\u2014such as proportional elector allocation with strong anti-gerrymandering rules or participation in a national popular-vote compact once it reaches a clear threshold\u2014paired with enforceable national baselines for access, paper records, audits, and recount timelines. Adding clear rules to prevent faithless electors and phasing changes in with independent oversight can improve legitimacy without destabilizing the system.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep states administering elections while making presidential outcomes track the national popular will more closely and reducing winner\u2011take\u2011all distortions. A pragmatic package is to encourage states to adopt proportional (or district-based) elector allocation and/or join a National Popular Vote interstate compact, paired with uniform national baselines for voter access, secure paper records, transparent audits, and clear recount/certification rules. Add safeguards such as anti\u2011gerrymandering standards for any district plan and binding rules against faithless electors, with a phased rollout and bipartisan oversight to preserve stability and protect smaller-state concerns.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the state-based system but make outcomes track voter preferences more closely by encouraging states to move from winner-take-all to proportional elector allocation (or a national popular-vote compact if broadly adopted), paired with clear rules that prevent gerrymandering from deciding presidential outcomes. Any change should come with nationwide baseline standards for access, secure paper records, transparent audits, and straightforward recount/certification procedures so results are trusted across parties. Phasing reforms in with bipartisan, independent oversight can protect smaller and rural communities\u2019 voice while reducing swing-state distortions and making more voters feel their ballots matter.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

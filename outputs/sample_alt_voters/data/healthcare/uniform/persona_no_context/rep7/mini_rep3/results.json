@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can obtain essential healthcare\u2014primary, preventive, emergency, and mental health care\u2014without facing medical bankruptcy, by setting national minimum standards and funding a portable baseline plan. Within that guarantee, people should be free to choose among competing public, nonprofit, and private options, with states and local providers able to tailor delivery to community needs. Strong transparency, anti-fraud enforcement, and payment reforms that reward outcomes over volume can curb waste and protect taxpayers while improving quality.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential healthcare\u2014including preventive, emergency, and mental/behavioral health care\u2014so no one faces medical bankruptcy or is denied coverage for preexisting conditions. That guarantee should be paired with clear national standards, strong oversight against fraud and waste, and transparent pricing and quality metrics to control costs and improve outcomes. Within this public floor, policies should preserve patient choice and encourage private and community-based providers to innovate and compete, with room for supplemental coverage and locally adaptable delivery.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person has access to essential, timely healthcare and protection from catastrophic medical bills, so illness doesn\u2019t mean bankruptcy or untreated suffering. It can do this by setting clear national standards, funding a basic, portable coverage floor, and protecting people with preexisting conditions, while allowing private plans and employer coverage to offer additional options. To respect taxpayers and patient choice, reforms should prioritize prevention, transparent pricing, fraud reduction, and payment rules that reward quality and efficient care through partnerships with states, local providers, and community organizations.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

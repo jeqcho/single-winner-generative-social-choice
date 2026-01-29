@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star": {
+      "winner": "31",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "People on both sides can agree the current system creates avoidable flashpoints\u2014most voters feel sidelined, and close results can turn into high-stakes procedural fights. A practical middle path is to keep the Electoral College framework but adopt reforms that make outcomes more representative and more predictable: require states to allocate electors proportionally (with anti-gerrymandering safeguards if districts are used), expand the House to reduce disparities, and set uniform national rules for recounts, audits, and elector certification. Those changes preserve federalism while reducing winner-take-all distortions and strengthening confidence that the winner reflects broad public support.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about abolishing the Electoral College, we can agree the winner should reflect broad national support, every voter should feel their ballot matters, and close outcomes should be resolved by clear, trusted rules. A practical path is to keep the constitutional framework but reduce winner-take-all distortions through proportional (or district-based with anti-gerrymandering safeguards) elector allocation, paired with stronger national standards for ballot access, counting, audits, and recount thresholds. For those who want a closer link to the national vote without an immediate amendment, states could also consider the National Popular Vote Interstate Compact with transparent contingency rules. We should judge each option by shared benchmarks\u2014fairness, stability, and public confidence\u2014rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Even with different views on the Electoral College, many of us can agree on a few basics: every eligible voter\u2019s ballot should matter, the rules should be stable and transparent, and close elections should be resolved by clear, uniform recount and audit standards. A realistic compromise is to keep states administering elections while reducing winner-take-all distortions\u2014through proportional or district-based electors with anti-gerrymandering safeguards\u2014and pairing that with nationwide minimum standards for ballot access, counting, and elector certification. We can judge any proposal, including the National Popular Vote Interstate Compact or ranked-choice voting, by shared benchmarks: fairness across states, reduced incentives to ignore \u201cnon-battleground\u201d voters, and outcomes the public will accept as legitimate.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "48",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise would keep the Electoral College but reduce its distortions by requiring states to allocate electors proportionally using a common formula (with an optional ranked-choice tally within each state to ensure the winner has broad support). In parallel, establish enforceable national baseline rules for voter access, transparent tabulation, routine risk\u2011limiting audits, and clear deadlines for certification and recounts, while binding electors to the certified result. If these steps prove stable over several cycles, a national popular\u2011vote compact or constitutional change could be considered with a clear trigger and bipartisan oversight to protect legitimacy and smaller\u2011state concerns.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A consensus reform should keep states administering elections but reduce winner\u2011take\u2011all distortions by encouraging proportional or district-based allocation of electors, phased in with clear triggers and broad bipartisan support. In parallel, adopt national minimum standards for voting access, secure counting, transparent certification, and routine post\u2011election audits/recounts, and require electors to follow the lawful results to prevent faithless outcomes. Once these safeguards are in place, states could join an interstate compact to align the presidency more closely with the national popular vote while encouraging candidates to compete beyond a few battlegrounds.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep the states\u2019 constitutional role in presidential elections while reducing winner\u2011take\u2011all distortions so fewer elections hinge on a handful of battleground states. A practical compromise is to allow (or incentivize) states to award electors proportionally or by district, with a national popular\u2011vote compact considered only after broad bipartisan buy\u2011in and clear protections for close elections. Any change should be paired with national minimum standards for ballot access, secure counting, transparent audits/recounts, and enforceable rules that electors must follow certified results, so outcomes are trusted across parties and communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

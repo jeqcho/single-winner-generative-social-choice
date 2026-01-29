@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "40"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "68",
+      "epsilon": 0.0,
+      "full_winner_idx": "68"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star_personas": {
+      "winner": "95",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a firm national guarantee that everyone can obtain essential healthcare\u2014including primary, preventive, mental health, and emergency services\u2014without facing crippling medical debt. It should define clear benefit and quality standards, finance coverage for those who can\u2019t afford it, and regulate insurers and providers to curb surprise billing, improve price transparency, and reward outcomes. Within those rules, people should be able to choose among competing public and private plans and keep trusted doctors, while states and local systems retain flexibility to deliver care efficiently. This approach treats healthcare access as basic security while respecting choice, innovation, and long-term fiscal sustainability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every person has reliable access to essential, high-quality healthcare\u2014especially preventive and catastrophic care\u2014so no one is bankrupted by illness and communities remain stable. This guarantee should preserve patient choice by partnering with private providers and employers, while setting clear standards, protecting pre-existing conditions, and ensuring portability. Reforms should focus on transparent pricing, streamlined administration, and evidence-based cost controls to reduce waste and keep the system fiscally sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident has access to essential, high-quality healthcare\u2014especially preventive and primary care\u2014and protection from catastrophic medical bills, so illness doesn\u2019t lead to bankruptcy or untreated suffering. A workable approach sets clear national standards for coverage, pricing transparency, and patient protections, while allowing private plans and providers to compete and innovate within those rules. Reforms should streamline administration, reward outcomes, and target extra support to rural communities, low-income families, seniors, and people with chronic conditions, with strong fiscal oversight to keep the system sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

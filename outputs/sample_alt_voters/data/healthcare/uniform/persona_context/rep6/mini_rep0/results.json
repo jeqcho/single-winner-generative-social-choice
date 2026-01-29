@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal minimum standard of access\u2014ensuring everyone can obtain essential primary care, preventive services, mental-health support, and strong protection against catastrophic medical bills\u2014so illness doesn\u2019t become financial ruin. Rather than mandate a single delivery model, it should finance that floor in a way that allows people to keep or choose private coverage and lets local clinics, nonprofits, and employers participate. The public role should focus on fair rules, transparent prices, competition where it works, and targeted subsidies for those who can\u2019t afford coverage, with measurable outcomes and safeguards against waste.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable, affordable baseline of essential healthcare\u2014especially preventive, primary, mental-health, and catastrophic protection\u2014so no one faces medical bankruptcy and vulnerable people receive timely, dignified care. That public floor should preserve meaningful patient choice and room for private, nonprofit, and community-based providers by relying on transparent pricing, portable benefits that follow people across jobs, and streamlined administration. Reforms should be phased and evidence-driven, with clear accountability for outcomes and fiscal stewardship, using targeted public funding and public\u2013private partnerships to expand access without overcentralizing care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every American can access a basic, affordable package of essential care\u2014especially preventive, primary, mental-health, and catastrophic protection\u2014so illness doesn\u2019t lead to bankruptcy or untreated conditions. That guarantee should preserve patient choice by using a mix of public programs and regulated private plans, with benefits that are portable across jobs and life changes. To earn trust across viewpoints, the system should require clear price transparency, strong anti-fraud safeguards, and measurable outcomes, and it should be improved through phased, fiscally responsible reforms that partner with employers, local clinics, and community providers.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

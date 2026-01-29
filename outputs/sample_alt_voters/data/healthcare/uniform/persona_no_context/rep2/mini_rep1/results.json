@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "49",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a clear national guarantee that no one goes without essential care\u2014primary care, emergency services, and necessary medications\u2014while allowing people to keep or choose supplemental private plans and provider networks. Its core role is to finance and enforce fair rules (portable coverage, protections for preexisting conditions, and simple enrollment), and to demand measurable value through price transparency, competition where it works, and negotiated limits where markets fail. Reforms should be phased in and judged by outcomes\u2014better health, fewer bankruptcies, and predictable costs for families, employers, and taxpayers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can get basic, affordable, high-quality healthcare that prevents medical bankruptcy and supports healthy families and communities. It should set clear standards, fund a dependable safety net, and require transparency and accountability, while partnering with private and local providers to preserve patient choice, competition, and innovation. Reforms should prioritize preventive and mental health care, simplify administration with modern health IT, and use evidence-based cost controls so universal access is achieved sustainably and efficiently.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person can get essential, high-quality care\u2014so no family faces medical bankruptcy and communities stay healthy\u2014while protecting patient choice and respecting the work of doctors, nurses, and frontline staff. A practical path is a guaranteed basic coverage floor with strong preventive and primary care, transparent prices, and targeted help for catastrophic costs, delivered through accountable public oversight and partnerships with private and local providers. Reforms should be evidence-based, fiscally responsible, and regularly evaluated to reduce waste and bureaucracy while improving outcomes for seniors, workers, and vulnerable neighbors.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

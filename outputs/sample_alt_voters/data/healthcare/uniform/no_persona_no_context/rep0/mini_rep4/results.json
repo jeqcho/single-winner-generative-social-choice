@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is for government to set and fund a universal floor of coverage\u2014covering primary care, essential medications, mental health, and emergency protection\u2014so everyone can get care without financial catastrophe. It should also police clear rules: transparent prices, nondiscrimination, and payment models that reward results rather than volume. Within that framework, private and local actors can compete to offer better service and supplemental options, preserving choice while keeping the system fair and financially sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people share the goals of universal access, protection from catastrophic medical costs, and fiscally sustainable spending. A workable middle ground is for government to guarantee an affordable baseline of essential coverage and strong patient protections\u2014using transparent rules, targeted subsidies, and value-based incentives\u2014while allowing private plans and providers to offer additional options and innovate. By acting as a fair regulator and backstop insurer of last resort, government can reduce uncompensated care and improve preventive health without imposing a one-size-fits-all delivery model.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people share the goal that everyone can get essential healthcare without facing bankruptcy, while also wanting a system that is efficient and fiscally responsible. Government should guarantee a basic, affordable floor of coverage and strong protections (including for preexisting conditions and catastrophic costs), set clear rules for price and quality transparency, and invest in prevention and rural/community access. At the same time, private insurers and providers can compete to offer better service and additional options within those standards, so people keep choice while taxpayers and families get better value.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

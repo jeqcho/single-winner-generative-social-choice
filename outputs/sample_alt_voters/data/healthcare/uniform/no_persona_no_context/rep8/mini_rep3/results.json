@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable consensus is that government should ensure everyone can obtain essential care without being denied for inability to pay, while keeping total costs accountable to taxpayers and households. That can mean defining a basic benefit floor, providing income-based support and automatic enrollment options, and enforcing simple, transparent rules that prevent surprise bills and discriminatory coverage. Within those guardrails, private and public plans and providers can compete on service and outcomes, with payment incentives that reward prevention and value rather than volume.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree that no one should be denied essential care or face financial ruin because they get sick, and that the system should deliver timely, affordable, high-quality care. A bridging role for government is to guarantee a baseline of coverage and strong consumer protections (e.g., against coverage gaps and surprise billing), while setting transparent standards for cost and quality. Within those guardrails, policymakers can preserve patient choice and encourage competition and innovation among public and private providers to improve outcomes and control costs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should be denied necessary care or face financial ruin because they get sick, while also wanting a system that rewards efficiency, choice, and innovation. A bridging role for government is to guarantee a basic floor of coverage (especially for emergencies, primary care, and essential medicines), protect people from surprise bills and preexisting-condition discrimination, and make prices and quality transparent. Beyond that baseline, people and employers should be free to choose among competing plans and providers, with simple rules and outcome-based accountability to keep costs sustainable and reduce waste through prevention.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

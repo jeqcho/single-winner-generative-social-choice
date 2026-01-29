@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim for one clear principle: the winner should reflect the broad will of voters while preserving the states\u2019 role in administering elections and preventing any region from feeling written off. A pragmatic path is to end winner-take-all by requiring each state to allocate electors proportionally (with a small, consistent threshold) and to bind electors to the certified results, reducing the chance that a few swing counties decide everything. Any change should be paired with baseline national standards for voter access, paper-audited counting, recount triggers, and certification timelines so the rules are predictable and trusted no matter which party wins.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A practical reform should make presidential elections feel fair and trustworthy by reducing winner-take-all distortions while still respecting the role of states and rural communities. A strong middle path is to adopt the National Popular Vote Interstate Compact once enough states join, or require proportional allocation of electors within states, so more votes matter in every state and outcomes better reflect the public will. Any change should be paired with clear, uniform standards for ballot access, recounts, certification, and paper-audit security to build confidence across party lines, and can be strengthened with ranked-choice voting where feasible to reward broad coalitions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential elections should be easy to understand and trust, and should reflect the will of voters while ensuring smaller states and rural communities are not ignored. A practical reform is to reduce winner-take-all by requiring states to allocate electors proportionally (or adopt the National Popular Vote Interstate Compact once enough states join), paired with ranked-choice voting where states choose to use it so winners earn broad support. Any change should come with clear, uniform standards for ballot access, audits, recounts, and certification to protect voting rights and election security across all states.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

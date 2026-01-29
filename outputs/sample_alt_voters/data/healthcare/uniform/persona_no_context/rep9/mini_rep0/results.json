@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_personas": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "The government should ensure that every person can get necessary care\u2014especially primary, preventive, and catastrophic coverage\u2014without medical debt, through a guaranteed minimum standard of coverage and income-based support. Within that floor, people should be free to choose among competing plans and providers, including private options, while rules enforce transparency, fair billing, and protections for preexisting conditions. Cost control should focus on outcomes-based payment, simpler administration, and targeted public investment in rural clinics and public health so access improves without wasteful spending.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can access essential, affordable healthcare\u2014especially preventive and catastrophic coverage\u2014so illness doesn\u2019t lead to medical bankruptcy or untreated conditions. A workable approach can combine a clear public baseline with regulated, competitive private options and local providers to preserve patient choice and encourage innovation. To protect taxpayers and improve outcomes, policies should emphasize transparent pricing, portability, fraud prevention, and accountable administration that rewards quality and efficiency.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "The government should ensure that every person can get essential healthcare\u2014especially preventive, primary, mental health, and catastrophic coverage\u2014so no family is pushed into medical debt or forced to delay needed care. It should set clear, accountable standards for quality and fair pricing, simplify enrollment, and protect patients while partnering with private insurers and local providers to preserve choice and innovation. Cost control should rely on transparency, fraud prevention, competition where it works, and payment reforms that reward better outcomes, with targeted help for low-income workers, children, seniors, and people with disabilities to keep the system fiscally sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

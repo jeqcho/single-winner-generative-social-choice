@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star": {
+      "winner": "30",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "30"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable consensus is that the government should ensure everyone can access essential care without fear of financial catastrophe, while keeping the system fiscally responsible. That can mean setting a universal minimum benefit, enforcing clear consumer protections (like nondiscrimination and transparent pricing), and using smart purchasing to reward value and prevention. People who want additional coverage or alternative models should be able to choose private options, as long as the baseline guarantee remains strong and fair.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should be denied essential care or face medical bankruptcy, while the system remains financially sustainable. A workable government role is to guarantee a universal baseline of affordable coverage, with targeted help for low-income and high-need patients, and to set fair rules for insurers and providers through transparency, quality standards, and cost-control oversight. Beyond that baseline, allowing private plans and delivery models to compete can preserve choice and encourage innovation while meeting shared public health goals.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable common ground is that no one should be denied essential care or face bankruptcy because they get sick, and taxpayers deserve a system that is transparent and fiscally responsible. Government should guarantee a basic level of coverage with clear standards for quality and pricing, and provide targeted help for low-income, rural, disabled, and elderly patients where markets fall short. At the same time, private insurance and providers can continue to offer choices above that baseline, with fair rules that promote competition, innovation, and simpler billing.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

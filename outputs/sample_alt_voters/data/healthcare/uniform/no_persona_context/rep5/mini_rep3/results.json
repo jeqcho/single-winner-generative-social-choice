@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "35",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a nationwide guarantee that everyone can obtain affordable primary, preventive, emergency, and catastrophic coverage, while allowing people to purchase additional benefits through private plans if they choose. Rather than running all care, it should set clear standards, simplify enrollment, and use tools like price transparency, competitive purchasing, and anti-monopoly enforcement to reduce costs and reward quality. Funding should be progressive and reforms phased in with measurable targets, with flexibility for states and local providers to meet the baseline in ways that fit their communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential and preventive healthcare\u2014including protection from catastrophic costs\u2014so no one is left without timely care and families are shielded from medical bankruptcy. That public floor should be paired with strong cost controls and transparency (negotiated prices where needed, simplified administration, and clear outcome metrics) to ensure fiscal sustainability and accountability. Private insurers, employers, and local/community providers should be able to offer supplemental coverage and innovate within clear standards, preserving choice while strengthening access for rural and vulnerable populations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every person can access a basic package of affordable, high-quality care\u2014especially primary, preventive, mental-health, and emergency services\u2014so no family faces medical bankruptcy. It should do this with clear standards, transparent pricing, strong anti-fraud oversight, and cost controls, while allowing private insurers and employers to offer supplemental choices and reward innovation. Reforms should be phased in with simple enrollment, targeted help for low-income and rural communities, and publicly reported outcomes to protect taxpayers and build trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

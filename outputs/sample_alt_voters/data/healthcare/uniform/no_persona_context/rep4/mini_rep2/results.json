@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government\u2019s role should be to make sure everyone can obtain timely, essential healthcare\u2014especially primary, preventive, emergency, and mental-health care\u2014without risking financial ruin. It can do this by setting a national minimum benefit standard and income-based assistance, while letting people choose among competing public and private plans and keeping provider options broad. To keep the promise affordable, government should enforce clear pricing and billing rules, negotiate where markets fail (e.g., drugs), and tie payment to measurable outcomes and reduced waste.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a clearly defined, affordable baseline of essential healthcare\u2014especially preventive, mental-health, emergency, and chronic-care services\u2014so no one faces medical bankruptcy. To keep the system sustainable, it should pair that guarantee with transparent pricing, negotiated or regulated cost controls where needed, and outcome-based accountability to reduce waste and reward value. Private plans and providers should remain available for supplemental coverage and innovation, supported by partnerships with local clinics and community organizations to improve access in underserved areas.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can access a clearly defined package of essential care\u2014primary and preventive services, mental health, emergency care, and management of chronic conditions\u2014so no one is forced into medical bankruptcy. It should set fair rules that make costs understandable and controllable (transparent pricing, negotiated rates where appropriate, anti\u2011fraud enforcement, and payment that rewards outcomes), while allowing private insurance and supplemental options for those who want more choice. Delivery should rely on partnerships with private providers, local clinics, employers, and community organizations, with targeted help for seniors, children, rural and underserved communities, and working families. This approach treats health as a shared responsibility while respecting individual freedom, innovation, and fiscal accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

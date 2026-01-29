@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should make sure every resident can get timely primary, preventive, emergency, and mental health care, with strong protection against catastrophic bills, while leaving room for regulated private plans and provider competition. It should set fair rules\u2014transparent prices, minimum benefit standards, and enforceable quality metrics\u2014and simplify enrollment so coverage is portable as jobs and life circumstances change. Reforms should be phased in and funded responsibly, with special attention to rural access and high-need patients, so the system improves outcomes without stifling innovation or choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential care\u2014including primary, preventive, emergency, and mental health services\u2014so no one faces medical bankruptcy or goes without needed treatment. It should pair this safety net with strong transparency and value-based standards (pricing, quality, and outcomes), streamlined administration, and phased, evidence-driven reforms that protect taxpayers and build trust. Regulated private plans and public\u2013private partnerships can offer supplemental options, preserve choice, and reward innovation, with targeted support for rural communities, children, and people with disabilities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person has access to affordable, high-quality essential care\u2014primary, preventive, emergency, and mental health\u2014so no family faces medical bankruptcy, while leaving room for regulated private plans and employer coverage for additional options. To respect taxpayers and patients alike, reforms should focus on clear quality standards, price transparency, fraud reduction, and streamlined administration that rewards better outcomes rather than higher volume. A phased approach built with states and local providers, with targeted help for low-income, rural, seniors, and people with disabilities, can expand coverage while protecting choice, innovation, and fiscal responsibility.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

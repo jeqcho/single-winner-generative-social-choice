@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal guarantee that everyone can access timely primary, preventive, mental-health, and emergency care without financial hardship, funded transparently and with extra support for high-need and underserved communities. It should use its purchasing and regulatory power to curb excessive prices, reduce administrative waste, and enforce quality standards, while allowing regulated private plans to offer faster access or additional benefits. Delivery can remain pluralistic\u2014public, nonprofit, and private providers\u2014so long as outcomes are measured and accountability is clear.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential care\u2014especially preventive, mental-health, chronic, and catastrophic coverage\u2014so no one faces medical bankruptcy and communities stay healthy. It should pair this safety net with strong cost controls and transparency (clear prices, outcomes, and streamlined administration) and targeted supports for vulnerable groups such as children, rural residents, and people with disabilities. Private providers and insurers can compete and innovate within clear standards, offering supplemental options and partnering with local and community-based care to preserve choice and improve value.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every person can get basic, preventive, mental-health, and catastrophic care without facing medical bankruptcy, with extra support for seniors, children, rural communities, and people with disabilities or chronic conditions. It should set clear quality standards, require transparent pricing and outcomes, reduce administrative waste, and use evidence-based cost controls so taxpayers and patients can trust the system. Within that universal floor, people should be able to choose among competing private and community providers\u2014and buy supplemental coverage\u2014so innovation and personal responsibility are preserved while no one is left without care.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

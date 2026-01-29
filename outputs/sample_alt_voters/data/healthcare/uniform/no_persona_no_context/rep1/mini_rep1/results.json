@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "85",
+      "epsilon": 0.0,
+      "full_winner_idx": "85"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable consensus is that government should ensure every resident can obtain essential care\u2014especially primary, preventive, and emergency services\u2014without facing financial ruin. Rather than prescribing a single delivery model, it can set transparent rules for coverage, pricing, and consumer protections, and then let a mix of public programs and private plans compete and innovate above that baseline. With targeted subsidies for those who need help and strong accountability for outcomes and costs, we can expand access while respecting choice and fiscal limits.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree that no one should be denied essential care or face financial ruin from illness, and that any system must be fiscally sustainable. A consensus role for government is to guarantee a universal baseline of necessary coverage, enforce clear patient protections and quality standards, and step in where markets fail\u2014while allowing private providers and insurers to offer additional options and innovate. Pairing this with transparency, cost controls, and investment in prevention can expand access and improve outcomes without eliminating choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should be denied essential medical care or pushed into bankruptcy by illness, and that any solution must be financially sustainable for families and taxpayers. Government can ensure a universal basic floor\u2014especially for emergencies, prevention, and chronic care\u2014by setting clear rules on affordability, transparency, and patient protections, while letting private insurers and providers compete to offer additional options and innovations. A practical approach focuses on outcomes like lower costs, shorter wait times, and better health, with targeted help for those who can\u2019t afford coverage and strong accountability for how dollars are spent.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

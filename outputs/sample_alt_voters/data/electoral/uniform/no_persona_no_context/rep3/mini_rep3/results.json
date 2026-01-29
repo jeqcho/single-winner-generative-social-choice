@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Regardless of whether we favor keeping or replacing the Electoral College, many of us share the goal of making presidential elections feel representative, predictable, and hard to game. A workable compromise is to keep states\u2019 formal role but require elector allocation rules that better track each state\u2019s vote totals (or a national popular-vote trigger), while pairing any change with clear nationwide standards for ballot access, counting, audits, and recounts. Evaluating reforms against agreed metrics\u2014mismatches, campaign attention, and dispute frequency\u2014can move the debate from identity and tradition toward results that most Americans will accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about abolishing the Electoral College, we can agree the biggest problems are winner-take-all incentives, swing-state tunnel vision, and confusion in very close outcomes. A practical compromise is to keep states\u2019 roles but modernize how electors are awarded\u2014such as proportional allocation (or another method that reduces wasted votes)\u2014while adopting clear, uniform standards for ballot access, counting, recounts, and limits on faithless electors. Reforms should be implemented transparently and evaluated against shared goals: legitimacy, stability, and encouraging campaigns to compete for votes across more of the country.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree the goal is an election system that feels fair, keeps states meaningfully involved, and avoids campaigns focusing on only a few battlegrounds. A practical compromise is to keep the Electoral College but reduce winner-take-all distortions\u2014such as allocating electors proportionally or by district with strong anti-gerrymandering rules\u2014while also strengthening nationwide standards for voting access, counting, and recounts. We can also consider a larger House to better match population and reduce the odds of a popular-vote/electoral-vote mismatch, with any changes phased in and reviewed for stability and unintended incentives.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

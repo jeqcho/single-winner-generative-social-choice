@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "20",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people can agree that access to essential care shouldn\u2019t depend on income and that the system must protect families from catastrophic bills while using taxpayer dollars responsibly. A balanced government role is to set clear minimum coverage and patient-protection standards, finance help for those who can\u2019t afford care, and use its purchasing power to promote price transparency and value. Within those guardrails, private plans and providers can compete on service, networks, and supplemental benefits to preserve choice and encourage innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should have to delay needed care or face financial ruin from illness, and that the system must be sustainable. Government can help by guaranteeing a universal baseline of essential coverage, subsidizing those who can\u2019t afford care, and setting clear standards for quality, transparency, and fair pricing to curb excessive costs. At the same time, policy can preserve choice and innovation by partnering with private insurers and providers and allowing supplemental options beyond the basic guarantee.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no family should be forced to choose between getting needed care and financial survival, and that healthier communities support a stronger workforce and lower long\u2011term costs. A workable government role is to guarantee an affordable basic level of coverage for everyone\u2014especially for emergencies, chronic illness, and preventive care\u2014while using transparent rules, anti-fraud enforcement, and competition to keep prices in check. Beyond that baseline, individuals and employers should be free to choose among private plans and providers, with targeted help for seniors, low-income workers, and rural areas to ensure access without creating one-size-fits-all bureaucracy.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

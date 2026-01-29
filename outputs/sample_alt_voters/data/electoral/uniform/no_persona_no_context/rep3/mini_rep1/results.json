@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "98"
+    },
+    "chatgpt_star": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "People can disagree about whether the Electoral College should be kept or replaced, but most want a system where every vote matters and the winner is broadly seen as legitimate. A middle-ground path is to keep states\u2019 formal role while reducing distortions: expand the House (and therefore electors) to better match population, require electors to follow the state\u2019s certified results, and adopt uniform national rules for audits, recount triggers, and timelines. Alongside that, states could pilot non-winner-take-all methods (proportional or ranked-choice) so reforms are evaluated by clear metrics like competitiveness, reduced \u201cswing-state\u201d bias, and smoother close-election resolution.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even if we disagree about keeping or replacing the Electoral College, most people want a result that matches voters\u2019 intent, protects smaller states\u2019 voice, and is clear enough to avoid post\u2011election chaos. A practical compromise is to keep states administering elections and certifying electors, while reducing winner\u2011take\u2011all distortions through proportional (or fair district-based) allocation and stronger guardrails against gerrymandering and faithless electors. Pair that with uniform national standards for voting access, recount triggers, and audits so close elections are handled consistently. These steps can be evaluated side by side with the National Popular Vote Interstate Compact or a constitutional amendment based on transparency, stability, and broad public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most Americans can agree the presidential election should be easy to understand, hard to game, and make voters in every state feel their votes matter, while still respecting states\u2019 roles in running elections. A practical compromise is to keep the Electoral College but reduce winner-take-all by encouraging proportional or district-based elector allocation with anti-gerrymandering safeguards, paired with clear nationwide standards for ballot access, recounts, and limits on faithless electors. We can also consider steps like expanding the House or joining a popular-vote compact only if it includes transparent recount triggers, so reforms improve legitimacy without risking chaos in close elections.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

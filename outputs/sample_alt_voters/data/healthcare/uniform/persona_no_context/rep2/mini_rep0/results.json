@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star_personas": {
+      "winner": "63",
+      "epsilon": 0.0,
+      "full_winner_idx": "63"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal floor of coverage so no one is denied essential care or bankrupted by illness, while allowing people to choose among competing plans and providers above that baseline. Its core responsibilities are to finance the safety net fairly, enforce consumer protections and quality standards, and use purchasing power to negotiate prices and reduce administrative waste. States, employers, and private insurers can deliver and supplement coverage within clear national rules, with transparent reporting so costs and outcomes remain accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person has access to a basic, affordable package of essential care\u2014especially primary, preventive, mental health, and emergency services\u2014so no one faces medical bankruptcy. It should set clear national standards, negotiate and disclose prices, and streamline administration to reduce waste, while partnering with states, community providers, employers, and private insurers to preserve choice and encourage innovation. A fiscally responsible approach should emphasize value-based payment, prevention, and targeted support for vulnerable populations, with transparent oversight to build trust across the political spectrum.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can afford essential healthcare\u2014primary, preventive, mental health, and emergency care\u2014so no family faces medical bankruptcy, while keeping private insurance and employer plans as options for added choice. To respect taxpayers and small businesses, policy should focus on transparent pricing, fair cost-sharing, cutting wasteful bureaucracy, and using bargaining power to lower drug and hospital costs. Standards for quality, access in rural and underserved communities, and strong protections for patient privacy can build trust, while letting doctors and local providers deliver care efficiently.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

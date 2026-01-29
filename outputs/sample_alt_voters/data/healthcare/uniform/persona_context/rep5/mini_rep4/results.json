@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "borda": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star": {
+      "winner": "24",
+      "epsilon": 0.0,
+      "full_winner_idx": "24"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government\u2019s role should be to ensure everyone can access a defined set of essential services\u2014primary, preventive, mental-health, and emergency care\u2014without facing medical bankruptcy, while allowing people to buy additional coverage if they choose. That guarantee should be delivered through a mix of public programs and regulated private plans with straightforward enrollment, subsidies tied to income, and protections for rural and underserved communities. To keep the system sustainable, government should set transparent standards and enforce cost discipline through negotiated pricing, simpler administration, and payments linked to quality and outcomes rather than volume.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable, affordable baseline of essential healthcare\u2014especially preventive, primary, mental-health, and emergency care\u2014so no one faces medical bankruptcy and communities remain healthy and productive. That public safety net should be delivered with strict fiscal stewardship: clear price transparency, negotiated and accountable payment rules, streamlined administration, and measurable outcome targets to reduce waste. Beyond the baseline, regulated private and employer-based options can preserve choice and encourage innovation, supported by strong local partnerships to improve rural access and protect vulnerable families and caregivers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get essential, timely care\u2014primary, preventive, mental-health, maternal, and emergency services\u2014so no family is forced into debt or goes without treatment, including in rural and underserved communities. The baseline should be delivered efficiently through local clinics and hospitals and a mix of public and private plans, while protecting patient choice and allowing employers and private insurers to offer additional coverage. To keep it affordable for taxpayers and workers, government should require clear pricing, reduce paperwork, negotiate fair drug and service costs, and tie public funding to measurable outcomes and fraud prevention.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

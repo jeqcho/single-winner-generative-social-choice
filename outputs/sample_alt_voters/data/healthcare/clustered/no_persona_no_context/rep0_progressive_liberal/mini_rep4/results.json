@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "20",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_personas": {
+      "winner": "20",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to treat healthcare like other essential services: government guarantees that everyone can obtain timely basic care and is protected from catastrophic medical bills, while leaving room for private plans and providers to offer additional options. In this role, government sets clear rules for coverage, pricing transparency, and nondiscrimination, and targets subsidies to those who need help most. Success should be measured by concrete outcomes\u2014fewer uninsured, lower preventable ER use, better chronic-care management, and budgets that remain sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people share the goals of universal access, protection from medical bankruptcy, and responsible long\u2011term costs, even if they differ on the exact model. A workable middle ground is for government to guarantee and fund a basic package of essential coverage, set clear rules for affordability, transparency, and consumer protections, and invest in prevention and public health. Within that framework, private insurers and providers can compete and innovate by offering additional options and better service, with incentives that reward value and quality rather than volume.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people share the goal that everyone can get needed care without financial ruin, while also wanting a system that is fiscally responsible and responsive to local needs. Government should guarantee universal access to essential, preventive, and mental health services, cap catastrophic out-of-pocket costs, and use transparent rules to prevent discrimination and unfair pricing. At the same time, it can work with public, private, and community providers\u2014including rural and tribal health systems\u2014to expand capacity, improve quality, and reward value, while preserving additional private options for those who want them.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

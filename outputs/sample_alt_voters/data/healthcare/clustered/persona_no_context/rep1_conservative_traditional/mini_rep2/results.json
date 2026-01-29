@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "51",
+      "epsilon": 0.0,
+      "full_winner_idx": "51"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can obtain essential healthcare without delay or financial devastation by setting a universal floor of coverage and enforcing clear rules against discrimination for pre-existing conditions. Rather than replacing all private options, policy should use a mix of public programs and competitive private plans, with simple subsidies, portable coverage, and transparent pricing so people can choose what works for them. The focus should be on measurable outcomes\u2014preventive care, mental health, rural access, and lower administrative waste\u2014paired with strong oversight to protect taxpayers and reward high-quality, cost-effective care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can access essential, affordable healthcare\u2014especially preventive, emergency, and catastrophic coverage\u2014so no one is left without care or driven into bankruptcy. That guarantee should preserve patient choice and room for private plans and provider innovation, while using clear standards, price transparency, and fair oversight to protect quality and competition. The focus should be efficient, accountable administration that reduces waste and fraud, targets help to the most vulnerable, and keeps the system fiscally sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every American can get essential preventive, primary, and emergency care without facing medical bankruptcy, while keeping patient choice and room for private doctors, insurers, and community providers to compete and innovate. A consensus path is a clear basic guarantee with extra help for seniors, veterans, rural communities, and working families, paired with strong price transparency, anti-fraud enforcement, and simpler rules that cut red tape and protect small businesses. Funding and benefits should be phased in responsibly, measured by outcomes, and designed to reward prevention and timely care so costs stay sustainable and taxpayers can trust the system.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

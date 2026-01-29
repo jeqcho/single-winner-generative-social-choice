@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal guarantee that everyone can obtain essential healthcare without being priced out or bankrupted, while allowing people who want more options to choose supplemental private coverage. Its primary role is to set clear rules and funding for basic coverage, enforce consumer protections and fair pricing, and invest in prevention and primary care that reduce costly emergencies. Delivery can remain pluralistic\u2014public programs, private insurers, and nonprofit/community providers\u2014so long as outcomes are measured, waste is reduced, and budgets stay sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential healthcare\u2014especially preventive care\u2014so no one is denied needed treatment or pushed into medical bankruptcy. This should be delivered through a pragmatic blend of strong oversight, sustainable funding, and partnerships with private, local, and community providers that preserve individual choice and encourage innovation. Policies should emphasize cost control, price transparency, and streamlined administration, while targeting extra help to vulnerable households and holding the system accountable for quality and outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person can get essential, affordable healthcare\u2014including preventive care and protection from catastrophic bills\u2014so no family is forced into medical bankruptcy or denied care. The best path is a fiscally sustainable baseline guarantee with clear quality standards, strong price transparency, and straightforward administration, while preserving room for private insurance and provider innovation and allowing people to keep plans that work for them. Public resources should prioritize the most vulnerable and those priced out of coverage, and partnerships with employers, local clinics, and community and faith-based organizations can help deliver care efficiently and respectfully.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

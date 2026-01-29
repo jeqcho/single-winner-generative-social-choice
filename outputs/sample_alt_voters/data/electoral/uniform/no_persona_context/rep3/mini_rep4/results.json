@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise would keep state administration and the Electoral College framework, but require states to allocate electors in ways that track vote totals more closely\u2014such as proportional allocation with clear, uniform rules\u2014so fewer elections hinge on a handful of battleground states. If states choose to coordinate toward a national popular-vote outcome (e.g., via an interstate compact), it should activate only after objective safeguards are met, including auditable paper records, consistent recount thresholds, and enforceable rules against faithless electors. Pairing these changes with anti-gerrymandering protections for any district-based approach and a gradual implementation timeline can improve fairness and legitimacy without abrupt constitutional disruption.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Pursue a phased reform that keeps state-run elections but makes outcomes track voters more closely by reducing winner-take-all distortions\u2014through proportional allocation of electors (and, where used, district methods paired with anti-gerrymander safeguards) and allowing a National Popular Vote interstate compact as a backstop once clear participation thresholds are met. Pair any change with nationwide minimum standards for ballot access and secure administration, including auditable paper records, routine post-election audits, and automatic recount triggers, plus stronger, enforceable limits on faithless electors. Implement changes transparently and incrementally, with pilot periods and bipartisan oversight, to protect small-state and rural interests while improving legitimacy and encouraging candidates to compete beyond a few swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College and state-run elections, but reduce winner-take-all distortions so results track the national vote more closely while still respecting smaller and rural states. A practical compromise is to let states choose proportional or district-based elector allocation with anti-gerrymander safeguards, while also allowing a carefully defined National Popular Vote compact or popular-vote \u201cbackstop\u201d only if clear participation and security standards are met. Any reform should include nationwide minimum rules for ballot access, paper-based records, routine post\u2011election audits, clear recount triggers, and stronger limits on faithless electors to improve trust across parties.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

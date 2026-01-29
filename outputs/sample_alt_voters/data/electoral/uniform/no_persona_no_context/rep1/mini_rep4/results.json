@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "veto_by_consumption": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "We don\u2019t have to choose between preserving the states\u2019 role and making each vote count more equally. A practical compromise is to keep the Electoral College but reduce winner-take-all by moving states toward proportional elector allocation, paired with an expanded House so electoral votes track population more accurately, and uniform national rules for recounts and audits. If those steps narrow popular-vote mismatches and reduce swing-state distortion, the country can then revisit bigger changes with more trust and evidence.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree on the goals: every vote should matter, outcomes should track voter intent as closely as possible, and states and regions shouldn\u2019t feel permanently ignored. A practical bridge is to keep the state-based framework but reduce winner-take-all distortions by encouraging proportional or district-based elector allocation paired with strong anti-gerrymandering safeguards. In parallel, adopt uniform national standards for ballot access, recount triggers, and post-election audits so close elections are clearer and more trusted. These steps can improve legitimacy and campaign incentives now while leaving room to evaluate larger changes like an interstate popular-vote compact or constitutional amendment later.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree the goal is a presidential election where every voter feels heard and the winner has broad legitimacy, without letting a few swing states or a few large metros dominate campaign attention. A practical compromise is to keep the state-based Electoral College but reduce winner-take-all by moving toward proportional or district-based elector allocation with strong anti-gerrymandering safeguards, while also adopting clear national standards for voting access, audits, and recount triggers. We can also consider modernizing representation (such as expanding the House) to lessen unequal vote weight and test interstate approaches like the National Popular Vote compact only if they include robust integrity measures. Evaluating reforms against shared metrics\u2014fairness, stability, transparency, and coalition-building\u2014can lower suspicion that changes are meant to benefit one party.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

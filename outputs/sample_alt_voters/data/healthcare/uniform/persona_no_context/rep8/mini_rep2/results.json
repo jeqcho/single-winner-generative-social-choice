@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "84",
+      "epsilon": 0.0,
+      "full_winner_idx": "84"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can obtain timely primary, preventive, and catastrophic care without medical debt, while allowing people to keep private coverage and provider choices when they want more options. A balanced approach would set a national minimum benefit standard, negotiate and publish prices to curb excessive costs, and fund coverage through efficient, accountable programs that reduce administrative waste. States, employers, and private plans could build on that baseline with multiple delivery models, while performance metrics and safeguards for rural, low-income, and medically complex patients keep the system fair and sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can access essential, affordable healthcare and that no one faces financial ruin from serious illness, by guaranteeing a clear baseline of coverage for preventive, chronic, emergency, and catastrophic care. Within that universal floor, policymakers should preserve patient choice and encourage private-provider and insurer participation to support innovation and multiple delivery models. Reforms should emphasize transparency, measurable outcomes, and streamlined administration to control costs and waste, with added protections for the most vulnerable and flexibility for local implementation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person can get timely essential care\u2014especially primary, preventive, mental health, and emergency services\u2014and be protected from catastrophic medical bills, with simple enrollment and no one falling through the cracks. To respect choice and innovation, coverage can be delivered through multiple models (including private plans and local providers) while government sets clear standards for affordability, quality, and nondiscrimination and supports rural and underserved communities. Reforms should emphasize transparency in prices and outcomes, fair competition and negotiation where markets fail, and strong anti-waste oversight so the system is sustainable for taxpayers and families.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

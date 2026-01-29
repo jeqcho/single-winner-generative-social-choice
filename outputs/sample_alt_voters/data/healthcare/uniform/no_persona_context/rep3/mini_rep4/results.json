@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set and fund a universal guarantee that no one is denied essential care\u2014primary and preventive services, mental-health care, and protection from catastrophic costs\u2014while leaving room for diverse delivery models and supplemental private coverage. To keep the guarantee sustainable, policy should use straightforward rules: transparent prices, negotiated or benchmarked payment rates, reduced administrative complexity, and rewards for quality and prevention. Support for rural providers and community clinics, plus targeted help for low-income families, can improve access without requiring a one-size-fits-all system.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential care\u2014especially primary, preventive, mental-health, and catastrophic coverage\u2014so no one faces medical ruin and public health is protected. That public floor should be paired with transparent pricing, negotiated or regulated cost controls, streamlined administration, and measurable outcomes to reduce waste and keep the system fiscally sustainable. Within clear standards, private insurers and providers (including local, community, rural, and faith-based partners) should be able to offer supplemental options and innovate, preserving choice and responsiveness.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get timely, affordable essential care\u2014primary, preventive, emergency, mental-health, and catastrophic coverage\u2014so illness doesn\u2019t mean bankruptcy or untreated disease. It should set clear national standards, promote price transparency and simple billing, and use proven cost controls and fraud prevention to protect taxpayers. Within that guaranteed floor, people should be free to choose among competing private, nonprofit, faith-based, and local providers or supplemental plans, with targeted help for rural areas, seniors, and working families to expand access.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

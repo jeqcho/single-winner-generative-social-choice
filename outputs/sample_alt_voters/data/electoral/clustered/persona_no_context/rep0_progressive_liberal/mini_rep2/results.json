@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star": {
+      "winner": "56",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should keep the state-based structure many people value while making the final result track voters more closely and reducing the sense that a handful of swing states decide everything. A balanced path is to set a national baseline for voting access, audits, recounts, and certification, while encouraging states to move away from winner-take-all\u2014through proportional elector allocation or a uniform district method paired with an independent redistricting standard. If the country later moves to a national popular vote, it should include a clear legitimacy safeguard such as a ranked-choice national ballot or a runoff threshold so winners reflect broad support. The test of any change should be simple: every voter can participate, every ballot is handled consistently, and the outcome is widely seen as fair and stable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Presidential election reforms should make the winner track the national will more closely while preserving a meaningful role for states and smaller communities. A practical bridge is to move toward a national popular vote\u2014potentially via the National Popular Vote Interstate Compact\u2014paired with ranked-choice voting or a clear winner threshold to ensure broad support. If full adoption is too large a step, states can reduce winner-take-all distortions through proportional elector allocation and updates like expanding the House, alongside uniform national standards for ballot access, recounts, audits, and certification to strengthen transparency and trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Presidential election reforms should make the winner match the voters more closely while keeping the process stable, understandable, and respectful of state and local voices. A practical bridge is to move away from winner-take-all by encouraging proportional allocation of electors or adopting the National Popular Vote Interstate Compact once enough states join, so fewer races hinge on a handful of swing states. Any change should come with clear, uniform national standards for ballot access, recounts, audits, and certification, so every lawful vote is counted consistently and trust in the outcome is stronger across communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

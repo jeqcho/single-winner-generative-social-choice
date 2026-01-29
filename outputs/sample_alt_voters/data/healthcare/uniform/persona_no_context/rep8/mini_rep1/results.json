@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "93",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can obtain essential healthcare without catastrophic costs by setting a clear national guarantee for core services and protections, while letting people choose among competing plans and providers. Its role is to define outcomes and rules\u2014such as standard benefit baselines, nondiscrimination for preexisting conditions, transparent pricing, and anti-monopoly enforcement\u2014and to subsidize coverage for those who can\u2019t afford it. Delivery can remain pluralistic through private insurers, employers, nonprofits, and public programs, with states and communities given flexibility to meet standards efficiently. This approach treats health security as a shared foundation while preserving choice, encouraging innovation, and enforcing accountable cost control.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a clear, affordable baseline of healthcare for every person\u2014so no one is denied essential care or driven into medical bankruptcy\u2014while setting transparent standards for quality and cost control. The system should prioritize preventive care, mental health, and management of chronic conditions, with simple enrollment and protections for preexisting conditions. To preserve choice and innovation, care can be delivered through a mix of public programs and competing private plans/providers, with room for supplemental coverage and strong accountability for outcomes and spending.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can get essential healthcare\u2014primary, preventive, mental health, and emergency care\u2014without fear of medical bankruptcy, funded transparently and managed with clear standards for quality and cost control. To respect personal choice and limit bureaucracy, care can be delivered through a mix of public programs, a voluntary public option, and regulated private plans, with simple enrollment and strong protection for preexisting conditions. Competition, price transparency, and anti-fraud enforcement should be used to keep costs down while partnering with local clinics, hospitals, and community organizations to reach rural and underserved communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

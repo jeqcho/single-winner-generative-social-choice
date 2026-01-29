@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "10"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "44",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can access essential care\u2014primary, preventive, mental-health, and emergency services\u2014without facing medical bankruptcy, while setting enforceable standards for coverage, outcomes, and consumer protections. It should focus on what markets struggle to deliver fairly: universal enrollment, income-based assistance, risk pooling for catastrophic costs, and transparent pricing. Within that framework, individuals and employers should retain meaningful plan and provider choices, and private and community providers should compete to deliver care, with payment reforms and anti-fraud enforcement to keep costs sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Healthcare is essential infrastructure, so government should guarantee a universal, affordable baseline that covers preventive care, mental health, and protection against catastrophic costs so no family faces medical bankruptcy. That guarantee should be delivered through transparent pricing, streamlined administration, and accountable cost controls tied to measurable outcomes. Public\u2013private and community partnerships can expand access while preserving patient choice, local flexibility, and room for innovation. Reforms should be phased and fiscally responsible, prioritizing children, working families, and people with chronic conditions or disabilities.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Healthcare should be treated as essential infrastructure: government should guarantee that every person can get affordable primary, preventive, mental-health, and emergency/catastrophic care without risking medical bankruptcy. That baseline should be delivered with strong anti-fraud enforcement, transparent pricing, measurable quality standards, and incentives that lower costs while protecting taxpayers. Beyond the floor, people should be free to keep or choose private coverage and providers, with public\u2013private partnerships and local flexibility to meet rural, working-family, and culturally accessible needs. Reforms should be phased in and evidence-driven, so access expands while competition and innovation continue where they improve outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star": {
+      "winner": "27",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_personas": {
+      "winner": "69",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure everyone can access essential, evidence-based care\u2014primary and preventive services, mental health, and emergency coverage\u2014without facing medical bankruptcy, while allowing people to keep or choose private plans if they prefer. The role of public policy is to set clear coverage standards, cap out-of-pocket risk, and drive costs down through transparent pricing, simplified billing, and negotiated rates. Implementation can blend a guaranteed public pathway with regulated private options and targeted help for rural, low-income, and high-need communities, with measurable quality and budget accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable, affordable baseline of evidence-based healthcare\u2014especially preventive, primary, mental-health, and emergency care\u2014so no one faces medical bankruptcy or avoidable gaps in access, including in rural communities. That guarantee should be delivered with strong cost discipline through price transparency, negotiated rates where appropriate, simplified administration, and clear outcome-based accountability. A pragmatic mix of a public safety net (including a public option or targeted subsidies) and regulated private choices, built in partnership with local providers, can preserve patient choice, encourage innovation, and steward taxpayer resources responsibly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get a dependable baseline of affordable, evidence-based care\u2014especially primary, preventive, mental-health, maternal/pediatric, and emergency services\u2014so illness doesn\u2019t lead to medical bankruptcy or lost opportunity. That guarantee should be delivered with strict cost controls and transparent pricing, simple and efficient administration, and clear quality and outcome measures to protect taxpayers. People should be able to keep or choose private or employer coverage, with a public option and targeted help for low-income, rural, disabled, and older Americans, while supporting local providers and the health workforce so care is available in every community.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

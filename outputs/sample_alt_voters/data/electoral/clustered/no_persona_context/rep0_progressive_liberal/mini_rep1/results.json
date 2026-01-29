@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise is to keep the Electoral College\u2019s state-based framework but narrow the gap between the electoral and popular vote by incentivizing states to replace winner-take-all with proportional elector allocation (and, where adopted, require electors to honor the certified results). If states choose to coordinate through a popular-vote compact, it should include clear trigger thresholds and a majority-winner safeguard such as ranked-choice or a runoff. Alongside any structural change, set baseline nationwide standards for voter access, paper-backed tabulation, transparent recount triggers, and routine risk-limiting audits so results are easier to verify and accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform the Electoral College in an incremental, constitutional way that better aligns outcomes with the national popular will while preserving meaningful state roles: encourage states to move away from winner-take-all through proportional or district-based elector allocation and/or a carefully designed National Popular Vote interstate compact. Pair any structural change with broader-support voting methods where feasible (ranked-choice or runoff) to reduce spoiler risks and reward coalition-building. Establish clear, uniform baseline standards for ballot access and secure counting\u2014auditable paper trails, transparent certification and recount rules, and routine post-election audits\u2014to strengthen legitimacy and reduce disputes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform the Electoral College in a way that makes the winner track the voters more closely while keeping states\u2019 role in running elections: encourage states to move away from winner\u2011take\u2011all toward proportional or district allocation, and allow a National Popular Vote compact if it includes clear triggers, transparency, and an exit/entry rule to prevent gamesmanship. Pair any allocation change with ranked\u2011choice (or a top\u2011two runoff) so winners have broad support and third\u2011party voters aren\u2019t treated as spoilers. To build trust across communities, set national minimum standards for voter access and ID alternatives, paper\u2011ballot records, uniform recount rules, and routine post\u2011election audits.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

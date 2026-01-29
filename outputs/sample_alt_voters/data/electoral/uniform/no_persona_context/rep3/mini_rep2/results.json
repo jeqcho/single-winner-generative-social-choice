@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable middle path is to keep states administering elections but standardize a few core rules\u2014verifiable paper ballots, routine risk\u2011limiting audits, consistent certification timelines, and clear nationwide recount triggers. At the same time, reduce winner\u2011take\u2011all distortions by letting states allocate electors proportionally (with an option for a small statewide \u201cstability\u201d bonus) and encourage multi\u2011candidate legitimacy through ranked\u2011choice voting where adopted. If a national popular\u2011vote approach is pursued, phase it in only with agreed safeguards and a broad geographic support threshold so both equal\u2011vote fairness and regional confidence are protected.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep states central to administering elections while making each lawful vote matter more equally by moving away from statewide winner\u2011take\u2011all toward proportional or district-based allocation of electors. In parallel, pursue a vetted path toward reflecting the national popular vote\u2014such as an interstate compact or narrow constitutional change\u2014paired with safeguards that address regional voice concerns (e.g., phased implementation and clear, transparent rules). Any change should include nationwide minimum standards for ballot access, auditable paper records, risk\u2011limiting audits, uniform recount triggers, certification timelines, and clear limits on faithless electors to strengthen legitimacy in close contests.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep states running elections but reduce winner\u2011take\u2011all distortions so candidates compete for votes everywhere and each lawful vote has more comparable weight. A realistic compromise is to encourage (or require) proportional elector allocation with a modest statewide bonus to preserve small\u2011state influence, while allowing states to use ranked\u2011choice ballots to reduce spoiler outcomes. Any shift toward a national popular\u2011vote outcome\u2014whether via an interstate compact or constitutional change\u2014should include clear regional\u2011support thresholds and strong protections against faithless electors. Across all options, adopt enforceable minimum standards for ballot access, verifiable paper ballots, risk\u2011limiting audits, and automatic recount triggers to improve trust and reduce litigation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

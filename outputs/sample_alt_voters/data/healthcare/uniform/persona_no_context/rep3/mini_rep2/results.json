@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star": {
+      "winner": "64",
+      "epsilon": 0.0,
+      "full_winner_idx": "64"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can obtain essential, timely healthcare without fear of denial or financial devastation, while allowing multiple coverage pathways and respecting patient choice. Its core duties are to set fair rules and enforceable quality standards, subsidize those who cannot afford coverage, and protect the public with preventive care, emergency access, and disaster readiness. To keep costs sustainable, policy should require price transparency, curb anti-competitive practices, reduce administrative complexity, and pay for value\u2014partnering with private, nonprofit, and local providers to deliver care efficiently.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can access affordable essential care and strong protection from catastrophic medical costs, with clear quality standards and sensible regulation that curbs waste and price gouging. A pragmatic path can combine a robust safety net or public option with private providers and insurers to preserve choice, competition, and innovation. Prioritizing preventive care, transparent pricing, portability of coverage, and streamlined administration can improve outcomes while keeping the system fiscally sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can get timely, affordable essential care and is protected from catastrophic medical bills, with clear national standards for quality, privacy, and basic benefits. To respect choice and different views of markets, coverage should be delivered through a mix of public programs and regulated private plans, with options that are portable across jobs and supportive of rural and community providers. Cost control should focus on transparent prices, prevention and mental health, cutting administrative waste, and holding insurers, hospitals, and drug companies accountable so families, small businesses, and taxpayers can afford the system.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

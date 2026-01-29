@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "74",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can enroll in affordable, comprehensive primary and preventive care with strong protection against catastrophic bills, while allowing people to choose among competing plans and providers for additional coverage. Its role is to set enforceable rules\u2014guaranteed issue, simple enrollment, transparent prices, and payment models that reward outcomes\u2014to reduce waste and keep quality high. Funding should be shared across taxes, premiums, and targeted subsidies, with extra support for rural, disabled, and low-income communities through partnerships with local clinics and hospitals.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should act as a steward by guaranteeing everyone an affordable baseline of high-quality care\u2014especially preventive, primary, mental-health, and catastrophic protection\u2014so no one faces medical bankruptcy or denial for preexisting conditions. Pair this universal floor with transparent pricing, streamlined administration, and evidence-based payment and quality measures to control costs and improve outcomes. Preserve individual choice and innovation by allowing private supplemental options and partnering with local, faith-, and community-based providers to strengthen access in rural and underserved areas.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get a basic, affordable level of care\u2014especially preventive, primary, mental health, and emergency services\u2014so no one is bankrupted by illness and rural and underserved communities are covered. It should set clear standards and protections (including for preexisting conditions), require price transparency, and simplify enrollment and administration to reduce waste and hold the system accountable for outcomes. Within that guaranteed floor, private, employer-based, and community providers should have room to offer supplemental options and innovate, as long as costs stay fair and taxpayers are protected.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_personas": {
+      "winner": "68",
+      "epsilon": 0.0,
+      "full_winner_idx": "68"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a clear national guarantee that every resident can obtain essential care\u2014primary, preventive, mental health, and emergency services\u2014without medical debt or denial for preexisting conditions. Rather than relying on a single model, it can meet that guarantee through a mix of approaches (public plans, regulated private coverage, and state flexibility) paired with strong cost discipline like transparent prices, simplified billing, and payment reforms that reward outcomes. People should be free to choose doctors and add supplemental private coverage, while public dollars are focused first on those with the greatest need and on closing rural and workforce gaps.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone has access to a basic, affordable level of healthcare\u2014especially preventive and primary care and protection from catastrophic medical bills\u2014so illness doesn\u2019t mean financial ruin or untreated suffering. It should set clear standards, fund and administer an efficient safety net with strong transparency and anti-fraud accountability, and use evidence-based cost controls to protect taxpayers. Within that baseline, policy should preserve patient choice and allow private providers and supplemental options, while partnering with states, employers, and community organizations to expand access, including in rural areas.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every American can get essential, timely care\u2014especially primary, preventive, mental health, and catastrophic coverage\u2014so no one is bankrupted by illness, while protecting patients with pre-existing conditions and ensuring fair access in rural and underserved areas. To respect choice and innovation, the system should allow regulated private plans and employer coverage to supplement a strong baseline, with simple enrollment and portable benefits for job changes and gig work. Reforms should focus on affordability through transparent pricing, less bureaucracy, strong anti-fraud oversight, and paying for value and prevention so taxpayers, families, and small businesses can sustain the cost.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

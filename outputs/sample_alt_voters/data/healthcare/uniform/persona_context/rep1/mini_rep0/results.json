@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "89"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star": {
+      "winner": "44",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure everyone can access essential healthcare without facing medical bankruptcy by guaranteeing a minimum package of primary, preventive, emergency, and mental-health care, with strong protections for children, people with disabilities, and rural communities. Rather than dictating a single model, it should set clear rules for affordability and quality\u2014price transparency, fair negotiation, anti-gouging enforcement, and simpler billing\u2014while allowing competing public and private coverage options. Funding and oversight should be fiscally disciplined and outcome-based, with local flexibility and regular evaluation so the system expands access and controls costs without stifling innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee universal access to an affordable baseline of essential care\u2014especially preventive, emergency/catastrophic, and mental-health services\u2014so illness doesn\u2019t cause medical bankruptcy or destabilize families, workers, and small businesses. That guarantee should be delivered efficiently and transparently through pragmatic, phased reforms that set clear quality standards, enforce price transparency, and reduce administrative waste. Public funding and oversight should partner with private providers and local organizations to preserve patient choice and encourage innovation while protecting the most vulnerable and stewarding taxpayer dollars responsibly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every American can access an affordable baseline of essential care\u2014primary and preventive services, mental health, and emergency/catastrophic coverage\u2014so no one is forced into medical bankruptcy and public health is protected. That guarantee should be delivered with fiscal discipline through transparent pricing, simple rules that cut administrative waste, and clear quality standards, while using private plans and local providers to preserve choice and competition. Reforms should be practical and phased, with targeted help for low-income families, rural communities, seniors, and people with chronic conditions, and measured by outcomes and costs.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

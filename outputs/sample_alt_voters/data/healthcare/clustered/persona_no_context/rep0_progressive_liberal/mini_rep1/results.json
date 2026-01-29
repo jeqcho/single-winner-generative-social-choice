@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set and fund a universal minimum standard of coverage\u2014so everyone can get timely primary, preventive, emergency, and essential mental-health care without medical bankruptcy\u2014while allowing people to choose among competing public and private plans and providers above that floor. Its role should focus on fair rules and transparent prices, enforcing consumer protections, and paying for care in ways that reward outcomes and reduce waste. States and communities should have flexibility to tailor delivery (including rural and safety-net support) as long as clear national benchmarks for access, quality, and fiscal sustainability are met.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a clear baseline of affordable, high-quality healthcare for everyone\u2014especially preventive, emergency, and catastrophic coverage\u2014so no one faces financial ruin or exclusion from care. This can be delivered through a pragmatic mix of public safeguards and accountable partnerships with private providers and insurers, preserving the doctor\u2013patient relationship, individual choice, and room for innovation. Reforms should prioritize cost transparency, streamlined administration, measurable outcomes, and responsible funding, with attention to rural and underserved communities and support for frontline caregivers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every person can get essential, affordable healthcare\u2014especially preventive, primary, emergency, and mental-health care\u2014so illness doesn\u2019t lead to medical debt or lost dignity. A practical path is a publicly accountable baseline of coverage, with income-based subsidies and simple enrollment, while allowing private providers and supplemental plans to compete and innovate. To earn broad trust, the system should prioritize cost transparency, reduced administrative waste, fair payment rules, and strong support for local clinics, rural hospitals, and frontline caregivers.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

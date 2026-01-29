@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_rankings": {
+      "winner": "10",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "7",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can get timely, affordable essential care and is protected from catastrophic medical bills, while leaving room for people to choose among competing plans and providers. A workable middle path is to define a national minimum benefits floor, income-based help for premiums and out-of-pocket costs, and strong rules on pricing, billing, and quality reporting so markets can compete on value rather than confusion. Delivery can rely on a mix of public programs and regulated private options, with investments in primary care and prevention to improve health outcomes and keep costs sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential and catastrophic healthcare so no one is denied care or pushed into medical bankruptcy, while preserving the doctor\u2013patient relationship and personal choice. It should set clear standards, require price and quality transparency, and use evidence-based cost controls and simpler enrollment to reduce waste and bureaucracy. Preventive and community-based care should be prioritized, delivered through accountable public\u2013private partnerships (including local and faith-based providers) that protect innovation while maintaining fiscal discipline.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person has access to affordable, high-quality essential healthcare and protection from catastrophic medical bills, so no family is forced into bankruptcy or denied basic care. It should set clear national standards, require price transparency and quality reporting, and invest in prevention and community clinics, while letting people keep private insurance and choose among public, private, and faith-based providers. Reforms should prioritize simpler enrollment, efficient administration, and evidence-based cost controls that protect taxpayers and respect personal responsibility and individual freedom.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

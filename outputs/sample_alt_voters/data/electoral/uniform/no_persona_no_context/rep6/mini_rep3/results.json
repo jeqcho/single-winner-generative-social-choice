@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_personas": {
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "90",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most of us want a presidential election where every voter feels counted and every region feels courted, without turning the outcome into a legal or administrative crisis. A workable compromise is a reform package that keeps state administration but reduces winner-take-all distortions\u2014such as proportional elector allocation or a popular-vote \u201ctrigger\u201d that only activates when the national margin clears a clear recount threshold\u2014paired with uniform rules for voter access, counting, certification, and audits. That approach lets people compare systems by shared goals: national legitimacy, regional inclusion, and clear, timely results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about abolishing the Electoral College, we can agree the goal is a presidential election that is fair, trusted, and encourages candidates to compete nationwide rather than focus on a few swing states. A practical middle path is to keep states\u2019 roles but reduce distortions by pairing clearer national standards for counting, certification, and recounts with reforms like proportional (or district-based) allocation of electors and a majority-winner backstop such as ranked-choice voting or a national popular vote mechanism with clear safeguards. We should compare these options using shared criteria\u2014legitimacy, simplicity, recount feasibility, and incentives for broad geographic outreach\u2014rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most of us want a presidential election that is easy to understand, treats voters fairly, and doesn\u2019t make a handful of swing states feel like the only ones that matter. A practical middle-ground is to keep states administering elections but reduce winner-take-all distortions by encouraging proportional or district-based allocation of electors, paired with clearer national standards for voting access, counting, certification, and automatic recount triggers. We can also evaluate options like expanding the House (to reduce disparities in electoral-vote weight) or a carefully designed national popular vote compact with strong audit and recount safeguards. The shared test should be whether any reform improves legitimacy and nationwide campaigning without leaving smaller states or rural communities feeling ignored.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

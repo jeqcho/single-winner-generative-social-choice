@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.10000000000000009,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College but make it track voters\u2019 choices more closely and reduce the outsized power of a few battleground states. States could be required to bind electors to the certified vote and allocate electoral votes proportionally (or by district with anti-gerrymandering safeguards), while a national baseline for ballot access, recount triggers, and post-election audits improves consistency and legitimacy. If a broad majority supports it, the National Popular Vote Interstate Compact could serve as a phased path toward a popular-vote outcome without an abrupt constitutional overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A workable reform is to keep the state-run election framework while making presidential outcomes track the national popular will more reliably\u2014either through the National Popular Vote Interstate Compact or by ending winner-take-all with proportional (or district-based) allocation that better reflects close results. To build confidence across parties, pair any change with clear nationwide standards for ballot access, counting, audits, and recounts, and require electors to follow the certified results to prevent faithless-elector surprises. The goal is a system that treats votes more evenly, reduces battleground-state distortions, and remains transparent, stable, and legitimate for voters in both large and small states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "We can preserve the Electoral College\u2019s federal balance and the idea that smaller and rural states should matter, while reducing the sense that a few battlegrounds decide everything. A workable reform is for states to move away from winner-take-all\u2014using proportional or district-based elector allocation\u2014and to require electors to follow the voters\u2019 result, paired with clear, consistent national standards for ballot access, recounts, and basic election security. This keeps elections state-run and stable, but makes outcomes easier to trust because they track the public\u2019s vote more closely and treat voters in every state as worth competing for.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

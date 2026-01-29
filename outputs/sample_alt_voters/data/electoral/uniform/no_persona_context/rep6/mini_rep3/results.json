@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A unifying reform would keep the Electoral College and state-run elections but reduce the outsized impact of a few swing states by moving away from statewide winner-take-all\u2014through a proportional formula with a small \u201cbonus\u201d for the statewide winner or a standardized district method designed to limit gerrymandering effects. In parallel, Congress and states should set clear national guardrails for registration access, ballot design, chain-of-custody, risk-limiting audits, and recount triggers so outcomes are credible and comparable across states. These changes can be phased in voluntarily by states and evaluated over multiple cycles, preserving federalism while making results track broad national support more reliably.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Pursue a middle\u2011path reform that keeps state administration and the constitutional framework but reduces winner\u2011take\u2011all distortions by encouraging proportional or district-based allocation of electors, with the option for states to join a National Popular Vote interstate compact once broad participation is reached. Pair any allocation changes with clear national baselines for ballot access, counting/certification, routine public post\u2011election audits, and predictable recount triggers to strengthen legitimacy and reduce litigation. Implement reforms in a phased, transparent way so campaigns have incentives to compete across more of the country while preserving meaningful regional voices.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A consensus reform would keep states running elections but reduce winner\u2011take\u2011all distortions so more voters in every state feel represented\u2014by encouraging proportional or district-based allocation of electors and allowing states to opt into the National Popular Vote compact if they choose. Pair any change with simple, nationwide minimum standards for voter access, transparent counting and certification, routine post\u2011election audits, and clear recount triggers to limit litigation and build trust. Phase reforms in with bipartisan oversight and public reporting so the system remains stable while candidates have incentives to compete beyond a handful of swing states.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

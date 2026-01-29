@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.24,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_personas": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Any reform should aim to make presidential outcomes track the voters\u2019 overall choice more closely without erasing the constitutional role of states or destabilizing close elections. A workable middle ground is to curb winner-take-all incentives by encouraging states to adopt proportional allocation (or a uniform district method with safeguards) and to bind electors to certified results, while piloting a national popular-vote approach only alongside clear national baselines for access, paper-backed tabulation, audits, and recount triggers. Implemented on a transparent timeline with broad bipartisan agreement, these steps can reduce swing-state distortions, protect smaller communities from being ignored, and increase confidence that the rules are fair and durable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform should keep the state-based Electoral College framework while making outcomes track the national popular will more closely by phasing out winner-take-all through proportional or district-based allocation and binding electors to certified results. Any shift toward a National Popular Vote interstate compact should be gradual and conditioned on clear nationwide baseline rules for ballot access, secure paper-based counting, routine risk-limiting audits, and transparent recount triggers. Pairing these structural changes with options like ranked-choice voting can reward broader coalitions, reduce swing-state distortions, and rebuild trust without destabilizing the system.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Keep the Electoral College\u2019s state-based structure, but reduce winner-take-all distortions so each lawful vote carries more comparable weight\u2014starting with allowing states to allocate electors proportionally (or by district) and requiring electors to follow the certified state result. Pair any structural change with clear, nationwide baseline rules for voter eligibility verification, ballot access, paper-backed counting, routine audits, and transparent recount triggers to strengthen confidence and prevent partisan gaming. Phase reforms in over multiple cycles, with simple rules and bipartisan oversight, so rural and small communities keep a meaningful voice while campaigns are pushed to compete beyond a few swing areas.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

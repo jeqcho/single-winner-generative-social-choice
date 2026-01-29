@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a clear floor that guarantees everyone can get essential primary, preventive, mental-health, and emergency care without facing medical bankruptcy, while allowing people who want more options to choose supplemental private coverage. Rather than running every part of the system, the public role should focus on fair financing, strong consumer protections (including pre-existing conditions), and enforcement of price transparency and quality standards. A mix of state flexibility, competitive contracting, and rigorous measurement of outcomes can expand access, reward value, and keep the program financially sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee universal access to affordable essential, preventive, and emergency care, with strong protections against catastrophic costs, so no one is left without treatment or pushed into medical bankruptcy. That guarantee should be delivered through a transparent, efficient mix of public programs and well-regulated private and nonprofit options that preserve patient choice and reward innovation and competition. Policy should emphasize clear quality standards, price transparency, fraud and waste reduction, and measurable outcomes to control costs and earn broad public trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can get timely, affordable essential care\u2014including preventive, mental health, and emergency services\u2014and strong protection from catastrophic medical bills, because no one should face illness without care or be bankrupted for getting it. A workable path is a transparent, fiscally responsible public guarantee with clear quality standards and anti-fraud oversight, while preserving patient choice and allowing private and nonprofit plans and providers to compete and innovate. Funding and benefits should be focused on measurable outcomes, fair pricing, and special attention to seniors, children, rural communities, and people with disabilities or pre\u2011existing conditions so the system is both compassionate and sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

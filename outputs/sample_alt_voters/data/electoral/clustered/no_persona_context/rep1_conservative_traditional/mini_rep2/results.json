@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise would keep the Electoral College but reduce winner-take-all distortions by incentivizing states to allocate electors proportionally (or through a standardized district approach) and by ensuring all electors are legally bound to certified state results. Any structural change should be paired with enforceable national minimums for voter access, paper-backed ballots, transparent tabulation, routine risk-limiting audits, and automatic recount rules so close outcomes are trusted. If broader agreement emerges, an interstate compact aligning electors with the national popular vote could be triggered only after those safeguards are in place and adopted by a broad, geographically diverse set of states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Adopt a phased reform that preserves state administration while aligning outcomes more closely with the national popular will: encourage states to move away from winner\u2011take\u2011all toward proportional (or district-based) elector allocation and allow an interstate National Popular Vote compact to take effect only once clear safeguards are in place. Pair any allocation/compact changes with enforceable nationwide baselines for ballot access, timely counting, auditable paper records, routine post\u2011election audits, and automatic recount thresholds. Require electors to follow certified results and strengthen transparency and nonpartisan oversight so close outcomes are credible, while keeping federalism\u2019s regional protections and reducing swing\u2011state distortions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Electoral College\u2019s state-based role but reduce winner-take-all distortions so the outcome more consistently matches broad national support, for example by encouraging states to allocate electors proportionally (or by district with guardrails) and allowing any move toward a national popular-vote compact only with clear, bipartisan safeguards. At the same time, set national minimum standards for voter access, timely counting, auditable paper ballots, and automatic recount triggers to strengthen confidence in close elections. Finally, require electors to follow certified state results and promote nonpartisan election administration so all communities\u2014urban and rural, large and small states\u2014can trust the outcome and feel candidates have reason to compete everywhere.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

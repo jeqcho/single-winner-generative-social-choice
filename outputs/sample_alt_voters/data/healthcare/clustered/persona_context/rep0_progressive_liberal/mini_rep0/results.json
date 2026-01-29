@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can obtain essential healthcare\u2014primary care, preventive services, mental-health treatment, and emergency/catastrophic coverage\u2014without facing medical bankruptcy or coverage gaps when changing jobs. Rather than crowding out private options, the public role should focus on setting clear minimum standards, providing income-based support, and strengthening a competitive delivery system that includes local, rural, and community providers. To keep the promise sustainable, policies should simplify enrollment and billing, require meaningful price and quality transparency, and tie public spending to measurable outcomes and responsible cost growth.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a clear, affordable baseline of essential healthcare\u2014primary and preventive care, mental-health support, and protection from catastrophic costs\u2014so no one faces medical bankruptcy. That public floor should be financed and administered simply, with strong price transparency, outcome-based accountability, and evidence-based cost controls, while supporting rural and community-based providers. Coverage should be portable across jobs and life changes, with room for private and supplemental options and public\u2013private partnerships to preserve patient choice and encourage innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure everyone can get essential healthcare without going into debt by guaranteeing a universal baseline that covers primary, preventive, mental-health, and emergency care, with strong protections for children, seniors, people with disabilities, and rural communities. To keep it affordable and trustworthy, the system should use simple enrollment and billing, negotiate and publish prices, measure outcomes, and reduce waste while respecting patient privacy. People who want more options can choose supplemental private coverage, but no one should lose basic care when they change jobs, work part-time, or care for family.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "53"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform would keep states in charge of running elections but reduce the \u201call-or-nothing\u201d effect that makes a few states decisive. States could be encouraged to adopt a uniform elector-allocation rule that better reflects in-state vote shares (such as proportional allocation with a minimum viability threshold), while leaving room for an interstate popular-vote agreement only after clear nationwide safeguards are in place. Any pathway should include baseline national rules for voter access, auditable paper ballots, routine post-election audits, and predictable recount and certification timelines so close contests are resolved transparently and consistently.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform would keep states administering elections but reduce winner-take-all distortions so the presidential result better matches the national popular will\u2014through proportional or district-based allocation (with fair, nonpartisan maps) and/or a carefully phased National Popular Vote compact with clear regional safeguards. Any shift should come with uniform minimum standards for ballot access, auditable paper ballots, routine post-election audits, and clear automatic recount triggers and certification timelines. Pairing these changes with incremental implementation and rules limiting faithless electors can protect smaller and rural communities, reduce swing-state overfocus, and strengthen trust in close outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable compromise keeps states in charge of running elections while making the presidential outcome track voters more closely by reducing winner-take-all\u2014starting with optional proportional or district-based elector allocation and allowing a carefully designed popular-vote compact only once clear safeguards are in place. Any change should come with simple, uniform baseline rules for ballot access, voter ID options, paper ballots, routine audits, and automatic recounts in very close races so both parties can trust the count. Reforms should be phased in and include guardrails that encourage candidates to compete across regions and smaller communities, while limiting faithless electors and reducing post\u2011election litigation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

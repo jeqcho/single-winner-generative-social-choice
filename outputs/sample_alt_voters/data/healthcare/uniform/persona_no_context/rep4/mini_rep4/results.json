@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.15999999999999992,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_personas": {
+      "winner": "56",
+      "epsilon": 0.15999999999999992,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal floor of coverage\u2014guaranteeing access to primary, preventive, mental health, and emergency care, plus strong protection from catastrophic costs\u2014so no one is denied treatment or bankrupted by illness. Within that guarantee, people should be able to choose among competing public and private plans that meet clear standards for benefits, quality, and network adequacy, with income-based support to keep premiums and out-of-pocket costs affordable. The government\u2019s job is to fund the gap, enforce transparency and anti\u2013price gouging rules, and pay for value (outcomes) rather than volume, while giving states and communities flexibility in delivery to encourage innovation and control spending.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can access a dependable, affordable baseline of essential healthcare\u2014especially preventive and primary care\u2014along with strong protection from catastrophic costs and discrimination for preexisting conditions. Within that universal floor, private and employer-based options should remain available, with rules that promote competition, price transparency, portability, and accountability for quality and outcomes. A pragmatic mix of targeted subsidies and streamlined administration can reduce medical bankruptcy and uncompensated care while maintaining fiscal responsibility and patient choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every American can get basic, affordable healthcare\u2014primary and preventive care, essential medicines, mental health support, and protection from catastrophic costs\u2014so no one is bankrupted by illness. It should set clear rules for price transparency, fair billing, quality standards, and protections for preexisting conditions, while allowing people to keep or choose private plans and local providers. Funding should be fiscally responsible and targeted with income-based help for working families, seniors, rural communities, and small businesses, and progress should be measured by outcomes and reduced waste rather than expanding bureaucracy.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

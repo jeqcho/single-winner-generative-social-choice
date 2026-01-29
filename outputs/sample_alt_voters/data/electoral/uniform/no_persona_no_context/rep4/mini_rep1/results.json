@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star": {
+      "winner": "55",
+      "epsilon": 0.0,
+      "full_winner_idx": "55"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "34"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most Americans\u2014whether they defend or criticize the Electoral College\u2014want a president chosen by rules that feel fair, are transparent in a close contest, and encourage candidates to compete beyond a handful of battlegrounds. A pragmatic compromise is to keep state-run elections but reduce winner-take-all distortions through proportional or multi-member elector allocation paired with baseline national standards for registration, recounts, and audits. In parallel, we can pilot and evaluate broader options like an interstate compact or a constitutional amendment against shared metrics\u2014legitimacy, representation, and stability\u2014rather than party advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people\u2014whether they defend the Electoral College or want it replaced\u2014share goals of fair representation, broad participation, and outcomes that remain legitimate and stable even in close races. A practical compromise is to keep state-run elections while reducing winner-take-all distortions through proportional (or otherwise more representative) elector allocation, paired with clearer national baselines for access, recounts, and rigorous audits. In parallel, we can evaluate the National Popular Vote Interstate Compact or a constitutional popular-vote path against agreed criteria\u2014accuracy, competitiveness across states, and trust\u2014so reforms are judged on results rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people\u2014whether they lean Republican, Democrat, or independent\u2014want a president chosen through a process that feels fair, secure, and legitimate, without making rural or smaller states feel ignored or letting millions of voters feel their ballots don\u2019t matter. A practical compromise is to keep state-run elections but reduce winner-take-all distortions by encouraging proportional or district-based elector allocation, paired with uniform minimum standards for ballot access, audits, and recounts so close elections are trusted. At the same time, we can evaluate the National Popular Vote Interstate Compact (or an amendment) against clear safeguards for nationwide recounts and transparent rules, and choose the option that best improves representation, competition, and confidence across regions.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

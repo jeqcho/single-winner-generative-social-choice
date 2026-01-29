@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_personas": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can access essential healthcare\u2014primary and preventive care, mental-health support, and emergency protection\u2014without facing financial ruin, while letting people keep private insurance options for additional coverage. Rather than running all care directly, the public role should set clear minimum benefits, guarantee affordability through targeted subsidies and risk-pooling, and enforce quality and competition rules that reward value over volume. Strong price disclosure, simpler billing and enrollment, and investment in local clinics and telehealth can expand access\u2014especially in rural and underserved areas\u2014while keeping costs and bureaucracy in check.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a clear, affordable baseline of high-quality healthcare\u2014covering preventive, primary, mental-health, emergency, pediatric, and catastrophic protection\u2014so no family faces medical bankruptcy and communities stay healthy and productive. That floor should be funded and regulated with strong price transparency, simple enrollment and billing, portability for workers and the self-employed, and outcomes-based cost controls to keep it fiscally sustainable. Delivery should rely on partnerships with private, community, and faith-based providers while preserving patient choice, room for employer coverage and supplemental plans, and incentives for innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get basic, affordable healthcare\u2014especially primary, preventive, mental-health, emergency, and catastrophic coverage\u2014so illness doesn\u2019t lead to medical bankruptcy or untreated conditions. It should set clear national standards, fund need-based help, and enforce price transparency and anti-fraud rules, while giving states and local communities flexibility to deliver care through private providers, community clinics, and faith-based partners. People should be able to keep employer coverage or choose competing private plans for additional benefits, with simple enrollment, portable coverage for changing jobs, and accountability for outcomes and cost control.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable reform would keep elections run by states but ensure the winner reflects majority support and that rules are consistent nationwide. States could be encouraged to replace winner\u2011take\u2011all with a proportional allocation formula that includes a small statewide component, alongside enforceable limits on faithless electors and stronger protections against gerrymandered districts. If, and only if, uniform standards for access, tabulation, audits, and recounts are in place and a broad coalition of states joins, an interstate compact could be used to align the outcome with the national popular vote.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Pursue a phased reform that keeps states administering elections but makes outcomes better reflect broad national support by moving away from strict winner\u2011take\u2011all toward proportional or district-based allocation, while allowing a carefully conditioned interstate popular\u2011vote compact once strong safeguards and broad participation are in place. First adopt clear nationwide minimum standards for ballot access, secure tabulation, transparent audits, and uniform recount/certification timelines, and require electors to follow the lawful certified result. Consider ranked\u2011choice voting (or runoff-style mechanisms) where feasible to ensure majority legitimacy and reduce spoiler incentives, alongside fair districting rules to limit gerrymandering in any district-based approach.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "A workable compromise keeps the constitutional, state-run structure for administering elections but reduces winner-take-all distortions so fewer voters feel ignored\u2014encouraging states to adopt proportional or district-based elector allocation and allowing a carefully designed interstate compact to reflect the national popular vote only once broad participation and clear safeguards are in place. Pair any change with national minimum standards for voter access, secure and transparent counting, routine audits and recount rules, and binding electors to certified results to reduce fraud concerns, litigation, and faithless-elector disputes. Phasing reforms in with bipartisan oversight and fair districting protections can preserve smaller-state and rural influence while improving legitimacy and ensuring candidates must compete for support across the whole country.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

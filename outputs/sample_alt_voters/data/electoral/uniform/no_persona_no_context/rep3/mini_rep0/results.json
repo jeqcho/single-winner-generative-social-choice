@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people\u2014whether they favor keeping or replacing the Electoral College\u2014want a system that preserves nationwide legitimacy while making every voter feel their ballot matters. A practical compromise is to keep the constitutional elector framework but require states to allocate electors in a way that better reflects statewide vote totals (with an option for ranked-choice tabulation), alongside clearer national rules for recount triggers, audits, and ballot access. If those steps still leave persistent gaps between voter intent and outcomes, we can then evaluate larger changes using the same agreed standards: equal influence, geographic buy-in, and administrability in close elections.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Whatever our view of the Electoral College, most people want a presidential election that feels fair, rewards broad geographic support, and is accepted as legitimate in close races. A practical compromise is to keep state-run elections but reduce winner-take-all distortions\u2014through proportional or district-based elector allocation with anti-gerrymandering safeguards\u2014and pair that with clear national standards for ballot access, audits, and recounts. We can compare options (including the National Popular Vote Interstate Compact) against shared metrics like voter equality, competitiveness across states, and recount practicality before making larger constitutional changes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people\u2014whether they favor the Electoral College or a popular vote\u2014want a president chosen by rules that feel fair, protect the voice of smaller states, and make campaigns pay attention to more than a few swing states. A practical compromise is to keep the state-based system but end winner-take-all by allocating electors proportionally (or with ranked-choice for the statewide count), paired with clear national standards for voting access, audits, and recounts. We can judge any change by shared measures: whether it better matches voter intent, reduces incentives to ignore \u201csafe\u201d states, and strengthens public trust in close elections.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

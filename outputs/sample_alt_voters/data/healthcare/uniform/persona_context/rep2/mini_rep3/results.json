@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "77"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "12"
+    },
+    "chatgpt": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "52",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "79",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "79"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can access essential healthcare\u2014primary, preventive, mental-health, and urgent care\u2014without risking medical bankruptcy, while setting clear national standards for affordability, quality, and nondiscrimination. Within that floor, states and communities should have flexibility to use a mix of public programs and regulated private plans that preserve patient choice, encourage innovation, and reward outcomes. Strong price transparency, simplified administration, and targeted, means-tested support can focus public dollars where they help most, reduce waste, and maintain long-term fiscal sustainability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable, affordable baseline of essential healthcare\u2014especially preventive, mental-health, emergency, and catastrophic coverage\u2014so no one is denied care or pushed into medical bankruptcy. That public floor should be delivered with strict fiscal stewardship through transparent pricing, streamlined administration, and clear quality standards, while preserving patient choice and room for private and employer-based options to innovate. Implementation should emphasize portability for a mobile workforce, targeted help for the most vulnerable, and accountable partnerships with state, local, and community providers to avoid one-size-fits-all mandates and build broad trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every person can get basic, affordable care\u2014especially preventive, primary, mental-health, and emergency services\u2014so no family is forced into medical bankruptcy or goes without essential treatment. This public baseline should be paired with clear price transparency, strong anti-fraud oversight, and streamlined administration, while allowing private plans and providers to compete and innovate above the floor so patients keep meaningful choice. Coverage should be portable for workers and families, with targeted help for those who need it most and flexibility for states and local community providers to deliver care with accountable results.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal floor of coverage so everyone can get essential and preventive care without facing medical bankruptcy, while leaving room for private plans and delivery models above that baseline. It should use simple, portable enrollment and income-based help, enforce protections like guaranteed issue, and reward value-based care to curb waste and improve outcomes. Clear price rules, anti\u2011monopoly oversight, and public reporting can control costs without heavy micromanagement, balancing compassion, choice, and fiscal responsibility.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "The government should guarantee universal access to a basic package of essential, preventive, and mental-health care, with strong protections against catastrophic costs and medical bankruptcy. To earn broad trust, the system should be fiscally sustainable and accountable\u2014using transparent pricing, evidence-based cost controls, and streamlined administration that reduces paperwork for patients and clinicians. That guarantee can be delivered through public\u2013private partnerships and community providers, preserving individual choice and room for private innovation while targeting extra support to the most vulnerable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "The government should ensure that everyone has access to affordable, quality healthcare\u2014especially primary, preventive, mental-health, and emergency care\u2014so no one is forced to choose between getting treatment and paying bills. It should set clear standards, protect people from medical bankruptcy, and fund coverage sustainably while demanding transparency, measurable outcomes, and simpler enrollment that reduces red tape for patients and providers. Within that universal floor, people should be able to keep or choose private options, with public\u2013private partnerships and fair competition encouraged to improve service and innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

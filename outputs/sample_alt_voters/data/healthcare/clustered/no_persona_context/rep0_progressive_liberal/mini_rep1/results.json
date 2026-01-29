@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal guarantee that everyone can obtain timely primary care, essential medicines, mental-health support, and protection from catastrophic costs, regardless of job status or preexisting conditions. It should enforce simple enrollment, portable coverage, and fair, transparent pricing while paying for value and outcomes rather than volume. Within that framework, private insurers and providers can compete to offer better service and supplemental coverage, giving people choice while public dollars are spent efficiently and focused on those who need help most.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee universal access to an affordable baseline of essential care\u2014primary, preventive, mental-health, and catastrophic coverage\u2014so no one faces medical bankruptcy or gaps due to preexisting conditions. To keep the system sustainable, it should set clear quality standards, require transparent pricing, streamline administration and enrollment, and use evidence-based, outcome-focused cost controls. Private and nonprofit plans and providers should remain free to compete and offer supplemental options, while public policy targets subsidies and investments to strengthen rural and community-based care and preserve meaningful patient choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get timely, affordable essential care\u2014primary, preventive, mental-health, maternity, and emergency services\u2014without medical bankruptcy, while protecting continuity for people who want to keep their doctors and existing coverage options. It should set clear national standards for quality, nondiscrimination and preexisting conditions, transparent prices, and strong oversight to reduce waste and surprise billing. Universal access can be delivered through a publicly funded baseline with income-based subsidies and partnerships with private, nonprofit, employer, and community providers\u2014especially strengthening rural clinics and local health systems\u2014so the system is fair, sustainable, and choice-preserving.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

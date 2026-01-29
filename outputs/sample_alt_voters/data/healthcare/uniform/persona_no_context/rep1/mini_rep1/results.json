@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can obtain timely, essential healthcare without financial ruin, while allowing people to keep or choose private coverage and providers. A balanced approach sets a clear minimum benefits floor, enforces price and quality transparency, and funds targeted help for low-income, rural, and high-need patients. Reforms should reward prevention and measurable outcomes, reduce administrative waste, and give states and communities flexibility to deliver care efficiently under accountable national standards.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential care\u2014especially preventive, mental health, emergency, and catastrophic coverage\u2014so no one is denied care or pushed into medical bankruptcy. It should set clear standards for access, quality, and price transparency, use data-driven oversight to curb waste and reward value, and protect taxpayers through fiscally responsible budgeting. Coverage can be delivered through a mix of public programs and regulated private options, preserving patient choice, competition, and innovation while strengthening local and community partnerships.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person can afford essential healthcare\u2014especially preventive, primary, mental health, and catastrophic coverage\u2014so illness doesn\u2019t lead to medical bankruptcy or prevent people from working and caring for their families. It should set clear baseline standards, enforce price transparency and anti-fraud safeguards, and invest in prevention while giving states and communities flexibility in how care is delivered. A mixed approach that keeps room for private insurance and providers, rewards quality and outcomes, and protects taxpayers through responsible budgeting can balance compassion, personal choice, and fiscal discipline.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

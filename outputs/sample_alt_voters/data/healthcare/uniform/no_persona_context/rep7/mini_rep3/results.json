@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "2",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "12"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "92",
+      "epsilon": 0.0,
+      "full_winner_idx": "92"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_personas": {
+      "winner": "78",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can obtain timely primary, preventive, emergency, and mental-health care without facing crippling medical debt, while leaving room for private plans and providers to offer additional options. That guarantee should be backed by simple national standards, income-based help with premiums and out-of-pocket costs, and strong protections for competition and patient choice. To keep the system sustainable, funding and payment rules should reward outcomes and prevention, require clear prices, and be administered with state and local flexibility under transparent public oversight.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable, affordable baseline of essential, preventive, and mental\u2011health care for everyone, with strong protection from catastrophic costs and medical bankruptcy. It should set clear standards and enforce price and quality transparency, while using outcome-based oversight, streamlined administration, and fiscal safeguards to control spending. Private and local providers should remain central through accountable public\u2013private partnerships and regulated supplemental options that preserve patient choice and encourage innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every American can access essential, preventive, and mental-health care without facing medical bankruptcy, with special attention to seniors, low-income families, and rural communities. It should set clear national standards for coverage, quality, and interoperability, require price transparency, and pay based on outcomes to reward efficient, high-quality care. Private and community-based providers should remain central, with room for supplemental private plans and state and local flexibility, while strong oversight and fiscal discipline protect taxpayers and patient choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

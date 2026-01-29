@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_personas": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star_personas": {
+      "winner": "88",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College\u2019s state-based role but change the incentives that make elections feel arbitrary. States could move from winner-take-all to proportional awards (or a ranked-choice statewide tally) paired with uniform national standards for ballots, audits, and recount triggers, so outcomes are clearer and fewer votes are effectively ignored. After a trial period, the country could reassess\u2014keeping what improves legitimacy and considering broader steps only if confidence still lags.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about keeping or replacing the Electoral College, most people want a president chosen through rules that feel fair, clear, and widely legitimate\u2014and that don\u2019t let a few swing states dominate campaigns. A practical middle path is to keep the state-based framework while reducing winner-take-all distortions through proportional (or district-based with strong anti-gerrymandering safeguards) allocation of electors and, where feasible, ranked-choice voting to ensure broader majority support. Alongside that, we can adopt uniform national standards for ballot counting, recount triggers, and post-election audits so close elections are more consistent and trusted. We can pilot and phase in changes, keeping what improves representation and confidence regardless of partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree the goal is a presidential election that feels fair, easy to understand, and doesn\u2019t let a few swing states or narrow margins decide everything. A practical compromise is to keep the Constitution\u2019s state role but reduce winner-take-all distortions by encouraging proportional elector allocation (with anti-gerrymandering safeguards where districts are used), paired with clear national standards for ballots, recount triggers, and audits. We can pilot reforms state by state\u2014such as ranked-choice voting for presidential selection or joining the National Popular Vote compact\u2014while measuring whether they increase participation, reduce \u201cwasted\u201d votes, and strengthen confidence for voters in every state.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

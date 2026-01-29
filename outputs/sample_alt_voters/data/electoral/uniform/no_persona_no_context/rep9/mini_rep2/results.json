@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "borda": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "87",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_personas": {
+      "winner": "95",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "People who defend the Electoral College and those who want a national popular vote often agree on two basics: presidents should earn broad support and the rules should never make voters feel \u201cwritten off.\u201d A practical compromise is to keep the state-based structure but curb winner-take-all by using a proportional or ranked-choice method within each state, paired with clear nationwide standards for counting, audits, and recounts. That would reduce swing-state overfocus and mismatch risk while preserving a meaningful role for states in building national coalitions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even if we disagree about abolishing the Electoral College, we can unite around goals most Americans share: making every vote matter more, reducing swing\u2011state distortions, and ensuring clear, trusted outcomes in close elections. A practical middle path is to keep a state-based framework while ending winner-take-all by allocating electors proportionally or through districts with strong anti-gerrymandering safeguards, paired with uniform national standards for ballots, audits, and recounts. We can compare these options\u2014alongside a National Popular Vote Interstate Compact\u2014by the same criteria: representativeness, simplicity, recount feasibility, and legitimacy for winners and losers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "People who disagree about the Electoral College can still agree on three goals: every vote should matter more, smaller states and rural communities shouldn\u2019t be ignored, and close elections should have clear, trusted rules. A practical compromise is to keep the state-based framework but end winner-take-all by allocating electors proportionally (or through a fair district method with anti-gerrymandering safeguards), paired with uniform national standards for ballot access, audits, and recounts. We can phase in changes and evaluate them by whether they reduce swing-state distortions, strengthen legitimacy for the winner, and avoid partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

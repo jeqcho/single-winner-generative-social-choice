@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "29"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_star_personas": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable approach is for government to ensure that everyone can obtain a basic package of essential care without financial catastrophe, while leaving room for people and employers to choose among competing plans and delivery models. Government would set clear rules for coverage, pricing transparency, and non-discrimination, and use income-based assistance and risk sharing to make the baseline affordable. In return, providers and insurers would be held to measurable outcomes and fraud/waste controls, keeping the focus on access, quality, and sustainable costs rather than ideology.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Whatever the preferred model, most people agree no one should be denied essential care or pushed into bankruptcy because of illness. A workable role for government is to guarantee a universal baseline of coverage with clear standards for affordability, quality, and protections like preexisting-condition rules, while letting public and private plans/providers compete on service and efficiency. Government can focus on transparency, reducing waste, and targeted subsidies for those who can\u2019t afford coverage, using accountability measures to keep costs sustainable and preserve patient choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people agree that no one should be denied essential care or face financial ruin because they get sick, and that the system must be fiscally responsible. Government can ensure a universal, clearly defined baseline of coverage and strong protections (including for preexisting conditions), provide targeted help for those who can\u2019t afford premiums or out-of-pocket costs, and set transparent standards for quality and fair pricing. At the same time, allowing multiple delivery options and using competition, payment reform, and anti-waste enforcement can preserve choice, encourage innovation, and keep costs under control.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

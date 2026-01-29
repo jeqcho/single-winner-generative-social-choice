@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can obtain timely, affordable essential healthcare\u2014especially primary, preventive, mental health, and emergency services\u2014without fear of medical bankruptcy. It should set clear nationwide rules for coverage, transparency, and patient protections, while allowing multiple paths to deliver care through regulated private plans, employer coverage, and a public backstop where markets fail. Paying for this should prioritize cost discipline through negotiated prices, fraud reduction, and outcomes-based incentives, with flexibility for states and local providers to implement what works best.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential preventive, emergency, and primary care so no one is excluded or pushed into financial ruin. It should set clear national standards, protect privacy, and use transparent, evidence-based cost controls and quality measures while keeping room for private insurance, competition, and innovation. Delivery should rely on streamlined administration and flexible partnerships with states, employers, and community providers so coverage is portable, fiscally responsible, and accountable to patients and taxpayers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "The government should ensure every person can get essential preventive, emergency, and chronic-care services without being pushed into debt, while setting clear national standards for quality, transparency, and patient privacy. Coverage should be delivered through flexible public\u2013private options\u2014such as a basic public plan alongside regulated private and employer plans\u2014so people can keep choice and competition while no one falls through the cracks. Cost controls should focus on evidence-based care, lower drug and administrative costs, and strong support for local clinics and rural providers. This approach treats healthcare as a shared responsibility that protects families and public health while respecting fiscal stewardship and personal freedom.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

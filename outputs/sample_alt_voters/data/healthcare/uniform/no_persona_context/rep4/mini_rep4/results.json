@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt_star": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "25"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure everyone is enrolled in a universal, affordable core benefit that covers primary, preventive, mental-health, and emergency care, with strong protections against medical debt. It should set and enforce clear rules\u2014standardized billing, fair price benchmarks, and quality reporting\u2014to curb waste and improve outcomes, while allowing people and employers to choose among competing public or regulated private plans. Targeted subsidies and support for rural and safety\u2011net providers should close access gaps, and policies should be evaluated and adjusted transparently to keep the system sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee universal access to an affordable, evidence-based baseline of essential care\u2014primary, preventive, mental-health, and emergency services\u2014so no one faces medical bankruptcy or is denied coverage for preexisting conditions. To keep the system sustainable, it should negotiate fair prices, reduce administrative waste, and require strong price transparency and outcome-based accountability. Private plans and providers should remain available for supplemental coverage and innovation, supported by targeted, income-based subsidies and partnerships with local and community organizations to ensure culturally respectful care.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident has access to an affordable, dependable baseline of essential care\u2014primary, preventive, mental health, and emergency services\u2014so no family is bankrupted by illness. The best path is a transparent, fiscally responsible public safety net that negotiates fair prices, reduces administrative waste, and measures outcomes, while allowing private plans and employers to offer supplemental coverage and preserve patient choice. Targeted, income-based help, strong protections for preexisting conditions, and partnerships with local providers and community clinics can expand access in ways that respect different communities and keep the system sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

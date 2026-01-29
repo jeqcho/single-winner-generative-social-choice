@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "12"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_personas": {
+      "winner": "6",
+      "epsilon": 0.0,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can obtain essential healthcare\u2014including primary care, medications, mental health services, and protection from catastrophic bills\u2014regardless of income or preexisting conditions. It should set clear national standards, fund the safety net with transparent financing, and hold plans and providers accountable for quality and outcomes while allowing private insurers and providers to compete for supplemental coverage and better service. Reforms should prioritize price transparency, simpler administration, portability of coverage, and incentives for prevention and value-based care so costs are controlled without sacrificing choice or innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every person can get affordable, reliable basic healthcare\u2014especially primary, preventive, mental-health, and emergency care\u2014so no one is denied treatment or bankrupted by illness. It should set clear national standards and oversight for quality, preexisting-condition protections, and transparent pricing, while using cost-control and anti-waste measures to keep the system fiscally sustainable. Coverage should remain portable and choice-focused by partnering with private insurers, employers, and community providers, with targeted help to protect low-income and rural residents and those with complex needs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can get affordable, timely basic and preventive care\u2014and strong protection from catastrophic medical bills\u2014so illness doesn\u2019t mean bankruptcy or going without needed treatment. It should set clear national standards, protect people with preexisting conditions, and fund targeted help for low-income, rural, disabled, and senior populations, while allowing private insurance and employer plans to offer additional choices. Reforms should prioritize cost transparency, simpler administration, and payment incentives that reward outcomes and prevention, using technology and competition where they reduce waste. This approach balances compassion and personal responsibility with fiscal stewardship and accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

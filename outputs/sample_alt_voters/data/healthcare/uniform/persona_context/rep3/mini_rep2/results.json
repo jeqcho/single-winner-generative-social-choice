@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star": {
+      "winner": "33",
+      "epsilon": 0.0,
+      "full_winner_idx": "33"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "18"
+    },
+    "chatgpt_star_personas": {
+      "winner": "93",
+      "epsilon": 0.0,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can access essential healthcare without being pushed into debt by setting national minimum standards and guaranteeing affordable coverage for primary care, prevention, mental health, and emergencies. It should focus on what markets handle poorly\u2014protecting people with preexisting conditions, closing rural and underserved gaps, and using transparent payment rules and price negotiation to curb waste\u2014while allowing multiple delivery and insurance options. A durable approach pairs this floor with clear accountability, simple enrollment, and room for states, employers, nonprofits, and private providers to innovate as long as outcomes and costs are publicly measured.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a dependable, affordable baseline of essential healthcare\u2014especially primary, preventive, mental-health, and emergency services\u2014so no one faces medical bankruptcy or goes without necessary care. That guarantee should be delivered through efficient, accountable programs with transparent pricing and evidence-based cost controls, while partnering with private, community, and local providers to preserve patient choice and encourage innovation. Reforms should prioritize prevention, portability of coverage, and targeted support for rural and underserved communities, caregivers, and small businesses so the system remains fiscally sustainable and broadly trusted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get basic, timely care\u2014primary, preventive, mental-health, and emergency services\u2014without risking medical bankruptcy, while setting clear national standards for quality and patient privacy. The most workable approach is a fiscally responsible public guarantee with transparent pricing and strong anti-fraud oversight, delivered through a mix of private, community, rural, and faith-based providers so people can keep meaningful choice. Reforms should be phased and measurable, focusing on prevention, caregiver support, and portability of coverage for workers, seniors, and small businesses.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

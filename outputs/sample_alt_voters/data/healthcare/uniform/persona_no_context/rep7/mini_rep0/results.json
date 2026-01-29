@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "irv": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "28"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "35"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "90",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a clear national guarantee that every resident can get essential primary, preventive, emergency, and mental-health care without medical debt, while allowing people to choose among competing public and private coverage options. Its role is to fix market failures through fair rules\u2014price transparency, protections for preexisting conditions, and risk pooling for high-cost cases\u2014while letting clinicians and plans innovate. Funding and administration should be streamlined and accountable, with targeted support for rural and underserved areas and regular outcome-based evaluation to keep costs sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can afford and access essential, preventive, emergency, and mental-health care, with strong protection against catastrophic medical bills and coverage gaps. A practical approach sets a universal baseline (through a public option or regulated minimum standard) while preserving room for private plans, provider choice, and innovation. To keep the system sustainable, policy should prioritize price transparency, streamlined administration, anti-fraud accountability, and targeted support for vulnerable people and underserved areas.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "The government should guarantee every American affordable access to essential preventive, emergency, mental-health, and chronic-care services, so no one is left uninsured or bankrupted by illness. It should set clear national standards for coverage, transparency, and consumer protections, while allowing states and private plans to compete on service and value so people can keep choices that work for their families and employers. Reforms should prioritize cost control through price transparency, streamlined administration, anti-fraud enforcement, and stronger support for rural and underserved providers, with funding designed to be fiscally sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

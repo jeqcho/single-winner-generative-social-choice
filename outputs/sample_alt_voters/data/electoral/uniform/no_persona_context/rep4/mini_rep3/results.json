@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.1399999999999999,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_personas": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A bridging reform would keep the Electoral College\u2019s constitutional framework but make outcomes more representative by curbing winner-take-all\u2014through proportional allocation or a uniform district model with strong anti-gerrymandering protections\u2014and by legally binding electors to certified results. In parallel, adopt clear national baseline standards for ballot access, recount triggers, transparent audits, and election security so close contests are resolved predictably and with less litigation. If broader agreement develops, a phased interstate compact or amendment toward a national popular-vote outcome could be considered only after these safeguards are in place and tested.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A consensus reform would keep state-run elections and the Electoral College framework, but reduce winner-take-all distortions by encouraging proportional or district-based allocation of electors and making electors legally bound to certified results. Pair this with clear national baseline standards for ballot access, secure counting, transparent recount triggers, and routine post-election audits to reduce litigation and build trust. If broader agreement develops, states could phase in a National Popular Vote compact and/or ranked-choice ballots to ensure presidents win broad, cross-regional support without sidelining smaller states.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep state-run elections and the Electoral College framework, but reduce winner-take-all distortions so fewer voters feel ignored\u2014by encouraging proportional or district-based awarding of electors, paired with strong anti-gerrymandering safeguards where districts are used. To build trust across parties, require electors to follow certified results and set clear national minimum standards for ballot access, secure counting, transparent audits, and recount triggers to limit litigation and partisan interference. If broad bipartisan confidence is achieved, states could phase in a voluntary national popular-vote compact or ranked-choice runoff to ensure the winner has wide, cross-regional support without abruptly rewriting the system.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

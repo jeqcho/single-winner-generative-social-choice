@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star_personas": {
+      "winner": "77",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal guarantee that no one is uninsured for essential primary, preventive, mental health, and emergency care, and that families are protected from catastrophic medical bills\u2014while allowing people to choose among regulated public and private plan options. Its role is to define clear benefit standards, enforce consumer protections and nondiscrimination, and use payment reform and transparent pricing to reward outcomes and curb waste. Targeted subsidies and automatic enrollment should close affordability gaps, with flexibility for states and local providers to meet rural and community needs without sacrificing fiscal accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential care\u2014especially preventive, primary, mental health, and emergency services\u2014with strong protection against catastrophic medical bills so no one faces financial ruin. This public floor should be paired with transparent pricing, negotiated or value-based payments, and streamlined administration to control costs and improve quality. Within clear rules and patient protections, regulated private and supplemental options can preserve choice and spur innovation, while targeted subsidies and support for rural and community providers ensure access where markets fall short.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every American can get essential primary, preventive, mental health, and emergency care\u2014and strong protection from catastrophic medical bills\u2014so no one is bankrupted or forced to delay treatment. This baseline should be financed and managed with strict transparency, anti-fraud enforcement, and evidence-based cost controls like negotiated prices and simpler administration. People who want more options can choose regulated private or employer plans on top of the public floor, while policies strengthen rural hospitals, community clinics, and the healthcare workforce. The goal is universal access with fiscal responsibility, patient choice, and stable support for families, workers, and seniors.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

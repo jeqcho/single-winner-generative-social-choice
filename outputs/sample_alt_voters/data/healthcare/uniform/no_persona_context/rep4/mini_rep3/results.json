@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt_star_personas": {
+      "winner": "80",
+      "epsilon": 0.0,
+      "full_winner_idx": "80"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a universal standard that guarantees every resident affordable access to essential primary, preventive, emergency, and mental-health care, with strong protections against catastrophic medical bills. It should focus on fair financing, simple enrollment, and system-wide cost discipline through negotiated rates, anti-monopoly enforcement, and transparency on prices and outcomes. Within that public guarantee, people and employers should be free to choose among competing non-profit or private plans and local providers, while supplemental coverage remains available for those who want more options.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee universal access to an affordable, high\u2011quality baseline of care\u2014especially preventive, primary, mental\u2011health, emergency, and chronic\u2011care services\u2014so no one faces catastrophic medical costs or loses coverage when jobs or circumstances change. To keep the system sustainable, it should negotiate and publish prices, streamline administration, and hold payers and providers accountable to measurable outcomes. Within that public guarantee, well\u2011regulated private and community partners can deliver care and offer supplemental options, preserving choice while encouraging innovation and local responsiveness.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every person can get essential care\u2014primary, preventive, mental health, emergency services, and affordable medicines\u2014without facing catastrophic bills, while letting people keep private insurance and supplemental options if they want them. It should set clear national rules for price transparency, negotiated rates where appropriate, protections for preexisting conditions, and simple, portable enrollment, while partnering with local hospitals, clinics, and employers to deliver care efficiently. Funding and oversight should be fiscally responsible and outcome-based, with targeted help for rural and low-income communities and investments in the healthcare workforce to reduce shortages and wait times.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

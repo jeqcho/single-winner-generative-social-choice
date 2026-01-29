@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "5",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "53"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can obtain essential healthcare by setting a nationwide minimum standard of coverage, banning discriminatory coverage practices, and providing income-based support so cost is not a barrier. Within that floor, states, employers, insurers, and providers can use different models and offer supplemental options to reflect local needs and personal preferences. Public oversight should focus on transparency, value-based payment, and investments in prevention and primary care so access expands while costs and quality are held accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree that no one should be denied essential care or pushed into medical bankruptcy, even if we differ on the best delivery model. A practical role for government is to guarantee a basic, affordable floor of coverage, set fair rules and consumer protections (including for preexisting conditions and clear billing), and use tools like price negotiation and public-health investment to improve outcomes and control costs. Within those guardrails, private and community providers can compete and innovate, preserving choice while meeting shared goals of access, quality, and fiscal sustainability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people agree that no one should be denied essential care or pushed into bankruptcy because they get sick. Government should guarantee a basic, affordable level of coverage with clear consumer protections and transparent pricing, while giving states and communities flexibility and leaving room for private plans and providers to offer additional options. By focusing on prevention, mental health, and better value\u2014reducing waste, fraud, and surprise bills\u2014we can improve outcomes and control costs without sacrificing personal choice.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

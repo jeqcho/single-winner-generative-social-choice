@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "plurality": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should make sure every resident can obtain essential healthcare without financial hardship by setting a universal coverage floor, enforcing basic quality standards, and limiting out-of-pocket exposure to catastrophic costs. Within that guarantee, people should be able to choose among public, nonprofit, or private plans and providers, with fair competition, price transparency, and simplified administration to reduce waste. Public dollars should be targeted to those who need them most and tied to measurable outcomes\u2014especially prevention and primary care\u2014so access expands while costs stay sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable basic healthcare floor\u2014especially primary and preventive care\u2014and protect every family from catastrophic medical costs, while ensuring strong standards for quality and fair access (including for rural communities, disabilities, and pre-existing conditions). To keep the system sustainable, policies should emphasize price transparency, evidence-based payment reforms, and streamlined administration with clear accountability for results. People should retain meaningful choice among providers and plans, with room for private insurers and community, faith-based, and local organizations to deliver care and innovate within sensible regulation and responsible public financing.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every resident can get basic, high-quality care\u2014especially primary, preventive, mental health, and emergency services\u2014and be protected from financial ruin due to illness or injury. That guarantee should be delivered with clear standards, strong oversight against price gouging and surprise billing, and simple, transparent costs, while still allowing people to keep private insurance options and choose among local doctors, clinics, and hospitals. Reforms should prioritize rural access, support for seniors, veterans, people with disabilities, and working families, and reward proven outcomes, competition, and innovation so coverage expands without wasteful bureaucracy or unsustainable spending.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

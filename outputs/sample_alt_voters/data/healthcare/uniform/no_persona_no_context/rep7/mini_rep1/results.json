@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "88"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "88"
+    },
+    "irv": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "1",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "88"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "66"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "15"
+    },
+    "chatgpt_star": {
+      "winner": "54",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "68",
+      "epsilon": 0.0,
+      "full_winner_idx": "68"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable middle ground is for government to guarantee that every resident can obtain essential, evidence-based care without medical bankruptcy, while leaving room for multiple delivery and insurance models. That means setting clear consumer protections and minimum benefits, targeting subsidies to those who need help, and using transparency and value-based purchasing to reward quality and reduce waste. Within that floor, states, employers, and private plans can compete and innovate on service, networks, and supplemental coverage as long as outcomes and costs remain accountable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree the government should ensure no one is denied essential care or pushed into medical bankruptcy, while still preserving room for choice and innovation. A practical role is to guarantee a universal baseline of affordable coverage and strong consumer protections, funded with targeted subsidies for those who need help. Government should also use transparent standards, streamlined administration, and selective price negotiation to control costs and improve quality, while partnering with private and local providers to deliver care in diverse ways.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree the government should ensure that every resident can get essential preventive, primary, emergency, and mental health care without facing medical bankruptcy. A workable approach is to set a clear national baseline of benefits and patient protections, help lower- and middle-income families afford coverage, and use transparent price negotiation and anti-fraud enforcement to curb costs. Above that baseline, people should be free to choose among competing public and private plan options, with room for state and local flexibility as long as outcomes on access, quality, and fiscal responsibility are measured and reported.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

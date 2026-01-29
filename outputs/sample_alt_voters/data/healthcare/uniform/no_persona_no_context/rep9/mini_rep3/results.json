@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "86"
+    },
+    "chatgpt_star": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "67",
+      "epsilon": 0.0,
+      "full_winner_idx": "67"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A durable compromise is for government to ensure that every resident can obtain essential primary, emergency, mental health, and preventive care without prohibitive out-of-pocket costs, while avoiding one-size-fits-all control of how care is delivered. That means setting clear baseline benefits and patient protections, helping finance coverage on a sliding scale, and using tools like price transparency and competitive purchasing to curb waste and excessive pricing. Within those guardrails, public, nonprofit, and private plans and providers can compete to offer better service and additional options.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can get essential, timely care without facing medical bankruptcy, by guaranteeing a universal baseline of coverage and strong protections for patients. Within that framework, it should set clear quality, equity, and transparency standards, curb abusive pricing and administrative waste, and invest in prevention and public health. Targeted subsidies and cost-effective incentives can prioritize the most vulnerable while leaving room for private and local delivery options that expand choice and innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get timely essential care\u2014primary, emergency, mental health, and preventive services\u2014without facing medical bankruptcy, while protecting taxpayer dollars through clear outcomes and cost controls. It can do this by setting baseline coverage and quality standards, improving price transparency and competition, and providing income-based assistance, with both public programs and private plans/providers able to deliver care. Local flexibility, strong anti-fraud enforcement, and streamlined administration can reduce waste and paperwork while preserving choice and encouraging innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

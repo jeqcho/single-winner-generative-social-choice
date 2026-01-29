@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "41",
+      "epsilon": 0.0,
+      "full_winner_idx": "41"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.0,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people can agree that access to needed care shouldn\u2019t depend on luck, employment status, or the ability to absorb a major medical bill. A balanced role for government is to set clear national rules\u2014guaranteeing basic coverage, enforcing price and quality transparency, and limiting unfair denials\u2014while letting patients choose among competing plans and providers. Public dollars can be targeted to those with the greatest need and to high-value prevention, alongside payment reforms that reward outcomes and keep overall spending predictable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should be denied timely, essential care or face medical bankruptcy, and that the system must be financially sustainable. Government should guarantee a universal baseline of coverage with predictable funding, set transparent quality and pricing standards, and address market failures that drive costs up. Within those guardrails, policymakers can partner with private insurers and providers, preserve individual choice through supplemental options, and reward prevention and innovation that improve outcomes and efficiency.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should be denied timely, essential care\u2014or face bankruptcy\u2014because they get sick, and that any solution must be financially responsible. Government should set clear minimum coverage and quality standards, protect people from catastrophic costs, and help those who can\u2019t afford care, while enforcing transparency and competition to keep prices in check. At the same time, it can preserve personal choice and encourage innovation by allowing private plans and providers to offer supplemental options within fair rules.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "irv": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "plurality": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "veto_by_consumption": {
+      "winner": "8",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "54"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_star": {
+      "winner": "14",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "72",
+      "epsilon": 0.15999999999999992,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can access a basic level of essential care\u2014primary, preventive, mental-health, and protection from catastrophic medical bills\u2014so health needs don\u2019t become a financial crisis. It should set clear coverage standards, enforce fair and transparent pricing, and measure outcomes while giving states and communities flexibility in how care is delivered. Within that public floor, private and nonprofit providers should compete to improve service and innovate, with reforms phased in and paid for responsibly to protect both patients and taxpayers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a portable, affordable baseline of essential care\u2014especially primary, preventive, mental-health, and emergency/catastrophic coverage\u2014so no one is denied timely treatment or pushed into medical bankruptcy. That public floor should come with clear standards, transparent pricing, and measurable outcomes to control costs and reduce administrative waste. Within that framework, individuals should retain meaningful choice and the system should partner with private, nonprofit, employer, and community (including faith-based) providers to spur innovation and deliver care locally. Reforms should be phased in pragmatically and financed responsibly to protect taxpayers while prioritizing the most vulnerable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get basic, affordable healthcare\u2014especially primary, preventive, mental-health, and emergency care\u2014so illness doesn\u2019t lead to medical bankruptcy or untreated conditions. That guarantee should set clear national standards and patient protections, while allowing private plans and providers to compete and offer additional options. Reforms should focus on transparent prices, simpler administration, and strong anti-fraud and cost-control measures, with flexibility for states, employers, and community and faith-based partners to deliver care efficiently. A phased, fiscally responsible approach with measurable outcomes can protect taxpayers while improving access and quality.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

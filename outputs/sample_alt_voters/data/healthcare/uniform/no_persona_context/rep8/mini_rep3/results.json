@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_rankings": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_star_personas": {
+      "winner": "95",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "95"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every resident can obtain timely, affordable essential care\u2014especially primary, preventive, emergency, chronic, and behavioral health\u2014without fear of medical bankruptcy. It should focus on setting fair rules, financing gaps, and protecting patients through transparent pricing, baseline benefit standards, and strong oversight of costs and outcomes. Delivery can rely on a mix of public, nonprofit, and private providers, with room for supplemental insurance and innovation so long as universal access and fiscal sustainability are maintained.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential care\u2014especially preventive, primary, mental-health, and emergency services\u2014so no one faces medical bankruptcy or gaps in timely treatment. That public guarantee should be paired with strong cost controls, streamlined administration, transparent pricing, and clear outcome metrics to ensure quality and fiscal sustainability. Delivery can rely on a mix of public, private, and community providers, while allowing regulated supplemental private coverage and local flexibility to preserve choice and encourage innovation. Targeted support for rural and underserved communities should ensure the system is equitable and workable everywhere.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential care\u2014especially primary, preventive, mental-health, and emergency services\u2014so no one is denied treatment or driven into medical bankruptcy. To respect choice and innovation, people should be free to keep employer or private plans and purchase supplemental coverage, while care can be delivered through a mix of public, private, and community providers. The system should be fiscally responsible through transparent pricing, streamlined administration, measurable outcomes, and strong anti\u2011fraud and cost-control tools, with targeted help for rural areas and other underserved communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

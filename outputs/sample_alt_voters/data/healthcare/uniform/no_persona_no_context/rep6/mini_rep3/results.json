@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.0,
+      "full_winner_idx": "54"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_personas": {
+      "winner": "9",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star": {
+      "winner": "42",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star_personas": {
+      "winner": "81",
+      "epsilon": 0.0,
+      "full_winner_idx": "81"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable middle ground is to treat access to essential healthcare as a guarantee, while keeping flexibility in how coverage and care are delivered. Government should define and fund a basic benefits floor, protect people from catastrophic costs and unfair billing, and use transparent quality and price reporting to hold all payers and providers accountable. Beyond that baseline, individuals and employers can choose among competing plans and delivery models, with innovation encouraged through clear rules and aligned incentives.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people agree healthcare should provide timely essential care without forcing families into medical bankruptcy, while keeping the system accountable and financially sustainable. A constructive government role is to guarantee universal baseline coverage and protection against catastrophic costs, set clear standards and price transparency, and invest in prevention and public health preparedness. Within those guardrails, private and public providers can compete and innovate on quality, access, and value, preserving choice where possible.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most of us can agree that no one should be denied essential medical care or pushed into bankruptcy because they get sick, and that public dollars should be used transparently and efficiently. A workable government role is to guarantee a basic level of coverage and strong consumer protections, invest in prevention and emergency preparedness, and set clear rules for price and quality transparency. Within those guardrails, private insurers and providers can compete and innovate, with people free to choose plans and supplemental options that fit their needs.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

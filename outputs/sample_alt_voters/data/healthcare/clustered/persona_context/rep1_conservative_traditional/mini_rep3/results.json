@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star": {
+      "winner": "44",
+      "epsilon": 0.1499999999999999,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "71",
+      "epsilon": 0.0,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can obtain essential healthcare without financial hardship by setting a universal minimum standard of coverage and access, especially for primary, preventive, mental-health, and emergency care. Rather than relying on a single model, it should use a mix of public programs and regulated private plans, with subsidies for those who need them, clear consumer protections, and straightforward pathways for enrollment. The public role should focus on transparent pricing, quality and outcome measurement, anti-fraud enforcement, and targeted investment in underserved communities, while leaving room for competition, local delivery, and innovation.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a clear, affordable baseline of essential healthcare\u2014especially preventive, mental-health, and emergency/catastrophic care\u2014so no one faces medical bankruptcy and communities can stay healthy and productive. That guarantee should be delivered through fiscally responsible, phased reforms with strong price transparency, simple administration, and accountable oversight focused on outcomes and waste reduction. Implementation should rely on flexible public\u2013private and local partnerships (including clinics and community organizations) that preserve patient choice and encourage innovation while prioritizing access for vulnerable and underserved groups.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every American can afford essential healthcare\u2014especially primary, preventive, mental-health, and emergency care\u2014so no family faces medical bankruptcy or goes without needed treatment. The best path is a fiscally responsible, transparent safety-net guarantee that sets clear standards, reduces waste and fraud, and holds providers accountable for quality and fair pricing. Within that baseline, people should keep the freedom to choose doctors and plans, with room for private insurers, employers, and community and faith-based clinics to innovate and meet local needs.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

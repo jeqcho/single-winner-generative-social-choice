@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "veto_by_consumption": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "90"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "12",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star": {
+      "winner": "74",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "73",
+      "epsilon": 0.0,
+      "full_winner_idx": "73"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set the rules and provide stable financing so every resident is guaranteed timely access to a defined set of essential services and strong protection from catastrophic medical bills. It should use simple enrollment, transparent pricing, and independent, evidence-based payment reforms to curb waste and reward quality rather than volume. Within that universal guarantee, people should be free to choose among competing public, nonprofit, and private plans and providers, with room for supplemental coverage and local innovation that improves access and outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee universal access to an affordable baseline of essential care\u2014especially primary, preventive, emergency, mental-health services\u2014and protection from catastrophic medical bills, so no one faces financial ruin. It should finance and regulate this safety net with clear quality standards, streamlined enrollment/administration, and transparent, evidence-based cost controls tied to measurable outcomes. At the same time, preserve patient choice by partnering with community providers and allowing private supplemental coverage and innovation to expand options and improve quality. Target extra support to vulnerable populations while ensuring coverage is portable and sustainable for taxpayers.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee universal, affordable access to essential healthcare\u2014primary, preventive, mental-health, maternity/pediatric, and emergency care\u2014so no one is forced to go without treatment or face medical bankruptcy. It should set clear quality standards, protect people with preexisting conditions, and use negotiated prices, transparency, and simpler administration to control costs and reduce waste. Within that strong public floor, patients should be able to keep their doctor when possible and choose among community providers and optional private supplemental plans, with targeted help for rural and underserved communities.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "irv": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "plurality": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "veto_by_consumption": {
+      "winner": "2",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "78"
+    },
+    "chatgpt_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "50"
+    },
+    "chatgpt_star": {
+      "winner": "37",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "37"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "10"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Any reform to the Electoral College should protect stable, state-run elections while reducing the sense that outcomes hinge on a few battleground states and that some voters matter less than others. A workable compromise is to keep the constitutional framework but replace winner-take-all with proportional elector allocation (or similar methods states can adopt) and allow an interstate agreement to award electors to the national vote winner once participation is broad and rules are uniform. These changes should be paired with enforceable minimum standards for ballot access, paper-based verification, routine post\u2011election audits, and clear recount and certification timelines so results are transparent, hard to manipulate, and widely accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Preserve the state-run Electoral College framework for constitutional stability, but reduce winner-take-all distortions so each lawful vote carries more comparable weight and candidates must earn broad, cross-regional support. An incremental reform package could combine proportional (or otherwise less winner-take-all) allocation of electors and a voluntary interstate compact that reflects the national popular vote once broadly adopted, alongside ranked-choice ballots where states choose to use them. Pair any change with clear, uniform, auditable standards for ballot access, paper trails, routine audits, and transparent recount/certification rules\u2014including requiring electors to follow certified results\u2014to strengthen legitimacy and peaceful transitions.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforms to the Electoral College should make every lawful vote count more equally and transparently, while keeping elections state-run and protecting the voice of smaller and rural communities. A practical compromise is to reduce winner-take-all outcomes by encouraging proportional allocation of electors and/or joining a national popular-vote interstate compact once enough states participate, so results match the country\u2019s overall choice. These changes should be paired with clear, uniform minimum standards for voter access, paper-backed ballots, routine audits, and consistent recount and certification rules, implemented gradually and with strong nonpartisan safeguards to rebuild trust.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

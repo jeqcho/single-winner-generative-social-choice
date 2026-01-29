@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "plurality": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star_personas": {
+      "winner": "70",
+      "epsilon": 0.0,
+      "full_winner_idx": "70"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people can agree the presidency should be decided by a process that makes the winner feel legitimate nationwide while giving every voter a meaningful chance to influence the outcome. A workable compromise is to keep the Electoral College but require states to award electors using a method that better matches statewide vote totals (with independent redistricting if districts are used) and to pair that with uniform national rules for certification, audits, and recounts. Setting clear goals\u2014reducing vote-weight disparities, avoiding razor-thin disputes, and broadening campaign attention beyond a few battlegrounds\u2014lets us compare reforms on fairness and stability rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about keeping or replacing the Electoral College, most of us want outcomes that feel fair, transparent, and accepted\u2014and that don\u2019t make voters or states feel ignored. A practical middle path is to reduce winner-take-all distortions by encouraging proportional (or carefully designed district-based) allocation of electors with strong anti-gerrymandering safeguards, while also setting clearer national standards for certification and recounts. In parallel, we can evaluate a popular-vote pathway like the National Popular Vote compact once it includes uniform rules for close elections, so reforms are judged by trust, stability, and broad geographic legitimacy rather than party advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most of us want presidential elections where every vote matters, outcomes are accepted as legitimate, and no region or state feels written off. A practical compromise is to keep the Electoral College framework but reduce winner-take-all incentives by encouraging proportional (or district-based) allocation with strong anti-gerrymandering protections, while also setting clear, uniform national rules for counting, certification, and recounts. At the same time, we can evaluate a popular-vote pathway like the National Popular Vote Interstate Compact with transparent triggers and recount safeguards, so reforms are judged by fairness and stability rather than party advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

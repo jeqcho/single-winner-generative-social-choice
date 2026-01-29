@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "61"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "veto_by_consumption": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "88"
+    },
+    "chatgpt_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_personas": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_star_personas": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A broadly acceptable role for government is to make sure everyone can obtain essential care without financial devastation, while letting different states, communities, and plans choose how to deliver it. That can mean defining a core benefits floor, funding it through a mix of subsidies and risk-sharing, and requiring clear prices and outcome reporting so patients and taxpayers can judge value. Within those guardrails, competition and private innovation can continue, with public programs focused on filling gaps and protecting high-need populations.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Despite disagreements about the best system, most people share the goals of timely access, protection from catastrophic medical bills, and better health outcomes at a sustainable cost. A workable role for government is to guarantee a universal baseline of essential coverage with strong cost protections, while setting clear quality standards and requiring price transparency. Within that framework, private and public options can compete and innovate in how care is delivered, and targeted subsidies can help those who would otherwise be left out.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should be denied essential care or pushed into bankruptcy by illness, and that communities benefit when preventable problems are treated early. The government\u2019s role should be to guarantee a basic, affordable level of coverage and strong protections against catastrophic costs, while keeping multiple delivery options and room for private initiative. It should also set clear standards for quality, fight fraud and waste, and require price transparency so taxpayers, patients, and employers can see what works and what costs too much.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

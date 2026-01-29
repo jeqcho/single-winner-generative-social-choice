@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "veto_by_consumption": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.1100000000000001,
+      "full_winner_idx": "14"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "74"
+    },
+    "chatgpt_star_personas": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "87"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Reform should aim to make the presidency track the voters\u2019 will more closely while preserving a meaningful role for states and minimizing disruptive constitutional fights. A workable middle ground is to end winner-take-all by moving states toward proportional elector allocation with safeguards against gerrymandering, require electors to honor certified results, and adopt clear national baseline rules for access, counting, audits, and recount triggers. If those steps don\u2019t resolve legitimacy concerns, the National Popular Vote Interstate Compact could serve as a next-step option once participating states meet transparent, uniform election-administration standards.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "A practical compromise is to keep the Electoral College\u2019s state-based framework but modernize it so outcomes track voters more closely and feel fair everywhere. States should adopt proportional (or otherwise less winner-take-all) allocation of electors, require electors to follow the certified vote, and use clear national baseline standards for ballot access, counting, audits, and recounts. The National Popular Vote Interstate Compact can be considered once transparent safeguards and uniform rules are in place. The goal is to reduce battleground-state distortion, strengthen legitimacy, and ensure every lawful vote is counted and valued.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reform should keep the Constitution\u2019s state-based role in choosing a president, but reduce the sense that a few swing states decide everything by moving away from winner-take-all toward a clear, proportional allocation of electors in every state and binding electors to their state\u2019s certified results. Any change should come with uniform baseline rules for voter ID/eligibility verification, ballot access, timely counting, recount triggers, and transparent audits so every lawful vote is treated consistently and outcomes are trusted. If broader agreement develops over time, the National Popular Vote compact can be evaluated with strong safeguards to protect close-election legitimacy and state administration.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "irv": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "plurality": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "veto_by_consumption": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_star": {
+      "winner": "60",
+      "epsilon": 0.0,
+      "full_winner_idx": "60"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can get timely, essential care without medical bankruptcy by setting a universal minimum benefit, enforcing consumer protections, and funding gaps through progressive support where needed. Delivery can remain pluralistic\u2014public, nonprofit, and private\u2014so long as providers meet common quality standards and patients can keep coverage when changing jobs or moving. To keep the promise affordable, policy should pair negotiated or benchmarked pricing, reduced administrative complexity, and strong investment in prevention, mental health, and rural access with transparent, publicly reported outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universally available, affordable baseline of essential care\u2014primary, preventive, emergency, mental-health, and catastrophic coverage\u2014so no one faces delayed treatment or medical bankruptcy. That public foundation should use transparent pricing, negotiated rates, and streamlined, accountable administration with measurable outcomes to control costs and protect taxpayers. Private, nonprofit, and community providers should deliver much of the care, with room for supplemental private plans and local innovation, alongside targeted supports for rural areas and other underserved groups.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get timely, essential healthcare\u2014primary and preventive care, emergency services, and mental-health support\u2014without risking medical bankruptcy, while allowing private and employer plans to offer supplemental choices. To respect taxpayers and personal responsibility, the public guarantee should use transparent pricing, negotiated rates, and clear performance measures for quality and wait times, with fraud and waste controls. Priority investments in rural and community clinics, portability across jobs and states, and targeted help for low-income families and seniors can expand access while keeping costs sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

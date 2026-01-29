@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "94"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "16"
+    },
+    "plurality": {
+      "winner": "8",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "59"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_personas": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "8",
+      "epsilon": 0.040000000000000036,
+      "full_winner_idx": "59"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set and fund a universal, no-gaps guarantee: every resident can obtain essential primary, preventive, mental-health, and emergency care without facing medical bankruptcy. It should focus on what markets struggle to do well\u2014risk pooling, guarding against discrimination, and enforcing clear quality and price standards\u2014while letting people and employers choose among competing public or private plans for additional coverage. Paying for outcomes, cutting administrative waste, and supporting rural clinics and the healthcare workforce can control costs and expand access without a one-size-fits-all takeover.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "The government should guarantee universal access to an affordable, reliable baseline of essential healthcare\u2014especially preventive, primary, and emergency care\u2014so no one faces medical bankruptcy or delayed treatment. That guarantee should be delivered with strong cost transparency, simple administration, and clear accountability for outcomes, using targeted subsidies and competition where they reduce prices. Private providers and insurers can play a major role in delivering care and offering supplemental options, preserving choice and innovation while public oversight protects vulnerable people and keeps the system fiscally sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can get essential, timely healthcare\u2014especially primary, preventive, mental health, and emergency care\u2014without facing medical bankruptcy, while keeping a clear, affordable baseline that people can supplement with private coverage if they choose. To respect taxpayers and patient choice, the guarantee should rely on transparent pricing, fraud prevention, and outcomes-based accountability, delivered through a mix of public programs and competing private plans and providers. Targeted support should prioritize seniors, children, rural communities, people with disabilities, and low-income working families, alongside investments in clinics, workforce, and health IT that reduce wait times and paperwork.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

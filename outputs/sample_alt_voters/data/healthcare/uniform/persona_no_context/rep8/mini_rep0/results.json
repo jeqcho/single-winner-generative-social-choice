@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "3",
+      "epsilon": 0.0,
+      "full_winner_idx": "89"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "43",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can get timely, essential healthcare without risking financial ruin, by setting a universal floor of coverage and enforcing fair, transparent rules that curb waste and price gouging. That guarantee can be delivered through a mix of public programs and competing private plans and providers, so people keep meaningful choice while taxpayers get accountability for outcomes. Reforms should focus on prevention, primary care, and reliable coverage for children, seniors, and people with disabilities, with predictable funding and regular evaluation to keep the system fiscally sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can access affordable, high-quality essential healthcare\u2014especially preventive, emergency, and chronic-care services\u2014so no family faces financial ruin because of illness. A pragmatic approach pairs strong public funding and clear standards for affordability, transparency, and measurable outcomes with public\u2013private delivery options that preserve patient choice and encourage innovation. Targeted subsidies, streamlined enrollment, and sensible cost controls can expand coverage while protecting taxpayers and supporting local clinics and community partners.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can get essential, affordable healthcare\u2014especially preventive, primary, emergency, and mental health care\u2014so no family is bankrupted and communities stay healthy. That guarantee should come with strong accountability: transparent prices, measurable quality standards, and cost controls that reduce waste and fraud while protecting taxpayers. People should be able to keep or choose private coverage and providers, with public support (such as subsidies, community clinics, and a voluntary public option) to fill gaps and strengthen local care, especially for seniors, people with disabilities, children, and rural areas.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

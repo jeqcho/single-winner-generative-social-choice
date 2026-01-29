@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "8"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "8"
+    },
+    "veto_by_consumption": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "52"
+    },
+    "chatgpt_rankings": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every resident can obtain essential healthcare without financial hardship by setting a universal minimum benefit, keeping coverage portable, and providing income-based support so no one falls through the cracks. Rather than running all care, it should focus on smart rules\u2014transparent prices, anti-fraud oversight, and competition where it works\u2014while paying for high-value prevention, primary care, and mental health that reduce expensive emergencies. Private plans and providers can continue to offer expanded options and innovate, but within clear standards that protect patients, taxpayers, and small businesses.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone has access to an affordable, reliable basic floor of healthcare\u2014including preventive, primary, mental-health, and catastrophic coverage\u2014so illness doesn\u2019t lead to untreated conditions or medical bankruptcy. A sustainable approach combines transparent pricing and quality standards, streamlined administration, and secure interoperable health IT with prudent public funding and oversight. Private providers and optional private plans can continue to compete and innovate within these rules, preserving choice while protecting the most vulnerable and controlling costs.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every American has access to a basic, affordable package of healthcare\u2014including preventive, mental health, and catastrophic coverage\u2014so no family faces medical bankruptcy or goes without essential treatment. It should set clear standards for quality, privacy, and price transparency, reduce administrative waste, and use evidence-based cost controls while protecting taxpayer dollars. Beyond that baseline, people should be able to keep or choose private plans and providers, with policies that reward competition, personal responsibility, and innovation while strengthening rural and underserved care.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

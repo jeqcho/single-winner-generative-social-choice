@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "borda": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "irv": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "17"
+    },
+    "veto_by_consumption": {
+      "winner": "9",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "17"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star": {
+      "winner": "44",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "44"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "42"
+    },
+    "chatgpt_star_personas": {
+      "winner": "62",
+      "epsilon": 0.0,
+      "full_winner_idx": "62"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can obtain essential healthcare\u2014primary, preventive, mental-health, and emergency care\u2014without facing crushing bills, while setting clear national standards for access and quality. It should use a mix of public financing and regulated competition to expand coverage options, reward value over volume, and protect patients with strong transparency, anti-gouging rules, and simple enrollment. Local flexibility and accountable partnerships with private providers, employers, and community clinics can improve reach in rural and underserved areas while keeping costs sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential healthcare\u2014especially preventive, mental\u2011health, and emergency care\u2014so no one faces medical bankruptcy and communities stay healthy and productive. That guarantee should be delivered with disciplined stewardship: transparent prices, streamlined administration, measurable outcomes, and cost controls that reward value. Implementation should lean on flexible public\u2013private partnerships with local clinics, employers, and community or faith-based providers to expand access (including rural areas) while preserving patient choice and room for innovation through phased, practical reforms.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can get essential care\u2014primary, preventive, mental-health, and emergency services\u2014without facing medical bankruptcy, while setting clear national standards for coverage, quality, and patient protections. The system should be financed and administered with fiscal discipline, simple enrollment, and strong price transparency so patients can compare costs and providers are held accountable. To preserve choice and innovation, government should rely on regulated competition and partnerships with private insurers, employers, local clinics, and community or faith-based organizations, with targeted help for rural areas and people in unstable jobs. Reforms should be phased in and measured by outcomes, cost control, and access so the safety net strengthens without waste or one-size-fits-all mandates.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

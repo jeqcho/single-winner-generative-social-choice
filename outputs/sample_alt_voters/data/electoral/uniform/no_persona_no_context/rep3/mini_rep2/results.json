@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "12",
+      "epsilon": 0.0,
+      "full_winner_idx": "18"
+    },
+    "irv": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "94",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "94"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College\u2019s state-based structure but reduce the ways it can override broad national support. That could mean a package of reforms: expand the House to lessen small-state distortions, require electors to reflect the statewide vote proportionally (with strong anti-gerrymandering and uniform election standards), and add a clear national recount trigger for extremely close outcomes. Framed this way, reform aims to make more votes matter everywhere while preserving the role of states and improving confidence in the result.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most of us want presidential elections to be seen as fair, stable, and legitimate\u2014while still respecting the role states play in our federal system. Rather than an all-or-nothing fight, we can compare a short list of reforms that narrow the gap between the popular vote and the outcome, such as proportional or ranked-choice allocation of electors within states, the National Popular Vote Interstate Compact with clear recount safeguards, and nationwide baseline standards for election administration. Judging options by transparent criteria\u2014representation, predictability in close elections, and incentives to compete beyond swing states\u2014can help us choose changes that more voters across regions can accept.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Many Americans want elections that feel fair to individual voters while still respecting the role of states and avoiding rules that invite chaos in close contests. A workable middle path is to keep the Electoral College but reduce winner-take-all distortions by encouraging proportional (or carefully designed district-based) elector allocation with strong anti-gerrymandering safeguards, paired with clear national minimum standards for ballot access, counting, and recounts. We can also evaluate a trigger approach like the National Popular Vote compact only if it has broad, bipartisan participation and transparent recount rules, so results are trusted across regions. The goal is not to favor one party, but to make more votes matter in every state while keeping outcomes stable and widely accepted.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

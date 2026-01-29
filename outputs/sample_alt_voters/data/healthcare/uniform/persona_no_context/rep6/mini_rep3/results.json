@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "plurality": {
+      "winner": "14",
+      "epsilon": 0.25,
+      "full_winner_idx": "32"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.25,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "47"
+    },
+    "chatgpt_star": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_personas": {
+      "winner": "49",
+      "epsilon": 0.17999999999999994,
+      "full_winner_idx": "49"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a clear universal floor: every resident can obtain essential care\u2014primary, preventive, mental health, and emergency services\u2014without medical bankruptcy, while allowing people to choose private plans or supplemental coverage above that baseline. It should focus on fair financing, enforceable consumer protections, and simple rules that promote competition: transparent prices, interoperable billing/data, and payment tied to outcomes rather than volume. Delivery can remain pluralistic\u2014public programs, private insurers, and local clinics\u2014so long as all meet common standards for access, quality, and fiscal accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can access a basic, affordable package of essential care\u2014including preventive, mental health, emergency, and catastrophic coverage\u2014so no one is denied treatment or bankrupted by illness. Beyond that baseline, people should be able to keep or choose private plans, with policies that promote competition, price transparency, and portability while protecting preexisting conditions. A pragmatic mix of targeted subsidies, accountable cost controls, and partnerships with private providers and community organizations can expand access, improve outcomes, and maintain fiscal responsibility.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every American can get essential, timely healthcare\u2014especially preventive, mental health, and catastrophic coverage\u2014so illness doesn\u2019t mean financial ruin or going without life-saving care. A practical path is a guaranteed basic plan with clear protections for preexisting conditions, paired with strong price transparency, anti\u2011monopoly enforcement, and incentives that reward quality and lower costs. People should be free to keep or choose private coverage and supplemental options, while states and local communities partner with faith-based and nonprofit groups to reach underserved areas with accountable, fiscally responsible programs.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

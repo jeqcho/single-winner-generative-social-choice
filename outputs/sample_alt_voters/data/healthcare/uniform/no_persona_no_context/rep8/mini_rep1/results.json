@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 1,
+  "voter_indices": [
+    74,
+    88,
+    87,
+    81,
+    62,
+    21,
+    36,
+    44,
+    45,
+    33,
+    4,
+    12,
+    37,
+    73,
+    71,
+    26,
+    77,
+    68,
+    60,
+    31
+  ],
+  "alt_indices": [
+    12,
+    88,
+    40,
+    66,
+    42,
+    11,
+    8,
+    61,
+    99,
+    82,
+    98,
+    15,
+    34,
+    17,
+    91,
+    0,
+    56,
+    48,
+    30,
+    97
+  ],
+  "results": {
+    "schulze": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "borda": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "irv": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "plurality": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_rankings": {
+      "winner": "8",
+      "epsilon": 0.030000000000000027,
+      "full_winner_idx": "99"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "17",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "48"
+    },
+    "chatgpt_star_personas": {
+      "winner": "61",
+      "epsilon": 0.0,
+      "full_winner_idx": "61"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to treat healthcare like other essential infrastructure: government ensures that everyone has access to a defined set of core services and strong protection from catastrophic costs, while people can choose supplemental private coverage and varied delivery models. To respect taxpayers and patients, government should set clear rules for pricing transparency, consumer protections, and measurable outcomes, and pay providers in ways that reward value rather than volume. This approach preserves choice and innovation while guaranteeing that basic care is available and affordable for all.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people can agree that everyone should be able to get essential care without facing medical bankruptcy, while still preserving room for choice and innovation. A practical government role is to guarantee baseline coverage and protection from catastrophic costs, set clear and fair rules for insurers and providers, and require transparent pricing and outcomes. Within that framework, public and private plans and delivery models can compete to improve quality and control costs, with targeted support for people who are most vulnerable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people can agree that no one should be denied essential medical care or face financial ruin because they get sick, and that a healthier population strengthens families, workplaces, and communities. Government should guarantee a basic, portable level of coverage with protection from catastrophic costs, set clear standards for fairness and transparency, and publish outcomes and prices so patients can compare options. Within those guardrails, private plans and providers should be free to compete and innovate, with targeted support for rural areas, seniors, and low-income workers so access is real\u2014not just on paper.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

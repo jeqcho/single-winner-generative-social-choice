@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "borda": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "irv": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "2",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "veto_by_consumption": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt": {
+      "winner": "6",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "28"
+    },
+    "chatgpt_rankings": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_personas": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "12",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "20"
+    },
+    "chatgpt_star_personas": {
+      "winner": "83",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should make sure no one is priced out of necessary care by establishing a universal floor of coverage and protecting people from catastrophic medical bills, while letting individuals and employers choose among competing plans and providers above that baseline. Its role should focus on clear rules that markets struggle to deliver\u2014fair financing, transparent prices, enforceable quality standards, and strong public-health and preventive services. Reforms should be phased in with measurable outcomes, simplified administration, and safeguards for taxpayers so access improves without sacrificing innovation, local flexibility, or fiscal discipline.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee every person access to an affordable, reliable baseline of essential healthcare that prevents medical bankruptcy and strengthens public health, with a strong emphasis on preventive and chronic-care services. It should set clear national standards, ensure transparent pricing, and hold programs accountable for outcomes while stewarding taxpayer dollars responsibly. Within that public guarantee, policy should preserve patient choice and leverage competition and public\u2013private partnerships where they improve quality, innovation, and efficiency.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every resident can get essential, affordable healthcare\u2014especially preventive, mental-health, and chronic-care services\u2014so no family faces medical bankruptcy and communities stay healthy and productive. It should set clear quality and price-transparency standards, protect patients\u2019 ability to choose trusted local providers, and pay based on outcomes to limit waste and bureaucracy. A practical approach can blend a guaranteed baseline (with extra help for seniors, children, and low-income working families) with regulated competition and public\u2013private partnerships to preserve innovation and fiscal responsibility.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "borda": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "irv": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "4",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "23"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "chatgpt_star": {
+      "winner": "72",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "72"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "13",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_star_personas": {
+      "winner": "65",
+      "epsilon": 0.0,
+      "full_winner_idx": "65"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a national floor that guarantees every resident can get timely primary, preventive, mental health, and catastrophic care without medical bankruptcy, while leaving flexibility for states and providers in how to deliver it. Its core duties should be fair financing tied to ability to pay, clear standards for safety and privacy, and tough oversight that rewards value and competition and curbs fraud and price gouging. Private plans and providers can continue to operate above that baseline, but no one should fall through the cracks, and results should be measured transparently so the system improves without unchecked spending.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can access affordable, high-quality basic healthcare\u2014especially preventive, mental health, and catastrophic coverage\u2014so no family is forced into medical bankruptcy. The system should preserve patient choice and room for private options and innovation, while using transparent pricing, evidence-based standards, and accountable oversight to control costs and protect privacy. Practical public\u2013private and community partnerships can strengthen local clinics and streamline enrollment, balancing compassion with fiscal responsibility and personal responsibility.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that every person can get affordable basic healthcare\u2014especially preventive, mental health, emergency, and catastrophic coverage\u2014so no family faces medical bankruptcy and communities stay healthy and productive. It should set clear quality and privacy standards, require transparent prices and outcomes, and focus spending on proven prevention and efficient care delivery. Within that guarantee, people should be able to keep private options and choose among competing plans and providers, using public\u2013private partnerships and local clinics to expand access while protecting taxpayers through strong accountability.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

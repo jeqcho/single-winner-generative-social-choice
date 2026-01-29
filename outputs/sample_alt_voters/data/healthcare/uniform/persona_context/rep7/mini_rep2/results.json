@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 2,
+  "voter_indices": [
+    42,
+    3,
+    63,
+    67,
+    79,
+    62,
+    65,
+    91,
+    99,
+    21,
+    0,
+    25,
+    32,
+    68,
+    26,
+    77,
+    92,
+    48,
+    5,
+    78
+  ],
+  "alt_indices": [
+    41,
+    55,
+    42,
+    28,
+    4,
+    0,
+    70,
+    50,
+    59,
+    60,
+    8,
+    97,
+    18,
+    69,
+    29,
+    11,
+    10,
+    78,
+    94,
+    16
+  ],
+  "results": {
+    "schulze": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "irv": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "plurality": {
+      "winner": "11",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "97"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_rankings": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "0"
+    },
+    "chatgpt_personas": {
+      "winner": "13",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "69"
+    },
+    "chatgpt_star": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "10",
+      "epsilon": 0.0,
+      "full_winner_idx": "8"
+    },
+    "chatgpt_star_personas": {
+      "winner": "93",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "93"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can obtain essential healthcare without facing medical bankruptcy, setting a clear national floor for primary, preventive, emergency, and mental-health care. That guarantee can be met through a mix of public coverage and regulated private plans, with portable benefits, simple enrollment, and fair support for low-income workers and small businesses. In exchange for public dollars, providers and insurers should meet transparent pricing and quality standards, reduce administrative waste, and allow states and communities flexibility in how care is delivered.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential healthcare so no one faces medical bankruptcy and everyone can access preventive, mental-health, and emergency care. That public floor should be delivered through streamlined, evidence-based programs with strong price transparency, measurable outcomes, and fiscally responsible cost controls. Preserve patient choice and room for private-sector innovation by partnering with private, community, and faith-based providers, while allowing states and local communities flexibility to tailor delivery and protect vulnerable workers and small businesses.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get essential, affordable healthcare\u2014especially preventive, mental-health, maternity, and emergency care\u2014so no family, worker, or small business is bankrupted by illness. The best path is a clear public guarantee with multiple ways to deliver it, including private plans and local, community, and faith-based providers, while protecting patient choice and portability between jobs. To earn broad trust, reforms should be fiscally responsible and evidence-driven, with transparent prices, simpler administration, and strong accountability for outcomes and waste reduction.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

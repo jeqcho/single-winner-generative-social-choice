@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "veto_by_consumption": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "27"
+    },
+    "chatgpt": {
+      "winner": "17",
+      "epsilon": 0.0,
+      "full_winner_idx": "13"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "15",
+      "epsilon": 0.0,
+      "full_winner_idx": "19"
+    },
+    "chatgpt_star_personas": {
+      "winner": "57",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Most people want a presidential election that treats voters fairly while still reflecting the country\u2019s federal, state-based character. A pragmatic compromise is to keep the Electoral College but reduce distortions by setting baseline national rules for vote counting and recounts, and by making elector allocation more proportional to each state\u2019s vote rather than winner-take-all. Alongside that, adjusting the elector formula (such as expanding the House) could better align outcomes with population without erasing smaller states\u2019 influence. The test should be whether reforms increase legitimacy, make more campaigns competitive beyond a handful of states, and lower the risk of contested results.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Even when we disagree about keeping or replacing the Electoral College, most people want presidential elections that feel legitimate, reduce \u201cswing state\u201d distortions, and make more voters matter in every state. A practical bridge is to keep the state-based framework while reducing winner-take-all incentives\u2014through proportional or district-based elector allocation (with anti-gerrymandering safeguards) and clearer, uniform standards for ballot access, counting, and recounts. Reforms should be judged by shared metrics like fairness to states and voters, recount feasibility, transparency, and public confidence rather than partisan advantage.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people\u2014whether they prioritize state influence, equal weight for each vote, or simple trust in the process\u2014want presidential elections that are legitimate, stable, and make voters feel their participation matters. A practical bridge is to keep the constitutional state-based structure but reduce \u201cwinner-take-all\u201d distortions by encouraging proportional or ranked-choice allocation of electors within states, alongside clear, uniform national standards for ballot access, counting, and recounts. Reforms should be judged transparently on shared metrics like fairness to states and voters, campaign incentives beyond a few swing states, and the ability to resolve close results without chaos.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

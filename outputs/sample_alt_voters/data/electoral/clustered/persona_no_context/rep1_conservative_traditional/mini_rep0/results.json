@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "borda": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "irv": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "plurality": {
+      "winner": "4",
+      "epsilon": 0.0,
+      "full_winner_idx": "69"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "11"
+    },
+    "chatgpt_rankings": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star": {
+      "winner": "11",
+      "epsilon": 0.49,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_star_personas": {
+      "winner": "45",
+      "epsilon": 0.0,
+      "full_winner_idx": "45"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable reform should keep the state role in presidential elections but make outcomes track voters more closely and reduce the \u201call-or-nothing\u201d pressure on a few swing states. States could be encouraged to award electors proportionally (or through a uniform district method with anti-gerrymandering safeguards) while adopting consistent national baselines for registration, ballot counting, audits, and automatic recount triggers. If a broader consensus develops, the National Popular Vote Interstate Compact could serve as a further step\u2014paired with clear rules that protect access, security, and an orderly transfer of power.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Reform the Electoral College in ways that keep a meaningful state role and protect smaller communities, while making outcomes track voter intent more closely and reducing winner-take-all distortions. A practical path is to encourage or require proportional (or district-based) allocation of electors paired with national guardrails\u2014uniform ballot access and counting rules, transparent audits, and clear recount triggers\u2014so close races are handled consistently everywhere. These changes would broaden campaign attention beyond a few battleground states, strengthen legitimacy, and improve trust without requiring an abrupt constitutional overhaul.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Reforms to the Electoral College should preserve the Constitution\u2019s state-based balance and protect smaller communities, while making outcomes track voters more closely and reducing the sense that only a few swing states matter. A practical middle path is to keep the Electoral College but encourage proportional (or district-based) allocation of electors with strong, enforceable anti-gerrymandering rules, paired with clear nationwide standards for ballot access, timely counting, voter roll integrity, audits, and recount triggers. If broader agreement emerges, the National Popular Vote Interstate Compact could be considered as a further step\u2014so long as safeguards are in place and the transition is transparent and trusted. The goal is a stable, fair process where every lawful vote is handled consistently and the losing side can accept the result.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

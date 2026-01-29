@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 0,
+  "voter_indices": [
+    81,
+    14,
+    3,
+    94,
+    35,
+    31,
+    28,
+    17,
+    13,
+    86,
+    69,
+    11,
+    75,
+    54,
+    4,
+    27,
+    29,
+    64,
+    77,
+    71
+  ],
+  "alt_indices": [
+    25,
+    91,
+    83,
+    89,
+    69,
+    53,
+    28,
+    57,
+    75,
+    35,
+    0,
+    97,
+    20,
+    54,
+    43,
+    19,
+    27,
+    13,
+    11,
+    48
+  ],
+  "results": {
+    "schulze": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "borda": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "irv": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "plurality": {
+      "winner": "10",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "0"
+    },
+    "veto_by_consumption": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "25"
+    },
+    "chatgpt": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "43"
+    },
+    "chatgpt_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.09000000000000008,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "57"
+    },
+    "chatgpt_star_personas": {
+      "winner": "91",
+      "epsilon": 0.0,
+      "full_winner_idx": "91"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that no one is locked out of essential healthcare because of cost by setting a universal baseline of coverage, basic consumer protections, and dependable funding for high-need populations. Within that floor, people and employers should be able to choose among competing public and private plans, with fair rules that prevent discrimination based on preexisting conditions. To keep the system sustainable, reforms should tie payment to outcomes, increase price transparency, and invest in primary care, mental health, and early intervention that reduce expensive crises.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can access a basic, affordable package of essential healthcare without facing financial ruin, while keeping room for private coverage and provider innovation. A practical approach should focus on measurable outcomes\u2014prevention and primary care, mental health, cost transparency, and fair risk pooling\u2014so costs are controlled and quality improves. Reforms should protect patient choice and portability, use targeted subsidies for those who need help most, and maintain clear oversight and accountability to ensure fiscal sustainability and limit unnecessary bureaucracy.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure that every person can get timely, basic healthcare without being driven into debt, while keeping taxes and bureaucracy in check through clear standards, transparent pricing, and rigorous oversight. A shared baseline\u2014focused on primary care, emergency care, mental health, and essential medicines\u2014can be paired with private plans and employer coverage for those who want additional options. Reforms should emphasize prevention, portability, and competition where it lowers costs, while providing targeted help for seniors, rural communities, and working families so responsibility is shared and outcomes improve.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

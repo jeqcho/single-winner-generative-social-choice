@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "18",
+      "epsilon": 0.0,
+      "full_winner_idx": "39"
+    },
+    "borda": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "5",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "13",
+      "epsilon": 0.15999999999999992,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "71",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "71"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.050000000000000044,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star_personas": {
+      "winner": "76",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "76"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should set a clear national guarantee that no one is denied essential care and that serious illness cannot lead to medical bankruptcy, while leaving room for multiple ways to deliver and purchase coverage. Its role is to finance and regulate the basic floor\u2014transparent prices, minimum quality standards, and strong primary, mental-health, and preventive services\u2014while allowing private plans and providers to compete above that floor. Reforms should be phased in with measurable goals, anti-fraud enforcement, and shared accountability so taxpayers, patients, and clinicians can see better outcomes for the money.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of essential healthcare\u2014covering preventive services, primary and mental health care, emergency care, and protection from catastrophic costs\u2014so no one faces medical bankruptcy or is denied care for preexisting conditions. It should pair that safety net with strong cost and quality rules (price and billing transparency, outcome-based accountability, and the ability to reduce excessive drug and hospital prices) while keeping room for private plans and provider choice. Public programs should work with local clinics, community and faith-based partners, and modern technology to deliver care efficiently and fiscally responsibly.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should ensure every person can get essential, affordable healthcare\u2014especially preventive care, mental health, and protection from medical bankruptcy\u2014while letting people keep choices among doctors and plans. A practical approach is a guaranteed baseline (through a public option or comparable safety\u2011net coverage) with private plans and employer coverage able to compete above that floor, alongside strong protections for preexisting conditions. To respect taxpayers and workers alike, reforms should focus on transparent pricing, negotiating high drug costs, cutting administrative waste, and supporting local clinics and community partners with clear accountability for outcomes.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

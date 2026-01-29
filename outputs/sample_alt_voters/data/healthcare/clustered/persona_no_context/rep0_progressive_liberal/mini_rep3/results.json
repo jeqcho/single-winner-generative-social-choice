@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "15",
+      "epsilon": 0.020000000000000018,
+      "full_winner_idx": "75"
+    },
+    "borda": {
+      "winner": "6",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "2"
+    },
+    "irv": {
+      "winner": "6",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "2"
+    },
+    "plurality": {
+      "winner": "6",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "2"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.0,
+      "full_winner_idx": "31"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "6",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_personas": {
+      "winner": "11",
+      "epsilon": 0.0,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_star": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "6",
+      "epsilon": 0.06000000000000005,
+      "full_winner_idx": "2"
+    },
+    "chatgpt_star_personas": {
+      "winner": "82",
+      "epsilon": 0.0,
+      "full_winner_idx": "82"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "Government should ensure that everyone can obtain essential healthcare without facing financial ruin, by setting clear minimum coverage standards, protecting people with pre-existing conditions, and funding support for those who cannot afford care. It should also use straightforward rules\u2014like price transparency, simpler billing, and stronger competition where it works\u2014to reduce waste and reward high-value outcomes. Beyond the guaranteed baseline, people should be able to keep or choose private coverage and diverse care options, while providers and insurers are held accountable for quality and cost.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Government should guarantee a universal, affordable baseline of healthcare\u2014especially primary, preventive, and mental health care\u2014and protect every family from catastrophic medical costs through clear standards and reliable funding. Reforms should pair strong price transparency, evidence-based quality measures, and anti-waste accountability with room for private insurers and providers to innovate and offer additional options, preserving patient choice. Special attention to rural communities, people with disabilities, and those in unstable work can strengthen public health and economic security while keeping the system fiscally sustainable.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Government should guarantee that everyone can get essential healthcare\u2014especially primary, preventive, mental health, and emergency care\u2014so no family faces financial ruin from illness, while setting clear quality standards and protecting people with pre-existing conditions. To keep the system affordable and sustainable, policies should demand price transparency, reduce administrative waste, negotiate fair prices where appropriate, and invest in community clinics and rural access. People should still have meaningful choice among doctors and plans, with a role for private and nonprofit providers to innovate and improve service, alongside strong public accountability for outcomes and taxpayer dollars.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "mini_rep_id": 4,
+  "voter_indices": [
+    46,
+    98,
+    56,
+    78,
+    57,
+    54,
+    52,
+    60,
+    49,
+    18,
+    97,
+    73,
+    88,
+    31,
+    41,
+    51,
+    10,
+    30,
+    42,
+    22
+  ],
+  "alt_indices": [
+    56,
+    95,
+    48,
+    71,
+    25,
+    86,
+    55,
+    51,
+    18,
+    16,
+    36,
+    8,
+    49,
+    90,
+    73,
+    50,
+    77,
+    99,
+    52,
+    83
+  ],
+  "results": {
+    "schulze": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "borda": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "irv": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "plurality": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "veto_by_consumption": {
+      "winner": "1",
+      "epsilon": 0.0,
+      "full_winner_idx": "95"
+    },
+    "chatgpt": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_rankings": {
+      "winner": "0",
+      "epsilon": 0.0,
+      "full_winner_idx": "56"
+    },
+    "chatgpt_personas": {
+      "winner": "16",
+      "epsilon": 0.0,
+      "full_winner_idx": "77"
+    },
+    "chatgpt_star": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "38",
+      "epsilon": 0.0,
+      "full_winner_idx": "38"
+    },
+    "chatgpt_star_personas": {
+      "winner": "75",
+      "epsilon": 0.0,
+      "full_winner_idx": "75"
+    },
+    "chatgpt_double_star": {
+      "winner": "100",
+      "new_statement": "A workable compromise is to keep the Electoral College as the constitutional framework but reduce the all-or-nothing incentives that make most states feel irrelevant. States could adopt a uniform, non\u2013winner-take-all method (such as proportional allocation with a meaningful threshold) and pair it with clear national standards for certification, recount triggers, and elector binding to prevent close-election chaos. Any change should be evaluated by agreed metrics\u2014how often it contradicts the popular vote, how broadly campaigns compete, and how reliably the public accepts the result.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_rankings": {
+      "winner": "100",
+      "new_statement": "Most people share two goals: preserving the Constitution\u2019s state-based role in presidential elections while making outcomes track voter intent more closely and reducing swing-state distortions. A practical compromise is to keep the Electoral College framework but replace winner-take-all with proportional (or carefully designed district-based) elector allocation, paired with anti-gerrymandering safeguards and clear, uniform standards for ballot access, recounts, and contested results. Reforms should be phased in or piloted where possible and evaluated against agreed metrics like fairness, legitimacy, competitiveness, and close-election stability so the rules are trusted regardless of who benefits.",
+      "is_new": true,
+      "epsilon": 0.0
+    },
+    "chatgpt_double_star_personas": {
+      "winner": "100",
+      "new_statement": "Most people want a president who wins in a way that feels fair, encourages campaigning beyond a few swing states, and preserves confidence that states still play a real role in administering elections. A practical compromise is to keep the Electoral College framework but reduce winner-take-all distortions by moving toward proportional (or ranked-choice-based) allocation of electors within states, paired with clear national standards for recounts, ballot access, and limits on faithless electors. These changes can be phased in or piloted so we can measure whether they improve voter equality and legitimacy without creating new incentives to game the system.",
+      "is_new": true,
+      "epsilon": 0.0
+    }
+  }
+}
