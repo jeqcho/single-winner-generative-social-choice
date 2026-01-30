@@ -1,0 +1,54 @@
+{
+  "methods": {
+    "chunked": {
+      "abortion": {
+        "position_error_mean": -2.704,
+        "position_error_std": 20.561283617517656,
+        "position_error_median": -2.0,
+        "absolute_error_mean": 16.264,
+        "successful_tests": 1000,
+        "elapsed_time": 706.9812817573547
+      },
+      "environment": {
+        "position_error_mean": -21.941,
+        "position_error_std": 24.44003925937927,
+        "position_error_median": -20.0,
+        "absolute_error_mean": 26.065,
+        "successful_tests": 1000,
+        "elapsed_time": 878.4859125614166
+      }
+    },
+    "original": {
+      "abortion": {
+        "position_error_mean": -20.975,
+        "position_error_std": 22.850434897393093,
+        "position_error_median": -19.0,
+        "absolute_error_mean": 24.805,
+        "successful_tests": 1000,
+        "elapsed_time": 137.7011992931366
+      },
+      "environment": {
+        "position_error_mean": -38.166,
+        "position_error_std": 27.424632066811764,
+        "position_error_median": -36.0,
+        "absolute_error_mean": 38.542,
+        "successful_tests": 1000,
+        "elapsed_time": 115.19690608978271
+      }
+    }
+  },
+  "comparison": {
+    "abortion": {
+      "chunked_error": -2.704,
+      "original_error": -20.975,
+      "improvement": 18.271,
+      "improvement_pct": 87.10846245530394
+    },
+    "environment": {
+      "chunked_error": -21.941,
+      "original_error": -38.166,
+      "improvement": 16.224999999999998,
+      "improvement_pct": 42.51165959230729
+    }
+  }
+}

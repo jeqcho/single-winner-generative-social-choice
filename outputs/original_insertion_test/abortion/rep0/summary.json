@@ -1,0 +1,99 @@
+{
+  "topic": "abortion",
+  "rep_id": 0,
+  "n_test_alts": 10,
+  "n_voters": 100,
+  "total_tests": 1000,
+  "successful_tests": 1000,
+  "failed_tests": 0,
+  "elapsed_time": 137.7011992931366,
+  "position_error_mean": -20.975,
+  "position_error_std": 22.850434897393093,
+  "position_error_median": -19.0,
+  "absolute_error_mean": 24.805,
+  "absolute_error_std": 18.62270052919286,
+  "absolute_error_median": 21.0,
+  "timestamp": "2026-01-30T17:44:02.532233",
+  "per_alternative": {
+    "1": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 52.96,
+      "mean_predicted_position": 21.74,
+      "mean_position_error": -31.22,
+      "std_position_error": 19.03868692951276,
+      "n_voters": 100
+    },
+    "7": {
+      "original_epsilon": 0.030000000000000027,
+      "mean_original_position": 42.33,
+      "mean_predicted_position": 30.31,
+      "mean_position_error": -12.02,
+      "std_position_error": 19.355609006176998,
+      "n_voters": 100
+    },
+    "17": {
+      "original_epsilon": 0.19999999999999996,
+      "mean_original_position": 56.76,
+      "mean_predicted_position": 42.07,
+      "mean_position_error": -14.69,
+      "std_position_error": 20.021835580185947,
+      "n_voters": 100
+    },
+    "39": {
+      "original_epsilon": 0.21999999999999997,
+      "mean_original_position": 54.34,
+      "mean_predicted_position": 41.72,
+      "mean_position_error": -12.62,
+      "std_position_error": 13.104029914495772,
+      "n_voters": 100
+    },
+    "41": {
+      "original_epsilon": 0.17999999999999994,
+      "mean_original_position": 59.42,
+      "mean_predicted_position": 41.59,
+      "mean_position_error": -17.83,
+      "std_position_error": 19.026852078050112,
+      "n_voters": 100
+    },
+    "47": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 43.85,
+      "mean_predicted_position": 19.6,
+      "mean_position_error": -24.25,
+      "std_position_error": 24.082514403608275,
+      "n_voters": 100
+    },
+    "48": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 50.01,
+      "mean_predicted_position": 15.06,
+      "mean_position_error": -34.95,
+      "std_position_error": 25.2461383185627,
+      "n_voters": 100
+    },
+    "68": {
+      "original_epsilon": 0.19999999999999996,
+      "mean_original_position": 53.68,
+      "mean_predicted_position": 43.01,
+      "mean_position_error": -10.67,
+      "std_position_error": 15.558955620477875,
+      "n_voters": 100
+    },
+    "71": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 41.47,
+      "mean_predicted_position": 24.96,
+      "mean_position_error": -16.51,
+      "std_position_error": 23.49446530568423,
+      "n_voters": 100
+    },
+    "93": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 54.36,
+      "mean_predicted_position": 19.37,
+      "mean_position_error": -34.99,
+      "std_position_error": 26.55880080124101,
+      "n_voters": 100
+    }
+  }
+}
