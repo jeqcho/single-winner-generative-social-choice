@@ -733,6 +733,76 @@ Rank 2 (YYYY): "Another statement..."
 
 ---
 
+### Chunked Borda Insertion (Experimental)
+
+**Purpose**: Alternative insertion method that splits the ranking into 5 chunks, asks for insertion position within each chunk, then uses Borda scores to determine final position. Designed to address "too preferred" bias in standard insertion.
+
+**File**: `src/experiment_utils/chunked_insertion.py`
+
+| Parameter | Value |
+|-----------|-------|
+| Model | `gpt-5-mini` |
+| Reasoning Effort | `low` |
+| Temperature | `1.0` |
+| API Calls per voter | 5 (one per chunk) |
+| Est. Input Tokens per call | ~3,428 |
+| Est. Output Tokens per call | ~20 |
+
+**System Prompt** (same as standard insertion):
+```
+You are simulating a single, internally consistent person defined by the following persona:
+{persona}
+
+You must evaluate each statement solely through the lens of this persona's values, background, beliefs, and preferences.
+
+Your task is to determine where a new statement fits in your preference ranking and return valid JSON only.
+Do not include explanations, commentary, or extra text.
+```
+
+**User Prompt**:
+```
+Topic: "{topic}"
+
+You have ranked {n_total} statements on this topic. To help you evaluate a new statement, 
+we have divided your ranking into 5 chunks of consecutive statements.
+
+Below is ONE of these chunks. The {chunk_size} statements are shown in order from best to worst 
+within this chunk:
+
+{chunk_statements}
+
+NEW STATEMENT: "{new_statement}"
+
+Compare this new statement to the {chunk_size} statements above. Where should it be inserted?
+- Return 0 if it is BETTER than all {chunk_size} shown
+- Return {chunk_size} if it is WORSE than all {chunk_size} shown
+- Return 1-{chunk_size - 1} to insert between existing positions
+
+Return JSON: {"insert_position": <number>}
+```
+
+Where `{chunk_statements}` is formatted as numbered positions:
+```
+1. "Statement text here..."
+2. "Another statement..."
+...
+20. "Last statement in chunk..."
+```
+
+> **Note**: The prompt intentionally does NOT reveal which chunk (1st-5th) to avoid biasing toward middle insertions. No hash identifiers are used since the model only returns a position number.
+
+**Test Results** (rep0 only):
+
+| Topic | Position Error Mean | Absolute Error Mean |
+|-------|--------------------:|--------------------:|
+| Abortion | -2.70 | 16.26 |
+| Environment | -21.94 | 26.07 |
+| **Overall** | **-12.32** | **21.16** |
+
+*Negative error = predicted too preferred. Results vary significantly by topic.*
+
+---
+
 ## API Call Volume and Cost Summary
 
 > **Note**: Cost estimates below reflect Phase 3 methods with improved prompts:

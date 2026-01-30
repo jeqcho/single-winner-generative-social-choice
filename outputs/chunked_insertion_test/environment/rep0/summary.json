@@ -1,0 +1,99 @@
+{
+  "topic": "environment",
+  "rep_id": 0,
+  "n_test_alts": 10,
+  "n_voters": 100,
+  "total_tests": 1000,
+  "successful_tests": 1000,
+  "failed_tests": 0,
+  "elapsed_time": 878.4859125614166,
+  "position_error_mean": -21.941,
+  "position_error_std": 24.44003925937927,
+  "position_error_median": -20.0,
+  "absolute_error_mean": 26.065,
+  "absolute_error_std": 19.983462537808606,
+  "absolute_error_median": 23.0,
+  "timestamp": "2026-01-30T17:09:51.624205",
+  "per_alternative": {
+    "1": {
+      "original_epsilon": 0.010000000000000009,
+      "mean_original_position": 37.95,
+      "mean_predicted_position": 14.58,
+      "mean_position_error": -23.37,
+      "std_position_error": 27.73505182976949,
+      "n_voters": 100
+    },
+    "7": {
+      "original_epsilon": 0.07000000000000006,
+      "mean_original_position": 56.53,
+      "mean_predicted_position": 43.96,
+      "mean_position_error": -12.57,
+      "std_position_error": 18.389809678188627,
+      "n_voters": 100
+    },
+    "17": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 44.12,
+      "mean_predicted_position": 21.15,
+      "mean_position_error": -22.97,
+      "std_position_error": 27.79908451730021,
+      "n_voters": 100
+    },
+    "39": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 43.88,
+      "mean_predicted_position": 36.02,
+      "mean_position_error": -7.86,
+      "std_position_error": 24.26974247906228,
+      "n_voters": 100
+    },
+    "41": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 40.46,
+      "mean_predicted_position": 12.85,
+      "mean_position_error": -27.61,
+      "std_position_error": 22.71338592108187,
+      "n_voters": 100
+    },
+    "47": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 36.82,
+      "mean_predicted_position": 29.7,
+      "mean_position_error": -7.12,
+      "std_position_error": 22.768961328967116,
+      "n_voters": 100
+    },
+    "48": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 44.47,
+      "mean_predicted_position": 16.8,
+      "mean_position_error": -27.67,
+      "std_position_error": 21.716839088596664,
+      "n_voters": 100
+    },
+    "68": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 41.1,
+      "mean_predicted_position": 14.93,
+      "mean_position_error": -26.17,
+      "std_position_error": 18.542413543009985,
+      "n_voters": 100
+    },
+    "71": {
+      "original_epsilon": 0.030000000000000027,
+      "mean_original_position": 48.07,
+      "mean_predicted_position": 25.79,
+      "mean_position_error": -22.28,
+      "std_position_error": 20.289445532098703,
+      "n_voters": 100
+    },
+    "93": {
+      "original_epsilon": 0.020000000000000018,
+      "mean_original_position": 76.45,
+      "mean_predicted_position": 34.66,
+      "mean_position_error": -41.79,
+      "std_position_error": 16.022044189178857,
+      "n_voters": 100
+    }
+  }
+}
