@@ -64,9 +64,9 @@ flowchart TD
     subgraph phase3 [Phase 3: Winner Selection]
         MR["Mini-Rep Subsampling<br/>(20x20 from 100x100)"]
         TM["Traditional Methods<br/>(no API)"]
-        GPT0["GPT/GPT* Methods<br/>API: gpt-5.2, reasoning=none"]
-        GPT2["GPT** Methods<br/>API: gpt-5.2, reasoning=none"]
-        GPT3["GPT*** Methods<br/>API: gpt-5.2, reasoning=none"]
+        GPT0["GPT/GPT* Methods<br/>API: gpt-5-mini, reasoning=minimal"]
+        GPT2["GPT** Methods<br/>API: gpt-5-mini, reasoning=minimal"]
+        GPT3["GPT*** Methods<br/>API: gpt-5-mini, reasoning=minimal"]
     end
 
     subgraph metrics [Evaluation]
@@ -123,7 +123,7 @@ OPENAI_API_KEY=your_api_key_here
 All model settings are centralized in `src/experiment_utils/config.py`:
 
 - **STATEMENT_MODEL** (`gpt-5-mini`, reasoning=minimal): Used for statement/alternative generation (Phase 1)
-- **GENERATIVE_VOTING_MODEL** (`gpt-5.2`, reasoning=none): Used for GPT-based voting methods (Phase 3 selection/generation)
+- **GENERATIVE_VOTING_MODEL** (`gpt-5-mini`, reasoning=minimal): Used for GPT-based voting methods (Phase 3 selection/generation)
 - **RANKING_MODEL** (`gpt-5-mini`, reasoning=low): Used for all preference/ranking tasks (iterative ranking, epsilon insertion)
 
 ### API Metadata Tracking
@@ -357,6 +357,7 @@ flowchart TD
 | **GPT\*\*+Rank** | P statements + rankings | Generate new |
 | **GPT\*\*+Pers** | P statements + personas | Generate new |
 | **GPT\*\*\*** | Topic only | Generate new |
+| **New Random** | Global pool | Random sample (sanity check) |
 
 ## Key Concepts
 
@@ -392,10 +393,10 @@ Per topic: 48 reps (4 alt_dists × 12 reps), 240 mini-reps (48 reps × 5 mini-re
 |-----------|-------|-----------|-----------|-------------|---------|
 | Statement Generation | gpt-5-mini | minimal | 815/topic | 815 | Generate candidate statements (Alt1/Alt4) |
 | Preference Building | gpt-5-mini | low | 500/rep | 24,000 | 5 rounds × 100 voters iterative ranking |
-| GPT/GPT\* Selection | gpt-5.2 | none | 1/method | 1,440 | Select consensus from statements |
-| GPT\*\* Generation | gpt-5.2 | none | 1/method | 720 | Generate new consensus statement |
+| GPT/GPT\* Selection | gpt-5-mini | minimal | 1/method | 1,440 | Select consensus from statements |
+| GPT\*\* Generation | gpt-5-mini | minimal | 1/method | 720 | Generate new consensus statement |
 | GPT\*\* Insertion | gpt-5-mini | low | 100/method | 72,000 | Insert new stmt into all 100 rankings |
-| GPT\*\*\* Generation | gpt-5.2 | none | 1/rep | 48 | Generate 1 blind bridging statement |
+| GPT\*\*\* Generation | gpt-5-mini | minimal | 1/rep | 48 | Generate 1 blind bridging statement |
 | GPT\*\*\* Insertion | gpt-5-mini | low | 100/rep | 4,800 | Insert stmt into all 100 rankings |
 
 **Total per topic: ~104,000 API calls**
@@ -460,3 +461,6 @@ TODO (Jay will put this in near draft submission)
 ## License
 
 MIT License
+ near draft submission)
+
+## LicenseMIT License

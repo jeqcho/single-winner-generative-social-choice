@@ -24,8 +24,8 @@ STATEMENT_REASONING = "minimal"
 # GENERATIVE_VOTING_MODEL: Used for GPT-based voting methods (Phase 3)
 #   - GPT/GPT* selection
 #   - GPT**/GPT*** new statement generation
-GENERATIVE_VOTING_MODEL = "gpt-5.2"
-GENERATIVE_VOTING_REASONING = "none"
+GENERATIVE_VOTING_MODEL = "gpt-5-mini"
+GENERATIVE_VOTING_REASONING = "minimal"
 
 # RANKING_MODEL: Used for all preference/ranking tasks
 #   - Iterative ranking (Phase 2 preference building)

@@ -79,6 +79,7 @@ CHATGPT_METHODS = ["chatgpt", "chatgpt_rankings", "chatgpt_personas"]
 CHATGPT_STAR_METHODS = ["chatgpt_star", "chatgpt_star_rankings", "chatgpt_star_personas"]
 CHATGPT_DOUBLE_STAR_METHODS = ["chatgpt_double_star", "chatgpt_double_star_rankings", "chatgpt_double_star_personas"]
 CHATGPT_TRIPLE_STAR_METHODS = ["chatgpt_triple_star"]
+NEW_RANDOM_METHODS = ["new_random"]
 
 # Extended method labels for GPT methods
 METHOD_LABELS_EXTENDED = {
@@ -97,6 +98,7 @@ METHOD_LABELS_EXTENDED = {
     'chatgpt_double_star_rankings': 'GPT**+Rank',
     'chatgpt_double_star_personas': 'GPT**+Pers',
     'chatgpt_triple_star': 'GPT***',
+    'new_random': 'New Random',
 }
 
 
@@ -139,12 +141,12 @@ def plot_cdf_by_method_category(
     all_epsilons = topic_df["epsilon"].values
     
     # Method groups (ordered for legend)
-    double_and_triple_star = CHATGPT_DOUBLE_STAR_METHODS + CHATGPT_TRIPLE_STAR_METHODS
+    double_triple_and_random = CHATGPT_DOUBLE_STAR_METHODS + CHATGPT_TRIPLE_STAR_METHODS + NEW_RANDOM_METHODS
     method_groups = [
         ('Traditional Methods', TRADITIONAL_METHODS),
         ('ChatGPT Methods', CHATGPT_METHODS),
         ('ChatGPT* Methods', CHATGPT_STAR_METHODS),
-        ('ChatGPT** & *** Methods', double_and_triple_star),
+        ('GPT**/*** + New Random', double_triple_and_random),
     ]
     
     for group_idx, (group_name, methods) in enumerate(method_groups):

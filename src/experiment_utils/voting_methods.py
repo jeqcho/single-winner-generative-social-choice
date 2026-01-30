@@ -946,6 +946,17 @@ def run_chatgpt_double_star(
                 voter_idx, new_ranking = future.result()
                 updated_rankings[voter_idx] = new_ranking
         
+        # Extract insertion positions (where the new statement was ranked by each voter)
+        insertion_positions = []
+        for voter in range(n_voters):
+            # Find the rank position where the new statement (index n_alts) appears
+            try:
+                pos = updated_rankings[voter].index(n_alts)
+            except ValueError:
+                pos = -1  # Should not happen
+            insertion_positions.append(pos)
+        result["insertion_positions"] = insertion_positions
+        
         # Convert to preference matrix format [rank][voter]
         n_total_alts = n_alts + 1
         updated_preferences = []
@@ -1022,6 +1033,16 @@ def run_chatgpt_double_star_with_rankings(
                 voter_idx, new_ranking = future.result()
                 updated_rankings[voter_idx] = new_ranking
         
+        # Extract insertion positions (where the new statement was ranked by each voter)
+        insertion_positions = []
+        for voter in range(n_voters):
+            try:
+                pos = updated_rankings[voter].index(n_alts)
+            except ValueError:
+                pos = -1
+            insertion_positions.append(pos)
+        result["insertion_positions"] = insertion_positions
+        
         # Convert to preference matrix format [rank][voter]
         n_total_alts = n_alts + 1
         updated_preferences = []
@@ -1097,6 +1118,16 @@ def run_chatgpt_double_star_with_personas(
                 voter_idx, new_ranking = future.result()
                 updated_rankings[voter_idx] = new_ranking
         
+        # Extract insertion positions (where the new statement was ranked by each voter)
+        insertion_positions = []
+        for voter in range(n_voters):
+            try:
+                pos = updated_rankings[voter].index(n_alts)
+            except ValueError:
+                pos = -1
+            insertion_positions.append(pos)
+        result["insertion_positions"] = insertion_positions
+        
         # Convert to preference matrix format [rank][voter]
         n_total_alts = n_alts + 1
         updated_preferences = []
@@ -1123,7 +1154,7 @@ def insert_new_statement_into_rankings(
     max_workers: int = 100,
     model: str = GENERATIVE_VOTING_MODEL,
     temperature: float = TEMPERATURE
-) -> List[List[str]]:
+) -> tuple:
     """
     Insert a new statement into the rankings of sampled voters.
     
@@ -1142,7 +1173,9 @@ def insert_new_statement_into_rankings(
         temperature: Temperature
     
     Returns:
-        Updated preference matrix with new statement (101 alternatives)
+        Tuple of (updated_preferences, insertion_positions):
+        - updated_preferences: Updated preference matrix with new statement (101 alternatives)
+        - insertion_positions: List of rank positions where new statement was inserted for each voter
     """
     from concurrent.futures import ThreadPoolExecutor, as_completed
     from tqdm import tqdm
@@ -1183,6 +1216,15 @@ def insert_new_statement_into_rankings(
             local_idx, new_ranking = future.result()
             updated_rankings[local_idx] = new_ranking
     
+    # Extract insertion positions (where the new statement was ranked by each voter)
+    insertion_positions = []
+    for voter in range(n_voters):
+        try:
+            pos = updated_rankings[voter].index(new_idx)
+        except ValueError:
+            pos = -1
+        insertion_positions.append(pos)
+    
     # Convert to preference matrix format [rank][voter]
     n_total_alts = n_alts + 1
     updated_preferences = []
@@ -1193,7 +1235,7 @@ def insert_new_statement_into_rankings(
             rank_row.append(str(alt_idx))
         updated_preferences.append(rank_row)
     
-    return updated_preferences
+    return updated_preferences, insertion_positions
 
 
 # =============================================================================
@@ -1363,6 +1405,15 @@ def run_chatgpt_triple_star(
                 voter_idx, new_ranking = future.result()
                 updated_rankings[voter_idx] = new_ranking
         
+        # Extract insertion positions (where the new statement was ranked by each voter)
+        insertion_positions = []
+        for voter in range(n_voters):
+            try:
+                pos = updated_rankings[voter].index(n_alts)
+            except ValueError:
+                pos = -1
+            insertion_positions.append(pos)
+        
         # Convert to preference matrix format [rank][voter]
         n_total_alts = n_alts + 1
         updated_preferences = []
@@ -1391,11 +1442,154 @@ def run_chatgpt_triple_star(
     
     logger.info(f"ChatGPT***: Average epsilon across {len(epsilons)} generations: {avg_epsilon:.4f}")
     
-    return {
+    result = {
         "winner": "generated",  # Not a specific index
         "epsilon": avg_epsilon,
         "epsilons": epsilons,
         "statements": generated_statements,
         "is_new": True,
         "n_generations": len(generated_statements)
+    }
+    
+    # Include insertion positions for the first generation (when n_generations=1)
+    if insertion_positions:
+        result["insertion_positions"] = insertion_positions
+    
+    return result
+
+
+# =============================================================================
+# New Random Method (Sanity check for insertion mechanism)
+# =============================================================================
+
+def run_new_random(
+    topic_short: str,
+    rep_id: int,
+    all_statements: List[Dict],
+    voter_personas: List[str],
+    full_preferences: List[List[str]],
+    openai_client: OpenAI,
+    seed: int = None,
+    max_workers: int = 100,
+    temperature: float = TEMPERATURE
+) -> Dict:
+    """
+    Run New Random method: sample a random statement from global pool (not in current rep).
+    
+    This is a sanity check - random statements should have higher epsilon than
+    GPT-generated bridging statements.
+    
+    Args:
+        topic_short: Short topic name (e.g., "abortion", "healthcare")
+        rep_id: Replication ID (0-9 for uniform, 0-1 for clustered)
+        all_statements: The 100 statements used in this rep
+        voter_personas: All 100 voter persona strings
+        full_preferences: Full 100x100 preference matrix
+        openai_client: OpenAI client instance
+        seed: Random seed for reproducibility
+        max_workers: Max parallel workers for insertion
+        temperature: Temperature for insertion API calls
+    
+    Returns:
+        Dict with epsilon, statement, and insertion_positions
+    """
+    import random
+    from pathlib import Path
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    from tqdm import tqdm
+    from src.experiment_utils.epsilon_calculator import compute_epsilon_for_new_statement
+    
+    # Path to global statement pool
+    project_root = Path(__file__).parent.parent.parent
+    pool_path = project_root / "data" / "sample-alt-voters" / "sampled-statements" / "persona_no_context" / f"{topic_short}.json"
+    context_path = project_root / "data" / "sample-alt-voters" / "sampled-context" / topic_short / f"rep{rep_id}.json"
+    
+    if not pool_path.exists():
+        logger.error(f"Global pool not found: {pool_path}")
+        return {"winner": None, "error": f"Global pool not found: {pool_path}"}
+    
+    if not context_path.exists():
+        logger.error(f"Context file not found: {context_path}")
+        return {"winner": None, "error": f"Context file not found: {context_path}"}
+    
+    # Load global pool
+    with open(pool_path) as f:
+        pool_data = json.load(f)
+    
+    # Load context to get which 100 IDs are used in this rep
+    with open(context_path) as f:
+        context_data = json.load(f)
+    
+    used_ids = set(context_data.get("context_persona_ids", []))
+    pool_statements = pool_data.get("statements", {})
+    
+    # Find IDs NOT in the current rep
+    available_ids = [pid for pid in pool_statements.keys() if pid not in used_ids]
+    
+    if not available_ids:
+        logger.error("No available statements outside current rep")
+        return {"winner": None, "error": "No available statements outside current rep"}
+    
+    # Sample a random statement
+    rng = random.Random(seed)
+    sampled_id = rng.choice(available_ids)
+    sampled_statement = pool_statements[sampled_id]
+    
+    logger.info(f"New Random: Sampled statement ID {sampled_id} from {len(available_ids)} available")
+    logger.info(f"  Statement: {sampled_statement[:100]}...")
+    
+    # Insert into all voters' rankings
+    n_voters = len(voter_personas)
+    n_alts = len(all_statements)
+    
+    logger.info(f"New Random: Inserting into {n_voters} voters' rankings...")
+    
+    def process_voter(args):
+        voter_idx, persona = args
+        current_ranking = [int(full_preferences[rank][voter_idx]) for rank in range(n_alts)]
+        new_ranking = insert_statement_into_ranking(
+            persona, current_ranking, all_statements, sampled_statement,
+            f"Topic: {topic_short}", openai_client, RANKING_MODEL, temperature
+        )
+        return voter_idx, new_ranking
+    
+    updated_rankings = [None] * n_voters
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {
+            executor.submit(process_voter, (i, voter_personas[i])): i
+            for i in range(n_voters)
+        }
+        for future in tqdm(as_completed(futures), total=len(futures),
+                          desc="New Random insertion", unit="voter"):
+            voter_idx, new_ranking = future.result()
+            updated_rankings[voter_idx] = new_ranking
+    
+    # Extract insertion positions
+    insertion_positions = []
+    for voter in range(n_voters):
+        try:
+            pos = updated_rankings[voter].index(n_alts)
+        except ValueError:
+            pos = -1
+        insertion_positions.append(pos)
+    
+    # Convert to preference matrix format [rank][voter]
+    n_total_alts = n_alts + 1
+    updated_preferences = []
+    for rank in range(n_total_alts):
+        rank_row = [str(updated_rankings[voter][rank]) for voter in range(n_voters)]
+        updated_preferences.append(rank_row)
+    
+    # Compute epsilon with m=100
+    epsilon = compute_epsilon_for_new_statement(updated_preferences, n_alts)
+    
+    logger.info(f"New Random: epsilon = {epsilon}")
+    
+    return {
+        "winner": str(n_alts),  # New statement index
+        "new_statement": sampled_statement,
+        "sampled_id": sampled_id,
+        "epsilon": epsilon,
+        "insertion_positions": insertion_positions,
+        "is_new": True
     }

@@ -137,7 +137,7 @@ def fix_mini_rep(
         
         try:
             # Re-run insertion with correct model (RANKING_MODEL)
-            updated_prefs = insert_new_statement_into_rankings(
+            updated_prefs, insertion_positions = insert_new_statement_into_rankings(
                 new_statement=new_statement,
                 all_statements=all_statements,
                 voter_personas=all_rep_personas,
