@@ -1,0 +1,111 @@
+{
+  "topic": "environment",
+  "rep_id": 0,
+  "n_test_alts": 10,
+  "n_voters": 100,
+  "total_tests": 1000,
+  "successful_tests": 1000,
+  "failed_tests": 0,
+  "elapsed_time": 5621.366267442703,
+  "position_error_mean": 0.232,
+  "position_error_std": 17.93198750836058,
+  "position_error_median": 1.0,
+  "absolute_error_mean": 13.618,
+  "absolute_error_std": 11.668764973209461,
+  "absolute_error_median": 10.0,
+  "borda_score_mean": 0.5230606060606061,
+  "borda_score_std": 0.2785385195384047,
+  "timestamp": "2026-01-30T21:56:30.076338",
+  "per_alternative": {
+    "1": {
+      "original_epsilon": 0.010000000000000009,
+      "mean_original_position": 37.95,
+      "mean_predicted_position": 43.06,
+      "mean_position_error": 5.11,
+      "std_position_error": 15.506705001385692,
+      "mean_borda_score": 0.565050505050505,
+      "n_voters": 100
+    },
+    "7": {
+      "original_epsilon": 0.07000000000000006,
+      "mean_original_position": 56.53,
+      "mean_predicted_position": 56.21,
+      "mean_position_error": -0.32,
+      "std_position_error": 11.148883352156842,
+      "mean_borda_score": 0.43222222222222234,
+      "n_voters": 100
+    },
+    "17": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 44.12,
+      "mean_predicted_position": 39.12,
+      "mean_position_error": -5.0,
+      "std_position_error": 25.398425148028373,
+      "mean_borda_score": 0.6048484848484849,
+      "n_voters": 100
+    },
+    "39": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 43.88,
+      "mean_predicted_position": 46.04,
+      "mean_position_error": 2.16,
+      "std_position_error": 20.171127881206843,
+      "mean_borda_score": 0.534949494949495,
+      "n_voters": 100
+    },
+    "41": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 40.46,
+      "mean_predicted_position": 36.05,
+      "mean_position_error": -4.41,
+      "std_position_error": 14.009350448896623,
+      "mean_borda_score": 0.6358585858585859,
+      "n_voters": 100
+    },
+    "47": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 36.82,
+      "mean_predicted_position": 36.75,
+      "mean_position_error": -0.07,
+      "std_position_error": 21.051961903822647,
+      "mean_borda_score": 0.6287878787878788,
+      "n_voters": 100
+    },
+    "48": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 44.47,
+      "mean_predicted_position": 51.55,
+      "mean_position_error": 7.08,
+      "std_position_error": 13.08180415691964,
+      "mean_borda_score": 0.47929292929292927,
+      "n_voters": 100
+    },
+    "68": {
+      "original_epsilon": 0.0,
+      "mean_original_position": 41.1,
+      "mean_predicted_position": 53.34,
+      "mean_position_error": 12.24,
+      "std_position_error": 13.81312419404097,
+      "mean_borda_score": 0.4612121212121212,
+      "n_voters": 100
+    },
+    "71": {
+      "original_epsilon": 0.030000000000000027,
+      "mean_original_position": 48.07,
+      "mean_predicted_position": 47.35,
+      "mean_position_error": -0.72,
+      "std_position_error": 10.806553567164697,
+      "mean_borda_score": 0.5217171717171717,
+      "n_voters": 100
+    },
+    "93": {
+      "original_epsilon": 0.020000000000000018,
+      "mean_original_position": 76.45,
+      "mean_predicted_position": 62.7,
+      "mean_position_error": -13.75,
+      "std_position_error": 14.70943574716583,
+      "mean_borda_score": 0.36666666666666664,
+      "n_voters": 100
+    }
+  }
+}
