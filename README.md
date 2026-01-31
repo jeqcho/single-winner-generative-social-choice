@@ -71,7 +71,7 @@ flowchart TD
 
     subgraph metrics [Evaluation]
         EL["Epsilon Lookup<br/>(from precomputed)"]
-        EI["Epsilon via Insertion<br/>API: gpt-5-mini, reasoning=low<br/>100 insertions per new stmt"]
+        BI["Batched Iterative Ranking<br/>API: gpt-5-mini, reasoning=low<br/>500 calls/rep (116 statements)"]
         VIZ[Visualization]
     end
 
@@ -88,15 +88,15 @@ flowchart TD
     MR --> GPT3
     TM --> EL
     GPT0 --> EL
-    GPT2 --> EI
-    GPT3 --> EI
+    GPT2 --> BI
+    GPT3 --> BI
     EL --> VIZ
-    EI --> VIZ
+    BI --> VIZ
 ```
 
 **Key distinction for epsilon computation:**
 - **Traditional/GPT/GPT\* methods**: Select from existing statements → epsilon looked up from precomputed values
-- **GPT\*\*/GPT\*\*\* methods**: Generate NEW statements → must insert into voter rankings via API calls, then compute epsilon
+- **GPT\*\*/GPT\*\*\* methods**: Generate NEW statements → use batched iterative ranking (100 original + 16 new = 116 statements) to determine position among originals, then compute epsilon
 
 ## Installation
 
@@ -423,15 +423,25 @@ Per topic: 48 reps (4 alt_dists × 12 reps), 240 mini-reps (48 reps × 5 mini-re
 | Preference Building | gpt-5-mini | low | 500/rep | 24,000 | 5 rounds × 100 voters iterative ranking |
 | GPT/GPT\* Selection | gpt-5.2 | none | 1/method | 1,440 | Select consensus from statements |
 | GPT\*\* Generation | gpt-5.2 | none | 1/method | 720 | Generate new consensus statement |
-| GPT\*\* Insertion | gpt-5-mini | low | 100/method | 72,000 | Insert new stmt into all 100 rankings |
 | GPT\*\*\* Generation | gpt-5.2 | none | 1/rep | 48 | Generate 1 blind bridging statement |
-| GPT\*\*\* Insertion | gpt-5-mini | low | 100/rep | 4,800 | Insert stmt into all 100 rankings |
+| Batched Iterative Ranking | gpt-5-mini | low | 500/rep | 24,000 | Rank 116 statements (100 original + 16 new) per voter |
 
-**Total per topic: ~104,000 API calls**
+**Total per topic: ~51,000 API calls**
 
 **Epsilon Computation:**
 - **Precomputed**: Traditional methods, GPT, GPT\* → lookup from `precomputed_epsilons.json`
-- **Insertion-based**: GPT\*\*, GPT\*\*\* → insert new statement into voter rankings via API, then compute epsilon
+- **Batched Iterative Ranking**: GPT\*\*, GPT\*\*\* → batch all 16 new statements with 100 originals, run iterative ranking, extract positions relative to originals only
+
+### Batched Iterative Ranking
+
+For GPT\*\* and GPT\*\*\* methods, we use batched iterative ranking instead of single-call insertion:
+
+1. **Batch all new statements**: 1 GPT\*\*\* + 15 GPT\*\* (3 variants × 5 mini-reps) = 16 new statements per rep
+2. **Run ONE iterative ranking** per voter with 116 statements (100 original + 16 new)
+3. **Extract positions** relative to original statements only (discounting other new statements)
+4. **Compute epsilon** from the positions
+
+This approach is more accurate than single-call insertion (which was biased toward "too preferred") and achieves 16× cost savings over individual insertion.
 
 ## Alternative Distributions
 

@@ -656,41 +656,67 @@ Return your statement as JSON: {"bridging_statement": "<your statement>"}
 
 ## Epsilon Computation
 
-Epsilon computation requires inserting newly generated statements into existing voter rankings. This is done separately for GPT\*\* and GPT\*\*\* generated statements.
+Epsilon computation for newly generated statements (GPT\*\* and GPT\*\*\*) uses **batched iterative ranking** instead of single-call insertion. This approach batches all 16 new statements per rep with the 100 original statements and runs one iterative ranking per voter.
+
+**File**: `src/experiment_utils/batched_iterative_insertion.py`
+
+### Batched Iterative Ranking (Current Method)
+
+**Purpose**: Determine positions of all GPT\*\* and GPT\*\*\* generated statements using iterative ranking, which produces accurate and unbiased positions.
+
+| Parameter | Value |
+|-----------|-------|
+| Model | `gpt-5-mini` |
+| Reasoning Effort | `low` |
+| Temperature | `1.0` |
+| New Statements per Rep | 16 (1 GPT\*\*\* + 15 GPT\*\*) |
+| Total Statements Ranked | 116 (100 original + 16 new) |
+| API Calls per Rep | 500 (100 voters × 5 rounds) |
+| API Calls per Topic | ~6,000 (12 reps × 500 calls) |
+| Est. Cost per Topic | ~$8 |
+
+**Key Benefits:**
+- Uses same methodology as preference building (iterative top-K/bottom-K ranking)
+- Produces stable, accurate positions (unlike biased single-call insertion)
+- 16× cost savings over individual insertion
+- Positions extracted relative to original statements only
+
+**Algorithm:**
+1. Generate all 16 new statements (1 GPT\*\*\* + 3 GPT\*\* variants × 5 mini-reps)
+2. Combine with 100 original statements → 116 statements total
+3. Run iterative ranking (5 rounds) per voter
+4. For each new statement, count how many *original* statements are ranked before it
+5. This position (0-100) is used to compute epsilon
+
+**Position Extraction:**
+When extracting positions, other new statements in the ranking are discounted. Only original statements (indices 0-99) contribute to the position count.
+
+```python
+def extract_position_among_originals(ranking, new_idx, n_originals=100):
+    position = 0
+    for idx in ranking:
+        if idx == new_idx:
+            return position
+        if idx < n_originals:  # Only count originals
+            position += 1
+```
+
+**Example:** If ranking is `[new_5, new_2, orig_42, new_8, ...]`:
+- new_5 → position 0 (0 originals before it)
+- new_2 → position 0 (0 originals before it)
+- new_8 → position 1 (1 original before it: orig_42)
+
+---
+
+### Single-Call Insertion (Legacy Method)
+
+**Note**: This method is deprecated due to bias issues. Documented for reference.
 
 **File**: `src/experiment_utils/statement_insertion.py`
 
-### GPT\*\* Statement Insertion
+**Problem**: Single-call insertion produces biased results where statements are ranked "too preferred" (see `outputs/original_insertion_test/figures/`).
 
-**Purpose**: Insert GPT\*\*-generated statements into existing voter rankings to compute epsilon.
-
-| Parameter | Value |
-|-----------|-------|
-| Model | `gpt-5-mini` |
-| Reasoning Effort | `low` |
-| Temperature | `1.0` |
-| GPT\*\* Statements | 720 (3 variants × 240 mini-reps) |
-| API Calls per Topic | 72,000 (720 statements × 100 voters) |
-| Est. Cost per Topic | ~$102.12 |
-
----
-
-### GPT\*\*\* Statement Insertion
-
-**Purpose**: Insert GPT\*\*\*-generated statements into existing voter rankings to compute epsilon.
-
-| Parameter | Value |
-|-----------|-------|
-| Model | `gpt-5-mini` |
-| Reasoning Effort | `low` |
-| Temperature | `1.0` |
-| GPT\*\*\* Statements | 48 (1 per rep × 48 reps) |
-| API Calls per Topic | 4,800 (48 statements × 100 voters) |
-| Est. Cost per Topic | ~$6.81 |
-
----
-
-### Insertion Prompt (Shared)
+### Insertion Prompt (Legacy)
 
 **System Prompt**:
 ```

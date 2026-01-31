@@ -1,0 +1,386 @@
+#!/usr/bin/env python3
+"""
+Re-run GPT** and GPT*** methods using batched iterative ranking.
+
+This script replaces the biased single-call insertion with accurate batched
+iterative ranking. Instead of inserting statements one at a time, it:
+1. Generates all 16 new statements per rep (1 GPT*** + 15 GPT**)
+2. Runs ONE iterative ranking per voter with all 116 statements
+3. Extracts positions relative to the 100 original statements
+4. Computes epsilon for each method
+
+This achieves 16x cost savings while producing accurate positions.
+
+Usage:
+    uv run python scripts/rerun_gpt_star_batched.py
+    uv run python scripts/rerun_gpt_star_batched.py --topic abortion
+    uv run python scripts/rerun_gpt_star_batched.py --dry-run
+"""
+
+import argparse
+import json
+import logging
+import os
+import sys
+from datetime import datetime
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
+
+from dotenv import load_dotenv
+from openai import OpenAI
+from tqdm import tqdm
+
+# Add src to path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from src.sample_alt_voters.config import (
+    PHASE2_DATA_DIR,
+    PERSONAS_PATH,
+    TOPIC_QUESTIONS,
+    TOPIC_SHORT_NAMES,
+    BASE_SEED,
+    K_SAMPLE,
+    P_SAMPLE,
+)
+from src.sample_alt_voters.run_experiment import load_statements_for_rep
+from src.sample_alt_voters.preference_builder_iterative import subsample_preferences
+from src.experiment_utils.voting_methods import (
+    generate_new_statement,
+    generate_new_statement_with_rankings,
+    generate_new_statement_with_personas,
+    generate_bridging_statement_no_context,
+)
+from src.experiment_utils.batched_iterative_insertion import (
+    run_batched_ranking_for_rep,
+    compute_epsilon_from_positions,
+)
+
+load_dotenv()
+
+# Setup logging
+LOG_DIR = Path(__file__).parent.parent / "logs"
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+LOG_FILE = LOG_DIR / f"rerun_gpt_star_batched_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(sys.stdout),
+        logging.FileHandler(LOG_FILE)
+    ]
+)
+logger = logging.getLogger(__name__)
+
+# Topics to process (short names)
+TOPICS = ["abortion", "healthcare", "electoral", "policing", "trust", "environment"]
+
+# Topic short name to slug mapping
+TOPIC_SLUG_MAP = {v: k for k, v in TOPIC_SHORT_NAMES.items()}
+
+
+def load_personas() -> List[str]:
+    """Load all adult personas."""
+    with open(PERSONAS_PATH) as f:
+        return json.load(f)
+
+
+def parse_rep_path(rep_dir: Path) -> Tuple[str, str, str, int, str]:
+    """Parse rep directory path to extract topic, voter_dist, alt_dist, rep_id."""
+    parts = rep_dir.parts
+    data_idx = parts.index('data')
+    topic = parts[data_idx + 1]
+    voter_dist = parts[data_idx + 2]
+    alt_dist = parts[data_idx + 3]
+    rep_name = parts[data_idx + 4]
+    rep_id = int(rep_name.split('_')[0].replace('rep', ''))
+    return topic, voter_dist, alt_dist, rep_id, rep_name
+
+
+def generate_double_star_statements(
+    rep_dir: Path,
+    topic_question: str,
+    all_statements: List[Dict],
+    all_personas: List[str],
+    global_voter_indices: List[int],
+    full_preferences: List[List[str]],
+    openai_client: OpenAI,
+    voter_dist: str = None,
+    alt_dist: str = None,
+    rep_id: int = None,
+) -> List[Dict]:
+    """Generate all GPT** statements for all 5 mini-reps (15 total)."""
+    new_statements = []
+    all_rep_personas = [all_personas[idx] for idx in global_voter_indices]
+    
+    for mini_rep_id in range(5):
+        mini_rep_dir = rep_dir / f"mini_rep{mini_rep_id}"
+        results_path = mini_rep_dir / "results.json"
+        
+        if not results_path.exists():
+            logger.warning(f"Results file not found: {results_path}")
+            continue
+        
+        with open(results_path) as f:
+            data = json.load(f)
+        
+        voter_indices = data['voter_indices']
+        alt_indices = data['alt_indices']
+        
+        sample_statements = [all_statements[i] for i in alt_indices]
+        sample_personas = [all_rep_personas[i] for i in voter_indices]
+        sample_prefs, _, _ = subsample_preferences(
+            full_preferences, k_voters=K_SAMPLE, p_alts=P_SAMPLE,
+            seed=BASE_SEED + mini_rep_id * 100
+        )
+        
+        # GPT** base
+        logger.info(f"    Generating GPT** base for mini_rep{mini_rep_id}...")
+        stmt = generate_new_statement(
+            sample_statements, topic_question, openai_client,
+            voter_dist=voter_dist, alt_dist=alt_dist, rep=rep_id, mini_rep=mini_rep_id
+        )
+        if stmt:
+            new_statements.append({"statement": stmt, "method": "chatgpt_double_star", "mini_rep": mini_rep_id})
+        
+        # GPT** + Rankings
+        logger.info(f"    Generating GPT**+Rank for mini_rep{mini_rep_id}...")
+        stmt = generate_new_statement_with_rankings(
+            sample_statements, sample_prefs, topic_question, openai_client,
+            voter_dist=voter_dist, alt_dist=alt_dist, rep=rep_id, mini_rep=mini_rep_id
+        )
+        if stmt:
+            new_statements.append({"statement": stmt, "method": "chatgpt_double_star_rankings", "mini_rep": mini_rep_id})
+        
+        # GPT** + Personas
+        logger.info(f"    Generating GPT**+Pers for mini_rep{mini_rep_id}...")
+        stmt = generate_new_statement_with_personas(
+            sample_statements, sample_personas, topic_question, openai_client,
+            voter_dist=voter_dist, alt_dist=alt_dist, rep=rep_id, mini_rep=mini_rep_id
+        )
+        if stmt:
+            new_statements.append({"statement": stmt, "method": "chatgpt_double_star_personas", "mini_rep": mini_rep_id})
+    
+    return new_statements
+
+
+def generate_triple_star_statement(
+    topic_question: str, openai_client: OpenAI,
+    voter_dist: str = None, alt_dist: str = None, rep_id: int = None,
+) -> Optional[Dict]:
+    """Generate GPT*** statement."""
+    logger.info(f"  Generating GPT*** statement...")
+    stmt = generate_bridging_statement_no_context(
+        topic_question, openai_client,
+        voter_dist=voter_dist, alt_dist=alt_dist, rep=rep_id
+    )
+    if stmt:
+        return {"statement": stmt, "method": "chatgpt_triple_star", "mini_rep": None}
+    return None
+
+
+def save_results(
+    rep_dir: Path,
+    all_positions: Dict[str, List[Optional[int]]],
+    new_statements: List[Dict],
+    original_statements: List[Dict],
+):
+    """Save results to appropriate files."""
+    n_originals = len(original_statements)
+    triple_star_stmt = None
+    double_star_by_mini_rep: Dict[int, Dict[str, Dict]] = {}
+    
+    for stmt_data in new_statements:
+        method = stmt_data["method"]
+        mini_rep = stmt_data.get("mini_rep")
+        statement = stmt_data["statement"]
+        
+        key = f"{method}_mr{mini_rep}" if mini_rep is not None else method
+        positions = all_positions.get(key, [])
+        epsilon = compute_epsilon_from_positions(positions, original_statements)
+        
+        if method == "chatgpt_triple_star":
+            triple_star_stmt = {
+                "winner": "generated",
+                "epsilon": epsilon,
+                "epsilons": [epsilon] if epsilon is not None else [],
+                "statements": [statement],
+                "is_new": True,
+                "n_generations": 1,
+                "insertion_positions": positions,
+            }
+        else:
+            if mini_rep not in double_star_by_mini_rep:
+                double_star_by_mini_rep[mini_rep] = {}
+            double_star_by_mini_rep[mini_rep][method] = {
+                "winner": str(n_originals),
+                "new_statement": statement,
+                "is_new": True,
+                "insertion_positions": positions,
+                "epsilon": epsilon,
+            }
+    
+    if triple_star_stmt:
+        with open(rep_dir / "chatgpt_triple_star.json", 'w') as f:
+            json.dump(triple_star_stmt, f, indent=2)
+        logger.info(f"  Saved GPT***: epsilon={triple_star_stmt['epsilon']}")
+    
+    for mini_rep_id, methods in double_star_by_mini_rep.items():
+        results_path = rep_dir / f"mini_rep{mini_rep_id}" / "results.json"
+        if not results_path.exists():
+            continue
+        with open(results_path) as f:
+            data = json.load(f)
+        for method, result in methods.items():
+            data['results'][method] = result
+            logger.info(f"  Saved {method} mini_rep{mini_rep_id}: epsilon={result['epsilon']}")
+        with open(results_path, 'w') as f:
+            json.dump(data, f, indent=2)
+
+
+def process_rep(
+    rep_dir: Path, topic_short: str, rep_id: int,
+    all_personas: List[str], openai_client: OpenAI,
+) -> Dict:
+    """Process a single rep: generate statements and run batched ranking."""
+    topic_slug = TOPIC_SLUG_MAP.get(topic_short, topic_short)
+    topic_question = TOPIC_QUESTIONS.get(topic_slug, topic_slug)
+    _, voter_dist, alt_dist, _, _ = parse_rep_path(rep_dir)
+    
+    statements = load_statements_for_rep(topic_slug, "persona_no_context", rep_id)
+    with open(rep_dir / "voters.json") as f:
+        voters_data = json.load(f)
+    global_voter_indices = voters_data["voter_indices"]
+    with open(rep_dir / "preferences.json") as f:
+        full_preferences = json.load(f)
+    
+    voter_personas = [all_personas[i] for i in global_voter_indices]
+    stats = {"triple_star_success": False, "double_star_count": 0, "ranking_success": False}
+    
+    # Phase 1: Generate statements
+    logger.info(f"  Phase 1: Generating new statements...")
+    new_statements = []
+    
+    triple_star = generate_triple_star_statement(
+        topic_question, openai_client,
+        voter_dist=voter_dist, alt_dist=alt_dist, rep_id=rep_id
+    )
+    if triple_star:
+        new_statements.append(triple_star)
+        stats["triple_star_success"] = True
+    
+    double_star_stmts = generate_double_star_statements(
+        rep_dir, topic_question, statements, all_personas,
+        global_voter_indices, full_preferences, openai_client,
+        voter_dist=voter_dist, alt_dist=alt_dist, rep_id=rep_id
+    )
+    new_statements.extend(double_star_stmts)
+    stats["double_star_count"] = len(double_star_stmts)
+    
+    logger.info(f"  Generated {len(new_statements)} new statements")
+    if not new_statements:
+        logger.error(f"  No statements generated, skipping ranking")
+        return stats
+    
+    # Phase 2: Batched ranking
+    logger.info(f"  Phase 2: Running batched iterative ranking for 100 voters...")
+    all_positions = run_batched_ranking_for_rep(
+        original_statements=statements,
+        new_statements=new_statements,
+        voter_personas=voter_personas,
+        topic=topic_question,
+        openai_client=openai_client,
+        voter_dist=voter_dist,
+        alt_dist=alt_dist,
+        rep=rep_id,
+        max_workers=50,
+    )
+    stats["ranking_success"] = True
+    
+    # Phase 3: Save results
+    logger.info(f"  Phase 3: Saving results...")
+    save_results(rep_dir, all_positions, new_statements, statements)
+    
+    return stats
+
+
+def main():
+    """Main entry point."""
+    parser = argparse.ArgumentParser(description="Re-run GPT**/GPT*** with batched iterative ranking")
+    parser.add_argument("--topic", type=str, choices=TOPICS, help="Run for a specific topic only")
+    parser.add_argument("--dry-run", action="store_true", help="List reps without running")
+    args = parser.parse_args()
+    
+    logger.info("=" * 60)
+    logger.info("Re-running GPT**/GPT*** with Batched Iterative Ranking")
+    logger.info("=" * 60)
+    
+    topics_to_run = [args.topic] if args.topic else TOPICS
+    logger.info(f"Topics: {topics_to_run}")
+    logger.info(f"Log file: {LOG_FILE}")
+    
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        logger.error("OPENAI_API_KEY not set")
+        sys.exit(1)
+    openai_client = OpenAI(api_key=api_key)
+    
+    logger.info("\nLoading personas...")
+    all_personas = load_personas()
+    logger.info(f"Loaded {len(all_personas)} personas")
+    
+    all_reps = []
+    for topic in topics_to_run:
+        topic_dir = PHASE2_DATA_DIR / topic
+        if not topic_dir.exists():
+            continue
+        for pref_file in topic_dir.glob("**/persona_no_context/**/preferences.json"):
+            rep_dir = pref_file.parent
+            try:
+                parsed = parse_rep_path(rep_dir)
+                all_reps.append((rep_dir, parsed))
+            except Exception as e:
+                logger.warning(f"Failed to parse {rep_dir}: {e}")
+    
+    logger.info(f"\nFound {len(all_reps)} reps to process")
+    
+    if args.dry_run:
+        logger.info("\nDry run - listing reps:")
+        for rep_dir, (topic, voter_dist, alt_dist, rep_id, rep_name) in all_reps:
+            logger.info(f"  {topic}/{voter_dist}/{alt_dist}/{rep_name}")
+        logger.info(f"\nTotal: {len(all_reps)} reps")
+        logger.info(f"Est. API calls: {len(all_reps) * 100 * 5} ranking + {len(all_reps) * 16} generation")
+        return
+    
+    total_stats = {"reps_processed": 0, "triple_star_success": 0, "double_star_total": 0, "ranking_success": 0}
+    
+    for rep_dir, (topic, voter_dist, alt_dist, rep_id, rep_name) in tqdm(all_reps, desc="Processing reps"):
+        logger.info(f"\n{'=' * 60}")
+        logger.info(f"Processing: {topic}/{voter_dist}/{alt_dist}/{rep_name}")
+        logger.info(f"{'=' * 60}")
+        
+        try:
+            stats = process_rep(rep_dir, topic, rep_id, all_personas, openai_client)
+            total_stats["reps_processed"] += 1
+            if stats["triple_star_success"]:
+                total_stats["triple_star_success"] += 1
+            total_stats["double_star_total"] += stats["double_star_count"]
+            if stats["ranking_success"]:
+                total_stats["ranking_success"] += 1
+        except Exception as e:
+            logger.error(f"Error processing {rep_dir}: {e}")
+            import traceback
+            traceback.print_exc()
+    
+    logger.info(f"\n{'=' * 60}")
+    logger.info("SUMMARY")
+    logger.info(f"{'=' * 60}")
+    logger.info(f"Reps processed: {total_stats['reps_processed']}")
+    logger.info(f"GPT*** successful: {total_stats['triple_star_success']}")
+    logger.info(f"GPT** statements: {total_stats['double_star_total']}")
+    logger.info(f"Rankings successful: {total_stats['ranking_success']}")
+    logger.info(f"Log file: {LOG_FILE}")
+
+
+if __name__ == "__main__":
+    main()

@@ -109,6 +109,7 @@ def plot_cdf_by_method_category(
     voter_dist_label: str = "Uniform",
     x_max: float = 0.5,
     y_min: float = 0.5,
+    zoomed: bool = True,
 ) -> None:
     """
     Create a 1x4 CDF plot for a single topic with 4 method categories.
@@ -123,6 +124,7 @@ def plot_cdf_by_method_category(
         voter_dist_label: Label for voter distribution (for title)
         x_max: Maximum value for x-axis
         y_min: Minimum value for y-axis
+        zoomed: Whether this is a zoomed plot (affects title)
     """
     fig, axes = plt.subplots(1, 4, figsize=(20, 5))
     
@@ -189,7 +191,8 @@ def plot_cdf_by_method_category(
         if has_data or len(all_epsilons) > 0:
             ax.legend(loc='lower right', fontsize=8)
     
-    fig.suptitle(f"{topic_display}: CDF of Critical Epsilon by Method Category\n(Alt1: Persona Only × {voter_dist_label}, Zoomed)", 
+    zoom_suffix = ", Zoomed" if zoomed else ""
+    fig.suptitle(f"{topic_display}: CDF of Critical Epsilon by Method Category\n(Alt1: Persona Only × {voter_dist_label}{zoom_suffix})", 
                  fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -205,6 +208,7 @@ def plot_cdf_by_voter_dist(
     output_path: Path,
     x_max: float = 0.5,
     y_min: float = 0.5,
+    zoomed: bool = True,
 ) -> None:
     """
     Create a 1x3 CDF plot for a single topic across 3 voter distributions.
@@ -217,6 +221,7 @@ def plot_cdf_by_voter_dist(
         output_path: Path to save the plot
         x_max: Maximum value for x-axis
         y_min: Minimum value for y-axis
+        zoomed: Whether this is a zoomed plot (affects title)
     """
     fig, axes = plt.subplots(1, 3, figsize=(16, 5))
     
@@ -273,7 +278,8 @@ def plot_cdf_by_voter_dist(
         
         ax.legend(loc='lower right', fontsize=9)
     
-    fig.suptitle(f"{topic_display}: Traditional Methods by Voter Distribution\n(Alt1: Persona Only, Zoomed)", 
+    zoom_suffix = ", Zoomed" if zoomed else ""
+    fig.suptitle(f"{topic_display}: Traditional Methods by Voter Distribution\n(Alt1: Persona Only{zoom_suffix})", 
                  fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -289,6 +295,7 @@ def plot_cdf_by_alt_dist(
     output_path: Path,
     x_max: float = 0.5,
     y_min: float = 0.5,
+    zoomed: bool = True,
 ) -> None:
     """
     Create a 1x4 CDF plot for a single topic across 4 alternative distributions.
@@ -301,6 +308,7 @@ def plot_cdf_by_alt_dist(
         output_path: Path to save the plot
         x_max: Maximum value for x-axis
         y_min: Minimum value for y-axis
+        zoomed: Whether this is a zoomed plot (affects title)
     """
     fig, axes = plt.subplots(1, 4, figsize=(20, 5))
     
@@ -355,7 +363,8 @@ def plot_cdf_by_alt_dist(
         
         ax.legend(loc='lower right', fontsize=8)
     
-    fig.suptitle(f"{topic_display}: Traditional Methods by Alternative Distribution\n(Uniform Voters, Zoomed)", 
+    zoom_suffix = ", Zoomed" if zoomed else ""
+    fig.suptitle(f"{topic_display}: Traditional Methods by Alternative Distribution\n(Uniform Voters{zoom_suffix})", 
                  fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -369,9 +378,10 @@ def plot_cdf_traditional_methods(
     df: pd.DataFrame,
     topics: list[str],
     output_path: Path,
-    suptitle: str = "Traditional Methods: CDF of Critical Epsilon (Zoomed)",
+    suptitle: str = "Traditional Methods: CDF of Critical Epsilon",
     x_max: float = 0.5,
     y_min: float = 0.5,
+    zoomed: bool = True,
 ) -> None:
     """
     Create a 1x3 CDF plot showing Traditional Methods only for 3 topics.
@@ -382,9 +392,10 @@ def plot_cdf_traditional_methods(
         df: DataFrame with epsilon values filtered for persona_no_context + uniform
         topics: List of 3 topic short names
         output_path: Path to save the plot
-        suptitle: Overall figure title
+        suptitle: Overall figure title (without zoom suffix)
         x_max: Maximum value for x-axis
         y_min: Minimum value for y-axis
+        zoomed: Whether this is a zoomed plot (affects title)
     """
     fig, axes = plt.subplots(1, 3, figsize=(16, 5))
     
@@ -435,7 +446,8 @@ def plot_cdf_traditional_methods(
         
         ax.legend(loc='lower right', fontsize=9)
     
-    fig.suptitle(suptitle, fontsize=14, fontweight='bold', y=1.02)
+    zoom_suffix = " (Zoomed)" if zoomed else ""
+    fig.suptitle(f"{suptitle}{zoom_suffix}", fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
     output_path.parent.mkdir(parents=True, exist_ok=True)
     plt.savefig(output_path, dpi=150, bbox_inches='tight')
@@ -445,7 +457,7 @@ def plot_cdf_traditional_methods(
 
 
 def main():
-    """Generate all slide plots."""
+    """Generate all slide plots (both zoomed and full-range versions)."""
     print("Loading results...")
     df = collect_all_results()
     print(f"Loaded {len(df)} results")
@@ -479,102 +491,136 @@ def main():
     
     SLIDES_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     
-    # Create subfolders
-    by_topic_dir = SLIDES_OUTPUT_DIR / "by_topic"
-    by_alt_dist_dir = SLIDES_OUTPUT_DIR / "by_alt_dist"
-    by_voter_dist_dir = SLIDES_OUTPUT_DIR / "by_voter_dist"
-    by_method_category_dir = SLIDES_OUTPUT_DIR / "by_method_category"
-    by_method_category_progressive_dir = SLIDES_OUTPUT_DIR / "by_method_category_progressive"
-    by_method_category_conservative_dir = SLIDES_OUTPUT_DIR / "by_method_category_conservative"
-    by_topic_dir.mkdir(parents=True, exist_ok=True)
-    by_alt_dist_dir.mkdir(parents=True, exist_ok=True)
-    by_voter_dist_dir.mkdir(parents=True, exist_ok=True)
-    by_method_category_dir.mkdir(parents=True, exist_ok=True)
-    by_method_category_progressive_dir.mkdir(parents=True, exist_ok=True)
-    by_method_category_conservative_dir.mkdir(parents=True, exist_ok=True)
-    
     # Filter to Alt1 only (for voter distribution comparison)
     alt1_df = df[df["alt_dist"] == "persona_no_context"]
     print(f"Filtered to {len(alt1_df)} results (Alt1: persona_no_context)")
     
-    # Generate per-topic plots with 4 method categories (1x4 layout) - Uniform
-    print("\n--- Generating per-topic CDF plots (1x4, by method category) - Uniform ---")
-    for topic in all_topics:
-        if topic in available_topics:
-            plot_cdf_by_method_category(
-                filtered_df,
-                topic=topic,
-                output_path=by_method_category_dir / f"cdf_{topic}_by_method.png",
-                voter_dist_label="Uniform",
-            )
-    
-    # Generate per-topic plots with 4 method categories (1x4 layout) - Progressive
+    # Prepare filtered DataFrames for Progressive and Conservative
     alt1_progressive_df = df[
         (df["alt_dist"] == "persona_no_context") & 
         (df["voter_dist"] == "progressive_liberal")
     ]
-    print(f"\n--- Generating per-topic CDF plots (1x4, by method category) - Progressive ---")
-    print(f"Filtered to {len(alt1_progressive_df)} results (Alt1 + Progressive)")
-    for topic in all_topics:
-        if topic in available_topics:
-            plot_cdf_by_method_category(
-                alt1_progressive_df,
-                topic=topic,
-                output_path=by_method_category_progressive_dir / f"cdf_{topic}_by_method.png",
-                voter_dist_label="Progressive/Liberal",
-            )
-    
-    # Generate per-topic plots with 4 method categories (1x4 layout) - Conservative
     alt1_conservative_df = df[
         (df["alt_dist"] == "persona_no_context") & 
         (df["voter_dist"] == "conservative_traditional")
     ]
-    print(f"\n--- Generating per-topic CDF plots (1x4, by method category) - Conservative ---")
-    print(f"Filtered to {len(alt1_conservative_df)} results (Alt1 + Conservative)")
-    for topic in all_topics:
-        if topic in available_topics:
-            plot_cdf_by_method_category(
-                alt1_conservative_df,
-                topic=topic,
-                output_path=by_method_category_conservative_dir / f"cdf_{topic}_by_method.png",
-                voter_dist_label="Conservative/Traditional",
-            )
     
-    # Generate per-topic plots with 3 voter distributions (1x3 layout)
-    print("\n--- Generating per-topic CDF plots (1x3, by voter distribution) ---")
-    for topic in all_topics:
-        if topic in available_topics:
-            plot_cdf_by_voter_dist(
-                alt1_df,
-                topic=topic,
-                output_path=by_voter_dist_dir / f"cdf_traditional_{topic}_by_voter.png",
-            )
+    # Generate both zoomed and full-range versions
+    zoom_configs = [
+        (True, 0.5, 0.5, ""),       # Zoomed: x_max=0.5, y_min=0.5, no suffix
+        (False, 1.0, 0.0, "_full"), # Full: x_max=1.0, y_min=0.0, _full suffix
+    ]
     
-    # Generate per-topic plots with 4 alt distributions (1x4 layout)
-    print("\n--- Generating per-topic CDF plots (1x4, by alt distribution) ---")
-    for topic in all_topics:
-        if topic in available_topics:
-            plot_cdf_by_alt_dist(
-                uniform_df,
-                topic=topic,
-                output_path=by_alt_dist_dir / f"cdf_traditional_{topic}_by_alt.png",
-            )
-    
-    # Generate Traditional Methods CDF plots (1x3 layout)
-    print("\n--- Generating Traditional Methods CDF plots (1x3, by topic) ---")
-    plot_cdf_traditional_methods(
-        filtered_df,
-        topics=group1_topics,
-        output_path=by_topic_dir / "cdf_traditional_group1.png",
-        suptitle="Traditional Methods: Abortion, Electoral, Healthcare\n(Alt1: Persona Only × Uniform, Zoomed)",
-    )
-    
-    plot_cdf_traditional_methods(
-        filtered_df,
-        topics=group2_topics,
-        output_path=by_topic_dir / "cdf_traditional_group2.png",
-        suptitle="Traditional Methods: Policing, Environment, Trust\n(Alt1: Persona Only × Uniform, Zoomed)",
-    )
+    for zoomed, x_max, y_min, dir_suffix in zoom_configs:
+        mode_label = "ZOOMED" if zoomed else "FULL-RANGE"
+        print(f"\n{'='*60}")
+        print(f"Generating {mode_label} plots (x_max={x_max}, y_min={y_min})")
+        print(f"{'='*60}")
+        
+        # Create subfolders with suffix
+        by_topic_dir = SLIDES_OUTPUT_DIR / f"by_topic{dir_suffix}"
+        by_alt_dist_dir = SLIDES_OUTPUT_DIR / f"by_alt_dist{dir_suffix}"
+        by_voter_dist_dir = SLIDES_OUTPUT_DIR / f"by_voter_dist{dir_suffix}"
+        by_method_category_dir = SLIDES_OUTPUT_DIR / f"by_method_category{dir_suffix}"
+        by_method_category_progressive_dir = SLIDES_OUTPUT_DIR / f"by_method_category_progressive{dir_suffix}"
+        by_method_category_conservative_dir = SLIDES_OUTPUT_DIR / f"by_method_category_conservative{dir_suffix}"
+        
+        by_topic_dir.mkdir(parents=True, exist_ok=True)
+        by_alt_dist_dir.mkdir(parents=True, exist_ok=True)
+        by_voter_dist_dir.mkdir(parents=True, exist_ok=True)
+        by_method_category_dir.mkdir(parents=True, exist_ok=True)
+        by_method_category_progressive_dir.mkdir(parents=True, exist_ok=True)
+        by_method_category_conservative_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Generate per-topic plots with 4 method categories (1x4 layout) - Uniform
+        print(f"\n--- Generating per-topic CDF plots (1x4, by method category) - Uniform ---")
+        for topic in all_topics:
+            if topic in available_topics:
+                plot_cdf_by_method_category(
+                    filtered_df,
+                    topic=topic,
+                    output_path=by_method_category_dir / f"cdf_{topic}_by_method.png",
+                    voter_dist_label="Uniform",
+                    x_max=x_max,
+                    y_min=y_min,
+                    zoomed=zoomed,
+                )
+        
+        # Generate per-topic plots with 4 method categories (1x4 layout) - Progressive
+        print(f"\n--- Generating per-topic CDF plots (1x4, by method category) - Progressive ---")
+        for topic in all_topics:
+            if topic in available_topics:
+                plot_cdf_by_method_category(
+                    alt1_progressive_df,
+                    topic=topic,
+                    output_path=by_method_category_progressive_dir / f"cdf_{topic}_by_method.png",
+                    voter_dist_label="Progressive/Liberal",
+                    x_max=x_max,
+                    y_min=y_min,
+                    zoomed=zoomed,
+                )
+        
+        # Generate per-topic plots with 4 method categories (1x4 layout) - Conservative
+        print(f"\n--- Generating per-topic CDF plots (1x4, by method category) - Conservative ---")
+        for topic in all_topics:
+            if topic in available_topics:
+                plot_cdf_by_method_category(
+                    alt1_conservative_df,
+                    topic=topic,
+                    output_path=by_method_category_conservative_dir / f"cdf_{topic}_by_method.png",
+                    voter_dist_label="Conservative/Traditional",
+                    x_max=x_max,
+                    y_min=y_min,
+                    zoomed=zoomed,
+                )
+        
+        # Generate per-topic plots with 3 voter distributions (1x3 layout)
+        print(f"\n--- Generating per-topic CDF plots (1x3, by voter distribution) ---")
+        for topic in all_topics:
+            if topic in available_topics:
+                plot_cdf_by_voter_dist(
+                    alt1_df,
+                    topic=topic,
+                    output_path=by_voter_dist_dir / f"cdf_traditional_{topic}_by_voter.png",
+                    x_max=x_max,
+                    y_min=y_min,
+                    zoomed=zoomed,
+                )
+        
+        # Generate per-topic plots with 4 alt distributions (1x4 layout)
+        print(f"\n--- Generating per-topic CDF plots (1x4, by alt distribution) ---")
+        for topic in all_topics:
+            if topic in available_topics:
+                plot_cdf_by_alt_dist(
+                    uniform_df,
+                    topic=topic,
+                    output_path=by_alt_dist_dir / f"cdf_traditional_{topic}_by_alt.png",
+                    x_max=x_max,
+                    y_min=y_min,
+                    zoomed=zoomed,
+                )
+        
+        # Generate Traditional Methods CDF plots (1x3 layout)
+        print(f"\n--- Generating Traditional Methods CDF plots (1x3, by topic) ---")
+        plot_cdf_traditional_methods(
+            filtered_df,
+            topics=group1_topics,
+            output_path=by_topic_dir / "cdf_traditional_group1.png",
+            suptitle="Traditional Methods: Abortion, Electoral, Healthcare\n(Alt1: Persona Only × Uniform)",
+            x_max=x_max,
+            y_min=y_min,
+            zoomed=zoomed,
+        )
+        
+        plot_cdf_traditional_methods(
+            filtered_df,
+            topics=group2_topics,
+            output_path=by_topic_dir / "cdf_traditional_group2.png",
+            suptitle="Traditional Methods: Policing, Environment, Trust\n(Alt1: Persona Only × Uniform)",
+            x_max=x_max,
+            y_min=y_min,
+            zoomed=zoomed,
+        )
     
     print(f"\nAll plots saved to: {SLIDES_OUTPUT_DIR}")
 
