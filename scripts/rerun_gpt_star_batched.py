@@ -4,12 +4,12 @@ Re-run GPT** and GPT*** methods using batched iterative ranking.
 
 This script replaces the biased single-call insertion with accurate batched
 iterative ranking. Instead of inserting statements one at a time, it:
-1. Generates all 16 new statements per rep (1 GPT*** + 15 GPT**)
-2. Runs ONE iterative ranking per voter with all 116 statements
+1. Generates all 17 new statements per rep (1 GPT*** + 15 GPT** + 1 Random)
+2. Runs ONE iterative ranking per voter with all 117 statements
 3. Extracts positions relative to the 100 original statements
 4. Computes epsilon for each method
 
-This achieves 16x cost savings while producing accurate positions.
+This achieves 17x cost savings while producing accurate positions.
 
 Usage:
     uv run python scripts/rerun_gpt_star_batched.py
@@ -21,6 +21,7 @@ import argparse
 import json
 import logging
 import os
+import random
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -179,6 +180,67 @@ def generate_triple_star_statement(
     return None
 
 
+def sample_random_statement(topic_short: str, rep_id: int, seed: int = None) -> Optional[Dict]:
+    """
+    Sample a random statement from the global pool that is NOT in the current rep.
+    
+    This serves as a baseline - random statements should have higher epsilon than
+    GPT-generated bridging statements.
+    
+    Args:
+        topic_short: Short topic name (e.g., "abortion", "healthcare")
+        rep_id: Replication ID
+        seed: Random seed for reproducibility
+    
+    Returns:
+        Dict with statement and method, or None if sampling fails
+    """
+    project_root = Path(__file__).parent.parent
+    pool_path = project_root / "data" / "sample-alt-voters" / "sampled-statements" / "persona_no_context" / f"{topic_short}.json"
+    context_path = project_root / "data" / "sample-alt-voters" / "sampled-context" / topic_short / f"rep{rep_id}.json"
+    
+    if not pool_path.exists():
+        logger.error(f"Global pool not found: {pool_path}")
+        return None
+    
+    if not context_path.exists():
+        logger.error(f"Context file not found: {context_path}")
+        return None
+    
+    # Load global pool
+    with open(pool_path) as f:
+        pool_data = json.load(f)
+    
+    # Load context to get which 100 IDs are used in this rep
+    with open(context_path) as f:
+        context_data = json.load(f)
+    
+    used_ids = set(context_data.get("context_persona_ids", []))
+    pool_statements = pool_data.get("statements", {})
+    
+    # Find IDs NOT in the current rep
+    available_ids = [pid for pid in pool_statements.keys() if pid not in used_ids]
+    
+    if not available_ids:
+        logger.error("No available statements outside current rep")
+        return None
+    
+    # Sample a random statement
+    rng = random.Random(seed)
+    sampled_id = rng.choice(available_ids)
+    sampled_statement = pool_statements[sampled_id]
+    
+    logger.info(f"  Random insertion: Sampled statement ID {sampled_id} from {len(available_ids)} available")
+    logger.info(f"    Statement: {sampled_statement[:100]}...")
+    
+    return {
+        "statement": sampled_statement,
+        "method": "random_insertion",
+        "mini_rep": None,
+        "sampled_id": sampled_id,
+    }
+
+
 def save_results(
     rep_dir: Path,
     all_positions: Dict[str, List[Optional[int]]],
@@ -188,6 +250,7 @@ def save_results(
     """Save results to appropriate files."""
     n_originals = len(original_statements)
     triple_star_stmt = None
+    random_insertion_stmt = None
     double_star_by_mini_rep: Dict[int, Dict[str, Dict]] = {}
     
     for stmt_data in new_statements:
@@ -209,6 +272,15 @@ def save_results(
                 "n_generations": 1,
                 "insertion_positions": positions,
             }
+        elif method == "random_insertion":
+            random_insertion_stmt = {
+                "winner": str(n_originals),
+                "new_statement": statement,
+                "sampled_id": stmt_data.get("sampled_id"),
+                "is_new": True,
+                "insertion_positions": positions,
+                "epsilon": epsilon,
+            }
         else:
             if mini_rep not in double_star_by_mini_rep:
                 double_star_by_mini_rep[mini_rep] = {}
@@ -224,6 +296,11 @@ def save_results(
         with open(rep_dir / "chatgpt_triple_star.json", 'w') as f:
             json.dump(triple_star_stmt, f, indent=2)
         logger.info(f"  Saved GPT***: epsilon={triple_star_stmt['epsilon']}")
+    
+    if random_insertion_stmt:
+        with open(rep_dir / "random_insertion.json", 'w') as f:
+            json.dump(random_insertion_stmt, f, indent=2)
+        logger.info(f"  Saved Random Insertion: epsilon={random_insertion_stmt['epsilon']}")
     
     for mini_rep_id, methods in double_star_by_mini_rep.items():
         results_path = rep_dir / f"mini_rep{mini_rep_id}" / "results.json"
@@ -255,7 +332,7 @@ def process_rep(
         full_preferences = json.load(f)
     
     voter_personas = [all_personas[i] for i in global_voter_indices]
-    stats = {"triple_star_success": False, "double_star_count": 0, "ranking_success": False}
+    stats = {"triple_star_success": False, "double_star_count": 0, "random_insertion_success": False, "ranking_success": False}
     
     # Phase 1: Generate statements
     logger.info(f"  Phase 1: Generating new statements...")
@@ -277,7 +354,16 @@ def process_rep(
     new_statements.extend(double_star_stmts)
     stats["double_star_count"] = len(double_star_stmts)
     
-    logger.info(f"  Generated {len(new_statements)} new statements")
+    # Sample random statement from outside this rep
+    random_stmt = sample_random_statement(
+        topic_short=topic, rep_id=rep_id,
+        seed=BASE_SEED + rep_id * 1000  # Reproducible seed
+    )
+    if random_stmt:
+        new_statements.append(random_stmt)
+        stats["random_insertion_success"] = True
+    
+    logger.info(f"  Generated {len(new_statements)} new statements (target: 17)")
     if not new_statements:
         logger.error(f"  No statements generated, skipping ranking")
         return stats
@@ -349,10 +435,10 @@ def main():
         for rep_dir, (topic, voter_dist, alt_dist, rep_id, rep_name) in all_reps:
             logger.info(f"  {topic}/{voter_dist}/{alt_dist}/{rep_name}")
         logger.info(f"\nTotal: {len(all_reps)} reps")
-        logger.info(f"Est. API calls: {len(all_reps) * 100 * 5} ranking + {len(all_reps) * 16} generation")
+        logger.info(f"Est. API calls: {len(all_reps) * 100 * 6} ranking (6 rounds for 117 stmts) + {len(all_reps) * 16} generation")
         return
     
-    total_stats = {"reps_processed": 0, "triple_star_success": 0, "double_star_total": 0, "ranking_success": 0}
+    total_stats = {"reps_processed": 0, "triple_star_success": 0, "double_star_total": 0, "random_insertion_success": 0, "ranking_success": 0}
     
     for rep_dir, (topic, voter_dist, alt_dist, rep_id, rep_name) in tqdm(all_reps, desc="Processing reps"):
         logger.info(f"\n{'=' * 60}")
@@ -365,6 +451,8 @@ def main():
             if stats["triple_star_success"]:
                 total_stats["triple_star_success"] += 1
             total_stats["double_star_total"] += stats["double_star_count"]
+            if stats.get("random_insertion_success"):
+                total_stats["random_insertion_success"] += 1
             if stats["ranking_success"]:
                 total_stats["ranking_success"] += 1
         except Exception as e:
@@ -378,6 +466,7 @@ def main():
     logger.info(f"Reps processed: {total_stats['reps_processed']}")
     logger.info(f"GPT*** successful: {total_stats['triple_star_success']}")
     logger.info(f"GPT** statements: {total_stats['double_star_total']}")
+    logger.info(f"Random insertion successful: {total_stats['random_insertion_success']}")
     logger.info(f"Rankings successful: {total_stats['ranking_success']}")
     logger.info(f"Log file: {LOG_FILE}")
 

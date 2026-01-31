@@ -51,6 +51,7 @@ def load_rep_results(rep_dir: Path) -> Dict:
         "epsilons_exist": (rep_dir / "precomputed_epsilons.json").exists(),
         "mini_reps": [],
         "triple_star": None,
+        "random_insertion": None,
     }
     
     # Load summary if exists
@@ -64,6 +65,12 @@ def load_rep_results(rep_dir: Path) -> Dict:
     if triple_star_path.exists():
         with open(triple_star_path) as f:
             results["triple_star"] = json.load(f)
+    
+    # Load random insertion results (stored at rep level)
+    random_insertion_path = rep_dir / "random_insertion.json"
+    if random_insertion_path.exists():
+        with open(random_insertion_path) as f:
+            results["random_insertion"] = json.load(f)
     
     # Load mini-rep results
     for i in range(N_SAMPLES_PER_REP):
@@ -144,6 +151,23 @@ def collect_all_results() -> pd.DataFrame:
                                 "full_winner_idx": None,
                                 "error": triple_star.get("error"),
                             })
+                    
+                    # Add random insertion result (one per rep, replicated for each mini-rep)
+                    random_insertion = rep_results.get("random_insertion")
+                    if random_insertion and random_insertion.get("epsilon") is not None:
+                        for mini_rep_id in range(N_SAMPLES_PER_REP):
+                            rows.append({
+                                "topic": topic_short,
+                                "alt_dist": alt_dist,
+                                "voter_dist": "uniform",
+                                "rep_id": rep_id,
+                                "mini_rep_id": mini_rep_id,
+                                "method": "random_insertion",
+                                "winner": "new",
+                                "epsilon": random_insertion.get("epsilon"),
+                                "full_winner_idx": None,
+                                "error": random_insertion.get("error"),
+                            })
         
         # Clustered voter distribution
         clustered_dir = PHASE2_DATA_DIR / topic_short / "clustered"
@@ -194,6 +218,23 @@ def collect_all_results() -> pd.DataFrame:
                                 "epsilon": triple_star.get("epsilon"),
                                 "full_winner_idx": None,
                                 "error": triple_star.get("error"),
+                            })
+                    
+                    # Add random insertion result (one per rep, replicated for each mini-rep)
+                    random_insertion = rep_results.get("random_insertion")
+                    if random_insertion and random_insertion.get("epsilon") is not None:
+                        for mini_rep_id in range(N_SAMPLES_PER_REP):
+                            rows.append({
+                                "topic": topic_short,
+                                "alt_dist": alt_dist,
+                                "voter_dist": cluster_name,
+                                "rep_id": rep_id,
+                                "mini_rep_id": mini_rep_id,
+                                "method": "random_insertion",
+                                "winner": "new",
+                                "epsilon": random_insertion.get("epsilon"),
+                                "full_winner_idx": None,
+                                "error": random_insertion.get("error"),
                             })
     
     return pd.DataFrame(rows)

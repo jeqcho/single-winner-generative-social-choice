@@ -98,7 +98,8 @@ METHOD_LABELS_EXTENDED = {
     'chatgpt_double_star_rankings': 'GPT**+Rank',
     'chatgpt_double_star_personas': 'GPT**+Pers',
     'chatgpt_triple_star': 'GPT***',
-    'new_random': 'New Random',
+    'random_insertion': 'Random (Insertion)',
+    'new_random': 'New Random',  # Legacy - kept for backward compatibility
 }
 
 

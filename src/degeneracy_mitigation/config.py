@@ -33,7 +33,8 @@ N_STATEMENTS = 100
 
 # Iterative ranking parameters
 K_TOP_BOTTOM = 10  # Top 10 and bottom 10 per round
-N_ROUNDS = 5       # 5 rounds total (100 -> 80 -> 60 -> 40 -> 20)
+N_ROUNDS = 5       # 5 rounds total (100 -> 80 -> 60 -> 40 -> 20) - LEGACY, use compute_n_rounds()
+MAX_FINAL_RANKING = 20  # Maximum statements for final ranking round
 
 # Retry parameters
 MAX_RETRIES = 20   # Max retries on degenerate/invalid output

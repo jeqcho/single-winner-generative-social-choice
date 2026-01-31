@@ -1,9 +1,13 @@
 """
 Iterative Top-K/Bottom-K ranking (Approach A).
 
-Builds a full ranking through 5 rounds:
-- Rounds 1-4: Select top 10 and bottom 10 from remaining statements
-- Round 5: Rank all remaining 20 statements
+Builds a full ranking through adaptive rounds:
+- N rounds: Select top K and bottom K from remaining statements
+- Final round: Rank all remaining statements (at most MAX_FINAL_RANKING)
+
+Number of rounds is computed dynamically based on statement count.
+For 100 statements with k=10: 4 rounds + final (20 remaining)
+For 117 statements with k=10: 5 rounds + final (17 remaining)
 
 Key features:
 - Per-round shuffling to break presentation order bias
@@ -14,6 +18,7 @@ Key features:
 
 import json
 import logging
+import math
 import random
 import time
 from typing import Any
@@ -24,7 +29,7 @@ from .config import (
     RANKING_MODEL,
     TEMPERATURE,
     K_TOP_BOTTOM,
-    N_ROUNDS,
+    MAX_FINAL_RANKING,
     MAX_RETRIES,
     HASH_SEED,
     SYSTEM_PROMPT_TEMPLATE,
@@ -41,6 +46,31 @@ from .degeneracy_detector import (
 )
 
 logger = logging.getLogger(__name__)
+
+
+def compute_n_rounds(n_statements: int, k: int = K_TOP_BOTTOM) -> int:
+    """
+    Compute number of top-K/bottom-K rounds needed.
+    
+    After r rounds: remaining = n - r * 2k
+    We want remaining <= MAX_FINAL_RANKING
+    So r >= (n - MAX_FINAL_RANKING) / (2k)
+    
+    Args:
+        n_statements: Total number of statements to rank
+        k: Number of top and bottom statements selected per round
+    
+    Returns:
+        Number of top-K/bottom-K rounds (not including final ranking round)
+    
+    Examples:
+        - 100 statements, k=10: 4 rounds -> 20 remaining for final
+        - 117 statements, k=10: 5 rounds -> 17 remaining for final
+        - 20 statements, k=10: 0 rounds -> go straight to final ranking
+    """
+    if n_statements <= MAX_FINAL_RANKING:
+        return 0  # No rounds needed, go straight to final ranking
+    return math.ceil((n_statements - MAX_FINAL_RANKING) / (2 * k))
 
 
 def build_system_prompt(persona: str) -> str:
@@ -339,6 +369,7 @@ def get_final_ranking_with_retry(
     alt_dist: str = None,
     rep: int = None,
     voter_idx: int = None,
+    round_num: int = None,
 ) -> tuple[list[str], int, bool]:
     """
     Get final ranking with validation and retry logic.
@@ -355,6 +386,7 @@ def get_final_ranking_with_retry(
         alt_dist: Alternative distribution (for metadata)
         rep: Replication number (for metadata)
         voter_idx: Voter index (for metadata)
+        round_num: Round number (for metadata)
     
     Returns:
         Tuple of (ranking, retry_count, is_valid).
@@ -370,7 +402,7 @@ def get_final_ranking_with_retry(
             ranking = call_api_for_final_ranking(
                 client, system_prompt, user_prompt, reasoning_effort,
                 topic=topic, voter_dist=voter_dist, alt_dist=alt_dist,
-                rep=rep, voter_idx=voter_idx, round_num=5,  # Final ranking is always round 5
+                rep=rep, voter_idx=voter_idx, round_num=round_num,
             )
             
             # Validate structural correctness
@@ -408,8 +440,9 @@ def iterative_rank(
     rep: int = None,
 ) -> dict:
     """
-    Build full ranking through 5 rounds of top-K/bottom-K selection.
+    Build full ranking through adaptive rounds of top-K/bottom-K selection.
     
+    Number of rounds is computed dynamically based on statement count.
     Each round shuffles remaining statements to break presentation order bias.
     Degeneracy is checked against THAT ROUND's presentation order.
     
@@ -445,7 +478,13 @@ def iterative_rank(
     # Build hash lookup
     hash_lookup = build_hash_lookup(n, hash_seed)
     
-    for round_num in range(1, N_ROUNDS + 1):
+    # Compute number of top-K/bottom-K rounds dynamically
+    n_topbottom_rounds = compute_n_rounds(n, K_TOP_BOTTOM)
+    total_rounds = n_topbottom_rounds + 1  # +1 for final ranking round
+    
+    logger.info(f"Iterative ranking: {n} statements -> {n_topbottom_rounds} top-K/bottom-K rounds + 1 final round")
+    
+    for round_num in range(1, total_rounds + 1):
         # Shuffle remaining statements for THIS round
         round_seed = voter_seed * 10 + round_num
         rng = random.Random(round_seed)
@@ -465,8 +504,8 @@ def iterative_rank(
             'presentation_order': presentation_order,
         }
         
-        if round_num < N_ROUNDS:
-            # Rounds 1-4: Get top 10 and bottom 10
+        if round_num <= n_topbottom_rounds:
+            # Top-K/Bottom-K round
             top_k_hashes, bottom_k_hashes, retries, is_valid = get_top_bottom_with_retry(
                 client=client,
                 persona=persona,
@@ -512,7 +551,7 @@ def iterative_rank(
             remaining_ids = [sid for sid in remaining_ids if sid not in placed]
             
         else:
-            # Round 5: Rank all 20 remaining
+            # Final round: Rank all remaining statements
             final_hashes, retries, is_valid = get_final_ranking_with_retry(
                 client=client,
                 persona=persona,
@@ -524,6 +563,7 @@ def iterative_rank(
                 alt_dist=alt_dist,
                 rep=rep,
                 voter_idx=voter_seed,
+                round_num=round_num,
             )
             
             round_info['type'] = 'final_ranking'

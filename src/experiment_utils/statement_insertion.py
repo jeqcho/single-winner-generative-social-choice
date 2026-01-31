@@ -1,13 +1,18 @@
 """
 Statement insertion into existing rankings using RANKING_MODEL.
 
-Used for GPT** and GPT*** methods where we need to insert a newly
-generated statement into all voter rankings to compute epsilon.
+DEPRECATED: This single-call insertion method has known position bias.
+Use batched iterative ranking instead:
+  src/experiment_utils/batched_iterative_insertion.py
+
+This module is kept for backward compatibility but should not be used
+for new experiments.
 """
 
 import json
 import logging
 import time
+import warnings
 from typing import List, Dict
 from openai import OpenAI
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
@@ -17,6 +22,20 @@ from src.degeneracy_mitigation.hash_identifiers import id_to_hash
 from src.degeneracy_mitigation.config import HASH_SEED
 
 logger = logging.getLogger(__name__)
+
+# =============================================================================
+# DEPRECATION WARNING - This module is deprecated!
+# =============================================================================
+warnings.warn(
+    "\n" + "=" * 70 + "\n"
+    "DEPRECATION WARNING: statement_insertion.py is deprecated!\n"
+    "This single-call insertion method has known position bias.\n"
+    "Use batched iterative ranking instead:\n"
+    "  src/experiment_utils/batched_iterative_insertion.py\n"
+    + "=" * 70,
+    DeprecationWarning,
+    stacklevel=2
+)
 
 
 @retry(
@@ -66,6 +85,13 @@ def insert_statement_into_ranking(
     Returns:
         Updated ranking with new statement index (len(statements)) inserted
     """
+    # Runtime deprecation warning
+    print("\n" + "!" * 70)
+    print("WARNING: Using deprecated single-call insertion!")
+    print("This method has position bias. Use batched iterative ranking instead:")
+    print("  src/experiment_utils/batched_iterative_insertion.py")
+    print("!" * 70 + "\n")
+    
     n = len(current_ranking)
     new_idx = len(statements)  # New statement gets the next available index
     
