@@ -1,0 +1,60 @@
+%%{init: {'theme': 'neutral', 'themeVariables': { 'fontSize': '20px'}}}%%
+flowchart LR
+    subgraph inputs [Input Data]
+        P["815 Adult Personas"]
+        T["6 Policy Topics"]
+    end
+    
+    subgraph phase1 [Data Generation]
+        VS["Voter Sampling<br/><i>Uniform or Clustered</i>"]
+        SG["Statement Generation<br/><i>gpt-5-mini</i>"]
+    end
+    
+    subgraph phase2 [Preference Building]
+        IR["Iterative Ranking<br/><i>gpt-5-mini</i>"]
+        PM["100×100 Preference Matrix"]
+    end
+    
+    subgraph precompute [Precompute]
+        PE["Precompute ε*<br/>for all 100 alternatives"]
+    end
+    
+    subgraph phase3 [Winner Selection]
+        MR["Mini-Rep Subsampling<br/>20×20 from 100×100"]
+        TM["Traditional<br/>Schulze, Borda,<br/>IRV, Plurality, VBC"]
+        GPT["LLM Selection<br/><i>gpt-5-mini</i>"]
+        GPT2["LLM Generation<br/><i>gpt-5-mini</i>"]
+    end
+    
+    subgraph eval [Evaluation]
+        EL["ε* Lookup"]
+        BI["Batched Iterative<br/>Ranking"]
+        CMP["Compare Methods by ε*"]
+    end
+    
+    %% Horizontal flow
+    P --> VS
+    P --> SG
+    T --> SG
+    VS --> IR
+    SG --> IR
+    IR --> PM
+    PM --> PE
+    PM --> MR
+    MR --> TM
+    MR --> GPT
+    MR --> GPT2
+    TM --> EL
+    GPT --> EL
+    GPT2 --> BI
+    PE --> EL
+    EL --> CMP
+    BI --> CMP
+    
+    %% Subtle borders - light fill + light border + thin stroke
+    style inputs fill:#fafafa,stroke:#d0d0d0,stroke-width:1px
+    style phase1 fill:#fafafa,stroke:#d0d0d0,stroke-width:1px
+    style phase2 fill:#fafafa,stroke:#d0d0d0,stroke-width:1px
+    style precompute fill:#fafafa,stroke:#d0d0d0,stroke-width:1px
+    style phase3 fill:#fafafa,stroke:#d0d0d0,stroke-width:1px
+    style eval fill:#fafafa,stroke:#d0d0d0,stroke-width:1px
