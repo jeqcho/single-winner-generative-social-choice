@@ -884,12 +884,6 @@ Return your new statement as JSON: {{"new_statement": "<your statement>"}}"""
         return None
 
 
-# NOTE: run_chatgpt_double_star, run_chatgpt_double_star_with_rankings,
-# run_chatgpt_double_star_with_personas, and insert_new_statement_into_rankings
-# have been removed. These functions used the deprecated single-call insertion.
-# Use scripts/run_gpt_star_batched.py with batched iterative ranking instead.
-
-
 # =============================================================================
 # ChatGPT*** Methods (Generate blind bridging statement - no context)
 # =============================================================================
@@ -965,8 +959,3 @@ Return your statement as JSON: {{"bridging_statement": "<your statement>"}}"""
     except Exception as e:
         logger.error(f"Generate bridging statement (no context) failed: {e}")
         return None
-
-
-# NOTE: run_chatgpt_triple_star and run_new_random have been removed.
-# These functions used the deprecated single-call insertion.
-# Use scripts/run_gpt_star_batched.py with batched iterative ranking instead.

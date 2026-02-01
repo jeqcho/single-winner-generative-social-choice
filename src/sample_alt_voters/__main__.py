@@ -11,7 +11,7 @@ Usage:
     # Run individual stages:
     uv run python -m src.sample_alt_voters --stage generate-statements
     uv run python -m src.sample_alt_voters --stage run-experiment
-    uv run python -m src.sample_alt_voters --stage run-triple-star
+    uv run python -m src.sample_alt_voters --stage run-generative-voting
     uv run python -m src.sample_alt_voters --stage visualize
 """
 
@@ -63,9 +63,9 @@ def run_stage(stage_name: str, force: bool = False) -> bool:
                     cmd.append("--force")
                 result = subprocess.run(cmd, check=True)
                 
-        elif stage_name == "run-triple-star":
-            # Run GPT*** method
-            cmd = PYTHON_CMD + ["src.sample_alt_voters.run_triple_star"]
+        elif stage_name == "run-generative-voting":
+            # Run GPT**/GPT***/Random with batched iterative ranking
+            cmd = [sys.executable, "scripts/run_gpt_star_batched.py"]
             if force:
                 cmd.append("--force")
             result = subprocess.run(cmd, check=True)
@@ -98,7 +98,7 @@ def run_full_pipeline(force: bool = False) -> bool:
     stages = [
         "generate-statements",
         "run-experiment",
-        "run-triple-star",
+        "run-generative-voting",
         "visualize",
     ]
     
@@ -142,7 +142,7 @@ Examples:
         choices=[
             "generate-statements",
             "run-experiment",
-            "run-triple-star",
+            "run-generative-voting",
             "visualize"
         ],
         help="Run a specific stage only (default: run all stages)"

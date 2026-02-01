@@ -71,7 +71,7 @@ flowchart TD
 
     subgraph metrics [Evaluation]
         EL["Epsilon Lookup<br/>(from precomputed)"]
-        BI["Batched Iterative Ranking<br/>API: gpt-5-mini, reasoning=low<br/>500 calls/rep (116 statements)"]
+        BI["Batched Iterative Ranking<br/>API: gpt-5-mini, reasoning=low<br/>600 calls/rep (117 statements)"]
         VIZ[Visualization]
     end
 
@@ -96,7 +96,7 @@ flowchart TD
 
 **Key distinction for epsilon computation:**
 - **Traditional/GPT/GPT\* methods**: Select from existing statements → epsilon looked up from precomputed values
-- **GPT\*\*/GPT\*\*\* methods**: Generate NEW statements → use batched iterative ranking (100 original + 16 new = 116 statements) to determine position among originals, then compute epsilon
+- **GPT\*\*/GPT\*\*\*/Random**: Generate NEW statements → use batched iterative ranking (100 original + 17 new = 117 statements) to determine position among originals, then compute epsilon
 
 ## Installation
 
@@ -153,8 +153,8 @@ uv run python -m src.sample_alt_voters --force
 
 The pipeline runs these stages in order:
 1. **generate-statements** - Pre-generate Alt1 and Alt4 statements
-2. **run-experiment** - Build preferences and run voting methods (uniform + clustered)
-3. **run-triple-star** - Run GPT\*\*\* method
+2. **run-experiment** - Build preferences and run Traditional/GPT/GPT\* methods
+3. **run-generative-voting** - Run GPT\*\*/GPT\*\*\*/Random with batched iterative ranking
 4. **visualize** - Generate visualization plots
 
 ### Running Individual Stages
@@ -163,7 +163,7 @@ The pipeline runs these stages in order:
 # Run a specific stage only
 uv run python -m src.sample_alt_voters --stage generate-statements
 uv run python -m src.sample_alt_voters --stage run-experiment
-uv run python -m src.sample_alt_voters --stage run-triple-star
+uv run python -m src.sample_alt_voters --stage run-generative-voting
 uv run python -m src.sample_alt_voters --stage visualize
 ```
 
@@ -210,6 +210,7 @@ All scripts automatically skip completed work and resume from where they left of
 ```
 scripts/
 ├── estimate_costs.py                   # Estimate API costs for the experiment
+├── run_gpt_star_batched.py             # Run GPT**/GPT***/Random (Stage 3)
 └── run_6topics.sh                      # Run pipeline for 6 selected topics
 
 src/
@@ -220,8 +221,6 @@ src/
 │   ├── __main__.py                     # CLI entry point
 │   ├── config.py                       # Experiment config (topics, paths, params)
 │   ├── run_experiment.py               # Main experiment runner (Phase 2)
-│   ├── run_triple_star.py              # GPT*** blind bridging runner
-│   ├── preference_builder_iterative.py # Build 100x100 preference matrices
 │   ├── results_aggregator.py           # Collect results into DataFrame
 │   ├── visualizer.py                   # Generate plots (CDF, heatmaps, bars)
 │   ├── verbalized_sampling.py          # Parse verbalized sampling responses
@@ -248,7 +247,6 @@ src/
 │   ├── config.py                       # Shared configuration constants
 │   ├── epsilon_calculator.py           # Critical epsilon computation
 │   ├── voting_methods.py               # All voting method implementations
-│   └── statement_insertion.py          # Insert statements into rankings
 │
 └── degeneracy_mitigation/              # Iterative ranking utilities
     ├── __init__.py
@@ -286,7 +284,7 @@ outputs/sample_alt_voters/
 flowchart TD
     subgraph entry [Entry Points]
         RE[run_experiment.py]
-        RTS[run_triple_star.py]
+        RGV[run_gpt_star_batched.py]
         VIS[visualizer.py]
     end
 
@@ -311,6 +309,8 @@ flowchart TD
     RE --> CFG
     RE --> PBI
     RE --> VM
+    RGV --> IR
+    RGV --> VM
     PBI --> IR
     VM --> EC
     VM --> PVC
@@ -424,24 +424,24 @@ Per topic: 48 reps (4 alt_dists × 12 reps), 240 mini-reps (48 reps × 5 mini-re
 | GPT/GPT\* Selection | gpt-5.2 | none | 1/method | 1,440 | Select consensus from statements |
 | GPT\*\* Generation | gpt-5.2 | none | 1/method | 720 | Generate new consensus statement |
 | GPT\*\*\* Generation | gpt-5.2 | none | 1/rep | 48 | Generate 1 blind bridging statement |
-| Batched Iterative Ranking | gpt-5-mini | low | 500/rep | 24,000 | Rank 116 statements (100 original + 16 new) per voter |
+| Batched Iterative Ranking | gpt-5-mini | low | 600/rep | 28,800 | Rank 117 statements (100 original + 17 new) per voter |
 
 **Total per topic: ~51,000 API calls**
 
 **Epsilon Computation:**
 - **Precomputed**: Traditional methods, GPT, GPT\* → lookup from `precomputed_epsilons.json`
-- **Batched Iterative Ranking**: GPT\*\*, GPT\*\*\* → batch all 16 new statements with 100 originals, run iterative ranking, extract positions relative to originals only
+- **Batched Iterative Ranking**: GPT\*\*, GPT\*\*\*, Random → batch all 17 new statements with 100 originals, run iterative ranking, extract positions relative to originals only
 
 ### Batched Iterative Ranking
 
 For GPT\*\* and GPT\*\*\* methods, we use batched iterative ranking instead of single-call insertion:
 
-1. **Batch all new statements**: 1 GPT\*\*\* + 15 GPT\*\* (3 variants × 5 mini-reps) = 16 new statements per rep
-2. **Run ONE iterative ranking** per voter with 116 statements (100 original + 16 new)
+1. **Batch all new statements**: 1 GPT\*\*\* + 15 GPT\*\* (3 variants × 5 mini-reps) + 1 Random = 17 new statements per rep
+2. **Run ONE iterative ranking** per voter with 117 statements (100 original + 17 new)
 3. **Extract positions** relative to original statements only (discounting other new statements)
 4. **Compute epsilon** from the positions
 
-This approach is more accurate than single-call insertion (which was biased toward "too preferred") and achieves 16× cost savings over individual insertion.
+This approach is more accurate than single-call insertion (which was biased toward "too preferred") and achieves 17× cost savings over individual insertion.
 
 ## Alternative Distributions
 
