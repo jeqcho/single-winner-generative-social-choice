@@ -1,0 +1,52 @@
+%%{init: {'theme': 'neutral', 'themeVariables': { 'fontSize': '14px'}}}%%
+flowchart TB
+    subgraph inputs [Input Data]
+        P["815 Adult Personas"]
+        T["6 Policy Topics"]
+    end
+    
+    subgraph phase1 [Data Generation]
+        VS["Voter Sampling<br/><i>Uniform or Clustered</i>"]
+        SG["Statement Generation<br/><i>gpt-5-mini</i>"]
+    end
+    
+    subgraph phase2 [Preference Building]
+        IR["Iterative Ranking<br/><i>gpt-5-mini</i>"]
+        PM["100×100 Preference Matrix"]
+    end
+    
+    subgraph precompute [Precompute]
+        PE["Precompute ε*<br/>for all 100 alternatives"]
+    end
+    
+    subgraph phase3 [Winner Selection]
+        MR["Mini-Rep Subsampling<br/>20×20 from 100×100"]
+        TM["Traditional<br/>Schulze, Borda,<br/>IRV, Plurality, VBC"]
+        GPT["LLM Selection<br/><i>gpt-5-mini</i>"]
+        GPT2["LLM Generation<br/><i>gpt-5-mini</i>"]
+    end
+    
+    subgraph eval [Evaluation]
+        EL["ε* Lookup"]
+        BI["Batched Iterative<br/>Ranking"]
+        CMP["Compare Methods by ε*"]
+    end
+    
+    %% Vertical flow
+    P --> VS
+    P --> SG
+    T --> SG
+    VS --> IR
+    SG --> IR
+    IR --> PM
+    PM --> PE
+    PM --> MR
+    MR --> TM
+    MR --> GPT
+    MR --> GPT2
+    TM --> EL
+    GPT --> EL
+    GPT2 --> BI
+    PE --> EL
+    EL --> CMP
+    BI --> CMP
