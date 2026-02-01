@@ -1,60 +1,93 @@
-%%{init: {'theme': 'neutral', 'themeVariables': { 'fontSize': '20px'}}}%%
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#E1F5FE',
+    'primaryTextColor': '#000',
+    'primaryBorderColor': '#0277BD',
+    'lineColor': '#546E7A',
+    'secondaryColor': '#F3E5F5',
+    'tertiaryColor': '#E8F5E9',
+    'fontSize': '16px',
+    'fontFamily': 'arial'
+  }
+}}%%
 flowchart LR
+    %% Define styles by Phase
+    classDef p_inputs fill:#E3F2FD,stroke:#1565C0,stroke-width:2px,color:#0D47A1;
+    classDef p_gen fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20;
+    classDef p_pref fill:#FFF3E0,stroke:#EF6C00,stroke-width:2px,color:#E65100;
+    classDef p_pre fill:#E0F7FA,stroke:#00838F,stroke-width:2px,color:#006064;
+    classDef p_select fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px,color:#4A148C;
+    classDef p_eval fill:#FFEBEE,stroke:#C62828,stroke-width:2px,color:#B71C1C;
+    
+    classDef subgraphStyle fill:none,stroke:none;
+
     subgraph inputs [Input Data]
-        P["815 Adult Personas"]
-        T["6 Policy Topics"]
+        direction TB
+        P[("815 Adult Personas")]:::p_inputs
+        T[("6 Policy Topics")]:::p_inputs
     end
     
     subgraph phase1 [Data Generation]
-        VS["Voter Sampling<br/><i>Uniform or Clustered</i>"]
-        SG["Statement Generation<br/><i>gpt-5-mini</i>"]
+        direction TB
+        VS["Voter Sampling<br/><i>Uniform or Clustered</i>"]:::p_gen
+        SG["Statement Generation<br/><i>gpt-5-mini</i>"]:::p_gen
     end
     
     subgraph phase2 [Preference Building]
-        IR["Iterative Ranking<br/><i>gpt-5-mini</i>"]
-        PM["100×100 Preference Matrix"]
+        direction TB
+        IR["Iterative Ranking<br/><i>gpt-5-mini</i>"]:::p_pref
+        PM[("100×100<br/>Preference Matrix")]:::p_pref
     end
     
     subgraph precompute [Precompute]
-        PE["Precompute ε*<br/>for all 100 alternatives"]
+        PE[("Precompute ε*<br/>for all 100 alternatives")]:::p_pre
     end
     
     subgraph phase3 [Winner Selection]
-        MR["Mini-Rep Subsampling<br/>20×20 from 100×100"]
-        TM["Traditional<br/>Schulze, Borda,<br/>IRV, Plurality, VBC"]
-        GPT["LLM Selection<br/><i>gpt-5-mini</i>"]
-        GPT2["LLM Generation<br/><i>gpt-5-mini</i>"]
+        direction TB
+        MR["Mini-Rep Subsampling<br/>20×20 from 100×100"]:::p_select
+        
+        subgraph methods [Selection Methods]
+            direction TB
+            TM["Traditional<br/>Schulze, Borda,<br/>IRV, Plurality, VBC"]:::p_select
+            GPT["LLM Selection<br/><i>gpt-5-mini</i>"]:::p_select
+            GPT2["LLM Generation<br/><i>gpt-5-mini</i>"]:::p_select
+        end
     end
     
     subgraph eval [Evaluation]
-        EL["ε* Lookup"]
-        BI["Batched Iterative<br/>Ranking"]
-        CMP["Compare Methods by ε*"]
+        direction TB
+        EL["ε* Lookup"]:::p_eval
+        BI["Batched Iterative<br/>Ranking"]:::p_eval
+        CMP["Compare Methods<br/>by ε*"]:::p_eval
     end
     
-    %% Horizontal flow
+    %% Connections
     P --> VS
     P --> SG
     T --> SG
+    
     VS --> IR
     SG --> IR
+    
     IR --> PM
     PM --> PE
     PM --> MR
+    
     MR --> TM
     MR --> GPT
     MR --> GPT2
+    
     TM --> EL
     GPT --> EL
-    GPT2 --> BI
     PE --> EL
+    
+    GPT2 --> BI
+    
     EL --> CMP
     BI --> CMP
-    
-    %% Subtle borders - light fill + light border + thin stroke
-    style inputs fill:#fafafa,stroke:#d0d0d0,stroke-width:1px
-    style phase1 fill:#fafafa,stroke:#d0d0d0,stroke-width:1px
-    style phase2 fill:#fafafa,stroke:#d0d0d0,stroke-width:1px
-    style precompute fill:#fafafa,stroke:#d0d0d0,stroke-width:1px
-    style phase3 fill:#fafafa,stroke:#d0d0d0,stroke-width:1px
-    style eval fill:#fafafa,stroke:#d0d0d0,stroke-width:1px
+
+    %% Apply Subgraph Styles
+    class inputs,phase1,phase2,precompute,phase3,eval subgraphStyle;
+    style methods fill:none,stroke:none
