@@ -60,15 +60,15 @@ for topic in $TOPICS; do
 done
 
 # =============================================================================
-# Stage 2: Run GPT*** blind bridging method
+# Stage 2: Run GPT**, GPT***, and Random Insertion with batched iterative ranking
 # =============================================================================
-# Note: GPT** epsilon is computed inline in run_experiment.py
-# GPT*** runs separately because it operates on full 100x100 matrix (not mini-reps)
+# These methods generate new statements and use batched iterative ranking
+# to compute accurate epsilon values without position bias.
 echo "" | tee -a "$LOG_FILE"
 echo "============================================" | tee -a "$LOG_FILE"
-echo "=== Stage 2: Run GPT*** ===" | tee -a "$LOG_FILE"
+echo "=== Stage 2: Run GPT**/GPT***/Random ===" | tee -a "$LOG_FILE"
 echo "============================================" | tee -a "$LOG_FILE"
-uv run python -m src.sample_alt_voters.run_triple_star 2>&1 | tee -a "$LOG_FILE"
+uv run python scripts/run_gpt_star_batched.py 2>&1 | tee -a "$LOG_FILE"
 
 # =============================================================================
 # Stage 3: Generate visualization plots

@@ -1,20 +1,18 @@
 #!/usr/bin/env python3
 """
-Re-run GPT** and GPT*** methods using batched iterative ranking.
+Run GPT**, GPT***, and Random Insertion methods using batched iterative ranking.
 
-This script replaces the biased single-call insertion with accurate batched
-iterative ranking. Instead of inserting statements one at a time, it:
-1. Generates all 17 new statements per rep (1 GPT*** + 15 GPT** + 1 Random)
+This is Stage 2 of the pipeline. It uses accurate batched iterative ranking
+instead of single-call insertion. For each replication:
+1. Generates 17 new statements per rep (1 GPT*** + 15 GPT** + 1 Random)
 2. Runs ONE iterative ranking per voter with all 117 statements
 3. Extracts positions relative to the 100 original statements
 4. Computes epsilon for each method
 
-This achieves 17x cost savings while producing accurate positions.
-
 Usage:
-    uv run python scripts/rerun_gpt_star_batched.py
-    uv run python scripts/rerun_gpt_star_batched.py --topic abortion
-    uv run python scripts/rerun_gpt_star_batched.py --dry-run
+    uv run python scripts/run_gpt_star_batched.py
+    uv run python scripts/run_gpt_star_batched.py --topic abortion
+    uv run python scripts/run_gpt_star_batched.py --dry-run
 """
 
 import argparse
@@ -61,7 +59,7 @@ load_dotenv()
 # Setup logging
 LOG_DIR = Path(__file__).parent.parent / "logs"
 LOG_DIR.mkdir(parents=True, exist_ok=True)
-LOG_FILE = LOG_DIR / f"rerun_gpt_star_batched_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
+LOG_FILE = LOG_DIR / f"run_gpt_star_batched_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -392,13 +390,13 @@ def process_rep(
 
 def main():
     """Main entry point."""
-    parser = argparse.ArgumentParser(description="Re-run GPT**/GPT*** with batched iterative ranking")
+    parser = argparse.ArgumentParser(description="Run GPT**/GPT***/Random with batched iterative ranking")
     parser.add_argument("--topic", type=str, choices=TOPICS, help="Run for a specific topic only")
     parser.add_argument("--dry-run", action="store_true", help="List reps without running")
     args = parser.parse_args()
     
     logger.info("=" * 60)
-    logger.info("Re-running GPT**/GPT*** with Batched Iterative Ranking")
+    logger.info("Running GPT**/GPT***/Random with Batched Iterative Ranking")
     logger.info("=" * 60)
     
     topics_to_run = [args.topic] if args.topic else TOPICS

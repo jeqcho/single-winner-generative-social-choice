@@ -79,10 +79,8 @@ from src.experiment_utils.voting_methods import (
     run_chatgpt_star,
     run_chatgpt_star_with_rankings,
     run_chatgpt_star_with_personas,
-    run_chatgpt_double_star,
-    run_chatgpt_double_star_with_rankings,
-    run_chatgpt_double_star_with_personas,
 )
+# NOTE: run_chatgpt_double_star* removed - use scripts/run_gpt_star_batched.py instead
 
 # Load environment variables
 load_dotenv()
@@ -263,37 +261,9 @@ def run_chatgpt_voting_methods(
             logger.error(f"Error running chatgpt_star_personas: {e}")
             results["chatgpt_star_personas"] = {"winner": None, "error": str(e)}
     
-    # ChatGPT** variants (generate new statement)
-    if all_statements is not None and full_preferences is not None and voter_indices is not None and topic is not None:
-        try:
-            results["chatgpt_double_star"] = run_chatgpt_double_star(
-                sample_statements, all_statements, sample_personas,
-                full_preferences, voter_indices, topic, openai_client,
-                voter_personas=voter_personas
-            )
-        except Exception as e:
-            logger.error(f"Error running chatgpt_double_star: {e}")
-            results["chatgpt_double_star"] = {"winner": None, "error": str(e)}
-        
-        try:
-            results["chatgpt_double_star_rankings"] = run_chatgpt_double_star_with_rankings(
-                sample_statements, sample_preferences, all_statements,
-                sample_personas, full_preferences, voter_indices, topic, openai_client,
-                voter_personas=voter_personas
-            )
-        except Exception as e:
-            logger.error(f"Error running chatgpt_double_star_rankings: {e}")
-            results["chatgpt_double_star_rankings"] = {"winner": None, "error": str(e)}
-        
-        try:
-            results["chatgpt_double_star_personas"] = run_chatgpt_double_star_with_personas(
-                sample_statements, sample_personas, all_statements,
-                full_preferences, voter_indices, topic, openai_client,
-                voter_personas=voter_personas
-            )
-        except Exception as e:
-            logger.error(f"Error running chatgpt_double_star_personas: {e}")
-            results["chatgpt_double_star_personas"] = {"winner": None, "error": str(e)}
+    # NOTE: ChatGPT** variants have been removed from this file.
+    # GPT**, GPT***, and Random Insertion now use batched iterative ranking
+    # and are run separately via scripts/run_gpt_star_batched.py
     
     return results
 
