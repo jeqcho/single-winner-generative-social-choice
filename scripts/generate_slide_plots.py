@@ -635,20 +635,20 @@ def main():
             filtered_df,
             topics=group1_topics,
             output_path=by_topic_dir / "cdf_traditional_group1.png",
-            suptitle="Traditional Methods: Abortion, Electoral, Healthcare\n(Alt1: Persona Only × Uniform)",
+            suptitle="Critical Epsilons of Voting Methods for Topics: Abortion, Electoral College, Healthcare",
             x_max=x_max,
             y_min=y_min,
-            zoomed=zoomed,
+            zoomed=False,  # Don't add zoom suffix to this title
         )
         
         plot_cdf_traditional_methods(
             filtered_df,
             topics=group2_topics,
             output_path=by_topic_dir / "cdf_traditional_group2.png",
-            suptitle="Traditional Methods: Policing, Environment, Trust\n(Alt1: Persona Only × Uniform)",
+            suptitle="Critical Epsilons of Voting Methods for Topics: Policing, Environment, Trust in Institutions",
             x_max=x_max,
             y_min=y_min,
-            zoomed=zoomed,
+            zoomed=False,  # Don't add zoom suffix to this title
         )
     
     print(f"\nAll plots saved to: {SLIDES_OUTPUT_DIR}")
