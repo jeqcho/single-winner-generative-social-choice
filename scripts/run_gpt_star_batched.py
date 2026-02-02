@@ -40,6 +40,7 @@ from src.sample_alt_voters.config import (
     BASE_SEED,
     K_SAMPLE,
     P_SAMPLE,
+    N_SAMPLES_PER_REP,
 )
 from src.sample_alt_voters.run_experiment import load_statements_for_rep
 from src.sample_alt_voters.preference_builder_iterative import subsample_preferences
@@ -85,20 +86,34 @@ def load_personas() -> List[str]:
 
 
 def parse_rep_path(rep_dir: Path) -> Tuple[str, str, str, int, str]:
-    """Parse rep directory path to extract topic, voter_dist, alt_dist, rep_id."""
+    """Parse rep directory path to extract topic, voter_dist, alt_dist, rep_id.
+    
+    Handles two structures:
+    - Uniform: data/{topic}/uniform/{alt_dist}/rep{id}
+    - Clustered: data/{topic}/clustered/{cluster}/{alt_dist}/rep{id}
+    """
     parts = rep_dir.parts
     data_idx = parts.index('data')
     topic = parts[data_idx + 1]
-    voter_dist = parts[data_idx + 2]
-    alt_dist = parts[data_idx + 3]
-    rep_name = parts[data_idx + 4]
-    rep_id = int(rep_name.split('_')[0].replace('rep', ''))
+    voter_type = parts[data_idx + 2]  # "uniform" or "clustered"
+    
+    if voter_type == "uniform":
+        alt_dist = parts[data_idx + 3]
+        rep_name = parts[data_idx + 4]
+        voter_dist = "uniform"
+    else:  # clustered
+        voter_dist = parts[data_idx + 3]  # progressive_liberal or conservative_traditional
+        alt_dist = parts[data_idx + 4]
+        rep_name = parts[data_idx + 5]
+    
+    rep_id = int(rep_name.replace('rep', ''))
     return topic, voter_dist, alt_dist, rep_id, rep_name
 
 
-def generate_double_star_statements(
+def generate_all_statements_for_minireps(
     rep_dir: Path,
     topic_question: str,
+    topic_short: str,
     all_statements: List[Dict],
     all_personas: List[str],
     global_voter_indices: List[int],
@@ -108,11 +123,15 @@ def generate_double_star_statements(
     alt_dist: str = None,
     rep_id: int = None,
 ) -> List[Dict]:
-    """Generate all GPT** statements for all 5 mini-reps (15 total)."""
+    """Generate all statements (GPT**, GPT***, random_insertion) for all mini-reps.
+    
+    Per mini-rep: 3 GPT** + 1 GPT*** + 1 random_insertion = 5 methods
+    Total: N_SAMPLES_PER_REP mini-reps × 5 methods = 20 statements
+    """
     new_statements = []
     all_rep_personas = [all_personas[idx] for idx in global_voter_indices]
     
-    for mini_rep_id in range(5):
+    for mini_rep_id in range(N_SAMPLES_PER_REP):
         mini_rep_dir = rep_dir / f"mini_rep{mini_rep_id}"
         results_path = mini_rep_dir / "results.json"
         
@@ -159,26 +178,41 @@ def generate_double_star_statements(
         )
         if stmt:
             new_statements.append({"statement": stmt, "method": "chatgpt_double_star_personas", "mini_rep": mini_rep_id})
+        
+        # GPT*** (one per mini-rep)
+        triple_star = generate_triple_star_statement(
+            topic_question, openai_client,
+            voter_dist=voter_dist, alt_dist=alt_dist, rep_id=rep_id, mini_rep_id=mini_rep_id
+        )
+        if triple_star:
+            new_statements.append(triple_star)
+        
+        # Random insertion (one per mini-rep, different seed per mini-rep)
+        random_stmt = sample_random_statement(
+            topic_short=topic_short, rep_id=rep_id, mini_rep_id=mini_rep_id
+        )
+        if random_stmt:
+            new_statements.append(random_stmt)
     
     return new_statements
 
 
 def generate_triple_star_statement(
     topic_question: str, openai_client: OpenAI,
-    voter_dist: str = None, alt_dist: str = None, rep_id: int = None,
+    voter_dist: str = None, alt_dist: str = None, rep_id: int = None, mini_rep_id: int = None,
 ) -> Optional[Dict]:
-    """Generate GPT*** statement."""
-    logger.info(f"  Generating GPT*** statement...")
+    """Generate GPT*** statement for a specific mini-rep."""
+    logger.info(f"    Generating GPT*** for mini_rep{mini_rep_id}...")
     stmt = generate_bridging_statement_no_context(
         topic_question, openai_client,
         voter_dist=voter_dist, alt_dist=alt_dist, rep=rep_id
     )
     if stmt:
-        return {"statement": stmt, "method": "chatgpt_triple_star", "mini_rep": None}
+        return {"statement": stmt, "method": "chatgpt_triple_star", "mini_rep": mini_rep_id}
     return None
 
 
-def sample_random_statement(topic_short: str, rep_id: int, seed: int = None) -> Optional[Dict]:
+def sample_random_statement(topic_short: str, rep_id: int, mini_rep_id: int, seed: int = None) -> Optional[Dict]:
     """
     Sample a random statement from the global pool that is NOT in the current rep.
     
@@ -188,11 +222,14 @@ def sample_random_statement(topic_short: str, rep_id: int, seed: int = None) -> 
     Args:
         topic_short: Short topic name (e.g., "abortion", "healthcare")
         rep_id: Replication ID
-        seed: Random seed for reproducibility
+        mini_rep_id: Mini-replication ID
+        seed: Random seed for reproducibility (default: BASE_SEED + rep_id * 1000 + mini_rep_id)
     
     Returns:
         Dict with statement and method, or None if sampling fails
     """
+    if seed is None:
+        seed = BASE_SEED + rep_id * 1000 + mini_rep_id
     project_root = Path(__file__).parent.parent
     pool_path = project_root / "data" / "sample-alt-voters" / "sampled-statements" / "persona_no_context" / f"{topic_short}.json"
     context_path = project_root / "data" / "sample-alt-voters" / "sampled-context" / topic_short / f"rep{rep_id}.json"
@@ -234,7 +271,7 @@ def sample_random_statement(topic_short: str, rep_id: int, seed: int = None) -> 
     return {
         "statement": sampled_statement,
         "method": "random_insertion",
-        "mini_rep": None,
+        "mini_rep": mini_rep_id,
         "sampled_id": sampled_id,
     }
 
@@ -245,64 +282,49 @@ def save_results(
     new_statements: List[Dict],
     original_statements: List[Dict],
 ):
-    """Save results to appropriate files."""
+    """Save all results to mini-rep results.json files.
+    
+    All methods (GPT**, GPT***, random_insertion) are saved to their respective
+    mini-rep results.json files based on the mini_rep field.
+    """
     n_originals = len(original_statements)
-    triple_star_stmt = None
-    random_insertion_stmt = None
-    double_star_by_mini_rep: Dict[int, Dict[str, Dict]] = {}
+    results_by_mini_rep: Dict[int, Dict[str, Dict]] = {}
     
     for stmt_data in new_statements:
         method = stmt_data["method"]
         mini_rep = stmt_data.get("mini_rep")
         statement = stmt_data["statement"]
         
-        key = f"{method}_mr{mini_rep}" if mini_rep is not None else method
+        if mini_rep is None:
+            logger.warning(f"Statement for method {method} has no mini_rep, skipping")
+            continue
+        
+        key = f"{method}_mr{mini_rep}"
         positions = all_positions.get(key, [])
         epsilon = compute_epsilon_from_positions(positions, original_statements)
         
-        if method == "chatgpt_triple_star":
-            triple_star_stmt = {
-                "winner": "generated",
-                "epsilon": epsilon,
-                "epsilons": [epsilon] if epsilon is not None else [],
-                "statements": [statement],
-                "is_new": True,
-                "n_generations": 1,
-                "insertion_positions": positions,
-            }
-        elif method == "random_insertion":
-            random_insertion_stmt = {
-                "winner": str(n_originals),
-                "new_statement": statement,
-                "sampled_id": stmt_data.get("sampled_id"),
-                "is_new": True,
-                "insertion_positions": positions,
-                "epsilon": epsilon,
-            }
-        else:
-            if mini_rep not in double_star_by_mini_rep:
-                double_star_by_mini_rep[mini_rep] = {}
-            double_star_by_mini_rep[mini_rep][method] = {
-                "winner": str(n_originals),
-                "new_statement": statement,
-                "is_new": True,
-                "insertion_positions": positions,
-                "epsilon": epsilon,
-            }
+        if mini_rep not in results_by_mini_rep:
+            results_by_mini_rep[mini_rep] = {}
+        
+        result_data = {
+            "winner": str(n_originals),
+            "new_statement": statement,
+            "is_new": True,
+            "insertion_positions": positions,
+            "epsilon": epsilon,
+        }
+        
+        # Add sampled_id for random_insertion
+        if method == "random_insertion" and "sampled_id" in stmt_data:
+            result_data["sampled_id"] = stmt_data["sampled_id"]
+        
+        results_by_mini_rep[mini_rep][method] = result_data
     
-    if triple_star_stmt:
-        with open(rep_dir / "chatgpt_triple_star.json", 'w') as f:
-            json.dump(triple_star_stmt, f, indent=2)
-        logger.info(f"  Saved GPT***: epsilon={triple_star_stmt['epsilon']}")
-    
-    if random_insertion_stmt:
-        with open(rep_dir / "random_insertion.json", 'w') as f:
-            json.dump(random_insertion_stmt, f, indent=2)
-        logger.info(f"  Saved Random Insertion: epsilon={random_insertion_stmt['epsilon']}")
-    
-    for mini_rep_id, methods in double_star_by_mini_rep.items():
+    # Save all results to mini-rep results.json files
+    for mini_rep_id, methods in results_by_mini_rep.items():
         results_path = rep_dir / f"mini_rep{mini_rep_id}" / "results.json"
         if not results_path.exists():
+            logger.warning(f"Results file not found: {results_path}")
             continue
         with open(results_path) as f:
             data = json.load(f)
@@ -330,38 +352,18 @@ def process_rep(
         full_preferences = json.load(f)
     
     voter_personas = [all_personas[i] for i in global_voter_indices]
-    stats = {"triple_star_success": False, "double_star_count": 0, "random_insertion_success": False, "ranking_success": False}
+    stats = {"statements_generated": 0, "ranking_success": False}
     
-    # Phase 1: Generate statements
-    logger.info(f"  Phase 1: Generating new statements...")
-    new_statements = []
-    
-    triple_star = generate_triple_star_statement(
-        topic_question, openai_client,
-        voter_dist=voter_dist, alt_dist=alt_dist, rep_id=rep_id
-    )
-    if triple_star:
-        new_statements.append(triple_star)
-        stats["triple_star_success"] = True
-    
-    double_star_stmts = generate_double_star_statements(
-        rep_dir, topic_question, statements, all_personas,
+    # Phase 1: Generate all statements (GPT**, GPT***, random_insertion) for all mini-reps
+    logger.info(f"  Phase 1: Generating new statements for {N_SAMPLES_PER_REP} mini-reps...")
+    new_statements = generate_all_statements_for_minireps(
+        rep_dir, topic_question, topic_short, statements, all_personas,
         global_voter_indices, full_preferences, openai_client,
         voter_dist=voter_dist, alt_dist=alt_dist, rep_id=rep_id
     )
-    new_statements.extend(double_star_stmts)
-    stats["double_star_count"] = len(double_star_stmts)
+    stats["statements_generated"] = len(new_statements)
     
-    # Sample random statement from outside this rep
-    random_stmt = sample_random_statement(
-        topic_short=topic, rep_id=rep_id,
-        seed=BASE_SEED + rep_id * 1000  # Reproducible seed
-    )
-    if random_stmt:
-        new_statements.append(random_stmt)
-        stats["random_insertion_success"] = True
-    
-    logger.info(f"  Generated {len(new_statements)} new statements (target: 17)")
+    logger.info(f"  Generated {len(new_statements)} new statements (target: {N_SAMPLES_PER_REP * 5})")
     if not new_statements:
         logger.error(f"  No statements generated, skipping ranking")
         return stats
@@ -388,11 +390,25 @@ def process_rep(
     return stats
 
 
+def rep_already_processed(rep_dir: Path) -> bool:
+    """Check if a rep already has GPT*** results in mini_rep0."""
+    results_path = rep_dir / "mini_rep0" / "results.json"
+    if not results_path.exists():
+        return False
+    try:
+        with open(results_path) as f:
+            data = json.load(f)
+        return "chatgpt_triple_star" in data.get("results", {})
+    except Exception:
+        return False
+
+
 def main():
     """Main entry point."""
     parser = argparse.ArgumentParser(description="Run GPT**/GPT***/Random with batched iterative ranking")
     parser.add_argument("--topic", type=str, choices=TOPICS, help="Run for a specific topic only")
     parser.add_argument("--dry-run", action="store_true", help="List reps without running")
+    parser.add_argument("--skip-completed", action="store_true", help="Skip reps that already have GPT*** results")
     args = parser.parse_args()
     
     logger.info("=" * 60)
@@ -428,6 +444,13 @@ def main():
     
     logger.info(f"\nFound {len(all_reps)} reps to process")
     
+    # Filter out already-completed reps if --skip-completed
+    if args.skip_completed:
+        original_count = len(all_reps)
+        all_reps = [(rep_dir, parsed) for rep_dir, parsed in all_reps if not rep_already_processed(rep_dir)]
+        skipped = original_count - len(all_reps)
+        logger.info(f"Skipping {skipped} already-completed reps, {len(all_reps)} remaining")
+    
     if args.dry_run:
         logger.info("\nDry run - listing reps:")
         for rep_dir, (topic, voter_dist, alt_dist, rep_id, rep_name) in all_reps:
@@ -436,7 +459,7 @@ def main():
         logger.info(f"Est. API calls: {len(all_reps) * 100 * 6} ranking (6 rounds for 117 stmts) + {len(all_reps) * 16} generation")
         return
     
-    total_stats = {"reps_processed": 0, "triple_star_success": 0, "double_star_total": 0, "random_insertion_success": 0, "ranking_success": 0}
+    total_stats = {"reps_processed": 0, "statements_generated": 0, "ranking_success": 0}
     
     for rep_dir, (topic, voter_dist, alt_dist, rep_id, rep_name) in tqdm(all_reps, desc="Processing reps"):
         logger.info(f"\n{'=' * 60}")
@@ -446,11 +469,7 @@ def main():
         try:
             stats = process_rep(rep_dir, topic, rep_id, all_personas, openai_client)
             total_stats["reps_processed"] += 1
-            if stats["triple_star_success"]:
-                total_stats["triple_star_success"] += 1
-            total_stats["double_star_total"] += stats["double_star_count"]
-            if stats.get("random_insertion_success"):
-                total_stats["random_insertion_success"] += 1
+            total_stats["statements_generated"] += stats["statements_generated"]
             if stats["ranking_success"]:
                 total_stats["ranking_success"] += 1
         except Exception as e:
@@ -462,9 +481,7 @@ def main():
     logger.info("SUMMARY")
     logger.info(f"{'=' * 60}")
     logger.info(f"Reps processed: {total_stats['reps_processed']}")
-    logger.info(f"GPT*** successful: {total_stats['triple_star_success']}")
-    logger.info(f"GPT** statements: {total_stats['double_star_total']}")
-    logger.info(f"Random insertion successful: {total_stats['random_insertion_success']}")
+    logger.info(f"Statements generated: {total_stats['statements_generated']}")
     logger.info(f"Rankings successful: {total_stats['ranking_success']}")
     logger.info(f"Log file: {LOG_FILE}")
 

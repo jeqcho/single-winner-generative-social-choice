@@ -1,0 +1,104 @@
+{
+  "mini_rep_id": 3,
+  "voter_indices": [
+    15,
+    26,
+    74,
+    9,
+    8,
+    61,
+    96,
+    11,
+    80,
+    66,
+    39,
+    72,
+    4,
+    82,
+    69,
+    40,
+    99,
+    63,
+    88,
+    97
+  ],
+  "alt_indices": [
+    16,
+    87,
+    12,
+    90,
+    23,
+    77,
+    2,
+    97,
+    54,
+    38,
+    86,
+    83,
+    74,
+    56,
+    32,
+    75,
+    14,
+    47,
+    39,
+    31
+  ],
+  "results": {
+    "schulze": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "31"
+    },
+    "borda": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "31"
+    },
+    "irv": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "31"
+    },
+    "plurality": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "31"
+    },
+    "veto_by_consumption": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "31"
+    },
+    "chatgpt": {
+      "winner": "11",
+      "epsilon": 0.19999999999999996,
+      "full_winner_idx": "83"
+    },
+    "chatgpt_rankings": {
+      "winner": "14",
+      "epsilon": 0.0,
+      "full_winner_idx": "32"
+    },
+    "chatgpt_personas": {
+      "winner": "7",
+      "epsilon": 0.0,
+      "full_winner_idx": "97"
+    },
+    "chatgpt_star": {
+      "winner": "58",
+      "epsilon": 0.3700000000000001,
+      "full_winner_idx": "58"
+    },
+    "chatgpt_star_rankings": {
+      "winner": "19",
+      "epsilon": 0.010000000000000009,
+      "full_winner_idx": "31"
+    },
+    "chatgpt_star_personas": {
+      "winner": "11",
+      "epsilon": 0.19999999999999996,
+      "full_winner_idx": "83"
+    }
+  }
+}

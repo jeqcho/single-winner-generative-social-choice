@@ -64,9 +64,9 @@ flowchart TD
     subgraph phase3 [Phase 3: Winner Selection]
         MR["Mini-Rep Subsampling<br/>(20x20 from 100x100)"]
         TM["Traditional Methods<br/>(no API)"]
-        GPT0["GPT/GPT* Methods<br/>API: gpt-5.2, reasoning=none"]
-        GPT2["GPT** Methods<br/>API: gpt-5.2, reasoning=none"]
-        GPT3["GPT*** Methods<br/>API: gpt-5.2, reasoning=none"]
+        GPT0["GPT/GPT* Methods<br/>API: gpt-5-mini, reasoning=minimal"]
+        GPT2["GPT** Methods<br/>API: gpt-5-mini, reasoning=minimal"]
+        GPT3["GPT*** Methods<br/>API: gpt-5-mini, reasoning=minimal"]
     end
 
     subgraph metrics [Evaluation]
@@ -123,7 +123,7 @@ OPENAI_API_KEY=your_api_key_here
 All model settings are centralized in `src/experiment_utils/config.py`:
 
 - **STATEMENT_MODEL** (`gpt-5-mini`, reasoning=minimal): Used for statement/alternative generation (Phase 1)
-- **GENERATIVE_VOTING_MODEL** (`gpt-5.2`, reasoning=none): Used for GPT-based voting methods (Phase 3 selection/generation)
+- **GENERATIVE_VOTING_MODEL** (`gpt-5-mini`, reasoning=minimal): Used for GPT-based voting methods (Phase 3 selection/generation)
 - **RANKING_MODEL** (`gpt-5-mini`, reasoning=low): Used for all preference/ranking tasks (iterative ranking, epsilon insertion)
 
 ### API Metadata Tracking
@@ -267,14 +267,15 @@ data/
 └── topic_mappings.json                 # Topic slug to short name mappings
 
 outputs/sample_alt_voters/
-├── data/{topic}/{voter_dist}/{alt_dist}/rep{N}/
+├── data/{topic}/uniform/{alt_dist}/rep{N}/        # Uniform voter distribution
 │   ├── preferences.json                # 100x100 preference matrix
 │   ├── precomputed_epsilons.json       # Epsilon for all 100 alternatives
 │   ├── voters.json                     # Sampled voter info
 │   ├── summary.json                    # Experiment summary
-│   ├── chatgpt_triple_star.json        # GPT*** results (if run)
-│   └── mini_rep{0-4}/
-│       └── results.json                # Voting method results per mini-rep
+│   └── mini_rep{0-3}/
+│       └── results.json                # All method results per mini-rep
+├── data/{topic}/clustered/{ideology}/{alt_dist}/rep{N}/  # Clustered voter distributions
+│   └── (same structure as uniform)
 └── figures/                            # Visualization plots (PNG)
 ```
 
@@ -415,16 +416,16 @@ An experimental alternative to the standard statement insertion algorithm that a
 
 ## API Usage Summary
 
-Per topic: 48 reps (4 alt_dists × 12 reps), 240 mini-reps (48 reps × 5 mini-reps each).
+Per topic: 50 reps (4 alt_dists × 10 uniform reps + 1 alt_dist × 10 progressive reps + 1 alt_dist × 10 conservative reps), 200 mini-reps (50 reps × 4 mini-reps each).
 
 | Component | Model | Reasoning | API Calls | Total/Topic | Purpose |
 |-----------|-------|-----------|-----------|-------------|---------|
 | Statement Generation | gpt-5-mini | minimal | 815/topic | 815 | Generate candidate statements (Alt1/Alt4) |
 | Preference Building | gpt-5-mini | low | 500/rep | 24,000 | 5 rounds × 100 voters iterative ranking |
-| GPT/GPT\* Selection | gpt-5.2 | none | 1/method | 1,440 | Select consensus from statements |
-| GPT\*\* Generation | gpt-5.2 | none | 1/method | 720 | Generate new consensus statement |
-| GPT\*\*\* Generation | gpt-5.2 | none | 1/rep | 48 | Generate 1 blind bridging statement |
-| Batched Iterative Ranking | gpt-5-mini | low | 600/rep | 28,800 | Rank 117 statements (100 original + 17 new) per voter |
+| GPT/GPT\* Selection | gpt-5-mini | minimal | 1/method | 1,440 | Select consensus from statements |
+| GPT\*\* Generation | gpt-5-mini | minimal | 12/rep | 600 | Generate 3 new statements per mini-rep (4 mini-reps × 3 variants) |
+| GPT\*\*\* Generation | gpt-5-mini | minimal | 4/rep | 200 | Generate 1 blind bridging statement per mini-rep |
+| Batched Iterative Ranking | gpt-5-mini | low | 600/rep | 30,000 | Rank 120 statements (100 original + 20 new) per voter |
 
 **Total per topic: ~51,000 API calls**
 
@@ -436,12 +437,12 @@ Per topic: 48 reps (4 alt_dists × 12 reps), 240 mini-reps (48 reps × 5 mini-re
 
 For GPT\*\* and GPT\*\*\* methods, we use batched iterative ranking instead of single-call insertion:
 
-1. **Batch all new statements**: 1 GPT\*\*\* + 15 GPT\*\* (3 variants × 5 mini-reps) + 1 Random = 17 new statements per rep
-2. **Run ONE iterative ranking** per voter with 117 statements (100 original + 17 new)
+1. **Batch all new statements**: Per mini-rep: 3 GPT\*\* variants + 1 GPT\*\*\* + 1 Random = 5 statements. Total: 4 mini-reps × 5 = 20 new statements per rep
+2. **Run ONE iterative ranking** per voter with 120 statements (100 original + 20 new)
 3. **Extract positions** relative to original statements only (discounting other new statements)
 4. **Compute epsilon** from the positions
 
-This approach is more accurate than single-call insertion (which was biased toward "too preferred") and achieves 17× cost savings over individual insertion.
+This approach is more accurate than single-call insertion (which was biased toward "too preferred") and achieves 20× cost savings over individual insertion.
 
 ## Alternative Distributions
 
@@ -457,7 +458,8 @@ This approach is more accurate than single-call insertion (which was biased towa
 | Distribution | Description | Reps |
 |--------------|-------------|------|
 | **Uniform** | Random sample from all 815 personas | 10 reps |
-| **Clustered** | Sample from ideology clusters | 2 reps (progressive, conservative) |
+| **progressive_liberal** | Sample from progressive/liberal ideology cluster | 10 reps |
+| **conservative_traditional** | Sample from conservative/traditional ideology cluster | 10 reps |
 
 ## Topics
 
@@ -479,18 +481,38 @@ The experiment covers 13 policy discussion topics:
 
 ## Data Structure
 
-Results are organized hierarchically:
+Results are organized hierarchically with different path structures for uniform vs clustered voter distributions:
 
+**Uniform voter distribution:**
 ```
-outputs/sample_alt_voters/data/{topic}/{voter_dist}/{alt_dist}/rep{N}/
+outputs/sample_alt_voters/data/{topic}/uniform/{alt_dist}/rep{N}/
 ├── preferences.json           # 100x100 preference matrix [rank][voter] = alt_id
 ├── precomputed_epsilons.json  # {alt_id: epsilon} for all 100 alternatives
 ├── voters.json                # {voter_dist, voter_indices, n_voters}
 ├── summary.json               # Experiment metadata and timing
-├── chatgpt_triple_star.json   # GPT*** results (epsilon, statements)
-└── mini_rep{0-4}/
+└── mini_rep{0-3}/
     └── results.json           # Per-method results {winner, epsilon, ...}
 ```
+
+**Clustered voter distribution:**
+```
+outputs/sample_alt_voters/data/{topic}/clustered/{voter_dist}/{alt_dist}/rep{N}/
+├── preferences.json           # 100x100 preference matrix [rank][voter] = alt_id
+├── precomputed_epsilons.json  # {alt_id: epsilon} for all 100 alternatives
+├── voters.json                # {voter_dist, voter_indices, n_voters}
+├── summary.json               # Experiment metadata and timing
+└── mini_rep{0-3}/
+    └── results.json           # Per-method results {winner, epsilon, ...}
+```
+
+Where `{voter_dist}` is `progressive_liberal` or `conservative_traditional`.
+
+**Results in mini-rep results.json:**
+- Traditional methods: Schulze, Borda, IRV, Plurality, VBC
+- GPT methods: chatgpt, chatgpt_rankings, chatgpt_personas, chatgpt_star, chatgpt_star_rankings, chatgpt_star_personas
+- GPT\*\* methods: chatgpt_double_star, chatgpt_double_star_rankings, chatgpt_double_star_personas
+- GPT\*\*\* method: chatgpt_triple_star
+- Random baseline: random_insertion
 
 ## Citation
 

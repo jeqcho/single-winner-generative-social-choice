@@ -50,8 +50,6 @@ def load_rep_results(rep_dir: Path) -> Dict:
         "preferences_exist": (rep_dir / "preferences.json").exists(),
         "epsilons_exist": (rep_dir / "precomputed_epsilons.json").exists(),
         "mini_reps": [],
-        "triple_star": None,
-        "random_insertion": None,
     }
     
     # Load summary if exists
@@ -60,19 +58,7 @@ def load_rep_results(rep_dir: Path) -> Dict:
         with open(summary_path) as f:
             results["summary"] = json.load(f)
     
-    # Load triple star results (stored at rep level, not mini-rep level)
-    triple_star_path = rep_dir / "chatgpt_triple_star.json"
-    if triple_star_path.exists():
-        with open(triple_star_path) as f:
-            results["triple_star"] = json.load(f)
-    
-    # Load random insertion results (stored at rep level)
-    random_insertion_path = rep_dir / "random_insertion.json"
-    if random_insertion_path.exists():
-        with open(random_insertion_path) as f:
-            results["random_insertion"] = json.load(f)
-    
-    # Load mini-rep results
+    # Load mini-rep results (includes all methods: GPT**, GPT***, random_insertion)
     for i in range(N_SAMPLES_PER_REP):
         mini_rep_dir = rep_dir / f"mini_rep{i}"
         if mini_rep_dir.exists():
@@ -118,6 +104,7 @@ def collect_all_results() -> pd.DataFrame:
                     
                     rep_results = load_rep_results(rep_dir)
                     
+                    # All methods (including GPT***, random_insertion) are loaded from mini-rep results
                     for mini_rep_data in rep_results.get("mini_reps", []):
                         mini_rep_id = mini_rep_data.get("mini_rep_id", 0)
                         
@@ -133,109 +120,47 @@ def collect_all_results() -> pd.DataFrame:
                                 "epsilon": result.get("epsilon"),
                                 "full_winner_idx": result.get("full_winner_idx"),
                                 "error": result.get("error"),
-                            })
-                    
-                    # Add triple star result (one per rep, replicated for each mini-rep for consistency)
-                    triple_star = rep_results.get("triple_star")
-                    if triple_star and triple_star.get("epsilon") is not None:
-                        for mini_rep_id in range(N_SAMPLES_PER_REP):
-                            rows.append({
-                                "topic": topic_short,
-                                "alt_dist": alt_dist,
-                                "voter_dist": "uniform",
-                                "rep_id": rep_id,
-                                "mini_rep_id": mini_rep_id,
-                                "method": "chatgpt_triple_star",
-                                "winner": "new",
-                                "epsilon": triple_star.get("epsilon"),
-                                "full_winner_idx": None,
-                                "error": triple_star.get("error"),
-                            })
-                    
-                    # Add random insertion result (one per rep, replicated for each mini-rep)
-                    random_insertion = rep_results.get("random_insertion")
-                    if random_insertion and random_insertion.get("epsilon") is not None:
-                        for mini_rep_id in range(N_SAMPLES_PER_REP):
-                            rows.append({
-                                "topic": topic_short,
-                                "alt_dist": alt_dist,
-                                "voter_dist": "uniform",
-                                "rep_id": rep_id,
-                                "mini_rep_id": mini_rep_id,
-                                "method": "random_insertion",
-                                "winner": "new",
-                                "epsilon": random_insertion.get("epsilon"),
-                                "full_winner_idx": None,
-                                "error": random_insertion.get("error"),
                             })
         
         # Clustered voter distribution
+        # New structure: {topic}/clustered/{cluster}/{alt_dist}/rep{id}
         clustered_dir = PHASE2_DATA_DIR / topic_short / "clustered"
         if clustered_dir.exists():
-            for alt_dist in ALT_DISTRIBUTIONS:
-                alt_dir = clustered_dir / alt_dist
-                if not alt_dir.exists():
+            for cluster_name in IDEOLOGY_CLUSTERS:
+                cluster_dir = clustered_dir / cluster_name
+                if not cluster_dir.exists():
                     continue
                 
-                for rep_id in range(N_REPS_CLUSTERED):
-                    cluster_name = IDEOLOGY_CLUSTERS[rep_id] if rep_id < len(IDEOLOGY_CLUSTERS) else f"cluster{rep_id}"
-                    rep_dir = alt_dir / f"rep{rep_id}_{cluster_name}"
-                    
-                    if not rep_dir.exists():
+                for alt_dist in ALT_DISTRIBUTIONS:
+                    alt_dir = cluster_dir / alt_dist
+                    if not alt_dir.exists():
                         continue
                     
-                    rep_results = load_rep_results(rep_dir)
-                    
-                    for mini_rep_data in rep_results.get("mini_reps", []):
-                        mini_rep_id = mini_rep_data.get("mini_rep_id", 0)
+                    for rep_id in range(N_REPS_CLUSTERED):
+                        rep_dir = alt_dir / f"rep{rep_id}"
                         
-                        for method, result in mini_rep_data.get("results", {}).items():
-                            rows.append({
-                                "topic": topic_short,
-                                "alt_dist": alt_dist,
-                                "voter_dist": cluster_name,
-                                "rep_id": rep_id,
-                                "mini_rep_id": mini_rep_id,
-                                "method": method,
-                                "winner": result.get("winner"),
-                                "epsilon": result.get("epsilon"),
-                                "full_winner_idx": result.get("full_winner_idx"),
-                                "error": result.get("error"),
-                            })
-                    
-                    # Add triple star result (one per rep, replicated for each mini-rep for consistency)
-                    triple_star = rep_results.get("triple_star")
-                    if triple_star and triple_star.get("epsilon") is not None:
-                        for mini_rep_id in range(N_SAMPLES_PER_REP):
-                            rows.append({
-                                "topic": topic_short,
-                                "alt_dist": alt_dist,
-                                "voter_dist": cluster_name,
-                                "rep_id": rep_id,
-                                "mini_rep_id": mini_rep_id,
-                                "method": "chatgpt_triple_star",
-                                "winner": "new",
-                                "epsilon": triple_star.get("epsilon"),
-                                "full_winner_idx": None,
-                                "error": triple_star.get("error"),
-                            })
-                    
-                    # Add random insertion result (one per rep, replicated for each mini-rep)
-                    random_insertion = rep_results.get("random_insertion")
-                    if random_insertion and random_insertion.get("epsilon") is not None:
-                        for mini_rep_id in range(N_SAMPLES_PER_REP):
-                            rows.append({
-                                "topic": topic_short,
-                                "alt_dist": alt_dist,
-                                "voter_dist": cluster_name,
-                                "rep_id": rep_id,
-                                "mini_rep_id": mini_rep_id,
-                                "method": "random_insertion",
-                                "winner": "new",
-                                "epsilon": random_insertion.get("epsilon"),
-                                "full_winner_idx": None,
-                                "error": random_insertion.get("error"),
-                            })
+                        if not rep_dir.exists():
+                            continue
+                        
+                        rep_results = load_rep_results(rep_dir)
+                        
+                        # All methods (including GPT***, random_insertion) are loaded from mini-rep results
+                        for mini_rep_data in rep_results.get("mini_reps", []):
+                            mini_rep_id = mini_rep_data.get("mini_rep_id", 0)
+                            
+                            for method, result in mini_rep_data.get("results", {}).items():
+                                rows.append({
+                                    "topic": topic_short,
+                                    "alt_dist": alt_dist,
+                                    "voter_dist": cluster_name,
+                                    "rep_id": rep_id,
+                                    "mini_rep_id": mini_rep_id,
+                                    "method": method,
+                                    "winner": result.get("winner"),
+                                    "epsilon": result.get("epsilon"),
+                                    "full_winner_idx": result.get("full_winner_idx"),
+                                    "error": result.get("error"),
+                                })
     
     return pd.DataFrame(rows)
 

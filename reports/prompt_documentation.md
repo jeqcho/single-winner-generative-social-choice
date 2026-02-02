@@ -6,7 +6,7 @@ This document details all LLM prompts and API requests made in the Single Winner
 
 The project uses OpenAI's API with two primary models:
 - **gpt-5-mini**: Used for statement generation and ranking tasks
-- **gpt-5.2**: Used for generative voting methods
+- **gpt-5-mini**: Used for all tasks including generative voting methods
 
 All API calls use the `client.responses.create()` method.
 
@@ -44,7 +44,7 @@ All API calls use the `client.responses.create()` method.
 |--------------|-------|------------------|-------------|---------|
 | `STATEMENT_MODEL` | gpt-5-mini | minimal | 1.0 | Statement/alternative generation (Phase 1) |
 | `RANKING_MODEL` | gpt-5-mini | low | 1.0 | Preference ranking, epsilon insertion |
-| `GENERATIVE_VOTING_MODEL` | gpt-5.2 | none | 1.0 | GPT voting methods (Phase 3) |
+| `GENERATIVE_VOTING_MODEL` | gpt-5-mini | minimal | 1.0 | GPT voting methods (Phase 3) |
 
 **Source**: `src/experiment_utils/config.py`
 
@@ -58,8 +58,8 @@ RANKING_MODEL = "gpt-5-mini"
 RANKING_REASONING = "low"
 
 # Generative voting
-GENERATIVE_VOTING_MODEL = "gpt-5.2"
-GENERATIVE_VOTING_REASONING = "none"
+GENERATIVE_VOTING_MODEL = "gpt-5-mini"
+GENERATIVE_VOTING_REASONING = "minimal"
 
 # Temperature (all tasks)
 TEMPERATURE = 1.0
@@ -372,8 +372,8 @@ Return JSON: {"ranking": ["most_preferred", "second", ..., "least_preferred"]}
 
 | Parameter | Value |
 |-----------|-------|
-| Model | `gpt-5.2` |
-| Reasoning Effort | `none` |
+| Model | `gpt-5-mini` |
+| Reasoning Effort | `minimal` |
 | Temperature | `1.0` |
 | API Calls per Topic | 240 (1 per mini-rep × 240 mini-reps) |
 | Est. Cost per Topic | ~$1.50 |
@@ -413,8 +413,8 @@ Statement 1: Another statement...
 
 | Parameter | Value |
 |-----------|-------|
-| Model | `gpt-5.2` |
-| Reasoning Effort | `none` |
+| Model | `gpt-5-mini` |
+| Reasoning Effort | `minimal` |
 | Temperature | `1.0` |
 | API Calls per Topic | 240 (1 per mini-rep × 240 mini-reps) |
 | Est. Cost per Topic | ~$1.79 |
@@ -458,8 +458,8 @@ Voter 20: 8 > 3 > 5 > 1 > 2 > 0 > 7 > 6 > 4 > 9 > 10 > 11 > 12 > 13 > 14 > 15 > 
 
 | Parameter | Value |
 |-----------|-------|
-| Model | `gpt-5.2` |
-| Reasoning Effort | `none` |
+| Model | `gpt-5-mini` |
+| Reasoning Effort | `minimal` |
 | Temperature | `1.0` |
 | API Calls per Topic | 240 (1 per mini-rep × 240 mini-reps) |
 | Est. Cost per Topic | ~$2.88 |
@@ -533,8 +533,8 @@ Voter 20: ...
 
 | Parameter | Value |
 |-----------|-------|
-| Model | `gpt-5.2` |
-| Reasoning Effort | `none` |
+| Model | `gpt-5-mini` |
+| Reasoning Effort | `minimal` |
 | Temperature | `1.0` |
 
 **System Prompt**:
@@ -588,8 +588,8 @@ Where the value is the index (0-{n_all-1}) of the statement you select.
 
 | Parameter | Value |
 |-----------|-------|
-| Model | `gpt-5.2` |
-| Reasoning Effort | `none` |
+| Model | `gpt-5-mini` |
+| Reasoning Effort | `minimal` |
 | Temperature | `1.0` |
 
 **System Prompt**:
@@ -628,8 +628,8 @@ Return your new statement as JSON: {"new_statement": "<your statement>"}
 
 | Parameter | Value |
 |-----------|-------|
-| Model | `gpt-5.2` |
-| Reasoning Effort | `none` |
+| Model | `gpt-5-mini` |
+| Reasoning Effort | `minimal` |
 | Temperature | `1.0` |
 | API Calls per Topic | 48 (1 per rep × 48 reps) |
 | Est. Cost per Topic | ~$0.12 |
@@ -852,22 +852,22 @@ Where `{chunk_statements}` is formatted as numbered positions:
 | Iterative Ranking | gpt-5-mini | low | 24,000 | ~9,706 | ~770 | $95.20 |
 | *Subtotal* | | | *24,000* | | | *$95.20* |
 | **GPT Selection** | | | | | | |
-| GPT | gpt-5.2 | none | 240 | ~3,329 | ~30 | $1.50 |
-| GPT+Rank | gpt-5.2 | none | 240 | ~4,000 | ~30 | ~$1.68 |
-| GPT+Pers | gpt-5.2 | none | 240 | ~4,700 | ~30 | ~$1.97 |
+| GPT | gpt-5-mini | minimal | 240 | ~3,329 | ~30 | $0.22 |
+| GPT+Rank | gpt-5-mini | minimal | 240 | ~4,000 | ~30 | ~$0.26 |
+| GPT+Pers | gpt-5-mini | minimal | 240 | ~4,700 | ~30 | ~$0.30 |
 | *Subtotal* | | | *720* | | | *~$5.15* |
 | **GPT\* Selection** | | | | | | |
-| GPT\* | gpt-5.2 | none | 240 | ~12,600 | ~30 | ~$5.29 |
-| GPT\*+Rank | gpt-5.2 | none | 240 | ~13,100 | ~30 | ~$5.50 |
-| GPT\*+Pers | gpt-5.2 | none | 240 | ~13,800 | ~30 | ~$5.80 |
+| GPT\* | gpt-5-mini | minimal | 240 | ~12,600 | ~30 | ~$0.77 |
+| GPT\*+Rank | gpt-5-mini | minimal | 240 | ~13,100 | ~30 | ~$0.80 |
+| GPT\*+Pers | gpt-5-mini | minimal | 240 | ~13,800 | ~30 | ~$0.84 |
 | *Subtotal* | | | *720* | | | *~$16.59* |
 | **GPT\*\* Generation** | | | | | | |
-| GPT\*\* | gpt-5.2 | none | 240 | ~3,329 | ~151 | $1.91 |
-| GPT\*\*+Rank | gpt-5.2 | none | 240 | ~3,800 | ~151 | ~$2.10 |
-| GPT\*\*+Pers | gpt-5.2 | none | 240 | ~4,500 | ~151 | ~$2.20 |
+| GPT\*\* | gpt-5-mini | minimal | 240 | ~3,329 | ~151 | ~$0.27 |
+| GPT\*\*+Rank | gpt-5-mini | minimal | 240 | ~3,800 | ~151 | ~$0.31 |
+| GPT\*\*+Pers | gpt-5-mini | minimal | 240 | ~4,500 | ~151 | ~$0.37 |
 | *Subtotal* | | | *720* | | | *~$6.21* |
 | **GPT\*\*\* Generation** | | | | | | |
-| GPT\*\*\* | gpt-5.2 | none | 48 | ~160 | ~151 | $0.12 |
+| GPT\*\*\* | gpt-5-mini | minimal | 48 | ~160 | ~151 | ~$0.02 |
 | *Subtotal* | | | *48* | | | *$0.12* |
 | **GPT\*\* Insertion** | | | | | | |
 | GPT\*\* Insertion | gpt-5-mini | low | 72,000 | ~5,513 | ~20 | $102.12 |
@@ -894,16 +894,14 @@ Where `{chunk_statements}` is formatted as numbered positions:
 
 | Model | Input Tokens | Output Tokens | Input Cost | Output Cost | Total Cost |
 |-------|-------------:|--------------:|-----------:|------------:|-----------:|
-| gpt-5-mini | ~680M | ~21M | ~$170 | ~$42 | ~$212 |
-| gpt-5.2 | ~18M | ~181K | ~$31 | ~$2.53 | ~$34 |
+| gpt-5-mini | ~698M | ~21M | ~$175 | ~$42 | ~$217 |
 
-*Note: gpt-5.2 cost increased ~$8/topic due to GPT\* showing full statement text.*
+*Note: All tasks now use gpt-5-mini for consistency and cost efficiency.*
 
 ### Pricing Reference (per 1M tokens)
 
 | Model | Input | Cached Input | Output |
 |-------|------:|-------------:|-------:|
-| gpt-5.2 | $1.75 | $0.175 | $14.00 |
 | gpt-5-mini | $0.25 | $0.025 | $2.00 |
 
 *Note: Token estimates based on actual persona (~308 tokens full, ~60 tokens filtered) and statement (~151 tokens avg) data. Costs assume no caching.*
@@ -930,12 +928,10 @@ Where `{chunk_statements}` is formatted as numbered positions:
 
 | Level | Models Supported | Usage |
 |-------|------------------|-------|
-| `none` | gpt-5.2 only | Generative voting methods (fast, no reasoning needed) |
-| `minimal` | gpt-5-mini only | Statement generation (lightweight reasoning) |
-| `low` | gpt-5-mini, gpt-5.2 | Ranking tasks (moderate reasoning) |
-| `medium` | gpt-5-mini, gpt-5.2 | Optional for complex ranking |
-| `high` | gpt-5-mini, gpt-5.2 | Not used in this project |
-| `xhigh` | gpt-5.2 only | Not used in this project |
+| `minimal` | gpt-5-mini | Statement generation, generative voting methods |
+| `low` | gpt-5-mini | Ranking tasks (moderate reasoning) |
+| `medium` | gpt-5-mini | Optional for complex ranking |
+| `high` | gpt-5-mini | Not used in this project |
 
 ---
 

@@ -79,7 +79,7 @@ CHATGPT_METHODS = ["chatgpt", "chatgpt_rankings", "chatgpt_personas"]
 CHATGPT_STAR_METHODS = ["chatgpt_star", "chatgpt_star_rankings", "chatgpt_star_personas"]
 CHATGPT_DOUBLE_STAR_METHODS = ["chatgpt_double_star", "chatgpt_double_star_rankings", "chatgpt_double_star_personas"]
 CHATGPT_TRIPLE_STAR_METHODS = ["chatgpt_triple_star"]
-NEW_RANDOM_METHODS = ["new_random"]
+NEW_RANDOM_METHODS = ["random_insertion"]
 
 # Extended method labels for GPT methods
 METHOD_LABELS_EXTENDED = {

@@ -1,0 +1,25 @@
+\begin{table}[!htb]
+\centering
+\caption{Alternative distributions for statement generation. \emph{Persona}: whether statements are conditioned on a synthetic persona's characteristics. \emph{Bridging round}: whether the model reads 100 existing statements before generating. \emph{Verbalized}: whether diversity is achieved via verbalized sampling (5 statements per API call) rather than one statement per persona. Cost shown for 10 replications per topic.}
+\label{tab:alt-distributions}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Distribution} & \textbf{Persona} & \textbf{Bridging Round} & \textbf{Verbalized} & \textbf{Cost} \\
+\midrule
+Baseline       & --         & --         & \checkmark & \$0.25 \\
+Persona        & \checkmark & --         & --         & \$0.34 \\
+Bridge         & --         & \checkmark & \checkmark & \$1.08 \\
+Persona+Bridge & \checkmark & \checkmark & --         & \$4.29 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Methods without bridging will pre-generate 815 statements in total to correspond in numbers with 815 personas. Methods with bridging will use statements from Persona and regenerate statements in each rep. API calls and token estimates are as follows:
+\begin{itemize}
+    \item \textbf{Baseline}: Pre-generated once per topic using verbalized sampling \citep{zhang2025verbalizedsamplingmitigatemode}. One API call generates 5 statements. $815 / 5 = 163$ calls. $\sim$160 in, $\sim$757 out tokens each, giving $\sim$\$0.25.
+    \item \textbf{Persona}: Pre-generated once per topic, one statement per persona. $815$ calls. $\sim$468 in, $\sim$151 out tokens each, giving $\sim$\$0.34.
+    \item \textbf{Bridge}: Generated per replication using verbalized sampling. $100 / 5 = 20$ calls/rep $\times$ 10 reps $= 200$ calls. $\sim$15,656 in, $\sim$757 out tokens each, giving $\sim$\$1.08.
+    \item \textbf{Persona+Bridge}: Generated per replication, one statement per sampled persona. $100 \times 10 = 1{,}000$ calls. $\sim$15,964 in, $\sim$151 out tokens each, giving $\sim$\$4.29.
+\end{itemize}
+
+\noindent\textbf{Token estimates:} Average persona length $\sim$ 308 tokens. Average statement length $\sim$ 151 tokens. Prompt overhead $\sim$ 150 tokens. Bridging round context includes 100 statements ($\sim$ 15,100 tokens). gpt-5-mini pricing: \$0.25/1M input tokens, \$2.00/1M output tokens.

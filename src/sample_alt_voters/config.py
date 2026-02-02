@@ -40,11 +40,11 @@ N_ALTERNATIVES = 100       # Number of alternatives per rep
 N_VOTERS = 100             # Number of voters per rep
 K_SAMPLE = 20              # Voters per mini-rep
 P_SAMPLE = 20              # Alternatives per mini-rep
-N_SAMPLES_PER_REP = 5      # Mini-reps per rep (samples for voting evaluation)
+N_SAMPLES_PER_REP = 4      # Mini-reps per rep (samples for voting evaluation)
 
 # Phase 2 replication structure
 N_REPS_UNIFORM = 10        # Replications for uniform voter distribution
-N_REPS_CLUSTERED = 2       # Replications for clustered (1 per ideology)
+N_REPS_CLUSTERED = 10      # Replications for clustered (per ideology)
 N_REPS = 10                # Default replications (for backward compatibility)
 
 # Ideology clusters

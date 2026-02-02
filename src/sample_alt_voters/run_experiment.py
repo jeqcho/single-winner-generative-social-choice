@@ -380,8 +380,8 @@ def run_single_condition(
     if voter_dist == "uniform":
         output_dir = PHASE2_DATA_DIR / topic_short / "uniform" / alt_dist / f"rep{rep_id}"
     else:
-        cluster_name = IDEOLOGY_CLUSTERS[rep_id] if rep_id < len(IDEOLOGY_CLUSTERS) else voter_dist
-        output_dir = PHASE2_DATA_DIR / topic_short / "clustered" / alt_dist / f"rep{rep_id}_{cluster_name}"
+        # voter_dist is the cluster name (progressive_liberal or conservative_traditional)
+        output_dir = PHASE2_DATA_DIR / topic_short / "clustered" / voter_dist / alt_dist / f"rep{rep_id}"
     
     # Check if already exists
     if skip_if_exists and (output_dir / "preferences.json").exists():
@@ -406,9 +406,9 @@ def run_single_condition(
             personas, n_voters=N_VOTERS, seed=BASE_SEED + rep_id
         )
     else:
-        cluster_name = IDEOLOGY_CLUSTERS[rep_id] if rep_id < len(IDEOLOGY_CLUSTERS) else voter_dist
+        # voter_dist is the cluster name (progressive_liberal or conservative_traditional)
         voter_indices, voter_personas = sample_from_cluster(
-            personas, cluster_name, n_voters=N_VOTERS, seed=BASE_SEED + rep_id
+            personas, voter_dist, n_voters=N_VOTERS, seed=BASE_SEED + rep_id
         )
     logger.info(f"Sampled voters: {voter_indices[:5]}...")
     
@@ -518,7 +518,7 @@ def run_all_conditions(
     Run all conditions for a voter distribution.
     
     Args:
-        voter_dist: "uniform" or "clustered"
+        voter_dist: "uniform", "progressive_liberal", or "conservative_traditional"
         topics: List of topic slugs (default: all)
         alt_dists: List of alt distributions (default: all)
         reps: List of rep IDs (default: all for the voter_dist)
@@ -584,9 +584,9 @@ def main():
     
     parser.add_argument(
         "--voter-dist",
-        choices=["uniform", "clustered"],
+        choices=["uniform", "progressive_liberal", "conservative_traditional"],
         required=True,
-        help="Voter distribution to use"
+        help="Voter distribution to use (uniform or specific ideology cluster)"
     )
     parser.add_argument(
         "--topic",
