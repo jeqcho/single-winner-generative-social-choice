@@ -13,6 +13,7 @@ Usage:
     uv run python scripts/generate_slide_plots.py
 """
 
+import json
 import sys
 from pathlib import Path
 
@@ -25,6 +26,33 @@ import numpy as np
 import pandas as pd
 
 from src.sample_alt_voters.results_aggregator import collect_all_results
+
+
+def load_random_baseline_for_topic(topic: str, alt_dist: str = "persona_no_context", 
+                                    voter_dist: str = "uniform", n_reps: int = 10) -> np.ndarray:
+    """Load precomputed epsilons to create Random baseline data for a topic.
+    
+    This represents truly random selection from the alternative pool -
+    the epsilon values for all 100 alternatives if they were selected.
+    
+    Args:
+        topic: Topic name (e.g., "abortion")
+        alt_dist: Alternative distribution (default: "persona_no_context")
+        voter_dist: Voter distribution (default: "uniform")
+        n_reps: Number of reps to load
+        
+    Returns:
+        numpy array of all epsilon values for random baseline
+    """
+    all_epsilons = []
+    for rep in range(n_reps):
+        path = project_root / f"outputs/sample_alt_voters/data/{topic}/{voter_dist}/{alt_dist}/rep{rep}/precomputed_epsilons.json"
+        if path.exists():
+            with open(path) as f:
+                eps_dict = json.load(f)
+                # Filter out None values
+                all_epsilons.extend([v for v in eps_dict.values() if v is not None])
+    return np.array(all_epsilons)
 
 # Output directory for slides
 SLIDES_OUTPUT_DIR = project_root / "outputs" / "slides"
@@ -140,8 +168,8 @@ def plot_cdf_by_method_category(
         plt.close()
         return
     
-    # Get all epsilons for random baseline
-    all_epsilons = topic_df["epsilon"].values
+    # Get random baseline from precomputed epsilons (true random selection)
+    all_epsilons = load_random_baseline_for_topic(topic)
     
     # Method groups (ordered for legend)
     double_triple_and_random = CHATGPT_DOUBLE_STAR_METHODS + CHATGPT_TRIPLE_STAR_METHODS + NEW_RANDOM_METHODS
@@ -242,8 +270,8 @@ def plot_cdf_by_voter_dist(
             ax.set_ylim(y_min, 1.05)
             continue
         
-        # Get all epsilons for random baseline
-        all_epsilons = subset_df["epsilon"].values
+        # Get random baseline from precomputed epsilons (true random selection)
+        all_epsilons = load_random_baseline_for_topic(topic, voter_dist=voter_dist)
         
         # Plot traditional methods
         color_idx = 0
@@ -327,8 +355,8 @@ def plot_cdf_by_alt_dist(
             ax.text(0.5, 0.5, 'No data', ha='center', va='center', transform=ax.transAxes)
             continue
         
-        # Get all epsilons for random baseline
-        all_epsilons = subset_df["epsilon"].values
+        # Get random baseline from precomputed epsilons (true random selection)
+        all_epsilons = load_random_baseline_for_topic(topic, alt_dist=alt_dist)
         
         # Plot traditional methods
         color_idx = 0
@@ -409,8 +437,8 @@ def plot_cdf_traditional_methods(
             print(f"Warning: No data for topic {topic}")
             continue
         
-        # Get all epsilons for random baseline
-        all_epsilons = topic_df["epsilon"].values
+        # Get random baseline from precomputed epsilons (true random selection)
+        all_epsilons = load_random_baseline_for_topic(topic)
         
         # Plot traditional methods
         color_idx = 0

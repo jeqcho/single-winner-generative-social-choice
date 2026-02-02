@@ -224,6 +224,7 @@ src/
 │   ├── results_aggregator.py           # Collect results into DataFrame
 │   ├── visualizer.py                   # Generate plots (CDF, heatmaps, bars)
 │   ├── verbalized_sampling.py          # Parse verbalized sampling responses
+│   ├── plot_rank_histogram.py          # Histogram: rank vs insertion position distributions
 │   ├── ideology_classifier.py          # Classify personas by ideology
 │   ├── cluster_personas.py             # K-means clustering of personas
 │   ├── compute_cluster_stats.py        # Cluster statistics and summaries
@@ -414,6 +415,23 @@ An experimental alternative to the standard statement insertion algorithm that a
 - `src/experiment_utils/test_chunked_insertion.py` - Validation test
 - `outputs/chunked_insertion_test/` - Test results and visualizations
 
+### Random Insertion Distribution Analysis
+
+A visualization tool to compare the distribution of statement ranks vs. insertion positions from the random\_insertion method. This helps validate whether insertion positions follow expected distributions.
+
+**What it plots:**
+1. **Statement Ranks (0-99)**: Distribution of all rank positions from voter preferences - expected to be uniform since each voter ranks all 100 statements
+2. **Insertion Positions (0-100)**: Distribution of where new statements are inserted using the random\_insertion method
+
+**Run the analysis:**
+```bash
+uv run python -m src.sample_alt_voters.plot_rank_histogram
+```
+
+**Output:**
+- Per-topic histograms: `outputs/random_insertion_test/histogram_{topic}.png`
+- Combined histogram: `outputs/random_insertion_test/histogram_all_topics.png`
+
 ## API Usage Summary
 
 Per topic: 50 reps (4 alt_dists × 10 uniform reps + 1 alt_dist × 10 progressive reps + 1 alt_dist × 10 conservative reps), 200 mini-reps (50 reps × 4 mini-reps each).
@@ -513,6 +531,45 @@ Where `{voter_dist}` is `progressive_liberal` or `conservative_traditional`.
 - GPT\*\* methods: chatgpt_double_star, chatgpt_double_star_rankings, chatgpt_double_star_personas
 - GPT\*\*\* method: chatgpt_triple_star
 - Random baseline: random_insertion
+
+## Paper Plots
+
+Generate paper-quality plots comparing generative ChatGPT methods (GPT\*\*, GPT\*\*\*, Random Insertion) vs VBC:
+
+```bash
+uv run python scripts/generate_paper_plots.py
+```
+
+**Output:** `outputs/paper/plots/`
+
+**Cross-topic visualizations:**
+- `heatmap_method_topic.png` - Method × Topic mean epsilon heatmap
+- `win_tie_loss.png` - Stacked bar chart showing win/tie/loss rates vs VBC
+- `zero_breakdown.png` - % of epsilon=0 vs epsilon>0 by method
+- `contingency_tables.png` - 2×2 contingency tables (VBC vs GPT zero/non-zero)
+- `epsilon_when_vbc_fails.png` - GPT epsilon distribution when VBC has epsilon > 0
+- `threshold_exceedance.png` - P(epsilon > threshold) for various thresholds
+- `combined_cdf_all_topics.png` - 2×3 grid of CDF plots for all topics
+- `tables/` - CSV and LaTeX summary tables with Mann-Whitney U tests
+
+**Per-topic visualizations** (in `{topic}/` subdirectories):
+- `cdf_{topic}.png` - Zoomed CDF (y_min=0.5, x_max=0.5)
+- `cdf_{topic}_full.png` - Full CDF (y_min=0, x_max=1)
+- `boxplot_{topic}.png` - Box plot by method
+- `scatter_{topic}.png` - 2×2 paired scatter plots (VBC vs GPT epsilon)
+- `bar_ci_{topic}.png` - Bar chart with 95% confidence intervals
+- `cdf_nonzero_{topic}.png` - CDF for non-zero epsilon values only
+- `strip_{topic}.png` - Strip plot with zero/non-zero separation
+
+**Methods compared:**
+- VBC (baseline)
+- GPT\*\* (generates new statement given P alternatives)
+- GPT\*\*+Rank (with voter rankings)
+- GPT\*\*+Pers (with voter personas)
+- GPT\*\*\* (blind generation, no alternatives shown)
+- Random Insertion (baseline)
+
+**Data:** Filters to uniform voters, persona_no_context (Alt1) condition only.
 
 ## Citation
 
