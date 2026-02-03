@@ -656,8 +656,9 @@ def generate_traditional_pivot_tables(df, output_dir):
         "random": "Random",
     }
     
-    def write_latex_with_bold_best(pivot_df, path, value_cols, higher_is_better=False):
+    def write_latex_with_bold_best(pivot_df, path, value_cols, higher_is_better=False, decimal_places=4):
         """Write LaTeX table with bold best values per column."""
+        fmt = f"{{val:.{decimal_places}f}}"
         with open(path, "w") as f:
             f.write("\\begin{tabular}{l" + "c" * len(value_cols) + "}\n\\toprule\n")
             f.write(" & ".join(pivot_df.columns) + " \\\\\n\\midrule\n")
@@ -667,7 +668,8 @@ def generate_traditional_pivot_tables(df, output_dir):
                 for col in pivot_df.columns:
                     val = row[col]
                     if col in value_cols and pd.notna(val):
-                        cells.append(f"\\textbf{{{val:.4f}}}" if val == best[col] else f"{val:.4f}")
+                        val_str = f"{val:.{decimal_places}f}"
+                        cells.append(f"\\textbf{{{val_str}}}" if val == best[col] else val_str)
                     else:
                         cells.append(str(val))
                 f.write(" & ".join(cells) + " \\\\\n")
@@ -692,11 +694,14 @@ def generate_traditional_pivot_tables(df, output_dir):
     ]
     
     # Metrics where higher is better (more zeros/low values = good)
+    # Metrics where higher is better (more zeros/low values = good) - reported as 0-1 proportions
     higher_better = [
-        ("pct_zero", lambda d: 100 * np.mean(d == 0)),
-        ("pct_lt_0.01", lambda d: 100 * np.mean(d < 0.01)),
-        ("pct_lt_0.05", lambda d: 100 * np.mean(d < 0.05)),
-        ("pct_lt_0.1", lambda d: 100 * np.mean(d < 0.1)),
+        ("pct_zero", lambda d: np.mean(d == 0)),
+        ("pct_lt_0.0001", lambda d: np.mean(d < 0.0001)),
+        ("pct_lt_0.001", lambda d: np.mean(d < 0.001)),
+        ("pct_lt_0.01", lambda d: np.mean(d < 0.01)),
+        ("pct_lt_0.05", lambda d: np.mean(d < 0.05)),
+        ("pct_lt_0.1", lambda d: np.mean(d < 0.1)),
     ]
     
     for name, fn in lower_better:
@@ -707,9 +712,93 @@ def generate_traditional_pivot_tables(df, output_dir):
     
     for name, fn in higher_better:
         pivot_df = compute_pivot(fn)
-        pivot_df.to_csv(trad_dir / f"{name}_by_topic.csv", index=False, float_format="%.4f")
-        write_latex_with_bold_best(pivot_df, trad_dir / f"{name}_by_topic.tex", topic_cols, higher_is_better=True)
+        pivot_df.to_csv(trad_dir / f"{name}_by_topic.csv", index=False, float_format="%.3f")
+        write_latex_with_bold_best(pivot_df, trad_dir / f"{name}_by_topic.tex", topic_cols, higher_is_better=True, decimal_places=3)
         print(f"Saved: {trad_dir}/{name}_by_topic.csv/.tex")
+
+def generate_generative_pivot_tables(df, output_dir):
+    """Generate pivot tables for generative GPT methods with topics as columns."""
+    gen_dir = output_dir / "generative"
+    gen_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Use the already-filtered df which includes GPT methods and random baseline
+    generative_methods = [
+        "veto_by_consumption",
+        "chatgpt_triple_star",
+        "chatgpt_double_star", "chatgpt_double_star_rankings", "chatgpt_double_star_personas",
+        "random_insertion", "random"
+    ]
+    
+    gen_labels = {
+        "veto_by_consumption": "VBC",
+        "chatgpt_double_star": "GPT-Synthesize",
+        "chatgpt_double_star_rankings": "GPT-Synth+Rank",
+        "chatgpt_double_star_personas": "GPT-Synth+Pers",
+        "chatgpt_triple_star": "GPT-Blind",
+        "random_insertion": "Random Insertion",
+        "random": "Random",
+    }
+    
+    topic_cols = [TOPIC_DISPLAY_NAMES.get(t, t) for t in ALL_TOPICS]
+    
+    def write_latex_with_bold_best(pivot_df, path, value_cols, higher_is_better=False, decimal_places=4):
+        """Write LaTeX table with bold best values per column."""
+        with open(path, "w") as f:
+            f.write("\\begin{tabular}{l" + "c" * len(value_cols) + "}\n\\toprule\n")
+            f.write(" & ".join(pivot_df.columns) + " \\\\\n\\midrule\n")
+            best = {col: (pivot_df[col].max() if higher_is_better else pivot_df[col].min()) for col in value_cols}
+            for _, row in pivot_df.iterrows():
+                cells = []
+                for col in pivot_df.columns:
+                    val = row[col]
+                    if col in value_cols and pd.notna(val):
+                        val_str = f"{val:.{decimal_places}f}"
+                        cells.append(f"\\textbf{{{val_str}}}" if val == best[col] else val_str)
+                    else:
+                        cells.append(str(val))
+                f.write(" & ".join(cells) + " \\\\\n")
+            f.write("\\bottomrule\n\\end{tabular}\n")
+    
+    def compute_pivot(stat_fn):
+        rows = []
+        for method in generative_methods:
+            row = {"Method": gen_labels.get(method, method)}
+            for topic in ALL_TOPICS:
+                data = df[(df["method"] == method) & (df["topic"] == topic)]["epsilon"].dropna().values
+                row[TOPIC_DISPLAY_NAMES.get(topic, topic)] = stat_fn(data) if len(data) > 0 else np.nan
+            rows.append(row)
+        return pd.DataFrame(rows)
+    
+    # Metrics where lower is better
+    lower_better = [
+        ("mean", lambda d: np.mean(d)),
+        ("p90", lambda d: np.percentile(d, 90)),
+        ("p95", lambda d: np.percentile(d, 95)),
+        ("p99", lambda d: np.percentile(d, 99)),
+    ]
+    
+    # Metrics where higher is better (more zeros/low values = good)
+    # Metrics where higher is better (more zeros/low values = good) - reported as 0-1 proportions
+    higher_better = [
+        ("pct_zero", lambda d: np.mean(d == 0)),
+        ("pct_lt_0.0001", lambda d: np.mean(d < 0.0001)),
+        ("pct_lt_0.001", lambda d: np.mean(d < 0.001)),
+        ("pct_lt_0.01", lambda d: np.mean(d < 0.01)),
+        ("pct_lt_0.05", lambda d: np.mean(d < 0.05)),
+        ("pct_lt_0.1", lambda d: np.mean(d < 0.1)),
+    ]
+
+    for name, fn in lower_better:
+        pivot_df = compute_pivot(fn)
+        pivot_df.to_csv(gen_dir / f"{name}_by_topic.csv", index=False, float_format="%.4f")
+        write_latex_with_bold_best(pivot_df, gen_dir / f"{name}_by_topic.tex", topic_cols, higher_is_better=False)
+        print(f"Saved: {gen_dir}/{name}_by_topic.csv/.tex")
+    
+    for name, fn in higher_better:
+        pivot_df = compute_pivot(fn)
+        pivot_df.to_csv(gen_dir / f"{name}_by_topic.csv", index=False, float_format="%.3f")
+        write_latex_with_bold_best(pivot_df, gen_dir / f"{name}_by_topic.tex", topic_cols, higher_is_better=True, decimal_places=3)
+        print(f"Saved: {gen_dir}/{name}_by_topic.csv/.tex")
 
 def main():
     print("=" * 60)
@@ -726,6 +815,7 @@ def main():
     generate_custom_stats_tables(df, PAPER_OUTPUT_DIR / "tables")
     tables_dir = project_root / "outputs" / "paper" / "tables"
     generate_traditional_pivot_tables(df, tables_dir)
+    generate_generative_pivot_tables(df, tables_dir)
     plot_heatmap_method_topic(df, PAPER_OUTPUT_DIR / "heatmap_method_topic.png")
     plot_win_tie_loss(df, PAPER_OUTPUT_DIR / "win_tie_loss.png")
     plot_zero_breakdown(df, PAPER_OUTPUT_DIR / "zero_breakdown.png")

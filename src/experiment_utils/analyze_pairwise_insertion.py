@@ -177,13 +177,16 @@ def plot_predicted_vs_original_scatter(topics: List[str]) -> None:
 
 def plot_predicted_vs_original_scatter_binned(topics: List[str]) -> None:
     """Plot binned predicted vs original position scatter."""
-    fig, ax = plt.subplots(figsize=(10, 8))
+    fig, ax = plt.subplots(figsize=(8, 8))
     
     colors = {'abortion': '#2E86AB', 'environment': '#A23B72'}
     markers = {'abortion': 'o', 'environment': 's'}
     
     bin_size = 5
     bins = list(range(0, 100, bin_size))
+    
+    # Collect errors per topic for mean error calculation
+    errors_by_topic = {}
     
     for topic in topics:
         data = load_results(topic)
@@ -192,6 +195,9 @@ def plot_predicted_vs_original_scatter_binned(topics: List[str]) -> None:
         
         original = np.array([r["original_position"] for r in successful])
         predicted = np.array([r["predicted_position"] for r in successful])
+        
+        # Collect errors per topic
+        errors_by_topic[topic] = predicted - original
         
         bin_centers = []
         bin_means = []
@@ -207,22 +213,30 @@ def plot_predicted_vs_original_scatter_binned(topics: List[str]) -> None:
                 label=topic.capitalize(),
                 color=colors.get(topic, 'gray'), 
                 marker=markers.get(topic, 'o'),
-                markersize=8, linewidth=2)
+                markersize=10, linewidth=2.5)
     
-    ax.plot([0, 100], [0, 100], 'r--', linewidth=2, label='Perfect', alpha=0.7)
+    ax.plot([0, 100], [0, 100], 'r--', linewidth=2.5, label='Perfect', alpha=0.7)
     
-    ax.set_xlabel('Original Position (binned by 5)', fontsize=12)
-    ax.set_ylabel('Mean Predicted Position', fontsize=12)
-    ax.set_title('Pairwise Borda: Binned Predicted vs Original Position', fontsize=14)
-    ax.legend(fontsize=10)
+    # Add mean error text per topic
+    error_text = '\n'.join([f'{t.capitalize()} Mean Error: {np.mean(e):.2f}' 
+                           for t, e in errors_by_topic.items()])
+    ax.text(0.05, 0.95, error_text, 
+            transform=ax.transAxes, fontsize=14, verticalalignment='top')
+    
+    ax.set_xlabel('Original Position (binned by 5)', fontsize=16)
+    ax.set_ylabel('Mean Reconstructed Position', fontsize=16)
+    ax.set_title('Pairwise Comparison: Binned Reconstructed vs Original', fontsize=18)
+    ax.legend(fontsize=14, loc='upper left', bbox_to_anchor=(1.02, 1))
+    ax.tick_params(axis='both', labelsize=14)
     ax.grid(True, alpha=0.3)
-    ax.set_xlim(-5, 105)
-    ax.set_ylim(-5, 105)
+    ax.set_xlim(0, 100)
+    ax.set_ylim(0, 100)
+    ax.set_aspect('equal')
     
     plt.tight_layout()
-    plt.savefig(FIGURES_DIR / "predicted_vs_original_scatter_binned.png", dpi=150, bbox_inches='tight')
+    plt.savefig(FIGURES_DIR / "pairwise_scatter_binned.png", dpi=300, bbox_inches='tight')
     plt.close()
-    logger.info("Saved predicted_vs_original_scatter_binned.png")
+    logger.info("Saved pairwise_scatter_binned.png")
 
 
 def plot_epsilon_comparison(topics: List[str]) -> None:

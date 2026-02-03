@@ -118,6 +118,7 @@ def collect_all_results() -> pd.DataFrame:
                                 "method": method,
                                 "winner": result.get("winner"),
                                 "epsilon": result.get("epsilon"),
+                                "epsilon_original": result.get("epsilon_original"),
                                 "full_winner_idx": result.get("full_winner_idx"),
                                 "error": result.get("error"),
                             })
@@ -158,6 +159,7 @@ def collect_all_results() -> pd.DataFrame:
                                     "method": method,
                                     "winner": result.get("winner"),
                                     "epsilon": result.get("epsilon"),
+                                    "epsilon_original": result.get("epsilon_original"),
                                     "full_winner_idx": result.get("full_winner_idx"),
                                     "error": result.get("error"),
                                 })

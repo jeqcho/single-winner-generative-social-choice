@@ -588,12 +588,15 @@ def plot_position_change_by_rank(topics: List[str]) -> None:
 
 def plot_run_comparison_scatter_binned(topics: List[str], bin_size: int = 5) -> None:
     """Plot binned scatter comparing positions between first run and other runs."""
-    fig, ax = plt.subplots(figsize=(10, 8))
+    fig, ax = plt.subplots(figsize=(8, 8))
     
     colors = {'abortion': '#2E86AB', 'environment': '#A23B72'}
     markers = {'abortion': 'o', 'environment': 's'}
     
     bins = np.arange(0, 101, bin_size)
+    
+    # Collect errors per topic for mean error calculation
+    errors_by_topic = {}
     
     for topic in topics:
         data = load_results(topic)
@@ -623,6 +626,9 @@ def plot_run_comparison_scatter_binned(topics: List[str], bin_size: int = 5) -> 
         run1_positions = np.array(run1_positions)
         other_positions = np.array(other_positions)
         
+        # Collect errors per topic
+        errors_by_topic[topic] = other_positions - run1_positions
+        
         # Bin the data
         bin_centers = []
         bin_means = []
@@ -634,26 +640,33 @@ def plot_run_comparison_scatter_binned(topics: List[str], bin_size: int = 5) -> 
                 bin_centers.append((low + high) / 2)
                 bin_means.append(np.mean(other_positions[mask]))
         
-        ax.plot(bin_centers, bin_means, '-', markersize=8, linewidth=2,
-                label=f'{topic.capitalize()} (n={len(run1_positions)})',
+        ax.plot(bin_centers, bin_means, '-', markersize=10, linewidth=2.5,
+                label=topic.capitalize(),
                 color=colors.get(topic, 'gray'),
                 marker=markers.get(topic, 'o'))
     
-    ax.plot([0, 100], [0, 100], 'r--', linewidth=2, label='Perfect agreement')
+    ax.plot([0, 100], [0, 100], 'r--', linewidth=2.5, label='Perfect', alpha=0.7)
     
-    ax.set_xlabel(f'Position in Run 1 (binned by {bin_size} ranks)', fontsize=12)
-    ax.set_ylabel('Mean Position in Other Runs', fontsize=12)
-    ax.set_title('Binned Position Comparison: Run 1 vs Other Runs\n(Points above line = moved down/less preferred, below = moved up/more preferred)', fontsize=14)
-    ax.legend(fontsize=10)
+    # Add mean error text per topic
+    error_text = '\n'.join([f'{t.capitalize()} Mean Error: {np.mean(e):.2f}' 
+                           for t, e in errors_by_topic.items()])
+    ax.text(0.05, 0.95, error_text, 
+            transform=ax.transAxes, fontsize=14, verticalalignment='top')
+    
+    ax.set_xlabel(f'Original Position (binned by {bin_size} ranks)', fontsize=16)
+    ax.set_ylabel('Mean Reconstructed Position', fontsize=16)
+    ax.set_title('Iterative Ranking: Binned Reconstructed vs Original', fontsize=18)
+    ax.legend(fontsize=14, loc='upper left', bbox_to_anchor=(1.02, 1))
+    ax.tick_params(axis='both', labelsize=14)
     ax.grid(True, alpha=0.3)
     ax.set_xlim(0, 100)
     ax.set_ylim(0, 100)
     ax.set_aspect('equal')
     
     plt.tight_layout()
-    plt.savefig(FIGURES_DIR / "run_comparison_scatter_binned.png", dpi=150, bbox_inches='tight')
+    plt.savefig(FIGURES_DIR / "iterative_scatter_binned.png", dpi=300, bbox_inches='tight')
     plt.close()
-    logger.info("Saved run_comparison_scatter_binned.png")
+    logger.info("Saved iterative_scatter_binned.png")
 
 
 def plot_position_change_by_rank_signed(topics: List[str]) -> None:

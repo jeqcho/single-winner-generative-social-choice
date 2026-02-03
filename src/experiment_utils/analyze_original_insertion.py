@@ -172,10 +172,14 @@ def plot_predicted_vs_original_scatter(topics: List[str]) -> None:
 
 def plot_predicted_vs_original_scatter_binned(topics: List[str], bin_size: int = 5) -> None:
     """Plot predicted vs original position scatter, binned by rank."""
-    fig, ax = plt.subplots(figsize=(10, 8))
+    fig, ax = plt.subplots(figsize=(8, 8))
     
     colors = {'abortion': '#2E86AB', 'environment': '#A23B72'}
+    markers = {'abortion': 'o', 'environment': 's'}
     bins = np.arange(0, 101, bin_size)
+    
+    # Collect errors per topic for mean error calculation
+    errors_by_topic = {}
     
     for topic in topics:
         data = load_results(topic)
@@ -184,6 +188,9 @@ def plot_predicted_vs_original_scatter_binned(topics: List[str], bin_size: int =
         
         original = np.array([r["original_position"] for r in successful])
         predicted = np.array([r["predicted_position"] for r in successful])
+        
+        # Collect errors per topic
+        errors_by_topic[topic] = predicted - original
         
         bin_means = []
         bin_centers = []
@@ -195,25 +202,34 @@ def plot_predicted_vs_original_scatter_binned(topics: List[str], bin_size: int =
                 bin_centers.append((low + high) / 2)
                 bin_means.append(np.mean(predicted[mask]))
         
-        ax.plot(bin_centers, bin_means, 'o-', markersize=8,
-                label=f'{topic.capitalize()} (n={len(successful)})',
-                color=colors.get(topic, 'gray'), alpha=0.8, linewidth=2)
+        ax.plot(bin_centers, bin_means, 'o-', markersize=10,
+                label=topic.capitalize(),
+                color=colors.get(topic, 'gray'),
+                marker=markers.get(topic, 'o'),
+                alpha=0.8, linewidth=2.5)
     
-    ax.plot([0, 100], [0, 100], 'r--', linewidth=2, label='Perfect prediction')
+    ax.plot([0, 100], [0, 100], 'r--', linewidth=2.5, label='Perfect', alpha=0.7)
     
-    ax.set_xlabel(f'Original Position (binned by {bin_size} ranks)', fontsize=12)
-    ax.set_ylabel('Mean Predicted Position', fontsize=12)
-    ax.set_title('Binned Predicted vs Original Position (Original Insertion)\n(Points below line = predicted too preferred)', fontsize=14)
-    ax.legend(fontsize=10, loc='upper left')
+    # Add mean error text per topic
+    error_text = '\n'.join([f'{t.capitalize()} Mean Error: {np.mean(e):.2f}' 
+                           for t, e in errors_by_topic.items()])
+    ax.text(0.05, 0.95, error_text, 
+            transform=ax.transAxes, fontsize=14, verticalalignment='top')
+    
+    ax.set_xlabel(f'Original Position (binned by {bin_size} ranks)', fontsize=16)
+    ax.set_ylabel('Mean Reconstructed Position', fontsize=16)
+    ax.set_title('Insert into 100 Statements: Binned Reconstructed vs Original', fontsize=18)
+    ax.legend(fontsize=14, loc='upper left', bbox_to_anchor=(1.02, 1))
+    ax.tick_params(axis='both', labelsize=14)
     ax.grid(True, alpha=0.3)
     ax.set_xlim(0, 100)
     ax.set_ylim(0, 100)
     ax.set_aspect('equal')
     
     plt.tight_layout()
-    plt.savefig(FIGURES_DIR / "predicted_vs_original_scatter_binned.png", dpi=150, bbox_inches='tight')
+    plt.savefig(FIGURES_DIR / "insert_100_scatter_binned.png", dpi=300, bbox_inches='tight')
     plt.close()
-    logger.info("Saved predicted_vs_original_scatter_binned.png")
+    logger.info("Saved insert_100_scatter_binned.png")
 
 
 def plot_epsilon_comparison(topics: List[str]) -> None:
