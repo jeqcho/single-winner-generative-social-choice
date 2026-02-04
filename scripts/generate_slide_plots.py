@@ -154,17 +154,19 @@ GENERATIVE_COLORS = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c
 
 
 def save_figure(output_path: Path, dpi: int = 150) -> None:
-    """Save figure in both PNG and SVG formats.
+    """Save figure in PNG, SVG, and PDF formats.
     
     Args:
-        output_path: Path to save the PNG file (SVG will use same name with .svg extension)
+        output_path: Path to save the PNG file (SVG/PDF will use same name with different extensions)
         dpi: Resolution for PNG output
     """
     output_path.parent.mkdir(parents=True, exist_ok=True)
     plt.savefig(output_path, dpi=dpi, bbox_inches='tight')
     svg_path = output_path.with_suffix('.svg')
     plt.savefig(svg_path, format='svg', bbox_inches='tight')
-    print(f"Saved: {output_path} and {svg_path}")
+    pdf_path = output_path.with_suffix('.pdf')
+    plt.savefig(pdf_path, format='pdf', bbox_inches='tight')
+    print(f"Saved: {output_path}, {svg_path}, {pdf_path}")
 
 
 def plot_cdf_by_method_category(
