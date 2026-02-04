@@ -206,8 +206,11 @@
         78,
         100
       ],
-      "epsilon": 0.010396039603960405,
-      "epsilon_original": 0.09000000000000008
+      "epsilon": 0.020000000000000018,
+      "epsilon_original": 0.09000000000000008,
+      "epsilon_buggy": 0.010396039603960405,
+      "epsilon_m101": 0.010396039603960405,
+      "epsilon_m100": 0.020000000000000018
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
@@ -315,8 +318,11 @@
         39,
         89
       ],
-      "epsilon": 9.90099009900991e-05,
-      "epsilon_original": 0.16999999999999993
+      "epsilon": 0.010000000000000009,
+      "epsilon_original": 0.16999999999999993,
+      "epsilon_buggy": 9.90099009900991e-05,
+      "epsilon_m101": 9.90099009900991e-05,
+      "epsilon_m100": 0.010000000000000009
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
@@ -424,8 +430,11 @@
         31,
         40
       ],
-      "epsilon": 9.90099009900991e-05,
-      "epsilon_original": 0.010000000000000009
+      "epsilon": 0.010000000000000009,
+      "epsilon_original": 0.010000000000000009,
+      "epsilon_buggy": 9.90099009900991e-05,
+      "epsilon_m101": 9.90099009900991e-05,
+      "epsilon_m100": 0.010000000000000009
     },
     "chatgpt_triple_star": {
       "winner": "100",
@@ -533,8 +542,11 @@
         86,
         100
       ],
-      "epsilon": 0.18782178217821777,
-      "epsilon_original": 0.72
+      "epsilon": 0.18999999999999995,
+      "epsilon_original": 0.72,
+      "epsilon_buggy": 0.18782178217821777,
+      "epsilon_m101": 0.18782178217821777,
+      "epsilon_m100": 0.18999999999999995
     },
     "random_insertion": {
       "winner": "100",
@@ -642,9 +654,12 @@
         95,
         65
       ],
-      "epsilon": 0.0985148514851486,
+      "epsilon": 0.10000000000000009,
       "sampled_id": "254",
-      "epsilon_original": 0.6100000000000001
+      "epsilon_original": 0.6100000000000001,
+      "epsilon_buggy": 0.0985148514851486,
+      "epsilon_m101": 0.0985148514851486,
+      "epsilon_m100": 0.10000000000000009
     }
   }
 }

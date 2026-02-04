@@ -206,8 +206,11 @@
         32,
         34
       ],
-      "epsilon": 0.1282178217821781,
-      "epsilon_original": 0.25
+      "epsilon": 0.1299999999999999,
+      "epsilon_original": 0.25,
+      "epsilon_buggy": 0.1282178217821781,
+      "epsilon_m101": 0.1282178217821781,
+      "epsilon_m100": 0.1299999999999999
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
@@ -315,8 +318,11 @@
         63,
         58
       ],
-      "epsilon": 0.19762376237623758,
-      "epsilon_original": 0.3700000000000001
+      "epsilon": 0.19999999999999996,
+      "epsilon_original": 0.3700000000000001,
+      "epsilon_buggy": 0.19762376237623758,
+      "epsilon_m101": 0.19762376237623758,
+      "epsilon_m100": 0.19999999999999996
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
@@ -424,8 +430,11 @@
         32,
         34
       ],
-      "epsilon": 0.039009900990099045,
-      "epsilon_original": 0.18999999999999995
+      "epsilon": 0.040000000000000036,
+      "epsilon_original": 0.18999999999999995,
+      "epsilon_buggy": 0.039009900990099045,
+      "epsilon_m101": 0.039009900990099045,
+      "epsilon_m100": 0.040000000000000036
     },
     "chatgpt_triple_star": {
       "winner": "100",
@@ -533,8 +542,11 @@
         35,
         64
       ],
-      "epsilon": 0.18762376237623757,
-      "epsilon_original": 0.29000000000000004
+      "epsilon": 0.18999999999999995,
+      "epsilon_original": 0.29000000000000004,
+      "epsilon_buggy": 0.18762376237623757,
+      "epsilon_m101": 0.18762376237623757,
+      "epsilon_m100": 0.18999999999999995
     },
     "random_insertion": {
       "winner": "100",
@@ -642,9 +654,12 @@
         30,
         32
       ],
-      "epsilon": 0.038910891089108945,
+      "epsilon": 0.040000000000000036,
       "sampled_id": "613",
-      "epsilon_original": 0.15999999999999992
+      "epsilon_original": 0.15999999999999992,
+      "epsilon_buggy": 0.038910891089108945,
+      "epsilon_m101": 0.038910891089108945,
+      "epsilon_m100": 0.040000000000000036
     }
   }
 }

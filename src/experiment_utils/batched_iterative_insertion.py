@@ -12,7 +12,7 @@ Key benefits:
 """
 
 import logging
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from openai import OpenAI
@@ -25,6 +25,7 @@ from src.experiment_utils.config import (
     N_ALT_POOL,
     MAX_WORKERS,
 )
+from pvc_toolbox import compute_critical_epsilon
 from src.experiment_utils.epsilon_calculator import compute_critical_epsilon_custom
 
 logger = logging.getLogger(__name__)
@@ -221,71 +222,86 @@ def run_batched_ranking_for_rep(
 
 def compute_epsilon_from_positions(
     positions: List[int],
-    original_statements: List[Dict],
+    preferences: List[List[str]],
     n_voters: int = 100,
-) -> Optional[float]:
+) -> Tuple[Optional[float], Optional[float]]:
     """
     Compute epsilon for a new statement given its positions in each voter's ranking.
     
-    This converts positions to a preference matrix format and uses the custom
-    epsilon computation that treats the new statement as an additional alternative.
+    This uses the ACTUAL voter preferences (not a fictitious identical ranking)
+    to construct the 101-alternative profile with the new statement inserted.
     
     Args:
         positions: List of positions (0-100) for each voter
-        original_statements: The 100 original statements
+        preferences: Actual preference matrix [rank][voter] with 100 alternatives
         n_voters: Number of voters (should match len(positions))
     
     Returns:
-        Critical epsilon value, or None if computation fails
+        Tuple of (epsilon_m101, epsilon_m100):
+        - epsilon_m101: Computed with natural m=101
+        - epsilon_m100: Computed with m_override=100
+        Returns (None, None) if computation fails
     """
-    n_originals = len(original_statements)
+    n_originals = len(preferences)  # Should be 100
     
     # Filter out None positions
     valid_positions = [(i, p) for i, p in enumerate(positions) if p is not None]
     if len(valid_positions) < n_voters:
         logger.warning(f"Only {len(valid_positions)}/{n_voters} valid positions")
         if len(valid_positions) == 0:
-            return None
+            return None, None
     
-    # Build a preference matrix with n_originals + 1 alternatives
-    # The new statement is at index n_originals
-    n_total = n_originals + 1
-    new_stmt_idx = n_originals
+    # Convert preferences to voter-centric format and insert new statement
+    voter_rankings = []
+    for voter_idx in range(n_voters):
+        # Get this voter's actual ranking of originals
+        ranking = [preferences[rank][voter_idx] for rank in range(n_originals)]
+        voter_rankings.append(ranking)
     
-    # Create preference matrix: [rank][voter] = alternative_index (as string)
-    preferences: List[List[str]] = [[""] * n_voters for _ in range(n_total)]
-    
+    # Insert new statement "100" at specified position for each voter
+    new_stmt_id = "100"
     for voter_idx, position in valid_positions:
-        # Position is where the new statement falls among originals
-        # We need to build a full ranking: originals 0 to n_originals-1, plus new_stmt_idx
-        
-        # For simplicity, we assume original statements are ranked 0, 1, 2, ..., n_originals-1
-        # and we insert the new statement at the given position
-        
-        # Build the ranking for this voter
-        ranking = list(range(n_originals))  # Original indices
-        ranking.insert(position, new_stmt_idx)  # Insert new statement
-        
-        # Write to preferences matrix
-        for rank, alt_idx in enumerate(ranking):
-            preferences[rank][voter_idx] = str(alt_idx)
+        if voter_idx < len(voter_rankings):
+            # Clamp position to valid range
+            pos = max(0, min(position, len(voter_rankings[voter_idx])))
+            voter_rankings[voter_idx].insert(pos, new_stmt_id)
     
-    # Handle voters with missing data (fill with new statement at bottom)
-    missing_voters = [i for i in range(n_voters) if positions[i] is None]
-    for voter_idx in missing_voters:
-        ranking = list(range(n_originals)) + [new_stmt_idx]
-        for rank, alt_idx in enumerate(ranking):
-            preferences[rank][voter_idx] = str(alt_idx)
+    # Handle voters with missing data (insert at bottom)
+    for voter_idx in range(n_voters):
+        if positions[voter_idx] is None and voter_idx < len(voter_rankings):
+            voter_rankings[voter_idx].append(new_stmt_id)
+    
+    # Convert back to [rank][voter] format for 101 alternatives
+    n_total = n_originals + 1
+    preferences_101: List[List[str]] = []
+    for rank in range(n_total):
+        rank_row = []
+        for voter_idx in range(n_voters):
+            if rank < len(voter_rankings[voter_idx]):
+                rank_row.append(voter_rankings[voter_idx][rank])
+            else:
+                rank_row.append(new_stmt_id)
+        preferences_101.append(rank_row)
     
     # Compute epsilon for the new statement
     alternatives = [str(i) for i in range(n_total)]
-    winner = str(new_stmt_idx)
+    winner = new_stmt_id
+    
+    epsilon_m101 = None
+    epsilon_m100 = None
     
     try:
-        epsilon = compute_critical_epsilon_custom(
-            preferences, alternatives, winner, m_override=n_originals
-        )
-        return epsilon
+        # Natural m=101 computation
+        epsilon_m101 = compute_critical_epsilon(preferences_101, alternatives, winner)
     except Exception as e:
-        logger.error(f"Epsilon computation failed: {e}")
-        return None
+        logger.error(f"Epsilon m101 computation failed: {e}")
+    
+    try:
+        # m_override=100 computation
+        epsilon_m100 = compute_critical_epsilon_custom(
+            preferences_101, alternatives, winner, m_override=n_originals
+        )
+    except Exception as e:
+        logger.error(f"Epsilon m100 computation failed: {e}")
+    
+    return epsilon_m101, epsilon_m100

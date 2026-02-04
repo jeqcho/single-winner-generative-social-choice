@@ -88,11 +88,11 @@ def load_epsilon_pairs(
                     continue
                 
                 method_data = results["results"][method]
-                epsilon_new = method_data.get("epsilon")
-                epsilon_original = method_data.get("epsilon_original")
+                epsilon_m100 = method_data.get("epsilon_m100")
+                epsilon_m101 = method_data.get("epsilon_m101")
                 
-                if epsilon_new is not None and epsilon_original is not None:
-                    method_pairs[method].append((epsilon_original, epsilon_new))
+                if epsilon_m100 is not None and epsilon_m101 is not None:
+                    method_pairs[method].append((epsilon_m100, epsilon_m101))
     
     return method_pairs
 

@@ -206,8 +206,11 @@
         57,
         78
       ],
-      "epsilon": 0.010594059405940603,
-      "epsilon_original": 0.3799999999999999
+      "epsilon": 0.020000000000000018,
+      "epsilon_original": 0.3799999999999999,
+      "epsilon_buggy": 0.010594059405940603,
+      "epsilon_m101": 0.010594059405940603,
+      "epsilon_m100": 0.020000000000000018
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
@@ -315,8 +318,11 @@
         88,
         90
       ],
-      "epsilon": 0.10821782178217831,
-      "epsilon_original": 0.6000000000000001
+      "epsilon": 0.1100000000000001,
+      "epsilon_original": 0.6000000000000001,
+      "epsilon_buggy": 0.10821782178217831,
+      "epsilon_m101": 0.10821782178217831,
+      "epsilon_m100": 0.1100000000000001
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
@@ -424,8 +430,11 @@
         12,
         15
       ],
-      "epsilon": 9.90099009900991e-05,
-      "epsilon_original": 0.010000000000000009
+      "epsilon": 0.010000000000000009,
+      "epsilon_original": 0.010000000000000009,
+      "epsilon_buggy": 9.90099009900991e-05,
+      "epsilon_m101": 9.90099009900991e-05,
+      "epsilon_m100": 0.010000000000000009
     },
     "chatgpt_triple_star": {
       "winner": "100",
@@ -533,8 +542,11 @@
         57,
         77
       ],
-      "epsilon": 0.07891089108910898,
-      "epsilon_original": 0.6100000000000001
+      "epsilon": 0.08000000000000007,
+      "epsilon_original": 0.6100000000000001,
+      "epsilon_buggy": 0.07891089108910898,
+      "epsilon_m101": 0.07891089108910898,
+      "epsilon_m100": 0.08000000000000007
     },
     "random_insertion": {
       "winner": "100",
@@ -642,9 +654,12 @@
         21,
         77
       ],
-      "epsilon": 0.00990099009900991,
+      "epsilon": 0.010000000000000009,
       "sampled_id": "157",
-      "epsilon_original": 0.30000000000000004
+      "epsilon_original": 0.30000000000000004,
+      "epsilon_buggy": 0.00990099009900991,
+      "epsilon_m101": 0.00990099009900991,
+      "epsilon_m100": 0.010000000000000009
     }
   }
 }

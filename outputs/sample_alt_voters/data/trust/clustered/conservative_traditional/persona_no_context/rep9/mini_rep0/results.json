@@ -206,8 +206,11 @@
         22,
         100
       ],
-      "epsilon": 0.00990099009900991,
-      "epsilon_original": 0.10000000000000009
+      "epsilon": 0.010000000000000009,
+      "epsilon_original": 0.10000000000000009,
+      "epsilon_buggy": 0.00990099009900991,
+      "epsilon_m101": 0.00990099009900991,
+      "epsilon_m100": 0.010000000000000009
     },
     "chatgpt_double_star_rankings": {
       "winner": "100",
@@ -315,8 +318,11 @@
         56,
         65
       ],
-      "epsilon": 0.010099009900990108,
-      "epsilon_original": 0.20999999999999996
+      "epsilon": 0.020000000000000018,
+      "epsilon_original": 0.20999999999999996,
+      "epsilon_buggy": 0.010099009900990108,
+      "epsilon_m101": 0.010099009900990108,
+      "epsilon_m100": 0.020000000000000018
     },
     "chatgpt_double_star_personas": {
       "winner": "100",
@@ -425,7 +431,10 @@
         7
       ],
       "epsilon": 0.0,
-      "epsilon_original": 0.0
+      "epsilon_original": 0.0,
+      "epsilon_buggy": 0.0,
+      "epsilon_m101": 0.0,
+      "epsilon_m100": 0.0
     },
     "chatgpt_triple_star": {
       "winner": "100",
@@ -533,8 +542,11 @@
         51,
         55
       ],
-      "epsilon": 0.04920792079207925,
-      "epsilon_original": 0.30000000000000004
+      "epsilon": 0.050000000000000044,
+      "epsilon_original": 0.30000000000000004,
+      "epsilon_buggy": 0.04920792079207925,
+      "epsilon_m101": 0.04920792079207925,
+      "epsilon_m100": 0.050000000000000044
     },
     "random_insertion": {
       "winner": "100",
@@ -644,7 +656,10 @@
       ],
       "epsilon": 0.0,
       "sampled_id": "293",
-      "epsilon_original": 0.18999999999999995
+      "epsilon_original": 0.18999999999999995,
+      "epsilon_buggy": 0.0,
+      "epsilon_m101": 0.0,
+      "epsilon_m100": 0.0
     }
   }
 }
