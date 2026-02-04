@@ -441,6 +441,7 @@ def plot_cdf_traditional_methods(
     y_min: float = 0.5,
     zoomed: bool = True,
     epsilon_col: str = "epsilon",
+    voter_dist: str = "uniform",
 ) -> None:
     """
     Create a 1x3 CDF plot showing Traditional Methods only for 3 topics.
@@ -456,6 +457,7 @@ def plot_cdf_traditional_methods(
         y_min: Minimum value for y-axis
         zoomed: Whether this is a zoomed plot (affects title)
         epsilon_col: Column name for epsilon values (default: "epsilon", can use "epsilon_original")
+        voter_dist: Voter distribution for loading random baseline (default: "uniform")
     """
     fig, axes = plt.subplots(1, 3, figsize=(16, 5))
     
@@ -468,7 +470,7 @@ def plot_cdf_traditional_methods(
             continue
         
         # Get random baseline from precomputed epsilons (true random selection)
-        all_epsilons = load_random_baseline_for_topic(topic)
+        all_epsilons = load_random_baseline_for_topic(topic, voter_dist=voter_dist)
         
         # Plot traditional methods
         # VBC always uses "epsilon" column (not epsilon_original)
@@ -526,6 +528,7 @@ def plot_cdf_generative_methods(
     y_min: float = 0.5,
     zoomed: bool = True,
     epsilon_col: str = "epsilon",
+    voter_dist: str = "uniform",
 ) -> None:
     """
     Create a 1x3 CDF plot showing Generative Methods for 3 topics.
@@ -541,6 +544,7 @@ def plot_cdf_generative_methods(
         y_min: Minimum value for y-axis
         zoomed: Whether this is a zoomed plot (affects title)
         epsilon_col: Column name for epsilon values (default: "epsilon", can use "epsilon_original")
+        voter_dist: Voter distribution for loading random baseline (default: "uniform")
     """
     fig, axes = plt.subplots(1, 3, figsize=(16, 5))
     
@@ -553,7 +557,7 @@ def plot_cdf_generative_methods(
             continue
         
         # Get random baseline from precomputed epsilons (true random selection)
-        all_epsilons = load_random_baseline_for_topic(topic)
+        all_epsilons = load_random_baseline_for_topic(topic, voter_dist=voter_dist)
         
         # Plot generative methods
         # VBC always uses "epsilon" column (not epsilon_original)
@@ -670,6 +674,7 @@ def main():
         
         # Create subfolders with suffix
         by_topic_dir = SLIDES_OUTPUT_DIR / f"by_topic{dir_suffix}"
+        by_topic_progressive_dir = SLIDES_OUTPUT_DIR / f"by_topic_progressive{dir_suffix}"
         by_topic_conservative_dir = SLIDES_OUTPUT_DIR / f"by_topic_conservative{dir_suffix}"
         by_topic_conservative_original_dir = SLIDES_OUTPUT_DIR / f"by_topic_conservative_original{dir_suffix}"
         by_alt_dist_dir = SLIDES_OUTPUT_DIR / f"by_alt_dist{dir_suffix}"
@@ -679,6 +684,7 @@ def main():
         by_method_category_conservative_dir = SLIDES_OUTPUT_DIR / f"by_method_category_conservative{dir_suffix}"
         
         by_topic_dir.mkdir(parents=True, exist_ok=True)
+        by_topic_progressive_dir.mkdir(parents=True, exist_ok=True)
         by_topic_conservative_dir.mkdir(parents=True, exist_ok=True)
         by_topic_conservative_original_dir.mkdir(parents=True, exist_ok=True)
         by_alt_dist_dir.mkdir(parents=True, exist_ok=True)
@@ -799,9 +805,60 @@ def main():
             zoomed=False,  # Don't add zoom suffix to this title
         )
         
+        # Generate Progressive Voter Traditional Methods CDF plots (1x3 layout)
+        prog_x_max = 0.4 if zoomed else 1.0
+        prog_voter_dist = "clustered/progressive_liberal"
+        print(f"\n--- Generating Traditional Methods CDF plots (Progressive) ---")
+        plot_cdf_traditional_methods(
+            alt1_progressive_df,
+            topics=group1_topics,
+            output_path=by_topic_progressive_dir / "cdf_traditional_group1.png",
+            suptitle="Critical Epsilons of Voting Methods (Progressive Voters) for Topics: Abortion, Electoral College, Healthcare",
+            x_max=prog_x_max,
+            y_min=y_min,
+            zoomed=False,
+            voter_dist=prog_voter_dist,
+        )
+        
+        plot_cdf_traditional_methods(
+            alt1_progressive_df,
+            topics=group2_topics,
+            output_path=by_topic_progressive_dir / "cdf_traditional_group2.png",
+            suptitle="Critical Epsilons of Voting Methods (Progressive Voters) for Topics: Policing, Environment, Trust in Institutions",
+            x_max=prog_x_max,
+            y_min=y_min,
+            zoomed=False,
+            voter_dist=prog_voter_dist,
+        )
+        
+        # Generate Progressive Voter Generative Methods CDF plots (1x3 layout)
+        print(f"\n--- Generating Generative Methods CDF plots (Progressive) ---")
+        plot_cdf_generative_methods(
+            alt1_progressive_df,
+            topics=group1_topics,
+            output_path=by_topic_progressive_dir / "cdf_generative_group1.png",
+            suptitle="Critical Epsilons of Generative Voting Methods (Progressive Voters) for Topics: Abortion, Electoral College, Healthcare",
+            x_max=prog_x_max,
+            y_min=y_min,
+            zoomed=False,
+            voter_dist=prog_voter_dist,
+        )
+        
+        plot_cdf_generative_methods(
+            alt1_progressive_df,
+            topics=group2_topics,
+            output_path=by_topic_progressive_dir / "cdf_generative_group2.png",
+            suptitle="Critical Epsilons of Generative Voting Methods (Progressive Voters) for Topics: Policing, Environment, Trust in Institutions",
+            x_max=prog_x_max,
+            y_min=y_min,
+            zoomed=False,
+            voter_dist=prog_voter_dist,
+        )
+        
         # Generate Conservative Voter Traditional Methods CDF plots (1x3 layout)
         # Use x_max=0.4 for zoomed, x_max=1.0 for full
         cons_x_max = 0.4 if zoomed else 1.0
+        cons_voter_dist = "clustered/conservative_traditional"
         print(f"\n--- Generating Traditional Methods CDF plots (Conservative) ---")
         plot_cdf_traditional_methods(
             alt1_conservative_df,
@@ -811,6 +868,7 @@ def main():
             x_max=cons_x_max,
             y_min=y_min,
             zoomed=False,
+            voter_dist=cons_voter_dist,
         )
         
         plot_cdf_traditional_methods(
@@ -821,6 +879,7 @@ def main():
             x_max=cons_x_max,
             y_min=y_min,
             zoomed=False,
+            voter_dist=cons_voter_dist,
         )
         
         # Generate Conservative Voter Generative Methods CDF plots (1x3 layout)
@@ -833,6 +892,7 @@ def main():
             x_max=cons_x_max,
             y_min=y_min,
             zoomed=False,
+            voter_dist=cons_voter_dist,
         )
         
         plot_cdf_generative_methods(
@@ -843,6 +903,7 @@ def main():
             x_max=cons_x_max,
             y_min=y_min,
             zoomed=False,
+            voter_dist=cons_voter_dist,
         )
         
         # Generate Conservative Voter Traditional Methods CDF plots using epsilon_original (1x3 layout)
@@ -856,6 +917,7 @@ def main():
             y_min=y_min,
             zoomed=False,
             epsilon_col="epsilon_original",
+            voter_dist=cons_voter_dist,
         )
         
         plot_cdf_traditional_methods(
@@ -867,6 +929,7 @@ def main():
             y_min=y_min,
             zoomed=False,
             epsilon_col="epsilon_original",
+            voter_dist=cons_voter_dist,
         )
         
         # Generate Conservative Voter Generative Methods CDF plots using epsilon_original (1x3 layout)
@@ -880,6 +943,7 @@ def main():
             y_min=y_min,
             zoomed=False,
             epsilon_col="epsilon_original",
+            voter_dist=cons_voter_dist,
         )
         
         plot_cdf_generative_methods(
@@ -891,6 +955,7 @@ def main():
             y_min=y_min,
             zoomed=False,
             epsilon_col="epsilon_original",
+            voter_dist=cons_voter_dist,
         )
     
     print(f"\nAll plots saved to: {SLIDES_OUTPUT_DIR}")

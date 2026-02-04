@@ -1,43 +1,43 @@
 Topic,Method,N,Mean,Std,Median,% Zero
 Abortion,VBC,40,0.0008,0.0035,0.0000,95.0000
-Abortion,GPT**,40,0.0013,0.0051,0.0000,67.5000
-Abortion,GPT**+Rank,40,0.0005,0.0032,0.0000,85.0000
-Abortion,GPT**+Pers,40,0.0005,0.0031,0.0000,85.0000
-Abortion,GPT***,40,0.0036,0.0076,0.0001,42.5000
-Abortion,Random Insertion,40,0.0664,0.0997,0.0000,57.5000
+Abortion,GPT**,40,0.0055,0.0080,0.0000,57.5000
+Abortion,GPT**+Rank,40,0.0030,0.0060,0.0000,75.0000
+Abortion,GPT**+Pers,40,0.0030,0.0060,0.0000,75.0000
+Abortion,GPT***,40,0.0103,0.0106,0.0100,37.5000
+Abortion,Random Insertion,40,0.0700,0.1020,0.0050,50.0000
 Abortion,Random,1000,0.0609,0.0955,0.0000,58.1000
 Electoral College,VBC,40,0.0000,0.0000,0.0000,100.0000
-Electoral College,GPT**,40,0.0051,0.0108,0.0001,42.5000
-Electoral College,GPT**+Rank,40,0.0018,0.0067,0.0000,65.0000
-Electoral College,GPT**+Pers,40,0.0023,0.0073,0.0000,62.5000
-Electoral College,GPT***,40,0.0043,0.0095,0.0000,50.0000
-Electoral College,Random Insertion,40,0.0066,0.0180,0.0000,65.0000
+Electoral College,GPT**,40,0.0108,0.0135,0.0100,42.5000
+Electoral College,GPT**+Rank,40,0.0053,0.0095,0.0000,65.0000
+Electoral College,GPT**+Pers,40,0.0060,0.0102,0.0000,62.5000
+Electoral College,GPT***,40,0.0093,0.0125,0.0050,50.0000
+Electoral College,Random Insertion,40,0.0100,0.0206,0.0000,65.0000
 Electoral College,Random,1000,0.0108,0.0290,0.0000,71.4000
 Healthcare,VBC,40,0.0003,0.0016,0.0000,97.5000
-Healthcare,GPT**,40,0.0034,0.0065,0.0001,42.5000
-Healthcare,GPT**+Rank,40,0.0008,0.0027,0.0000,70.0000
-Healthcare,GPT**+Pers,40,0.0010,0.0030,0.0000,70.0000
-Healthcare,GPT***,40,0.0043,0.0103,0.0000,62.5000
-Healthcare,Random Insertion,40,0.0068,0.0132,0.0000,60.0000
+Healthcare,GPT**,40,0.0090,0.0097,0.0100,42.5000
+Healthcare,GPT**+Rank,40,0.0038,0.0062,0.0000,70.0000
+Healthcare,GPT**+Pers,40,0.0040,0.0066,0.0000,70.0000
+Healthcare,GPT***,40,0.0080,0.0135,0.0000,62.5000
+Healthcare,Random Insertion,40,0.0108,0.0166,0.0000,60.0000
 Healthcare,Random,1000,0.0082,0.0232,0.0000,72.4000
 Policing,VBC,40,0.0003,0.0016,0.0000,97.5000
-Policing,GPT**,40,0.0074,0.0175,0.0001,45.0000
-Policing,GPT**+Rank,40,0.0010,0.0038,0.0000,85.0000
-Policing,GPT**+Pers,40,0.0020,0.0096,0.0000,80.0000
-Policing,GPT***,40,0.0011,0.0038,0.0000,65.0000
-Policing,Random Insertion,40,0.0077,0.0299,0.0000,72.5000
+Policing,GPT**,40,0.0128,0.0197,0.0100,45.0000
+Policing,GPT**+Rank,40,0.0025,0.0066,0.0000,85.0000
+Policing,GPT**+Pers,40,0.0040,0.0118,0.0000,80.0000
+Policing,GPT***,40,0.0045,0.0071,0.0000,65.0000
+Policing,Random Insertion,40,0.0100,0.0311,0.0000,72.5000
 Policing,Random,1000,0.0103,0.0262,0.0000,71.7000
 Environment,VBC,36,0.0000,0.0000,0.0000,100.0000
-Environment,GPT**,40,0.0161,0.0489,0.0002,35.0000
-Environment,GPT**+Rank,40,0.0068,0.0300,0.0000,72.5000
-Environment,GPT**+Pers,40,0.0008,0.0026,0.0000,77.5000
-Environment,GPT***,40,0.0113,0.0313,0.0000,55.0000
-Environment,Random Insertion,40,0.0171,0.0643,0.0000,62.5000
+Environment,GPT**,40,0.0168,0.0194,0.0100,27.5000
+Environment,GPT**+Rank,40,0.0080,0.0117,0.0000,60.0000
+Environment,GPT**+Pers,40,0.0058,0.0089,0.0000,62.5000
+Environment,GPT***,40,0.0085,0.0104,0.0050,50.0000
+Environment,Random Insertion,40,0.0073,0.0095,0.0000,55.0000
 Environment,Random,900,0.0108,0.0318,0.0000,72.6667
 Trust in Institutions,VBC,36,0.0014,0.0054,0.0000,91.6667
-Trust in Institutions,GPT**,40,0.0171,0.0351,0.0003,30.0000
-Trust in Institutions,GPT**+Rank,40,0.0073,0.0201,0.0000,75.0000
-Trust in Institutions,GPT**+Pers,40,0.0048,0.0120,0.0000,60.0000
-Trust in Institutions,GPT***,40,0.0405,0.0987,0.0001,42.5000
-Trust in Institutions,Random Insertion,40,0.0176,0.0614,0.0000,70.0000
+Trust in Institutions,GPT**,40,0.0238,0.0307,0.0200,27.5000
+Trust in Institutions,GPT**+Rank,40,0.0095,0.0170,0.0000,67.5000
+Trust in Institutions,GPT**+Pers,40,0.0105,0.0153,0.0000,52.5000
+Trust in Institutions,GPT***,40,0.0200,0.0250,0.0100,40.0000
+Trust in Institutions,Random Insertion,40,0.0110,0.0183,0.0000,60.0000
 Trust in Institutions,Random,900,0.0072,0.0184,0.0000,73.7778

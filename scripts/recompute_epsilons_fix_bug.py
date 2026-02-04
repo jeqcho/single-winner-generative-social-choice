@@ -44,6 +44,7 @@ N_MINI_REPS = 4
 VOTER_CONFIGS = [
     {"path": "{topic}/uniform/{alt_dist}", "name": "uniform"},
     {"path": "{topic}/clustered/conservative_traditional/{alt_dist}", "name": "conservative"},
+    {"path": "{topic}/clustered/progressive_liberal/{alt_dist}", "name": "progressive"},
 ]
 
 # Methods that have insertion_positions and need recomputation

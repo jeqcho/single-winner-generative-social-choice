@@ -45,7 +45,7 @@ def compute_ci(data, conf=0.95):
     h = se * stats.t.ppf((1 + conf) / 2, n - 1)
     return (mean - h, mean + h)
 
-def load_random_baseline(topics=None, n_reps=10):
+def load_random_baseline(topics=None, n_reps=10, voter_dist="uniform"):
     """Load precomputed epsilons to create Random baseline data.
     
     This represents truly random selection from the alternative pool -
@@ -54,9 +54,16 @@ def load_random_baseline(topics=None, n_reps=10):
     if topics is None:
         topics = ALL_TOPICS
     random_data = []
+    
+    # Determine the path based on voter distribution
+    if voter_dist == "uniform":
+        voter_path = "uniform"
+    else:
+        voter_path = "clustered/conservative_traditional"
+    
     for topic in topics:
         for rep in range(n_reps):
-            path = project_root / f"outputs/sample_alt_voters/data/{topic}/uniform/persona_no_context/rep{rep}/precomputed_epsilons.json"
+            path = project_root / f"outputs/sample_alt_voters/data/{topic}/{voter_path}/persona_no_context/rep{rep}/precomputed_epsilons.json"
             if path.exists():
                 with open(path) as f:
                     eps_dict = json.load(f)
@@ -629,17 +636,21 @@ def generate_custom_stats_tables(df, output_dir):
     pd.DataFrame(rows).to_csv(bottom3_path, index=False, float_format="%.4f")
     print(f"Saved: {bottom3_path}")
 
-def generate_traditional_pivot_tables(df, output_dir):
+def generate_traditional_pivot_tables(df, output_dir, voter_dist="uniform"):
     """Generate pivot tables for traditional methods with topics as columns."""
     trad_dir = output_dir / "traditional"
     trad_dir.mkdir(parents=True, exist_ok=True)
     
     # Load full data including traditional methods (not filtered by METHODS_TO_COMPARE)
     full_df = collect_all_results()
-    full_df = full_df[(full_df["voter_dist"] == "uniform") & (full_df["alt_dist"] == "persona_no_context")].copy()
+    if voter_dist == "uniform":
+        full_df = full_df[(full_df["voter_dist"] == "uniform") & (full_df["alt_dist"] == "persona_no_context")].copy()
+    else:
+        # Conservative voters
+        full_df = full_df[(full_df["voter_dist"] == "conservative_traditional") & (full_df["alt_dist"] == "persona_no_context")].copy()
     
     # Add random baseline
-    random_df = load_random_baseline()
+    random_df = load_random_baseline(voter_dist=voter_dist)
     if not random_df.empty:
         full_df = pd.concat([full_df, random_df], ignore_index=True)
     
@@ -716,10 +727,15 @@ def generate_traditional_pivot_tables(df, output_dir):
         write_latex_with_bold_best(pivot_df, trad_dir / f"{name}_by_topic.tex", topic_cols, higher_is_better=True, decimal_places=3)
         print(f"Saved: {trad_dir}/{name}_by_topic.csv/.tex")
 
-def generate_generative_pivot_tables(df, output_dir):
+def generate_generative_pivot_tables(df, output_dir, voter_dist="uniform"):
     """Generate pivot tables for generative GPT methods with topics as columns."""
     gen_dir = output_dir / "generative"
     gen_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Add random baseline with correct voter distribution
+    random_df = load_random_baseline(voter_dist=voter_dist)
+    if not random_df.empty:
+        df = pd.concat([df, random_df], ignore_index=True)
     
     # Use the already-filtered df which includes GPT methods and random baseline
     generative_methods = [
@@ -813,9 +829,31 @@ def main():
     generate_summary_table(df, PAPER_OUTPUT_DIR / "tables")
     generate_extended_stats_table(df, PAPER_OUTPUT_DIR / "tables")
     generate_custom_stats_tables(df, PAPER_OUTPUT_DIR / "tables")
+    
+    # Generate tables for uniform voters
     tables_dir = project_root / "outputs" / "paper" / "tables"
-    generate_traditional_pivot_tables(df, tables_dir)
-    generate_generative_pivot_tables(df, tables_dir)
+    uniform_tables_dir = tables_dir / "uniform"
+    print("\n--- Generating Uniform Voter Tables ---")
+    generate_traditional_pivot_tables(df, uniform_tables_dir, voter_dist="uniform")
+    generate_generative_pivot_tables(df, uniform_tables_dir, voter_dist="uniform")
+    
+    # Generate tables for conservative voters
+    conservative_tables_dir = tables_dir / "conservative"
+    print("\n--- Generating Conservative Voter Tables ---")
+    # Load conservative voter data
+    full_df = collect_all_results()
+    conservative_df = full_df[(full_df["voter_dist"] == "conservative_traditional") & (full_df["alt_dist"] == "persona_no_context")].copy()
+    generate_traditional_pivot_tables(conservative_df, conservative_tables_dir, voter_dist="conservative")
+    generate_generative_pivot_tables(conservative_df, conservative_tables_dir, voter_dist="conservative")
+    
+    # Generate tables for progressive voters
+    progressive_tables_dir = tables_dir / "progressive"
+    print("\n--- Generating Progressive Voter Tables ---")
+    # Load progressive voter data
+    progressive_df = full_df[(full_df["voter_dist"] == "progressive_liberal") & (full_df["alt_dist"] == "persona_no_context")].copy()
+    generate_traditional_pivot_tables(progressive_df, progressive_tables_dir, voter_dist="progressive")
+    generate_generative_pivot_tables(progressive_df, progressive_tables_dir, voter_dist="progressive")
+    
     plot_heatmap_method_topic(df, PAPER_OUTPUT_DIR / "heatmap_method_topic.png")
     plot_win_tie_loss(df, PAPER_OUTPUT_DIR / "win_tie_loss.png")
     plot_zero_breakdown(df, PAPER_OUTPUT_DIR / "zero_breakdown.png")
