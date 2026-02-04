@@ -45,6 +45,20 @@ N_REPS = 10
 N_MINI_REPS = 4
 
 
+def save_figure(output_path: Path, dpi: int = 150) -> None:
+    """Save figure in both PNG and SVG formats.
+    
+    Args:
+        output_path: Path to save the PNG file (SVG will use same name with .svg extension)
+        dpi: Resolution for PNG output
+    """
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    plt.savefig(output_path, dpi=dpi, bbox_inches='tight')
+    svg_path = output_path.with_suffix('.svg')
+    plt.savefig(svg_path, format='svg', bbox_inches='tight')
+    print(f"  Saved: {output_path} and {svg_path}")
+
+
 def load_epsilon_pairs(
     topic: str, voter_type: str
 ) -> Dict[str, List[Tuple[float, float]]]:
@@ -141,11 +155,8 @@ def plot_epsilon_comparison(
     ax.grid(True, alpha=0.3)
     
     plt.tight_layout()
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    save_figure(output_path)
     plt.close()
-    
-    print(f"  Saved: {output_path}")
 
 
 def main():

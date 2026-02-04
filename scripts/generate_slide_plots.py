@@ -153,6 +153,20 @@ GENERATIVE_METHOD_LABELS = {
 GENERATIVE_COLORS = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b']
 
 
+def save_figure(output_path: Path, dpi: int = 150) -> None:
+    """Save figure in both PNG and SVG formats.
+    
+    Args:
+        output_path: Path to save the PNG file (SVG will use same name with .svg extension)
+        dpi: Resolution for PNG output
+    """
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    plt.savefig(output_path, dpi=dpi, bbox_inches='tight')
+    svg_path = output_path.with_suffix('.svg')
+    plt.savefig(svg_path, format='svg', bbox_inches='tight')
+    print(f"Saved: {output_path} and {svg_path}")
+
+
 def plot_cdf_by_method_category(
     df: pd.DataFrame,
     topic: str,
@@ -246,11 +260,8 @@ def plot_cdf_by_method_category(
     fig.suptitle(f"{topic_display}: CDF of Critical Epsilon by Method Category\n(Alt1: Persona Only × {voter_dist_label}{zoom_suffix})", 
                  fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    save_figure(output_path)
     plt.close()
-    
-    print(f"Saved: {output_path}")
 
 
 def plot_cdf_by_voter_dist(
@@ -333,11 +344,8 @@ def plot_cdf_by_voter_dist(
     fig.suptitle(f"{topic_display}: Traditional Methods by Voter Distribution\n(Alt1: Persona Only{zoom_suffix})", 
                  fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    save_figure(output_path)
     plt.close()
-    
-    print(f"Saved: {output_path}")
 
 
 def plot_cdf_by_alt_dist(
@@ -418,11 +426,8 @@ def plot_cdf_by_alt_dist(
     fig.suptitle(f"{topic_display}: Traditional Methods by Alternative Distribution\n(Uniform Voters{zoom_suffix})", 
                  fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    save_figure(output_path)
     plt.close()
-    
-    print(f"Saved: {output_path}")
 
 
 def plot_cdf_traditional_methods(
@@ -506,11 +511,8 @@ def plot_cdf_traditional_methods(
     zoom_suffix = " (Zoomed)" if zoomed else ""
     fig.suptitle(f"{suptitle}{zoom_suffix}", fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    save_figure(output_path)
     plt.close()
-    
-    print(f"Saved: {output_path}")
 
 
 def plot_cdf_generative_methods(
@@ -599,11 +601,8 @@ def plot_cdf_generative_methods(
     zoom_suffix = " (Zoomed)" if zoomed else ""
     fig.suptitle(f"{suptitle}{zoom_suffix}", fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    save_figure(output_path)
     plt.close()
-    
-    print(f"Saved: {output_path}")
 
 
 def main():
