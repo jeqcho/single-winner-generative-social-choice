@@ -816,6 +816,106 @@ def generate_generative_pivot_tables(df, output_dir, voter_dist="uniform"):
         write_latex_with_bold_best(pivot_df, gen_dir / f"{name}_by_topic.tex", topic_cols, higher_is_better=True, decimal_places=3)
         print(f"Saved: {gen_dir}/{name}_by_topic.csv/.tex")
 
+def generate_selection_pivot_tables(df, output_dir, voter_dist="uniform"):
+    """Generate pivot tables for selection GPT methods (GPT and GPT*) with topics as columns."""
+    sel_dir = output_dir / "selection"
+    sel_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Load full data including selection methods (not filtered by METHODS_TO_COMPARE)
+    full_df = collect_all_results()
+    if voter_dist == "uniform":
+        df = full_df[(full_df["voter_dist"] == "uniform") & (full_df["alt_dist"] == "persona_no_context")].copy()
+    elif voter_dist == "conservative":
+        df = full_df[(full_df["voter_dist"] == "conservative_traditional") & (full_df["alt_dist"] == "persona_no_context")].copy()
+    else:
+        # Progressive voters
+        df = full_df[(full_df["voter_dist"] == "progressive_liberal") & (full_df["alt_dist"] == "persona_no_context")].copy()
+    
+    # Add random baseline with correct voter distribution
+    random_df = load_random_baseline(voter_dist=voter_dist)
+    if not random_df.empty:
+        df = pd.concat([df, random_df], ignore_index=True)
+    
+    # Selection methods: GPT (select from P) and GPT* (select from all 100)
+    selection_methods = [
+        "veto_by_consumption",
+        "chatgpt", "chatgpt_rankings", "chatgpt_personas",
+        "chatgpt_star", "chatgpt_star_rankings", "chatgpt_star_personas",
+        "random_insertion", "random"
+    ]
+    
+    sel_labels = {
+        "veto_by_consumption": "VBC",
+        "chatgpt": "GPT-Select",
+        "chatgpt_rankings": "GPT-Sel+Rank",
+        "chatgpt_personas": "GPT-Sel+Pers",
+        "chatgpt_star": "GPT-Full",
+        "chatgpt_star_rankings": "GPT-Full+Rank",
+        "chatgpt_star_personas": "GPT-Full+Pers",
+        "random_insertion": "Random Insertion",
+        "random": "Random",
+    }
+    
+    topic_cols = [TOPIC_DISPLAY_NAMES.get(t, t) for t in ALL_TOPICS]
+    
+    def write_latex_with_bold_best(pivot_df, path, value_cols, higher_is_better=False, decimal_places=4):
+        """Write LaTeX table with bold best values per column."""
+        with open(path, "w") as f:
+            f.write("\\begin{tabular}{l" + "c" * len(value_cols) + "}\n\\toprule\n")
+            f.write(" & ".join(pivot_df.columns) + " \\\\\n\\midrule\n")
+            best = {col: (pivot_df[col].max() if higher_is_better else pivot_df[col].min()) for col in value_cols}
+            for _, row in pivot_df.iterrows():
+                cells = []
+                for col in pivot_df.columns:
+                    val = row[col]
+                    if col in value_cols and pd.notna(val):
+                        val_str = f"{val:.{decimal_places}f}"
+                        cells.append(f"\\textbf{{{val_str}}}" if val == best[col] else val_str)
+                    else:
+                        cells.append(str(val))
+                f.write(" & ".join(cells) + " \\\\\n")
+            f.write("\\bottomrule\n\\end{tabular}\n")
+    
+    def compute_pivot(stat_fn):
+        rows = []
+        for method in selection_methods:
+            row = {"Method": sel_labels.get(method, method)}
+            for topic in ALL_TOPICS:
+                data = df[(df["method"] == method) & (df["topic"] == topic)]["epsilon"].dropna().values
+                row[TOPIC_DISPLAY_NAMES.get(topic, topic)] = stat_fn(data) if len(data) > 0 else np.nan
+            rows.append(row)
+        return pd.DataFrame(rows)
+    
+    # Metrics where lower is better
+    lower_better = [
+        ("mean", lambda d: np.mean(d)),
+        ("p90", lambda d: np.percentile(d, 90)),
+        ("p95", lambda d: np.percentile(d, 95)),
+        ("p99", lambda d: np.percentile(d, 99)),
+    ]
+    
+    # Metrics where higher is better (more zeros/low values = good) - reported as 0-1 proportions
+    higher_better = [
+        ("pct_zero", lambda d: np.mean(d == 0)),
+        ("pct_lt_0.0001", lambda d: np.mean(d < 0.0001)),
+        ("pct_lt_0.001", lambda d: np.mean(d < 0.001)),
+        ("pct_lt_0.01", lambda d: np.mean(d < 0.01)),
+        ("pct_lt_0.05", lambda d: np.mean(d < 0.05)),
+        ("pct_lt_0.1", lambda d: np.mean(d < 0.1)),
+    ]
+
+    for name, fn in lower_better:
+        pivot_df = compute_pivot(fn)
+        pivot_df.to_csv(sel_dir / f"{name}_by_topic.csv", index=False, float_format="%.4f")
+        write_latex_with_bold_best(pivot_df, sel_dir / f"{name}_by_topic.tex", topic_cols, higher_is_better=False)
+        print(f"Saved: {sel_dir}/{name}_by_topic.csv/.tex")
+    
+    for name, fn in higher_better:
+        pivot_df = compute_pivot(fn)
+        pivot_df.to_csv(sel_dir / f"{name}_by_topic.csv", index=False, float_format="%.3f")
+        write_latex_with_bold_best(pivot_df, sel_dir / f"{name}_by_topic.tex", topic_cols, higher_is_better=True, decimal_places=3)
+        print(f"Saved: {sel_dir}/{name}_by_topic.csv/.tex")
+
 def main():
     print("=" * 60)
     print("GENERATING PAPER-QUALITY PLOTS")
@@ -836,6 +936,7 @@ def main():
     print("\n--- Generating Uniform Voter Tables ---")
     generate_traditional_pivot_tables(df, uniform_tables_dir, voter_dist="uniform")
     generate_generative_pivot_tables(df, uniform_tables_dir, voter_dist="uniform")
+    generate_selection_pivot_tables(df, uniform_tables_dir, voter_dist="uniform")
     
     # Generate tables for conservative voters
     conservative_tables_dir = tables_dir / "conservative"
@@ -845,6 +946,7 @@ def main():
     conservative_df = full_df[(full_df["voter_dist"] == "conservative_traditional") & (full_df["alt_dist"] == "persona_no_context")].copy()
     generate_traditional_pivot_tables(conservative_df, conservative_tables_dir, voter_dist="conservative")
     generate_generative_pivot_tables(conservative_df, conservative_tables_dir, voter_dist="conservative")
+    generate_selection_pivot_tables(conservative_df, conservative_tables_dir, voter_dist="conservative")
     
     # Generate tables for progressive voters
     progressive_tables_dir = tables_dir / "progressive"
@@ -853,6 +955,7 @@ def main():
     progressive_df = full_df[(full_df["voter_dist"] == "progressive_liberal") & (full_df["alt_dist"] == "persona_no_context")].copy()
     generate_traditional_pivot_tables(progressive_df, progressive_tables_dir, voter_dist="progressive")
     generate_generative_pivot_tables(progressive_df, progressive_tables_dir, voter_dist="progressive")
+    generate_selection_pivot_tables(progressive_df, progressive_tables_dir, voter_dist="progressive")
     
     plot_heatmap_method_topic(df, PAPER_OUTPUT_DIR / "heatmap_method_topic.png")
     plot_win_tie_loss(df, PAPER_OUTPUT_DIR / "win_tie_loss.png")

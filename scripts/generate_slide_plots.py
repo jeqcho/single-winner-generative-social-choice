@@ -152,6 +152,28 @@ GENERATIVE_METHOD_LABELS = {
 # Colors for generative methods (6 methods + Random baseline)
 GENERATIVE_COLORS = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b']
 
+# Selection methods (GPT and GPT* - select from alternatives, not generate)
+SELECTION_METHODS = [
+    "veto_by_consumption",
+    "chatgpt", "chatgpt_rankings", "chatgpt_personas",
+    "chatgpt_star", "chatgpt_star_rankings", "chatgpt_star_personas",
+    "random_insertion",
+]
+
+SELECTION_METHOD_LABELS = {
+    "veto_by_consumption": "VBC",
+    "chatgpt": "GPT-Select",
+    "chatgpt_rankings": "GPT-Sel+Rank",
+    "chatgpt_personas": "GPT-Sel+Pers",
+    "chatgpt_star": "GPT-Full",
+    "chatgpt_star_rankings": "GPT-Full+Rank",
+    "chatgpt_star_personas": "GPT-Full+Pers",
+    "random_insertion": "Random Insertion",
+}
+
+# Colors for selection methods (8 methods + Random baseline)
+SELECTION_COLORS = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f']
+
 
 def save_figure(output_path: Path, dpi: int = 150) -> None:
     """Save figure in PNG, SVG, and PDF formats.
@@ -611,6 +633,98 @@ def plot_cdf_generative_methods(
     plt.close()
 
 
+def plot_cdf_selection_methods(
+    df: pd.DataFrame,
+    topics: list[str],
+    output_path: Path,
+    suptitle: str = "Selection Methods: CDF of Critical Epsilon",
+    x_max: float = 0.5,
+    y_min: float = 0.5,
+    zoomed: bool = True,
+    epsilon_col: str = "epsilon",
+    voter_dist: str = "uniform",
+) -> None:
+    """
+    Create a 1x3 CDF plot showing Selection Methods (GPT and GPT*) for 3 topics.
+    
+    Each subplot shows: VBC, GPT-Select variants, GPT-Full variants, Random Insertion + Random baseline.
+    
+    Args:
+        df: DataFrame with epsilon values filtered for persona_no_context + specific voter dist
+        topics: List of 3 topic short names
+        output_path: Path to save the plot
+        suptitle: Overall figure title (without zoom suffix)
+        x_max: Maximum value for x-axis
+        y_min: Minimum value for y-axis
+        zoomed: Whether this is a zoomed plot (affects title)
+        epsilon_col: Column name for epsilon values (default: "epsilon", can use "epsilon_original")
+        voter_dist: Voter distribution for loading random baseline (default: "uniform")
+    """
+    fig, axes = plt.subplots(1, 3, figsize=(16, 5))
+    
+    for topic_idx, topic in enumerate(topics):
+        ax = axes[topic_idx]
+        topic_df = df[df["topic"] == topic]
+        
+        if topic_df.empty:
+            print(f"Warning: No data for topic {topic}")
+            continue
+        
+        # Get random baseline from precomputed epsilons (true random selection)
+        all_epsilons = load_random_baseline_for_topic(topic, voter_dist=voter_dist)
+        
+        # Plot selection methods
+        # VBC always uses "epsilon" column (not epsilon_original)
+        color_idx = 0
+        for method in SELECTION_METHODS:
+            # VBC uses epsilon, others use epsilon_col
+            col_to_use = "epsilon" if method == "veto_by_consumption" else epsilon_col
+            method_df = topic_df[topic_df["method"] == method]
+            method_df = method_df[method_df[col_to_use].notna()]
+            method_data = method_df[col_to_use].values
+            if len(method_data) == 0:
+                continue
+            
+            sorted_data = np.sort(method_data)
+            cdf = np.arange(1, len(sorted_data) + 1) / len(sorted_data)
+            
+            label = SELECTION_METHOD_LABELS.get(method, method)
+            # Random Insertion uses black dashed line
+            if method == "random_insertion":
+                ax.step(sorted_data, cdf, where='post', label=label, color='black', 
+                        linewidth=2.5, linestyle='--')
+            else:
+                color = SELECTION_COLORS[color_idx % len(SELECTION_COLORS)]
+                ax.step(sorted_data, cdf, where='post', label=label, color=color, linewidth=2.5)
+                color_idx += 1
+        
+        # Add Random baseline (black line) - always show
+        if len(all_epsilons) > 0:
+            sorted_random = np.sort(all_epsilons)
+            cdf_random = np.arange(1, len(sorted_random) + 1) / len(sorted_random)
+            ax.step(sorted_random, cdf_random, where='post', 
+                    label='Random', color='black', linewidth=2.5)
+        
+        ax.set_xlim(0, x_max)
+        ax.set_ylim(y_min, 1.05)
+        ax.grid(True, alpha=0.3)
+        
+        topic_display = TOPIC_DISPLAY_NAMES.get(topic, topic.title())
+        ax.set_title(topic_display, fontsize=12, fontweight='bold')
+        ax.set_xlabel('Epsilon', fontsize=10)
+        
+        if topic_idx == 0:
+            ax.set_ylabel('Cumulative Probability', fontsize=10)
+        
+        ax.legend(loc='lower right', fontsize=8)
+    
+    zoom_suffix = " (Zoomed)" if zoomed else ""
+    fig.suptitle(f"{suptitle}{zoom_suffix}", fontsize=14, fontweight='bold', y=1.02)
+    plt.tight_layout()
+    save_figure(output_path)
+    plt.close()
+
+
 def main():
     """Generate all slide plots (both zoomed and full-range versions)."""
     print("Loading results...")
@@ -805,6 +919,28 @@ def main():
             zoomed=False,  # Don't add zoom suffix to this title
         )
         
+        # Generate Selection Methods CDF plots (1x3 layout) - Uniform
+        print(f"\n--- Generating Selection Methods CDF plots (1x3, by topic) ---")
+        plot_cdf_selection_methods(
+            filtered_df,
+            topics=group1_topics,
+            output_path=by_topic_dir / "cdf_selection_group1.png",
+            suptitle="Critical Epsilons of Selection Voting Methods for Topics: Abortion, Electoral College, Healthcare",
+            x_max=0.4,
+            y_min=y_min,
+            zoomed=False,  # Don't add zoom suffix to this title
+        )
+        
+        plot_cdf_selection_methods(
+            filtered_df,
+            topics=group2_topics,
+            output_path=by_topic_dir / "cdf_selection_group2.png",
+            suptitle="Critical Epsilons of Selection Voting Methods for Topics: Policing, Environment, Trust in Institutions",
+            x_max=0.4,
+            y_min=y_min,
+            zoomed=False,  # Don't add zoom suffix to this title
+        )
+        
         # Generate Progressive Voter Traditional Methods CDF plots (1x3 layout)
         prog_x_max = 0.4 if zoomed else 1.0
         prog_voter_dist = "clustered/progressive_liberal"
@@ -849,6 +985,30 @@ def main():
             topics=group2_topics,
             output_path=by_topic_progressive_dir / "cdf_generative_group2.png",
             suptitle="Critical Epsilons of Generative Voting Methods (Progressive Voters) for Topics: Policing, Environment, Trust in Institutions",
+            x_max=prog_x_max,
+            y_min=y_min,
+            zoomed=False,
+            voter_dist=prog_voter_dist,
+        )
+        
+        # Generate Progressive Voter Selection Methods CDF plots (1x3 layout)
+        print(f"\n--- Generating Selection Methods CDF plots (Progressive) ---")
+        plot_cdf_selection_methods(
+            alt1_progressive_df,
+            topics=group1_topics,
+            output_path=by_topic_progressive_dir / "cdf_selection_group1.png",
+            suptitle="Critical Epsilons of Selection Voting Methods (Progressive Voters) for Topics: Abortion, Electoral College, Healthcare",
+            x_max=prog_x_max,
+            y_min=y_min,
+            zoomed=False,
+            voter_dist=prog_voter_dist,
+        )
+        
+        plot_cdf_selection_methods(
+            alt1_progressive_df,
+            topics=group2_topics,
+            output_path=by_topic_progressive_dir / "cdf_selection_group2.png",
+            suptitle="Critical Epsilons of Selection Voting Methods (Progressive Voters) for Topics: Policing, Environment, Trust in Institutions",
             x_max=prog_x_max,
             y_min=y_min,
             zoomed=False,
@@ -906,6 +1066,30 @@ def main():
             voter_dist=cons_voter_dist,
         )
         
+        # Generate Conservative Voter Selection Methods CDF plots (1x3 layout)
+        print(f"\n--- Generating Selection Methods CDF plots (Conservative) ---")
+        plot_cdf_selection_methods(
+            alt1_conservative_df,
+            topics=group1_topics,
+            output_path=by_topic_conservative_dir / "cdf_selection_group1.png",
+            suptitle="Critical Epsilons of Selection Voting Methods (Conservative Voters) for Topics: Abortion, Electoral College, Healthcare",
+            x_max=cons_x_max,
+            y_min=y_min,
+            zoomed=False,
+            voter_dist=cons_voter_dist,
+        )
+        
+        plot_cdf_selection_methods(
+            alt1_conservative_df,
+            topics=group2_topics,
+            output_path=by_topic_conservative_dir / "cdf_selection_group2.png",
+            suptitle="Critical Epsilons of Selection Voting Methods (Conservative Voters) for Topics: Policing, Environment, Trust in Institutions",
+            x_max=cons_x_max,
+            y_min=y_min,
+            zoomed=False,
+            voter_dist=cons_voter_dist,
+        )
+        
         # Generate Conservative Voter Traditional Methods CDF plots using epsilon_original (1x3 layout)
         print(f"\n--- Generating Traditional Methods CDF plots (Conservative, epsilon_original) ---")
         plot_cdf_traditional_methods(
@@ -951,6 +1135,32 @@ def main():
             topics=group2_topics,
             output_path=by_topic_conservative_original_dir / "ori_cdf_generative_group2.png",
             suptitle="Critical Epsilons of Generative Voting Methods (Conservative Voters) for Topics: Policing, Environment, Trust in Institutions",
+            x_max=cons_x_max,
+            y_min=y_min,
+            zoomed=False,
+            epsilon_col="epsilon_original",
+            voter_dist=cons_voter_dist,
+        )
+        
+        # Generate Conservative Voter Selection Methods CDF plots using epsilon_original (1x3 layout)
+        print(f"\n--- Generating Selection Methods CDF plots (Conservative, epsilon_original) ---")
+        plot_cdf_selection_methods(
+            alt1_conservative_df,
+            topics=group1_topics,
+            output_path=by_topic_conservative_original_dir / "ori_cdf_selection_group1.png",
+            suptitle="Critical Epsilons of Selection Voting Methods (Conservative Voters) for Topics: Abortion, Electoral College, Healthcare",
+            x_max=cons_x_max,
+            y_min=y_min,
+            zoomed=False,
+            epsilon_col="epsilon_original",
+            voter_dist=cons_voter_dist,
+        )
+        
+        plot_cdf_selection_methods(
+            alt1_conservative_df,
+            topics=group2_topics,
+            output_path=by_topic_conservative_original_dir / "ori_cdf_selection_group2.png",
+            suptitle="Critical Epsilons of Selection Voting Methods (Conservative Voters) for Topics: Policing, Environment, Trust in Institutions",
             x_max=cons_x_max,
             y_min=y_min,
             zoomed=False,

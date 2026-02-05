@@ -561,15 +561,33 @@ uv run python scripts/generate_paper_plots.py
 - `cdf_nonzero_{topic}.png` - CDF for non-zero epsilon values only
 - `strip_{topic}.png` - Strip plot with zero/non-zero separation
 
-**Methods compared:**
-- VBC (baseline)
-- GPT\*\* (generates new statement given P alternatives)
-- GPT\*\*+Rank (with voter rankings)
-- GPT\*\*+Pers (with voter personas)
-- GPT\*\*\* (blind generation, no alternatives shown)
-- Random Insertion (baseline)
+**Methods compared by category:**
 
-**Data:** Filters to uniform voters, persona_no_context (Alt1) condition only.
+| Category | Methods | Description |
+|----------|---------|-------------|
+| **Traditional** | VBC, Borda, Schulze, IRV, Plurality | Classic voting methods |
+| **Selection** | GPT-Select, GPT-Sel+Rank, GPT-Sel+Pers, GPT-Full, GPT-Full+Rank, GPT-Full+Pers | GPT/GPT\* methods that select from existing alternatives |
+| **Generative** | GPT-Blind, GPT-Synthesize, GPT-Synth+Rank, GPT-Synth+Pers | GPT\*\*/GPT\*\*\* methods that generate new statements |
+
+**Output tables:** `outputs/paper/tables/{voter_dist}/`
+
+Each voter distribution (uniform, progressive, conservative) has three subfolders:
+- `traditional/` - Traditional voting method results
+- `generative/` - GPT\*\*/GPT\*\*\* generative method results
+- `selection/` - GPT/GPT\* selection method results
+
+Each folder contains CSV and LaTeX tables for: mean, p90, p95, p99, pct_zero, pct_lt_0.0001, pct_lt_0.001, pct_lt_0.01, pct_lt_0.05, pct_lt_0.1 (all by topic).
+
+**Output plots:** `outputs/slides/by_topic_full/`
+
+CDF plots organized by method category:
+- `cdf_traditional_group1.pdf` / `cdf_traditional_group2.pdf` - Traditional methods
+- `cdf_selection_group1.pdf` / `cdf_selection_group2.pdf` - Selection methods (GPT/GPT\*)
+- `cdf_generative_group1.pdf` / `cdf_generative_group2.pdf` - Generative methods (GPT\*\*/GPT\*\*\*)
+
+Group1: Abortion, Electoral College, Healthcare | Group2: Policing, Environment, Trust in Institutions
+
+**Data:** Filters to persona_no_context (Alt1) condition only.
 
 ## Citation
 
