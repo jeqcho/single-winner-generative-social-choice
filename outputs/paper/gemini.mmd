@@ -1,0 +1,115 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#E3F2FD',
+    'secondaryColor': '#F3E5F5',
+    'tertiaryColor': '#E0F2F1',
+    'mainBkg': '#ffffff',
+    'nodeBorder': '#90A4AE',
+    'clusterBkg': '#FAFAFA',
+    'clusterBorder': '#CFD8DC',
+    'lineColor': '#546E7A',
+    'fontFamily': 'Roboto, Helvetica Neue, Arial, sans-serif',
+    'fontSize': '14px'
+  }
+}}%%
+
+flowchart LR
+    %% --- Define Styles ---
+    classDef inputNode fill:#E1F5FE,stroke:#0288D1,stroke-width:1px,color:#01579B,rx:5,ry:5;
+    classDef genNode fill:#E8F5E9,stroke:#388E3C,stroke-width:1px,color:#1B5E20,rx:5,ry:5;
+    classDef prefNode fill:#FFF3E0,stroke:#F57C00,stroke-width:1px,color:#E65100,rx:5,ry:5;
+    classDef selectNode fill:#F3E5F5,stroke:#7B1FA2,stroke-width:1px,color:#4A148C,rx:5,ry:5;
+    classDef evalNode fill:#FFEBEE,stroke:#D32F2F,stroke-width:1px,color:#B71C1C,rx:5,ry:5;
+    classDef dataArtifact fill:#ECEFF1,stroke:#455A64,stroke-width:1px,stroke-dasharray: 5 5,color:#263238,shape:cyl;
+    
+    %% --- Main Diagram Flow ---
+
+    subgraph Inputs [Inputs]
+        direction TB
+        P[("815 Adult<br/>Personas")]:::inputNode
+        T[("13 Policy<br/>Topics")]:::inputNode
+    end
+
+    subgraph Phase1 [Phase 1: Data Generation]
+        direction TB
+        subgraph Voters [Voter Stream]
+            VS_Split{"Voter Sampling"}:::genNode
+            VS_U["Uniform<br/>(100 random)"]:::genNode
+            VS_C["Clustered<br/>(100 ideology)"]:::genNode
+        end
+        subgraph Statements [Statement Stream]
+            SG["Statement Generation<br/><i>gpt-5-mini</i><br/>(Dists: Alt1-Alt4)"]:::genNode
+            S_Sample["Sample 100<br/>Statements"]:::genNode
+        end
+    end
+
+    subgraph Phase2 [Phase 2: Preference Building]
+        direction TB
+        IR["Iterative Ranking<br/><i>gpt-5-mini</i><br/>(5 rounds, top/bottom 10)"]:::prefNode
+        PM[("100×100<br/>Preference Matrix")]:::dataArtifact
+        PE["Precompute ε*<br/>(for all 100 existing)"]:::prefNode
+    end
+
+    subgraph Phase3 [Phase 3: Winner Selection]
+        direction TB
+        MR["Mini-Rep Subsampling<br/>(4x reps of 20v × 20a)"]:::selectNode
+        
+        subgraph Methods [Method Categories]
+            direction TB
+            M_Trad["Traditional (x5)<br/><i>Schulze, Borda, IRV,<br/>Plurality, VBC</i>"]:::selectNode
+            M_Base["Baseline (x1)<br/><i>Random</i>"]:::selectNode
+            M_LLM_S["LLM Selection (x6)<br/><i>GPT & GPT* variants</i>"]:::selectNode
+            M_LLM_G["LLM Generation (x4)<br/><i>GPT** & GPT*** variants</i>"]:::selectNode
+        end
+    end
+    
+    subgraph Phase4 [Phase 4: Evaluation]
+        direction TB
+        subgraph EvalPaths [ε* Acquisition Path]
+            EL["ε* Instant Lookup<br/>(using Precomputed values)"]:::evalNode
+            BI["Batched Iterative Ranking<br/>(New + 100 Originals)"]:::evalNode
+            CE["Compute ε*<br/>from new positions"]:::evalNode
+        end
+        CMP["Final Comparison<br/><i>Mean ε*, P90/95/99,<br/>Win/Loss vs VBC,<br/>Mann-Whitney U</i>"]:::evalNode
+    end
+
+    %% --- Connections ---
+    %% Inputs to Phase 1
+    P --> VS_Split
+    P -.-> SG
+    T --> SG
+
+    %% Phase 1 Internal
+    VS_Split --> VS_U & VS_C
+    SG --> S_Sample
+
+    %% Phase 1 to Phase 2
+    VS_U & VS_C --> IR
+    S_Sample --> IR
+
+    %% Phase 2 Internal
+    IR --> PM
+    PM --> PE
+
+    %% Phase 2 to Phase 3
+    PM --> MR
+
+    %% Phase 3 Internal
+    MR --> M_Trad & M_Base & M_LLM_S & M_LLM_G
+
+    %% Phase 3 to Phase 4 (The Split Evaluation)
+    %% Selection methods go to Lookup
+    M_Trad & M_Base & M_LLM_S ====> EL
+    PE -.-> EL
+
+    %% Generation methods go to Batched Ranking
+    M_LLM_G ====> BI
+    BI --> CE
+
+    %% Phase 4 Convergence
+    EL --> CMP
+    CE --> CMP
+
+    %% Note on connections: Thicker lines denote main flow into evaluation split
+    linkStyle 17,18,19,21 stroke-width:3px,fill:none,stroke:default;

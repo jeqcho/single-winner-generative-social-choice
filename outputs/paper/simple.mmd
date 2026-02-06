@@ -1,0 +1,24 @@
+flowchart LR
+    P[815 Adult Personas] --> VS[Voter Sampling]
+    P --> SG[Statement Generation]
+    T[6 Policy Topics] --> SG
+
+    VS --> IR[Iterative Ranking]
+    SG --> IR
+
+    IR --> PM[(100x100 Preference Matrix)]
+    PM --> PE[Precompute epsilon for all 100]
+    PM --> MR[Mini-Rep Subsampling 20x20]
+
+    MR --> TM[Traditional: Schulze, Borda, IRV, Plurality, VBC]
+    MR --> GPT[LLM Selection]
+    MR --> GPT2[LLM Generation]
+
+    TM --> EL[epsilon Lookup]
+    GPT --> EL
+    PE --> EL
+
+    GPT2 --> BI[Batched Iterative Ranking]
+
+    EL --> CMP[Compare Methods by epsilon]
+    BI --> CMP

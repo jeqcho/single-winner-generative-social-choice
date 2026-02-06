@@ -1,0 +1,128 @@
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#E1F5FE',
+    'secondaryColor': '#F3E5F5',
+    'tertiaryColor': '#E0F2F1',
+    'mainBkg': '#ffffff',
+    'nodeBorder': '#90A4AE',
+    'clusterBkg': '#FAFAFA',
+    'clusterBorder': '#CFD8DC',
+    'lineColor': '#546E7A',
+    'fontFamily': 'Roboto, Helvetica Neue, Arial, sans-serif',
+    'fontSize': '14px'
+  }
+}}%%
+
+flowchart LR
+    %% --- Define Styles ---
+    %% Classes for nodes based on their phase color
+    classDef inputNode fill:#D0E0F0,stroke:#80A0C0,stroke-width:1px,rx:5,ry:5;
+    classDef p1Node fill:#D0E8D0,stroke:#80B080,stroke-width:1px,rx:5,ry:5;
+    classDef p2Node fill:#F0E0C0,stroke:#C0A080,stroke-width:1px,rx:5,ry:5;
+    classDef p3Node fill:#D0D0E8,stroke:#9090B0,stroke-width:1px,rx:5,ry:5;
+    classDef p4Node fill:#F0D0D0,stroke:#C09090,stroke-width:1px,rx:5,ry:5;
+    
+    %% Class for data artifacts (cylinders)
+    classDef dataArtifact shape:cyl,fill:#ECEFF1,stroke:#455A64,stroke-width:1px;
+    
+    %% Styles for the subgraphs (phases)
+    style Inputs fill:#D0E0F0,stroke:#80A0C0,stroke-width:2px,color:#000
+    style Phase1 fill:#D0E8D0,stroke:#80B080,stroke-width:2px,color:#000
+    style Phase2 fill:#F0E0C0,stroke:#C0A080,stroke-width:2px,color:#000
+    style Phase3 fill:#D0D0E8,stroke:#9090B0,stroke-width:2px,color:#000
+    style Phase4 fill:#F0D0D0,stroke:#C09090,stroke-width:2px,color:#000
+
+    %% --- Main Diagram Flow ---
+
+    subgraph Inputs [Inputs]
+        direction TB
+        I1["815 Adult<br/>Personas<br/>(SynthLabsAI)"]:::inputNode
+        I2["13 Policy<br/>Topics"]:::inputNode
+    end
+
+    subgraph Phase1 [Phase 1: Data Generation]
+        direction LR
+        subgraph Voters [ ]
+            direction TB
+            VS["Voter<br/>Sampling"]:::p1Node
+            VS_U["Uniform<br/>(100 random)"]:::p1Node
+            VS_C["Clustered<br/>(100 ideology)"]:::p1Node
+        end
+        subgraph Statements [ ]
+            direction TB
+            SG["Statement<br/>Generation<br/>(gpt-5-mini)"]:::p1Node
+            S_A1["Alt1<br/>(Persona, No<br/>Context)"]:::p1Node
+            S_A2["Alt2<br/>(Persona +<br/>Context)"]:::p1Node
+            S_A3["Alt3<br/>(No Persona<br/>+ Context)"]:::p1Node
+            S_A4["Alt4<br/>(No Persona,<br/>No Context)"]:::p1Node
+        end
+        SD["Sampled Data<br/>(100 Voters, 100<br/>Statements/rep)"]:::p1Node
+    end
+
+    subgraph Phase2 [Phase 2: Preference Building]
+        direction TB
+        IR["Iterative<br/>Ranking<br/>(5 rounds,<br/>top/bottom 10)"]:::p2Node
+        PM[("100x100<br/>Preference<br/>Matrix")]:::dataArtifact
+        PE["Precompute<br/>ε* (for all 100<br/>existing)"]:::p2Node
+    end
+
+    subgraph Phase3 [Phase 3: Winner Selection]
+        direction TB
+        MR["Mini-Rep<br/>Subsampling<br/>(4x 20v x 20a)"]:::p3Node
+        M_Trad["Traditional<br/>(5: Schulze,<br/>Borda, etc.)"]:::p3Node
+        M_Base["Baseline<br/>(1: Random)"]:::p3Node
+        M_LLM_S["LLM<br/>Selection<br/>(6: GPT &<br/>GPT* variants)"]:::p3Node
+        M_LLM_G["LLM<br/>Generation<br/>(4: GPT** &<br/>GPT***<br/>variants)"]:::p3Node
+    end
+    
+    subgraph Phase4 [Phase 4: Evaluation]
+        direction TB
+        EL["ε* Instant Lookup<br/>(using<br/>Precomputed<br/>values)"]:::p4Node
+        BI["Batched<br/>Iterative<br/>Ranking<br/>(New + 100<br/>Originals)"]:::p4Node
+        CE["Compute ε*<br/>from new<br/>positions"]:::p4Node
+        FC["Final<br/>Comparison<br/>(Mean ε*,<br/>Win/Loss,<br/>Stat Tests)"]:::p4Node
+    end
+
+    %% --- Connections ---
+    %% Inputs to Phase 1
+    I1 --> VS
+    I1 --> SG
+    I2 --> SG
+
+    %% Phase 1 Internal
+    VS --> VS_U & VS_C
+    SG --> S_A1 & S_A2 & S_A3 & S_A4
+    VS_U & VS_C --> SD
+    S_A1 & S_A2 & S_A3 & S_A4 --> SD
+
+    %% Phase 1 to Phase 2
+    SD ===> IR
+
+    %% Phase 2 Internal
+    IR --> PM
+    PM --> PE
+
+    %% Phase 2 to Phase 3
+    PM ===> MR
+
+    %% Phase 3 Internal
+    MR --> M_Trad & M_Base & M_LLM_S & M_LLM_G
+
+    %% Phase 3 to Phase 4 (The Split Evaluation)
+    %% Selection methods go to Lookup (Thick arrows)
+    M_Trad & M_Base & M_LLM_S ===> EL
+    %% Precomputed value goes to Lookup (Dashed arrow)
+    PE -.-> EL
+
+    %% Generation method goes to Batched Ranking (Thick arrow)
+    M_LLM_G ===> BI
+    %% Mini-rep context also goes to Batched Ranking (Dashed arrow)
+    MR -.-> BI
+
+    %% Phase 4 Internal
+    BI --> CE
+
+    %% Phase 4 Convergence to Final Comparison
+    EL --> FC
+    CE --> FC
