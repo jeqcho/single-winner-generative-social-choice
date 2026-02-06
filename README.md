@@ -589,10 +589,6 @@ Group1: Abortion, Electoral College, Healthcare | Group2: Policing, Environment,
 
 **Data:** Filters to persona_no_context (Alt1) condition only.
 
-## Citation
-
-TODO (Jay will put this in near draft submission)
-
 ## License
 
 MIT License
