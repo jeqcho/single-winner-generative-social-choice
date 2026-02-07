@@ -89,8 +89,8 @@ TOPIC_DISPLAY_NAMES = {
 ALT_DISTRIBUTIONS = ["persona_no_context", "persona_context", "no_persona_context", "no_persona_no_context"]
 ALT_DIST_LABELS = {
     "persona_no_context": "Alt1: Persona Only",
-    "persona_context": "Alt2: Persona + Bridging Round",
-    "no_persona_context": "Alt3: Bridging Round Only",
+    "persona_context": "Alt2: Persona + Deliberation Round",
+    "no_persona_context": "Alt3: Deliberation Round Only",
     "no_persona_no_context": "Alt4: Blind",
 }
 
