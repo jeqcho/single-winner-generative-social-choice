@@ -1,5 +1,5 @@
 """
-Alt2: Persona-conditioned statement generation WITH context (Ben's bridging setup).
+Alt2: Persona-conditioned statement generation WITH context (bridging setup).
 
 This generator creates bridging statements where each persona reads 100 existing
 statements first, then writes a new bridging statement synthesizing what they read.

@@ -3,7 +3,7 @@ Alternative generators for the sample-alt-voters experiment.
 
 This module contains four alternative (statement) distribution methods:
 - persona_no_context: Alt1 - Persona generates without seeing other statements
-- persona_context: Alt2 - Persona sees 100 statements then generates (Ben's bridging)
+- persona_context: Alt2 - Persona sees 100 statements then generates (bridging)
 - no_persona_context: Alt3 - No persona, sees 100 statements, uses verbalized sampling
 - no_persona_no_context: Alt4 - No persona, no context, uses verbalized sampling
 """

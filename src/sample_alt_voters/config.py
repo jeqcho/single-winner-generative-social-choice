@@ -149,7 +149,7 @@ TOPIC_SHORT_NAMES = {
 # =============================================================================
 ALT_DISTRIBUTIONS = [
     "persona_no_context",      # Alt1: persona, NO context (pre-generated)
-    "persona_context",         # Alt2: persona + context (Ben's bridging, per-rep)
+    "persona_context",         # Alt2: persona + context (per-rep)
     "no_persona_context",      # Alt3: NO persona + context (verbalized, per-rep)
     "no_persona_no_context",   # Alt4: NO persona, NO context (verbalized, pre-generated)
 ]
